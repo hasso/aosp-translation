@@ -11,7 +11,8 @@ Selle tõlke kasutamiseks tuleb teha järgmist:
 
         <?xml version="1.0" encoding="UTF-8"?>
         <manifest>
-          <project name="..." path="vendor/ht/et-translation"/>
+          <remote name="hasso" fetch="git://github.com/hasso/"/>
+          <project name="et-translation" path="vendor/ht/et-translation" remote="hasso" revision="master"/>
         </manifest>
 
   Ning anna seejärel käsk `repo sync`. 
