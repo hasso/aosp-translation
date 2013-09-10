@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2011 The Android Open Source Project
+      Copyright (C) 2013 Hasso Tepper
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label">Levisõnumid</string>
+    <string name="sms_cb_settings">Levisõnumite seaded</string>
+    <string name="button_dismiss">OK</string>
+    <string name="no_cell_broadcasts">Sinu piirkonnas pole aktiivseid häireid. Häirete seadeid saad muuta valides menüüst „Seaded“.</string>
+    <string name="menu_preferences">Seaded</string>
+    <string name="menu_delete_all">Kustuta levisõnumid</string>
+    <string name="message_options">Sõnumi valikud</string>
+    <string name="menu_view_details">Kuva üksikasjad</string>
+    <string name="menu_delete">Kustuta levisõnum</string>
+    <string name="view_details_title">Üksikasjalik info</string>
+    <string name="confirm_delete_broadcast">Kas kustutada see levisõnum?</string>
+    <string name="confirm_delete_all_broadcasts">Kas kustutada kõik saabunud levisõnumid?</string>
+    <string name="button_delete">Kustuta</string>
+    <string name="button_cancel">Tühista</string>
+    <string name="etws_earthquake_warning">Maavärina hoiatus</string>
+    <string name="etws_tsunami_warning">Hiidlaine hoiatus</string>
+    <string name="etws_earthquake_and_tsunami_warning">Maavärina ja hiidlaine hoiatus</string>
+    <string name="etws_test_message">ETWS testsõnum</string>
+    <string name="etws_other_emergency_type">Hädaolukorra hoiatus</string>
+    <string name="cmas_presidential_level_alert">Presidendi taseme märguanne</string>
+    <string name="cmas_extreme_alert">Hädaolukorra märguanne: äärmuslik</string>
+    <string name="cmas_severe_alert">Hädaolukorra märguanne: tõsine</string>
+    <string name="cmas_amber_alert">Lapserööv (AMBER märguanne)</string>
+    <string name="cmas_required_monthly_test">Hädaolukorra märguande igakuine test</string>
+    <string name="cmas_exercise_alert">Hädaolukorra märguanne (harjutus)</string>
+    <string name="cmas_operator_defined_alert">Hädaolukorra märguanne (operaator)</string>
+    <string name="pws_other_message_identifiers">Hädaolukorra märguanne</string>
+    <string name="cb_other_message_identifiers">Levisõnum</string>
+    <string name="emergency_alert_settings_title">Hädaolukorra märguannete seaded</string>
+    <string name="enable_emergency_alerts_title">Hädaolukorra märguanded</string>
+    <string name="enable_emergency_alerts_summary">Hädaolukorra märguannete kuvamine</string>
+    <string name="alert_sound_duration_title">Märguandeheli kestus</string>
+    <string name="enable_alert_speech_title">Kõnesüntees</string>
+    <string name="enable_alert_speech_summary">Kõnesünteesi kasutamine hädaolukorra märguannete esitamiseks</string>
+    <string name="category_etws_settings_title">ETWS seaded</string>
+    <string name="enable_etws_test_alerts_title">ETWS testsõnumid</string>
+    <string name="enable_etws_test_alerts_summary">Maavärina ja hiidlaine hoiatussüsteemi testteadete kuvamine</string>
+    <string name="enable_cmas_extreme_threat_alerts_title">Teated äärmuslikust ohust</string>
+    <string name="enable_cmas_extreme_threat_alerts_summary">Äärmuslikust ohust elule ja varale teatavate häirete kuvamine</string>
+    <string name="enable_cmas_severe_threat_alerts_title">Teated rängast ohust</string>
+    <string name="enable_cmas_severe_threat_alerts_summary">Rängast ohust elule ja varale teatavate häirete kuvamine</string>
+    <string name="enable_cmas_amber_alerts_title">AMBER häired</string>
+    <string name="enable_cmas_amber_alerts_summary">Lapseröövi hädateadete (AMBER-häire) kuvamine</string>
+    <string name="enable_cmas_test_alerts_title">CMAS testsõnumid</string>
+    <string name="enable_cmas_test_alerts_summary">CMAS (<i>Commercial Mobile Alert System</i>) testsõnumite kuvamine</string>
+    <string name="enable_alert_vibrate_title">Vibreerimine</string>
+    <string name="enable_alert_vibrate_summary">Vibreerimine märguandel</string>
+    <string name="category_brazil_settings_title">Brasiilia seaded</string>
+    <string name="enable_channel_50_alerts_title">50. kanali teated</string>
+    <string name="enable_channel_50_alerts_summary">50. kanalit kasutatakse Brasiilias piirkonnaandmete värskenduste edastamiseks</string> <!-- HT -->
+    <string name="category_dev_settings_title">Arendaja valikud</string>
+    <string name="cmas_category_heading">Teadete kategooria:</string>
+    <string name="cmas_category_geo">Geofüüsika</string>
+    <string name="cmas_category_met">Meteoroloogia</string>
+    <string name="cmas_category_safety">Ohutus</string>
+    <string name="cmas_category_security">Turvalisus</string>
+    <string name="cmas_category_rescue">Pääste</string>
+    <string name="cmas_category_fire">Tuli</string>
+    <string name="cmas_category_health">Tervishoid</string>
+    <string name="cmas_category_env">Keskkond</string>
+    <string name="cmas_category_transport">Transport</string>
+    <string name="cmas_category_infra">Taristu</string>
+    <string name="cmas_category_cbrne">Keemiline/bioloogiline/tuumakatastroof/plahvatus</string>
+    <string name="cmas_category_other">Muud</string>
+    <string name="cmas_response_heading">Reageerimise tüüp:</string>
+    <string name="cmas_response_shelter">Varjumine</string>
+    <string name="cmas_response_evacuate">Evakueerumine</string>
+    <string name="cmas_response_prepare">Ettevalmistus</string>
+    <string name="cmas_response_execute">Täitmine</string>
+    <string name="cmas_response_monitor">Jälgimine</string>
+    <string name="cmas_response_avoid">Vältimine</string>
+    <string name="cmas_response_assess">Hindamine</string>
+    <string name="cmas_response_none">Puudub</string>
+    <string name="cmas_severity_heading">Tõsidus:</string>
+    <string name="cmas_severity_extreme">Ekstreemne</string>
+    <string name="cmas_severity_severe">Ränk</string>
+    <string name="cmas_urgency_heading">Kiireloomulisus:</string>
+    <string name="cmas_urgency_immediate">Koheseks tegutsemiseks</string>
+    <string name="cmas_urgency_expected">Eeldatud tegutsemine</string>
+    <string name="cmas_certainty_heading">Kindlus:</string>
+    <string name="cmas_certainty_observed">Kindel</string>
+    <string name="cmas_certainty_likely">Tõenäoline</string>
+    <string name="delivery_time_heading">Vastu võetud:</string>
+    <string name="notification_multiple"><xliff:g id="COUNT">%s</xliff:g> lugemata häiret.</string>
+    <string name="notification_multiple_title">Uued häired</string>
+    <string name="show_cmas_opt_out_summary">Pärast esimese CMAS märguande kuvamist näidatakse teadetest loobumise dialoogi (v.a presidendi taseme märguanne).</string>
+    <string name="show_cmas_opt_out_title">Loobumise dialoog</string>
+    <string name="cmas_opt_out_dialog_text">Hetkel on hädaolukorra teadete vastuvõtmine sisse lülitatud. Soovid sa jätkuvalt saada hädaolukorra teateid?</string>
+    <string name="cmas_opt_out_button_yes">Jah</string>
+    <string name="cmas_opt_out_button_no">Ei</string>
+  <string-array name="alert_sound_duration_entries">
+    <item>2 sekundit</item>
+    <item>4 sekundit</item>
+    <item>6 sekundit</item>
+    <item>8 sekundit</item>
+    <item>10 sekundit</item>
+  </string-array>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2008 The Android Open Source Project
+      Copyright (C) 2013 Hasso Tepper
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="exchange_name_alternate">Microsoft Exchange ActiveSync</string>
+    <string name="meeting_accepted">Vastu võetud: <xliff:g id="SUBJECT">%s</xliff:g></string>
+    <string name="meeting_declined">Keeldutud: <xliff:g id="SUBJECT">%s</xliff:g></string>
+    <string name="meeting_tentative">Esialgne: <xliff:g id="SUBJECT">%s</xliff:g></string>
+    <string name="meeting_canceled">Tühistatud: <xliff:g id="SUBJECT">%s</xliff:g></string>
+    <string name="meeting_updated">Värskendatud: <xliff:g id="SUBJECT">%s</xliff:g></string>
+    <string name="meeting_when">Millal: <xliff:g id="WHEN">%s</xliff:g></string>
+    <string name="meeting_where">Kus: <xliff:g id="WHERE">%s</xliff:g></string>
+    <string name="meeting_recurring">Millal: <xliff:g id="EVENTDATE">%s</xliff:g> (korduv)</string>
+    <string name="meeting_allday">Toimumisaeg: <xliff:g id="EVENTDATE">%s</xliff:g> (terve päev)</string>
+    <string name="meeting_allday_recurring">Toimumisaeg: <xliff:g id="EVENTDATE">%s</xliff:g> (terve päev, korduv)</string>
+    <string name="notification_exchange_calendar_added">Exchange\'i kalender lisatud</string>
+    <string name="app_name">Exchange teenused</string>
+    <string name="exception_cancel">See sündmus on tühistatud: <xliff:g id="DATE">%s</xliff:g></string>
+    <string name="exception_updated">Selle sündmuse andmed on muutunud: <xliff:g id="DATE">%s</xliff:g></string>
+    <string name="policy_dont_allow_storage_cards">mälukaardite keeld</string>
+    <string name="policy_dont_allow_unsigned_apps">allkirjastamata rakenduste keeld</string>
+    <string name="policy_dont_allow_unsigned_installers">rakenduste allkirjastamata paigaldajate keeld</string>
+    <string name="policy_dont_allow_wifi">WiFi keeld</string>
+    <string name="policy_dont_allow_text_messaging">tekstsõnumside keeld</string>
+    <string name="policy_dont_allow_pop_imap">POP3 ja IMAP kontode keeld</string>
+    <string name="policy_dont_allow_irda">infrapunaside keeld</string>
+    <string name="policy_dont_allow_html">HTML meilide keeld</string>
+    <string name="policy_dont_allow_browser">brauserite keeld</string>
+    <string name="policy_dont_allow_consumer_email">reklaamiga meilide keeld</string>
+    <string name="policy_dont_allow_internet_sharing">Interneti jagamise keeld</string>
+    <string name="policy_require_smime">SMIME kasutamise nõue</string>
+    <string name="policy_bluetooth_restricted">Bluetoothi kasutamise piirang</string>
+    <string name="policy_app_blacklist">määratud rakenduste keeld</string>
+    <string name="policy_app_whitelist">ainult määratud rakenduste kasutamise luba</string>
+    <string name="policy_text_truncation">tekstmeilide suuruse piirang</string>
+    <string name="policy_html_truncation">HTML meilide suuruse piirang</string>
+    <string name="policy_require_sd_encryption">SD kaardi krüpteerimise nõue</string>
+    <string name="policy_dont_allow_attachments">manuste keelamine</string>
+    <string name="policy_max_attachment_size">manuste suuruse piirang</string>
+    <string name="policy_require_manual_sync_roaming">ainult rändlusel käsitsi sünkroonimise luba</string>
+    <string name="policy_require_encryption">seadme krüpteerimise nõue</string>
+    <string name="account_setup_options_mail_window_auto">Automaatne</string>
+    <string name="account_setup_options_mail_window_1day">Üks päev</string>
+    <string name="account_setup_options_mail_window_3days">Kolm päeva</string>
+    <string name="account_setup_options_mail_window_1week">Üks nädal</string>
+    <string name="account_setup_options_mail_window_2weeks">Kaks nädalat</string>
+    <string name="account_setup_options_mail_window_1month">Üks kuu</string>
+    <string name="account_setup_options_mail_window_all">Kõik</string>
+</resources>

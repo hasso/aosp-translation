@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2008 The Android Open Source Project
+      Copyright (C) 2013 Hasso Tepper
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="permission_read_attachment_label">meilimanuste lugemine</string>
+    <string name="permission_read_attachment_desc">Võimaldab rakendusel lugeda su meilide manuseid.</string>
+    <string name="permission_access_provider_label">ligipääs e-posti teenuse andmetele</string>
+    <string name="permission_access_provider_desc">Võimaldab rakendusel ligi pääseda su e-posti andmebaasile, sh vastuvõetud ja saadetud kirjadele, kasutajanimedele ning paroolidele.</string>
+    <string name="app_name">E-post</string>
+    <string name="compose_title">Koostamine</string>
+    <string name="debug_title">Silumine</string>
+    <string name="next_action">Järgmine</string>
+    <string name="okay_action">OK</string>
+    <string name="cancel_action">Tühista</string>
+    <string name="previous_action">Eelmine</string>
+    <string name="send_action">Saada</string>
+    <string name="reply_action">Vasta</string>
+    <string name="reply_all_action">Vasta kõigile</string>
+    <string name="delete_action">Kustuta</string>
+    <string name="forward_action">Saada edasi</string>
+    <string name="favorite_action">Tähista tärniga</string>
+    <string name="done_action">Valmis</string>
+    <string name="create_action">Loo uus</string>
+    <string name="delete_quick_response_action">Kustuta</string>
+    <string name="quick_responses_empty_view">Kiirvastuseid pole</string>
+    <string name="discard_action">Loobu</string>
+    <string name="save_draft_action">Salvesta mustand</string>
+    <string name="show_quick_text_list_dialog_action">Sisesta kiirvastus</string>
+    <string name="read_action">Märgi loetuks</string>
+    <string name="unread_action">Märgi mitteloetuks</string>
+    <string name="set_star_action">Lisa tärn</string>
+    <string name="remove_star_action">Eemalda tärn</string>
+    <string name="refresh_action">Värskenda</string>
+    <string name="add_account_action">Lisa konto</string>
+    <string name="compose_action">Koosta kiri</string>
+    <string name="search_action">Otsing</string>
+    <string name="account_settings_action">Konto seaded</string>
+    <string name="settings_action">Seaded</string>
+    <string name="mailbox_settings_action">Sünkroonimisvalikud</string>
+    <string name="mark_as_unread_action">Märgi mitteloetuks</string>
+    <string name="move_action">Liiguta</string>
+    <string name="newer_action">Uuem</string>
+    <string name="older_action">Vanem</string>
+    <string name="plus_cc_label">+ Cc/Bcc</string>
+    <string name="add_cc_bcc_menu">Lisa Cc/Bcc väli</string>
+    <string name="add_file_attachment">Manusta fail</string>
+    <string name="close_action">Sulge</string>
+    <string name="message_list_send_pending_messages_action">Saada kõik sõnumid</string>
+    <string name="choose_attachment_dialog_title">Manuse valimine</string>
+    <string name="move_to_folder_dialog_title">Liigutamine kausta</string>
+    <string name="status_loading_messages">Sõnumite laadimine \u2026</string>
+    <string name="status_network_error">Probleem ühendusega.</string>
+    <string name="error_loading_message_body">Kirja teksti laadimine ebaõnnestus. Kiri võib olla vaatamiseks liiga suur.</string>
+  <plurals name="move_messages">
+    <item quantity="one">Kirja liigutamine</item>
+    <item quantity="other">Kirjade liigutamine</item>
+  </plurals>
+    <string name="cannot_move_protocol_not_supported_toast">POP3 konto kirjade liigutamine pole toetatud.</string>
+    <string name="cannot_move_multiple_accounts_toast">Kirju ei saa liigutada, kuna valitud kirjad on erinevatelt kontodelt.</string>
+    <string name="cannot_move_special_mailboxes_toast">Kaustades „Mustandid„, „Väljundkast“ ja „Saadetud“ olevaid kirju ei saa liigutada.</string>
+  <plurals name="notification_new_one_account_fmt">
+    <item quantity="one"><xliff:g id="UNREAD_MESSAGE_COUNT">%1$d</xliff:g> lugemata kirja (<xliff:g id="ACCOUNT">%2$s</xliff:g>)</item>
+    <item quantity="other"><xliff:g id="UNREAD_MESSAGE_COUNT">%1$d</xliff:g> lugemata kirja (<xliff:g id="ACCOUNT">%2$s</xliff:g>)</item>
+  </plurals>
+  <plurals name="notification_new_multi_account_fmt">
+    <item quantity="one">ühel kontol</item>
+    <item quantity="other"><xliff:g id="NUMBER_ACCOUNTS">%d</xliff:g>-l kontol</item>
+  </plurals>
+    <string name="notification_to_account">saaja: <xliff:g id="RECEIVER_NAME">%1$s</xliff:g></string>
+    <string name="notification_multiple_new_messages_fmt"><xliff:g id="ID_1">%1$d</xliff:g> uut kirja</string>
+    <string name="account_name_display_all">Kõik kontod</string>
+  <plurals name="number_of_accounts">
+    <item quantity="one"><xliff:g id="NUM_ACCOUNTS">%1$d</xliff:g> konto</item>
+    <item quantity="other"><xliff:g id="NUM_ACCOUNTS">%1$d</xliff:g> kontot</item>
+  </plurals>
+    <string name="mailbox_name_display_inbox">Sisendkaust</string>
+    <string name="mailbox_name_display_outbox">Väljundkaust</string>
+    <string name="mailbox_name_display_drafts">Mustandid</string>
+    <string name="mailbox_name_display_trash">Prügikast</string>
+    <string name="mailbox_name_display_sent">Saadetud</string>
+    <string name="mailbox_name_display_junk">Rämpspost</string>
+    <string name="mailbox_name_display_unread">Lugemata</string>
+    <string name="picker_mailbox_name_all_unread">Sisendkaust (lugemata)</string>
+    <string name="picker_mailbox_name_all_inbox">Sisendkaust (kõik)</string>
+    <string name="picker_combined_view_fmt">Koondvaade (<xliff:g id="COUNT">%s</xliff:g>)</string>
+  <plurals name="picker_combined_view_account_count">
+    <item quantity="one"><xliff:g id="ACCOUNT_COUNT">%d</xliff:g> konto</item>
+    <item quantity="other"><xliff:g id="ACCOUNT_COUNT">%d</xliff:g> kontot</item>
+  </plurals>
+    <string name="debug_version_fmt">Versioon: <xliff:g id="VERSION">%s</xliff:g></string>
+    <string name="account_folder_list_summary_inbox">Sisendkaust</string>
+    <string name="account_folder_list_summary_starred">Tärniga</string>
+    <string name="account_folder_list_summary_drafts">Mustandid</string>
+    <string name="account_folder_list_summary_outbox">Väljundkaust</string>
+    <string name="mailbox_list_account_selector_combined_view">Koondvaade</string>
+    <string name="mailbox_list_account_selector_show_all_folders">Kuva kõik kaustad</string>
+    <string name="mailbox_list_account_selector_account_header">Kontod</string>
+    <string name="mailbox_list_account_selector_mailbox_header_fmt">Viimati kasutatud kaustad (<xliff:g id="EMAIL_ADDRESS">%s</xliff:g>)</string>
+    <string name="mailbox_list_user_mailboxes">Kõik kaustad</string>
+    <string name="mailbox_list_recent_mailboxes">Viimati kasutatud kaustad</string>
+    <string name="message_subject_description">Teema</string>
+    <string name="message_is_empty_description">Teema puudub</string>
+    <string name="message_list_load_more_messages_action">Laadi veel kirju</string>
+  <plurals name="message_view_selected_message_count">
+    <item quantity="one"><xliff:g id="MESSAGE_COUNT">%d</xliff:g> valitud kiri</item>
+    <item quantity="other"><xliff:g id="MESSAGE_COUNT">%d</xliff:g> valitud kirja</item>
+  </plurals>
+    <string name="message_list_no_messages">Kirju pole</string>
+    <string name="message_compose_to_hint">Saaja</string>
+    <string name="message_compose_cc_hint">Cc</string>
+    <string name="message_compose_bcc_hint">Bcc</string>
+    <string name="message_compose_subject_hint">Teema</string>
+    <string name="message_compose_from_label">Saatja:</string>
+    <string name="to">Saaja</string>
+    <string name="cc">Cc</string>
+    <string name="bcc">Bcc</string>
+    <string name="subject_hint">Teema</string>
+    <string name="body_hint">Kirja koostamine</string>
+    <string name="message_compose_fwd_header_fmt">\n\n"-------- Originaalkiri --------"\n"Teema: <xliff:g id="SUBJECT">%1$s</xliff:g>"\n"Saatja: <xliff:g id="SENDER">%2$s</xliff:g>"\n"Saaja: <xliff:g id="TO">%3$s</xliff:g>"\n"Koopia: <xliff:g id="CC_0">%4$s</xliff:g>"\n\n</string>
+    <string name="message_compose_reply_header_fmt">\n\n<xliff:g id="SENDER">%s</xliff:g> kirjutas:\n\n</string>
+    <string name="message_compose_quoted_text_label">Tsiteeritud teksti lisamine</string>
+    <string name="message_compose_include_quoted_text_checkbox_label">Teksti lisamine</string>
+    <string name="message_compose_error_no_recipients">Pead lisama vähemalt ühe saaja.</string>
+    <string name="message_compose_error_invalid_email">Mõned e-posti aadressid on vigased.</string>
+    <string name="message_compose_attachment_size">Fail on manustamiseks liiga suur.</string>
+    <string name="message_compose_insert_quick_response_list_title">Kiirvastuse sisestamine</string>
+    <string name="message_compose_display_name"><xliff:g id="NAME">%1$s</xliff:g> ja veel <xliff:g id="NUMBER">%2$d</xliff:g> adressaati</string>
+    <string name="message_view_to_label">Saaja:</string>
+    <string name="message_view_cc_label">Koopia:</string>
+    <string name="message_view_bcc_label">Pimekoopia:</string>
+    <string name="message_view_date_label">Kuupäev:</string>
+    <string name="message_view_from_label">Saatja:</string>
+    <string name="message_view_subject_label">Teema:</string>
+    <string name="message_view_attachment_view_action">Vaata</string>
+    <string name="message_view_attachment_install_action">Paigalda</string>
+    <string name="message_view_attachment_play_action">Esita</string>
+    <string name="message_view_attachment_load_action">Laadi</string>
+    <string name="message_view_attachment_info_action">Info</string>
+    <string name="message_view_attachment_save_action">Salvesta</string>
+    <string name="message_view_attachment_saved">Salvestatud</string>
+    <string name="message_view_attachment_cancel_action">Peata</string>
+    <string name="message_view_status_attachment_saved">Manus salvestatakse nimega <xliff:g id="FILENAME">%s</xliff:g>.</string>
+    <string name="message_view_status_attachment_not_saved">Manust ei õnnestunud salvestada.</string>
+    <string name="message_view_attachment_background_load">Märkus: su edasi saadatava kirjas tuleb enne saatmist üks või mitu manust alla laadida.</string>
+    <string name="message_view_show_message_action">Kiri</string>
+    <string name="message_view_show_invite_action">Kutse</string>
+  <plurals name="message_view_show_attachments_action">
+    <item quantity="one"><xliff:g id="NUM_ATTACHMENT">%1$d</xliff:g> manus</item>
+    <item quantity="other"><xliff:g id="NUM_ATTACHMENT">%1$d</xliff:g> manust</item>
+  </plurals>
+    <string name="message_view_show_pictures_action">Näita pilte</string>
+    <string name="message_view_always_show_pictures_button">Näidatakse alati</string>
+    <string name="message_view_always_show_pictures_prompt">Selle saatja pilte näidatakse alati</string>
+    <string name="message_view_always_show_pictures_confirmation">Selle saatja pilte näidatakse automaatselt.</string>
+    <string name="message_view_invite_view">Vaata kalendris</string>
+    <string name="message_view_invite_title">Kalendri kutse</string>
+    <string name="message_view_invite_text">Lähed?</string>
+    <string name="message_view_invite_accept"> Jah</string>
+    <string name="message_view_invite_maybe"> Võib-olla</string>
+    <string name="message_view_invite_decline"> Ei</string>
+    <string name="message_view_invite_toast_yes">Oled kutse vastu võtnud.</string>
+    <string name="message_view_invite_toast_maybe">Vastasid sellele kutsele „võib-olla”.</string>
+    <string name="message_view_invite_toast_no">Keeldusid sellest kutsest.</string>
+    <string name="message_view_show_details">Näita üksikasju</string>
+    <string name="message_view_message_details_dialog_title">Kirja üksikasjalik info</string>
+    <string name="attachment_info_dialog_default_title">Manuse info</string>
+    <string name="attachment_info_dialog_wifi_title">WiFi ühendus on nõutav</string>
+    <string name="attachment_info_wifi_settings">WiFi seaded</string>
+    <string name="attachment_info_application_settings">Rakenduse seaded</string>
+    <string name="attachment_info_unknown">Manust ei õnnestu avada</string>
+    <string name="attachment_info_malware">Seda faili ei saa salvestada ega avada, kuna seda tüüpi manus võib sisaldada pahavara.</string>
+    <string name="attachment_info_policy">Seda manust ei saa konto turvareeglite tõttu salvestada ega avada.</string>
+    <string name="attachment_info_wifi_only">Manus on mobiilivõrgu kaudu allalaadimiseks liiga suur. Saad selle alla laadida siis, kui on olemas WiFi ühendus.</string>
+    <string name="attachment_info_no_intent">Selle manuse avamiseks pole sobivat rakendust paigaldatud. Laadi Play poest alla sobiv rakendus.</string>
+    <string name="attachment_info_sideload_disabled">See manus on rakendus. Enne selle paigaldamist pead lubama tundmatutes allikates pärineva tarkvara paigaldamise - Seaded -&gt; Rakendused.</string>
+    <string name="attachment_info_apk_install_disabled">Rakendusi ei saa otse manusest paigaldada. Salvesta esmalt rakendus ja seejärel paigaldage see rakendusest „Allalaadimised“.</string>
+    <string name="attachment_not_found">Manuse allalaadimine ebaõnnestus.</string>
+    <string name="message_decode_error">Viga kirja dekodeerimisel.</string>
+    <string name="eml_view_title">Faili <xliff:g id="FILENAME">%s</xliff:g> kuvamine</string>
+    <string name="message_delete_dialog_title"></string>
+  <plurals name="message_delete_confirm">
+    <item quantity="one">Kas kustutada see kiri?</item>
+    <item quantity="other">Kas kustutada need kirjad?</item>
+  </plurals>
+  <plurals name="message_deleted_toast">
+    <item quantity="one">Kiri kustutatud.</item>
+    <item quantity="other">Kirjad kustutatud.</item>
+  </plurals>
+    <string name="message_discarded_toast">Kirjast loobuti.</string>
+    <string name="message_saved_toast">Kiri salvestati mustandina.</string>
+    <string name="message_view_display_attachment_toast">Manust ei saa kuvada.</string>
+    <string name="message_view_load_attachment_failed_toast">Manuse „<xliff:g id="FILENAME">%s</xliff:g>” laadimine ebaõnnestus.</string>
+    <string name="message_view_parse_message_toast">Kirja avamine \u2026</string>
+  <plurals name="message_moved_toast">
+    <item quantity="one"><xliff:g id="NUM_MESSAGE">%1$d</xliff:g> kirja on liigutatud kausta <xliff:g id="MAILBOX_NAME">%2$s</xliff:g></item>
+    <item quantity="other"><xliff:g id="NUM_MESSAGE">%1$d</xliff:g> kirja on liigutatud kausta <xliff:g id="MAILBOX_NAME">%2$s</xliff:g></item>
+  </plurals>
+    <string name="forward_download_failed_ticker">Ühe või mitme manuse edasi saatmine ebaõnnestus.</string>
+    <string name="forward_download_failed_title">Manust ei saadetud edasi</string>
+    <string name="login_failed_ticker">Kontole <xliff:g id="ACCOUNT_NAME">%s</xliff:g> sisselogimine ebaõnnestus.</string>
+    <string name="login_failed_title">Sisselogimine ebaõnnestus</string>
+  <plurals name="message_view_attachment_bytes">
+    <item quantity="one"><xliff:g id="SIZE_IN_BYTES">%d</xliff:g> B</item>
+    <item quantity="other"><xliff:g id="SIZE_IN_BYTES">%d</xliff:g> B</item>
+  </plurals>
+  <plurals name="message_view_attachment_kilobytes">
+    <item quantity="one"><xliff:g id="SIZE_IN_KILOBYTES">%d</xliff:g> kB</item>
+    <item quantity="other"><xliff:g id="SIZE_IN_KILOBYTES">%d</xliff:g> kB</item>
+  </plurals>
+  <plurals name="message_view_attachment_megabytes">
+    <item quantity="one"><xliff:g id="SIZE_IN_MEGABYTES">%d</xliff:g> MB</item>
+    <item quantity="other"><xliff:g id="SIZE_IN_MEGABYTES">%d</xliff:g> MB</item>
+  </plurals>
+  <plurals name="message_view_attachment_gigabytes">
+    <item quantity="one"><xliff:g id="SIZE_IN_GIGABYTES">%d</xliff:g> GB</item>
+    <item quantity="other"><xliff:g id="SIZE_IN_GIGABYTES">%d</xliff:g> GB</item>
+  </plurals>
+    <string name="message_view_move_to_newer">Uuem</string>
+    <string name="message_view_move_to_older">Vanem</string>
+    <string name="message_list_subject_snippet_divider">\u0020\u2014\u0020</string>
+    <string name="account_setup_basics_title">Konto seadistamine</string>
+    <string name="account_setup_basics_exchange_title">Exchange\'i konto lisamine</string>
+    <string name="account_setup_basics_exchange_title_alternate">Exchange ActiveSync konto lisamine</string>
+    <string name="account_setup_basics_headline">Meilikonto</string>
+    <string name="accounts_welcome">E-posti konto seadistamine vajab vaid mõnda sammu.</string>
+    <string name="accounts_welcome_exchange">Exchange\'i konto seadistamine vajab vaid mõnda sammu.</string>
+    <string name="accounts_welcome_exchange_alternate">Exchange ActiveSync konto seadistamine vajab vaid mõnda sammu.</string>
+    <string name="account_setup_basics_email_label">E-posti aadress</string>
+    <string name="account_setup_basics_password_label">Parool</string>
+    <string name="account_setup_basics_default_label">Kirjad saadetakse vaikimisi sellelt kontolt.</string>
+    <string name="account_setup_basics_manual_setup_action">Seadista käsitsi</string>
+    <string name="account_setup_username_password_toast">Sisesta korrektne e-posti aadress ja parool.</string>
+    <string name="account_duplicate_dlg_title">Konto on juba olemas</string>
+    <string name="account_duplicate_dlg_message_fmt">Konto „<xliff:g id="DUPLICATE">%s</xliff:g>” kasutab juba seda kasutajanime.</string>
+    <string name="account_password_spaces_error">See parool algab või lõpeb ühe või mitme tühikuga. Paljud serverid ei toeta tühikutega paroole.</string>
+    <string name="account_setup_check_settings_retr_info_msg">Konto info hankimine \u2026</string>
+    <string name="account_setup_check_settings_check_incoming_msg">Sissetuleva posti serveri seadete kontrollimine \u2026</string>
+    <string name="account_setup_check_settings_check_outgoing_msg">Väljuva posti serveri seadete kontrollimine \u2026</string>
+    <string name="account_setup_names_title">Konto seadistamine</string>
+    <string name="account_setup_names_headline">Konto on seadistatud ja post on juba teel.</string>
+    <string name="account_setup_names_account_name_label">Pane sellele kontole nimi (pole kohustuslik)</string>
+    <string name="account_setup_names_user_name_label">Sinu nimi (väljuvates kirjades kasutamiseks)</string>
+    <string name="account_setup_names_user_name_empty_error">See väli ei tohi olla tühi.</string>
+    <string name="account_setup_account_type_title">Konto seadistamine</string>
+    <string name="account_setup_account_type_headline">Konto tüüp</string>
+    <string name="account_setup_account_type_instructions">Mis tüüpi see konto on?</string>
+    <string name="account_setup_incoming_title">Konto seadistamine</string>
+    <string name="account_setup_incoming_headline">Siseneva posti serveri seaded</string>
+    <string name="account_setup_incoming_username_label">Kasutajanimi</string>
+    <string name="account_setup_incoming_password_label">Parool</string>
+    <string name="account_setup_incoming_pop_server_label">POP3 server</string>
+    <string name="account_setup_incoming_imap_server_label">IMAP server</string>
+    <string name="account_setup_incoming_port_label">Port</string>
+    <string name="account_setup_incoming_security_label">Turvalisus</string>
+    <string name="account_setup_incoming_security_none_label">Puudub</string>
+    <string name="account_setup_incoming_security_ssl_trust_certificates_label">SSL/TLS (kõik sertifikaadid)</string>
+    <string name="account_setup_incoming_security_ssl_label">SSL/TLS</string>
+    <string name="account_setup_incoming_security_tls_trust_certificates_label">STARTTLS (kõik sertifikaadid)</string>
+    <string name="account_setup_incoming_security_tls_label">STARTTLS</string>
+    <string name="account_setup_incoming_delete_policy_label">Kirjade serverist kustutamine</string>
+    <string name="account_setup_incoming_delete_policy_never_label">Mitte kunagi</string>
+    <string name="account_setup_incoming_delete_policy_delete_label">Kui kirjad kustutatakse postkastist</string>
+    <string name="account_setup_incoming_imap_path_prefix_label">IMAP prefiks</string>
+    <string name="account_setup_incoming_imap_path_prefix_hint">Pole kohustuslik</string>
+    <string name="account_setup_outgoing_title">Konto seadistamine</string>
+    <string name="account_setup_outgoing_headline">Väljuva posti serveri seaded</string>
+    <string name="account_setup_outgoing_smtp_server_label">SMTP server</string>
+    <string name="account_setup_outgoing_port_label">Port</string>
+    <string name="account_setup_outgoing_security_label">Turvalisuse</string>
+    <string name="account_setup_outgoing_require_login_label">Vajab sisselogimist.</string>
+    <string name="account_setup_outgoing_username_label">Kasutajanimi</string>
+    <string name="account_setup_outgoing_password_label">Parool</string>
+    <string name="account_setup_exchange_title">Konto seadistamine</string>
+    <string name="account_setup_exchange_headline">Serveri seaded</string>
+    <string name="account_setup_exchange_server_label">Server</string>
+    <string name="account_setup_exchange_username_label">Domeen\\kasutajanimi</string>
+    <string name="account_setup_exchange_ssl_label">Turvaline ühendus (SSL)</string>
+    <string name="account_setup_exchange_trust_certificates_label">Nõustutakse kõigi SSL sertifikaatidega</string>
+    <string name="account_setup_exchange_certificate_title">Kliendisertifikaat</string>
+    <string name="account_setup_exchange_select_certificate">Vali</string>
+    <string name="account_setup_exchange_use_certificate">Kasuta kliendisertifikaati</string>
+    <string name="account_setup_exchange_remove_certificate">Eemalda</string>
+    <string name="account_setup_exchange_no_certificate">Puudub</string>
+    <string name="account_setup_exchange_device_id_label">Mobiilseadme ID</string>
+    <string name="account_setup_options_title">Konto seaded</string>
+    <string name="account_setup_options_headline">Konto valikud</string>
+    <string name="account_setup_options_mail_check_frequency_label">Postkasti kontrollimise sagedus</string>
+    <string name="account_setup_options_mail_check_frequency_never">Mitte kunagi</string>
+    <string name="account_setup_options_mail_check_frequency_push">Automaatne (<i>push</i>)</string>
+    <string name="account_setup_options_mail_check_frequency_5min">Iga 5 minuti järel</string>
+    <string name="account_setup_options_mail_check_frequency_10min">Iga 10 minuti järel</string>
+    <string name="account_setup_options_mail_check_frequency_15min">Iga 15 minuti järel</string>
+    <string name="account_setup_options_mail_check_frequency_30min">Iga 30 minuti järel</string>
+    <string name="account_setup_options_mail_check_frequency_1hour">Kord tunnis</string>
+    <string name="account_setup_options_default_label">Meilid saadetakse vaikimisi sellelt kontolt.</string>
+    <string name="account_setup_options_notify_label">Teavitamine meili saabumisest.</string>
+    <string name="account_setup_options_sync_contacts_label">Selle konto kontaktide sünkroonimine.</string>
+    <string name="account_setup_options_sync_calendar_label">Selle konto kalendri sünkroonimine.</string>
+    <string name="account_setup_options_sync_email_label">Selle konto meili sünkroonimine.</string>
+    <string name="account_setup_options_background_attachments_label">Manuste automaatne allalaadimine WiFi ühenduse olemasolul</string>
+    <string name="account_setup_failed_dlg_title">Lõpetamine ei õnnestunud</string>
+    <string name="account_setup_options_mail_window_label">Sünkroonitavaid päevi</string>
+    <string name="account_setup_options_mail_window_auto">Automaatne</string>
+    <string name="account_setup_options_mail_window_1day">Üks päev</string>
+    <string name="account_setup_options_mail_window_3days">Kolm päeva</string>
+    <string name="account_setup_options_mail_window_1week">Üks nädal</string>
+    <string name="account_setup_options_mail_window_2weeks">Kaks nädalat</string>
+    <string name="account_setup_options_mail_window_1month">Üks kuu</string>
+    <string name="account_setup_options_mail_window_all">Kõik</string>
+    <string name="account_setup_options_mail_window_default">Konto vaikeseade kasutamine</string>
+    <string name="account_setup_failed_dlg_auth_message">Vigane kasutajanimi või parool.</string>
+    <string name="account_setup_failed_dlg_auth_message_fmt">Vigane kasutajanimi või parool.\n(<xliff:g id="ERROR">%s</xliff:g>)</string>
+    <string name="account_setup_failed_dlg_certificate_message">Serveriga ei õnnestu turvalist ühendust luua.</string>
+    <string name="account_setup_failed_dlg_certificate_message_fmt">Serveriga ei õnnestu turvalist ühendust luua.\n(<xliff:g id="ERROR">%s</xliff:g>)</string>
+    <string name="account_setup_failed_certificate_required">Ühenduse loomiseks on vajalik kliendi sertifikaat. Kas soovid kliendi sertifikaadi abil serveriga ühenduse luua?</string>
+    <string name="account_setup_failed_certificate_inaccessible">Sertifikaat on kas kehtetu või ligipääsmatu.</string>
+    <string name="account_setup_failed_check_credentials_message">Server vastas veateatega. Kontrolli kasutajanime ja parooli ning proovi siis uuesti.</string>
+    <string name="account_setup_failed_dlg_server_message">Serveriga ei saa ühendust.</string>
+    <string name="account_setup_failed_dlg_server_message_fmt">Serveriga ei saa ühendust.\n(<xliff:g id="ERROR">%s</xliff:g>)</string>
+    <string name="account_setup_failed_tls_required">Ühenduse loomiseks on vajalik TLS, kuid server seda ei toeta.</string>
+    <string name="account_setup_failed_auth_required">Server ei toeta autentimismeetodeid.</string>
+    <string name="account_setup_failed_security">Turvavea tõttu ei õnnestunud serveriga ühendust luua.</string>
+    <string name="account_setup_failed_ioerror">Serveriga ei õnnestunud ühendust luua.</string>
+    <string name="account_setup_failed_protocol_unsupported">Kas sisestasid vale serveri aadressi või nõuab server protokolli versiooni, mida E-post rakendus ei toeta.</string>
+    <string name="account_setup_failed_access_denied">Sul puuduvad õigused selle serveriga andmete sünkroonimiseks. Lisainfo saamiseks võta ühendust oma serveri administraatoriga.</string>
+    <string name="account_setup_security_required_title">Turvaline kaughaldus</string>
+    <string name="account_setup_security_policies_required_fmt">Server <xliff:g id="SERVER">%s</xliff:g> nõuab, et sa lubaks mõnede Androidi turvafunktsioonide kaugelt kontrollimist. Kas soovid lõpetada konto seadistamise?</string>
+    <string name="account_setup_failed_security_policies_unsupported">See server nõuab turvafunktsioone, mida see Android ei toeta, sh: <xliff:g id="ERROR">%s</xliff:g></string>
+    <string name="account_setup_username_uneditable_error">Konto kasutajanime ei saa muuta. Uue kasutajanimega konto lisamiseks puuduta valikut „Lisa konto“.</string>
+    <string name="disable_admin_warning">HOIATUS: meilirakenduse seadmehalduse volituste deaktiveerimine kustutab kõik meilikontod, mis neid õigusi nõuavad, sh ka nende meilid, kontaktid, kalendrisündmused ja muud andmed.</string>
+    <string name="account_security_dialog_title">Turvavärskendus</string>
+    <string name="account_security_dialog_content_fmt"><xliff:g id="ACCOUNT">%s</xliff:g> nõuab, et värskendaksid turvaseadeid.</string>
+    <string name="security_notification_ticker_fmt">Konto „<xliff:g id="ACCOUNT">%s</xliff:g>” vajab turvaseadete värskendamist.</string>
+    <string name="security_notification_content_title">Nõutav turvavärskendust</string>
+    <string name="account_security_title">Seadme turvalisus</string>
+    <string name="account_security_policy_explanation_fmt">Server <xliff:g id="SERVER">%s</xliff:g> nõuab, et sa lubaksid mõnede oma Android seadme turvafunktsioonide kaugelt kontrollimist.</string>
+    <string name="account_setup_failed_dlg_edit_details_action">Muuda üksikasju</string>
+    <string name="password_expire_warning_ticker_fmt">„<xliff:g id="ACCOUNT">%s</xliff:g>” nõuab ekraaniluku PIN koodi või parooli muutmist.</string>
+    <string name="password_expire_warning_content_title">Ekraaniluku parool on aegumas</string>
+    <string name="password_expired_ticker">Ekraaniluku PIN kood või parool on aegunud.</string>
+    <string name="password_expired_content_title">Ekraaniluku parool on aegunud</string>
+    <string name="password_expire_warning_dialog_title">Ekraaniluku parool on aegumas</string>
+    <string name="password_expire_warning_dialog_content_fmt">Pead ekraaniluku PIN koodi või parooli varsti muutma või konto <xliff:g id="ACCOUNT">%s</xliff:g> andmed kustutatakse. Kas muudad kohe?</string>
+    <string name="password_expired_dialog_title">Ekraaniluku parool on aegunud</string>
+    <string name="password_expired_dialog_content_fmt">Konto <xliff:g id="ACCOUNT">%s</xliff:g> andmed kustutatakse seadmest. Ekraaniluku PIN koodi või parooli muutes saad konto taastada. Kas muudad selle kohe?</string>
+    <string name="account_settings_exit_server_settings">Kas loobud salvestamata muudatustest?</string>
+    <string name="account_settings_login_dialog_title">Sisselogimine ebaõnnestus</string>
+    <string name="account_settings_login_dialog_content_fmt">Konto <xliff:g id="ACCOUNT">%s</xliff:g> kasutajanimi või parool on vale. Kas uuendad neid kohe?</string>
+    <string name="account_settings_default_label">Vaikekonto</string>
+    <string name="account_settings_default_summary">Kirjad saadetakse vaikimisi sellelt kontolt</string>
+    <string name="account_settings_background_attachments_label">Manuste allalaadimine</string>
+    <string name="account_settings_background_attachments_summary">Hiljutiste kirjade manuste automaatne allalaadimine WiFi kaudu</string>
+    <string name="account_settings_notify_label">E-posti märguanded</string>
+    <string name="account_settings_summary">Sünkroonimise sagedus, märguanded jne.</string>
+    <string name="account_settings_notify_summary">Posti saabumise teavitus süsteemiribal</string>
+    <string name="account_settings_mail_check_frequency_label">Postkasti kontrollimise sagedus</string>
+    <string name="account_settings_incoming_label">Sissetuleva posti seaded</string>
+    <string name="account_settings_incoming_summary">Kasutajanimi, parool ja muud sissetuleva posti serveri seaded</string>
+    <string name="account_settings_outgoing_label">Väljuva posti seaded</string>
+    <string name="account_settings_outgoing_summary">Kasutajanimi, parool ja muud väljamineva posti serveri seaded</string>
+    <string name="account_settings_description_label">Konto nimi</string>
+    <string name="account_settings_name_label">Sinu nimi</string>
+    <string name="account_settings_signature_label">Signatuur</string>
+    <string name="account_settings_edit_quick_responses_label">Kiirvastused</string>
+    <string name="account_settings_edit_quick_responses_summary">Kirjade kirjutamisel sageli kasutatavate tekstide muutmine</string>
+    <string name="account_settings_signature_hint">Saadetavatele sõnumitele lisatav tekst</string>
+    <string name="account_settings_notifications">Märguannete seaded</string>
+    <string name="account_settings_data_usage">Andmeside kasutamine</string>
+    <string name="edit_quick_response_dialog">Kiirvastuse muutmine</string>
+    <string name="save_action">Salvesta</string>
+    <string name="account_settings_sync_contacts_enable">Kontaktide sünkroonimine</string>
+    <string name="account_settings_sync_contacts_summary">Konto kontaktide sünkroonimine</string>
+    <string name="account_settings_sync_calendar_enable">Kalendri sünkroonimine</string>
+    <string name="account_settings_sync_calendar_summary">Konto kalendri sünkroonimine</string>
+    <string name="account_settings_sync_email_enable">Meili sünkroonimine</string>
+    <string name="account_settings_sync_email_summary">Konto meili sünkroonimine</string>
+    <string name="account_settings_vibrate_when_label">Vibreerimine</string>
+    <string name="account_settings_ringtone">Helina valimine</string>
+    <string name="account_settings_servers">Serveri seaded</string>
+    <string name="account_delete_dlg_title">Konto eemaldamine</string>
+    <string name="account_delete_dlg_instructions_fmt">Konto „<xliff:g id="ACCOUNT">%s</xliff:g>” eemaldatakse e-posti rakendusest.</string>
+    <string name="account_settings_category_delete_account">Konto eemaldamine</string>
+    <string name="account_settings_delete_account_label">Eemalda konto</string>
+    <string name="mailbox_settings_activity_title">Sünkroonimisvalikud</string>
+    <string name="mailbox_settings_activity_title_with_mailbox">Sünkroonimisvalikud (<xliff:g id="MAILBOXX_NAME">%s</xliff:g>)</string>
+    <string name="mailbox_preferences_header">Sünkroonimisseaded</string>
+    <string name="mailbox_settings_mailbox_check_frequency_label">Kontrollimise sagedus</string>
+    <string name="mailbox_settings_mailbox_sync_window_label">Sünkroonitavate päevade arv</string>
+    <string name="account_shortcut_picker_name">Meilikonto</string>
+    <string name="account_shortcut_picker_title">Konto valimine</string>
+    <string name="mailbox_shortcut_picker_title">Kausta valimine</string>
+    <string name="toast_account_not_found">Kontot ei leitud. See võib olla eemaldatud.</string>
+    <string name="toast_mailbox_not_found">Kausta ei leitud. See võib olla eemaldatud.</string>
+    <string name="provider_note_live">Ainult mõnel „Plus” kontole on võimalik ligi pääseda POP protokolliga, mida see rakendus kasutada oskab. Kui sa ei saa oma õige e-posti aadressi ja parooliga sisse logida, pole sul võib-olla tasulist „Plus” kontot. Sellistele meilikontodele ligipääsuks käivita veebibrauser.</string>
+    <string name="provider_note_t_online">Enne selle meilikonto seadistamist külasta T-Online\'i veebisaiti ja tekita POP3 ligipääsuks vajalik parool.</string>
+    <string name="exchange_name">Korporatiivne</string>
+    <string name="exchange_name_alternate">Microsoft Exchange ActiveSync</string>
+    <string name="system_account_create_failed">Konto loomine ebaõnnestus. Proovi uuesti.</string>
+    <string name="device_admin_label">E-post</string>
+    <string name="device_admin_description">Võimaldab serveripõhiseid turvaeeskirju seada</string>
+    <string name="gal_searching_fmt">Domeeni <xliff:g id="DOMAIN">%s</xliff:g> otsimine \u2026</string>
+  <plurals name="gal_completed_fmt">
+    <item quantity="one"><xliff:g id="RESULTS">%1$d</xliff:g> tulemust domeenist <xliff:g id="DOMAIN">%2$s</xliff:g></item>
+    <item quantity="other"><xliff:g id="RESULTS">%1$d</xliff:g> tulemust domeenist <xliff:g id="DOMAIN">%2$s</xliff:g></item>
+  </plurals>
+    <string name="settings_activity_title">Seaded</string>
+    <string name="header_label_general_preferences">Üldine</string>
+    <string name="category_general_preferences">Rakendus</string>
+    <string name="general_preference_auto_advance_label">Automaatne liikumine</string>
+    <string name="general_preference_auto_advance_summary">Pärast sõnumi kustutamist kuvatava ekraani valimine</string>
+    <string name="general_preference_auto_advance_dialog_title">Liikumine</string>
+    <string name="general_preference_auto_advance_newer">Uuemale kirjale</string>
+    <string name="general_preference_auto_advance_older">Vanemale kirjale</string>
+    <string name="general_preference_auto_advance_message_list">Kirjade nimekiri</string>
+    <string name="general_preference_text_zoom_label">Kirja teksti suurus</string>
+  <string-array name="general_preference_text_zoom_summary_array">
+    <item>Väga väike tekst</item>
+    <item>Väike tekst</item>
+    <item>Normaalse suurusega tekst</item>
+    <item>Suur tekst</item>
+    <item>Hiiglaslik tekst</item>
+  </string-array>
+    <string name="general_preference_text_zoom_dialog_title">Kirja teksti suurus</string>
+    <string name="general_preference_text_zoom_tiny">Pisike</string>
+    <string name="general_preference_text_zoom_small">Väike</string>
+    <string name="general_preference_text_zoom_normal">Tavaline</string>
+    <string name="general_preference_text_zoom_large">Suur</string>
+    <string name="general_preference_text_zoom_huge">Väga suur</string>
+    <string name="general_preference_reply_all_label">Kõigile vastamine</string>
+    <string name="general_preference_reply_all_summary">Kirjade vastamise vaikeseadeks on „Vasta kõigile”</string>
+    <string name="general_preferences_clear_trusted_senders_title">Loa küsimine piltide laadimiseks</string>
+    <string name="general_preferences_clear_trusted_senders_summary">Kirjades olevaid pilte ei laadita automaatselt alla</string>
+    <string name="trusted_senders_cleared">Piltide automaatse kuvamise nimekiri on tühjendatud.</string>
+    <string name="position_of_count"><xliff:g id="ID_1">%1$d</xliff:g>/<xliff:g id="ID_2">%2$s</xliff:g></string>
+    <string name="waitinf_for_sync_message_1">Sünkroonimise ootel</string>
+    <string name="waitinf_for_sync_message_2">Su e-post ilmub peagi.</string>
+    <string name="widget_other_views">Muutmiseks puuduta ikooni.</string>
+    <string name="widget_all_mail">Koondav sisendkaust</string>
+    <string name="widget_unread">Lugemata kirjad</string>
+    <string name="widget_starred">Märgitud kirjad</string>
+    <string name="widget_loading">Laadimine \u2026</string>
+    <string name="widget_touch_to_configure">Seadistamiseks puuduta.</string>
+    <string name="widget_no_accounts">Sul pole veel meilikontot seadistatud.</string>
+    <string name="widget_no_mailboxes">Konto pole sünkroonitud. Proovi hiljem uuesti.</string>
+    <string name="more_than_999">999+</string>
+    <string name="search_hint">Kirjadest otsimine</string>
+    <string name="search_mailbox_hint">Otsi <xliff:g id="ID_1">%1$s</xliff:g></string>
+    <string name="search_header_text_fmt">Tulemused</string>
+    <string name="search_slow_warning_title">Tulemuste ootamine</string>
+    <string name="search_slow_warning_message">Mõnede serverite vastust tuleb kaua oodata.</string>
+    <string name="action_bar_mailbox_list_title">Kaustad</string>
+    <string name="require_manual_sync_message">Taustal sünkroonimine on sellel kontol rändluse ajal keelatud.</string>
+</resources>

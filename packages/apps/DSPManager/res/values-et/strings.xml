@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012-2013 The CyanogenMod Project
+     Copyright (C) 2013 Hasso Tepper
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">DSP haldur</string>
+    <string name="select_configuration_title">Muudetava konfiguratsiooni valimine</string>
+    <string name="headset_title">Kõrvaklapid</string>
+    <string name="speaker_title">Valjuhääldi</string>
+    <string name="bluetooth_title">Bluetooth</string>
+    <string name="audio_effects">Audio efektid</string>
+    <string name="pref_unavailable">Su seade ei toeta funktsionaalsust</string>
+    <string name="dsp_settings_headset">DSP seaded - Kõrvaklapid</string>
+    <string name="dsp_settings_speaker">DSP seaded - Telefoni valjuhääldi</string>
+    <string name="dsp_settings_bluetooth">DSP seaded - Bluetooth seade</string>
+    <string name="dsp_settings_wm8994">DSP seaded - WM8994</string>
+    <string name="pref_dsp_title">Dünaamilise ulatuse kompressioon</string>
+    <string name="pref_dsp_summary_on">Kompressioon on sisse lülitatud</string>
+    <string name="pref_dsp_summary_off">Kompressioon on välja lülitatud</string>
+    <string name="pref_dsp_enable">Lubatud</string>
+    <string name="pref_effect_title">Efekti tugevus</string>
+    <string name="dialog_effect">Efekti tugevus</string>
+    <string name="pref_equalizer_title">Ekvalaiser</string>
+    <string name="pref_equalizer_summary_on">Ekvalaiser on sisse lülitatud</string>
+    <string name="pref_equalizer_summary_off">Ekvalaiser on välja lülitatud</string>
+    <string name="pref_equalizer_enable">Lubatud</string>
+    <string name="pref_equalizer_preset_title">Eelseade</string>
+    <string name="pref_equalizer_loudness_title">Helivaljuse kompensatsioon</string>
+    <string name="pref_bassboost_title">Bassi võimendamine</string>
+    <string name="pref_bassboost_summary_on">Bassi võimendamine on sisse lülitatud</string>
+    <string name="pref_bassboost_summary_off">Bassi võimendamine on välja lülitatud</string>
+    <string name="pref_bassboost_enable">Lubatud</string>
+    <string name="pref_headset_virtual_title">Kõrvaklappide ruumiefekt</string>
+    <string name="pref_headset_virtual_summary_on">Kõrvaklappide ruumiefekt on sisse lülitatud</string>
+    <string name="pref_headset_virtual_summary_off">Kõrvaklappide ruumiefekt on välja lülitatud</string>
+    <string name="pref_headset_virtual_enable">Lubatud</string>
+    <string name="pref_room_title">Ruumi tüüp</string>
+    <string name="dialog_room">Ruumi tüüp</string>
+    <string name="menu_reset">Taasta vaikeväärtused</string>
+    <string name="eq_preset_acoustic">Akustiline muusika</string>
+    <string name="eq_preset_bass_booster">Bassi võimendamine</string>
+    <string name="eq_preset_bass_reducer">Bassi summutamine</string>
+    <string name="eq_preset_classical">Klassika</string>
+    <string name="eq_preset_deep">Diip</string>
+    <string name="eq_preset_flat">Sirge</string>
+    <string name="eq_preset_r_and_b">R&amp;B</string>
+    <string name="eq_preset_rock">Rokk</string>
+    <string name="eq_preset_small_speakers">Väiksed kõlarid</string>
+    <string name="eq_preset_treble_booster">Kõrgete võimendamine</string>
+    <string name="eq_preset_treble_reducer">Kõrgete summutamine</string>
+    <string name="eq_preset_vocal_booster">Vokaali võimendamine</string>
+    <string name="eq_preset_custom">Kohandatud</string>
+    <string name="category_wm8994_internal_speaker">Valjuhääldi</string>
+    <string name="category_wm8994_signal_processing">Signaalitöötlus</string>
+    <string name="category_wm8994_headphone_amp">Kõrvaklapid</string>
+    <string name="category_wm8994_codec_optimization">Koodeki optimeerimine</string>
+    <string name="category_wm8994_dac_config">Digitaal-analoogmuunduri seaded</string>
+    <string name="category_wm8994_analog_path">Analoogahela seaded</string>
+    <string name="category_wm8994_mic_settings">Mikrofoni seaded</string>
+    <string name="category_wm8994_microphone_recording">Mikrofon</string>
+    <string name="wm8994_settings_title_head">Heli seaded</string>
+    <string name="wm8994_settings_title_subhead">Heli seaded</string>
+    <string name="wm8994_settings_summary_head">WM8994 heliprotsessori seaded</string>
+    <string name="pref_wm8994_microphone_recording_title">Salvestamise eelseaded</string>
+    <string name="pref_wm8994_headphone_amp_title">Võimenduse nivoo</string>
+    <string name="pref_wm8994_headphone_amp_summary">Analoogsignaali sisendnivoo kohandamine</string>
+    <string name="pref_wm8994_headphone_amp_dlg_title">Kõrvaklapi võimendi nivoo</string>
+    <string name="pref_wm8994_headphone_amp_dlg_desc">Analoogsignaali sisendnivoo</string>
+    <string name="pref_wm8994_bass_boost_enable_title">Bassi võimendamine</string>
+    <string name="pref_wm8994_bass_boost_enable_summary">Bassi võimenduse seaded</string>
+    <string name="pref_wm8994_bass_boost_title">Bassi võimenduse ulatus</string>
+    <string name="pref_wm8994_bass_boost_summary">Dünaamilise ulatuse seadistus</string>
+    <string name="pref_wm8994_bass_boost_preset_title">Bassi võimenduse eelseaded</string>
+    <string name="pref_wm8994_bass_boost_dlg_title">Bassi võimendus</string>
+    <string name="pref_wm8994_bass_boost_gain_dlg_desc">Nivoo</string>
+    <string name="pref_wm8994_bass_boost_range_dlg_desc">Bassi võimenduse ulatus</string>
+    <string name="pref_wm8994_control_enable_title">WM8994 täppisseaded</string>
+    <string name="pref_wm8994_control_enable_summary">WM8994 heliprotsessori täppisseaded</string>
+    <string name="pref_wm8994_speaker_tuning_title">Muusikale häälestamine</string>
+    <string name="pref_wm8994_speaker_tuning_summary">Seadistab riistvaralise ekvalaiseri rohkem bassi ning tasakaalustatumat heli taasesitama</string>
+    <string name="pref_wm8994_mono_downmix_title">Kokkumiks monoks</string>
+    <string name="pref_wm8994_mono_downmix_summary">Stereosignaali kokku segistamine monoks (stereoväljundisse, nagu nt kõrvaklappidesse)</string>
+    <string name="pref_wm8994_stereo_expansion_title">Stereo laiendamine</string>
+    <string name="pref_wm8994_stereo_expansion_summary">\'Laiendab\' stereopilti digitaalse helitöötluse abil</string>
+    <string name="pref_wm8994_dac_direct_title">Vahetu D/AC kasutamine</string>
+    <string name="pref_wm8994_dac_direct_summary">Digitaal-analoog muundurit kasutatakse otse, ilma kanalimikserita. Võimaldab tekitada puhtamat heli (parem signaali ja müra suhe).</string>
+    <string name="pref_wm8994_dac_osr128_title">Hi-fi taasesitus</string>
+    <string name="pref_wm8994_dac_osr128_summary">128x ülediskreetimine digitaal-analoog muunduris &#8212; puhtam heli muusika taasesitamisel</string>
+    <string name="pref_wm8994_adc_osr128_title">Hi-fi salvestus</string>
+    <string name="pref_wm8994_adc_osr128_summary">128x ülediskreetimine analoog-digitaal muunduris &#8212; parandab salvestuse kvaliteeti</string>
+    <string name="pref_wm8994_fll_tuning_title">Häälestatud audio kell</string>
+    <string name="pref_wm8994_fll_tuning_summary">Häälestatud WM8994 audio kella kasutamine sünkroallikana &#8212; parandab heli kvaliteeti</string>
+    <string name="help_title">Abi</string>
+    <string name="help_text"><b>Mis on DSP haldur?</b>
+\n\n
+DSP haldur on rakendus, mis võimaldab muuta heliseadeid vastavalt kasututatavale
+väljundile. <i>DSP</i> tähendab digitaalset signaalitöötlust (<i>Digital Signal
+Processing</i>) ning <i>haldur</i> viitab faktile, et signaalitöötlus ei toimu
+rakenduses endas; haldur ainult rakendab seadeid rakendustele, mis vastavad
+Androidi audioefektide spetsifikatsiooni nõuetele, so enamik muusikamängijaid.
+\n\n\n
+<b>Idee</b>
+\n\n
+Cyanogenmodi helitöötlus toetab kolme erinevat väljundi kategooriat: juhtmega
+kõrvaklapid, telefoni valjuhääldi ning Bluetooth kõrvaklapid. Igal väljundi
+kategoorial on oma seadete paneel. DSP halduri idee on kõrvaldada igal väljundil
+just talle omased puudused, saavutades nii kõigil optimaalseima tulemuse.
+\n\n
+Erinevalt AOSP audio efektidest pole siin rakenduste spetsiifilisi seadeid. See
+on teadlik disainiotsus: just väljund on oluline, mitte see mis rakendus tekitab
+signaali.
+\n\n\n
+<b>Võimalused</b>
+\n\n
+1. <b>Dünaamilise ulatuse kompressioon (DRC)</b>
+\n\n
+See efekt hindab helivaljust keskmise kuulaja poolt tajutuna ning reguleerib
+vastavalt sellele helinivood. Peamine kasutusjuht on mürarikas keskkond (nagu
+nt auto või tänav), kus muusika vaiksemad osad võivad uppuda taustamürasse.
+\n\n
+Ainus säte määrab kui kõvasti üritab DSP haldur hoida helivaljust etteantud
+tasemel. AOSP analoog sel efektil puudub.
+\n\n\n
+2. <b>Bassi võimendamine</b>
+\n\n
+Bassi võimendamine on lihtne madalpääsfilter, mille abil saab rõhutada 55 Hz
+ja madalamaid sagedusi. Võimendus on umbes 6dB ning filter on muudetab
+\'tugevuse\' parameetri abil, mis lisab filtrile 55 Hz ribas resonantsi,
+rõhutades seda sagedusriba veel eriliselt. Efekt on mõeldud kompenseerima
+madalate sageduste kadu väikeste kõlarite ja väikeste ning mitte tihedalt
+istuvate kõrvaklappide kasutamise korral.
+\n\n\n
+3. <b>Ekvalaiser</b>
+\n\n
+See on 6-ribaline ekvalaiser ribadega vastavalt 16, 64, 250, 1000, 4000 ja
+16000 hz. Ekvalaiseriga on kaasas mõned tavalisemad valmisseaded, kuid
+sageduskarakteristikut on võimalik muuta puudutades ekvalaiseri graafikut.
+Efekti on mõeldud sageduskarakteristiku kohandamiseks vastavaks kasutaja
+maitsele, kasutatavatele kõrvaklappidele või kõlaritele.
+\n\n
+Ekvalaiseril on ka helivaljuse kompenseerimise filter, mis vastavalt kasutaja
+kõrva jõudva helitugevuse tasemele ühtlustab muutuseid sageduskaraktereistikus.
+Selleks on vajalikud kõrvaklappid ning enne kui efekt korrektselt töötab,
+tuleb korrektselt paika panna efekti tugevuse parameeter.
+\n\n
+Kompenseerimise tugevusele õige väärtuse valimiseks kasuta vaikseimat
+helitugevust ning vali mõni laia sagedusriba kattev lärmakas muusika, nt rokk
+või metal. Püüa leida seadistus, kus bass on võimendatud tagasi kuuldavaks ja
+näib õlejäänud materjaliga tasakaalus olevat. Pärast kompensatsiooni korrektset
+seadistamist peaks bass jääma teiste instrumentidega samale suhtelisele tasemele
+sõltumata helitugevusest. Kuid kui bass muutub kürgematel helitugevustel liiga
+valjuks, on kompensatsioon liiga tugev ning seda tuleb vähendada.
+\n\n
+Kompensatsioon lisatakse kasutaja poolt valitud ekvalaiseri seadetele. Kui 
+soovitakse kasutada ainult kompensatsiooni, tuleb ekvalaiseril valida \'sirge\'
+seade.
+\n\n\n
+4. <b>Kõrvaklappide filter</b>
+\n\n
+Kõrvaklappide filter on kuulsast bs2b analoog lülitusest inspireeritud
+<i>crossfeed</i> filter. Mono signaal läbib efekti muutusteta, kuid signaalide
+erinevused suunatakse läbi madalpääs filtri, mis on disainitud umbkaudselt
+arvesse võtma „pea varjust“ tingitud interauraalseid tämbri erinevusi ning viidet,
+andes sellega õigeid psühhoakustilisi vihjeid kasutaja kõrvadele. Eesmärk on
+vältida kuulaja väsimust, mida tekitab ebareaalne stereopilt ning mis on omane
+kõikidele kõrvaklappidele. Efekti peaks sisse lülitama alati kui kasutuses on
+kõrvaklapid.
+\n\n
+Kuna selline segistamine vähendab mõnevõrra stereokanalite eraldatust, on olemas
+ka Haasi efekti kasutav ruumikaja, mida saab kasutada tajutava stereopildi
+laiendamiseks. See on kontrollitav ruumi tüübi parameetriga.</string>
+</resources>

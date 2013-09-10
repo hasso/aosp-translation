@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+      Copyright (C) 2013 Hasso Tepper
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="application_name">Brauser</string>
+    <string name="choose_upload">Üleslaaditava faili valimine</string>
+    <string name="uploads_disabled">Failide üleslaadimised on keelatud.</string>
+    <string name="new_tab">Uus vaheleht</string>
+    <string name="new_incognito_tab">Uus inkognitovaheleht</string>
+    <string name="tab_bookmarks">Järjehoidjad</string>
+    <string name="tab_most_visited">Enim külastatud</string>
+    <string name="tab_history">Ajalugu</string>
+    <string name="tab_snapshots">Salvestatud lehed</string>
+    <string name="added_to_bookmarks">Järjehoidjatesse lisatud.</string>
+    <string name="removed_from_bookmarks">Järjehoidjatest eemaldatud.</string>
+    <string name="sign_in_to">Sisselogimine <xliff:g id="HOSTNAME">%s1</xliff:g> „<xliff:g id="REALM">%s2</xliff:g>”</string>
+    <string name="username">Nimi</string>
+    <string name="password">Parool</string>
+    <string name="action">Logi sisse</string>
+    <string name="bookmarks_search">Brauser</string>
+    <string name="cancel">Tühista</string>
+    <string name="ok">OK</string>
+    <string name="title_bar_loading">Laadimine \u2026</string>
+    <string name="page_info">Lehe teave</string>
+    <string name="page_info_view">Kuva lehe teave</string>
+    <string name="page_info_address">Aadress:</string>
+    <string name="ssl_warnings_header">Selle saidi turvasertifikaadiga on probleeme.</string>
+    <string name="ssl_continue">Jätka</string>
+    <string name="security_warning">Turvahoiatus</string>
+    <string name="view_certificate">Näita sertifikaati</string>
+    <string name="ssl_go_back">Mine tagasi</string>
+    <string name="ssl_untrusted">See sertifikaat ei pärine usaldusväärselt osapoolelt.</string>
+    <string name="ssl_mismatch">Saidi nimi ei vasta sertifikaadil olevale nimele.</string>
+    <string name="ssl_expired">See sertifikaat on aegunud.</string>
+    <string name="ssl_not_yet_valid">See sertifikaat pole veel kehtiv.</string>
+    <string name="ssl_date_invalid">Sellel sertifikaadil on vigane kuupäev.</string>
+    <string name="ssl_invalid">See sertifikaat on vigane.</string>
+    <string name="ssl_unknown">Tundmatu sertifikaadiviga.</string>
+    <string name="stopping">Peatamine \u2026</string>
+    <string name="stop">Peata</string>
+    <string name="reload">Värskenda</string>
+    <string name="back">Tagasi</string>
+    <string name="forward">Edasi</string>
+    <string name="save">OK</string>
+    <string name="do_not_save">Tühista</string>
+    <string name="location">Aadress</string>
+    <string name="account">Konto</string>
+    <string name="containing_folder">Lisa kausta</string>
+    <string name="new_folder">Uus kaust</string>
+    <string name="edit_folder">Muuda kausta</string>
+    <string name="delete_folder">Kustuta kaust</string>
+    <string name="no_subfolders">Alamkaustu pole.</string>
+    <string name="add_to_bookmarks_menu_option">Järjehoidjad</string>
+    <string name="add_to_homescreen_menu_option">Avaekraan</string>
+    <string name="add_to_other_folder_menu_option">Muu kaust</string>
+    <string name="name">Nimi</string>
+    <string name="http">http://</string>
+    <string name="save_to_bookmarks">Salvesta järjehoidjatesse</string>
+    <string name="bookmark_this_page">Lehe järjehoidjatesse lisamine</string>
+    <string name="remove">Eemalda</string>
+    <string name="edit_bookmark">Muuda järjehoidjat</string>
+    <string name="create_shortcut_bookmark">Lisa viide avalehele</string>
+    <string name="open_bookmark">Ava</string>
+    <string name="remove_bookmark">Kustuta järjehoidja</string>
+    <string name="remove_from_bookmarks">Eemalda järjehoidjatest</string>
+    <string name="remove_history_item">Eemalda ajaloost</string>
+    <string name="set_as_homepage">Määra avaleheks</string>
+    <string name="bookmark_saved">Järjehoidjatesse salvestatud.</string>
+    <string name="bookmark_not_saved">Järjehoidjat ei õnnestunud salvestada.</string>
+    <string name="homepage_set">Avaleht määratud.</string>
+    <string name="bookmark_needs_title">Järjehoidjal peab olema nimi.</string>
+    <string name="bookmark_needs_url">Järjehoidjal peab olema asukoht.</string>
+    <string name="bookmark_url_not_valid">URL on vigane.</string>
+    <string name="bookmark_cannot_save_url">Seda URL-i ei saa järjehoidjatesse lisada.</string>
+    <string name="bookmark_page">Lisa viimati vaadatud leht järjehoidjatesse</string>
+    <string name="bookmark_thumbnail_view">Pisipildid</string>
+    <string name="bookmark_list_view">Nimekiri</string>
+    <string name="current_page">allikast </string> <!-- HT -->
+    <string name="delete_bookmark_warning">Kustutada järjehoidja „<xliff:g id="BOOKMARK">%s</xliff:g>”?</string>
+    <string name="open_all_in_new_window">Ava kõik uutel vahelehtedel</string>
+    <string name="goto_dot">Mine</string>
+    <string name="select_dot">Teksti valimine</string>
+    <string name="close_other_tabs">Sulge teised vahekaardid</string>
+    <string name="bookmarks">Järjehoidjad</string>
+    <string name="shortcut_bookmark">Järjehoidja</string>
+    <string name="shortcut_bookmark_title">Järjehoidja valimine</string>
+    <string name="history">Ajalugu</string>
+    <string name="menu_view_download">Allalaadimised</string>
+    <string name="copy_page_url">Kopeeri lehe URL</string>
+    <string name="share_page">Jaga lehte</string>
+    <string name="menu_save_snapshot">Salvesta ühenduseta lugemiseks</string>
+    <string name="saving_snapshot">Salvestamine \u2026</string>
+    <string name="snapshot_failed">Lehe salvestamine ühenduseta lugemiseks ebaõnnestus.</string>
+    <string name="contextheader_folder_bookmarkcount"><xliff:g id="BOOKMARK_COUNT">%d</xliff:g> järjehoidjat</string>
+    <string name="contextheader_folder_empty">Tühi kaust</string>
+    <string name="contextmenu_openlink">Ava</string>
+    <string name="contextmenu_openlink_newwindow">Ava uuel vahelehel</string>
+    <string name="contextmenu_openlink_newwindow_background">Ava uuel taustavahelehel</string>
+    <string name="contextmenu_savelink">Salvesta link</string>
+    <string name="contextmenu_sharelink">Jaga linki</string>
+    <string name="contextmenu_copy">Kopeeri</string>
+    <string name="contextmenu_copylink">Kopeeri lingi URL</string>
+    <string name="contextmenu_download_image">Salvesta pilt</string>
+    <string name="contextmenu_view_image">Näita pilti</string>
+    <string name="contextmenu_set_wallpaper">Määra taustapildiks</string>
+    <string name="contextmenu_dial_dot">Helista \u2026</string>
+    <string name="contextmenu_add_contact">Lisa kontaktidesse</string>
+    <string name="contextmenu_send_mail">Saada meil</string>
+    <string name="contextmenu_map">Kaart</string>
+    <string name="choosertitle_sharevia">Jaga rakendusega \u2026</string>
+    <string name="clear">Kustutamine</string>
+    <string name="replace">Asenda</string>
+    <string name="browser_bookmarks_page_bookmarks_text">Järjehoidjad</string>
+    <string name="menu_preferences">Seaded</string>
+    <string name="pref_content_title">Lehe sisu</string>
+    <string name="pref_allow_apptabs">Mitme vahekaardi lubamine rakenduse kohta</string>
+    <string name="pref_content_load_images">Piltide laadimine</string>
+    <string name="pref_content_load_images_summary">Piltide näitamine veebilehtedel</string>
+    <string name="pref_content_block_popups">Hüpikakende blokeerimine</string>
+    <string name="pref_content_javascript">JavaScripti lubamine</string>
+    <string name="pref_content_open_in_background">Taustal avamine</string>
+    <string name="pref_content_plugins">Pluginate lubamine</string>
+  <string-array name="pref_content_plugins_choices">
+    <item>Alati</item>
+    <item>Nõudmisel</item>
+    <item>Mitte kunagi</item>
+  </string-array>
+    <string name="pref_content_open_in_background_summary">Uute vahelehtede avamine olemasolevate taga</string>
+    <string name="pref_content_homepage">Avalehe määramine</string>
+    <string name="pref_content_search_engine">Otsingumootori määramine</string>
+    <string name="pref_content_search_engine_summary">Vali otsingumootor</string>
+    <string name="pref_set_homepage_to">Avalehe määramine</string>
+  <string-array name="pref_homepage_choices">
+    <item>Aktiivne leht</item>
+    <item>Tühi leht</item>
+    <item>Vaikeleht</item>
+    <item>Enim külastatud saitide nimekiri</item>
+    <item>Muu</item>
+  </string-array>
+    <string name="pref_content_autofit">Sisu automaatne mahutamine</string>
+    <string name="pref_content_autofit_summary">Veebilehtede vormindamine ekraanile mahtumiseks</string>
+    <string name="pref_general_title">Üldseaded</string>
+    <string name="pref_general_sync_title">Sünkroonimine</string>
+    <string name="pref_general_autofill_title">Automaattäitmine</string>
+    <string name="pref_autofill_enabled">Vormide automaatne täitmine</string>
+    <string name="pref_autofill_enabled_summary">Veebivormide andmetega täitmine ühe puudutusega</string>
+    <string name="pref_autofill_profile_editor">Automaattäitmise tekst</string>
+    <string name="pref_autofill_profile_editor_summary">Veebivormide automaattäitmiseks kasutatava teksti seadistamine</string>
+    <string name="pref_autologin_title">Automaatne sisselogimine Google\'isse</string>
+    <string name="pref_autologin_progress">Google\'i saitidele kontoga <xliff:g id="ID_1">%s</xliff:g> sisselogimine</string>
+    <string name="autologin_bar_text">Logi sisse kasutajanimega</string>
+    <string name="autologin_bar_login_text">Logi sisse</string>
+    <string name="autologin_bar_hide_text">Peida</string>
+    <string name="autologin_bar_error">Sisselogimine ebaõnnestus</string>
+    <string name="autofill_profile_editor_heading">Sisesta siia tekst, mida soovid veebivormide automaatsel täitmisel kasutada.</string>
+    <string name="autofill_profile_editor_name">Täisnimi:</string>
+    <string name="autofill_profile_editor_email_address">E-post:</string>
+    <string name="autofill_profile_editor_company_name">Ettevõtte nimi:</string>
+    <string name="autofill_profile_editor_address_line_1">Aadressi rida 1:</string>
+    <string name="autofill_profile_editor_address_line_1_hint">Tänav, postkast, vahendaja</string>
+    <string name="autofill_profile_editor_address_line_2">Aadressi rida 2:</string>
+    <string name="autofill_profile_editor_address_line_2_hint">Korter, sviit, üksus, maja, korrus jne</string>
+    <string name="autofill_profile_editor_city">Linn/alev:</string>
+    <string name="autofill_profile_editor_state">Osariik/maakond/piirkond:</string>
+    <string name="autofill_profile_editor_zip_code">Sihtnumber:</string>
+    <string name="autofill_profile_editor_country">Riik:</string>
+    <string name="autofill_profile_editor_phone_number">Telefon:</string>
+    <string name="autofill_profile_editor_phone_number_invalid">Vigane telefoninumber.</string>
+    <string name="autofill_profile_editor_save_profile">Salvesta</string>
+    <string name="autofill_profile_successful_save">Automaattäitmise tekst on salvestatud.</string>
+    <string name="autofill_profile_successful_delete">Automaattäitmise tekst kustutatud.</string>
+    <string name="autofill_profile_editor_delete_profile">Kustuta</string>
+    <string name="autofill_setup_dialog_message">Brauser võib selliseid veebivorme automaatselt täita. Soovid sa kohe automaattäitmisel kasutatava teksti sisestada?</string>
+    <string name="autofill_setup_dialog_negative_toast">Automaattäitmise teksti saad alati seadistada, valides Brauseri menüüst Seaded &gt; Üldiseaded.</string>
+    <string name="disable_autofill">Keela automaattäitmine</string>
+    <string name="pref_privacy_security_title">Privaatsus ja turvalisus</string>
+    <string name="pref_privacy_clear_cache">Tühjenda vahemälu</string>
+    <string name="pref_privacy_clear_cache_summary">Kohalikku vahemällu talletatud sisu ja andmebaaside kustutamine</string>
+    <string name="pref_privacy_clear_cache_dlg">Kas kustutada kohalikku vahemällu talletatud sisu ja andmebaasid?</string>
+    <string name="pref_privacy_cookies_title">Küpsised</string>
+    <string name="pref_privacy_clear_cookies">Kustuta kõik küpsised</string>
+    <string name="pref_privacy_clear_cookies_summary">Kõigi brauseri küpsiste kustutamine</string>
+    <string name="pref_privacy_clear_cookies_dlg">Kas kustutada kõik küpsised?</string>
+    <string name="pref_privacy_clear_history">Kustuta ajalugu</string>
+    <string name="pref_privacy_clear_history_summary">Brauseri lehitsemise ajaloo kustutamine</string>
+    <string name="pref_privacy_clear_history_dlg">Kas kustutada brauseri lehitsemise ajalugu?</string>
+    <string name="pref_privacy_formdata_title">Vormide andmed</string>
+    <string name="pref_privacy_clear_form_data">Kustuta vormide andmed</string>
+    <string name="pref_privacy_clear_form_data_summary">Kõigi salvestatud vormide andmete kustutamine</string>
+    <string name="pref_privacy_clear_form_data_dlg">Kas kustutada kõik salvestatud vormide andmed?</string>
+    <string name="pref_privacy_clear_passwords">Kustuta paroolid</string>
+    <string name="pref_privacy_clear_passwords_summary">Kõigi salvestatud paroolide kustutamine</string>
+    <string name="pref_privacy_clear_passwords_dlg">Kas kustutada kõik salvestatud paroolid?</string>
+    <string name="pref_privacy_location_title">Asukohainfo</string>
+    <string name="pref_privacy_enable_geolocation">Ligipääs asukohainfole</string>
+    <string name="pref_privacy_enable_geolocation_summary">Saidid võivad taotleda ligipääsu su asukohainfole</string>
+    <string name="pref_privacy_clear_geolocation_access">Eemalda ligipääs asukohainfole</string>
+    <string name="pref_privacy_clear_geolocation_access_summary">Kõikide veebisaitide asukohainfo ligipääsu eemaldamine</string>
+    <string name="pref_privacy_clear_geolocation_access_dlg">Kas eemaldada kõikide veebisaitide ligipääs asukohainfole?</string>
+    <string name="pref_security_passwords_title">Paroolid</string>
+    <string name="pref_security_remember_passwords">Paroolide salvestamine</string>
+    <string name="pref_security_remember_passwords_summary">Veebisaitidel kasutatud kasutajanimede ja paroolide salvestamine</string>
+    <string name="pref_security_save_form_data">Vormide andmete salvestamine</string>
+    <string name="pref_security_save_form_data_summary">Veebivormidesse sisestatud andmete talletamine hilisemaks kasutamiseks</string>
+    <string name="pref_security_show_security_warning">Turvahoiatuste näitamine</string>
+    <string name="pref_security_show_security_warning_summary">Kui saidi turvalisusega on teada probleeme, näidatakse hoiatust</string>
+    <string name="pref_security_accept_cookies">Küpsistega nõusutmine</string>
+    <string name="pref_security_accept_cookies_summary">Saitidel on lubatud küpsiseid salvestada ja lugeda</string>
+  <string-array name="pref_text_size_choices">
+    <item>Pisike</item>
+    <item>Väike</item>
+    <item>Tavaline</item>
+    <item>Suur</item>
+    <item>Väga suur</item>
+  </string-array>
+    <string name="pref_min_font_size">Fondi miinimumsuurus</string>
+    <string name="pref_min_font_size_value"><xliff:g id="FONT_SIZE">%d</xliff:g> pt</string>
+    <string name="pref_text_zoom">Teksti skaleerimine</string>
+    <string name="pref_zoom_on_double_tap">Suum topeltpuudutusel</string>
+    <string name="pref_force_userscalable">Suumi lubamine</string>
+    <string name="pref_force_userscalable_summary">Ignoreeritakse saidi katseid suumi käitumist kontrollida</string>
+    <string name="pref_inverted_category">Värvide pööramine</string>
+    <string name="pref_inverted">Negatiiv</string>
+    <string name="pref_inverted_summary">Must muutub valgeks ja vastupidi</string>
+    <string name="pref_inverted_contrast">Kontrast</string>
+    <string name="pref_default_zoom">Vaikesuum</string>
+  <string-array name="pref_default_zoom_choices">
+    <item>Kaugel</item>
+    <item>Keskmine</item>
+    <item>Lähedal</item>
+  </string-array>
+    <string name="pref_default_zoom_dialogtitle">Vaikesuum</string>
+    <string name="pref_content_load_page">Lehtede avamine ülevaates</string>
+    <string name="pref_content_load_page_summary">Uute avatud lehtede näitamine ülevaates, mitte suumitult</string> <!-- HT -->
+    <string name="pref_extras_title">Täpsemad seaded</string>
+    <string name="pref_extras_website_settings">Veebisaitide seaded</string>
+    <string name="pref_extras_website_settings_summary">Konkreetsete veebisaitide täpsemad seaded</string>
+    <string name="pref_extras_reset_default_title">Vaikeseadete taastamine</string>
+    <string name="pref_extras_reset_default">Taasta vaikeseaded</string>
+    <string name="pref_extras_reset_default_summary">Brauseri vaikeseadete taastamine</string>
+    <string name="pref_extras_reset_default_dlg">Kas taastada seadete vaikeväärtused?</string>
+    <string name="pref_development_title">Silumine</string>
+    <string name="pref_default_text_encoding">Teksti kodeering</string>
+  <string-array name="pref_default_text_encoding_choices">
+    <item>Latin-1 (ISO-8859-1)</item>
+    <item>Unicode (UTF-8)</item>
+    <item>Hiina (GBK)</item>
+    <item>Hiina (Big5)</item>
+    <item>Jaapani (ISO-2022-JP)</item>
+    <item>Jaapani (Shift_JIS)</item>
+    <item>Jaapani (EUC-JP)</item>
+    <item>Korea (EUC-KR)</item>
+  </string-array>
+    <string name="pref_default_text_encoding_dialogtitle">Teksti kodeering</string>
+    <string name="pref_accessibility_title">Hõlbustus</string>
+    <string name="pref_font_size_category">Teksti suurus</string>
+    <string name="pref_lab_title">Eksperimentaalsed seaded</string>
+    <string name="pref_lab_quick_controls">Kiirnupud</string>
+    <string name="pref_lab_quick_controls_summary">Kiirn. avamiseks, rak. ja URL-riba peitmiseks libistage pöidlaga v või p serval.</string>
+    <string name="pref_use_instant_search">Google Instant</string>
+    <string name="pref_use_instant_search_summary">Google Instant näitab Google\'i ostingu kasutamisel tulemusi juba teksti sisestamise ajal (see võib suurendada andmeside kasutust).</string>
+    <string name="pref_lab_fullscreen">Täisekraan</string>
+    <string name="pref_lab_fullscreen_summary">Täisekraani režiim olekuriba peitmiseks</string>
+    <string name="pref_data_title">Võrgukasutuse haldus</string>
+    <string name="pref_data_preload_title">Otsingutulemuse eellaadimine</string>
+  <string-array name="pref_data_preload_choices">
+    <item>Mitte kunagi</item>
+    <item>Ainult WiFi ühendusega</item>
+    <item>Alati</item>
+  </string-array>
+    <string name="pref_data_preload_summary">Brauseril on lubatud veendumuse korral otsingutulemusi taustal eellaadida</string>
+    <string name="pref_data_preload_dialogtitle">Otsingutulemuse eellaadimine</string>
+    <string name="pref_link_prefetch_title">Veebilehe eellaadimine</string>
+  <string-array name="pref_link_prefetch_choices">
+    <item>Mitte kunagi</item>
+    <item>Ainult WiFi ühendusega</item>
+    <item>Alati</item>
+  </string-array>
+    <string name="pref_link_prefetch_summary">Brauseril on lubatud lingitud veebilehti taustal eellaadida</string>
+    <string name="pref_link_prefetch_dialogtitle">Veebilehe eellaadimine</string>
+    <string name="browserFrameNetworkErrorLabel">Ühenduse probleem</string>
+    <string name="browserFrameFileErrorLabel">Faili probleem</string>
+    <string name="browserFrameFormResubmitLabel"></string>
+    <string name="browserFrameFormResubmitMessage">Leht, mida soovid vaadata, sisaldab lehele juba saadetud andmeid („POSTDATA”). Kui saadad need andmed uuesti, korratakse kõiki lehe vormide tehtud toiminguid (nt otsing või võrguost).</string>
+    <string name="loadSuspendedTitle">Ühendus puudub</string>
+    <string name="loadSuspended">Brauser ei saa seda lehte laadida, kuna Interneti ühendus puudub.</string>
+    <string name="clear_history">Tühjenda ajalugu</string>
+    <string name="browser_history">Hiljuti külastatud lehed</string>
+    <string name="empty_history">Brauseri ajalugu puudub.</string>
+    <string name="go_home">Avaleht</string>
+    <string name="add_new_bookmark">Lisa järjehoidja</string>
+    <string name="add_bookmark_short">Lisa</string>
+    <string name="search_hint">Sisesta otsing või URL</string>
+    <string name="search_button_text">Mine</string>
+    <string name="search_settings_description">Järjehoidjad ja veebiajalugu</string>
+    <string name="popup_window_attempt">Kas lubada saidil hüpikaken avada?</string>
+    <string name="allow">Luba</string>
+    <string name="block">Blokeeri</string>
+    <string name="too_many_windows_dialog_title">Vahelehtede piirarv on saavutatud</string>
+    <string name="too_many_windows_dialog_message">Uut vahekaarti ei saa avada seni, kuni sa ühe sulged.</string>
+    <string name="too_many_subwindows_dialog_title">Hüpikaken on juba avatud</string>
+    <string name="too_many_subwindows_dialog_message">Korraga saab avatud olla ainult üks hüpikaken.</string>
+    <string name="download_no_sdcard_dlg_title" product="nosdcard">USB mäluseade pole kättesaadav</string>
+    <string name="download_no_sdcard_dlg_title" product="default">SD kaart pole kättesaadav</string>
+    <string name="download_no_sdcard_dlg_msg" product="nosdcard">Faili <xliff:g id="FILENAME">%s</xliff:g> allalaadimiseks on vajalik USB mäluseade.</string>
+    <string name="download_no_sdcard_dlg_msg" product="default">Faili <xliff:g id="FILENAME">%s</xliff:g> allalaadimiseks on vajalik SD kaart.</string>
+    <string name="download_sdcard_busy_dlg_title" product="nosdcard">USB mäluseade pole kättesaadav</string>
+    <string name="download_sdcard_busy_dlg_title" product="default">SD kaart pole kättesaadav</string>
+    <string name="download_sdcard_busy_dlg_msg" product="nosdcard">USB mäluseade on hõivatud. Allalaadimiste võimaldamiseks puuduta märguannete laekas käsku „Lülita USB mäluseadme režiim välja”.</string>
+    <string name="download_sdcard_busy_dlg_msg" product="default">SD kaart on hõivatud. Allalaadimiste võimaldamiseks puuduta märguannete laekas käsku „Lülita USB mäluseadme režiim välja”.</string>
+    <string name="cannot_download">Alla laadida saab ainult „http” või „https” URL-idelt.</string>
+    <string name="download_pending">Allalaadimise alustamine \u2026</string>
+    <string name="search_the_web">Otsing veebist</string>
+    <string name="webstorage_outofspace_notification_title">Brauseri salvestusruum on täis</string>
+    <string name="webstorage_outofspace_notification_text">Vaba ruumi tekitamiseks puuduta seda teksti.</string>
+    <string name="webstorage_clear_data_title">Kustuta talletatud andmed</string>
+    <string name="webstorage_clear_data_dialog_message">Kas kustutada kõik selle veebisaidi talletatud andmed?</string>
+    <string name="webstorage_clear_data_dialog_ok_button">OK</string>
+    <string name="webstorage_clear_data_dialog_cancel_button">Tühista</string>
+    <string name="webstorage_origin_summary_mb_stored">MB talletatud teie telefoni</string>
+    <string name="loading_video">Video laadimine \u2026</string>
+    <string name="geolocation_permissions_prompt_message"><xliff:g id="WEBSITE_ORIGIN">%s</xliff:g> soovib teada su asukohta</string>
+    <string name="geolocation_permissions_prompt_share">Jaga asukohainfot</string>
+    <string name="geolocation_permissions_prompt_dont_share">Keeldu</string>
+    <string name="geolocation_permissions_prompt_remember">Eelistus jäetakse meelde</string>
+    <string name="geolocation_permissions_prompt_toast_allowed">Sellel saidil on olemas ligipääs su asukohainfole. Seda saad muuta valides: Seaded &gt; Täpsemad seaded &gt; Veebisaitide seaded.</string>
+    <string name="geolocation_permissions_prompt_toast_disallowed">Sellel saidil puudub juurdepääs teie asukohale. Seda saad muuta valides: Seaded &gt; Täpsemad seaded &gt; Veebisaitide seaded.</string>
+    <string name="geolocation_settings_page_title">Eemalda ligipääs asukohainfole</string>
+    <string name="geolocation_settings_page_summary_allowed">Sellel saidil on hetkel ligipääs su asukohainfole</string>
+    <string name="geolocation_settings_page_summary_not_allowed">Sellel saidil puudub hetkel ligipääs su asukohainfole</string>
+    <string name="geolocation_settings_page_dialog_message">Kas eemaldada selle saidi ligipääs asukohainfole?</string>
+    <string name="geolocation_settings_page_dialog_ok_button">OK</string>
+    <string name="geolocation_settings_page_dialog_cancel_button">Tühista</string>
+    <string name="website_settings_clear_all">Kustuta kõik</string>
+    <string name="website_settings_clear_all_dialog_message">Kustutada kõik veebilehe andmed ja asukohainfo ligipääsuõigused?</string>
+    <string name="website_settings_clear_all_dialog_ok_button">OK</string>
+    <string name="website_settings_clear_all_dialog_cancel_button">Tühista</string>
+    <string name="progress_dialog_setting_wallpaper">Taustapildi seadmine \u2026</string>
+    <string name="defaultBookmarksUpButton">Järjehoidjad</string>
+    <string name="empty_bookmarks_folder">Järjehoidjaid pole</string>
+    <string name="other_bookmarks">Teised järjehoidjad</string>
+    <string name="rlz_access_point">Y1</string>
+    <string name="account_chooser_dialog_title">Konto valimine</string>
+    <string name="import_bookmarks_dialog_title">Sünkroonimine Google\'i kontoga</string>
+    <string name="import_bookmarks_dialog_description">Selle seadme järjehoidjad pole seotud veel ühegi Google\'i kontoga. Järjehoidjate salvestamiseks lisa need kontole. Kui sa ei soovi neid järjehoidjaid sünkroonida, kustuta need.</string>
+    <string name="import_bookmarks_dialog_select_add_account">Lisa hetkel seadmes olevad järjehoidjad kontole ja alusta järjehoidjate sünkroonimist Google\'i kontoga</string>
+    <string name="import_bookmarks_dialog_delete_select_account">Kustuta hetkel seadmes olevad järjehoidjad ja alusta järjehoidjate sünkroonimist Google\'i kontoga</string>
+    <string name="import_bookmarks_dialog_confirm_delete">Kas kustutada hetkel seadmes olevad järjehoidjad ja alustada järjehoidjate sünkroonimist kontoga <xliff:g id="GOOGLE_ACCOUNT">%s</xliff:g>?</string>
+    <string name="import_bookmarks_dialog_confirm_add">Kas lisada hetkel seadmes olevad järjehoidjad ja alustada järjehoidjate sünkroonimist kontoga <xliff:g id="GOOGLE_ACCOUNT">%s</xliff:g>?</string>
+    <string name="import_bookmarks_dialog_remove">Kustuta järjehoidjad</string>
+    <string name="import_bookmarks_wizard_next">Järgmine</string>
+    <string name="import_bookmarks_wizard_previous">Eelmine</string>
+    <string name="import_bookmarks_wizard_cancel">Tühista</string>
+    <string name="import_bookmarks_wizard_done">Valmis</string>
+    <string name="import_bookmarks_dialog_add">Lisa järjehoidjad Google\'i kontole</string>
+    <string name="import_bookmarks_dialog_import">Lisa Androidi järjehoidjad konto <xliff:g id="GOOGLE_ACCOUNT">%s</xliff:g> järjehoidjate hulka</string>
+    <string name="menu_share_url">Jaga</string>
+    <string name="max_tabs_warning">Rohkem vahelehti pole võimalik avada</string>
+    <string name="instant_search_label">Google koos Instant\'iga (Labs)</string>
+    <string name="preview">Eelvaade</string>
+    <string name="local_bookmarks">Kohalikud järjehoidjad</string>
+    <string name="ua_switcher_desktop">Saidi töölaua versioon</string>
+    <string name="permission_preload_label">Tulemuste eellaadimine</string>
+    <string name="empty_snapshots_folder">Salvestatud lehti pole.</string>
+    <string name="remove_snapshot">Kustuta salvestatud leht</string>
+    <string name="snapshot_go_live">Ava võrguversioon</string>
+    <string name="accessibility_button_back">Tagasi liikumine</string>
+    <string name="accessibility_button_forward">Edasi liikumine</string>
+    <string name="accessibility_button_refresh">Lehe värskendamine</string>
+    <string name="accessibility_button_stop">Lehe laadimise peatamine</string>
+    <string name="accessibility_button_addbookmark">Lehe lisamine järjehoidjatesse</string>
+    <string name="accessibility_button_search">Otsing</string>
+    <string name="accessibility_button_voice">Kõnetuvastusega otsingu alustamine</string>
+    <string name="accessibility_button_bookmarks">Järjehoidjad</string>
+    <string name="accessibility_button_closetab">Vahelehe sulgemine</string>
+    <string name="accessibility_button_newtab">Uue vahelehe avamine</string>
+    <string name="accessibility_button_newincognitotab">Uue incognito vahelehe avamine</string>
+    <string name="accessibility_button_clear">Sisestusvälja tühjendamine</string>
+    <string name="accessibility_button_uaswitch">Identifikaatori vahetamine</string>
+    <string name="accessibility_button_go">Mine</string>
+    <string name="accessibility_button_navscreen">Lehtede haldus</string>
+    <string name="accessibility_button_more">Rohkem valikuid</string>
+    <string name="accessibility_state_incognito">Incognito leht</string>
+    <string name="accessibility_state_frozen">Salvestatud leht</string>
+    <string name="accessibility_transition_navscreen">Vahelehtede haldus</string>
+    <string name="accessibility_button_bookmarks_folder_up">Eelmine kaust</string>
+</resources>

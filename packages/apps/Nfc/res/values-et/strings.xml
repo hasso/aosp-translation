@@ -1,0 +1,45 @@
+<!-- Copyright (C) 2013 The CyanogenMod Project
+     Copyright (C) 2013 Hasso Tepper
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">NFC teenus</string>
+    <string name="nfcUserLabel">NFC</string>
+    <string name="inbound_me_profile_title">Kontaktinfo NFC kaudu</string>
+    <string name="inbound_me_profile_text">Kontaktidesse lisamiseks puuduta seda teksti.</string>
+    <string name="outbound_me_profile_title">NFC suhtlus lõpetatud</string>
+    <string name="outbound_me_profile_text">Sellele inimesele oma kontaktandmete andmiseks puuduta seda teksti.</string>
+    <string name="accessibility_nfc_enabled">NFC lubatud.</string>
+    <string name="touch">Beam\'i kasutamiseks puuduta</string>
+    <string name="beam_progress">Sissetulev Beam ühendus \u2026</string>
+    <string name="beam_complete">Beam ühendus lõpetas töö</string>
+    <string name="beam_failed">Beam ühendus ei lõpetanud tüüd</string>
+    <string name="beam_canceled">Beam ühendus on katkestatud</string>
+    <string name="cancel">Katkesta</string>
+    <string name="beam_touch_to_view">Vaatamiseks puuduta</string>
+    <string name="beam_handover_not_supported">Vastuvõtja seade ei toeta suurte failide edastamist Beam ühenduse abil.</string>
+    <string name="connecting_headset">Ühenduse loomine</string>
+    <string name="connected_headset">Ühendatud</string>
+    <string name="connect_headset_failed">Ühendust ei õnnestunud luua</string>
+    <string name="disconnecting_headset">Ühenduse katkestamine</string>
+    <string name="disconnected_headset">Ühendus on katkestatud</string>
+    <string name="pairing_headset">Sidumine</string>
+    <string name="pairing_headset_failed">Sidumine ebaõnnestus</string>
+    <string name="failed_to_enable_bt">Bluetoothi ei saanud sisse lülitada</string>
+    <string name="confirm_pairing">Oled sa kindel, et soobid luua seose Bluetooth seadmega <xliff:g id="DEVICE_NAME">%1$s</xliff:g>?</string>
+    <string name="pair_yes">Jah</string>
+    <string name="pair_no">Ei</string>
+</resources>

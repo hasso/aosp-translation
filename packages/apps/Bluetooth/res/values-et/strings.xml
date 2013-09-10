@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+      Copyright (C) 2013 Hasso Tepper
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="permlab_bluetoothShareManager">ligipääs allalaadimishaldurile</string>
+    <string name="permdesc_bluetoothShareManager">Võimaldab rakendusel pääseda BluetoothShare\'i haldurisse ja kasutada seda failide edastamiseks.</string>
+    <string name="permlab_bluetoothWhitelist">Bluetooth seadmele ligipääsu lubamine</string>
+    <string name="permdesc_bluetoothWhitelist">Lubab rakendusel lisada Bluetooth-seadme ajutiselt lubatud seadmete loendisse, mis võimaldab seadmel saata faile sellesse seadmesse ilma kasutaja kinnituseta.</string>
+    <string name="permlab_handoverStatus">Võta vastu BT-üleandmise edastusi.</string> <!-- HT -->
+    <string name="permdesc_handoverStatus">Võimaldab võtta vastu Bluetoothi üleandmise olekuteavet.</string> <!-- HT -->
+    <string name="bt_share_picker_label">Bluetooth</string>
+    <string name="unknown_device">Tundmatu seade</string>
+    <string name="unknownNumber">Tundmatu</string>
+    <string name="airplane_error_title">Lennurežiim</string>
+    <string name="airplane_error_msg">Bluetoothi ei saa lennurežiimis kasutada.</string>
+    <string name="bt_enable_title"></string>
+    <string name="bt_enable_line1">Bluetoothi teenuste kasutamiseks pead Bluetoothi esmalt sisse lülitama.</string>
+    <string name="bt_enable_line2">Lülitan Bluetoothi kohe sisse?</string>
+    <string name="bt_enable_cancel">Tühista</string>
+    <string name="bt_enable_ok">Lülita sisse</string>
+    <string name="incoming_file_confirm_title">Failiedastus</string>
+    <string name="incoming_file_confirm_content">„<xliff:g id="SENDER">%1$s</xliff:g>“ soovib sulle faili <xliff:g id="FILE">%2$s</xliff:g> (<xliff:g id="SIZE">%3$s</xliff:g>) saata.\n\nKas võtta fail vastu?</string>
+    <string name="incoming_file_confirm_cancel">Keeldu</string>
+    <string name="incoming_file_confirm_ok">Nõustu</string>
+    <string name="incoming_file_confirm_timeout_ok">OK</string>
+    <string name="incoming_file_confirm_timeout_content">„<xliff:g id="SENDER">%1$s</xliff:g>” saadetud faili vastuvõtmisega nõustumiseks mõeldud aeg said läbi.</string>
+    <string name="incoming_file_confirm_Notification_title">Bluetooth jagamine: sissetulev fail</string>
+    <string name="incoming_file_confirm_Notification_caption">Soovid sa selle faili vastu võtta?</string>
+    <string name="incoming_file_toast_msg">Teisest seadmest on saadetud sulle fail. Kinnita, et soovid selle faili vastu võtta.</string>
+    <string name="notification_receiving">Bluetooth jagamine: faili <xliff:g id="FILE">%1$s</xliff:g> vastuvõtmine</string>
+    <string name="notification_received">Bluetooth jagamine: <xliff:g id="FILE">%1$s</xliff:g> vastu võetud</string>
+    <string name="notification_received_fail">Bluetooth jagamine: faili <xliff:g id="FILE">%1$s</xliff:g> ei saadud</string>
+    <string name="notification_sending">Bluetooth jagamine: faili <xliff:g id="FILE">%1$s</xliff:g> saatmine</string>
+    <string name="notification_sent">Bluetooth jagamine: fail <xliff:g id="FILE">%1$s</xliff:g> saadetud</string>
+    <string name="notification_sent_complete">100% lõpetatud</string>
+    <string name="notification_sent_fail">Bluetooth jagamine: faili <xliff:g id="FILE">%1$s</xliff:g> ei saadetud</string>
+    <string name="download_title">Faili liigutamine</string>
+    <string name="download_line1">Saatja: „<xliff:g id="SENDER">%1$s</xliff:g>”</string>
+    <string name="download_line2">Fail: <xliff:g id="FILE">%1$s</xliff:g></string>
+    <string name="download_line3">Faili suurus: <xliff:g id="SIZE">%1$s</xliff:g></string>
+    <string name="download_line4"></string>
+    <string name="download_line5">Faili vastuvõtmine \u2026</string>
+    <string name="download_cancel">Peata</string>
+    <string name="download_ok">Peida</string>
+    <string name="download_fail_line1">Faili ei saadud</string>
+    <string name="download_fail_line2">Fail: <xliff:g id="FILE">%1$s</xliff:g></string>
+    <string name="download_fail_line3">Põhjus: <xliff:g id="REASON">%1$s</xliff:g></string>
+    <string name="download_fail_ok">OK</string>
+    <string name="download_succ_line5">Fail vastu võetud</string>
+    <string name="download_succ_ok">Ava</string>
+    <string name="upload_line1">Saaja: „<xliff:g id="RECIPIENT">%1$s</xliff:g>”</string>
+    <string name="upload_line3">Faili tüüp: <xliff:g id="TYPE">%1$s</xliff:g> (<xliff:g id="SIZE">%2$s</xliff:g>)</string>
+    <string name="upload_line5">Faili saatmine \u2026</string>
+    <string name="upload_succ_line5">Fail saadetud</string>
+    <string name="upload_succ_ok">OK</string>
+    <string name="upload_fail_line1">Faili ei saadetud kasutajale „<xliff:g id="RECIPIENT">%1$s</xliff:g>”.</string>
+    <string name="upload_fail_line1_2">Fail: <xliff:g id="FILE">%1$s</xliff:g></string>
+    <string name="upload_fail_ok">Proovi uuesti</string>
+    <string name="upload_fail_cancel">Sulge</string>
+    <string name="bt_error_btn_ok">OK</string>
+    <string name="unknown_file">Tundmatu fail</string>
+    <string name="unknown_file_desc">Seadmes pole rakendust, mis käsitleks seda tüüpi faile. \n</string>
+    <string name="not_exist_file">Fail puudub</string>
+    <string name="not_exist_file_desc">Faili ei ole olemas. \n</string>
+    <string name="enabling_progress_title">Palun oota \u2026</string>
+    <string name="enabling_progress_content">Bluetoothi sisselülitamine \u2026</string>
+    <string name="bt_toast_1">Fail võetakse vastu. Vaadake edenemist märguannete laekas.</string>
+    <string name="bt_toast_2">Faili ei saa vastu võtta.</string>
+    <string name="bt_toast_3">Faili vastuvõtmine saatjalt „<xliff:g id="SENDER">%1$s</xliff:g>” peatatud</string>
+    <string name="bt_toast_4">Faili saatmine saajale „<xliff:g id="RECIPIENT">%1$s</xliff:g>”</string>
+    <string name="bt_toast_5"><xliff:g id="NUMBER">%1$s</xliff:g> faili saatmine saajale „<xliff:g id="RECIPIENT">%2$s</xliff:g>”</string>
+    <string name="bt_toast_6">Faili saatmine saajale „<xliff:g id="RECIPIENT">%1$s</xliff:g>” peatatud</string>
+    <string name="bt_sm_2_1" product="nosdcard">USB mäluseadmel pole saatjalt „<xliff:g id="SENDER">%1$s</xliff:g>” saadud faili salvestamiseks piisavalt ruumi</string>
+    <string name="bt_sm_2_1" product="default">SD kaardil pole saatjalt „<xliff:g id="SENDER">%1$s</xliff:g>” saadud faili salvestamiseks piisavalt ruumi</string>
+    <string name="bt_sm_2_2">Vajalik ruum: <xliff:g id="SIZE">%1$s</xliff:g></string>
+    <string name="ErrorTooManyRequests">Liiga palju päringuid on juba töötlemisel. Proovi hiljem uuesti.</string>
+    <string name="status_pending">Faili edastamist pole veel käivitatud.</string>
+    <string name="status_running">Faili edastamine on pooleli.</string>
+    <string name="status_success">Faili edastamine edukalt lõpetatud.</string>
+    <string name="status_not_accept">Sisu pole toetatud.</string>
+    <string name="status_forbidden">Sihtseade on edastuse keelanud.</string>
+    <string name="status_canceled">Kasutaja katkestas faili edastamise.</string>
+    <string name="status_file_error">Probleem salvestusruumiga.</string>
+    <string name="status_no_sd_card" product="nosdcard">USB mäluseade puudub.</string>
+    <string name="status_no_sd_card" product="default">SD kaart puudub. Edastatud failide salvestamiseks sisesta SD kaart.</string>
+    <string name="status_connection_error">Ühendus loomine ebaõnnestus.</string>
+    <string name="status_protocol_error">Päringut pole võimalik õigesti käsitleda.</string>
+    <string name="status_unknown_error">Tundmatu viga.</string>
+    <string name="btopp_live_folder">Bluetooth vastu võetud</string>
+    <string name="download_success"><xliff:g id="FILE_SIZE">%1$s</xliff:g> vastuvõtmine lõpetatud.</string>
+    <string name="upload_success"><xliff:g id="FILE_SIZE">%1$s</xliff:g> saatmine lõpetatud.</string>
+    <string name="inbound_history_title">Sisenevad edastused</string>
+    <string name="outbound_history_title">Väljuvad edastused</string>
+    <string name="no_transfers">Edastuste ajalugu on tühi.</string>
+    <string name="transfer_clear_dlg_msg">Kõik kirjed eemaldatakse nimekirjast.</string>
+    <string name="outbound_noti_title">Bluetooth jagamine: saadetud failid</string>
+    <string name="inbound_noti_title">Bluetooth jagamine: vastuvõetud failid</string>
+    <string name="noti_caption"><xliff:g id="SUCCESSFUL_NUMBER_0">%1$s</xliff:g> õnnestumist, <xliff:g id="UNSUCCESSFUL_NUMBER">%2$s</xliff:g> ebaõnnestumist.</string>
+    <string name="transfer_menu_clear_all">Tühjenda nimekiri</string>
+    <string name="transfer_menu_open">Ava</string>
+    <string name="transfer_menu_clear">Eemalda nimekirjast</string>
+    <string name="transfer_clear_dlg_title">Kustuta</string>
+</resources>

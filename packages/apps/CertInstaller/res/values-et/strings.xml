@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2009 The Android Open Source Project
+      Copyright (C) 2013 Hasso Tepper
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Sertifikaadi paigaldaja</string>
+    <string name="pick_file_title">Sertifikaadi valimine</string>
+    <string name="pkcs12_password_dialog_title">Sertifikaadi lahtipakkimine</string>
+    <string name="extracting_pkcs12">Lahtipakkimine \u2026</string>
+    <string name="pkcs12_file_password_dialog_title">%s-st lahtipakkimine</string>
+    <string name="name_credential_dialog_title">Sertifikaadi nimi</string>
+    <string name="credential_name">Sertifikaadi nimi:</string>
+    <string name="credential_password">Sertifikaatide ekstraktimiseks sisestage parool.</string>
+    <string name="credential_info">Pakett sisaldab:</string>
+    <string name="p12_description">Sertifikaadid PKCS12 konteineris.</string>
+    <string name="one_userkey">üks kasutaja võti</string>
+    <string name="one_usercrt">üks kasutaja sertifikaat</string>
+    <string name="one_cacrt">üks CA sertifikaat</string>
+    <string name="n_cacrts">%d CA sertifikaati</string>
+    <string name="password_error">Sisesta korrektne parool.</string>
+    <string name="password_empty_error">Sisesta parool.</string>
+    <string name="name_empty_error">Sisesta nimi.</string>
+    <string name="name_char_error">Sisesta nimi, mis sisaldab ainult tähti ja numbreid.</string>
+    <string name="storage_error">Sertifikaati ei saanud salvestada. Uuesti proovimiseks puudutage nuppu OK.</string>
+    <string name="unable_to_save_cert">Sertifikaati ei õnnestunud salvestada. Autentimisandmete salvestamine on keelatud või valesti initsialiseeritud.</string>
+    <string name="cert_not_saved">Sertifikaati ei paigaldatud.</string>
+    <string name="no_cert_to_saved">Sertifikaat puudub.</string>
+    <string name="invalid_cert">Sertifikaat on vigane.</string>
+    <string name="cert_is_added"><xliff:g id="CREDENTIAL">%s</xliff:g> on paigaldatud.</string>
+    <string name="cert_too_large_error">Kuna sertifikaat on liiga suur, ei saanud seda paigaldada.</string>
+    <string name="cert_missing_error">Kuna sertifikaadi faili ei leitud, ei saanud seda paigaldada.</string>
+    <string name="cert_read_error">Kuna sertifikaadi fail pole loetav, ei saanud seda paigaldada.</string>
+    <string name="no_cert_file_found" product="nosdcard">USB mäluseadmelt ei leitud sertifikaadifaili.</string>
+    <string name="no_cert_file_found" product="default">SD kaardilt ei leitud ühtegi sertifikaati.</string>
+    <string name="sdcard_not_present" product="nosdcard">USB mäluseade pole kättesaadav.</string>
+    <string name="sdcard_not_present" product="default">SD kaart pole kättesaadav.</string>
+    <string name="only_primary_user_allowed">Ainult seadme omanik võib sertifikaate paigaldada.</string>
+</resources>

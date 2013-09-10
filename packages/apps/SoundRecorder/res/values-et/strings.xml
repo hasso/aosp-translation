@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+      Copyright (C) 2013 Hasso Tepper
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Helisalvesti</string>
+    <string name="record_your_message">Oma sõnumi salvestamine</string>
+    <string name="message_recorded">Sõnum on salvestatud</string>
+    <string name="review_message">Sõnumi läbikuulamine</string>
+    <string name="recording">Salvestamine</string>
+    <string name="recording_stopped">Salvestamine peatunud</string>
+    <string name="storage_is_full">Salvestusruum on täis</string>
+    <string name="max_length_reached">Maksimaalne pikkus on saavutatud</string>
+    <string name="insert_sd_card" product="nosdcard">Ühenda USB mäluseade</string>
+    <string name="insert_sd_card" product="default">Sisesta SD kaart</string>
+    <string name="min_available">Veel <xliff:g id="MINUTES">%d</xliff:g> min</string>
+    <string name="sec_available">Veel <xliff:g id="SECONDS">%d</xliff:g> s</string>
+    <string name="accept">Valmis</string>
+    <string name="discard">Loobu</string>
+    <string name="button_ok">OK</string>
+    <!-- no translation found for audio_db_title_format (7912182366970749312) -->
+    <skip />
+    <string name="audio_db_artist_name">Su salvestised</string>
+    <string name="audio_db_album_name">Helisalvestised</string>
+    <string name="audio_db_playlist_name">Minu salvestised</string>
+    <string name="error_sdcard_access" product="nosdcard">USB mäluseadmele ei õnnestu ligi pääseda.</string>
+    <string name="error_sdcard_access" product="default">SD kaardile ei õnnestu ligi pääseda.</string>
+    <string name="error_app_internal">Sisemine viga rakenduses.</string>
+    <string name="error_mediadb_new_record">Salvestatud heli ei õnnestunud salvestusseadmele kirjutada.</string>
+</resources>

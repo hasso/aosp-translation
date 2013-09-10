@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+      Copyright (C) 2013 Hasso Tepper
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label">Kell</string>
+    <string name="alarm_list_title">Alarmid</string>
+    <string name="add_alarm">Lisa alarm</string>
+    <string name="menu_desk_clock">Lauakell</string>
+    <string name="menu_edit_alarm">Muuda alarmi</string>
+    <string name="delete_alarm">Kustuta alarm</string>
+    <string name="enable_alarm">Lülita alarm sisse</string>
+    <string name="disable_alarm">Lülita alarm välja</string>
+    <string name="delete_alarm_confirm">Kas kustutada see alarm?</string>
+    <string name="show_clock">Näita kella</string>
+    <string name="hide_clock">Peida kell</string>
+    <string name="label">Tekst</string>
+    <string name="default_label">Äratus</string>
+    <string name="set_alarm">Alarmi seadmine</string>
+    <string name="alarm_vibrate">Vibreerimine</string>
+    <string name="alarm_repeat">Kordus</string>
+    <string name="alert">Alarmi helin</string>
+    <string name="ringtone">Helin</string>
+    <string name="time">Kellaaeg</string>
+    <string name="alarm_alert_dismiss_text">Loobu</string>
+    <string name="alarm_alert_alert_silenced">Alarm vaigistamistati pärast <xliff:g id="MINUTES">%d</xliff:g> minutit.</string>
+    <string name="alarm_alert_snooze_text">Lükka edasi</string>
+    <string name="alarm_alert_snooze_set">Edasi lükatud <xliff:g id="MINUTES">%d</xliff:g> minutiks.</string>
+    <string name="alarm_alert_snooze_until">Edasi lükatud kuni <xliff:g id="TIME">%s</xliff:g></string>
+  <string-array name="timer_notifications">
+    <item>Jäänud vähem kui minut</item>
+    <item>Jäänud <xliff:g id="HOURS">%1$s</xliff:g></item>
+    <item>Jäänud <xliff:g id="MINUTES">%2$s</xliff:g></item>
+    <item>Jäänud <xliff:g id="HOURS">%1$s</xliff:g> <xliff:g id="MINUTES">%2$s</xliff:g></item>
+  </string-array>
+  <string-array name="alarm_set">
+    <item>Alarmi käivitumiseni on vähem kui 1 minut.</item>
+    <item>Alarmi käivitumiseni on <xliff:g id="DAYS">%1$s</xliff:g>.</item>
+    <item>Alarmi käivitumiseni on <xliff:g id="HOURS">%2$s</xliff:g>.</item>
+    <item>Alarmi käivitumiseni on <xliff:g id="DAYS">%1$s</xliff:g> ja <xliff:g id="HOURS">%2$s</xliff:g>.</item>
+    <item>Alarmi käivitumiseni on <xliff:g id="MINUTES">%3$s</xliff:g>.</item>
+    <item>Alarmi käivitumiseni on <xliff:g id="DAYS">%1$s</xliff:g> ja <xliff:g id="MINUTES">%3$s</xliff:g>.</item>
+    <item>Alarmi käivitumiseni on <xliff:g id="HOURS">%2$s</xliff:g> ja <xliff:g id="MINUTES">%3$s</xliff:g>.</item>
+    <item>Alarmi käivitumiseni on <xliff:g id="DAYS">%1$s</xliff:g>, <xliff:g id="HOURS">%2$s</xliff:g> ja <xliff:g id="MINUTES">%3$s</xliff:g>.</item>
+  </string-array>
+    <string name="day">1 päev</string>
+    <string name="days"><xliff:g id="DAYS">%s</xliff:g> päeva</string>
+    <string name="hour">1 tund</string>
+    <string name="hours"><xliff:g id="HOURS">%s</xliff:g> tundi</string>
+    <string name="minute">1 minut</string>
+    <string name="minutes"><xliff:g id="MINUTES">%s</xliff:g> minutit</string>
+    <string name="every_day">Iga päev</string>
+    <string name="never">Mitte kunagi</string>
+    <string name="day_concat">, </string>
+    <string name="clock_instructions">Kella valimine</string>
+    <string name="analog_gadget">Analoogkell</string>
+    <string name="help">abi</string>
+    <string name="settings">Seaded</string>
+    <string name="snooze_duration_title">Äratuse edasilükkamise aeg</string>
+  <plurals name="snooze_duration">
+    <item quantity="one">1 minut</item>
+    <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> minutit</item>
+  </plurals>
+  <plurals name="snooze_picker_label">
+    <item quantity="one">minut</item>
+    <item quantity="other">minutit</item>
+  </plurals>
+    <string name="auto_silence_title">Vaigistamine</string>
+    <string name="auto_silence_summary"><xliff:g id="MINUTES">%d</xliff:g> minutit</string>
+    <string name="auto_silence_never">Mitte kunagi</string>
+  <string-array name="auto_silence_entries">
+    <item>5 minutit</item>
+    <item>10 minutit</item>
+    <item>15 minutit</item>
+    <item>20 minutit</item>
+    <item>25 minutit</item>
+    <item>30 minutit</item>
+    <item>Mitte kunagi</item>
+  </string-array>
+    <string name="done">Valmis</string>
+    <string name="revert">Ennista</string>
+    <string name="delete">Kustuta</string>
+    <string name="alarm_volume_title">Alarmi helitugevus</string>
+    <string name="silent_alarm_summary">Hääletu</string>
+    <string name="alarm_notify_text">Lükka alarm edasi või tühista see.</string>
+    <string name="alarm_notify_snooze_label"><xliff:g id="LABEL">%s</xliff:g> (edasi lükatud)</string>
+    <string name="alarm_notify_snooze_text">Alarmi ajaks on seatud <xliff:g id="TIME">%s</xliff:g>. Tühistamiseks puuduta.</string>
+    <string name="volume_button_setting_title">Helitugevuse nupud</string>
+    <string name="volume_button_dialog_title">Nuppude mõju</string>
+  <string-array name="volume_button_setting_entries">
+    <item>Lükkavad alarmi edasi</item>
+    <item>Tühistavad alarmi</item>
+    <item>Ei tee midagi</item>
+  </string-array>
+    <string name="default_ringtone_setting_title">Vaikehelina määramine</string>
+    <string name="alarm_button_description">Alarmid</string>
+    <string name="gallery_button_description">Galerii</string>
+    <string name="music_button_description">Muusika</string>
+    <string name="nightmode_button_description">Tumendamine</string>
+    <string name="home_button_description">Käivitaja</string>
+    <string name="desk_clock_button_description">Kella ekraan</string>
+    <string name="label_description">Tekst</string>
+    <string name="ringtone_description">Helin</string>
+    <string name="battery_charging_level"><xliff:g id="NUMBER">%d</xliff:g> <xliff:g id="PERCENT">%%</xliff:g></string>
+    <string name="weather_fetch_failure">Ilmateade ei ole praegu saadaval.</string>
+    <string name="alarm_klaxon_service_desc">Kella alarmide heli taasesitamise teenus.</string>
+    <string name="loading_ringtone">Helina laadimine \u2026</string>
+    <string name="timer_ring_service_desc">Kella taimerite heli taasesitamise teenus.</string>
+    <string name="control_set_alarm">Äratuse määramine</string>
+    <!-- no translation found for control_set_alarm_with_existing (3359285346655630660) -->
+    <skip />
+    <string name="menu_timer">Taimer</string>
+    <string name="menu_clock">Kell</string>
+    <string name="menu_stopwatch">Stopper</string>
+    <string name="button_alarms">Alarmid</string>
+    <string name="button_cities">Linnad</string>
+    <string name="button_menu">Veel valikuid</string>
+    <string name="menu_item_settings">Seaded</string>
+    <string name="menu_item_help">Abi</string>
+    <string name="menu_item_night_mode">Öörežiim</string>
+    <string name="sw_resume_button">Jätka</string>
+    <string name="sw_start_button">Käivita</string>
+    <string name="sw_stop_button">Peata</string>
+    <string name="sw_lap_button">Ring</string>
+    <string name="sw_reset_button">Lähtesta</string>
+    <string name="sw_share_button">Jaga</string>
+    <string name="hours_label">t</string>
+    <string name="minutes_label">m</string>
+    <string name="seconds_label">s</string>
+    <string name="hours_label_description">tunnid</string>
+    <string name="minutes_label_description">minutid</string>
+    <string name="seconds_label_description">sekundid</string>
+    <string name="zero">0</string>
+    <string name="sw_share_main">Minu aeg on <xliff:g id="TIME">%s</xliff:g></string>
+    <string name="sw_share_laps">Ringi ajad:</string>
+    <string name="sw_notification_lap_number"><xliff:g id="NUMBER">%d</xliff:g>. ring</string>
+  <string-array name="stopwatch_format_set">
+    <item><xliff:g id="M">%2$d</xliff:g> min <xliff:g id="S">%3$02d</xliff:g>,<xliff:g id="D">%4$02d</xliff:g> s</item>
+    <item><xliff:g id="M">%2$02d</xliff:g> min <xliff:g id="S">%3$02d</xliff:g>,<xliff:g id="D">%4$02d</xliff:g> s</item>
+    <item><xliff:g id="H">%1$d</xliff:g> t <xliff:g id="M">%2$02d</xliff:g> min <xliff:g id="S">%3$02d</xliff:g>,<xliff:g id="D">%4$02d</xliff:g> s</item>
+    <item><xliff:g id="H">%1$02d</xliff:g> t <xliff:g id="M">%2$02d</xliff:g> min <xliff:g id="S">%3$02d</xliff:g>,<xliff:g id="D">%4$02d</xliff:g> s</item>
+    <item><xliff:g id="H">%1$03d</xliff:g> t <xliff:g id="M">%2$02d</xliff:g> min <xliff:g id="S">%3$02d</xliff:g>,<xliff:g id="D">%4$02d</xliff:g> s</item>
+  </string-array>
+  <plurals name="Nhours_description">
+    <item quantity="one">1 tund</item>
+    <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> tundi</item>
+  </plurals>
+  <plurals name="Nminutes_description">
+    <item quantity="one">1 minut</item>
+    <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> minutit</item>
+  </plurals>
+  <plurals name="Nseconds_description">
+    <item quantity="one">1 sekund</item>
+    <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> sekundit</item>
+  </plurals>
+    <string name="timer_add_timer">Taimeri lisamine</string>
+    <string name="timer_start">Alustamine</string>
+    <string name="timer_delete">Kustutamine</string>
+    <string name="timer_plus_one">1 minuti lisamine</string>
+    <string name="timer_stop">Peatamine</string>
+    <string name="timer_reset">Lähtestamine</string>
+    <string name="timer_cancel">Tühistamine</string>
+    <string name="timer_times_up">Aeg on läbi</string>
+    <string name="timer_notification_label">Taimer</string>
+  <string-array name="sw_share_strings">
+    <item>Olete ülikiire.</item>
+    <item>Nautige oma töö vilju.</item>
+    <item>Androidid on kiired, aga mitte nii kiired kui teie!</item>
+    <item>Oeh.</item>
+    <item>L33t aeg.</item>
+    <item>Milline imeline kiirus.</item>
+    <item>Teeme uuesti ajahüpe.</item>
+    <item>Lihtsalt hüpe vasakule.</item>
+    <item>Naudite kiirust.</item>
+    <item>Valguse kiirus.</item>
+  </string-array>
+  <plurals name="timers_num">
+    <item quantity="one">1 minut</item>
+    <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> taimerit</item>
+  </plurals>
+    <string name="home_label">Kodu</string>
+    <string name="cities_activity_title">Linnad</string>
+    <string name="alarm_on">SEES</string>
+    <string name="alarm_off">VÄLJAS</string>
+    <string name="clock_settings">KELL</string>
+    <string name="clock_style">Stiil</string>
+  <string-array name="clock_style_entries">
+    <item>Analoogkell</item>
+    <item>Digitaalne</item>
+  </string-array>
+    <string name="automatic_home_clock">Automaatne kodu kell</string>
+    <string name="automatic_home_clock_summary">Kui reisid teise ajavööndisse jäävas riiki, lisatakse kell koduse vööndiajaga</string>
+    <string name="home_time_zone">Kodune ajavöönd</string>
+    <string name="home_time_zone_title">Kodune ajavöönd</string>
+    <string name="time_picker_cancel">Tühista</string>
+    <string name="time_picker_set">OK</string>
+    <string name="time_picker_time_seperator">:</string>
+    <string name="time_picker_ampm_label">--</string>
+    <string name="time_picker_00_label">:00</string>
+    <string name="time_picker_30_label">:30</string>
+  <string-array name="timezone_labels">
+    <item>Marshalli saared</item>
+    <item>Midway saared</item>
+    <item>Hawaii</item>
+    <item>Alaska</item>
+    <item>Vaikse ookeani aeg</item>
+    <item>Tijuana</item>
+    <item>Arizona</item>
+    <item>Chihuahua</item>
+    <item>Kaljumäestiku aeg</item>
+    <item>Kesk-Ameerika</item>
+    <item>Kesk-Ameerika aeg</item>
+    <item>Mexico</item>
+    <item>Saskatchewan</item>
+    <item>Bogota</item>
+    <item>Ida-Ameerika aeg</item>
+    <item>Venezuela</item>
+    <item>Atlandi aeg (Barbados)</item>
+    <item>Atlandi aeg (Kanada)</item>
+    <item>Manaus</item>
+    <item>Santiago</item>
+    <item>Newfoundland</item>
+    <item>Brasiilia</item>
+    <item>Buenos Aires</item>
+    <item>Gröönimaa</item>
+    <item>Montevideo</item>
+    <item>Kesk-Atlandi</item>
+    <item>Assoorid</item>
+    <item>Roheneemesaared</item>
+    <item>Casablanca</item>
+    <item>London, Dublin</item>
+    <item>Amsterdam, Berliin</item>
+    <item>Belgrad</item>
+    <item>Brüssel</item>
+    <item>Sarajevo</item>
+    <item>Windhoek</item>
+    <item>Lääne-Aafrika aeg</item>
+    <item>Amman, Jordaania</item>
+    <item>Ateena, Istanbul</item>
+    <item>Beirut, Liibanon</item>
+    <item>Kairo</item>
+    <item>Helsingi</item>
+    <item>Jeruusalemm</item>
+    <item>Minsk</item>
+    <item>Harare</item>
+    <item>Bagdad</item>
+    <item>Moskva</item>
+    <item>Kuveit</item>
+    <item>Nairobi</item>
+    <item>Teheran</item>
+    <item>Bakuu</item>
+    <item>Thbilisi</item>
+    <item>Jerevan</item>
+    <item>Dubai</item>
+    <item>Kabul</item>
+    <item>Islamabad, Karachi</item>
+    <item>Uralsk</item>
+    <item>Jekaterinburg</item>
+    <item>Kolkata</item>
+    <item>Sri Lanka</item>
+    <item>Katmandu</item>
+    <item>Astana</item>
+    <item>Yangon</item>
+    <item>Krasnojarsk</item>
+    <item>Bangkok</item>
+    <item>Peking</item>
+    <item>Hongkong</item>
+    <item>Irkutsk</item>
+    <item>Kuala Lumpur</item>
+    <item>Perth</item>
+    <item>Taipei</item>
+    <item>Sŏul</item>
+    <item>Tokyo, Osaka</item>
+    <item>Jakutsk</item>
+    <item>Adelaide</item>
+    <item>Darwin</item>
+    <item>Brisbane</item>
+    <item>Hobart</item>
+    <item>Sydney, Canberra</item>
+    <item>Vladivostok</item>
+    <item>Guam</item>
+    <item>Magadan</item>
+    <item>Auckland</item>
+    <item>Fidži</item>
+    <item>Tonga</item>
+  </string-array>
+    <string name="alarm_settings">ALARMID</string>
+    <string name="see_all">Näita kõiki \u2026</string>
+    <string name="stopwatch_service_desc">Märguandeid käitav stopperiteenus.</string>
+    <string name="swn_stopped">Peatatud</string>
+    <string name="description_direction_right">Alarmi tühistamiseks tõmba sõrmega ekraanil vasakult paremale</string>
+    <string name="description_direction_left">Alarmi edasilükkamiseks tõmba sõrmega ekraanil paremalt vasakule</string>
+    <string name="description_direction_up">Alarmi tühistamiseks tõmba sõrmega ekraanil vasakult paremale</string>
+    <string name="description_direction_down">Alarmi edasilükkamiseks tõmba sõrmega ekraanil paremalt vasakule</string>
+    <string name="timer_stopped">Taimer on peatatud</string>
+    <string name="timers_stopped"><xliff:g id="NUMBER">%d</xliff:g> taimerit on peatatud</string>
+    <string name="all_timers_stopped_notif">Taimerite vaatamiseks puuduta seda teksti</string>
+    <string name="timers_in_use"><xliff:g id="NUMBER">%d</xliff:g> taimerit</string>
+    <string name="next_timer_notif">Järgmine taimer: <xliff:g id="TIME_REMAINING">%s</xliff:g></string>
+    <string name="screensaver_settings">Uneseaded</string>
+    <string name="night_mode_title">Öörežiim</string>
+    <string name="night_mode_summary">Väga hämar ekraan (pimedate ruumide jaoks)</string>
+    <string name="expand_alarm">Alarmi laiendamine</string>
+    <string name="collapse_alarm">Alarmi ahendamine</string>
+    <string name="alarm_undo">Tagasi võtmine</string>
+    <string name="alarm_deleted">Alarm on kustutatud.</string>
+    <string name="slash"> / </string>
+    <string name="world_day_of_week_label"> / <xliff:g id="LABEL">%s</xliff:g></string>
+    <string name="next_alarm_description">Järgmine alarm: <xliff:g id="ALARM_TIME">%s</xliff:g></string>
+    <string name="label_unlabeled"></string>
+    <string name="alarms_selected"><xliff:g id="ALARMS">%d</xliff:g> valitud alarmi</string>
+    <string name="deleted_message">Kustutatud</string>
+  <plurals name="alarm_delete_confirmation">
+    <item quantity="one">Kas kustutada valitud alarm?</item>
+    <item quantity="other">Kas kustutada valitud alarmid?</item>
+  </plurals>
+    <string name="timer_delete_confirmation">Kas kustutada see taimer?</string>
+    <string name="city_delete_confirmation">Kas eemalda see linn?</string>
+    <string name="digital_gadget">Digitaalkell</string>
+</resources>

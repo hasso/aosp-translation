@@ -1,0 +1,168 @@
+<!-- Copyright (C) 2013 The CyanogenMod Project
+     Copyright (C) 2013 Hasso Tepper
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="short_app_name">Filmistuudio</string>
+    <string name="full_app_name">Androidi filmistuudio</string>
+    <string name="editor_loading_project">Projekti laadimine \u2026</string>
+    <string name="editor_no_project">Ühtegi projekti ei leitud.</string>
+    <string name="editor_add">Lisa</string>
+    <string name="editor_import_video">Impordi videoklipp</string>
+    <string name="editor_import_image">Impordi pilt</string>
+    <string name="editor_import_audio">Impordi muusika</string>
+    <string name="editor_share_movie">Jaga filmi</string>
+    <string name="editor_export_movie">Ekspordi film</string>
+    <string name="editor_play_exported_movie">Esita eksporditud film</string>
+    <string name="editor_change_aspect_ratio">Muuda pildi külgede suhet</string>
+    <string name="editor_edit_project_name">Muuda projekti nime</string>
+    <string name="editor_delete_project">Kustuta projekt</string>
+    <string name="editor_capture_video">Salvesta video</string>
+    <string name="editor_capture_image">Pildista</string>
+    <string name="editor_delete_project_question">Soovid sa selle projekti kustutada?</string>
+    <string name="editor_zero_time_stamp">00:00:00.0</string>
+    <string name="editor_remove_audio_track_question">Soovid sa selle audioraja eemaldada?</string>
+    <string name="editor_title_menu_header">Pealkiri</string>
+    <string name="editor_add_overlay">Lisa pealkiri</string>
+    <string name="editor_edit_overlay">Muuda pealkirja</string>
+    <string name="editor_remove_overlay">Eemalda pealkiri</string>
+    <string name="editor_remove_overlay_question">Soovid sa selle ülekatte eemaldada?</string>
+    <string name="editor_change_rendering_mode">Muuda renderdamise režiimi</string>
+    <string name="editor_remove_transition_question">Soovid sa selle ülemineku eemaldada?</string>
+    <string name="editor_remove_effect_question">Soovid sa selle efekti eemaldada?</string>
+    <string name="editor_remove_video_question">Soovid sa selle videoklipi eemaldada?</string>
+    <string name="editor_remove_image_question">Soovid sa selle pildi eemaldada?</string>
+    <string name="editor_effect_menu_header">Efekt</string>
+    <string name="editor_add_effect">Lisa efekt</string>
+    <string name="editor_change_effect">Muuda efekti</string>
+    <string name="editor_remove_effect">Eemalda efekt</string>
+    <string name="editor_pan_zoom_effect">Panoraamsuum</string>
+    <string name="editor_gradient_effect">Gradient</string>
+    <string name="editor_sepia_effect">Seepia</string>
+    <string name="editor_negative_effect">Negatiiv</string>
+    <string name="editor_no_effect">Efekt puudub</string>
+    <string name="editor_add_begin_transition">Üleminek klippi sisse</string>
+    <string name="editor_add_end_transition">Üleminek klipist välja</string>
+    <string name="editor_change_transition">Muuda üleminekut</string>
+    <string name="editor_video_load">Videoklipi allalaadimine on alanud. Sulle antakse märku, kui see on lõppenud.</string>
+    <string name="editor_image_load">Pildi allalaadimine on alanud. Sulle antakse märku, kui see on lõppenud.</string>
+    <string name="editor_transition_title">Üleminek</string>
+    <string name="editor_enable_loop_audio_track">Korda</string>
+    <string name="editor_disable_loop_audio_track">Ära korda</string>
+    <string name="editor_mute">Vaigista</string>
+    <string name="editor_unmute">Tühista vaigistus</string>
+    <string name="audio_track_menu_duck"><i>Ducking</i></string>
+    <string name="projects_new_project">Loo uus projekt</string>
+    <string name="projects_project_name">Projekti nimi</string>
+    <string name="aspect_ratio_11_9">11 x 9</string>
+    <string name="aspect_ratio_16_9">16 x 9</string>
+    <string name="aspect_ratio_3_2">3 x 2</string>
+    <string name="aspect_ratio_4_3">4 x 3</string>
+    <string name="aspect_ratio_5_3">5 x 3</string>
+    <string name="editor_storage_not_available">Projekti ei õnnestu luua, sest salvestusruumile puudub ligipääs.</string>
+    <string name="editor_create_error">Vea tõttu ei õnnestu projekti luua.</string>
+    <string name="editor_load_error">Vea tõttu ei õnnestu projekti laadida. Kas soovid projekti kustutada?</string>
+    <string name="editor_aspect_ratio_error">Pildi külgede suhet ei õnnestu muuta.</string>
+    <string name="editor_apply_theme_error">Teemat ei õnnestu rakendada.</string>
+    <string name="editor_export_error">Filmi ei õnnestu eksportida vea tõttu.</string>
+    <string name="editor_saved_error">Projekti ei õnnestu salvestada.</string>
+    <string name="editor_release_error">Vea tõttu ei õnnestu projekti väljastada.</string>
+    <string name="editor_delete_error">Vea tõttu ei õnnestu projekti kustutada.</string>
+    <string name="editor_add_video_clip_error">Teie projektile ei õnnestu videoklippe lisada.</string>
+    <string name="editor_add_image_error">Projektile ei õnnestu pilti lisada.</string>
+    <string name="editor_move_media_item_error">Üksust ei õnnestu liigutada.</string>
+    <string name="editor_remove_media_item_error">Üksust ei õnnestu eemaldada.</string>
+    <string name="editor_set_rendering_mode_error">Renderdusrežiimi ei õnnestu määrata.</string>
+    <string name="editor_set_media_item_duration_error">Kujutise kestust ei õnnestu määrata.</string>
+    <string name="editor_set_media_item_boundaries_error">Videoklipi piire ei õnnestu määrata.</string>
+    <string name="editor_add_transition_error">Üleminekut ei õnnestu lisada.</string>
+    <string name="editor_remove_transition_error">Üleminekut ei õnnestu eemaldada.</string>
+    <string name="editor_set_transition_duration_error">Ülemineku kestust ei õnnestu määrata.</string>
+    <string name="editor_add_overlay_error">Ülekatet ei õnnestu lisada.</string>
+    <string name="editor_remove_overlay_error">Ülekatet ei õnnestu eemaldada.</string>
+    <string name="editor_set_duration_overlay_error">Ülekatte kestust ei õnnestunud määrata.</string>
+    <string name="editor_set_start_time_overlay_error">Ülekatte algusaega ei õnnestunud määrata.</string>
+    <string name="editor_set_user_attributes_overlay_error">Ülekatte atribuute ei õnnestunud määrata.</string>
+    <string name="editor_add_effect_error">Efekti ei õnnestu lisada.</string>
+    <string name="editor_remove_effect_error">Efekti ei õnnestu eemaldada.</string>
+    <string name="editor_add_audio_track_error">Heliriba ei õnnestu lisada.</string>
+    <string name="editor_remove_audio_track_error">Heliriba ei õnnestu eemaldada.</string>
+    <string name="editor_set_audio_track_boundaries_error">Heliriba ei õnnestu kärpida.</string>
+    <string name="editor_transition_too_short">Üleminekut ei saa lisada. Üleminek oleks liiga lühike.</string>
+    <string name="editor_media_load_error">Faili ei õnnestu alla laadida.</string>
+    <string name="editor_preview_error">Vea tõttu ei saa projekti eelvaadet näidata.</string>
+    <string name="export_dialog_export">Eksportimine</string>
+    <string name="export_dialog_movie_size">Filmi suurus</string>
+    <string name="export_dialog_movie_quality">Filmi kvaliteet</string>
+    <string name="export_dialog_movie_quality_low">Madal</string>
+    <string name="export_dialog_movie_quality_medium">Keskmine</string>
+    <string name="export_dialog_movie_quality_high">Kõrge</string>
+    <string name="pan_zoom_title">Panoraamimine ja suumiefekt</string>
+    <string name="pan_zoom_start">Algus</string>
+    <string name="pan_zoom_end">Lõpp</string>
+    <string name="pan_zoom_small_image_error">Panoraami ja suumi efekti rakendamiseks on see pilt liiga väike.</string>
+    <string name="theme_name_travel">Reisimine</string>
+    <string name="theme_travel_title">Minu reis Californiasse</string>
+    <string name="theme_travel_subtitle">San Francisco</string>
+    <string name="theme_name_surfing">Surfamine</string>
+    <string name="theme_surfing_title">Minu surfiseiklus</string>
+    <string name="theme_surfing_subtitle">San Francisco laht</string>
+    <string name="theme_name_film">Film</string>
+    <string name="theme_film_title">Minu lühifilm</string>
+    <string name="theme_film_subtitle">Lõbutsemine lahel</string>
+    <string name="theme_name_rock_and_roll">Rock-n-roll</string>
+    <string name="theme_rock_and_roll_title">Kontsert</string>
+    <string name="theme_rock_and_roll_subtitle">Kaks ja pool barrelit</string>
+    <string name="overlay_preview_center">Keskjoondatud pealkiri</string>
+    <string name="overlay_preview_bottom">Alumine pealkiri</string>
+    <string name="overlay_title">Pealkiri</string>
+    <string name="overlay_title_sample">Minu reis</string>
+    <string name="overlay_subtitle_sample">San Francisco</string>
+    <string name="overlays_select_type">Pealkirja malli valimine</string>
+    <string name="overlay_title_label">Pealkiri</string>
+    <string name="overlay_subtitle_label">Alapealkiri</string>
+    <string name="overlay_change_title_template_button_text">Muuda malli</string>
+    <string name="effects_select_effect">Efektid</string>
+    <string name="effect_pan_zoom">Panoraamimine ja suumiefekt</string>
+    <string name="effect_gradient">Gradientefekt</string>
+    <string name="effect_sepia">Seepiaefekt</string>
+    <string name="effect_negative">Negatiiviefekt</string>
+    <string name="effect_fifties">Viiekümnendate efekt</string>
+    <string name="transitions_select_transition">Ülemineku valimine</string>
+    <string name="transitions_alpha_countour">Kontuur-alfa</string>
+    <string name="transitions_alpha_diagonal">Diagonaal-alfa</string>
+    <string name="transitions_crossfade">Üleminek ühelt teisele</string>
+    <string name="transitions_fade_black">Üleminek musta ja mustast</string>
+    <string name="transitions_sliding_right_out_left_in">Lüke paremale välja, vasakult sisse</string>
+    <string name="transitions_sliding_left_out_right_in">Lüke vasakule välja, paremalt sisse</string>
+    <string name="transitions_sliding_top_out_bottom_in">Lüke üles välja, alt sisse</string>
+    <string name="transitions_sliding_bottom_out_top_in">Lõke alla välja, ülevalt sisse</string>
+    <string name="transitions_duration"><xliff:g id="SECONDS">%(,.1f</xliff:g> sekundit</string>
+    <string name="rendering_mode_black_borders">Mustad äärised</string>
+    <string name="rendering_mode_stretch">Sobivaks venitamine</string>
+    <string name="rendering_mode_crop">Kärpimine</string>
+    <string name="yes">Jah</string>
+    <string name="no">Ei</string>
+    <string name="done">Valmis</string>
+    <string name="edit">Muuda</string>
+    <string name="remove">Eemalda</string>
+    <string name="untitled">Nimetu</string>
+    <string name="hours_and_minutes"><xliff:g id="HOURS">%d</xliff:g> tundi <xliff:g id="MINUTES">%d</xliff:g> minutit</string>
+    <string name="hour_and_minutes">1 tund <xliff:g id="MINUTES">%d</xliff:g> min</string>
+    <string name="minutes"><xliff:g id="MINUTES">%d</xliff:g> min</string>
+    <string name="minute_and_seconds">1 min <xliff:g id="SECONDS">%d</xliff:g> sekundit</string>
+    <string name="seconds"><xliff:g id="SECONDS">%d</xliff:g> sekundit</string>
+</resources>

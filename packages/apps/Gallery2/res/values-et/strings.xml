@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+      Copyright (C) 2013 Hasso Tepper
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Galerii</string>
+    <string name="gadget_title">Pildiraam</string>
+    <string name="details_ms">%1$02d:%2$02d</string>
+    <string name="details_hms">%1$d:%2$02d:%3$02d</string>
+    <string name="movie_view_label">Videopleier</string>
+    <string name="loading_video">Video laadimine \u2026</string>
+    <string name="loading_image">Pildi laadimine \u2026</string>
+    <string name="loading_account">Konto laadimine \u2026</string>
+    <string name="resume_playing_title">Video esituse jätkamine</string>
+    <string name="resume_playing_message">Kas jätkata esitust alates %s?</string>
+    <string name="resume_playing_resume">Jätka esitust</string>
+    <string name="loading">Laadimine \u2026</string>
+    <string name="fail_to_load">Laadimine ebaõnnestus</string>
+    <string name="fail_to_load_image">Pilti ei õnnestunud laadida</string>
+    <string name="no_thumbnail">Pisipilti pole</string>
+    <string name="resume_playing_restart">Alusta uuesti</string>
+    <string name="crop_save_text">OK</string>
+    <string name="ok">OK</string>
+    <string name="multiface_crop_help">Alustamiseks puuduta nägu.</string>
+    <string name="saving_image">Pildi salvestamine \u2026</string>
+    <string name="filtershow_saving_image">Pildi salvestamine albumisse <xliff:g id="ALBUM_NAME">%1$s</xliff:g> \u2026</string>
+    <string name="save_error">Kärbitud kujutist ei saanud salvestada.</string>
+    <string name="crop_label">Kärbi pilti</string>
+    <string name="trim_label">Kärbi videot</string>
+    <string name="select_image">Foto valimine</string>
+    <string name="select_video">Video valimine</string>
+    <string name="select_item">Objekti valimine</string>
+    <string name="select_album">Albumi valimine</string>
+    <string name="select_group">Grupi valimine</string>
+    <string name="set_image">Pildi määramine</string>
+    <string name="set_wallpaper">Taustapildiks määramine</string>
+    <string name="wallpaper">Taustapildi määramine \u2026</string>
+    <string name="camera_setas_wallpaper">Taustapilt</string>
+    <string name="delete">Kustuta</string>
+  <plurals name="delete_selection">
+    <item quantity="one">Kas kustutada valitud objekt?</item>
+    <item quantity="other">Kas kustutada valitud objektid?</item>
+  </plurals>
+    <string name="confirm">Kinnita</string>
+    <string name="cancel">Tühista</string>
+    <string name="share">Jaga</string>
+    <string name="share_panorama">Panoraami jagamine</string>
+    <string name="share_as_photo">Fotona jagamine</string>
+    <string name="deleted">Kustutatud</string>
+    <string name="undo">VÕTA TAGASI</string>
+    <string name="select_all">Vali kõik</string>
+    <string name="deselect_all">Tühista kõik valikud</string>
+    <string name="slideshow">Slaidiseanss</string>
+    <string name="details">Üksikasjad</string>
+    <string name="details_title">%1$d/%2$d objekt:</string>
+    <string name="close">Sulge</string>
+    <string name="switch_to_camera">Kaamera rakendusse</string>
+  <plurals name="number_of_items_selected">
+    <item quantity="one">Valitud %1$d</item>
+    <item quantity="other">Valitud %1$d</item>
+  </plurals>
+  <plurals name="number_of_albums_selected">
+    <item quantity="one">Valitud %1$d</item>
+    <item quantity="other">Valitud %1$d</item>
+  </plurals>
+  <plurals name="number_of_groups_selected">
+    <item quantity="one">Valitud %1$d</item>
+    <item quantity="other">Valitud %1$d</item>
+  </plurals>
+    <string name="show_on_map">Näita kaardil</string>
+    <string name="rotate_left">Pööra vastupäeva</string>
+    <string name="rotate_right">Pööra päripäeva</string>
+    <string name="no_such_item">Objekti ei leitud.</string>
+    <string name="edit">Muuda</string>
+    <string name="process_caching_requests">Puhverdamise taotluste töötlemine</string>
+    <string name="caching_label">Puhverdamine \u2026</string>
+    <string name="crop_action">Kärbi</string>
+    <string name="trim_action">Kärbi</string>
+    <string name="set_as">Määramine</string>
+    <string name="video_err">Videot ei saa esitada.</string>
+    <string name="group_by_location">Asukoha järgi</string>
+    <string name="group_by_time">Kellaaja järgi</string>
+    <string name="group_by_tags">Siltide järgi</string>
+    <string name="group_by_faces">Inimeste järgi</string>
+    <string name="group_by_album">Albumi järgi</string>
+    <string name="group_by_size">Suuruse järgi</string>
+    <string name="untagged">Sildistamata</string>
+    <string name="no_location">Asukoht puudub</string>
+    <string name="no_connectivity">Mõnda asukohta ei suudetud võrguprobleemide tõttu tuvastada.</string>
+    <string name="sync_album_error">Selle albumi fotosid ei saa alla laadida. Proovi hiljem uuesti.</string>
+    <string name="show_images_only">Ainult pildid</string>
+    <string name="show_videos_only">Ainult videod</string>
+    <string name="show_all">Pildid ja videod</string>
+    <string name="appwidget_title">Fotogalerii</string>
+    <string name="appwidget_empty_text">Fotod puuduvad.</string>
+    <string name="crop_saved">Kärbitud pilt salvestati kausta <xliff:g id="FOLDER_NAME">%s</xliff:g>.</string>
+    <string name="no_albums_alert">Ühtegi albumit pole saadaval.</string>
+    <string name="empty_album">O kujutist/videot on saadaval.</string>
+    <string name="picasa_posts">Postitused</string>
+    <string name="make_available_offline">Tee võrguühenduseta kasutatavaks</string>
+    <string name="sync_picasa_albums">Värskenda</string>
+    <string name="done">Valmis</string>
+    <string name="sequence_in_set">%1$d/%2$d objekti</string>
+    <string name="title">Nimi</string>
+    <string name="description">Kirjeldus</string>
+    <string name="time">Kellaaeg</string>
+    <string name="location">Asukoht</string>
+    <string name="path">Asukoht</string>
+    <string name="width">Laius</string>
+    <string name="height">Kõrgus</string>
+    <string name="orientation">Paigutus</string>
+    <string name="duration">Kestus</string>
+    <string name="mimetype">MIME tüüp</string>
+    <string name="file_size">Faili suurus</string>
+    <string name="maker">Looja</string>
+    <string name="model">Mudel</string>
+    <string name="flash">Välk</string>
+    <string name="aperture">Ava</string>
+    <string name="focal_length">Fookuskaugus</string>
+    <string name="white_balance">Valge tasakaal</string>
+    <string name="exposure_time">Säriaeg</string>
+    <string name="iso">ISO</string>
+    <string name="unit_mm">mm</string>
+    <string name="manual">Käsitsi</string>
+    <string name="auto">Automaatne</string>
+    <string name="flash_on">Välguga</string>
+    <string name="flash_off">Välguta</string>
+    <string name="ffx_original">Originaal</string>
+    <string name="ffx_vintage">Vintage</string>
+    <string name="ffx_instant">Instant</string>
+    <string name="ffx_bleach">Pleekinud</string>
+    <string name="ffx_blue_crush">Sinine</string>
+    <string name="ffx_bw_contrast">Mustvalge</string>
+    <string name="ffx_punch">Punch</string>
+    <string name="ffx_x_process">X-töötlus</string>
+    <string name="ffx_washout">Latte</string>
+    <string name="ffx_washout_color">Litorgaafia</string>
+  <plurals name="make_albums_available_offline">
+    <item quantity="one">Album tehtud võrguühenduseta kättesaadavaks.</item>
+    <item quantity="other">Album tehtud võrguühenduseta kättesaadavaks.</item>
+  </plurals>
+    <string name="try_to_set_local_album_available_offline">See fail on seadmes salvestatud ja võrguühenduseta kättesaadav.</string>
+    <string name="set_label_all_albums">Kõik albumid</string>
+    <string name="set_label_local_albums">Kohalikud albumid</string>
+    <string name="set_label_mtp_devices">MTP seadmed</string>
+    <string name="set_label_picasa_albums">Picasa albumid</string>
+    <string name="free_space_format"><xliff:g id="BYTES">%s</xliff:g> vaba</string>
+    <string name="size_below"><xliff:g id="SIZE">%1$s</xliff:g> või väiksemad</string>
+    <string name="size_above"><xliff:g id="SIZE">%1$s</xliff:g> või suuremad</string>
+    <string name="size_between"><xliff:g id="MIN_SIZE">%1$s</xliff:g> kuni <xliff:g id="MAX_SIZE">%2$s</xliff:g></string>
+    <string name="Import">Impordi</string>
+    <string name="import_complete">Importimine lõpetatud</string>
+    <string name="import_fail">Importimine ebaõnnestus</string>
+    <string name="camera_connected">Kaamera on ühendatud.</string>
+    <string name="camera_disconnected">Kaamera pole ühendatud.</string>
+    <string name="click_import">Imporditimiseks puuduta seda teksti</string>
+    <string name="widget_type_album">Vali album</string>
+    <string name="widget_type_shuffle">Juhuslikus järjekorras</string>
+    <string name="widget_type_photo">Pildi valimine</string>
+    <string name="widget_type">Pildi valimine</string>
+    <string name="slideshow_dream_name">Slaidiseanss</string>
+    <string name="albums">Album</string>
+    <string name="times">Kellaaeg</string>
+    <string name="locations">Asukoht</string>
+    <string name="people">Inimesed</string>
+    <string name="tags">Sildid</string>
+    <string name="group_by">Grupeerimine:</string>
+    <string name="settings">Seaded</string>
+    <string name="add_account">Lisa konto</string>
+    <string name="folder_camera">Kaamera</string>
+    <string name="folder_download">Alla laaditud</string>
+    <string name="folder_edited_online_photos">Muudetud võrgufotod</string>
+    <string name="folder_imported">Imporditud</string>
+    <string name="folder_screenshot">Ekraanipildid</string>
+    <string name="help">Abi</string>
+    <string name="no_external_storage_title">Mäluseade puudub</string>
+    <string name="no_external_storage">Ükski välismäluseade pole kättesaadav</string>
+    <string name="switch_photo_filmstrip">Filmiribakuva</string>
+    <string name="switch_photo_grid">Ruudustiku kuva</string>
+    <string name="trimming">Kärpimine</string>
+    <string name="please_wait">Palun oota</string>
+    <string name="save_into">Kärbitud video salvestamine albumisse:</string>
+    <string name="trim_too_short">Ei saa kärpida: tulemus on liiga lühike</string>
+    <string name="pano_progress_text">Panoraami renderdamine</string>
+    <string name="save">Salvesta</string>
+</resources>

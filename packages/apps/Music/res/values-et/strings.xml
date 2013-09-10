@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/*
+** Copyright 2007, The Android Open Source Project
+** Copyright 2013, Hasso Tepper
+**
+** Licensed under the Apache License, Version 2.0 (the "License"); 
+** you may not use this file except in compliance with the License. 
+** You may obtain a copy of the License at 
+**
+**     http://www.apache.org/licenses/LICENSE-2.0 
+**
+** Unless required by applicable law or agreed to in writing, software 
+** distributed under the License is distributed on an "AS IS" BASIS, 
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+** See the License for the specific language governing permissions and 
+** limitations under the License.
+*/
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="onesong">1 pala</string>
+  <plurals name="Nsongs">
+    <item quantity="one">1 pala</item>
+    <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> pala</item>
+  </plurals>
+  <plurals name="Nsongscomp">
+    <item quantity="other">Laule: <xliff:g id="COUNT_FOR_ARTIST">%2$d</xliff:g>/<xliff:g id="TOTAL_COUNT">%1$d</xliff:g></item>
+  </plurals>
+  <plurals name="Nalbums">
+    <item quantity="one">1 album</item>
+    <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> albumit</item>
+  </plurals>
+    <string name="goto_start">Kogu</string>
+    <string name="party_shuffle">Peo juhuesitus</string>
+    <string name="party_shuffle_off">Peo juhuesitus välja lülitatud</string>
+    <string name="delete_item">Kustuta</string>
+    <string name="shuffle_all">Kõik juhuesituses</string>
+    <string name="play_all">Esita kõik</string>
+    <string name="delete_artist_desc">Kas kustutada SD kaardilt jäädavalt kõik <xliff:g id="ARTIST">%s</xliff:g> palad?</string>
+    <string name="delete_artist_desc_nosdcard">Kas kustutada USB mäluseadmelt jäädavalt kõik artisti <xliff:g id="ARTIST">%s</xliff:g> palad?</string>
+    <string name="delete_album_desc">Kas kustutada terve album „<xliff:g id="ALBUM">%s</xliff:g>” jäädavalt SD kaardilt?</string>
+    <string name="delete_album_desc_nosdcard">Kas kustutada terve album „<xliff:g id="ALBUM">%s</xliff:g>” jäädavalt USB mäluseadmelt?</string>
+    <string name="delete_song_desc">Kas kustutada pala „<xliff:g id="SONG">%s</xliff:g>” jäädavalt SD kaardilt?</string>
+    <string name="delete_song_desc_nosdcard">Kas kustutada pala „<xliff:g id="SONG">%s</xliff:g>” jäädavalt USB mäluseadmelt?</string>
+    <string name="delete_confirm_button_text">OK</string>
+  <plurals name="NNNtracksdeleted">
+    <item quantity="one">1 pala kustutatud.</item>
+    <item quantity="other"><xliff:g id="SONGS_TO_DELETE">%d</xliff:g> pala kustutatud.</item>
+  </plurals>
+    <string name="scanning">SD kaardi skaneerimine \u2026</string>
+    <string name="scanning_nosdcard">USB-mäluseadme skaneerimine \u2026</string>
+    <string name="nowplaying_title">Esitus</string>
+    <string name="partyshuffle_title">Peo juhuesitus</string>
+    <string name="artists_title">Esitajad</string>
+    <string name="albums_menu">Albumid</string>
+    <string name="albums_title">Albumid</string>
+    <string name="tracks_menu">Palad</string>
+    <string name="tracks_title">Palad</string>
+    <string name="playlists_menu">Esitusnimekirjad</string>
+    <string name="playlists_title">Esitusnimekirjad</string>
+    <string name="videos_title">Videod</string>
+    <string name="all_title">Kõik meedia</string>
+    <string name="browse_menu">Esitajad</string>
+    <string name="search_title">Otsing</string>
+    <string name="no_tracks_title">Palad puuduvad</string>
+    <string name="no_videos_title">Videod puuduvad</string>
+    <string name="no_playlists_title">Esitusnimekirjad puuduvad</string>
+    <string name="delete_playlist_menu">Kustuta</string>
+    <string name="edit_playlist_menu">Muuda</string>
+    <string name="rename_playlist_menu">Nimeta ümber</string>
+    <string name="playlist_deleted_message">Esitusnimekiri on kustutatud.</string>
+    <string name="playlist_renamed_message">Esitusnimekiri on ümber nimetatud.</string>
+    <string name="recentlyadded">Viimati lisatud</string>
+    <string name="recentlyadded_title">Viimati lisatud</string>
+    <string name="podcasts_listitem"><i>Podcastid</i></string>
+    <string name="podcasts_title"><i>Podcastid</i></string>
+    <string name="sdcard_missing_title">SD kaart puudub</string>
+    <string name="sdcard_missing_title_nosdcard">USB mäluseade puudub</string>
+    <string name="sdcard_missing_message">SD kaart pole su telefoni sisestatud.</string>
+    <string name="sdcard_missing_message_nosdcard">Su telefonil pole USB mäluseadet.</string>
+    <string name="sdcard_busy_title">SD kaart pole kättesaadav</string>
+    <string name="sdcard_busy_title_nosdcard">USB mäluseade pole kättesaadav</string>
+    <string name="sdcard_busy_message">SD kaart on hõivatud.</string>
+    <string name="sdcard_busy_message_nosdcard">USB mäluseade on hõivatud.</string>
+    <string name="sdcard_error_title">SD kaardi viga</string>
+    <string name="sdcard_error_title_nosdcard">USB mäluseadme viga</string>
+    <string name="sdcard_error_message">SD kaardil avastati viga.</string>
+    <string name="sdcard_error_message_nosdcard">USB mäluseadmel avastati viga.</string>
+    <string name="unknown_artist_name">Tundmatu esitaja</string>
+    <string name="unknown_album_name">Tundmatu album</string>
+    <string name="shuffle_on_notif">Juhuesitus on sisse lülitatud.</string>
+    <string name="shuffle_off_notif">Juhuesitus on välja lülitatud.</string>
+    <string name="repeat_off_notif">Kordus on välja lülitatud.</string>
+    <string name="repeat_current_notif">Valitud pala kordamine.</string>
+    <string name="repeat_all_notif">Kõigi palade kordamine.</string>
+    <string name="ringtone_menu">Kasuta telefoni helinana</string>
+    <string name="ringtone_menu_short">Kasuta helinana</string>
+    <string name="ringtone_set">„<xliff:g id="NAME">%s</xliff:g>” on määratud telefoni helinaks.</string>
+    <string name="play_selection">Esita</string>
+    <string name="add_to_playlist">Lisa esitusnimekirja</string>
+    <string name="queue">Aktiivne esitusnimekiri</string>
+    <string name="new_playlist">Uus</string>
+    <string name="new_playlist_name_template">Uus esitusnimekiri <xliff:g id="NUMBER">%d</xliff:g></string>
+  <plurals name="NNNtrackstoplaylist">
+    <item quantity="one">1 pala esitusnimekirja lisatud.</item>
+    <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> pala esitusnimekirja lisatud.</item>
+  </plurals>
+    <string name="emptyplaylist">Valitud esitusnimekiri on tühi.</string>
+    <string name="create_playlist_create_text">Salvesta</string>
+    <string name="create_playlist_overwrite_text">Kirjuta üle</string>
+    <string name="service_start_error_title">Probleem esitusega</string>
+    <string name="service_start_error_msg">Seda pala ei õnnestunud esitada.</string>
+    <string name="service_start_error_button">OK</string>
+  <string-array name="weeklist">
+    <item>1 nädal</item>
+    <item>2 nädalat</item>
+    <item>3 nädalat</item>
+    <item>4 nädalat</item>
+    <item>5 nädalat</item>
+    <item>6 nädalat</item>
+    <item>7 nädalat</item>
+    <item>8 nädalat</item>
+    <item>9 nädalat</item>
+    <item>10 nädalat</item>
+    <item>11 nädalat</item>
+    <item>12 nädalat</item>
+  </string-array>
+    <string name="weekpicker_set">Valmis</string>
+    <string name="weekpicker_title">Kellaaja määramine</string>
+    <string name="save_as_playlist">Salvesta esitusnimekirjana</string>
+    <string name="clear_playlist">Kustuta esitusnimekiri</string>
+    <string name="musicbrowserlabel">Muusika</string>
+    <string name="musicshortcutlabel">Muusika esitusnimekiri</string>
+    <string name="mediaplaybacklabel">Muusika</string>
+    <string name="videobrowserlabel">Videod</string>
+    <string name="mediapickerlabel">Muusika</string>
+    <string name="playback_failed">Pleier ei toeta sellist audiofaili tüüpi.</string>
+    <string name="cancel">Tühista</string>
+    <string name="remove_from_playlist">Eemalda esitusnimekirjast</string>
+    <string name="streamloadingtext">Ühenduse loomine serveriga <xliff:g id="HOST">%s</xliff:g> \u2026</string>
+    <string name="mediasearch">Termini <xliff:g id="TERM">%s</xliff:g> otsimine teenuses:</string>
+    <string name="working_artists">Esitajad \u2026</string>
+    <string name="working_albums">Albumid \u2026</string>
+    <string name="working_songs">Palad \u2026</string>
+    <string name="working_playlists">Esitusnimekirjad \u2026</string>
+    <string name="loading">Laadimine \u2026</string>
+    <string name="sort_by_track">Palad</string>
+    <string name="sort_by_album">Albumid</string>
+    <string name="sort_by_artist">Esitajad</string>
+    <string name="music_picker_title">Muusikapala valimine</string>
+    <string name="search_settings_description">Esitajad, albumid ja palad</string>
+    <string name="search_hint">Muusika otsimine</string>
+    <string name="fast_scroll_alphabet"> ABCDEFGHIJKLMNOPQRSŠZŽTUVWÕÄÖÜXY</string>
+    <string name="widget_initial_text">Muusika valimiseks puuduta.</string>
+    <string name="effectspanel">Heliefektid</string>
+</resources>

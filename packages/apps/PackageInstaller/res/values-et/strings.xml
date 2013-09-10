@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+      Copyright (C) 2013 Hasso Tepper
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Paketi paigaldaja</string>
+    <string name="next">Järgmine</string>
+    <string name="install">Paigalda</string>
+    <string name="done">Valmis</string>
+    <string name="security_settings_desc">Rakendus saab seadmes järgmised õigused:</string>
+    <string name="cancel">Tühista</string>
+    <string name="unknown">Tundmatu</string>
+    <string name="installing">Paigaldamine \u2026</string>
+    <string name="install_done">Rakendus on paigaldatud.</string>
+    <string name="install_confirm_question">Soovid sa selle rakenduse paigaldada? See saab seadmes järgmised õigused:</string>
+    <string name="install_confirm_question_no_perms">Soovid sa selle rakenduse paigaldada? See ei nõua seadmes spetsiaalseid õigusi.</string>
+    <string name="install_confirm_question_update">Soovid sa selle olemasoleva rakenduse värskenduse paigaldada? Rakenduse olemasolevaid andmed jäävad puutumata. Värskendatud rakendus saab seadmes järgnevad õigused:</string>
+    <string name="install_confirm_question_update_system">Soovid sa selle süsteemi rakenduse värskenduse paigaldada? Rakenduse olemasolevad andmed jäävad puutumata. Värskendatud rakendus saab seadmes järgnevad õigused:</string>
+    <string name="install_confirm_question_update_no_perms">Soovid sa selle olemasoleva rakenduse värskenduse paigaldada? Rakenduse olemasolevaid andmed jäävad puutumata. See ei nõua seadmes spetsiaalseid õigusi.</string>
+    <string name="install_confirm_question_update_system_no_perms">Soovid sa selle süsteemi rakenduse värskenduse paigaldada? Rakenduse olemasolevad andmed jäävad puutumata. See ei nõua seadmes spetsiaalseid õigusi.</string>
+    <string name="install_failed">Rakendust ei paigaldatud.</string>
+    <string name="install_failed_invalid_apk">Pakett paistab olevat vigane.</string>
+    <string name="install_failed_inconsistent_certificates">Sama nime, kuid teise allkirjaga pakett on juba paigaldatud.</string>
+    <string name="install_failed_older_sdk">Pakett töötab ainult Androidi uuemate versioonidega.</string>
+    <string name="install_failed_cpu_abi_incompatible" product="tablet">See rakendus ei ühildu su tahvelarvutiga.</string>
+    <string name="install_failed_cpu_abi_incompatible" product="default">See rakendus ei ühildu su telefoniga.</string>
+    <string name="install_failed_file_not_found">Määratud pakett kustutati enne, kui install lõpule jõudis.</string>
+    <string name="install_failed_verify_failed">Pakett ei läbinud verifitseerimise protsessi ja seda ei saa paigaldada.</string>
+    <string name="install_failed_verify_timeout">Paketi kinnitamiseks mõeldud aeg sai läbi. Proovi hiljem uuesti paigaldada.</string>
+    <string name="install_failed_msg" product="tablet">Rakendust <xliff:g id="APP_NAME">%1$s</xliff:g> ei saa su tahvelarvutisse paigaldada.</string>
+    <string name="install_failed_msg" product="default">Rakendust <xliff:g id="APP_NAME">%1$s</xliff:g> ei saa su telefoni paigaldada.</string>
+    <string name="launch">Käivita</string>
+    <string name="unknown_apps_dlg_title">Paigaldus blokeeritud</string>
+    <string name="unknown_apps_dlg_text" product="tablet">Turvalisuse eesmärgil blokeerib tahvelarvuti tundmatutest allikatest pärit rakenduste paigalduse.</string>
+    <string name="unknown_apps_dlg_text" product="default">Turvalisuse eesmärgil blokeerib telefon tundmatutest allikatest pärit rakenduste paigalduse.</string>
+    <string name="ok">OK</string>
+    <string name="settings">Seaded</string>
+    <string name="allow_source_dlg_title">Uus rakenduste allikas</string>
+    <string name="allow_source_dlg_text"><xliff:g id="APP_NAME">%1$s</xliff:g> soovib paigaldada teisi rakendusi.\n\nKas soovid seda nüüd ja tulevikus lubada?</string>
+    <string name="manage_applications">Rakenduste haldus</string>
+    <string name="dlg_app_replacement_title">Kas asendada rakendus?</string>
+    <string name="dlg_app_replacement_statement">Paigaldatav rakendus asendab teise rakenduse.\n\nKõik su varasemad kasutajaandmed säilitatakse.</string>
+    <string name="dlg_sys_app_replacement_statement">See on süsteemi rakendus.\n\nKõik su varasemad kasutajaandmed säilitatakse.</string>
+    <string name="out_of_space_dlg_title">Pole piisavalt ruumi</string>
+    <string name="out_of_space_dlg_text">Rakendust <xliff:g id="APP_NAME">%1$s</xliff:g> ei saa paigaldada. Vabasta salvestusruumi ja proovi siis uuesti.</string>
+    <string name="dlg_ok">OK</string>
+    <string name="app_not_found_dlg_title">Rakendust ei leitud</string>
+    <string name="app_not_found_dlg_text">Rakendust ei leitud paigaldatud rakenduste nimekirjast.</string>
+    <string name="uninstall_application_title">Rakenduse eemaldamine</string>
+    <string name="uninstall_update_title">Värskenduse eemaldamine</string>
+    <string name="uninstall_activity_text"><xliff:g id="ACTIVITY_NAME">%1$s</xliff:g> on osa järgmisest rakendusest:</string>
+    <string name="uninstall_application_text">Kas soovid selle rakenduse eemaldada?</string>
+    <string name="uninstall_application_text_all_users">Kas soovid eemaldada selle rakenduse <b>kõikidelt</b> kasutajatelt? Rakendus ja selle andmed eemaldatakse <b>kõikidelt</b> seadme kasutajatelt.</string>
+    <string name="uninstall_update_text">Kas soovid selle rakenduse asendada tehaseversiooniga?</string>
+    <string name="uninstalling">Eemaldamine \u2026</string>
+    <string name="uninstall_done">Eemaldamine on lõpetatud.</string>
+    <string name="uninstall_failed">Eemaldamine ebaõnnestus.</string>
+    <string name="uninstall_failed_device_policy_manager">Eemaldamine pole võimalik, kuna pakett on seadme aktiivne administraator.</string>
+    <string name="manage_device_administrators">Seadme administraatorite haldus</string>
+    <string name="uninstall_failed_msg">Rakendust <xliff:g id="APP_NAME">%1$s</xliff:g> eemaldamine ebaõnnestus.</string>
+    <string name="Parse_error_dlg_title">Viga parsimisel</string>
+    <string name="Parse_error_dlg_text">Probleem paketi parsimisel.</string>
+    <string name="newPerms">Uued</string>
+    <string name="allPerms">Kõik</string>
+    <string name="privacyPerms">Privaatsus</string>
+    <string name="devicePerms">Seadme juurdepääs</string>
+    <string name="no_new_perms">See värskendus ei nõua uusi õigusi.</string>
+</resources>

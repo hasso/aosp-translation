@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ * Copyright (c) 2013, Hasso Tepper
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); 
+ * you may not use this file except in compliance with the License. 
+ * You may obtain a copy of the License at 
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0 
+ *
+ * Unless required by applicable law or agreed to in writing, software 
+ * distributed under the License is distributed on an "AS IS" BASIS, 
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+ * See the License for the specific language governing permissions and 
+ * limitations under the License.
+ */
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label">Süsteemi UI</string>
+    <string name="status_bar_clear_all_button">Kustuta</string>
+    <string name="status_bar_do_not_disturb_button">Mitte häirida</string>
+    <string name="status_bar_please_disturb_button">Näita märguandeid</string>
+    <string name="status_bar_recent_remove_item_title">Eemalda nimekirjast</string>
+    <string name="status_bar_recent_inspect_item_title">Rakenduse info</string>
+    <string name="status_bar_no_recent_apps">Hiljuti kasutatud rakendusi pole</string>
+    <string name="status_bar_accessibility_dismiss_recents">Loobu hiljutistest rakendustest</string>
+    <plurals name="status_bar_accessibility_recent_apps">
+      <item quantity="one">1 hiljuti kasutatud rakendus</item>
+      <item quantity="other">%d hiljuti kasutatud rakendust</item>
+    </plurals>
+    <string name="status_bar_no_notifications_title">Märguandeid pole</string>
+    <string name="status_bar_ongoing_events_title">Käimasolev</string>
+    <string name="status_bar_latest_events_title">Märguanded</string>
+    <string name="battery_low_title">Ühendage laadija</string>
+    <string name="battery_low_subtitle">Aku hakkab tühjenema.</string>
+    <string name="battery_low_percent_format"><xliff:g id="NUMBER">%d%%</xliff:g> on alles</string>
+    <string name="invalid_charger">USB pordist laadimine pole toetatud.\nKasutage ainult tootja laadijat.</string>
+    <string name="battery_low_why">Akukasutus</string>
+    <string name="status_bar_settings_settings_button">Seaded</string>
+    <string name="status_bar_settings_wifi_button">WiFi</string>
+    <string name="status_bar_settings_airplane">Lennurežiim</string>
+    <string name="status_bar_settings_auto_rotation">Ekraani automaatne pööramine</string>
+    <string name="status_bar_settings_mute_label">SUMMUTA</string>
+    <string name="status_bar_settings_auto_brightness_label">AUTO</string>
+    <string name="status_bar_settings_notifications">Märguanded</string>
+    <string name="bluetooth_tethered">Bluetooth kaudu jagatud võrguühendus</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">Seadista sisestusmeetodeid</string>
+    <string name="status_bar_use_physical_keyboard">Füüsiline klaviatuur</string>
+    <string name="usb_device_permission_prompt">Kas lubada rakendusele <xliff:g id="APPLICATION">%1$s</xliff:g> ligipääs USB seadmele?</string>
+    <string name="usb_accessory_permission_prompt">Kas lubada rakendusele <xliff:g id="APPLICATION">%1$s</xliff:g> ligipääs USB lisaseadmele?</string>
+    <string name="usb_device_confirm_prompt">Kas avada <xliff:g id="ACTIVITY">%1$s</xliff:g>, kui see USB seade on ühendatud?</string>
+    <string name="usb_accessory_confirm_prompt">Kas avada <xliff:g id="ACTIVITY">%1$s</xliff:g>, kui see USB lisaseade on ühendatud?</string>
+    <string name="usb_accessory_uri_prompt">Paigaldatud rakendus ei tööta selle USB lisaseadmega. Lisateavet lisaseadme kohta vt siit: <xliff:g id="URL">%1$s</xliff:g></string>
+    <string name="title_usb_accessory">USB lisaseade</string>
+    <string name="label_view">Vaata</string>
+    <string name="always_use_device">Kasuta vaikimisi selle USB seadme jaoks</string>
+    <string name="always_use_accessory">Kasuta vaikimisi selle USB lisaseadme jaoks</string>
+    <string name="usb_debugging_title">Kas lubada USB kaudu silumist?</string>
+    <string name="usb_debugging_message">Arvuti RSA võtme sõrmejälg:\n<xliff:g id="FINGERPRINT">%1$s</xliff:g></string>
+    <string name="usb_debugging_always">Sellest arvutist alati lubatud</string>
+    <string name="compat_mode_on">Rakendusse suumimine</string>
+    <string name="compat_mode_off">Rakenduse ekraanisisu venitamine</string>
+    <string name="compat_mode_help_header">Sobivussuum</string>
+    <string name="compat_mode_help_body">Kui rakendus on mõeldud väiksemale ekraanile, kuvatakse kella kõrval suumi juhtnupp.</string>
+    <string name="screenshot_saving_ticker">Ekraanipildi salvestamine \u2026</string>
+    <string name="screenshot_saving_title">Ekraanipildi salvestamine \u2026</string>
+    <string name="screenshot_saving_text">Ekraanipildi salvestamine.</string>
+    <string name="screenshot_saved_title">Ekraanipilt jäädvustatud.</string>
+    <string name="screenshot_saved_text">Puudutage kuvatõmmise vaatamiseks.</string>
+    <string name="screenshot_failed_title">Kuvatõmmist ei saanud jäädvustada.</string>
+    <string name="screenshot_failed_text">Kuvatõmmist ei saa salvestada. Mäluseade võib olla kasutuses.</string>
+    <string name="usb_preference_title">USB-failiedastuse valikud</string>
+    <string name="use_mtp_button_title">Ühendamine meediumimängija režiimis (MTP)</string>
+    <string name="use_ptp_button_title">Ühendamine kaamera režiimis (PTP)</string>
+    <string name="installer_cd_button_title">Android File Transfer rakenduse paigaldus Macile</string>
+    <string name="accessibility_back">Tagasi</string>
+    <string name="accessibility_home">Kodu</string>
+    <string name="accessibility_menu">Menüü</string>
+    <string name="accessibility_recent">Hiljuti kasutatud rakendused</string>
+    <string name="accessibility_ime_switch_button">Sisestusmeetodi vahetamise nupp.</string>
+    <string name="accessibility_compatibility_zoom_button">Sobivussuumi nupp.</string>
+    <string name="accessibility_compatibility_zoom_example">Väiksemale ekraanile mõeldud rakenduse suumimine suuremale ekraanile.</string>
+    <string name="accessibility_bluetooth_connected">Bluetooth on ühendatud.</string>
+    <string name="accessibility_bluetooth_disconnected">Bluetooth ühendus katkestatud.</string>
+    <string name="accessibility_no_battery">Aku puudub.</string>
+    <string name="accessibility_battery_one_bar">Aku: üks pulk.</string>
+    <string name="accessibility_battery_two_bars">Aku: kaks pulka.</string>
+    <string name="accessibility_battery_three_bars">Aku: kolm pulka.</string>
+    <string name="accessibility_battery_full">Aku on täielikult laetud.</string>
+    <string name="accessibility_no_phone">Telefonisignaal puudub</string>
+    <string name="accessibility_phone_one_bar">Telefonisignaal: üks pulk.</string>
+    <string name="accessibility_phone_two_bars">Telefonisignaal: kaks pulka.</string>
+    <string name="accessibility_phone_three_bars">Telefonisignaal: kolm pulka.</string>
+    <string name="accessibility_phone_signal_full">Telefonisignaal on tugev.</string>
+    <string name="accessibility_no_data">Andmeside signaal puudub.</string>
+    <string name="accessibility_data_one_bar">Andmeside signaal: üks pulk.</string>
+    <string name="accessibility_data_two_bars">Andmeside signaal: kaks pulka.</string>
+    <string name="accessibility_data_three_bars">Andmeside signaal: kolm pulka.</string>
+    <string name="accessibility_data_signal_full">Andmeside signaal on tugev.</string>
+    <string name="accessibility_wifi_off">Wifi on väljas.</string>
+    <string name="accessibility_no_wifi">Wifi ühendus puudub.</string>
+    <string name="accessibility_wifi_one_bar">WiFi signaal: üks pulk.</string>
+    <string name="accessibility_wifi_two_bars">WiFi signaal: kaks pulka.</string>
+    <string name="accessibility_wifi_three_bars">WiFi signaal: kolm pulka.</string>
+    <string name="accessibility_wifi_signal_full">WiFi signaal on tugev.</string>
+    <string name="accessibility_no_wimax">WiMAX signaal puudub.</string>
+    <string name="accessibility_wimax_one_bar">WiMAX signaal: üks pulk.</string>
+    <string name="accessibility_wimax_two_bars">WiMAX signaal: kaks pulka.</string>
+    <string name="accessibility_wimax_three_bars">WiMAX signaal: kolm pulka.</string>
+    <string name="accessibility_wimax_signal_full">WiMAX signaal on tugev.</string>
+    <string name="accessibility_no_signal">Signaal puudub.</string>
+    <string name="accessibility_not_connected">Ühendus puudub.</string>
+    <string name="accessibility_zero_bars">Null pulka.</string>
+    <string name="accessibility_one_bar">Üks pulk.</string>
+    <string name="accessibility_two_bars">Kaks pulka.</string>
+    <string name="accessibility_three_bars">Kolm pulka.</string>
+    <string name="accessibility_signal_full">Signaal on tugev.</string>
+    <string name="accessibility_desc_on">Sees.</string>
+    <string name="accessibility_desc_off">Väljas.</string>
+    <string name="accessibility_desc_connected">Ühendatud.</string>
+    <string name="accessibility_data_connection_gprs">GPRS</string>
+    <string name="accessibility_data_connection_1x">1 X</string>
+    <string name="accessibility_data_connection_hspa">HSPA</string>
+    <string name="accessibility_data_connection_3g">3G</string>
+    <string name="accessibility_data_connection_3.5g">3,5G</string>
+    <string name="accessibility_data_connection_4g">4G</string>
+    <string name="accessibility_data_connection_cdma">CDMA</string>
+    <string name="accessibility_data_connection_roaming">Rändlus</string>
+    <string name="accessibility_data_connection_edge">EDGE</string>
+    <string name="accessibility_data_connection_wifi">WiFi</string>
+    <string name="accessibility_no_sim">SIM-kaarti pole.</string>
+    <string name="accessibility_bluetooth_tether">Bluetoothi jagamine.</string>
+    <string name="accessibility_airplane_mode">Lennurežiim.</string>
+    <string name="accessibility_battery_level">Aku: <xliff:g id="NUMBER">%d</xliff:g> protsenti.</string>
+    <string name="accessibility_settings_button">Süsteemi seaded</string>
+    <string name="accessibility_notifications_button">Märguanded</string>
+    <string name="accessibility_remove_notification">Märguannete kustutamine</string>
+    <string name="accessibility_gps_enabled">GPS on lubatud.</string>
+    <string name="accessibility_gps_acquiring">GPS signaali otsimine.</string>
+    <string name="accessibility_tty_enabled">TTY on lubatud.</string>
+    <string name="accessibility_ringer_vibrate">Telefonihelin ka vibreerib.</string>
+    <string name="accessibility_ringer_silent">Telefonihelin on vaigistatud.</string>
+    <string name="accessibility_recents_item_dismissed">Loobusite rakendusest <xliff:g id="APP">%s</xliff:g>.</string>
+    <string name="accessibility_notification_dismissed">Märguanne eemaldatud.</string>
+    <string name="accessibility_desc_notification_shade">Märguannete laegas.</string>
+    <string name="accessibility_desc_quick_settings">Kiirseaded.</string>
+    <string name="accessibility_desc_recent_apps">Hiljuti kasutatud rakendused</string>
+    <string name="accessibility_quick_settings_user">Kasutaja <xliff:g id="USER">%s</xliff:g>.</string>
+    <string name="accessibility_quick_settings_wifi"><xliff:g id="SIGNAL">%1$s</xliff:g>. <xliff:g id="NETWORK">%2$s</xliff:g></string>
+    <string name="accessibility_quick_settings_mobile">Mobiili <xliff:g id="SIGNAL">%1$s</xliff:g>. <xliff:g id="TYPE">%2$s</xliff:g>. <xliff:g id="NETWORK">%3$s</xliff:g>.</string>
+    <string name="accessibility_quick_settings_battery">Aku: <xliff:g id="STATE">%s</xliff:g>.</string>
+    <string name="accessibility_quick_settings_airplane">Lennukirežiim: <xliff:g id="STATE">%s</xliff:g>.</string>
+    <string name="accessibility_quick_settings_bluetooth">Bluetooth: <xliff:g id="STATE">%s</xliff:g>.</string>
+    <string name="accessibility_quick_settings_alarm">Määratud äratus: <xliff:g id="TIME">%s</xliff:g></string>
+    <string name="data_usage_disabled_dialog_3g_title">2G/3G andmeside keelatud</string>
+    <string name="data_usage_disabled_dialog_4g_title">4G andmeside keelatud</string>
+    <string name="data_usage_disabled_dialog_mobile_title">Mobiilne andmeside keelatud</string>
+    <string name="data_usage_disabled_dialog_title">Andmeside keelatud</string>
+    <string name="data_usage_disabled_dialog">Olete jõudnud määratud andmeside kasutuse piirini.\n\nKui lülitate andmeside uuesti sisse, siis võib teenusepakkuja selle eest tasu võtta.</string>
+    <string name="data_usage_disabled_dialog_enable">Luba andmeside uuesti</string>
+    <string name="status_bar_settings_signal_meter_disconnected">Interneti ühendus puudub</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">WiFi on ühendatud</string>
+    <string name="gps_notification_searching_text">GPS-i otsimine</string>
+    <string name="gps_notification_found_text">Asukoht GPS-i abil seatud.</string>
+    <string name="accessibility_clear_all">Kõigi märguannete kustutamine.</string>
+    <string name="status_bar_notification_inspect_item_title">Info</string>
+    <string name="close_universe">Sulge</string>
+    <string name="notifications_off_title">Märguanded on välja lülitatud</string>
+    <string name="notifications_off_text">Märguannete uuesti sisselülitamiseks puudutage seda teksti siin.</string>
+    <string name="accessibility_rotation_lock_off">Ekraani pööramine toimub automaatselt.</string>
+    <string name="accessibility_rotation_lock_on_landscape">Ekraan on lukustatud horisontaalasendisse.</string>
+    <string name="accessibility_rotation_lock_on_portrait">Ekraan on lukustatud vertikaalasendisse.</string>
+    <string name="jelly_bean_dream_name">BeanFlinger</string>
+    <string name="start_dreams">Unistamine</string>
+    <string name="ethernet_label">Ethernet</string>
+    <string name="quick_settings_airplane_mode_label">Lennurežiim</string>
+    <string name="quick_settings_battery_charging_label">Laadimine, <xliff:g id="NUMBER">%d</xliff:g><xliff:g id="PERCENT">%%</xliff:g></string>
+    <string name="quick_settings_battery_charged_label">Laetud</string>
+    <string name="quick_settings_bluetooth_label">Bluetooth</string>
+    <string name="quick_settings_bluetooth_multiple_devices_label">Bluetooth (<xliff:g id="NUMBER">%d</xliff:g> seadet)</string>
+    <string name="quick_settings_bluetooth_off_label">Bluetooth väljas</string>
+    <string name="quick_settings_brightness_label">Heledus</string>
+    <string name="quick_settings_rotation_unlocked_label">Automaatne pööramine</string>
+    <string name="quick_settings_rotation_locked_label">Pööramine lukus</string>
+    <string name="quick_settings_ime_label">Sisestusmeetod</string>
+    <string name="quick_settings_location_label">Asukoha määramine</string>
+    <string name="quick_settings_media_device_label">Meediaseade</string>
+    <string name="quick_settings_rssi_label">RSSI</string>
+    <string name="quick_settings_rssi_emergency_only">Ainult hädaabikõned</string>
+    <string name="quick_settings_settings_label">Seaded</string>
+    <string name="quick_settings_time_label">Aeg</string>
+    <string name="quick_settings_user_label">Mina</string>
+    <string name="quick_settings_wifi_label">WiFi</string>
+    <string name="quick_settings_wifi_not_connected">Ühendus puudub</string>
+    <string name="quick_settings_wifi_no_network">Võrku pole</string>
+    <string name="quick_settings_wifi_off_label">WiFi väljas</string>
+    <string name="quick_settings_wifi_display_label">WiFi ekraan</string>
+    <string name="quick_settings_wifi_display_no_connection_label">Juhtmeta ühendusega ekraan</string>
+    <string name="quick_settings_brightness_dialog_title">Heledus</string>
+    <string name="quick_settings_brightness_dialog_auto_brightness_label">AUTOMAATNE</string>
+    <string name="status_bar_help_title">Märguanded ilmuvad siia</string>
+    <string name="status_bar_help_text">Neile pääsete iga hetk ligi sõrme ekraani ülemisest servast alla libistades.\nSüsteemi juhtnuppudele ligipääsuks korrake seda liigutust.</string>
+</resources>

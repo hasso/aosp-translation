@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2006 The Android Open Source Project
+      Copyright (C) 2013 Hasso Tepper
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label">Kalender</string>
+    <string name="what_label">Mis?</string>
+    <string name="where_label">Kus?</string>
+    <string name="when_label">Millal?</string>
+    <string name="timezone_label">Ajavöönd</string>
+    <string name="attendees_label">Osavõtjad</string>
+    <string name="today">Täna</string>
+    <string name="tomorrow">Homme</string>
+    <string name="today_at_time_fmt">Täna kell <xliff:g id="TIME_INTERVAL">%s</xliff:g></string>
+    <string name="tomorrow_at_time_fmt">Homme kell <xliff:g id="TIME_INTERVAL">%s</xliff:g></string>
+    <string name="date_time_fmt"><xliff:g id="DATE">%s</xliff:g>, <xliff:g id="TIME_INTERVAL">%s</xliff:g></string>
+    <string name="repeats_label">Kordamine</string>
+    <string name="no_title_label">(Nimetu)</string>
+  <plurals name="Nminutes">
+    <item quantity="one">1 minut</item>
+    <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> minutit</item>
+  </plurals>
+  <plurals name="Nmins">
+    <item quantity="one">1 min</item>
+    <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> min</item>
+  </plurals>
+  <plurals name="Nhours">
+    <item quantity="one">1 tund</item>
+    <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> tundi</item>
+  </plurals>
+  <plurals name="Ndays">
+    <item quantity="one">1 päev</item>
+    <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> päeva</item>
+  </plurals>
+  <plurals name="weekN">
+    <item quantity="other">Nädal: <xliff:g id="COUNT">%d</xliff:g></item>
+  </plurals>
+    <string name="calendar_refresh">Värskenda</string>
+    <string name="show_day_view">Kuva päev</string>
+    <string name="agenda_view">Ajakava</string>
+    <string name="day_view">Päev</string>
+    <string name="week_view">Nädal</string>
+    <string name="month_view">Kuu</string>
+    <string name="event_view">Kuva sündmus</string>
+    <string name="event_create">Uus sündmus</string>
+    <string name="event_edit">Muuda sündmust</string>
+    <string name="event_delete">Kustuta sündmus</string>
+    <string name="goto_today">Täna</string>
+    <string name="menu_preferences">Seaded</string>
+    <string name="menu_select_visible_calendars">Kuvatavad kalendrid</string>
+    <string name="search">Otsing</string>
+    <string name="hide_controls">Peida juhtelemendid</string>
+    <string name="show_controls">Kuva juhtelemente</string>
+    <string name="select_visible_calendars_title">Kuvatavad kalendrid</string>
+    <string name="synced"> sünkroonitud</string>
+    <string name="not_synced"> pole sünkroonitud</string>
+    <string name="acct_not_synced">Seda kontot ei sünkroonita, seega ei pruugi info kalendris olla värske.</string>
+    <string name="accounts">Kontod ja sünkroonimine</string>
+    <string name="select_synced_calendars_title">Sünkroonitavad kalendrid</string>
+    <string name="select_synced_calendars_button">Sünkroonitavad kalendrid</string>
+    <string name="hint_what">Sündmuse nimi</string>
+    <string name="hint_where">Asukoht</string>
+    <string name="hint_description">Kirjeldus</string>
+    <string name="hint_attendees">Osavõtjad</string>
+    <string name="creating_event">Sündmus on loodud.</string>
+    <string name="saving_event">Sündmus on salvestatud.</string>
+    <string name="empty_event">Tühja sündmust ei loodud.</string>
+    <string name="creating_event_with_guest">Osavõtjatele saadetakse kutsed.</string>
+    <string name="saving_event_with_guest">Osavõtjatele saadetakse uuem info.</string>
+    <string name="alert_title">Kalendri märguanded</string>
+    <string name="event_info_title">Sündmuse vaatamine</string>
+    <string name="event_info_title_invite">Kutse</string>
+    <string name="edit_event_to_label">Lõpp</string>
+    <string name="edit_event_from_label">Algus</string>
+    <string name="edit_event_all_day_label">Kogu päev</string>
+    <string name="edit_event_calendar_label">Kalender</string>
+    <string name="edit_event_show_all">Kuva kõik</string>
+    <string name="description_label">Kirjeldus</string>
+    <string name="presence_label">Minu staatus kalendris</string>
+    <string name="privacy_label">Privaatsus</string>
+    <string name="reminders_label">Lisa meeldetuletus</string>
+    <string name="no_syncable_calendars">Kalendrid puuduvad</string>
+    <string name="no_calendars_found">Enne kui saate lisada sündmusi, peate seadmesse lisama vähemalt ühe kalendri konto ja muutma kalendri nähtavaks. Konto lisamiseks puudutage käsku Lisa konto (kui lisasite äsja konto, oodake, kuni see lõpetab sünkroonimise, ja proovige uuesti). Teise võimalusena puudutage käsku Tühista ja veenduge, et vähemalt üks kalender on nähtav.</string>
+    <string name="create_an_account_desc">Kalender töötab paremini Google\'i kontoga.\n\n\u2022 Sa saad seda kasutada igast veebibrauserist.\n\u2022 Sündmuste andmed on turvaliselt varundatud.</string>
+    <string name="add_account">Lisa konto</string>
+    <string name="view_event_calendar_label">Kalender:</string>
+    <string name="view_event_organizer_label">Korraldaja:</string>
+    <string name="view_event_response_label">Kas osaled?</string>
+    <string name="response_yes">Jah</string>
+    <string name="response_maybe">Võib-olla</string>
+    <string name="response_no">Ei</string>
+    <string name="email_guests_label">Saada külalistele meil</string>
+    <string name="email_organizer_label">Saada korraldajale meil</string>
+    <string name="email_picker_label">Meili saatmine:</string>
+    <string name="event_not_found">Sündmust ei leitud.</string>
+    <string name="quick_response_settings">Kiirvastused</string>
+    <string name="quick_response_settings_summary">Vastuste muutmine</string>
+    <string name="quick_response_settings_title">Kiirvastuste muutmine</string>
+    <string name="quick_response_settings_edit_title">Kiirvastus</string>
+    <string name="quick_response_dialog_title">Kiirvastuse valimine</string>
+    <string name="quick_response_email_failed">Meiliprogrammi leidmine ebaõnnestus</string>
+  <string-array name="quick_response_defaults">
+    <item>"Ma jään paar minutit hiljaks.</item>
+    <item>"Olge umbes 10 minuti pärast valmis.</item>
+    <item>"Alusta ilma minuta.</item>
+    <item>"Kahjuks ma ei jõua. Peame uue aja kokku leppima.</item>
+  </string-array>
+    <string name="quick_response_custom_msg">Kohandatud sõnum \u2026</string>
+    <string name="event_info_organizer">Korraldaja:</string>
+    <string name="event_info_reminders_label">Meeldetuletused</string>
+    <string name="agenda_today">TÄNA, <xliff:g id="DATE">%1$s</xliff:g></string>
+    <string name="agenda_yesterday">EILE, <xliff:g id="DATE">%1$s</xliff:g></string>
+    <string name="agenda_tomorrow">HOMME, <xliff:g id="DATE">%1$s</xliff:g></string>
+    <string name="loading">Laadimine \u2026</string>
+    <string name="show_older_events">Enne <xliff:g id="OLDEST_SEARCH_RANGE">%1$s</xliff:g> toimuvate sündmuste nägemiseks puuduta seda teksti</string>
+    <string name="show_newer_events">Pärast <xliff:g id="NEWEST_SEARCH_RANGE">%1$s</xliff:g> toimuvate sündmuste nägemiseks puuduta seda teksti</string>
+    <string name="search_title">Kalendritest otsimine</string>
+    <string name="edit_event_label">Üksikasjad</string>
+    <string name="edit_label">Muuda</string>
+    <string name="delete_label">Kustuta</string>
+    <string name="save_label">Valmis</string>
+    <string name="discard_label">Tühista</string>
+    <string name="snooze_all_label">Lükka kõik edasi</string>
+    <string name="dismiss_all_label">Loobu kõigist</string>
+    <string name="snooze_label">Lükka edasi</string>
+    <string name="does_not_repeat">Ühekordne sündmus</string>
+    <string name="daily">Iga päev</string>
+    <string name="every_weekday">Igal tööpäeval (E-R)</string>
+    <string name="weekly">Iganädalane (iga <xliff:g id="DAYS_OF_WEEK">%s</xliff:g>)</string>
+    <string name="monthly_on_day_count">Igakuine (iga <xliff:g id="ORDINAL_NUMBER">%1$s</xliff:g> <xliff:g id="DAY_OF_WEEK">%2$s</xliff:g>)</string>
+    <string name="monthly">Iga kuu</string>
+    <string name="yearly_plain">Iga aasta</string>
+    <string name="monthly_on_day">Igakuine (<xliff:g id="DAY_OF_MONTH">%s</xliff:g>. kuupäeval)</string>
+    <string name="yearly">Iga-aastane (<xliff:g id="DATES">%s</xliff:g>)</string>
+    <string name="custom" product="tablet">Kohandatud (tahvelarvutil ei saa kohandada)</string>
+    <string name="custom" product="default">Kohandatud (telefonis ei saa kohandada)</string>
+    <string name="modify_event">Muuda ainult seda sündmust</string>
+    <string name="modify_all">Muuda seeria kõiki sündmusi</string>
+    <string name="modify_all_following">Muuda seda sündmust ja seeria kõiki tulevasi sündmusi</string>
+    <string name="new_event_dialog_label">Uus sündmus</string>
+    <string name="new_event_dialog_option">Uus sündmus</string>
+    <string name="delete_this_event_title">Kas kustutada see sündmus?</string>
+    <string name="delete_recurring_event_title">Kas kustutada <xliff:g id="EVENTTITLE">%s</xliff:g>?</string>
+    <string name="change_response_title">Muuda vastust</string>
+    <string name="menu_general_preferences">Üldseaded</string>
+    <string name="menu_about_preferences">Teave kalendri kohta</string>
+    <string name="preferences_title">Seaded</string>
+    <string name="preferences_general_title">Kalendrivaate seaded</string>
+    <string name="preferences_reminder_title">Märguanded ja meeldetuletused</string>
+    <string name="preferences_hide_declined_title">Peidetud tagasilükatud sündmused</string>
+    <string name="preferences_week_start_day_title">Nädala algus:</string>
+    <string name="preferences_week_start_day_dialog">Nädala algus:</string>
+    <string name="preferences_clear_search_history_title">Kustuta otsinguajalugu</string>
+    <string name="preferences_clear_search_history_summary">Kõigi tehtud otsingute eemaldamine</string>
+    <string name="search_history_cleared">Otsinguajalugu on kustutatud.</string>
+    <string name="preferences_alerts_title">Märguanded</string>
+    <string name="preferences_alerts_vibrateWhen_title">Vibreerimine</string>
+    <string name="preferences_alerts_ringtone_title">Heli</string>
+    <string name="preferences_alerts_popup_title">Hüpikmärguanne</string>
+    <string name="preferences_default_reminder_title">Meeldetuletuse vaikeaeg</string>
+    <string name="preferences_default_reminder_dialog">Meeldetuletuse vaikeaeg</string>
+    <string name="preferences_default_reminder_default">10</string>
+    <string name="preferences_use_home_tz_title">Koduse ajavööndi kasutamine</string>
+    <string name="preferences_use_home_tz_descrip">Kuvab reisides kalendrid ja sündmuste ajad koduse aja järgi</string>
+    <string name="preferences_home_tz_title">Kodune ajavöönd</string>
+    <string name="preferences_show_week_num_title">Nädala numbri kuvamine</string>
+    <string name="preferences_about_title">Teave</string>
+    <string name="preferences_build_version">Rakenduse versioon</string>
+    <string name="gadget_title">Kalender</string>
+  <plurals name="month_more_events">
+    <item quantity="one">+1</item>
+    <item quantity="other">+<xliff:g id="NUMBER">%d</xliff:g></item>
+  </plurals>
+    <string name="gadget_no_events">Tulevasi kalendrisündmusi pole</string>
+    <string name="copy_db">Andmebaasi saatmine</string>
+    <string name="directory_searching_fmt">Domeeni <xliff:g id="DOMAIN">%s</xliff:g> otsimine \u2026</string>
+    <string name="accessibility_remove_attendee">Osaleja eemaldamine</string>
+    <string name="accessibility_pick_start_date">Alguse kuupäev</string>
+    <string name="accessibility_pick_start_time">Alguse kellaaeg</string>
+    <string name="accessibility_pick_end_date">Lõpu kuupäev</string>
+    <string name="accessibility_pick_end_time">Lõpu kellaaeg</string>
+    <string name="accessibility_pick_time_zone">Ajavöönd</string>
+    <string name="accessibility_add_reminder">Meeldetuletuse lisamine</string>
+    <string name="accessibility_remove_reminder">Meeldetuletuse eemaldamine</string>
+    <string name="accessibility_add_attendee">Osaleja lisamine</string>
+    <string name="accessibility_sync_cal">Kalendri sünkroonimine</string>
+    <string name="accessibility_all_day">Kogupäeva kestev sündmus</string>
+    <string name="accessibility_repeats">Kordamine</string>
+    <string name="accessibility_reminder_time">Meeldetuletuse aeg</string>
+    <string name="accessibility_reminder_type">Meeldetuletuse tüüp</string>
+    <string name="accessibility_reminder_showmeas">Minu staatus kalendris</string>
+    <string name="accessibility_reminder_privacy">Privaatsus</string>
+    <string name="acessibility_cal_notification">Kalendri märguanded</string>
+    <string name="acessibility_snooze_notification">Meeldetuletuse edasilükkamine</string>
+    <string name="accessibility_email_notification">Külalistele meili saatmine</string>
+    <string name="day_view_new_event_hint">+ Uus sündmus</string>
+    <string name="template_announce_item_index">Sündmus <xliff:g id="ITEM_INDEX">%1$s</xliff:g>/<xliff:g id="ITEM_COUNT">%2$s</xliff:g>.</string>
+  <plurals name="Nevents">
+    <item quantity="one">1 sündmus</item>
+    <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> sündmust</item>
+  </plurals>
+  <plurals name="N_remaining_events">
+    <item quantity="one">+1 sündmus</item>
+    <item quantity="other">+<xliff:g id="COUNT">%d</xliff:g> sündmust</item>
+  </plurals>
+    <string name="acessibility_selected_marker_description">Valitud sündmus</string>
+    <string name="do_not_check">ÄRGE märkige -&gt;</string>
+</resources>
