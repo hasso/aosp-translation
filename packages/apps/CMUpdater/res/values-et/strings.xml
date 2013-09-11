@@ -22,7 +22,7 @@
     <string name="dialog_update">Uuenda</string>
     <string name="dialog_close">Sulge</string>
     <string name="available_updates_title">Saadaolevad uuendused</string>
-    <string name="no_available_updates_intro">Viimasel kontrollimisel ei leitud ühtegi uuendust. Uuenduste uueks kontrolliks vajutage värskendamise nuppu.</string>
+    <string name="no_available_updates_intro">Viimasel kontrollimisel ei leitud ühtegi uuendust. Uuenduste uueks kontrolliks vajuta värskendamise nuppu.</string>
     <string name="new_update_summary">Uus</string>
     <string name="downloaded_update_summary">Allalaaditud</string>
     <string name="installed_update_summary">Paigaldatud</string>
@@ -71,8 +71,8 @@
     <string name="apply_trying_to_get_root_access">Taotletakse root õigusi Recovery-režiimi käivitamiseks</string>
     <string name="apply_unable_to_reboot_toast">Recovery-režiimi käivitamine ebaõnnestus</string>
     <string name="confirm_delete_dialog_title">Faili kustutamine</string>
-    <string name="confirm_delete_dialog_message">Oled kustutamas allalaaditud värskendusfaili, jätkamiseks vajutage OK nuppu</string>
-    <string name="confirm_delete_all_dialog_message">Oled kustutamas kõik allalaaditud värskendusfailid, jätkamiseks vajutage OK nuppu</string>
+    <string name="confirm_delete_dialog_message">Oled kustutamas allalaaditud värskendusfaili, jätkamiseks vajuta OK nuppu</string>
+    <string name="confirm_delete_all_dialog_message">Oled kustutamas kõik allalaaditud värskendusfailid, jätkamiseks vajuta OK nuppu</string>
     <string name="delete_single_update_success_message">Värskendus {0} eemaldatud</string>
     <string name="delete_updates_failure_message">Viga eemaldades värskendusfaili</string>
     <string name="delete_updates_noFolder_message">Värskendus kausta ei leitud</string>

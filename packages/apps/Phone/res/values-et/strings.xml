@@ -364,7 +364,7 @@
     <string name="confirmPinLabel">Kinnita uus PIN-kood</string>
     <string name="badPin">Sisestatud vana PIN kood pole õige. Proovi uuesti.</string>
     <string name="mismatchPin">Sisestatud PIN koodid ei kattu. Proovi uuesti.</string>
-    <string name="invalidPin">Sisestage 4–8-numbriline PIN-kood.</string>
+    <string name="invalidPin">Sisesta 4–8-numbriline PIN-kood.</string>
     <string name="disable_sim_pin">Keela SIM-i PIN kood</string>
     <string name="enable_sim_pin">Luba SIM-i PIN kood</string>
     <string name="enable_in_progress">Oota \u2026</string>
@@ -376,7 +376,7 @@
     <string name="enter_pin2_text">PIN2</string>
     <string name="oldPin2Label">Vana PIN2 kood</string>
     <string name="newPin2Label">Uus PIN2 kood</string>
-    <string name="confirmPin2Label">Kinnitage uus PIN2 kood</string>
+    <string name="confirmPin2Label">Kinnita uus PIN2 kood</string>
     <string name="badPuk2">Sisestatud PUK2 kood pole õige. Proovi uuesti.</string>
     <string name="badPin2">Sisestatud vana PIN2 kood pole õige. Proovi uuesti.</string>
     <string name="mismatchPin2">Sisestatud PIN2 koodid ei sobi. Proovi uuesti.</string>
@@ -385,7 +385,7 @@
     <string name="pin2_changed">PIN2 koodi muutmine õnnestus.</string>
     <string name="label_puk2_code">Sisesta PUK2 kood</string>
     <string name="fdn_enable_puk2_requested">Parool on vale. Muuda PIN2 koodi ja proovi siis uuesti.</string>
-    <string name="puk2_requested">Parool on vale, SIM kaart on lukus. Sisestage PUK2 kood.</string>
+    <string name="puk2_requested">Parool on vale, SIM kaart on lukus. Sisesta PUK2 kood.</string>
     <string name="doneButton">Valmis</string>
     <string name="caller_manage_header">Konverentskõne <xliff:g id="CONF_CALL_TIME">%s</xliff:g></string>
     <string name="voicemail_settings_number_label">Kõnepostinumber</string>
@@ -433,7 +433,7 @@
     <string name="emergency_enable_radio_dialog_message">Raadioside sisselülitamine \u2026</string>
     <string name="emergency_enable_radio_dialog_retry">Teeninduspiirkonnast väljas, uuesti proovimine \u2026</string>
     <string name="dial_emergency_error">Kõnet ei tehtud. <xliff:g id="NON_EMERGENCY_NUMBER">%s</xliff:g> pole hädaabinumber.</string>
-    <string name="dial_emergency_empty_error">Kõnet ei tehtud, valige hädaabinumber.</string>
+    <string name="dial_emergency_empty_error">Kõnet ei tehtud, vali hädaabinumber.</string>
     <string name="dialerKeyboardHintText">Numbri valimiseks kasuta klaviatuuri</string>
     <string name="onscreenHoldText">Pane ootele</string>
     <string name="onscreenEndCallText">Lõpeta</string>
@@ -477,7 +477,7 @@
     <string name="ota_progress">Oodake, kuni su telefoni programmeeritakse.</string>
     <string name="ota_failure">Programmeerimine ebaõnnestus</string>
     <string name="ota_successful">Su telefon on nüüd aktiveeritud. Teenuse käivitumiseks võib kuluda kuni 15 minutit.</string>
-    <string name="ota_unsuccessful">Su telefoni ei aktiveeritud.\nProovi leida parema leviga piirkond (akna lähedal või õues).\n\nProovi uuesti või helistage klienditeenindusse.</string>
+    <string name="ota_unsuccessful">Su telefoni ei aktiveeritud.\nProovi leida parema leviga piirkond (akna lähedal või õues).\n\nProovi uuesti või helista klienditeenindusse.</string>
     <string name="ota_spc_failure">LIIALT SPC EBAÕNNESTUMISI</string>
     <string name="ota_call_end">Tagasi</string>
     <string name="ota_try_again">Proovi uuesti</string>

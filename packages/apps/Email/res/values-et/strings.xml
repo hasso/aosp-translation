@@ -187,7 +187,7 @@
     <string name="attachment_info_wifi_only">Manus on mobiilivõrgu kaudu allalaadimiseks liiga suur. Saad selle alla laadida siis, kui on olemas WiFi ühendus.</string>
     <string name="attachment_info_no_intent">Selle manuse avamiseks pole sobivat rakendust paigaldatud. Laadi Play poest alla sobiv rakendus.</string>
     <string name="attachment_info_sideload_disabled">See manus on rakendus. Enne selle paigaldamist pead lubama tundmatutes allikates pärineva tarkvara paigaldamise - Seaded -&gt; Rakendused.</string>
-    <string name="attachment_info_apk_install_disabled">Rakendusi ei saa otse manusest paigaldada. Salvesta esmalt rakendus ja seejärel paigaldage see rakendusest „Allalaadimised“.</string>
+    <string name="attachment_info_apk_install_disabled">Rakendusi ei saa otse manusest paigaldada. Salvesta esmalt rakendus ja seejärel paigalda see rakendusest „Allalaadimised“.</string>
     <string name="attachment_not_found">Manuse allalaadimine ebaõnnestus.</string>
     <string name="message_decode_error">Viga kirja dekodeerimisel.</string>
     <string name="eml_view_title">Faili <xliff:g id="FILENAME">%s</xliff:g> kuvamine</string>
@@ -405,7 +405,7 @@
     <string name="mailbox_shortcut_picker_title">Kausta valimine</string>
     <string name="toast_account_not_found">Kontot ei leitud. See võib olla eemaldatud.</string>
     <string name="toast_mailbox_not_found">Kausta ei leitud. See võib olla eemaldatud.</string>
-    <string name="provider_note_live">Ainult mõnel „Plus” kontole on võimalik ligi pääseda POP protokolliga, mida see rakendus kasutada oskab. Kui sa ei saa oma õige e-posti aadressi ja parooliga sisse logida, pole sul võib-olla tasulist „Plus” kontot. Sellistele meilikontodele ligipääsuks käivita veebibrauser.</string>
+    <string name="provider_note_live">Ainult mõnele „Plus” kontole on võimalik ligi pääseda POP protokolliga, mida see rakendus kasutada oskab. Kui sa ei saa oma õige e-posti aadressi ja parooliga sisse logida, pole sul võib-olla tasulist „Plus” kontot. Sellistele meilikontodele ligipääsuks käivita veebibrauser.</string>
     <string name="provider_note_t_online">Enne selle meilikonto seadistamist külasta T-Online\'i veebisaiti ja tekita POP3 ligipääsuks vajalik parool.</string>
     <string name="exchange_name">Korporatiivne</string>
     <string name="exchange_name_alternate">Microsoft Exchange ActiveSync</string>

@@ -99,8 +99,8 @@
     <string name="all_apps_cling_title">Vali mõned rakendused</string>
     <string name="all_apps_cling_add_item">Rakenduse lisamiseks avaekraanile puuduta seda pikemalt.</string>
     <string name="folder_cling_title">Korralda oma rakendused kaustadesse</string>
-    <string name="folder_cling_move_item">Rakenduse liigutamiseks pange sõrm rakenduse ikoonile ja hoidke seda.</string>
-    <string name="folder_cling_create_folder">Uue kausta loomiseks avaekraanil liigutage üks rakendus teise peale.</string>
+    <string name="folder_cling_move_item">Rakenduse liigutamiseks pane sõrm rakenduse ikoonile ja hoia seda seal.</string>
+    <string name="folder_cling_create_folder">Uue kausta loomiseks avaekraanil liiguta üks rakendus teise peale.</string>
     <string name="cling_dismiss">OK</string>
     <string name="folder_opened">Kaust avatud, <xliff:g id="width" example="5">%1$d</xliff:g> x <xliff:g id="height" example="3">%2$d</xliff:g></string>
     <string name="folder_tap_to_close">Kausta sulgemiseks puuduta ala sellest väljastpool</string>

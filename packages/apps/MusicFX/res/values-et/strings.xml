@@ -21,7 +21,7 @@
     <string name="no_effects">Efekte pole</string>
     <string name="main_toggle_effects_title">Heliefektid</string>
     <string name="eq_dialog_title">Ekvalaiser</string>
-    <string name="headset_plug">Nende efektide kasutamiseks ühendage kõrvaklapid</string>
+    <string name="headset_plug">Nende efektide kasutamiseks ühenda kõrvaklapid</string>
     <string name="bass_boost_strength">Bassi võimendamine</string>
     <string name="virtualizer_strength">3D efekt</string>
     <string name="pr_title">Ruumikaja:</string>

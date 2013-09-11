@@ -94,8 +94,8 @@
     <string name="privacy_label">Privaatsus</string>
     <string name="reminders_label">Lisa meeldetuletus</string>
     <string name="no_syncable_calendars">Kalendrid puuduvad</string>
-    <string name="no_calendars_found">Enne kui saate lisada sündmusi, peate seadmesse lisama vähemalt ühe kalendri konto ja muutma kalendri nähtavaks. Konto lisamiseks puudutage käsku Lisa konto (kui lisasite äsja konto, oodake, kuni see lõpetab sünkroonimise, ja proovige uuesti). Teise võimalusena puudutage käsku Tühista ja veenduge, et vähemalt üks kalender on nähtav.</string>
-    <string name="create_an_account_desc">Kalender töötab paremini Google\'i kontoga.\n\n\u2022 Sa saad seda kasutada igast veebibrauserist.\n\u2022 Sündmuste andmed on turvaliselt varundatud.</string>
+    <string name="no_calendars_found">Enne kui sündmusi lisada saad, pead lisama seadmesse vähemalt ühe kalendri konto ja muutma kalendri nähtavaks. Konto lisamiseks puuduta käsku „Lisa konto“. Kui konto on äsja lisatud, oota, kuni see sünkroonimise lõpetab, ja proovi siis uuesti. Kui kalender on juba sünkroonitud, puuduta käsku „Tühista“ ja veendu, et vähemalt üks kalender on ka nähtav.</string>
+    <string name="create_an_account_desc">Kalender töötab paremini Google\'i kontoga.\n\n\u2022 Seda saab kasutada igast veebibrauserist.\n\u2022 Sündmuste andmed on turvaliselt varundatud.</string>
     <string name="add_account">Lisa konto</string>
     <string name="view_event_calendar_label">Kalender:</string>
     <string name="view_event_organizer_label">Korraldaja:</string>
@@ -218,5 +218,5 @@
     <item quantity="other">+<xliff:g id="COUNT">%d</xliff:g> sündmust</item>
   </plurals>
     <string name="acessibility_selected_marker_description">Valitud sündmus</string>
-    <string name="do_not_check">ÄRGE märkige -&gt;</string>
+    <string name="do_not_check">ÄRA märgi -&gt;</string>
 </resources>

@@ -86,7 +86,7 @@
     <string name="dialog_sync_all_preparing"><xliff:g id="PHOTOCOUNT">%1$d</xliff:g> foto ja <xliff:g id="VIDEOCOUNT">%2$d</xliff:g> video üleslaadimise ettevalmistamine \u2026</string>
     <string name="dialog_sync_all_found_none">Rohkem pole fotosid/videoid vaja üles laadida.</string>
     <string name="dialog_sync_all_server_error">Serveriga ühenduse loomisel ilmnes probleem. Proovi hiljem uuesti.</string>
-    <string name="dialog_sync_all_canceled">Kõige sünkroonimine katkestatud</string>
+    <string name="dialog_sync_all_canceled">Kõigi andmete sünkroonimine katkestatud</string>
     <string name="dialog_sync_all_error_title">Sünkrooni kõik</string>
     <string name="manager_view_completed">Kuva lõpetatud</string>
     <string name="manager_view_pending">Kuva ootel</string>
@@ -130,7 +130,7 @@
     <string name="preference_summary_header_format">%1$s: %2$s</string>
     <string name="preference_summary_uploading_percent">Üleslaadimine (%1$d%%)</string>
     <string name="preference_summary_uploading_format">: %1$d/%2$d</string>
-    <string name="preference_summary_uploading_paused">Peatatud: üleslaadimise jätkamiseks puudutage seda teksti</string>
+    <string name="preference_summary_uploading_paused">Peatatud: üleslaadimise jätkamiseks puuduta seda teksti</string>
     <string name="preference_plus_sync_all_prompt_title">Laadi olemasolevad fotod üles</string>
     <string name="preference_plus_sync_all_prompt_text">Nende fotode ja videote üleslaadimine, mis pole veel telefonist privaatsesse veebialbumisse üles laaditud, võtab veidi aega, kuid seda tehakse taustal. Oled sa kindel, et soovid jätkata?</string>
     <string name="preference_plus_sync_all_prompt_yes">Jah</string>

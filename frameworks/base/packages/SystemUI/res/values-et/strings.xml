@@ -35,10 +35,10 @@
     <string name="status_bar_no_notifications_title">Märguandeid pole</string>
     <string name="status_bar_ongoing_events_title">Käimasolev</string>
     <string name="status_bar_latest_events_title">Märguanded</string>
-    <string name="battery_low_title">Ühendage laadija</string>
+    <string name="battery_low_title">Ühenda laadija</string>
     <string name="battery_low_subtitle">Aku hakkab tühjenema.</string>
-    <string name="battery_low_percent_format"><xliff:g id="NUMBER">%d%%</xliff:g> on alles</string>
-    <string name="invalid_charger">USB pordist laadimine pole toetatud.\nKasutage ainult tootja laadijat.</string>
+    <string name="battery_low_percent_format">Laengust on alles <xliff:g id="NUMBER">%d%%</xliff:g></string>
+    <string name="invalid_charger">USB pordist laadimine pole toetatud.\nKasuta ainult tootja poolt seadmega kaasa pandud laadijat.</string>
     <string name="battery_low_why">Akukasutus</string>
     <string name="status_bar_settings_settings_button">Seaded</string>
     <string name="status_bar_settings_wifi_button">WiFi</string>
@@ -69,12 +69,12 @@
     <string name="screenshot_saving_ticker">Ekraanipildi salvestamine \u2026</string>
     <string name="screenshot_saving_title">Ekraanipildi salvestamine \u2026</string>
     <string name="screenshot_saving_text">Ekraanipildi salvestamine.</string>
-    <string name="screenshot_saved_title">Ekraanipilt jäädvustatud.</string>
-    <string name="screenshot_saved_text">Puudutage kuvatõmmise vaatamiseks.</string>
-    <string name="screenshot_failed_title">Kuvatõmmist ei saanud jäädvustada.</string>
-    <string name="screenshot_failed_text">Kuvatõmmist ei saa salvestada. Mäluseade võib olla kasutuses.</string>
-    <string name="usb_preference_title">USB-failiedastuse valikud</string>
-    <string name="use_mtp_button_title">Ühendamine meediumimängija režiimis (MTP)</string>
+    <string name="screenshot_saved_title">Ekraanipilt salvestatud.</string>
+    <string name="screenshot_saved_text">Vaatamiseks puuduta seda teksti.</string>
+    <string name="screenshot_failed_title">Ekraanipilti ei salvestatud.</string>
+    <string name="screenshot_failed_text">Ekraanipilti ei õnnestunud salvestada, salvestusruum võib olla kellegi kasutuses.</string>
+    <string name="usb_preference_title">USB failiedastuse valikud</string>
+    <string name="use_mtp_button_title">Ühendamine meediamängija režiimis (MTP)</string>
     <string name="use_ptp_button_title">Ühendamine kaamera režiimis (PTP)</string>
     <string name="installer_cd_button_title">Android File Transfer rakenduse paigaldus Macile</string>
     <string name="accessibility_back">Tagasi</string>
@@ -144,7 +144,7 @@
     <string name="accessibility_tty_enabled">TTY on lubatud.</string>
     <string name="accessibility_ringer_vibrate">Telefonihelin ka vibreerib.</string>
     <string name="accessibility_ringer_silent">Telefonihelin on vaigistatud.</string>
-    <string name="accessibility_recents_item_dismissed">Loobusite rakendusest <xliff:g id="APP">%s</xliff:g>.</string>
+    <string name="accessibility_recents_item_dismissed">Loobusid rakendusest <xliff:g id="APP">%s</xliff:g>.</string>
     <string name="accessibility_notification_dismissed">Märguanne eemaldatud.</string>
     <string name="accessibility_desc_notification_shade">Märguannete laegas.</string>
     <string name="accessibility_desc_quick_settings">Kiirseaded.</string>
@@ -160,7 +160,7 @@
     <string name="data_usage_disabled_dialog_4g_title">4G andmeside keelatud</string>
     <string name="data_usage_disabled_dialog_mobile_title">Mobiilne andmeside keelatud</string>
     <string name="data_usage_disabled_dialog_title">Andmeside keelatud</string>
-    <string name="data_usage_disabled_dialog">Olete jõudnud määratud andmeside kasutuse piirini.\n\nKui lülitate andmeside uuesti sisse, siis võib teenusepakkuja selle eest tasu võtta.</string>
+    <string name="data_usage_disabled_dialog">Oled jõudnud määratud andmeside kasutuse piirini.\n\nKui lülitad andmeside uuesti sisse, siis võib teenusepakkuja selle eest tasu võtta.</string>
     <string name="data_usage_disabled_dialog_enable">Luba andmeside uuesti</string>
     <string name="status_bar_settings_signal_meter_disconnected">Interneti ühendus puudub</string>
     <string name="status_bar_settings_signal_meter_wifi_nossid">WiFi on ühendatud</string>
@@ -170,7 +170,7 @@
     <string name="status_bar_notification_inspect_item_title">Info</string>
     <string name="close_universe">Sulge</string>
     <string name="notifications_off_title">Märguanded on välja lülitatud</string>
-    <string name="notifications_off_text">Märguannete uuesti sisselülitamiseks puudutage seda teksti siin.</string>
+    <string name="notifications_off_text">Märguannete uuesti sisselülitamiseks puuduta seda teksti.</string>
     <string name="accessibility_rotation_lock_off">Ekraani pööramine toimub automaatselt.</string>
     <string name="accessibility_rotation_lock_on_landscape">Ekraan on lukustatud horisontaalasendisse.</string>
     <string name="accessibility_rotation_lock_on_portrait">Ekraan on lukustatud vertikaalasendisse.</string>
@@ -203,5 +203,5 @@
     <string name="quick_settings_brightness_dialog_title">Heledus</string>
     <string name="quick_settings_brightness_dialog_auto_brightness_label">AUTOMAATNE</string>
     <string name="status_bar_help_title">Märguanded ilmuvad siia</string>
-    <string name="status_bar_help_text">Neile pääsete iga hetk ligi sõrme ekraani ülemisest servast alla libistades.\nSüsteemi juhtnuppudele ligipääsuks korrake seda liigutust.</string>
+    <string name="status_bar_help_text">Neile pääsed iga hetk ligi sõrme ekraani ülemisest servast alla libistades.\nSüsteemi juhtnuppudele ligipääsuks korda seda liigutust.</string>
 </resources>

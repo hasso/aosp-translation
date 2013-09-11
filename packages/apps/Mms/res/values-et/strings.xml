@@ -96,15 +96,15 @@
     <string name="failed_to_resize_image">Pildi mõõtmeid ei muudetud.</string>
     <string name="resize_image_error_information">Isegi pärast pildi mõõtmete muutmist on see saatmiseks ikka liiga suur.</string>
     <string name="forward_prefix">Fwd:\u0020</string>
-    <string name="discard_message_reason">Teie sõnum visatakse ära, sest sel pole korrektseid saajaid.</string>
+    <string name="discard_message_reason">Su sõnum visatakse ära, sest sel pole korrektseid saajaid.</string>
     <string name="has_invalid_recipient">Vigased saajad: &lt;<xliff:g id="NAME">%1$s</xliff:g>&gt;</string>
     <string name="invalid_destination">Vigane sihtkoha aadress.</string>
     <string name="service_not_activated">Teenus pole võrgus aktiveeritud.</string>
     <string name="service_message_not_found">Sõnum on aegunud või pole saadaval.</string>
     <string name="service_network_problem">Võrguprobleemi tõttu ei õnnestunud sõnumit saata.</string>
-    <string name="invalid_recipient_message">Parandage adressaate, muidu ei saa nad sõnumit kätte.</string>
+    <string name="invalid_recipient_message">Paranda adressaadid ära, muidu ei saa nad sõnumit kätte.</string>
     <string name="cannot_send_message">Sõnumit ei õnnestu saata</string>
-    <string name="cannot_send_message_reason">Teie sõnumil pole korrektseid adressaate.</string>
+    <string name="cannot_send_message_reason">Su sõnumil pole korrektseid adressaate.</string>
     <string name="cannot_forward_drm_obj">Sõnumisse olevat DRM objekti ei saa edasi saata.</string>
     <string name="converting_to_picture_message">Multimeediumsõnumiks teisendamine \u2026</string>
     <string name="cannot_add_slide_anymore">Rohkem slaide ei saa lisada.</string>
@@ -114,7 +114,7 @@
     <string name="too_many_recipients">Sõnumil on liiga palju adressaate - <xliff:g id="CURRENTCOUNT">%1$s</xliff:g>. Limiidiks on <xliff:g id="MAXLIMIT">%2$s</xliff:g> adressaati.</string>
     <string name="too_many_attachments">Maksimaalne manuste arv on <xliff:g id="MAXLIMIT">%1$s</xliff:g>. Lisatakse vaid <xliff:g id="CURRENTCOUNT">%2$s</xliff:g> esimest.</string>
     <string name="adding_attachments_title">Manuste lisamine</string>
-    <string name="adding_attachments">Oodake, kuni objektid slaidiseanssi lisatakse.</string>
+    <string name="adding_attachments">Oota, kuni objektid slaidiseanssi lisatakse.</string>
     <string name="building_slideshow_title">Slaidiseansi koostamine</string>
     <string name="cannot_play_audio">Audiot ei saa esitada.</string>
     <string name="preview">Eelvaade</string>
@@ -125,7 +125,7 @@
     <string name="layout_selector_title">Slaidiseansi paigutus </string>
     <string name="layout_top">Paigutus (ülal)</string>
     <string name="layout_bottom">Paigutus (all)</string>
-    <string name="type_to_compose_text_or_leave_blank">Sisestage sõnumi tekst või jätke see tühjaks</string>
+    <string name="type_to_compose_text_or_leave_blank">Sisesta sõnumi tekst või jäta see tühjaks</string>
     <string name="duration_not_a_number">Kestus peab olema arv.</string>
     <string name="duration_zero">Kestus peab olema pikem kui null sekundit.</string>
     <string name="secs">s</string>
@@ -311,7 +311,7 @@
     <string name="confirm_clear_search_title">Kustuta</string>
     <string name="confirm_clear_search_text">Otsinguajalugu kustutatakse.</string>
     <string name="pref_mms_clear_search_history_title">Otsinguajaloo kustutamine</string>
-    <string name="pref_mms_clear_search_history_summary">Kustutab varasemate otsingud, et neid ei näidataks otsingukastis</string>
+    <string name="pref_mms_clear_search_history_summary">Kustutab varasemad otsingud, et neid ei näidataks otsingukastis</string>
     <string name="save">Salvestamine</string>
     <string name="storage_limits_title">Sõnumite piirang</string>
     <string name="storage_limits_message">Kas piirata vestluse kohta salvestatud sõnumite arvu?</string>

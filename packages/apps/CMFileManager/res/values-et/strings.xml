@@ -198,7 +198,7 @@
   <string name="bookmarks_msgs_add_success">Järjehoidja edukalt lisatud.</string>
   <string name="initial_directory_dialog_title">Avamiskaust</string>
   <string name="initial_directory_label">Vali avamiskaust:</string>
-  <string name="initial_directory_relative_msg">Suhteliste kaustateede kasutamine pole siin lubatud.</string>
+  <string name="initial_directory_relative_msg">Suhteliste failisüsteemi asukohtade kasutamine pole siin lubatud.</string>
   <string name="initial_directory_error_msg">Viga avamiskausta salvestamisel.</string>
   <string name="menu_history">Ajalugu</string>
   <string name="menu_bookmarks">Järjehoidjad</string>

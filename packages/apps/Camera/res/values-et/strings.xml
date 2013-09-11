@@ -173,7 +173,7 @@
     <string name="time_lapse_hours">tundi</string>
     <string name="time_lapse_interval_set">Valmis</string>
     <string name="set_time_interval">Intervalli määramine</string>
-    <string name="set_time_interval_help">Intervallpildistamine on välja lülitatud. Intervalli määramiseks lülitage see sisse.</string>
+    <string name="set_time_interval_help">Intervallpildistamine on välja lülitatud. Intervalli määramiseks lülita see sisse.</string>
     <string name="remember_location_title">Kas jätta meelde pildistamise asukohad?</string>
     <string name="remember_location_prompt">Fotode ja videote tegemise asukoht säilitatakse metainfos.\n\nMuud rakendused pääsevad lisaks salvestatud piltidele ligi ka sellele teabele.</string>
     <string name="remember_location_no">Ei</string>

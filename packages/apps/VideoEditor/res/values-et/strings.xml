@@ -81,7 +81,7 @@
     <string name="editor_saved_error">Projekti ei õnnestu salvestada.</string>
     <string name="editor_release_error">Vea tõttu ei õnnestu projekti väljastada.</string>
     <string name="editor_delete_error">Vea tõttu ei õnnestu projekti kustutada.</string>
-    <string name="editor_add_video_clip_error">Teie projektile ei õnnestu videoklippe lisada.</string>
+    <string name="editor_add_video_clip_error">Su projektile ei õnnestu videoklippe lisada.</string>
     <string name="editor_add_image_error">Projektile ei õnnestu pilti lisada.</string>
     <string name="editor_move_media_item_error">Üksust ei õnnestu liigutada.</string>
     <string name="editor_remove_media_item_error">Üksust ei õnnestu eemaldada.</string>

@@ -79,7 +79,7 @@
     <string name="not_exist_file_desc">Faili ei ole olemas. \n</string>
     <string name="enabling_progress_title">Palun oota \u2026</string>
     <string name="enabling_progress_content">Bluetoothi sisselülitamine \u2026</string>
-    <string name="bt_toast_1">Fail võetakse vastu. Vaadake edenemist märguannete laekas.</string>
+    <string name="bt_toast_1">Fail võetakse vastu. Edenemist saad jälgida märguannete laekas.</string>
     <string name="bt_toast_2">Faili ei saa vastu võtta.</string>
     <string name="bt_toast_3">Faili vastuvõtmine saatjalt „<xliff:g id="SENDER">%1$s</xliff:g>” peatatud</string>
     <string name="bt_toast_4">Faili saatmine saajale „<xliff:g id="RECIPIENT">%1$s</xliff:g>”</string>

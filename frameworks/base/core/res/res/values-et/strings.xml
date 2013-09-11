@@ -377,8 +377,8 @@
     <string name="permlab_movePackage">rakenduse ressursside teisaldamine</string>
     <string name="permdesc_movePackage">Võimaldab rakendusel teisaldada rakenduseressursse sisemiselt salvestusruumilt välisele ja vastupidi.</string>
     <string name="permlab_readLogs">tundlike logiandmete lugemine</string>
-    <string name="permdesc_readLogs" product="tablet">Võimaldab rakendusel lugeda erinevaid logifaile süsteemis. Nii on rakendusel võimalik saada üldist infot selle kohta, mida te tahvelarvutiga teete ning võib muuhulgas sisaldada ka isiklikku või privaatset teavet.</string>
-    <string name="permdesc_readLogs" product="default">Võimaldab rakendusel lugeda erinevaid logifaile süsteemis. Nii on rakendusel võimalik saada üldist infot selle kohta, mida te telefoniga teete ning võib muuhulgas sisaldada ka isiklikku või privaatset teavet.</string>
+    <string name="permdesc_readLogs" product="tablet">Võimaldab rakendusel lugeda erinevaid logifaile süsteemis. Nii on rakendusel võimalik saada üldist infot selle kohta, mida sa tahvelarvutiga teed, kuid see info võib muuhulgas sisaldada ka isiklikke või privaatseid andmeid.</string>
+    <string name="permdesc_readLogs" product="default">Võimaldab rakendusel lugeda erinevaid logifaile süsteemis. Nii on rakendusel võimalik saada üldist infot selle kohta, mida sa telefoniga teed, kuid see info võib muuhulgas sisaldada ka isiklikke või privaatseid andmeid.</string>
     <string name="permlab_anyCodecForPlayback">meediadekoodrite kasutamine taasesituseks</string>
     <string name="permdesc_anyCodecForPlayback">Võimaldab rakendusel taasesituseks kasutada mis tahes paigaldatud meediumidekooderit.</string>
     <string name="permlab_diagnostic">diag grupi ressursside lugemine/kirjutamine</string>
@@ -580,7 +580,7 @@
     <string name="permlab_subscribedFeedsRead">tellitud uudistevoogude lugemine</string> <!-- HT -->
     <string name="permdesc_subscribedFeedsRead">Võimaldab rakendusel hankida üksikasjalikku infot hetkel sünkroonitavate uudistevoogude kohta.</string> <!-- HT -->
     <string name="permlab_subscribedFeedsWrite">tellitud uudistevoogude kirjutamine</string>
-    <string name="permdesc_subscribedFeedsWrite">Võimaldab rakendusel muuta su aktiivseid sünkroonitud uudistevooge. Pahatahtlikud rakendused võivad muuta neid uudistevooge muuta.</string>
+    <string name="permdesc_subscribedFeedsWrite">Võimaldab rakendusel muuta su aktiivseid sünkroonitud uudistevooge. Pahatahtlikud rakendused võivad neid uudistevooge muuta.</string>
     <string name="permlab_readDictionary">kasutaja sõnastikku lisatud sõnade lugemine</string>
     <string name="permdesc_readDictionary">Võimaldab rakendusel lugeda kõiki sõnu, nimesid ja fraase, mille kasutaja on enda sõnastikku salvestanud.</string>
     <string name="permlab_writeDictionary">sõnade lisamine kasutaja sõnastikku</string>
@@ -782,7 +782,7 @@
     <string name="emergency_calls_only">Ainult hädaabikõned</string>
     <string name="lockscreen_network_locked_message">Võrk suletud</string>
     <string name="lockscreen_sim_puk_locked_message">SIM kaart on lukus ning avamiseks on vajalik PUK kood.</string>
-    <string name="lockscreen_sim_puk_locked_instructions">Vaadake kasutusjuhendit või võtke ühendust klienditeenindusega.</string>
+    <string name="lockscreen_sim_puk_locked_instructions">Loe kasutusjuhendit või võta ühendust klienditeenindusega.</string>
     <string name="lockscreen_sim_locked_message">SIM kaart on lukus.</string>
     <string name="lockscreen_sim_unlock_progress_dialog_message">SIM kaardi avamine \u2026</string>
     <string name="lockscreen_too_many_failed_attempts_dialog_message">Oled oma avamismustrit <xliff:g id="NUMBER_0">%d</xliff:g> korda valesti sisestanud.\n\nProovi <xliff:g id="NUMBER_1">%d</xliff:g> sekundi pärast uuesti.</string>
@@ -1443,7 +1443,7 @@
     <string name="kg_login_checking_password">Konto kontrollimine \u2026</string>
     <string name="kg_too_many_failed_pin_attempts_dialog_message">Oled PIN-koodi <xliff:g id="NUMBER_0">%d</xliff:g> korda valesti sisestanud.\n\nProovi <xliff:g id="NUMBER_1">%d</xliff:g> sekundi pärast uuesti.</string>
     <string name="kg_too_many_failed_password_attempts_dialog_message">Oled parooli <xliff:g id="NUMBER_0">%d</xliff:g> korda valesti sisestanud.\n\nProovi uuesti <xliff:g id="NUMBER_1">%d</xliff:g> sekundi pärast.</string>
-    <string name="kg_too_many_failed_pattern_attempts_dialog_message">Joonistasite oma avamismustri <xliff:g id="NUMBER_0">%d</xliff:g> korda valesti.\n\nProovi <xliff:g id="NUMBER_1">%d</xliff:g> sekundi pärast uuesti.</string>
+    <string name="kg_too_many_failed_pattern_attempts_dialog_message">Joonistasid oma avamismustri <xliff:g id="NUMBER_0">%d</xliff:g> korda valesti.\n\nProovi <xliff:g id="NUMBER_1">%d</xliff:g> sekundi pärast uuesti.</string>
     <string name="kg_failed_attempts_almost_at_wipe" product="tablet">Oled üritanud <xliff:g id="NUMBER_0">%d</xliff:g> korda tahvelarvutit valesti avada. Pärast veel <xliff:g id="NUMBER_1">%d</xliff:g> ebaõnnestunud katset taastatakse tahvelarvuti tehaseseaded ja kõik kasutaja andmed kustutatakse.</string>
     <string name="kg_failed_attempts_almost_at_wipe" product="default">Oled üritanud <xliff:g id="NUMBER_0">%d</xliff:g> korda telefoni valesti avada. Pärast veel <xliff:g id="NUMBER_1">%d</xliff:g> ebaõnnestunud katset taastatakse telefoni tehaseseaded ja kõik kasutaja andmed kustutatakse.</string>
     <string name="kg_failed_attempts_now_wiping" product="tablet">Oled püüdnud tahvelarvutit <xliff:g id="NUMBER">%d</xliff:g> korda valesti avada. Nüüd taastatakse tahvelarvuti vaikeseaded.</string>
@@ -1452,8 +1452,8 @@
     <string name="kg_failed_attempts_almost_at_login" product="default">Joonistasid oma avamismustrit valesti <xliff:g id="NUMBER_0">%d</xliff:g> korda. Pärast veel <xliff:g id="NUMBER_1">%d</xliff:g> ebaõnnestunud katset palutakse sul telefon avada meilikonto abil.\n\nProovi <xliff:g id="NUMBER_2">%d</xliff:g> sekundi pärast uuesti.</string>
     <string name="kg_text_message_separator" product="default"> — </string>
     <string name="kg_reordering_delete_drop_target_text">Eemalda</string>
-    <string name="safe_media_volume_warning" product="default">Kas suurendada helitugevust üle ohutu piiri?\nPikaajaline suure helitugevusega muusika kuulamine võib kahjustada kuulmist.</string>
-    <string name="continue_to_enable_accessibility">Hõlbustuse lubamiseks hoidke kaht sõrme all.</string>
+    <string name="safe_media_volume_warning" product="default">Kas suurendada helitugevust üle ohutu piiri?\nPikaajaline suure helitugevusega muusika kuulamine võib kuulmist kahjustada.</string>
+    <string name="continue_to_enable_accessibility">Hõlbustuse lubamiseks hoia kaht sõrme ekraanil.</string>
     <string name="accessibility_enabled">Hõlbustusfunktsioonid on lubatud.</string>
     <string name="enable_accessibility_canceled">Hõlbustusfunktsioonid on keelatud.</string>
     <string name="user_switched">Aktiivne kasutaja <xliff:g id="NAME">%1$s</xliff:g>.</string>

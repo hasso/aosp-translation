@@ -57,7 +57,7 @@
     <string name="flip_tooltip">Ümberpööramiseks lohista fotot</string>
     <string name="redeye_tooltip">Punasilmsuse eemaldamiseks puuduta silma</string>
     <string name="rotate_tooltip">Pööramiseks lohista fotot</string>
-    <string name="straighten_tooltip">Rihtimiseks lohistage fotot</string>
+    <string name="straighten_tooltip">Rihtimiseks lohista fotot</string>
     <string name="photoeditor_exposure">Säritusefektid</string>
     <string name="photoeditor_color">Värviefektid</string>
     <string name="photoeditor_artistic">Kunstilised efektid</string>

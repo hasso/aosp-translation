@@ -983,7 +983,7 @@
     <string name="settings_license_activity_loading">Laadimine \u2026</string>
     <string name="settings_safetylegal_title">Ohutusteave</string>
     <string name="settings_safetylegal_activity_title">Ohutusteave</string>
-    <string name="settings_safetylegal_activity_unreachable">Teil ei ole andmesideühendust. Selle teabe vaatamiseks praegu minge Interneti-ühendusega arvutis aadressile %s.</string>
+    <string name="settings_safetylegal_activity_unreachable">Teil ei ole andmesideühendust. Kui soovid seda infot kohe saada, mine Interneti-ühendusega arvutis aadressile %s.</string>
     <string name="settings_safetylegal_activity_loading">Laadimine \u2026</string>
     <string name="lockpassword_choose_your_password_header">Parooli valimine</string>
     <string name="lockpassword_choose_your_pattern_header">Mustri valimine</string>
@@ -1008,7 +1008,7 @@
     <string name="lockpattern_recording_incorrect_too_short">Ühenda vähemalt <xliff:g id="NUMBER">%d</xliff:g> punkti. Proovi uuesti:</string>
     <string name="lockpattern_pattern_entered_header">Muster on salvestatud.</string>
     <string name="lockpattern_need_to_confirm">Koosta muster kinnitamiseks uuesti:</string>
-    <string name="lockpattern_pattern_confirmed_header">Teie uus avamismuster:</string>
+    <string name="lockpattern_pattern_confirmed_header">Su uus avamismuster:</string>
     <string name="lockpattern_confirm_button_text">Kinnita</string>
     <string name="lockpattern_restart_button_text">Alusta uuesti</string>
     <string name="lockpattern_retry_button_text">Proovi uuesti</string>
@@ -1431,8 +1431,8 @@
     <string name="tts_play_example_title">Kuula näidet</string>
     <string name="tts_play_example_summary">Lühike kõnesünteesi näide</string>
     <string name="tts_install_data_title">Hääleandmete paigaldus</string>
-    <string name="tts_install_data_summary">Kõnesünteesiks vajalike hääleandmete paigaldus</string>
-    <string name="tts_data_installed_summary">Kõnesünteesiks vajalikud hääleandmed on juba paigaldatud.</string>
+    <string name="tts_install_data_summary">Kõnesünteesiks vajalike andmete paigaldus</string>
+    <string name="tts_data_installed_summary">Kõnesünteesiks vajalikud andmed on juba paigaldatud.</string>
     <string name="tts_settings_changed_demo">Seadeid on muudetud. Siin on näide, kuidas kõnesüntees võiks nüüd kõlada.</string>
     <string name="tts_engine_error">Valitud mootorit ei õnnestu käivitada.</string>
     <string name="tts_engine_error_config">Seadista</string>
@@ -1547,7 +1547,7 @@
     <string name="wifi_setup_save">Salvesta</string>
     <string name="wifi_setup_cancel">Tühista</string>
     <string name="wifi_setup_status_scanning">Võrkude skaneering \u2026</string>
-    <string name="wifi_setup_status_select_network">Võrguga ühenduse loomiseks puudutage seda</string>
+    <string name="wifi_setup_status_select_network">Võrguga ühenduse loomiseks puuduta seda</string>
     <string name="wifi_setup_status_existing_network">Ühenduse loomine olemasoleva võrguga</string>
     <string name="wifi_setup_status_unsecured_network">Ühenduse loomine turvamata võrguga</string>
     <string name="wifi_setup_status_edit_network">Võrgu seadete sisestamine</string>
@@ -1557,7 +1557,7 @@
     <string name="wifi_setup_status_eap_not_supported">EAP protokoll pole toetatud.</string>
     <string name="wifi_setup_eap_not_supported">Algseadistamise ajal pole võimalik EAP protokolli kasutatavat WiFi ühendust seadistada. Seda saad teha hiljem seadme seadistustes WiFi sektsioonis.</string>
     <string name="wifi_setup_description_connecting">Ühenduse loomiseks võib kuluda mõni minut \u2026</string>
-    <string name="wifi_setup_description_connected">Seadistamise jätkamiseks puudutage nuppu <b>Järgmine</b>.\n\nKui soovid mõne teise Wifi võrguga ühendust luua, vajuta nuppu <b>Tagasi</b>.</string>
+    <string name="wifi_setup_description_connected">Seadistamise jätkamiseks puuduta nuppu <b>Järgmine</b>.\n\nKui soovid mõne teise Wifi võrguga ühendust luua, vajuta nuppu <b>Tagasi</b>.</string>
     <string name="accessibility_sync_enabled">Sünkroonimine lubatud</string>
     <string name="accessibility_sync_disabled">Sünkroonimine keelatud</string>
     <string name="accessibility_sync_error">Sünkroonimise viga</string>
@@ -1580,7 +1580,7 @@
     <string name="settings_backup_summary">Minu seadete varundamine</string>
     <string name="sync_menu_sync_now">Sünkrooni kohe</string>
     <string name="sync_menu_sync_cancel">Loobu sünkroonimisest</string>
-    <string name="sync_one_time_sync">Puudutage kohe sünkroonimiseks<xliff:g id="LAST_SYNC_TIME">
+    <string name="sync_one_time_sync">Puuduta koheselt sünkroonimiseks<xliff:g id="LAST_SYNC_TIME">
 %1$s</xliff:g></string>
     <string name="sync_gmail">Gmail</string>
     <string name="sync_calendar">Kalender</string>
@@ -1701,7 +1701,7 @@
     <string name="data_usage_app_settings">Rakenduse seaded</string>
     <string name="data_usage_app_restrict_background">Taustaandmete piirang</string>
     <string name="data_usage_app_restrict_background_summary">Keelab rakendusel taustaandmete liigutamiseks mobiilsidevõrku kasutada. Muud võrgud jäävad kasutatavaks.</string>
-    <string name="data_usage_app_restrict_background_summary_disabled">Rakenduse taustandmete liigutamise piiramiseks määrake mobiilse andmeside limiit.</string>
+    <string name="data_usage_app_restrict_background_summary_disabled">Rakenduse taustandmete liigutamise piiramiseks määra mobiilsele andmesidele limiit.</string>
     <string name="data_usage_app_restrict_dialog_title">Kas piirata taustaandmete liigutamist?</string>
     <string name="data_usage_app_restrict_dialog">Selle tõttu võivad taustaandmetest sõltuvad rakendused töötamast lakata kui levis on ainult mobiilside võrgud.\n\nTäpsemaid andmeside kasutuse seadeid võid leida rakenduse seadetest.</string>
     <string name="data_usage_restrict_denied_dialog">Taustaandmete liigutamise piiramine on võimalik vaid juhul, kui olete määranud mobiilse andmeside limiidi.</string>
@@ -1734,7 +1734,7 @@
     <string name="data_usage_metered_body">Märgi ära WiFi võrgud, mille pääsupunktid kasutavad mobiilsidet. Nende võrkude kasutamist taustaandmete liigutamiseks on võimalik keelata. Rakendused võivad ka sind enne nende võrkude kaudu suuremate andmehulkade liigutamist hoiatada.</string>
     <string name="data_usage_metered_mobile">Mobiilsidevõrgud</string>
     <string name="data_usage_metered_wifi">WiFi võrgud</string>
-    <string name="data_usage_metered_wifi_disabled">Mobiilside pääsupunktide valimiseks lülitage WiFi sisse.</string>
+    <string name="data_usage_metered_wifi_disabled">Mobiilside pääsupunktide valimiseks lülita WiFi sisse.</string>
     <string name="cryptkeeper_emergency_call">Hädaabikõne</string>
     <string name="cryptkeeper_return_to_call">Tagasi kõne juurde</string>
     <string name="vpn_name">Nimi</string>
@@ -1770,7 +1770,7 @@
     <string name="vpn_lockdown_summary">Vali VPN profiil, millega luuakse püsiv ühendus. Rakendustele on võrguliiklus lubatud ainult siis, kui selle ühendus selle VPN-iga on olemas.</string>
     <string name="vpn_lockdown_none">Puudub</string>
     <string name="vpn_lockdown_config_error">VPN-i püsiühenduseks kasutataval profiilil peab olema määratud nii serveri kui ka DNS-i IP aadress.</string>
-    <string name="vpn_no_network">Võrguühendus puudub. Proovige hiljem uuesti.</string>
+    <string name="vpn_no_network">Võrguühendus puudub. Proovi hiljem uuesti.</string>
     <string name="vpn_missing_cert">Sertifikaat puudub. Lisa see profiilile.</string>
     <string name="trusted_credentials_system_tab">Süsteem</string>
     <string name="trusted_credentials_user_tab">Kasutaja</string>
@@ -1781,9 +1781,9 @@
     <string name="trusted_credentials_disable_confirmation">Kas keelata süsteemi CA sertifikaat?</string>
     <string name="trusted_credentials_remove_confirmation">Kas eemaldada kasutaja CA sertifikaat jäädavalt?</string>
     <string name="spellcheckers_settings_title">Õigekirjakontroll</string>
-    <string name="current_backup_pw_prompt">Sisestage oma täieliku varukoopia praegune parool siia</string>
-    <string name="new_backup_pw_prompt">Sisestage täielike varukoopiate uus parool siia</string>
-    <string name="confirm_new_backup_pw_prompt">Sisestage siia uuesti oma täieliku varukoopia uus parool</string>
+    <string name="current_backup_pw_prompt">Sisesta siia oma täieliku varukoopia hetkel kehtiv parool</string>
+    <string name="new_backup_pw_prompt">Sisesta siia täielike varukoopiate uus parool</string>
+    <string name="confirm_new_backup_pw_prompt">Sisesta uuesti siia täielike varukoopiate uus parool</string>
     <string name="backup_pw_set_button_text">Varukoopia määramine</string>
     <string name="backup_pw_cancel_button_text">Tühista</string>
     <string name="percentage"><xliff:g id="NUMBER">%d</xliff:g>%%</string>
@@ -1802,7 +1802,7 @@
     <string name="user_nickname">Hüüdnimi</string>
     <string name="user_add_user_title">Uue kasutaja lisamine</string>
     <string name="user_add_user_message_long">Seda seadet saad teistega jagada lisades selleks seadmesse uusi kasutajaid. Igal kasutajal on oma ruum, mida ta saab kohandada oma rakenduste, taustapildi ja muuga. Kasutajad saavad muuta ka tahvelarvuti seadeid (nt WiFi), mis mõjutavad kõiki kasutajaid.\n\nPärast uue kasutaja loomist peab kasutaja läbi tegema seadistusprotsessi.\n\nIga kasutaja saab teiste kasutajate nimel heaks kiita rakenduste õigusi.</string>
-    <string name="user_add_user_message_short">nPärast uue kasutaja loomist peab ta läbima seadistusprotsessi.\n\nIga kasutaja saab teiste kasutajate nimel heaks kiita rakenduste õigusi.</string>
+    <string name="user_add_user_message_short">Pärast uue kasutaja loomist peab ta seadistusprotsessi läbima.\n\nIga kasutaja saab teiste kasutajate nimel heaks kiita rakenduste õigusi.</string>
     <string name="user_setup_dialog_title">Kas läbida kohe ka seadistusprotsess?</string>
     <string name="user_setup_dialog_message">Veendu, et kasutaja saab tahvelarvutit kasutada ja oma ruumi seadistada</string>
     <string name="user_setup_button_setup_now">Seadista kohe</string>

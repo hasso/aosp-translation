@@ -271,7 +271,7 @@
     <string name="pref_font_size_category">Teksti suurus</string>
     <string name="pref_lab_title">Eksperimentaalsed seaded</string>
     <string name="pref_lab_quick_controls">Kiirnupud</string>
-    <string name="pref_lab_quick_controls_summary">Kiirn. avamiseks, rak. ja URL-riba peitmiseks libistage pöidlaga v või p serval.</string>
+    <string name="pref_lab_quick_controls_summary">Kiirnuppude avamiseks ning rakenduse- ja aadressiriba peitmiseks libista pöial vasakult või paremalt servalt ekraanile.</string>
     <string name="pref_use_instant_search">Google Instant</string>
     <string name="pref_use_instant_search_summary">Google Instant näitab Google\'i ostingu kasutamisel tulemusi juba teksti sisestamise ajal (see võib suurendada andmeside kasutust).</string>
     <string name="pref_lab_fullscreen">Täisekraan</string>
@@ -332,14 +332,14 @@
     <string name="webstorage_clear_data_dialog_message">Kas kustutada kõik selle veebisaidi talletatud andmed?</string>
     <string name="webstorage_clear_data_dialog_ok_button">OK</string>
     <string name="webstorage_clear_data_dialog_cancel_button">Tühista</string>
-    <string name="webstorage_origin_summary_mb_stored">MB talletatud teie telefoni</string>
+    <string name="webstorage_origin_summary_mb_stored">MB talletatud su telefoni</string>
     <string name="loading_video">Video laadimine \u2026</string>
     <string name="geolocation_permissions_prompt_message"><xliff:g id="WEBSITE_ORIGIN">%s</xliff:g> soovib teada su asukohta</string>
     <string name="geolocation_permissions_prompt_share">Jaga asukohainfot</string>
     <string name="geolocation_permissions_prompt_dont_share">Keeldu</string>
     <string name="geolocation_permissions_prompt_remember">Eelistus jäetakse meelde</string>
     <string name="geolocation_permissions_prompt_toast_allowed">Sellel saidil on olemas ligipääs su asukohainfole. Seda saad muuta valides: Seaded &gt; Täpsemad seaded &gt; Veebisaitide seaded.</string>
-    <string name="geolocation_permissions_prompt_toast_disallowed">Sellel saidil puudub juurdepääs teie asukohale. Seda saad muuta valides: Seaded &gt; Täpsemad seaded &gt; Veebisaitide seaded.</string>
+    <string name="geolocation_permissions_prompt_toast_disallowed">Sellel saidil puudub ligipääs su asukohainfole. Seda saad muuta valides: Seaded &gt; Täpsemad seaded &gt; Veebisaitide seaded.</string>
     <string name="geolocation_settings_page_title">Eemalda ligipääs asukohainfole</string>
     <string name="geolocation_settings_page_summary_allowed">Sellel saidil on hetkel ligipääs su asukohainfole</string>
     <string name="geolocation_settings_page_summary_not_allowed">Sellel saidil puudub hetkel ligipääs su asukohainfole</string>
