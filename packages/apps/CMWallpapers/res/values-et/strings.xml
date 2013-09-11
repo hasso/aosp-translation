@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2013 The CyanogenMod Project
      Copyright (C) 2013 Hasso Tepper
 
@@ -13,7 +14,6 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">CM taustapildid</string>
     <string name="set_wallpaper">Määra taustapildiks</string>
