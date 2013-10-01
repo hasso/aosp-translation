@@ -148,7 +148,7 @@
   <string-array name="wifi_sleep_policy_entries">
     <item>Alati</item>
     <item>Ainult siis, kui on ühendus on olemas</item>
-    <item>Mitte kunagi (suurendab andmekasutust)</item>
+    <item>Mitte kunagi (suurendab andmeside kasutust)</item>
   </string-array>
   <string-array name="wifi_sleep_policy_entries_wifi_only">
     <item>Alati</item>

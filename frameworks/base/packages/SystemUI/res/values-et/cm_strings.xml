@@ -59,17 +59,17 @@
     <string name="quick_settings_expanded_desktop_off">Tavaline</string>
     <string name="quick_settings_camera_error_connect">Ühendus kaameraga puudub</string>
     <string name="navbar_dialog_title">Nupu tegevuse valimine</string>
-    <string name="navbar_home_button">Koduekraani nupp</string>
+    <string name="navbar_home_button">Kodu nupp</string>
     <string name="navbar_recent_button">Viimatiste rakenduste nupp</string>
     <string name="navbar_search_button">Otsingu nupp</string>
-    <string name="navbar_back_button">Tagasi liikumise nupp</string>
+    <string name="navbar_back_button">Tagasiliikumise nupp</string>
     <string name="navbar_empty_button">Tühi nupp</string>
-    <string name="navbar_menu_conditional_button">Menüü (automaatne peitmine) nupp</string>
-    <string name="navbar_menu_always_button">Menüü (alati nähtaval) nupp</string>
+    <string name="navbar_menu_conditional_button">Peidetav menüü nupp</string>
+    <string name="navbar_menu_always_button">Alati nähtaval menüü nupp</string>
     <string name="navbar_menu_big_button">Menüü nupp</string>
     <string name="pie_battery_status_charging">Laadimine (<xliff:g id="percent">%d</xliff:g>%%)</string>
     <string name="pie_battery_status_full">Laetud</string>
-    <string name="pie_battery_status_discharging">Akus veel<xliff:g id="percent">%d</xliff:g>%%</string>
+    <string name="pie_battery_status_discharging">Akus veel <xliff:g id="percent">%d</xliff:g>%%</string>
     <string name="pie_phone_status_no_service">Võrguteenus puudub</string>
     <string name="pie_phone_status_airplane_mode">Lennurežiim sees</string>
     <string name="pie_phone_status_emergency_only">Ainult hädaabikõned</string>

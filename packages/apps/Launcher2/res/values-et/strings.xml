@@ -20,7 +20,7 @@
 
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="application_name">Käivitaja</string>
+    <string name="application_name">Launcher</string>
     <string name="home">Kodu</string>
     <string name="uid_name">Androidi tuumikrakendused</string>
     <string name="folder_name"></string>

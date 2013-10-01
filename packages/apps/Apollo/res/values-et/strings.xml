@@ -32,7 +32,7 @@
     <string name="menu_clear_queue">Puhasta järjekord</string>
     <string name="menu_save_queue">Salvesta järjekord</string>
     <string name="menu_share">Jaga</string>
-    <string name="menu_add_to_homescreen">Lisa koduekraanile</string>
+    <string name="menu_add_to_homescreen">Lisa avaekraanile</string>
     <string name="menu_equalizer">Ekvalaiser</string>
     <string name="menu_simple">Lihtne</string>
     <string name="menu_detailed">Detailne info</string>
@@ -89,8 +89,8 @@
     <string name="accessibility_repeat">Kordus</string>
     <string name="accessibility_repeat_all">Kõigi palade kordus</string>
     <string name="accessibility_repeat_one">Ühe pala kordus</string>
-    <string name="pinned_to_home_screen"><xliff:g id="name">%s</xliff:g> lisati su koduekraanile</string>
-    <string name="could_not_be_pinned_to_home_screen"><xliff:g id="name">%s</xliff:g> ei õnnestunud su koduekraanile lisada</string>
+    <string name="pinned_to_home_screen"><xliff:g id="name">%s</xliff:g> lisati su avaekraanile</string>
+    <string name="could_not_be_pinned_to_home_screen"><xliff:g id="name">%s</xliff:g> ei õnnestunud su avaekraanile lisada</string>
     <string name="set_as_ringtone">\'<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\' seati telefonihelinaks</string>
     <string name="playlist_renamed">Esitusnimekiri ümber nimetatud</string>
     <string name="theme_set">Uueks teemaks on seatud <xliff:g id="name">%s</xliff:g></string>

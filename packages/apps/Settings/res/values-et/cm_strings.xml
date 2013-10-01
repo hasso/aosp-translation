@@ -37,7 +37,7 @@
     <string name="root_access_apps">Ainult rakendused</string>
     <string name="root_access_adb">Ainult ADB</string>
     <string name="root_access_all">Rakendused ja ADB</string>
-    <string name="accessibility_home_button_answers_call_prerefence_title">Kõnele vastamine koduekraani nupuga</string>
+    <string name="accessibility_home_button_answers_call_prerefence_title">Kõnele vastamine kodu nupuga</string>
     <string name="headset_category_title">Kõrvaklapid</string>
     <string name="ok">OK</string>
     <string name="quiet_hours_title">Vaiksed tunnid</string>
@@ -380,7 +380,7 @@
     <string name="hardware_keys_title">Riistvaralised nupud</string>
     <string name="hardware_keys_bindings_title">Nuppude funktsioonid</string>
     <string name="hardware_keys_enable_custom_title">Kohandatud funktsioonid</string>
-    <string name="hardware_keys_home_long_press_title">Koduekraani nupp (pikk vajutus)</string>
+    <string name="hardware_keys_home_long_press_title">Kodue nupp (pikk vajutus)</string>
     <string name="hardware_keys_menu_press_title">Menüü nupp</string>
     <string name="hardware_keys_menu_long_press_title">Menüü nupp (pikk vajutus)</string>
     <string name="hardware_keys_assist_press_title">Otsingu nupp</string>
@@ -400,8 +400,8 @@
     <string name="swap_volume_buttons_title">Helitugevuse nuppude vahetus</string>
     <string name="swap_volume_buttons_summary">Kui ekraan on tagurpidi, vahetatakse helitugevuse nuppude asukohad.</string>
     <string name="navigation_bar_title">Nupud ja nende paigutus</string>
-    <string name="navigation_bar_help_text">1 - Alustamiseks puuduta luku ikooni.\n2 - Nupule funktsiooni omistamiseks või selle muutmiseks puuduta nuppu.\n3 - Nupu liigutamiseks puuduta seda pikemalt.\n4 - Salvestamiseks puuduta uuesti luku ikooni.\n5 - Seadme vaikeväärtuste taastamiseks puuduta vaikeväärtuste ikooni.\n\n</string>
-    <string name="navigation_bar_tips">\u2022 Üks funktsioon saab olla omistatud ainult ühele nupule korraga.\n\u2022 Koduekraani pup funktsiooni pole võimalik muuta.\n\u2022 Äärmiseid nuppe pole võimalik liigutada.</string>
+    <string name="navigation_bar_help_text">1 - Alustamiseks puuduta luku ikooni.\n2 - Nupule funktsiooni omistamiseks või selle muutmiseks puuduta nuppu.\n3 - Nupu liigutamiseks hoia sõrme sellel pikemalt.\n4 - Salvestamiseks puuduta uuesti luku ikooni.\n5 - Seadme vaikeväärtuste taastamiseks puuduta vaikeväärtuste ikooni.\n\n</string>
+    <string name="navigation_bar_tips">\u2022 Üks funktsioon saab olla omistatud ainult ühele nupule korraga.\n\u2022 Kodu nupu funktsiooni pole võimalik muuta.\n\u2022 Äärmisi nuppe pole võimalik liigutada.</string>
     <string name="navigation_bar_tips_title">Väiksed vihjed</string>
     <string name="navigation_bar_reset_message">Kas kustutada kehtivad seaded ja taastada vaikeväärtused?</string>
     <string name="navigation_bar_save_message">Navigatsiooniriba seaded salvestatud.</string>
@@ -497,8 +497,8 @@
     <string name="status_bar_notif_count_title">Märguannete arv</string>
     <string name="status_bar_notif_count_summary">Tähelepanu vajavate märguannete arvu näitamine</string>
     <string name="display_category_wakeup_options_title">Äratuse seaded</string>
-    <string name="pref_home_wake_title">Koduekraani nupp</string>
-    <string name="pref_home_wake_summary">Koduekraani nupu vajutamine äratab seadme energiasäästu režiimist</string>
+    <string name="pref_home_wake_title">Kodu nupp</string>
+    <string name="pref_home_wake_summary">Kodu nupu vajutamine äratab seadme energiasäästu režiimist</string>
     <string name="pref_volume_wake_title">Äratus helitugevuse nuppudega</string>
     <string name="pref_volume_wake_summary">Helitugevuse nuppude kasutamine äratab seadme energiasäästu režiimist</string>
     <string name="adb_notify">USB silumisrežiimi märguanded</string>
@@ -714,7 +714,7 @@ kustutab valitud rea.
     <string name="gestures_double_spen_title_head">Topeltpuudutus</string>
     <string name="gestures_double_spen_summary_head">Tegevuse käivitamine topeltpuudutusega</string>
     <string name="gestures_action_empty">Funktsioon puudub</string>
-    <string name="gestures_action_home">Koduekraani nupu jäljendamine</string>
+    <string name="gestures_action_home">Kodu nupu jäljendamine</string>
     <string name="gestures_action_back">Tagasiliikumise nupu jäljendamine</string>
     <string name="gestures_action_menu">Menüünupu jäljendamine</string>
     <string name="gestures_action_search">Otsingu käivitamine</string>

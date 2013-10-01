@@ -896,7 +896,7 @@
     <string name="master_clear_summary" product="default">Kustutab telefonist kõik andmed</string>
     <string name="master_clear_desc" product="tablet">See kustutab kõik andmed su tahvelarvuti <b>sisemälust</b>, sh:\n\n<li>su Google\'i konto</li>\n<li>süsteemi ja rakenduste andmed ning seaded</li>\n<li>Allalaaditud rakendused</li></string>
     <string name="master_clear_desc" product="default">See kustutab kõik andmed su telefoni <b>sisemälust</b>, sh:\n\n<li>su Google\'i konto</li>\n<li>süsteemi ja rakenduse andmed ning seaded</li>\n<li>Allalaaditud rakendused</li></string>
-    <string name="master_clear_accounts" product="default" >\n\nSa kasutad hetkel seadmes järgmiseid kontosid:\n</string>
+    <string name="master_clear_accounts" product="default">\n\nSa kasutad hetkel seadmes järgmiseid kontosid:\n</string>
     <string name="master_clear_desc_also_erases_external"><li>muusika</li>\n<li>fotod</li>\n<li>muud kasutajaandmed</li></string>
     <string name="master_clear_desc_erase_external_storage" product="nosdcard">\n\nMuusika, piltide ja muude kasutaja andmete kustutamiseks tuleb tühjendada ka <b>USB mäluseade</b>.</string>
     <string name="master_clear_desc_erase_external_storage" product="default">\n\nMuusika, piltide ja muude kasutaja andmete kustutamiseks tuleb tühjendada ka <b>SD kaart</b>.</string>
@@ -1569,7 +1569,7 @@
     <string name="background_data">Taustaandmed</string>
     <string name="background_data_summary">Rakendused saavad andmeid sünkroonida, saata ja vastu võtta</string>
     <string name="background_data_dialog_title">Keel. taustaandmed?</string>
-    <string name="background_data_dialog_message">Taustaandmete keelamine pikendab aku kestvust ja vähendab andmekasutust. Mõned rakendused võivad siiski andmesideühendusi taustal kasutada.</string>
+    <string name="background_data_dialog_message">Taustaandmete keelamine pikendab aku kestvust ja vähendab andmeside kasutust. Mõned rakendused võivad siiski andmesideühendusi taustal kasutada.</string>
     <string name="sync_automatically">Rakenduse andmete automaatne sünkr.</string>
     <string name="sync_enabled">Sünkroonim. on SEES</string>
     <string name="sync_disabled">Sünkroonimine VÄLJAS</string>
@@ -1663,8 +1663,8 @@
     <string name="animator_duration_scale_title">Animaatori animatsioonide kiirus</string>
     <string name="overlay_display_devices_title">Lisaekraanide olemasolu matkimine ekraanil</string>
     <string name="debug_applications_category">Rakendused</string>
-    <string name="immediately_destroy_activities">Tegevusi ei säilitata</string>
-    <string name="immediately_destroy_activities_summary">Kõik tegevused hävitatakse kohe, kui kasutaja neist lahkub</string>
+    <string name="immediately_destroy_activities">Toimingute kohene hävitamine</string>
+    <string name="immediately_destroy_activities_summary">Rakenduste kõik toimingud (<i>activities</i>) hävitatakse kohe, kui kasutaja neist lahkub</string>
     <string name="app_process_limit_title">Taustaprotsesside piirarv</string>
     <string name="show_all_anrs">Kõik „rakendus ei reageeri“ dialoogid</string>
     <string name="show_all_anrs_summary">Ka taustarakendustel kuvatakse „rakendus ei reageeri“ dialoogi</string>
@@ -1721,7 +1721,7 @@
     <string name="data_usage_restrict_background_title">Kas piirata taustaandmete kasutamist?</string>
     <string name="data_usage_restrict_background">Kui keelad mobiilvõrkude kasutamise taustaandmete liigutamiseks, siis WiFi ühenduse puudumisel mõned rakendused ja teenused ei tööta.</string>
     <string name="data_usage_restrict_background_multiuser" product="tablet">Kui keelad mobiilvõrkude kasutamise taustaandmete liigutamiseks, siis WiFi ühenduse puudumisel teatud rakendused ja teenused ei tööta.\n\nSee mõjutab kõiki tahvelarvuti kasutajaid.</string>
-    <string name="data_usage_restrict_background_multiuser" product="tablet">Kui keelad mobiilvõrkude kasutamise taustaandmete liigutamiseks, siis WiFi ühenduse puudumisel teatud rakendused ja teenused ei tööta.\n\nSee mõjutab kõiki telefoni kasutajaid.</string>
+    <string name="data_usage_restrict_background_multiuser" product="default">Kui keelad mobiilvõrkude kasutamise taustaandmete liigutamiseks, siis WiFi ühenduse puudumisel teatud rakendused ja teenused ei tööta.\n\nSee mõjutab kõiki telefoni kasutajaid.</string>
     <string name="data_usage_sweep_warning"><font size="21"><xliff:g id="NUMBER">^1</xliff:g></font> <font size="9"><xliff:g id="UNIT">^2</xliff:g></font>\n<font size="12">hoiatus</font></string>
     <string name="data_usage_sweep_limit"><font size="21"><xliff:g id="NUMBER">^1</xliff:g></font> <font size="9"><xliff:g id="UNIT">^2</xliff:g></font>\n<font size="12">limiit</font></string>
     <string name="data_usage_uninstalled_apps">Eemaldatud rakendused</string>
