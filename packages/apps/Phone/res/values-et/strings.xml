@@ -170,7 +170,7 @@
     <string name="preferred_network_mode_evdo_only_summary">Eelistatud võrgurežiim: ainult EvDo</string>
     <string name="preferred_network_mode_lte_cdma_summary">Eelistatud võrgurežiim: LTE/CDMA</string>
   <string-array name="preferred_network_mode_choices">
-    <item>Globaalne</item> <!-- HT -->
+    <item>Kõik võrgud</item>
     <item>Ainult EvDo</item>
     <item>CDMA ilma EvDo-ta</item>
     <item>Automaatne CDMA/EvDo</item>

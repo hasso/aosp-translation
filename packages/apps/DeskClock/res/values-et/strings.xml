@@ -176,17 +176,17 @@
     <string name="timer_cancel">Tühistamine</string>
     <string name="timer_times_up">Aeg on läbi</string>
     <string name="timer_notification_label">Taimer</string>
-  <string-array name="sw_share_strings"> <!-- HT -->
-    <item>Oled ülikiire.</item>
+  <string-array name="sw_share_strings">
+    <item>Oled ülikiire!</item>
     <item>Naudi oma töö vilju.</item>
     <item>Androidid on kiired, aga mitte nii kiired kui sina!</item>
     <item>Oeh.</item>
-    <item>L33t aeg.</item>
-    <item>Milline imeline kiirus.</item>
+    <item>L33t aeg!</item>
+    <item>Milline imeline kiirus!</item>
     <item>Teeme uuesti ajahüpe.</item>
     <item>Lihtsalt hüpe vasakule.</item>
     <item>Naudid kiirust.</item>
-    <item>Valguse kiirus.</item>
+    <item>Valguse kiirus!</item>
   </string-array>
   <plurals name="timers_num">
     <item quantity="one">1 minut</item>

@@ -24,8 +24,8 @@
     <string name="deny">Keela</string>
     <string name="device_info_default">Teadmata</string>
   <plurals name="show_dev_countdown">
-    <item quantity="one"><xliff:g id="STEP_COUNT">%1$d</xliff:g> samm veel ja siis saad kasutada arendaja seadeid.</item>
-    <item quantity="other"><xliff:g id="STEP_COUNT">%1$d</xliff:g> sammu veel ja siis saad kasutada arendaja seadeid.</item>
+    <item quantity="one"><xliff:g id="STEP_COUNT">%1$d</xliff:g> puudutus veel ja siis saad kasutada arendaja seadeid.</item>
+    <item quantity="other"><xliff:g id="STEP_COUNT">%1$d</xliff:g> puudutust veel ja siis saad kasutada arendaja seadeid.</item>
   </plurals>
     <string name="show_dev_on">Nüüd saad kasutada arendaja seadeid.</string>
     <string name="show_dev_already">Seda pole vaja, arendaja seaded on juba kasutatavad.</string>
@@ -172,12 +172,12 @@
     <string name="normal_date_format">Piirkondlik (<xliff:g id="DATE">%s</xliff:g>)</string>
     <string name="display_preview_label">Eelvaade:</string>
     <string name="display_font_size_label">Kirja suurus:</string>
-    <string name="intent_sender_data_label"><xliff:g id="data">Data:</xliff:g></string> <!-- HT -->
-    <string name="intent_sender_sendbroadcast_text">Send <xliff:g id="BROADCAST">broadcast</xliff:g></string> <!-- HT -->
-    <string name="intent_sender_action_label"><xliff:g id="ACTION">Action</xliff:g>:</string> <!-- HT -->
-    <string name="intent_sender_startactivity_text">Start <xliff:g id="ACTIVITY">activity</xliff:g></string> <!-- HT -->
-    <string name="intent_sender_resource_label"><xliff:g id="RESOURCE">Resource</xliff:g>: </string> <!-- HT -->
-    <string name="intent_sender_account_label">Account: </string> <!-- HT -->
+    <string name="intent_sender_data_label"><xliff:g id="data">Data:</xliff:g></string>
+    <string name="intent_sender_sendbroadcast_text">Send <xliff:g id="BROADCAST">broadcast</xliff:g></string>
+    <string name="intent_sender_action_label"><xliff:g id="ACTION">Action</xliff:g>:</string>
+    <string name="intent_sender_startactivity_text">Start <xliff:g id="ACTIVITY">activity</xliff:g></string>
+    <string name="intent_sender_resource_label"><xliff:g id="RESOURCE">Resource</xliff:g>: </string>
+    <string name="intent_sender_account_label">Account: </string>
     <string name="proxy_settings_title">Puhverserver</string>
     <string name="proxy_clear_text">Kustuta</string>
     <string name="proxy_port_label">Puhverserveri port</string>
@@ -475,18 +475,18 @@
     <string name="bluetooth_device_advanced_profile_header_title">Profiilid</string>
     <string name="bluetooth_device_advanced_rename_device">Nimeta ümber</string>
     <string name="bluetooth_device_advanced_enable_opp_title">Sisenevate failiedastuste lubamine</string>
-    <string name="bluetooth_a2dp_profile_summary_connected">Ühendatud meediumiheliga</string> <!-- HT ja siit edasi -->
-    <string name="bluetooth_headset_profile_summary_connected">Ühendatud telefoniheliga</string>
+    <string name="bluetooth_a2dp_profile_summary_connected">Meediaheli ühendus olemas</string>
+    <string name="bluetooth_headset_profile_summary_connected">Telefoniheli ühendus olemas</string>
     <string name="bluetooth_opp_profile_summary_connected">Ühendatud failiedastuse serveriga</string>
-    <string name="bluetooth_opp_profile_summary_not_connected">Ei ole failiedastuse serveriga ühendatud</string>
-    <string name="bluetooth_hid_profile_summary_connected">Ühendatud sisendseade</string>
-    <string name="bluetooth_pan_user_profile_summary_connected">Ühendatud seadmega Internetti juurdepääsuks</string>
-    <string name="bluetooth_pan_nap_profile_summary_connected">Kohaliku Interneti-ühenduse jagamine seadmega</string>
-    <string name="bluetooth_a2dp_profile_summary_use_for">Kasuta meediumiheli jaoks</string>
-    <string name="bluetooth_headset_profile_summary_use_for">Kasuta telefoniheli jaoks</string>
-    <string name="bluetooth_opp_profile_summary_use_for">Kasuta failide edastamiseks</string>
-    <string name="bluetooth_hid_profile_summary_use_for">Kasuta sisendi jaoks</string>
-    <string name="bluetooth_pan_profile_summary_use_for">Interneti-juurdepääsuks kasutamine</string>
+    <string name="bluetooth_opp_profile_summary_not_connected">Failiedastuse serveriga ühendus puudub</string>
+    <string name="bluetooth_hid_profile_summary_connected">Sisendseadmega ühendus olemas</string>
+    <string name="bluetooth_pan_user_profile_summary_connected">Internetti ligipääsu ühendus olemas</string>
+    <string name="bluetooth_pan_nap_profile_summary_connected">Interneti ühenduse jagamine seadmega</string>
+    <string name="bluetooth_a2dp_profile_summary_use_for">Meedia heli jaoks kasutamine</string>
+    <string name="bluetooth_headset_profile_summary_use_for">Telefoniga helistamiseks kasutamine</string>
+    <string name="bluetooth_opp_profile_summary_use_for">Failide edastamiseks kasutamine</string>
+    <string name="bluetooth_hid_profile_summary_use_for">Sisendseadmena kasutamine</string>
+    <string name="bluetooth_pan_profile_summary_use_for">Internetti ligipääsuks kasutamine</string>
     <string name="bluetooth_dock_settings">Doki seaded</string>
     <string name="bluetooth_dock_settings_title">Doki kasutamine heli edastamiseks</string>
     <string name="bluetooth_dock_settings_headset">Telefonina kõlarina</string>
@@ -1074,11 +1074,11 @@
     <string name="sort_order_size">Sordi suuruse järgi</string>
     <string name="show_running_services">Töötavad teenused</string>
     <string name="show_background_processes">Protsessid vahemälus</string>
-    <string name="reset_app_preferences">Lähtesta rakenduste seaded</string>
-    <string name="reset_app_preferences_title">Lähtestada rakenduste seaded?</string>
-    <string name="reset_app_preferences_desc">See lähtestab kõik järgnevad rakendustega seotud seaded:\n\n <li>Keelatud rakendused</li>\n<li>Rakenduste keelatud märguanded</li>\n<li>Vaikeseosed toimingutega</li>\n<li>Taustaandmete piirangud rakendustele</li>\n<li>Privaatse info kaitse</li>\n\n Mitte mingid rakenduste andmed sellega kaduma ei lähe.</string>
-    <string name="reset_app_preferences_button">Lähtesta seaded</string>
-    <string name="manage_space_text">Halda ruumi</string> <!-- HT -->
+    <string name="reset_app_preferences">Taasta algseaded</string>
+    <string name="reset_app_preferences_title">Kas taastada algseade rakendustele?</string>
+    <string name="reset_app_preferences_desc">See taastab kõikide järgnevate rakendustega seotud seadete algväärtused:\n\n <li>Rakenduste keelamine</li>\n<li>Rakenduste märguannete keelamine</li>\n<li>Vaikeseosed toimingutega</li>\n<li>Taustaandmete piirangud rakendustele</li>\n<li>Privaatse info kaitse</li>\n\n Mitte mingid rakenduste endi andmed sellega kaduma ei lähe.</string>
+    <string name="reset_app_preferences_button">Taasta algseaded</string>
+    <string name="manage_space_text">Ruumihaldus</string>
     <string name="filter">Filter</string>
     <string name="filter_dlg_title">Filtrivalikute valimine</string>
     <string name="filter_apps_all">Kõik</string>
@@ -1171,7 +1171,7 @@
     <string name="service_stop_description">Selle teenuse käivitas selle rakendus. Kui peatad selle teenuse töö, võib ka rakendus ise töö lõpetada.</string>
     <string name="heavy_weight_stop_description">Seda rakendust ei saa ohutult peatada. Kui sa selle töö siiski peatad, võid kaotada osa oma tööst.</string>
     <string name="background_process_stop_description">See on rakenduse vana protsess, mida igaks juhuks veel töös hoitakse. Selle peatamiseks pole tavaliselt põhjust.</string>
-    <string name="service_manage_description"><xliff:g id="CLIENT_NAME">%1$s</xliff:g>: on praegu kasutusel. Seadistamiseks kasuta menüüd.</string> <!-- HT -->
+    <string name="service_manage_description"><xliff:g id="CLIENT_NAME">%1$s</xliff:g>: on praegu kasutusel. Seadistamisse saad minna menüüst.</string>
     <string name="main_running_process_description">Peamine kasutatav protsess.</string>
     <string name="process_service_in_use_description">Teenus <xliff:g id="COMP_NAME">%1$s</xliff:g> on kasutusel.</string>
     <string name="process_provider_in_use_description">Teenusepakkuja <xliff:g id="COMP_NAME">%1$s</xliff:g> on kasutusel.</string>

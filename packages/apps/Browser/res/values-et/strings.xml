@@ -90,12 +90,12 @@
     <string name="bookmark_page">Lisa viimati vaadatud leht järjehoidjatesse</string>
     <string name="bookmark_thumbnail_view">Pisipildid</string>
     <string name="bookmark_list_view">Nimekiri</string>
-    <string name="current_page">allikast </string> <!-- HT -->
+    <string name="current_page">allikast </string>
     <string name="delete_bookmark_warning">Kustutada järjehoidja „<xliff:g id="BOOKMARK">%s</xliff:g>”?</string>
     <string name="open_all_in_new_window">Ava kõik uutel vahelehtedel</string>
     <string name="goto_dot">Mine</string>
     <string name="select_dot">Teksti valimine</string>
-    <string name="close_other_tabs">Sulge teised vahekaardid</string>
+    <string name="close_other_tabs">Sulge teised vahelehed</string>
     <string name="bookmarks">Järjehoidjad</string>
     <string name="shortcut_bookmark">Järjehoidja</string>
     <string name="shortcut_bookmark_title">Järjehoidja valimine</string>
@@ -246,7 +246,7 @@
   </string-array>
     <string name="pref_default_zoom_dialogtitle">Vaikesuum</string>
     <string name="pref_content_load_page">Lehtede avamine ülevaates</string>
-    <string name="pref_content_load_page_summary">Uute avatud lehtede näitamine ülevaates, mitte suumitult</string> <!-- HT -->
+    <string name="pref_content_load_page_summary">Uute avatud lehtede näitamine täisvaates, mitte suumitult</string>
     <string name="pref_extras_title">Täpsemad seaded</string>
     <string name="pref_extras_website_settings">Veebisaitide seaded</string>
     <string name="pref_extras_website_settings_summary">Konkreetsete veebisaitide täpsemad seaded</string>

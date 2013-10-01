@@ -20,9 +20,9 @@
     <string name="permlab_bluetoothShareManager">ligipääs allalaadimishaldurile</string>
     <string name="permdesc_bluetoothShareManager">Võimaldab rakendusel pääseda BluetoothShare\'i haldurisse ja kasutada seda failide edastamiseks.</string>
     <string name="permlab_bluetoothWhitelist">Bluetooth seadmele ligipääsu lubamine</string>
-    <string name="permdesc_bluetoothWhitelist">Lubab rakendusel lisada Bluetooth-seadme ajutiselt lubatud seadmete loendisse, mis võimaldab seadmel saata faile sellesse seadmesse ilma kasutaja kinnituseta.</string>
-    <string name="permlab_handoverStatus">Võta vastu BT-üleandmise edastusi.</string> <!-- HT -->
-    <string name="permdesc_handoverStatus">Võimaldab võtta vastu Bluetoothi üleandmise olekuteavet.</string> <!-- HT -->
+    <string name="permdesc_bluetoothWhitelist">Lubab rakendusel lisada teisi Bluetooth seadmeid ajutiselt lubatud seadmete nimekirja. See võimaldab seadmel ilma kasutaja nõusolekuta faile teistesse seadmetesse saata.</string>
+    <string name="permlab_handoverStatus">Bluetoothile üle antud failiedastuste olekuinfo vastuvõtt</string>
+    <string name="permdesc_handoverStatus">Võimaldab rakendusel võtta vastu leviteateid Bluetoothile üle antud failiedastuste olekuinfoga.</string>
     <string name="bt_share_picker_label">Bluetooth</string>
     <string name="unknown_device">Tundmatu seade</string>
     <string name="unknownNumber">Tundmatu</string>

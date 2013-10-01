@@ -36,14 +36,14 @@
     <string name="defaultVoiceMailAlphaTag">Kõnepost</string>
     <string name="defaultMsisdnAlphaTag">MSISDN1</string>
     <string name="mmiError">Ühendusprobleem või vigane MMI kood.</string>
-    <string name="mmiFdnError">Toiming on ainult fikseeritud valimisnumbritele.</string> <!-- HT -->
+    <string name="mmiFdnError">Toiming on ainult fikseeritud valimisnumbritele.</string>
     <string name="serviceEnabled">Teenus on sisse lülitatud.</string>
     <string name="serviceEnabledFor">Teenus on sisse lülitatud järgmistele teenusklassidele:</string>
     <string name="serviceDisabled">Teenus on välja lülitatud.</string>
     <string name="serviceRegistered">Registreerimine õnnestus.</string>
     <string name="serviceErased">Kustutamine oli edukas.</string>
     <string name="passwordIncorrect">Vale parool.</string>
-    <string name="mmiComplete">MMI tegevus lõpetatud.</string> <!-- HT -->
+    <string name="mmiComplete">MMI tegevus lõpetatud.</string>
     <string name="badPin">Sisestatud vana PIN kood pole õige.</string>
     <string name="badPuk">Sisestatud PUK kood pole õige.</string>
     <string name="mismatchPin">Sisestatud PIN koodid ei kattu.</string>
@@ -125,7 +125,7 @@
     <string name="httpErrorBadUrl">Lehte pole võimalik avada, kuna URL on vale.</string>
     <string name="httpErrorFile">Faili pole võimalik lugeda.</string>
     <string name="httpErrorFileNotFound">Soovitud faili ei leitud.</string>
-    <string name="httpErrorTooManyRequests">Töötlemisel on liiga palju taotlusi. Proovi hiljem uuesti.</string> <!-- HT -->
+    <string name="httpErrorTooManyRequests">Liiga palju päringuid on juba töötlemisel. Proovi hiljem uuesti.</string>
     <string name="notification_title">Viga kontole <xliff:g id="ACCOUNT">%1$s</xliff:g> sisselogimisel</string>
     <string name="contentServiceSync">Sünkroonimine</string>
     <string name="contentServiceSyncNotificationTitle">Sünkroonimine</string>
@@ -140,9 +140,9 @@
     <string name="turn_off_radio">Lülita raadioside välja</string>
     <string name="screen_lock">Ekraanilukk</string>
     <string name="power_off">Lülita välja</string>
-    <string name="silent_mode_silent">Helina vaigistamine</string> <!-- HT -->
-    <string name="silent_mode_vibrate">Helisemisel vibreerimine</string> <!-- HT -->
-    <string name="silent_mode_ring">Tavaline helisemine</string> <!-- HT -->
+    <string name="silent_mode_silent">Hääletu telefonihelin</string>
+    <string name="silent_mode_vibrate">Vibreerimine telefoni helisemisel</string>
+    <string name="silent_mode_ring">Tavaline telefonihelin</string>
     <string name="shutdown_progress">Väljalülitamine \u2026</string>
     <string name="shutdown_confirm" product="tablet">Su tahvelarvuti lülitatakse välja.</string>
     <string name="shutdown_confirm" product="default">Su telefon lülitatakse välja.</string>
@@ -257,10 +257,10 @@
     <string name="permdesc_receiveWapPush">Võimaldab rakendusel vastu võtta ja töödelda WAP-sõnumeid. See õigus võimaldab muuhulgas jälgida või kustutada saadetud sõnumeid neid kasutajale näitamata.</string>
     <string name="permlab_getTasks">töötavate rakenduste info</string>
     <string name="permdesc_getTasks">Võimaldab rakendusel saada infot nii hetkel kui ka hiljuti käivitatud protsesside kohta. See võib anda rakendusele teavet teiste seadmes kasutatavate rakenduste kohta.</string>
-    <string name="permlab_interactAcrossUsers">toimingud erinevatel kasutajakontodel</string> <!-- HT -->
-    <string name="permdesc_interactAcrossUsers">Lubab rakendusel teha toiminguid seadme erinevatel kasutajakontodel. Pahatahtlikud rakendused võivad kasutada seda kasutajatevahelise kaitse rikkumiseks.</string> <!-- HT -->
-    <string name="permlab_interactAcrossUsersFull">täielik litsents teha toiminguid erinevatel kasutajakontodel</string> <!-- HT -->
-    <string name="permdesc_interactAcrossUsersFull">Lubab kõiki võimalikke toiminguid erinevatel kasutajakontodel.</string> <!-- HT -->
+    <string name="permlab_interactAcrossUsers">tegevused erinevatel kasutajakontodel</string>
+    <string name="permdesc_interactAcrossUsers">Võimaldab rakendusel käivitada tegevusi seadme erinevatel kasutajakontodel. Pahatahtlikud rakendused võivad kasutada seda kasutajatevahelise eraldatuse rikkumiseks.</string>
+    <string name="permlab_interactAcrossUsersFull">täielik õigus kõikidele tegevustele erinevatel kasutajakontodel</string>
+    <string name="permdesc_interactAcrossUsersFull">Võimaldab rakendusel käivitada kõikvõimalikke tegevusi sedame erinevatel kasutajakontodel.</string>
     <string name="permlab_manageUsers">kasutajate haldamine</string>
     <string name="permdesc_manageUsers">Võimaldab rakendustel hallata seadme kasutajaid, sealhulgas päringuid, loomist ja kustutamist.</string>
     <string name="permlab_getDetailedTasks">töötavate rakenduste detailne info</string>
@@ -269,10 +269,10 @@
     <string name="permdesc_reorderTasks">Võimaldab rakendusel tuua protsesse esiplaanile ja viia taustale. Rakendus võib seda teha kasutajapoolse sekkumiseta.</string>
     <string name="permlab_removeTasks">töötavate rakenduste peatamine</string>
     <string name="permdesc_removeTasks">Võimaldab rakendusel eemaldada tööst protsesse ja peatada nendega seotud rakenduste töö. Pahatahtlikud rakendused võivad häirida teiste rakenduste käitumist.</string>
-    <string name="permlab_startAnyActivity">mis tahes toimingu alustamine</string> <!-- HT -->
-    <string name="permdesc_startAnyActivity">Võimaldab rakendusel käivitada mis tahes toimingu loa kaitsest või eksporditud olekust sõltumata.</string> <!-- HT -->
-    <string name="permlab_setScreenCompatibility">kuva ühilduvuse seadmine</string>
-    <string name="permdesc_setScreenCompatibility">Võimaldab rakendusel juhtida teiste rakenduste kuva ühilduvuse režiimi. Pahatahtlikud rakendused võivad teisi rakendusi häirida.</string>
+    <string name="permlab_startAnyActivity">mis tahes toimingu käivitamine</string>
+    <string name="permdesc_startAnyActivity">Võimaldab rakendusel käivitada mis tahes toimingu, seda õigustega kaitsest või eksporditud olekust sõltumata.</string>
+    <string name="permlab_setScreenCompatibility">ekraani ühilduvusrežiimi seadmine</string>
+    <string name="permdesc_setScreenCompatibility">Võimaldab rakendusel juhtida teiste rakenduste ekraani ühilduvuse režiimi. Pahatahtlikud rakendused võivad teisi rakendusi häirida.</string>
     <string name="permlab_setDebugApp">rakenduse silumise lubamine</string>
     <string name="permdesc_setDebugApp">Võimaldab rakendusel lülitada sisse teise rakenduse silumise. Pahatahtlikud rakendused võivad seda kasutada teiste rakenduste töö peatamiseks.</string>
     <string name="permlab_changeConfiguration">süsteemi ekraaniseadete muutmine</string>
@@ -280,7 +280,7 @@
     <string name="permlab_enableCarMode">autorežiimi lubamine</string>
     <string name="permdesc_enableCarMode">Võimaldab rakendusel autorežiimi sisse lülitada.</string>
     <string name="permlab_killBackgroundProcesses">teiste rakenduste sulgemine</string>
-    <string name="permdesc_killBackgroundProcesses">Võimaldab rakendusel lõpetada teiste rakenduste taustaprotsesside tööd. See võib peatada teiste rakenduste töö.</string> <!-- HT -->
+    <string name="permdesc_killBackgroundProcesses">Võimaldab rakendusel lõpetada teiste rakenduste taustaprotsesside tööd. See võib peatada kogu teiste rakenduste töö.</string>
     <string name="permlab_forceStopPackages">teiste rakenduste jõuga sulgemine</string>
     <string name="permdesc_forceStopPackages">Võimaldab rakendusel teiste rakenduste tööd jõuga peatada.</string>
     <string name="permlab_forceBack">tegevuste sulguma sundimine</string>
@@ -298,9 +298,9 @@
     <string name="permlab_magnify_display">ekraanisisu suurendamine</string>
     <string name="permdesc_magnify_display">Lubab rakendusel ekraanil olevat sisu suurendada. Pahatahtlikud rakendused võivad muuta ekraani sisu nii, et seade muutub kasutamiskõlbmatuks.</string>
     <string name="permlab_shutdown">osaline väljalülitamine</string>
-    <string name="permdesc_shutdown">Lülitab tegevushalduri väljalülitusolekusse. Ei lülita lõplikult välja.</string> <!-- HT -->
+    <string name="permdesc_shutdown">Võimalda panna toimingute halduri väljalülitatud olekusse. Seadet ei lülitata lõplikult välja.</string>
     <string name="permlab_stopAppSwitches">rakenduste vahetamise takistamine</string>
-    <string name="permdesc_stopAppSwitches">Võimaldab rakendusel takistab kasutaja lülitumist teisele rakendusele.</string>
+    <string name="permdesc_stopAppSwitches">Võimaldab rakendusel takistada kasutaja lülitumist teisele rakendusele.</string>
     <string name="permlab_runSetActivityWatcher">rakenduste käivitumise jälgimine ja kontroll</string>
     <string name="permdesc_runSetActivityWatcher">Võimaldab rakendusel jälgida ja kontrollida, kuidas süsteem tegevusi käivitab. Pahatahtlikud rakendused võivad süsteemi täielikult rikkuda. Seda õigust on vaja ainult arenduseks, mitte tavakasutuse korral.</string>
     <string name="permlab_broadcastPackageRemoved">üldleviteate saatmine paketi eemaldamisel</string>
@@ -320,9 +320,9 @@
     <string name="permlab_backup">varundamise ja taastamise kontrollimine</string>
     <string name="permdesc_backup">Võimaldab rakendusel kontrollida süsteemi varundus- ja taastemehhanismi. Ei ole mõeldud tavarakendustele.</string>
     <string name="permlab_confirm_full_backup">täieliku varukoopia loomise või taastamise kinnitamine</string>
-    <string name="permdesc_confirm_full_backup">Võimaldab rakendusel käivitada täieliku varukoopia kinnitamise kasutusliidese. Ei ole mõeldud üheski rakenduses kasutamiseks.</string>
-    <string name="permlab_internalSystemWindow">kuva volituseta aknad</string> <!-- HT -->
-    <string name="permdesc_internalSystemWindow">Võimaldab rakendusel luua aknaid, mis on mõeldud süsteemisisese kasutajaliidese poolt kasutamiseks. Ei ole mõeldud tavarakendustele.</string>
+    <string name="permdesc_confirm_full_backup">Võimaldab rakendusel käivitada täieliku varukoopia kinnitamise kasutajaliidese. Ei ole mõeldud üheski rakenduses kasutamiseks.</string>
+    <string name="permlab_internalSystemWindow">autoriseerimata akende näitamine</string>
+    <string name="permdesc_internalSystemWindow">Võimaldab rakendusel luua aknaid, mis muidu mõeldud süsteemisisesele kasutajaliidesele kasutamiseks. Ei ole mõeldud tavarakendustele.</string>
     <string name="permlab_systemAlertWindow">üle teiste rakenduste joonistamine</string>
     <string name="permdesc_systemAlertWindow">Lubab rakendusel joonistada teistele rakendustele või nende kasutajaliidestele. See võib segada ükskõik millise rakenduse kasutajaliidese kasutamist või muuta seda, mida arvad ekraanil nägevat.</string>
     <string name="permlab_setAnimationScale">üldise animatsioonikiiruse muutmine</string>
@@ -394,8 +394,8 @@
     <string name="permdesc_writeSettings">Võimaldab rakendusel muuta süsteemi seadeied. Pahatahtlikud rakendused võivad rikkuda su süsteemi konfiguratsiooni.</string>
     <string name="permlab_writeSecureSettings">süsteemi turvaliste seadete muutmine</string>
     <string name="permdesc_writeSecureSettings">Võimaldab rakendusel muuta süsteemi turvalisi seadeid. Ei ole mõeldud tavarakendustele kasutamiseks.</string>
-    <string name="permlab_writeGservices">muuda Google\'i teenustekaarti</string> <!-- HT -->
-    <string name="permdesc_writeGservices">Võimaldab rakendusel muuta Google\'i teenustekaarti. Ei ole mõeldud tavarakendustele kasutamiseks.</string> <!-- HT -->
+    <string name="permlab_writeGservices">Google\'i teenustekaardi muutmine</string>
+    <string name="permdesc_writeGservices">Võimaldab rakendusel muuta Google\'i teenustekaarti. Ei ole mõeldud tavarakendustele kasutamiseks.</string>
     <string name="permlab_receiveBootCompleted">käivitamine süsteemi käivitamisel</string>
     <string name="permdesc_receiveBootCompleted" product="tablet">Võimaldab rakendusel käivituda kohe, kui süsteem on käivitunud. See võib tahvelarvuti käivitamist aeglustada ja võimaldada rakendusel ennast pidevalt töös hoides süsteemi ka üldiselt aeglasemaks muuta.</string>
     <string name="permdesc_receiveBootCompleted" product="default">Võimaldab rakendusel käivituda kohe, kui süsteem on käivitunud. See võib telefoni käivitamist aeglustada ja võimaldada rakendusel ennast pidevalt töös hoides süsteemi ka üldiselt aeglasemaks muuta.</string>
@@ -419,9 +419,9 @@
     <string name="permlab_writeProfile">su kontaktikaardi muutmine</string>
     <string name="permdesc_writeProfile" product="default">Võimaldab rakendusel seadmes olevat profiiliinfot muuta ja lisada - näiteks su nime ja kontaktinfot. See tähendab, et rakendus saab sind tuvastada ja seda infot teistele saata.</string>
     <string name="permlab_readSocialStream" product="default">sotsiaalvõrkude infovoo lugemine</string>
-    <string name="permdesc_readSocialStream" product="default">Võimaldab rakendusel ligi pääseda sinu ja su sõprade postitustele sotsiaalvõrgustikes ning neid seadmesse sünkroonida. Ole info jagamisega ettevaatlik – see õigus võimaldab rakendusel lugeda su võrgustikes toimuvat suhtlust sõpradega võrgustiku konfidentsiaalsusreeglitest hoolimata. Märkus: mitte kõik suhtlusvõrgustikud ei pruugi selle õigusega arvestada.</string> <!-- HT -->
+    <string name="permdesc_readSocialStream" product="default">Võimaldab rakendusel ligi pääseda sinu ja su sõprade postitustele sotsiaalvõrgustikes ning neid seadmesse sünkroonida. Ole info jagamisega ettevaatlik – see õigus võimaldab rakendusel lugeda su võrgustikes toimuvat suhtlust sõpradega võrgustiku konfidentsiaalsusreeglitest hoolimata. Märkus: mitte kõik suhtlusvõrgustikud ei pruugi selle õigusega arvestada.</string>
     <string name="permlab_writeSocialStream" product="default">sotsiaalvõrkude infovoogu kirjutamine</string>
-    <string name="permdesc_writeSocialStream" product="default">Võimaldab rakendusel kuvada su sõprade postitusi sotsiaalvõrgustikes. Ole selle õiguse jagamisel ettevaatlik – see võimaldab rakendusel luua sõnumeid, mis näivad tulevat su sõpradelt. Märkus: mitte kõik suhtlusvõrgustikud ei pruugi selle õigusega arvestada.</string> <!-- HT -->
+    <string name="permdesc_writeSocialStream" product="default">Võimaldab rakendusel kuvada su sõprade postitusi sotsiaalvõrgustikes. Ole selle õiguse jagamisel ettevaatlik – see võimaldab rakendusel luua sõnumeid, mis näivad tulevat su sõpradelt. Märkus: mitte kõik suhtlusvõrgustikud ei pruugi selle õigusega arvestada.</string>
     <string name="permlab_readCalendar">kalendri sündmuste ja konfidentsiaalse info lugemine</string>
     <string name="permdesc_readCalendar" product="tablet">Võimaldab rakendusel lugeda kõiki tahvelarvutisse salvestatud kalendri sündmusi, sh su sõprade või töökaaslaste omi. See võib lubada rakendusel su kalendriandmeid jagada või salvestada ning seda nende andmete konfidentsiaalsusest või tundlikkusest hoolimata.</string>
     <string name="permdesc_readCalendar" product="default">Võimaldab rakendusel lugeda kõiki telefoni salvestatud kalendri sündmusi, sh su sõprade või töökaaslaste omi. See võib lubada rakendusel su kalendriandmeid jagada või salvestada ning seda nende andmete konfidentsiaalsusest või tundlikkusest hoolimata.</string>
@@ -466,16 +466,16 @@
     <string name="permlab_mount_format_filesystems" product="nosdcard">USB mäluseadme tühjendamine</string>
     <string name="permlab_mount_format_filesystems" product="default">SD kaardi tühjendamine</string>
     <string name="permdesc_mount_format_filesystems">Võimaldab rakendusel eemaldatavaid mäluseadmeid vormindada.</string>
-    <string name="permlab_asec_access">sisemise salvestusruumi info hankimine</string>
-    <string name="permdesc_asec_access">Võimaldab rakendusel hankida infot seadme sisesmise salvesturuumi kohta.</string>
-    <string name="permlab_asec_create">sisemise salvestusruumi loomine</string> <!-- HT -->
-    <string name="permdesc_asec_create">Võimaldab rakendusel sisemist salvestusruumi luua.</string>
-    <string name="permlab_asec_destroy">sisemise salvestusruumi hävitamine</string> <!-- HT -->
-    <string name="permdesc_asec_destroy">Lubab rakendusel sisemist salvestusruumi hävitada.</string> <!-- HT -->
-    <string name="permlab_asec_mount_unmount">sisemise salvestusruumi ühendamine/lahutamine</string>
-    <string name="permdesc_asec_mount_unmount">Võimaldab rakendusel sisemist salvestusruumi failisüsteemi ühendada ja lahutada.</string>
-    <string name="permlab_asec_rename">sisemise salvestusruumi ümbernimetamine</string> <!-- HT -->
-    <string name="permdesc_asec_rename">Võimaldab rakendusel sisemist salvestusruumi ümber nimetada.</string> <!-- HT -->
+    <string name="permlab_asec_access">sisemiste salvestuskonteinerite info lugemine</string>
+    <string name="permdesc_asec_access">Võimaldab rakendusel hankida infot seadmes kasutatavate sisemiste salvestuskonteinerite (ASEC) kohta.</string>
+    <string name="permlab_asec_create">sisemiste salvestuskonteinerite loomine</string>
+    <string name="permdesc_asec_create">Võimaldab rakendusel luua seadmes sisemisi salvestuskonteinereid (ASEC).</string>
+    <string name="permlab_asec_destroy">sisemiste salvestuskonteinerite kustutamine</string>
+    <string name="permdesc_asec_destroy">Lubab rakendusel sisemisi salvestuskonteinereid (ASEC) kustutada.</string>
+    <string name="permlab_asec_mount_unmount">sisemiste salvestuskonteinerite ühendamine/lahutamine</string>
+    <string name="permdesc_asec_mount_unmount">Võimaldab rakendusel sisemisi salvestuskonteinereid (ASEC) failisüsteemi ühendada ja lahutada.</string>
+    <string name="permlab_asec_rename">sisemiste salvestuskonteinerite ümbernimetamine</string>
+    <string name="permdesc_asec_rename">Võimaldab rakendusel sisemisi salvestuskonteinereid (ASEC) ümber nimetada.</string>
     <string name="permlab_vibrate">vibreerimise kontrollimine</string>
     <string name="permdesc_vibrate">Võimaldab rakendusel vibreerimist kontrollida.</string>
     <string name="permlab_flashlight">välklambi kontrollimine</string>
@@ -495,8 +495,8 @@
     <string name="permdesc_performCdmaProvisioning">Võimaldab rakendusel CDMA provisioneerimist käivitada. Pahatahtlikud rakendused võivad CDMA provisioneerimist asjatult käivitada.</string>
     <string name="permlab_locationUpdates">asukohainfo uuendamise kontroll</string>
     <string name="permdesc_locationUpdates">Võimaldab rakendusel lubada/keelata asukohainfo uuenemise märguanded seadme raadioosast. Ei ole mõeldud tavarakendustes kasutamiseks.</string>
-    <string name="permlab_checkinProperties">juurdepääs registreerimisteenuse atribuutidele</string> <!-- HT -->
-    <string name="permdesc_checkinProperties">Annab rakendusele õiguse lugeda ja kirjutada registreerimisteenusega üles laaditavaid atribuute. Tavarakendused ei vaja kunagi seda õigust.</string> <!-- HT -->
+    <string name="permlab_checkinProperties">ligipääs registreerimisteenuse atribuutidele</string>
+    <string name="permdesc_checkinProperties">Võimaldab rakendusel õiguse lugeda ja muuta registreerimisteenusega üles laaditavaid atribuute. Tavarakendused ei vaja kunagi seda õigust.</string>
     <string name="permlab_bindGadget">vidinate valimine</string>
     <string name="permdesc_bindGadget">Võimaldab rakendusel öelda süsteemile, milline rakendus saab kasutada milliseid vidinaid. Selle õigusega rakendus võib anda teistele rakendustele ligipääsu su isiklikele andmetele. Tavarakendused ei vaja kunagi seda õigust.</string>
     <string name="permlab_modifyPhoneState">telefoni oleku muutmine</string>
@@ -559,8 +559,8 @@
     <string name="permlab_bluetoothAdmin">ligipääs Bluetoothi seadetele</string>
     <string name="permdesc_bluetoothAdmin" product="tablet">Võimaldab rakendusel muuta tahvelarvuti Bluetoothi seadeid, leida teisi seadmeid ning tahevlarvutit nendega siduda.</string>
     <string name="permdesc_bluetoothAdmin" product="default">Võimaldab rakendusel muuta telefoni Bluetoothi seadeid, leida teisi seadmeid ning telefoni nendega siduda.</string>
-    <string name="permlab_accessWimaxState">WiMAX oleku lugemine</string> <!-- HT -->
-    <string name="permdesc_accessWimaxState">Võimaldab rakendusel teada saada, kas WiMAX on lubatud, ja vaadata teavet kõikide ühendatud WiMAX võrkude kohta.</string>
+    <string name="permlab_accessWimaxState">WiMAX-i oleku lugemine</string>
+    <string name="permdesc_accessWimaxState">Võimaldab rakendusel teada saada, kas WiMAX on lubatud, ning saada infot kõikide ühendatud WiMAX võrkude kohta.</string>
     <string name="permlab_changeWimaxState">WiMAX-i oleku muutmine</string>
     <string name="permdesc_changeWimaxState" product="tablet">Võimaldab rakendusel luua ja katkestada tahvelarvuti ühendust WiMAX võrkudega.</string>
     <string name="permdesc_changeWimaxState" product="default">Võimaldab rakendusel luua ja katkestada telefoni ühendust WiMAX võrkudega.</string>
@@ -577,8 +577,8 @@
     <string name="permdesc_writeSyncSettings">Võimaldab rakendusel muuta konto sünkroonimise seadeid. Näiteks saab aadressiraamatu rakendus seda kasutada enda andmete Google\'i konto andmetega sünkroonimise sisse lülitamiseks.</string>
     <string name="permlab_readSyncStats">sünkroonimise statistika lugemine</string>
     <string name="permdesc_readSyncStats">Võimaldab rakendusel lugeda konto sünkroonimise statistikat, sh sünkroonimise sündmuste ajalugu ja sünkroonitud andmete hulka.</string>
-    <string name="permlab_subscribedFeedsRead">tellitud uudistevoogude lugemine</string> <!-- HT -->
-    <string name="permdesc_subscribedFeedsRead">Võimaldab rakendusel hankida üksikasjalikku infot hetkel sünkroonitavate uudistevoogude kohta.</string> <!-- HT -->
+    <string name="permlab_subscribedFeedsRead">tellitud uudistevoogude lugemine</string>
+    <string name="permdesc_subscribedFeedsRead">Võimaldab rakendusel hankida üksikasjalikku infot hetkel sünkroonitavate uudistevoogude kohta.</string>
     <string name="permlab_subscribedFeedsWrite">tellitud uudistevoogude kirjutamine</string>
     <string name="permdesc_subscribedFeedsWrite">Võimaldab rakendusel muuta su aktiivseid sünkroonitud uudistevooge. Pahatahtlikud rakendused võivad neid uudistevooge muuta.</string>
     <string name="permlab_readDictionary">kasutaja sõnastikku lisatud sõnade lugemine</string>

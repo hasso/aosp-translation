@@ -66,7 +66,7 @@
     <string name="enable_alert_vibrate_summary">Vibreerimine märguandel</string>
     <string name="category_brazil_settings_title">Brasiilia seaded</string>
     <string name="enable_channel_50_alerts_title">50. kanali teated</string>
-    <string name="enable_channel_50_alerts_summary">50. kanalit kasutatakse Brasiilias piirkonnaandmete värskenduste edastamiseks</string> <!-- HT -->
+    <string name="enable_channel_50_alerts_summary">50. kanalit kasutatakse Brasiilias piirkonnakoodi edastamiseks</string>
     <string name="category_dev_settings_title">Arendaja valikud</string>
     <string name="cmas_category_heading">Teadete kategooria:</string>
     <string name="cmas_category_geo">Geofüüsika</string>

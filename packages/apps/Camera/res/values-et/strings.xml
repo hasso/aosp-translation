@@ -124,8 +124,8 @@
     <string name="accessibility_switch_to_panorama">Aktiveeri panoraamrežiim</string>
     <string name="accessibility_switch_to_new_panorama">Uuele panoraamile lülitumine</string>
     <string name="accessibility_review_cancel">Ülevaatuse katkestamine</string>
-    <string name="accessibility_review_ok">Ülevaatus OK</string> <!-- HT -->
-    <string name="accessibility_review_retake">Uus foto</string> <!-- HT -->
+    <string name="accessibility_review_ok">Ülevaatuse lõpetamine</string>
+    <string name="accessibility_review_retake">Uue pildistamine</string>
     <string name="capital_on">SEES</string>
     <string name="capital_off">VÄLJAS</string>
     <string name="pref_video_time_lapse_frame_interval_off">Väljas</string>
