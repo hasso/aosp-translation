@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/*
+* Copyright (C) 2008 The Android Open Source Project
+* Copyright (C) 2013 Hasso Tepper
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+ -->
+<resources 
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="wallpapers">Androidi liikuvad taustapildid</string>
+    <string name="wallpaper_walkaround">Läbipaistev telefon</string>
+    <string name="wallpaper_walkaround_author">Google</string>
+    <string name="wallpaper_walkaround_desc">Vaata läbi telefoni ja kõnni sellega õnnetusi põhjustamata.</string>
+    <string name="wallpaper_grass">Muru</string>
+    <string name="wallpaper_grass_author">Google</string>
+    <string name="wallpaper_grass_desc">Rohukõrred õrnalt liikumas päevase või öise taeva ees.</string>
+    <string name="wallpaper_galaxy">Galaktika</string>
+    <string name="wallpaper_galaxy_author">Google</string>
+    <string name="wallpaper_galaxy_desc">Galaktika aeglaselt pöörlevatest tähtedest.</string>
+    <string name="wallpaper_fall">Vesi</string>
+    <string name="wallpaper_fall_author">Google</string>
+    <string name="wallpaper_fall_desc">Sügislehtede langemine&lt;br&gt; allolevasse virvendavasse tiiki:&lt;br&gt; Veeteemaline taust</string>
+    <string name="wallpaper_clock">Polaarkell</string>
+    <string name="wallpaper_clock_author">Google</string>
+    <string name="wallpaper_clock_desc">Kuupäeva ja kellaaja visualiseerimine päripäeva suunaliste kaartega: kuu, päev, tund, minut ja sekund.</string>
+    <string name="wallpaper_nexus">Nexus</string>
+    <string name="wallpaper_nexus_author">Google</string>
+    <string name="wallpaper_nexus_desc">Pilguheit närvivõrku.</string>
+    <string name="clock_settings">Polaarkella seaded</string>
+    <string name="show_seconds">Sekundite näitamine</string>
+    <string name="variable_line_width">Muutuv ringjoone laius</string>
+    <string name="palette">Värvipalett</string>
+    <string name="palette_gray">Raud</string>
+    <string name="palette_violet">Kesköö</string>
+    <string name="palette_matrix">Roheline ekraan</string>
+    <string name="palette_white_c">Jääkaru (dünaamiline)</string>
+    <string name="palette_black_c">Must auk (dünaamiline)</string>
+    <string name="palette_halloween">Kõrvitsapirukas</string>
+    <string name="palette_zenburn">Maaväline puuviljasalat</string>
+    <string name="palette_oceanic">Sinine laser</string>
+</resources>

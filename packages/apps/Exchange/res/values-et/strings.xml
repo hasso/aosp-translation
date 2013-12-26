@@ -14,9 +14,9 @@
      See the License for the specific language governing permissions and
      limitations under the License.
  -->
-
-<resources xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources 
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="exchange_name">Korporatiivne</string>
     <string name="exchange_name_alternate">Microsoft Exchange ActiveSync</string>
     <string name="meeting_accepted">Vastu võetud: <xliff:g id="SUBJECT">%s</xliff:g></string>
     <string name="meeting_declined">Keeldutud: <xliff:g id="SUBJECT">%s</xliff:g></string>
@@ -61,4 +61,6 @@
     <string name="account_setup_options_mail_window_2weeks">Kaks nädalat</string>
     <string name="account_setup_options_mail_window_1month">Üks kuu</string>
     <string name="account_setup_options_mail_window_all">Kõik</string>
+    <string name="auth_error_notification_title">Viga autentimisel</string>
+    <string name="auth_error_notification_text">„<xliff:g id="account">%s</xliff:g>“ konto seadete muutmiseks puuduta seda teksti.</string>
 </resources>

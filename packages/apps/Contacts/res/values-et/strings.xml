@@ -14,10 +14,8 @@
      See the License for the specific language governing permissions and
      limitations under the License.
  -->
-
-<resources xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="launcherDialer">Telefon</string>
+<resources 
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="people">Inimesed</string>
     <string name="contactsList">Kontaktid</string>
     <string name="shortcutContact">Kontakt</string>
@@ -39,15 +37,11 @@
     <string name="contactDetailAbout">Teave</string>
     <string name="contactDetailUpdates">Värskendused</string>
     <string name="searchHint">Otsi kontakte</string>
-    <string name="menu_search">Otsing</string>
-    <string name="menu_newContact">Uus kontakt</string>
     <string name="menu_viewContact">Kuva kontakt</string>
-    <string name="menu_callNumber">Helista: <xliff:g id="NUMBER">%s</xliff:g></string>
     <string name="menu_addStar">Lisa lemmikutesse</string>
     <string name="menu_removeStar">Eemalda lemmikutest</string>
     <string name="menu_editContact">Muuda</string>
     <string name="menu_deleteContact">Kustuta</string>
-    <string name="menu_copy">Kopeeri</string>
     <string name="menu_create_contact_shortcut">Paiguta avalehele</string>
     <string name="menu_call">Helista kontaktile</string>
     <string name="menu_sendSMS">Saada kontaktile SMS</string>
@@ -71,21 +65,11 @@
     <string name="readOnlyContactDeleteConfirmation">See kontakt sisaldab teavet mitmelt kontolt. Info kirjutuskaitstud kontodelt peidetakse su kontaktide nimekirjas, mitte ei kustutata.</string>
     <string name="multipleContactDeleteConfirmation">Selle kontakti kustutamisel kustutatakse andmeid mitmelt kontolt.</string>
     <string name="deleteConfirmation">See kontakt kustutatakse.</string>
-    <string name="menu_done">Valmis</string>
-    <string name="menu_doNotSave">Tühista</string>
     <string name="menu_discard">Loobu</string>
-    <string name="label_notes">Märkused</string>
-    <string name="label_sip_address">Interneti-kõne</string>
-    <string name="ghostData_company">Ettevõte</string>
-    <string name="ghostData_title">Ametinimetus</string>
     <string name="invalidContactMessage">Kontakti pole olemas.</string>
     <string name="createContactShortcutSuccessful">Kontaktividin lisati avalehele.</string>
     <string name="pickerNewContactHeader">Loo uus kontakt</string>
     <string name="pickerNewContactText">Loo uus kontakt</string>
-    <string name="phoneLabelsGroup">Telefon</string>
-    <string name="emailLabelsGroup">E-post</string>
-    <string name="imLabelsGroup">IM (kiirsuhtlus)</string>
-    <string name="postalLabelsGroup">Aadress</string>
   <string-array name="otherLabels">
     <item>Organisatsioon</item>
     <item>Märkus</item>
@@ -99,12 +83,9 @@
     <string name="noContacts">Kontaktid puuduvad.</string>
     <string name="noGroups">Grupid puuduvad.</string>
     <string name="noAccounts">Gruppide loomiseks on vaja kontot.</string>
-    <string name="noMatchingContacts">Ühtegi sobivat kontakti ei leitud.</string>
-    <string name="noContactsWithPhoneNumbers">Telefoninumbritega kontakte pole.</string>
     <string name="emptyGroup">Selles grupis pole inimesi.</string>
     <string name="addPeopleToGroup">Inimeste lisamiseks muuda gruppi.</string>
     <string name="savingContact">Kontakti salvestamine \u2026</string>
-    <string name="savingDisplayGroups">Kuvavalikute salvestamine \u2026</string>
     <string name="contactSavedToast">Kontakt on salvestatud.</string>
     <string name="contactSavedErrorToast">Kontakti muudatuste salvestamine ebaõnnestus.</string>
     <string name="groupSavedToast">Grupp on salvestatud.</string>
@@ -118,18 +99,10 @@
     <item quantity="one">1 kontakt</item>
     <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> kontakti</item>
   </plurals>
-    <string name="listTotalAllContactsZero">Kontaktid puuduvad.</string>
-    <string name="listTotalAllContactsZeroCustom">Nähtavaid kontakte pole.</string>
-    <string name="listTotalAllContactsZeroStarred">Lemmikuid pole.</string>
-    <string name="listTotalAllContactsZeroGroup">Grupis <xliff:g id="NAME">%s</xliff:g> ei ole kontakte</string>
-    <string name="listAllContactsInAccount">Konto <xliff:g id="NAME">%s</xliff:g> kontaktid</string>
-    <string name="listSingleContact">Üks kontakt</string>
-    <string name="listCustomView">Kontaktid kohandatud vaates</string>
   <plurals name="listFoundAllContacts">
     <item quantity="one">1 leitud</item>
     <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> leitud</item>
   </plurals>
-    <string name="foundTooManyContacts">Leitud rohkem kui <xliff:g id="COUNT">%d</xliff:g>.</string>
     <string name="listFoundAllContactsZero">Kontakte pole</string>
   <plurals name="searchFoundContacts">
     <item quantity="one">1 leitud</item>
@@ -137,270 +110,26 @@
   </plurals>
     <string name="contactsAllLabel">Kõik kontaktid</string>
     <string name="contactsGroupsLabel">Grupid</string>
-    <string name="contactsFavoritesLabel">Lemmikud</string>
-    <string name="dialerAllContactsLabel">Lemmikud ja kõik kontaktid</string>
-    <string name="dialerIconLabel">Telefon</string>
-    <string name="recentCallsIconLabel">Kõnelogi</string>
-    <string name="menu_sendTextMessage">Saada tekstsõnum</string>
-    <string name="recentCalls_callNumber">Helista kasutajale <xliff:g id="NAME">%s</xliff:g></string>
-    <string name="recentCalls_editNumberBeforeCall">Muuda enne helistamist numbrit</string>
-    <string name="recentCalls_addToContact">Lisa kontaktidesse</string>
-    <string name="recentCalls_removeFromRecentList">Eemalda kõnelogist</string>
-    <string name="recentCalls_deleteAll">Kustuta kõnelogi</string>
-    <string name="recentCalls_trashVoicemail">Kustuta kõnepost</string>
-    <string name="recentCalls_shareVoicemail">Jaga kõneposti</string>
-    <string name="recentCalls_empty">Kõnelogi on tühi.</string>
-    <string name="clearCallLogConfirmation_title">Kustutada kõnelogi?</string>
-    <string name="clearCallLogConfirmation">Kogu su kõnelogi kustutatakse.</string>
-    <string name="clearCallLogProgress_title">Kõnelogi kustutamine \u2026</string>
-    <string name="clearFrequentsConfirmation_title">Kas tühjendada sagedamini kasutatud kontaktide nimekiri?</string>
-    <string name="clearFrequentsConfirmation">Sellega tühjendad aadressiraamatu ja telefoni rakendustes oleva sagedamini kasutatud kontaktide nimekirja. Ka meilirakendused peavad su kontaktide eelistatud adressid uuesti selgeks õppima.</string>
-    <string name="clearFrequentsProgress_title">Sagedamini kasutatute puhastamine \u2026</string>
-    <string name="imei">IMEI</string>
-    <string name="meid">MEID</string>
-    <string name="voicemail">Kõnepost</string>
-    <string name="unknown">Tundmatu</string>
-    <string name="private_num">Varjatud number</string>
-    <string name="payphone">Telefoniautomaat</string>
-    <string name="dialerKeyboardHintText">Numbri valimiseks kasuta klaviatuuri</string>
-    <string name="dialerDialpadHintText">Kõne lisamiseks vali number</string>
-    <string name="simContacts_emptyLoading">Laadimine SIM kaardilt \u2026</string>
-    <string name="simContacts_title">SIM kaardi kontaktid</string>
-    <string name="noContactsHelpTextWithSyncForCreateShortcut">Pole ühtegi kontakti, mida kuvada. (Kui konto on äsja lisatud, võib kontaktide sünkroonimine mõne minuti aega võtta.)</string>
-    <string name="noContactsHelpTextForCreateShortcut">Pole ühtegi kontakti, mida kuvada.</string>
-    <string name="noContactsHelpText" product="tablet">Pole ühtegi kontakti, mida kuvada.\n\nKontaktide lisamiseks puuduta <font fgcolor="#ffffffff"><b>menüüd</b></font> ja seejärel ühte järgnevatest:\n\n<li><font fgcolor="#ffffffff"><b>Kontod</b></font> kontaktide tahvelarvutisse sünkroonimiseks mõeldud konto lisamiseks või seadistamiseks;\n</li>\n<li><font fgcolor="#ffffffff"><b>Uus kontakt</b></font> uue kontakti loomiseks;\n</li>\n<li><font fgcolor="#ffffffff"><b>Import/eksport</b></font> kontaktide SIM-ilt või SD kaardilt importimiseks.\n</li></string>
-    <string name="noContactsHelpText" product="default">Pole ühtegi kontakti, mida kuvada.\n\nKontaktide lisamiseks puuduta <font fgcolor="#ffffffff"><b>menüüd</b></font> ja seejärel ühte järgnevatest:\n\n<li><font fgcolor="#ffffffff"><b>Kontod</b></font> kontaktide telefoni sünkroonimiseks mõeldud konto lisamiseks või seadistamiseks;\n</li>\n<li><font fgcolor="#ffffffff"><b>Uus kontakt</b></font> uue kontakti loomiseks;\n</li>\n<li><font fgcolor="#ffffffff"><b>Import/eksport</b></font> kontaktide SIM-ilt või SD kaardilt importimiseks.\n</li></string>
-    <string name="noContactsHelpTextWithSync" product="tablet">Pole ühtegi kontakti, mida kuvada. (Kui konto on äsja lisatud, võib kontaktide sünkroonimine mõne minuti aega võtta.)\n\nKontaktide lisamiseks puuduta <font fgcolor="#ffffffff"><b>menüüd</b></font> ja seejärel ühte järgnevatest:\n\n<li><font fgcolor="#ffffffff"><b>Kontod</b></font> kontaktide tahvelarvutisse sünkroonimiseks mõeldud konto lisamiseks või seadistamiseks;\n</li>\n<li><font fgcolor="#ffffffff"><b>Kuvamisseaded</b></font> muutmaks seda, mis kontaktid on nähtavad\n</li>\n<li><font fgcolor="#ffffffff"><b>Uus kontakt</b></font> uue kontakti loomiseks;\n</li>\n<li><font fgcolor="#ffffffff"><b>Import/eksport</b></font> kontaktide SIM-ilt või SD kaardilt importimiseks.\n</li></string>
-    <string name="noContactsHelpTextWithSync" product="default">Pole ühtegi kontakti, mida kuvada. (Kui konto on äsja lisatud, võib kontaktide sünkroonimine mõne minuti aega võtta.)\n\nKontaktide lisamiseks puuduta <font fgcolor="#ffffffff"><b>menüüd</b></font> ja seejärel ühte järgnevatest:\n\n<li><font fgcolor="#ffffffff"><b>Kontod</b></font> kontaktide telefoni sünkroonimiseks mõeldud konto lisamiseks või seadistamiseks;\n</li>\n<li><font fgcolor="#ffffffff"><b>Kuvamisseaded</b></font> muutmaks seda, mis kontaktid on nähtavad\n</li>\n<li><font fgcolor="#ffffffff"><b>Uus kontakt</b></font> uue kontakti loomiseks;\n</li>\n<li><font fgcolor="#ffffffff"><b>Import/eksport</b></font> kontaktide SIM-ilt või SD kaardilt importimiseks.\n</li></string>
-    <string name="noContactsNoSimHelpText" product="tablet">Pole ühtegi kontakti, mida kuvada.\n\nKontaktide lisamiseks puuduta <font fgcolor="#ffffffff"><b>menüüd</b></font> ja seejärel ühte järgnevatest:\n\n<li><font fgcolor="#ffffffff"><b>Kontod</b></font> kontaktide tahvelarvutisse sünkroonimiseks mõeldud konto lisamiseks või seadistamiseks;\n</li>\n<li><font fgcolor="#ffffffff"><b>Uus kontakt</b></font> uue kontakti loomiseks;\n</li>\n<li><font fgcolor="#ffffffff"><b>Import/eksport</b></font> kontaktide SD kaardilt importimiseks.\n</li></string>
-    <string name="noContactsNoSimHelpText" product="default">Pole ühtegi kontakti, mida kuvada.\n\nKontaktide lisamiseks puuduta <font fgcolor="#ffffffff"><b>menüüd</b></font> ja seejärel ühte järgnevatest:\n\n<li><font fgcolor="#ffffffff"><b>Kontod</b></font> kontaktide telefoni sünkroonimiseks mõeldud konto lisamiseks või seadistamiseks;\n</li>\n<li><font fgcolor="#ffffffff"><b>Uus kontakt</b></font> uue kontakti loomiseks;\n</li>\n<li><font fgcolor="#ffffffff"><b>Import/eksport</b></font> kontaktide SD kaardilt importimiseks.\n</li></string>
-    <string name="noContactsNoSimHelpTextWithSync" product="tablet">Pole ühtegi kontakti, mida kuvada. (Kui konto on äsja lisatud, võib kontaktide sünkroonimine mõne minuti aega võtta.)\n\nKontaktide lisamiseks puuduta <font fgcolor="#ffffffff"><b>menüüd</b></font> ja seejärel ühte järgnevatest:\n\n<li><font fgcolor="#ffffffff"><b>Kontod</b></font> kontaktide tahvelarvutisse sünkroonimiseks mõeldud konto lisamiseks või seadistamiseks;\n</li>\n<li><font fgcolor="#ffffffff"><b>Kuvamisseaded</b></font> muutmaks seda, mis kontaktid on nähtavad\n</li>\n<li><font fgcolor="#ffffffff"><b>Uus kontakt</b></font> uue kontakti loomiseks;\n</li>\n<li><font fgcolor="#ffffffff"><b>Import/eksport</b></font> kontaktide SD kaardilt importimiseks.\n</li></string>
-    <string name="noContactsNoSimHelpTextWithSync" product="default">Pole ühtegi kontakti, mida kuvada. (Kui konto on äsja lisatud, võib kontaktide sünkroonimine mõne minuti aega võtta.)\n\nKontaktide lisamiseks puuduta <font fgcolor="#ffffffff"><b>menüüd</b></font> ja seejärel ühte järgnevatest:\n\n<li><font fgcolor="#ffffffff"><b>Kontod</b></font> kontaktide telefoni sünkroonimiseks mõeldud konto lisamiseks või seadistamiseks;\n</li>\n<li><font fgcolor="#ffffffff"><b>Kuvamisseaded</b></font> muutmaks seda, mis kontaktid on nähtavad\n</li>\n<li><font fgcolor="#ffffffff"><b>Uus kontakt</b></font> uue kontakti loomiseks;\n</li>\n<li><font fgcolor="#ffffffff"><b>Import/eksport</b></font> kontaktide SD kaardilt importimiseks.\n</li></string>
-    <string name="noFavoritesHelpText">Sul pole veel ühtegi lemmikut.\n\nKontakti lisamiseks lemmikute nimekirja:\n\n<li>puuduta vahekaarti <b>Kontaktid</b>\n</li>\n<li>Puuduta kontakti, mida soovid lemmikute hulka lisada\n</li>\n<li>Puuduta kontakti nime kõrval olevat tärni\n</li></string>
-    <string name="dialer_useDtmfDialpad">Kasuta puutetoonide klahvistikku</string>
-    <string name="dialer_returnToInCallScreen">Tagasi käimasoleva kõne juurde</string>
-    <string name="dialer_addAnotherCall">Lisa kõne</string>
-    <string name="callDetailTitle">Kõne üksikasjad</string>
-    <string name="toast_call_detail_error">Kõne üksikasju ei õnnestunud lugeda.</string>
-    <string name="type_incoming">Sissetulev kõne</string>
-    <string name="type_outgoing">Väljuv kõne</string>
-    <string name="type_missed">Vastamata kõne</string>
-    <string name="type_voicemail">Kõnepost</string>
-    <string name="actionIncomingCall">Sissetulevad kõned</string>
     <string name="callBack">Helista tagasi</string>
     <string name="callAgain">Helista uuesti</string>
     <string name="returnCall">Helista tagasi</string>
-    <string name="callDetailsDurationFormat"><xliff:g id="MINUTES">%s</xliff:g> min <xliff:g id="SECONDS">%s</xliff:g> s</string>
-    <string name="favoritesFrequentContacted">Sagedamini kasutatud kontaktid</string>
-    <string name="favoritesFrequentCalled">Sagedamini kasutatud numbrid</string>
     <string name="add_contact_dlg_message_fmt">Kas lisada „<xliff:g id="EMAIL">%s</xliff:g>” kontaktidesse?</string>
-    <string name="description_image_button_one">üks</string>
-    <string name="description_image_button_two">kaks</string>
-    <string name="description_image_button_three">kolm</string>
-    <string name="description_image_button_four">neli</string>
-    <string name="description_image_button_five">viis</string>
-    <string name="description_image_button_six">kuus</string>
-    <string name="description_image_button_seven">seitse</string>
-    <string name="description_image_button_eight">kaheksa</string>
-    <string name="description_image_button_nine">üheksa</string>
-    <string name="description_image_button_star">tärn</string>
-    <string name="description_image_button_zero">null</string>
-    <string name="description_image_button_pound">trellid</string>
-    <string name="description_voicemail_button">kõnepost</string>
-    <string name="description_search_button">otsing</string>
-    <string name="description_dial_button">helistamine</string>
-    <string name="description_delete_button">kustutamine</string>
-    <string name="description_digits_edittext">valitav number</string>
     <string name="description_contact_photo">kontakti foto</string>
-    <string name="description_minus_button">kustutamine</string>
     <string name="description_plus_button">pluss</string>
-    <string name="description_view_contact_detail">Kontakti vaatamine</string>
-    <string name="no_sdcard_message" product="nosdcard">Mäluseadet ei leitud.</string>
-    <string name="no_sdcard_message" product="default">SD kaarti ei leitud.</string>
-    <string name="import_from_sim">Impordi SIM kaardilt</string>
-    <string name="import_from_sdcard" product="default">Impordi mäluseadmest</string>
-    <string name="export_to_sdcard" product="default">Ekspordi mäluseadmele</string>
-    <string name="share_visible_contacts">Jaga nähtavaid kontakte</string>
-    <string name="import_one_vcard_string">Impordi üks vCard fail</string>
-    <string name="import_multiple_vcard_string">Impordi mitu vCard faili</string>
-    <string name="import_all_vcard_string">Impordi kõik vCard failid</string>
-    <string name="searching_vcard_message" product="nosdcard">Mäluseadmest vCardi andmete otsimine \u2026</string>
-    <string name="searching_vcard_message" product="default">SD kaardilt vCardi andmete otsimine \u2026</string>
-    <string name="scanning_sdcard_failed_message" product="nosdcard">Mäluseadet ei saa skaneerida. (Põhjus: „<xliff:g id="FAIL_REASON">%s</xliff:g>”)</string>
-    <string name="scanning_sdcard_failed_message" product="default">SD kaarti ei saa skaneerida. (Põhjus: „<xliff:g id="FAIL_REASON">%s</xliff:g>”)</string>
-    <string name="fail_reason_io_error">I/O viga</string>
-    <string name="fail_reason_low_memory_during_import">Pole piisavalt mälu. Fail võib olla liiga suur.</string>
-    <string name="fail_reason_vcard_parse_error">Ootamatul põhjusel vCardi parsimine ebaõnnestus.</string>
-    <string name="fail_reason_not_supported">Vormingut ei toetata.</string>
-    <string name="vcard_import_failed">vCardi importimine ebaõnnestus.</string>
-    <string name="import_failure_no_vcard_file" product="nosdcard">Mäluseadmelt ei leitud ühtegi vCard faili.</string>
-    <string name="import_failure_no_vcard_file" product="default">SD kaardilt ei leitud ühtegi vCard faili.</string>
-    <string name="fail_reason_failed_to_collect_vcard_meta_info">Metaandmete kogumine antud vCard faili(de)st ebaõnnestus.</string>
-    <string name="fail_reason_failed_to_read_files">Vähemalt ühe faili importimine ebaõnnestus (%s).</string>
-    <string name="fail_reason_unknown">Tundmatu viga.</string>
-    <string name="select_vcard_title">vCard faili valimine</string>
-    <string name="caching_vcard_title">Puhverdamine</string>
-    <string name="caching_vcard_message">vCard info puhverdamine ajutiselt kohalikku mäluruumi. Tegelik importimine algab peagi.</string>
-    <string name="progress_notifier_message">Importimine: <xliff:g id="CURRENT_NUMBER">%s</xliff:g>/<xliff:g id="TOTAL_NUMBER">%s</xliff:g>: <xliff:g id="NAME">%s</xliff:g></string>
-    <string name="importing_vcard_description">Importimine: <xliff:g id="NAME">%s</xliff:g></string>
-    <string name="reading_vcard_failed_title">vCard andmete lugemine ebaõnnestus</string>
-    <string name="reading_vcard_canceled_title">vCard andmete lugemine katkestati</string>
-    <string name="importing_vcard_finished_title">vCard faili <xliff:g id="FILENAME">%s</xliff:g> importimine on lõpetatud</string>
-    <string name="importing_vcard_canceled_title">Faili <xliff:g id="FILENAME">%s</xliff:g> importimine katkestati</string>
-    <string name="vcard_import_will_start_message">Fail <xliff:g id="FILENAME">%s</xliff:g> imporditakse peagi.</string>
-    <string name="vcard_import_will_start_message_with_default_name">Fail imporditakse peagi.</string>
-    <string name="vcard_import_request_rejected_message">vCardi importimise taotlus lükati tagasi. Proovi hiljem uuesti.</string>
-    <string name="vcard_export_will_start_message">Fail <xliff:g id="FILENAME">%s</xliff:g> eksporditakse peagi.</string>
-    <string name="vcard_export_request_rejected_message">vCardi eksportimise taotlus lükati tagasi. Proovi hiljem uuesti.</string>
-    <string name="vcard_unknown_filename">kontakt</string>
-    <string name="percentage"><xliff:g id="PERCENTAGE">%s</xliff:g> <xliff:g id="PERCENTSIGN">%%</xliff:g></string>
-    <string name="confirm_export_title">Eksportida kontaktid?</string>
-    <string name="confirm_export_message">Su kontaktide nimekiri eksporditakse faili: <xliff:g id="VCARD_FILENAME">%s</xliff:g>.</string>
-    <string name="exporting_contact_failed_title">Eksport ebaõnnestus</string>
-    <string name="exporting_contact_failed_message">Kontaktandmeid ei eksporditud.\nPõhjus: „<xliff:g id="FAIL_REASON">%s</xliff:g>”</string>
-    <string name="fail_reason_no_exportable_contact">Eksporditavad kontaktid puuduvad.</string>
-    <string name="fail_reason_too_many_vcard" product="nosdcard">Mäluseadmel on liiga palju vCard faile.</string>
-    <string name="fail_reason_too_many_vcard" product="default">SD kaardil on liiga palju vCard faile.</string>
-    <string name="fail_reason_too_long_filename">Faili nimi (kohustuslik) on liiga pikk („<xliff:g id="FILENAME">%s</xliff:g>”).</string>
-    <string name="exporting_vcard_finished_title">Faili <xliff:g id="FILENAME">%s</xliff:g> eksportimine on lõpetatud.</string>
-    <string name="exporting_vcard_canceled_title">Faili <xliff:g id="FILENAME">%s</xliff:g> eksportimine katkestati.</string>
-    <string name="exporting_contact_list_title">Kontaktandmete eksportimine</string>
-    <string name="exporting_contact_list_message">Su kontaktide andmed eksporditakse faili: <xliff:g id="FILE_NAME">%s</xliff:g>.</string>
-    <string name="fail_reason_could_not_initialize_exporter">Eksportijat ei saa käivitada: „<xliff:g id="EXACT_REASON">%s</xliff:g>”.</string>
-    <string name="fail_reason_error_occurred_during_export">Viga eksportimisel: „<xliff:g id="EXACT_REASON">%s</xliff:g>”.</string>
-    <string name="composer_failed_to_get_database_infomation">Andmebaasist info hankimine ebaõnnestus.</string>
-    <string name="composer_has_no_exportable_contact" product="tablet">Pole kontakte, mida eksportida. Kui sul on tahvelarvutis siiski kontakte, ei pruugi mõned andmete pakkujad kontaktide eksportimist tahvelarvutist lubada.</string>
-    <string name="composer_has_no_exportable_contact" product="default">Pole kontakte, mida eksportida. Kui sul on telefonis siiski kontakte, ei pruugi mõned andmete pakkujad kontaktide eksportimist telefonist lubada.</string>
-    <string name="composer_not_initialized">vCardi koostaja ei käivitunud korralikult.</string>
-    <string name="fail_reason_could_not_open_file">Faili „<xliff:g id="FILE_NAME">%s</xliff:g>” ei saa avada: <xliff:g id="EXACT_REASON">%s</xliff:g>.</string>
     <string name="exporting_contact_list_progress"><xliff:g id="CURRENT_NUMBER">%s</xliff:g>/<xliff:g id="TOTAL_NUMBER">%s</xliff:g> kontaktist</string>
-    <string name="cancel_import_confirmation_message">Kas katkestada faili <xliff:g id="FILENAME">%s</xliff:g> importimine?</string>
-    <string name="cancel_export_confirmation_message">Kas katkestada faili <xliff:g id="FILENAME">%s</xliff:g> eksportimine?</string>
-    <string name="cancel_vcard_import_or_export_failed">vCardi impordi/ekspordi tühistamine ebaõnnestus</string>
     <string name="search_settings_description">Su kontaktide nimed</string>
-    <string name="add_2sec_pause">Lisa 2-sekundiline paus</string>
-    <string name="add_wait">Lisa ootamine</string>
-    <string name="call_disambig_title">Numbri valimine</string>
-    <string name="call_settings">Seaded</string>
-    <string name="sms_disambig_title">Numbri valimine</string>
-    <string name="make_primary">See valik jäetakse meelde</string>
     <string name="quickcontact_missing_app">Selle toimingu käsitsemiseks ei leitud ühtegi rakendust.</string>
-    <string name="missing_name">(Nimi puudub)</string>
-    <string name="menu_accounts">Kontod</string>
-    <string name="menu_clear_frequents">Tühjenda sagedamini kasutatud</string>
-    <string name="menu_contacts_filter">Kuvatavad kontaktid</string>
-    <string name="menu_import_export">Import/eksport</string>
-    <string name="dialog_import_export">Kontaktide import/eksport</string>
-    <string name="dialog_import">Kontaktide importimine</string>
     <string name="menu_share">Jaga</string>
     <string name="share_via">Kontakti jagamine</string>
-    <string name="share_error">Seda kontakti ei saa jagada.</string>
-    <string name="nameLabelsGroup">Nimi</string>
-    <string name="nicknameLabelsGroup">Hüüdnimi</string>
-    <string name="organizationLabelsGroup">Organisatsioon</string>
-    <string name="websiteLabelsGroup">Veebisait</string>
-    <string name="eventLabelsGroup">Sündmused</string>
-    <string name="relationLabelsGroup">Suhe</string>
-    <string name="groupsLabel">Grupid</string>
-    <string name="dialog_new_contact_account">Kontakti loomine kontole</string>
     <string name="dialog_new_group_account">Grupi loomine kontole</string>
-    <string name="menu_sync_remove">Eemalda grupp sünkroonimisest</string>
-    <string name="dialog_sync_add">Lisa grupp sünkroonimisse</string>
-    <string name="display_more_groups">Veel gruppe \u2026</string>
-    <string name="display_ungrouped">Kõik muud kontaktid</string>
-    <string name="display_all_contacts">Kõik kontaktid</string>
-    <string name="display_warn_remove_ungrouped">Grupi „<xliff:g id="GROUP">%s</xliff:g>” eemaldamisel sünkroonimisest eemaldatakse sünkroonimisest ka kõik grupeerimata kontaktid.</string>
-    <string name="account_phone" product="tablet">Tahvelarvutis, ei süngita</string>
-    <string name="account_phone" product="default">Telefonis, ei süngita</string>
-    <string name="call_custom">Helista numbrile <xliff:g id="CUSTOM">%s</xliff:g></string>
-    <string name="call_home">Helista kodusele telefonile</string>
-    <string name="call_mobile">Helista mobiilile</string>
-    <string name="call_work">Helista tööle</string>
-    <string name="call_fax_work">Helista tööfaksile</string>
-    <string name="call_fax_home">Helista kodusele faksile</string>
-    <string name="call_pager">Helista piiparile</string>
-    <string name="call_other">Helista</string>
-    <string name="call_callback">Helista tagasihelistusnumbrile</string>
-    <string name="call_car">Helista autotelefonile</string>
-    <string name="call_company_main">Helista ettevõtte põhinumbrile</string>
-    <string name="call_isdn">Helista ISDN telefonile</string>
-    <string name="call_main">Helista põhinumbrile</string>
-    <string name="call_other_fax">Helista faksile</string>
-    <string name="call_radio">Helista raadiotelefonile</string>
-    <string name="call_telex">Helista teleksile</string>
-    <string name="call_tty_tdd">Helista TTY/TDD numbrile</string>
-    <string name="call_work_mobile">Helista töömobiilile</string>
-    <string name="call_work_pager">Helista tööpiiparile</string>
-    <string name="call_assistant">Helista numbrile <xliff:g id="ASSISTANT">%s</xliff:g></string>
-    <string name="call_mms">Helista MMS numbrile</string>
-    <string name="sms_custom">Saada SMS numbrile <xliff:g id="CUSTOM">%s</xliff:g></string>
-    <string name="sms_home">Saada SMS kodu telefonile</string>
-    <string name="sms_mobile">Saada SMS mobiilile</string>
-    <string name="sms_work">Saada SMS töönumbrile</string>
-    <string name="sms_fax_work">Saada SMS tööfaksile</string>
-    <string name="sms_fax_home">Saada SMS kodusele faksile</string>
-    <string name="sms_pager">Saada SMS piiparile</string>
-    <string name="sms_other">SMS</string>
-    <string name="sms_callback">Saada SMS tagasihelistusnumbrile</string>
-    <string name="sms_car">Saada SMS autotelefonile</string>
-    <string name="sms_company_main">Saada SMS ettevõtte põhitelefonile</string>
-    <string name="sms_isdn">Saada SMS ISDN telefonile</string>
-    <string name="sms_main">Saada SMS põhinumbrile</string>
-    <string name="sms_other_fax">Saada SMS faksile</string>
-    <string name="sms_radio">Saada SMS raadiotelefonile</string>
-    <string name="sms_telex">Saada SMS teleksile</string>
-    <string name="sms_tty_tdd">Saada SMS TTY/TDD numbrile</string>
-    <string name="sms_work_mobile">Saada SMS töömobiilile</string>
-    <string name="sms_work_pager">Saada SMS tööpiiparile</string>
-    <string name="sms_assistant">Saada SMS numbrile <xliff:g id="ASSISTANT">%s</xliff:g></string>
-    <string name="sms_mms">Saada MMS</string>
-    <string name="sms">Tekstisõnum</string>
-    <string name="email_home">Saada e-kiri kodusele aadressile</string>
-    <string name="email_mobile">Saada e-kiri mobiilile</string>
-    <string name="email_work">Saada e-kiri tööaadressile</string>
-    <string name="email_other">E-kiri</string>
-    <string name="email_custom">Saada e-kiri aadressile <xliff:g id="CUSTOM">%s</xliff:g></string>
-    <string name="email">E-kiri</string>
-    <string name="map_home">Vaata kodu aadressi</string>
-    <string name="map_work">Vaata tööaadressi</string>
-    <string name="map_other">Vaata aadressi</string>
-    <string name="map_custom">Vaata <xliff:g id="CUSTOM">%s</xliff:g> aadressi</string>
-    <string name="chat_aim">Vestle AIM-i kasutades</string>
-    <string name="chat_msn">Vestle Windows Live\'i abil</string>
-    <string name="chat_yahoo">Vestle Yahoo abil</string>
-    <string name="chat_skype">Vestle Skype\'i abil</string>
-    <string name="chat_qq">Vestle QQ abil</string>
-    <string name="chat_gtalk">Vestle Google Talki kasutades</string>
-    <string name="chat_icq">Vestle ICQ-d kasutades</string>
-    <string name="chat_jabber">Vestle Jabberi abil</string>
-    <string name="chat">Vestlus</string>
     <string name="audio_chat">Kõnevestlus</string>
     <string name="video_chat">Videovestlus</string>
-    <string name="postal_address">Aadress</string>
-    <string name="postal_street">Tänav</string>
-    <string name="postal_pobox">Postkast</string>
-    <string name="postal_neighborhood">Naabruskond</string>
-    <string name="postal_city">Linn</string>
-    <string name="postal_region">Riik</string>
-    <string name="postal_postcode">Sihtnumber</string>
-    <string name="postal_country">Riik</string>
-    <string name="full_name">Nimi</string>
-    <string name="name_given">Eesnimi</string>
-    <string name="name_family">Perekonnanimi</string>
-    <string name="name_prefix">Nime eesliide</string>
-    <string name="name_middle">Teine nimi</string>
-    <string name="name_suffix">Nime järelliide</string>
-    <string name="name_phonetic_given">Foneetiline eesnimi</string>
-    <string name="name_phonetic_middle">Foneetiline keskmine nimi</string>
-    <string name="name_phonetic_family">Foneetiline perekonnanimi</string>
-    <string name="name_phonetic">Foneetiline nimi</string>
     <string name="connections">Ühendused</string>
     <string name="add_connection_button">Lisa ühendus</string>
     <string name="recent">Viimased</string>
     <string name="recent_updates">Viimased muudatused</string>
     <string name="account_type_format"><xliff:g id="SOURCE">%1$s</xliff:g> kontakt</string>
-    <!-- no translation found for from_account_format (4469138575127580203) -->
-    <skip />
+    <string name="from_account_format"><xliff:g id="source" example="user@gmail.com">%1$s</xliff:g></string>
     <string name="use_photo_as_primary">Kasuta seda fotot</string>
     <string name="contact_read_only">Kontakti ei saa selles rakenduses muuta.</string>
     <string name="no_contact_details">Selle kontakti kohta pole täiendavat teavet.</string>
@@ -425,7 +154,6 @@
     <string name="menu_display_all">Kuva kõik</string>
     <string name="menu_select_all">Vali kõik</string>
     <string name="menu_select_none">Tühista kõikide valik</string>
-    <string name="no_contacts_selected">Kontakte pole valitud.</string>
     <string name="add_field">Lisa veel üks väli</string>
     <string name="add_new_entry_for_section">Lisa uus</string>
     <string name="add_organization">Lisa organisatsioon</string>
@@ -439,30 +167,18 @@
     <item quantity="one">pole liidetud</item>
     <item quantity="other">koondatud <xliff:g id="COUNT">%0$d</xliff:g> allikast</item>
   </plurals>
-    <string name="local_invisible_directory">Muu</string>
     <string name="aggregation_suggestion_join_dialog_message">Kas ühendada aktiivne kontakt valitud kontaktiga?</string>
     <string name="aggregation_suggestion_edit_dialog_message">Kas lülituda valitud kontakti muutmisse? Seni sisestatud andmed kopeeritakse.</string>
     <string name="menu_copyContact">Kopeeri gruppi „Minu kontaktid“</string>
     <string name="add_to_my_contacts">Lisa gruppi „Minu kontaktid“</string>
     <string name="contact_directory_description">Kataloog <xliff:g id="TYPE">%1$s</xliff:g></string>
-    <string name="directory_search_label">Kataloog</string>
-    <string name="local_search_label">Kõik kontaktid</string>
     <string name="toast_making_personal_copy">Isikliku koopia loomine \u2026</string>
-    <string name="list_filter_all_accounts">Kõik kontaktid</string>
-    <string name="list_filter_all_starred">Tärniga märgistatud</string>
     <string name="list_filter_custom">Kohandatud</string>
-    <string name="list_filter_customize">Kohanda</string>
-    <string name="list_filter_phones">Kõik telefoninumbritega kontaktid</string>
-    <string name="list_filter_single">Kontakt</string>
-    <string name="custom_list_filter">Kohandatud vaate määramine</string>
-    <string name="contact_list_loading">Laadimine \u2026</string>
     <string name="activity_title_settings">Seaded</string>
-    <string name="activity_title_contacts_filter">Kuvatavad kontaktid</string>
     <string name="menu_settings">Seaded</string>
     <string name="menu_help">Abi</string>
     <string name="preference_displayOptions">Kuvamisvalikud</string>
     <string name="organization_company_and_title"><xliff:g id="COMPANY_0">%2$s</xliff:g>, <xliff:g id="COMPANY_1">%1$s</xliff:g></string>
-    <string name="hint_findContacts">Kontakti otsing</string>
     <string name="non_phone_caption">Telefoninumber</string>
     <string name="non_phone_add_to_contacts">Lisa kontaktidesse</string>
     <string name="activity_title_confirm_add_detail">Kontaktile lisamine</string>
@@ -498,61 +214,7 @@
     <string name="call_type_and_date"><xliff:g id="CALL_TYPE">%1$s</xliff:g> <xliff:g id="CALL_SHORT_DATE">%2$s</xliff:g></string>
     <string name="profile_display_name">Minu profiili seadistamine</string>
     <string name="enter_contact_name">Sisesta isiku nimi</string>
-    <string name="view_updates_from_group">Vaata uuendusi</string>
-  <plurals name="notification_voicemail_title">
-    <item quantity="one">kõneposti sõnum</item>
-    <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> kõneposti sõnumit</item>
-  </plurals>
-    <string name="notification_action_voicemail_play">Mängi ette</string>
-    <string name="notification_voicemail_callers_list"><xliff:g id="NEWER_CALLERS">%1$s</xliff:g>, <xliff:g id="OLDER_CALLER">%2$s</xliff:g></string>
-    <string name="notification_new_voicemail_ticker">Uus kõneposti sõnum kasutajalt <xliff:g id="CALLER">%1$s</xliff:g></string>
-    <string name="voicemail_playback_error">Kõneposti sõnumi ettemängimine ebaõnnestus.</string>
-    <string name="voicemail_buffering">Puhverdamine \u2026</string>
-    <string name="voicemail_fetching_content">Kõneposti hankimine \u2026</string>
-    <string name="voicemail_fetching_timout">Kõneposti hankimine ebaõnnestus.</string>
-    <string name="call_log_new_header">Uued</string>
-    <string name="call_log_old_header">Vanemad</string>
-    <string name="call_log_voicemail_header">Ainult kõneposti sõnumiga kõned</string>
-    <string name="call_log_incoming_header">Ainult sissetulevad kõned</string>
-    <string name="call_log_outgoing_header">Ainult väljuvad kõned</string>
-    <string name="call_log_missed_header">Ainult vastamata kõned</string>
-    <string name="voicemail_status_voicemail_not_available">Kõneposti serveriga ei saa ühendust.</string>
-    <string name="voicemail_status_messages_waiting">Kõneposti serveriga ei saa ühendust. Uued sõnumid on ootel.</string>
-    <string name="voicemail_status_configure_voicemail">Seadista oma kõnepost.</string>
-    <string name="voicemail_status_audio_not_available">Audio puudub.</string>
-    <string name="voicemail_status_action_configure">Seadista</string>
-    <string name="voicemail_status_action_call_server">Helista kõneposti</string>
-    <string name="voicemail_speed_slowest">Aeglaseim esitus</string>
-    <string name="voicemail_speed_slower">Aeglane esitus</string>
-    <string name="voicemail_speed_normal">Tavaline esitus</string>
-    <string name="voicemail_speed_faster">Kiire esitus</string>
-    <string name="voicemail_speed_fastest">Kiireim esitus</string>
-    <string name="call_log_item_count_and_date">(<xliff:g id="COUNT">%1$d</xliff:g>) <xliff:g id="DATE">%2$s</xliff:g></string>
     <string name="group_name_hint">Grupi nimi</string>
-    <string name="nfc_vcard_file_name">Kontakt on saadud NFC kaudu</string>
-    <string name="menu_show_outgoing_only">Kuva ainult väljuvad</string>
-    <string name="menu_show_incoming_only">Kuva ainult sissetulevad</string>
-    <string name="menu_show_missed_only">Kuva ainult vastamata</string>
-    <string name="menu_show_voicemails_only">Kuva ainult kõnepostisõnumeid</string>
-    <string name="menu_show_all_calls">Kuva kõik kõned</string>
-    <string name="status_available">Saadaval</string>
-    <string name="status_away">Eemal</string>
-    <string name="status_busy">Hõivatud</string>
-    <string name="description_call_log_play_button">Kõneposti sõnumi mahamängimine</string>
-    <string name="description_call_log_incoming_call">Sissetulev kõne</string>
-    <string name="description_call_log_outgoing_call">Väljuv kõne</string>
-    <string name="description_call_log_missed_call">Vastamata kõne</string>
-    <string name="description_call_log_voicemail">Kõnepost</string>
-    <string name="description_add_contact">Kontakti lisamine</string>
-    <string name="description_view_contact">Kontakti <xliff:g id="NAME">%1$s</xliff:g> kuvamine</string>
-    <string name="description_call">Helistamine kontaktile <xliff:g id="NAME">%1$s</xliff:g></string>
-    <string name="description_send_text_message">Tekstsõnumi saatmine  kontaktile <xliff:g id="NAME">%1$s</xliff:g></string>
-    <string name="description_call_log_unheard_voicemail">Kuulamata kõneposti sõnum</string>
-    <string name="description_send_message">Sõnumi saatmine  kontaktile <xliff:g id="NAME">%1$s</xliff:g></string>
-    <string name="description_dial_phone_number">Helistamine kontaktile <xliff:g id="NAME">%1$s</xliff:g></string>
-    <string name="description_quick_contact_for">Kiire ühendus kontaktiga <xliff:g id="NAME">%1$s</xliff:g></string>
-    <string name="call_log_empty_gecode">-</string>
-    <string name="user_profile_contacts_list_header">Mina</string>
     <string name="local_profile_title">Minu kohalik profiil</string>
     <string name="external_profile_title">Minu <xliff:g id="EXTERNAL_SOURCE">%1$s</xliff:g> profiil</string>
     <string name="toast_displaying_all_contacts">Kõigi kontaktide kuvamine</string>
@@ -565,10 +227,6 @@
     <string name="keep_local">Hoia kohalikuna</string>
     <string name="add_account">Lisa konto</string>
     <string name="add_new_account">Lisa uus konto</string>
-    <string name="dialog_phone_call_prohibited_message">Kõnet ei tehtud</string>
-    <string name="dialog_voicemail_not_ready_message">Kõneposti seadistamiseks vali menüüst „Seaded“.</string>
-    <string name="dialog_voicemail_airplane_mode_message">Kõneposti helistamiseks lülita lennurežiim välja.</string>
     <string name="menu_export_database">Ekspordi andmebaasi failid</string>
-    <string name="action_menu_overflow_description">Veel valikuid</string>
-    <string name="expand_collapse_name_fields_description">Nimeväljade laiendamine või koondamine</string>
+    <string name="contact_detail_picture_description">Pilt. Muutmiseks vali see.</string>
 </resources>

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+  ~ Copyright (C) 2012 The Android Open Source Project
+  ~ Copyright (C) 2013 Hasso Tepper
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License
+   -->
+<resources 
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="toast_text_copied">Tekst on kopeeritud</string>
+    <string name="call_custom">Helista numbrile <xliff:g id="CUSTOM">%s</xliff:g></string>
+    <string name="call_home">Helista koju</string>
+    <string name="call_mobile">Helista mobiilile</string>
+    <string name="call_work">Helista tööle</string>
+    <string name="call_fax_work">Helista tööfaksile</string>
+    <string name="call_fax_home">Helista kodufaksile</string>
+    <string name="call_pager">Helista piiparile</string>
+    <string name="call_other">Helista</string>
+    <string name="call_callback">Helista tagasihelistusnumbrile</string>
+    <string name="call_car">Helista autotelefonile</string>
+    <string name="call_company_main">Helista ettevõtte põhinumbrile</string>
+    <string name="call_isdn">Helista ISDN telefonile</string>
+    <string name="call_main">Helista põhinumbrile</string>
+    <string name="call_other_fax">Helista faksile</string>
+    <string name="call_radio">Helista raadiotelefonile</string>
+    <string name="call_telex">Helista teleksile</string>
+    <string name="call_tty_tdd">Helista TTY/TDD numbrile</string>
+    <string name="call_work_mobile">Helista töömobiilile</string>
+    <string name="call_work_pager">Helista tööpiiparile</string>
+    <string name="call_assistant">Helista numbrile <xliff:g id="ASSISTANT">%s</xliff:g></string>
+    <string name="call_mms">Helista MMS-i numbrile</string>
+    <string name="sms_custom">Saada sõnum numbrile <xliff:g id="CUSTOM">%s</xliff:g></string>
+    <string name="sms_home">Saada sõnum kodutelefonile</string>
+    <string name="sms_mobile">Saada sõnum mobiilile</string>
+    <string name="sms_work">Saada sõnum tööle</string>
+    <string name="sms_fax_work">Saada sõnum tööfaksile</string>
+    <string name="sms_fax_home">Saada sõnum kodufaksile</string>
+    <string name="sms_pager">Saada sõnum piiparile</string>
+    <string name="sms_other">Saada sõnum</string>
+    <string name="sms_callback">Saada sõnum tagasihelistusnumbrile</string>
+    <string name="sms_car">Saada sõnum autotelefonile</string>
+    <string name="sms_company_main">Saada sõnum ettevõtte põhitelefoninumbrile</string>
+    <string name="sms_isdn">Saada sõnum ISDN telefonile</string>
+    <string name="sms_main">Saada sõnum põhinumbrile</string>
+    <string name="sms_other_fax">Saada sõnum faksile</string>
+    <string name="sms_radio">Saada sõnum raadiotelefonile</string>
+    <string name="sms_telex">Saada sõnum teleksile</string>
+    <string name="sms_tty_tdd">Saada sõnum TTY/TDD numbrile</string>
+    <string name="sms_work_mobile">Saada sõnum töömobiilile</string>
+    <string name="sms_work_pager">Saada sõnum tööpiiparile</string>
+    <string name="sms_assistant">Saada sõnum numbrile <xliff:g id="ASSISTANT">%s</xliff:g></string>
+    <string name="sms_mms">Saada sõnum MMS-i numbrile</string>
+    <string name="clearFrequentsConfirmation_title">Kustutada sagedamini kasutatud kontaktid?</string>
+    <string name="clearFrequentsConfirmation">Sellga kustutatakse aadressiraamatu ja telefoni rakendustest sagedamini kasutatud kontaktide nimekiri ja ka mieilirakendused peavad eelistatud aadressid uuesti selgeks õppima.</string>
+    <string name="clearFrequentsProgress_title">Nimekirja kustutamine \u2026</string>
+    <string name="status_available">Saadaval</string>
+    <string name="status_away">Eemal</string>
+    <string name="status_busy">Hõivatud</string>
+    <string name="contactsList">Kontaktid</string>
+    <string name="local_invisible_directory">Muud</string>
+    <string name="directory_search_label">Kataloog</string>
+    <string name="local_search_label">Kõik kontaktid</string>
+    <string name="user_profile_contacts_list_header">Mina</string>
+    <string name="search_results_searching">Otsimine \u2026</string>
+    <string name="foundTooManyContacts">Leitud rohkem kui <xliff:g id="COUNT">%d</xliff:g>.</string>
+    <string name="listFoundAllContactsZero">Kontakte pole</string>
+  <plurals name="searchFoundContacts">
+    <item quantity="one">leitud 1</item>
+    <item quantity="other">leitud <xliff:g id="COUNT">%d</xliff:g></item>
+  </plurals>
+    <string name="description_quick_contact_for">Kiirkontakt: <xliff:g id="NAME">%1$s</xliff:g></string>
+    <string name="missing_name">(Nimi puudub)</string>
+    <string name="favoritesFrequentCalled">Sageli valitud number</string>
+    <string name="favoritesFrequentContacted">Sageli kasutatud kontaktid</string>
+    <string name="description_view_contact_detail">Vaata kontakti</string>
+    <string name="list_filter_phones">Kõik telefoninumbritega kontaktid</string>
+    <string name="view_updates_from_group">Näita uuendusi</string>
+    <string name="account_phone" product="tablet">Ainult tahvelarvuti, sünkroonimata</string>
+    <string name="account_phone" product="default">Ainult telefon, sünkroonimata</string>
+    <string name="nameLabelsGroup">Nimi</string>
+    <string name="nicknameLabelsGroup">Hüüdnimi</string>
+    <string name="full_name">Nimi</string>
+    <string name="name_given">Eesnimi</string>
+    <string name="name_family">Perekonnanimi</string>
+    <string name="name_prefix">Nime eesliide</string>
+    <string name="name_middle">Teine nimi</string>
+    <string name="name_suffix">Nime järelliide</string>
+    <string name="name_phonetic">Foneetiline nimi</string>
+    <string name="name_phonetic_given">Foneetiline eesnimi</string>
+    <string name="name_phonetic_middle">Foneetiline keskmine nimi</string>
+    <string name="name_phonetic_family">Foneetiline perekonnanimi</string>
+    <string name="phoneLabelsGroup">Telefon</string>
+    <string name="emailLabelsGroup">E-post</string>
+    <string name="postalLabelsGroup">Aadress</string>
+    <string name="imLabelsGroup">IM</string>
+    <string name="organizationLabelsGroup">Organisatsioon</string>
+    <string name="relationLabelsGroup">Suhe</string>
+    <string name="eventLabelsGroup">Sündmused</string>
+    <string name="sms">Tekstisõnum</string>
+    <string name="postal_address">Aadress</string>
+    <string name="ghostData_company">Ettevõte</string>
+    <string name="ghostData_title">Nimetus</string>
+    <string name="label_notes">Märkmed</string>
+    <string name="label_sip_address">Interneti-kõne</string>
+    <string name="websiteLabelsGroup">Veebisait</string>
+    <string name="groupsLabel">Grupid</string>
+    <string name="email_home">Saada meil kodusele aadressile</string>
+    <string name="email_mobile">Saada meil mobiilile</string>
+    <string name="email_work">Saada meil tööaadressile</string>
+    <string name="email_other">Saada meil</string>
+    <string name="email_custom">Saada meil aadressile <xliff:g id="CUSTOM">%s</xliff:g></string>
+    <string name="email">Meilimine</string>
+    <string name="postal_street">Tänav</string>
+    <string name="postal_pobox">Postkast</string>
+    <string name="postal_neighborhood">Naabruskond</string>
+    <string name="postal_city">Linn</string>
+    <string name="postal_region">Osariik</string>
+    <string name="postal_postcode">Sihtnumber</string>
+    <string name="postal_country">Riik</string>
+    <string name="map_home">Näita kodust aadressi</string>
+    <string name="map_work">Näita tööaadressi</string>
+    <string name="map_other">Näita aadressi</string>
+    <string name="map_custom">Näita aadressi (<xliff:g id="CUSTOM">%s</xliff:g>)</string>
+    <string name="chat_aim">Vestle AIM-is</string>
+    <string name="chat_msn">Vestle Windows Live\'is</string>
+    <string name="chat_yahoo">Vestle Yahoos</string>
+    <string name="chat_skype">Vestle Skype\'is</string>
+    <string name="chat_qq">Vestle QQ-s</string>
+    <string name="chat_gtalk">Vestle Google Talkis</string>
+    <string name="chat_icq">Vestle ICQ-s</string>
+    <string name="chat_jabber">Vestle Jabberis</string>
+    <string name="chat">Vestle</string>
+    <string name="description_minus_button">kustutamine</string>
+    <string name="expand_collapse_name_fields_description">Nimeväljade laiendamine või ahendamine</string>
+    <string name="list_filter_all_accounts">Kõik kontaktid</string>
+    <string name="list_filter_all_starred">Tärniga märgitud</string>
+    <string name="list_filter_customize">Kohanda</string>
+    <string name="list_filter_single">Kontakt</string>
+    <string name="display_ungrouped">Kõik teised kontaktid</string>
+    <string name="display_all_contacts">Kõik kontaktid</string>
+    <string name="menu_sync_remove">Eemalda sünkroonimisgrupp</string>
+    <string name="dialog_sync_add">Lisa sünkroonimisgrupp</string>
+    <string name="display_more_groups">Veel gruppe \u2026</string>
+    <string name="display_warn_remove_ungrouped">Gruppi „<xliff:g id="GROUP">%s</xliff:g>” eemaldamisel sünkroonimisest eemaldatakse sünkroonimisest ka kõik gruppidesse mittekuuluvad kontaktid.</string>
+    <string name="savingDisplayGroups">Näitamisega seotud seadete salvestamine ...</string>
+    <string name="menu_done">Valmis</string>
+    <string name="menu_doNotSave">Tühista</string>
+    <string name="listAllContactsInAccount">Konto <xliff:g id="NAME">%s</xliff:g> kontaktid</string>
+    <string name="listCustomView">Kontaktid kohandatud vaates</string>
+    <string name="listSingleContact">Üks kontakt</string>
+    <string name="dialog_new_contact_account">Loo konto all kontakt</string>
+    <string name="import_from_sim">Impordi SIM-kaardilt</string>
+    <string name="import_from_sdcard" product="default">Impordi mäluseadmest</string>
+    <string name="cancel_import_confirmation_message">Kas katkestada faili <xliff:g id="FILENAME">%s</xliff:g> importimine?</string>
+    <string name="cancel_export_confirmation_message">Kas katkestada faili <xliff:g id="FILENAME">%s</xliff:g> eksportimine?</string>
+    <string name="cancel_vcard_import_or_export_failed">vCardi impordi/ekspordi tühistamine ebaõnnestus</string>
+    <string name="fail_reason_unknown">Tundmatu viga.</string>
+    <string name="fail_reason_could_not_open_file">Faili „<xliff:g id="FILE_NAME">%s</xliff:g>” ei saa avada: <xliff:g id="EXACT_REASON">%s</xliff:g>.</string>
+    <string name="fail_reason_could_not_initialize_exporter">Eksportijat ei saa käivitada: „<xliff:g id="EXACT_REASON">%s</xliff:g>”.</string>
+    <string name="fail_reason_no_exportable_contact">Kontakte, mida eksportida, pole.</string>
+    <string name="fail_reason_error_occurred_during_export">Viga eksportimisel: „<xliff:g id="EXACT_REASON">%s</xliff:g>”.</string>
+    <string name="fail_reason_too_long_filename">Failinimi (kohustuslik) on liiga pikk („<xliff:g id="FILENAME">%s</xliff:g>”).</string>
+    <string name="fail_reason_too_many_vcard" product="nosdcard">Mäluseadmel on liiga palju vCardi faile.</string>
+    <string name="fail_reason_too_many_vcard" product="default">SD kaardil on liiga palju vCardi faile.</string>
+    <string name="fail_reason_io_error">I/O viga</string>
+    <string name="fail_reason_low_memory_during_import">Pole piisavalt mälu. Võib olla on fail liiga suur.</string>
+    <string name="fail_reason_vcard_parse_error">Ootamatu viga vCardi lugemisel.</string>
+    <string name="fail_reason_not_supported">Vormingut ei toetata.</string>
+    <string name="fail_reason_failed_to_collect_vcard_meta_info">Metaandmete lugemine vCard faili(de)st ebaõnnestus.</string>
+    <string name="fail_reason_failed_to_read_files">Vähemalt ühe faili importimine ebaõnnestus (%s).</string>
+    <string name="exporting_vcard_finished_title">Faili <xliff:g id="FILENAME">%s</xliff:g> eksportimine on lõpetatud.</string>
+    <string name="exporting_vcard_canceled_title">Faili <xliff:g id="FILENAME">%s</xliff:g> eksportimine katkestati.</string>
+    <string name="exporting_contact_list_title">Kontaktandmete eksportimine</string>
+    <string name="exporting_contact_list_message">Su kontaktandmed eksporditakse faili: <xliff:g id="FILE_NAME">%s</xliff:g>.</string>
+    <string name="composer_failed_to_get_database_infomation">Info hankimine andmebaasist ebaõnnestus.</string>
+    <string name="composer_has_no_exportable_contact" product="tablet">Pole kontakte, mida eksportida. Kui sul on tahvelarvutis siiski kontakte, ei pruugi mõned teenused kontaktide eksportimist tahvelarvutist lubada.</string>
+    <string name="composer_has_no_exportable_contact" product="default">Pole kontakte, mida eksportida. Kui sul on telefonis siiski kontakte, ei pruugi mõned teenused kontaktide eksportimist telefonist lubada.</string>
+    <string name="composer_not_initialized">vCardi koostaja ei käivitunud korralikult.</string>
+    <string name="exporting_contact_failed_title">Eksport ebaõnnestus</string>
+    <string name="exporting_contact_failed_message">Kontaktandmeid ei eksporditud.\nPõhjus: „<xliff:g id="FAIL_REASON">%s</xliff:g>”</string>
+    <string name="no_sdcard_message" product="nosdcard">Mäluseadet ei leitud.</string>
+    <string name="no_sdcard_message" product="default">SD kaarti ei leitud.</string>
+    <string name="confirm_export_message">Su kontaktide nimekiri eksporditakse faili: <xliff:g id="VCARD_FILENAME">%s</xliff:g>.</string>
+    <string name="importing_vcard_description">Importimine: <xliff:g id="NAME">%s</xliff:g></string>
+    <string name="reading_vcard_failed_title">vCardi andmete lugemine ebaõnnestus</string>
+    <string name="reading_vcard_canceled_title">vCardi andmete lugemine katkestati</string>
+    <string name="importing_vcard_finished_title">vCardi faili <xliff:g id="FILENAME">%s</xliff:g> importimine lõpetatud</string>
+    <string name="importing_vcard_canceled_title">Faili <xliff:g id="FILENAME">%s</xliff:g> importimine katkestati</string>
+    <string name="vcard_import_will_start_message">Fail <xliff:g id="FILENAME">%s</xliff:g> imporditakse peagi.</string>
+    <string name="vcard_import_will_start_message_with_default_name">Fail imporditakse peagi.</string>
+    <string name="vcard_import_request_rejected_message">vCardi importimise taotlus lükati tagasi. Proovi hiljem uuesti.</string>
+    <string name="vcard_export_will_start_message">Fail <xliff:g id="FILENAME">%s</xliff:g> eksporditakse peagi.</string>
+    <string name="vcard_export_request_rejected_message">vCardi eksportimise taotlus lükati tagasi. Proovi hiljem uuesti.</string>
+    <string name="vcard_unknown_filename">kontakt</string>
+    <string name="caching_vcard_message">vCard info puhverdamine ajutiselt kohalikule mäluseadmele. Tegelik importimine algab peagi.</string>
+    <string name="percentage"><xliff:g id="PERCENTAGE">%s</xliff:g><xliff:g id="PERCENTSIGN">%%</xliff:g></string>
+    <string name="vcard_import_failed">vCardi importimine ebaõnnestus.</string>
+    <string name="import_failure_no_vcard_file" product="nosdcard">Mäluseadmelt ei leitud ühtegi vCardi faili.</string>
+    <string name="import_failure_no_vcard_file" product="default">SD-kaardilt ei leitud ühtegi vCardi faili.</string>
+    <string name="nfc_vcard_file_name">Kontakt on saadud NFC kaudu</string>
+    <string name="confirm_export_title">Eksportida kontaktid?</string>
+    <string name="select_vcard_title">Vali vCard fail</string>
+    <string name="import_one_vcard_string">Impordi üks vCardi fail</string>
+    <string name="import_multiple_vcard_string">Impordi mitu vCardi faili</string>
+    <string name="import_all_vcard_string">Impordi kõik vCardi failid</string>
+    <string name="searching_vcard_message" product="nosdcard">Mäluseadmelt vCard andmete otsimine \u2026</string>
+    <string name="searching_vcard_message" product="default">SD kaardilt vCard andmete otsimine \u2026</string>
+    <string name="caching_vcard_title">Puhverdamine</string>
+    <string name="scanning_sdcard_failed_message" product="nosdcard">Mäluseadet ei saa skaneerida. (Põhjus: „<xliff:g id="FAIL_REASON">%s</xliff:g>”)</string>
+    <string name="scanning_sdcard_failed_message" product="default">SD kaarti ei saa skaneerida. (Põhjus: „<xliff:g id="FAIL_REASON">%s</xliff:g>”)</string>
+    <string name="progress_notifier_message">Importimine: <xliff:g id="CURRENT_NUMBER">%s</xliff:g>/<xliff:g id="TOTAL_NUMBER">%s</xliff:g> – <xliff:g id="NAME">%s</xliff:g></string>
+    <string name="export_to_sdcard" product="default">Ekspordi mäluseadmele</string>
+    <string name="share_visible_contacts">Jaga nähtavaid kontakte</string>
+    <string name="dialog_import_export">Kontaktide import/eksport</string>
+    <string name="dialog_import">Impordi kontaktid</string>
+    <string name="share_error">Seda kontakti ei saa jagada.</string>
+    <string name="menu_search">Otsing</string>
+    <string name="menu_contacts_filter">Näidatavad kontaktid</string>
+    <string name="activity_title_contacts_filter">Näidatavad kontaktid</string>
+    <string name="custom_list_filter">Kohandatud vaate määramine</string>
+    <string name="hint_findContacts">Otsi kontaktidest</string>
+    <string name="contactsFavoritesLabel">Lemmikud</string>
+    <string name="listTotalAllContactsZero">Kontaktid puuduvad.</string>
+    <string name="listTotalAllContactsZeroCustom">Nähtavaid kontakte pole.</string>
+    <string name="listTotalAllContactsZeroStarred">Lemmikuid pole.</string>
+    <string name="listTotalAllContactsZeroGroup">Grupis <xliff:g id="NAME">%s</xliff:g> pole kontakte</string>
+    <string name="menu_clear_frequents">Tühjenda sagedamini kasutatud</string>
+    <string name="menu_accounts">Kontod</string>
+    <string name="menu_import_export">Impord/eksport</string>
+    <string name="description_send_message">Sõnumi saatmine kontaktile <xliff:g id="NAME">%1$s</xliff:g></string>
+    <string name="description_dial_phone_number">Helistamine kontaktile <xliff:g id="NAME">%1$s</xliff:g></string>
+</resources>

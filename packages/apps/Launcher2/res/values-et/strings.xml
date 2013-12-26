@@ -17,13 +17,12 @@
 * limitations under the License.
 */
  -->
-
-<resources xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources 
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="application_name">Launcher</string>
     <string name="home">Kodu</string>
     <string name="uid_name">Androidi tuumikrakendused</string>
-    <string name="folder_name"></string>
+    <string name="folder_name"/>
     <string name="chooser_wallpaper">Taustapildi valimine</string>
     <string name="wallpaper_instructions">Määra taustapildiks</string>
     <string name="pick_wallpaper">Taustapildid</string>
@@ -31,6 +30,7 @@
     <string name="widgets_tab_label">Vidinad</string>
     <string name="long_press_widget_to_add">Vidina valimiseks puuduta seda pikemalt.</string>
     <string name="market">Pood</string>
+    <string name="widget_dims_format">%1$d \u00d7 %2$d</string>
     <string name="external_drop_widget_error">Sellele avaekraanile ei saa vidinat lisada.</string>
     <string name="external_drop_widget_pick_title">Loodava vidina valimine</string>
     <string name="rename_folder_label">Kausta nimi</string>
@@ -53,10 +53,10 @@
     <string name="title_select_application">Rakenduse valimine</string>
     <string name="all_apps_button_label">Rakendused</string>
     <string name="all_apps_home_button_label">Kodu</string>
-    <string name="delete_zone_label_workspace">Eemalda</string>
-    <string name="delete_zone_label_all_apps">Eemalda seadmest</string>
-    <string name="delete_target_label">Eemalda</string>
-    <string name="delete_target_uninstall_label">Eemalda seadmest</string>
+    <string name="delete_zone_label_workspace">Eemalda ekraanilt</string>
+    <string name="delete_zone_label_all_apps">Eemalda</string>
+    <string name="delete_target_label">Eemalda ekraanilt</string>
+    <string name="delete_target_uninstall_label">Eemalda</string>
     <string name="info_target_label">Info</string>
     <string name="accessibility_search_button">Otsing</string>
     <string name="accessibility_voice_search_button">Häälotsing</string>
@@ -108,8 +108,8 @@
     <string name="folder_closed">Kaust suletud</string>
     <string name="folder_renamed">Kausta uus nimi: <xliff:g id="name" example="Games">%1$s</xliff:g></string>
     <string name="folder_name_format">Kaust: <xliff:g id="name" example="Games">%1$s</xliff:g></string>
-    <string name="custom_workspace_cling_title_1"></string>
-    <string name="custom_workspace_cling_description_1"></string>
-    <string name="custom_workspace_cling_title_2"></string>
-    <string name="custom_workspace_cling_description_2"></string>
+    <string name="custom_workspace_cling_title_1"/>
+    <string name="custom_workspace_cling_description_1"/>
+    <string name="custom_workspace_cling_title_2"/>
+    <string name="custom_workspace_cling_description_2"/>
 </resources>

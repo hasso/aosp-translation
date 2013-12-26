@@ -17,16 +17,15 @@
 ** limitations under the License.
 */
  -->
-
-<resources xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources 
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="onesong">1 pala</string>
   <plurals name="Nsongs">
     <item quantity="one">1 pala</item>
     <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> pala</item>
   </plurals>
   <plurals name="Nsongscomp">
-    <item quantity="other">Laule: <xliff:g id="COUNT_FOR_ARTIST">%2$d</xliff:g>/<xliff:g id="TOTAL_COUNT">%1$d</xliff:g></item>
+    <item quantity="other">Palad: <xliff:g id="COUNT_FOR_ARTIST">%2$d</xliff:g>/<xliff:g id="TOTAL_COUNT">%1$d</xliff:g></item>
   </plurals>
   <plurals name="Nalbums">
     <item quantity="one">1 album</item>

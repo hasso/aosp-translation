@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+      Copyright (C) 2013 Hasso Tepper
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+<resources 
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label">Allalaadimiste haldur</string>
+    <string name="permlab_downloadManager">ligipääs allalaadimiste haldurile</string>
+    <string name="permdesc_downloadManager">Võimaldab rakendusel pääseda ligi allalaadimiste haldurile ja selle abil faile alla laadida. Pahatahtlikud rakendused võivad selle abil allalaadimisi takistada või privaatsete andmetele ligi pääseda.</string>
+    <string name="permlab_downloadManagerAdvanced">allalaadimiste halduri täpsemad funktsioonid</string>
+    <string name="permdesc_downloadManagerAdvanced">Võimaldab rakendusel pääseda ligi allalaadimiste halduri funktsioonidele, mis võimaldavad täpsemat kontrolli allalaadimiste üle, kuid mille kasutamine võib olla ohtlik. Pahatahtlikud rakendused võivad selle abil allalaadimisi takistada või privaatsete andmetele ligi pääseda.</string>
+    <string name="permlab_downloadCompletedIntent">allalaadimiste märguannete saatmine</string>
+    <string name="permdesc_downloadCompletedIntent">Võimaldab rakendusel saata märguandeid lõpetatud allalaadimiste kohta. Pahatahtlikud rakendused võivad selle abil häirida teisi allalaadimist kasutavaid rakendusi.</string>
+    <string name="permlab_seeAllExternal" product="nosdcard">USB mäluseadmele salvestatavate allalaadimiste vaatamine</string>
+    <string name="permlab_seeAllExternal" product="default">SD kaardile salvestatavate allalaadimiste vaatamine</string>
+    <string name="permdesc_seeAllExternal">Võimaldab rakendusel näha kõiki mäluseadmele salvestatud allalaadimisi sõltumata rakendusest, mis need alla laadis.</string>
+    <string name="permlab_downloadCacheNonPurgeable">allalaadimiste puhvris ruumi reserveerimine</string>
+    <string name="permdesc_downloadCacheNonPurgeable">Võimaldab rakendusel laadida faile allalaadimiste puhvrisse, mida allalaadimiste haldur ruumi vabastamiseks automaatselt kustutada ei saa.</string>
+    <string name="permlab_downloadWithoutNotification">failide allalaadimine märguanneteta</string>
+    <string name="permdesc_downloadWithoutNotification">Võimaldab rakendusel allalaadimiste halduri kaudu faile alla laadida märguandeid kuvamata.</string>
+    <string name="permlab_accessAllDownloads">ligipääs kõigile allalaadimistele süsteemis</string>
+    <string name="permdesc_accessAllDownloads">Võimaldab rakendusel vaadata ja muuta kõiki allalaadimisi, sõltumata sellest, milline rakendus süsteemis selle algatas.</string>
+    <string name="download_unknown_title">&lt;Nimetu&gt;</string>
+    <string name="notification_download_complete">Allalaadimine on lõpetatud.</string>
+    <string name="notification_download_failed">Allalaadimine ebaõnnestus.</string>
+    <string name="notification_need_wifi_for_size">Allalaadimine vajab WiFi-t.</string>
+    <string name="notification_paused_in_background">Peatatud taustal.</string>
+    <string name="wifi_required_title">Allalaadimine on selle operaatori võrgu jaoks liiga suur</string>
+    <string name="wifi_required_body"><xliff:g id="SIZE">%s </xliff:g> allalaadimiseks tuleb kasutada WiFi võrku.\n\nAllalaadimise alustamiseks järgmisel korral, kui WiFi ühendus olemas on, vali <xliff:g id="QUEUE_TEXT">%s</xliff:g>.</string>
+    <string name="wifi_recommended_title">Kas lisada järjekorda hilisemaks allalaadimiseks?</string>
+    <string name="wifi_recommended_body"><xliff:g id="SIZE">%s </xliff:g> allalaadimine võib aku tööiga lühendada ja/või sõltuvalt su lepingust tekitada olulisi väljaminekuid andmeside mahult.\n\nAllalaadimise automaatseks jätkamiseks siis, kui WiFi ühendus on olemas, vali <xliff:g id="QUEUE_TEXT">%s</xliff:g>.</string>
+    <string name="button_queue_for_wifi">Järjekord</string>
+    <string name="button_cancel_download">Tühista</string>
+    <string name="button_start_now">Alusta kohe</string>
+    <string name="download_percent"><xliff:g id="NUMBER">%d</xliff:g> <xliff:g id="PERCENT">%%</xliff:g></string>
+  <plurals name="notif_summary_active">
+    <item quantity="one">1 faili allalaadimine</item>
+    <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> faili allalaadimine</item>
+  </plurals>
+  <plurals name="notif_summary_waiting">
+    <item quantity="one">1 fail on ootel</item>
+    <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> faili on ootel</item>
+  </plurals>
+    <string name="download_remaining">Veel <xliff:g id="DURATION">%s</xliff:g></string>
+    <string name="download_no_application_title">Faili ei saa avada</string>
+    <string name="root_downloads">Allalaadimised</string>
+    <string name="download_queued">Järjekorras</string>
+    <string name="download_running">Töös</string>
+    <string name="download_error">Nurjunud</string>
+    <string name="download_running_percent">Töös, <xliff:g id="number">%d</xliff:g><xliff:g id="percent">%%</xliff:g></string>
+</resources>

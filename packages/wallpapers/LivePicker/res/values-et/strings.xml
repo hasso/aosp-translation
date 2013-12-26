@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/*
+* Copyright (C) 2008 The Android Open Source Project
+* Copyright (C) 2013 Hasso Tepper
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+ -->
+<resources 
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="application_name">Liikuva taustapildi valija</string>
+    <string name="live_wallpaper_picker_title">Liikuva taustapildi valimine</string>
+    <string name="live_wallpaper_picker_label">Liikuvad taustapildid</string>
+    <string name="live_wallpaper_preview_title">Liikuva taustapildi eelvaade</string>
+    <string name="configure_wallpaper">Seaded \u2026</string>
+    <string name="wallpaper_instructions">Määra taustapildiks</string>
+    <string name="live_wallpaper_empty">Liikuvaid taustapilte pole.</string>
+    <string name="set_live_wallpaper">Määra taustapildiks</string>
+    <string name="wallpaper_title_and_author"><xliff:g id="TITLE">%1$s</xliff:g>, autor <xliff:g id="AUTHOR">%2$s</xliff:g></string>
+    <string name="live_wallpaper_loading">Liikuva taustapildi laadimine \u2026</string>
+    <string name="wallpaper_cancel">Tühista</string>
+</resources>

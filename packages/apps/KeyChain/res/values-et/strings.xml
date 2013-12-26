@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- Copyright (C) 2011 The Android Open Source Project
      Copyright (C) 2013 Hasso Tepper
 
@@ -14,7 +14,8 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources 
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Võtmehoidja</string>
     <string name="title_no_certs">Sertifikaate ei leitud</string>
     <string name="title_select_cert">Sertifikaadi valimine</string>

@@ -14,9 +14,8 @@
      See the License for the specific language governing permissions and
      limitations under the License.
  -->
-
-<resources xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources 
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="application_name">Brauser</string>
     <string name="choose_upload">Üleslaaditava faili valimine</string>
     <string name="uploads_disabled">Failide üleslaadimised on keelatud.</string>
@@ -32,6 +31,7 @@
     <string name="username">Nimi</string>
     <string name="password">Parool</string>
     <string name="action">Logi sisse</string>
+    <string name="bookmarks_add_page">Järjehoidja salvestamine</string>
     <string name="bookmarks_search">Brauser</string>
     <string name="cancel">Tühista</string>
     <string name="ok">OK</string>
@@ -295,7 +295,7 @@
     <string name="pref_link_prefetch_dialogtitle">Veebilehe eellaadimine</string>
     <string name="browserFrameNetworkErrorLabel">Ühenduse probleem</string>
     <string name="browserFrameFileErrorLabel">Faili probleem</string>
-    <string name="browserFrameFormResubmitLabel"></string>
+    <string name="browserFrameFormResubmitLabel"/>
     <string name="browserFrameFormResubmitMessage">Leht, mida soovid vaadata, sisaldab lehele juba saadetud andmeid („POSTDATA”). Kui saadad need andmed uuesti, korratakse kõiki lehe vormide tehtud toiminguid (nt otsing või võrguost).</string>
     <string name="loadSuspendedTitle">Ühendus puudub</string>
     <string name="loadSuspended">Brauser ei saa seda lehte laadida, kuna Interneti ühendus puudub.</string>

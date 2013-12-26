@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2012 The Android Open Source Project
+      Copyright (C) 2013 Hasso Tepper
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+<resources >
+    <string name="app_name">Fotodega ekraanisäästjad</string>
+    <string name="table_screensaver_name">Fototabel</string>
+    <string name="flipper_screensaver_name">Fotoraam</string>
+    <string name="posts_album_name">Postituste fotod</string>
+    <string name="unknown_album_name">Nimetu album</string>
+    <string name="stock_photo_album_name">Rakenduse fotod</string>
+    <string name="local_source_name">Fotod seadmes</string>
+    <string name="need_to_configure">Ühtegi fotot pole valitud.</string>
+    <string name="photodream_select_all">Vali kõik</string>
+    <string name="photodream_select_none">Tühista kõik valikud</string>
+    <string name="no_photos">Seadmes pole fotosid.</string>
+</resources>

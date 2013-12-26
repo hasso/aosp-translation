@@ -14,38 +14,17 @@
      See the License for the specific language governing permissions and
      limitations under the License.
  -->
-
-<resources xmlns:android="http://schemas.android.com/apk/res/android"
-	xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources 
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Otsing</string>
-    <string name="search_widget">Otsing</string>
-    <string name="remove_from_history">Kas soovid selle rea otsinguajaloost eemaldada?</string>
     <string name="remove_from_history_failed">Rea eemaldamine ajaloost ebaõnnestus.</string>
     <string name="corpus_selection_heading">Otsing</string>
-    <string name="corpus_label_global">Kõik</string>
-    <string name="corpus_label_web">Veeb</string>
-    <string name="corpus_description_web">Veebiotsing, järjehoidjad ja brauseri ajalugu</string>
-    <string name="corpus_label_apps">Rakendused</string>
-    <string name="corpus_description_apps">Paigaldatud rakenduste nimed</string>
-    <string name="corpus_hint_apps">Rakenduste otsimine</string>
     <string name="menu_settings">Otsingu seaded</string>
-    <string name="search_settings">Otsingu seaded</string>
-    <string name="google_settings_category_title">Google\'i otsing</string>
-    <string name="device_settings_category_title">Otseteede kustutamine</string>
     <string name="system_search_category_title">Telefon</string>
-    <string name="search_sources">Otsitavad üksused</string>
-    <string name="search_sources_summary">Valige, mida telefonist otsida</string>
-    <string name="clear_shortcuts">Viidete kustutamine</string>
     <string name="clear_shortcuts_summary">Viimati kasutatud otsingute viidete kustutamine</string>
-    <string name="clear_shortcuts_prompt">Kas soovid kustutada kõik otseteed viimati kasutatud otsingutele?\n\nBrauseri lehitsemisajaloo kustutamiseks kasuta brauseri seadeid.</string>
-    <string name="clear_shortcuts_agree">Kustuta viited</string>
-    <string name="clear_shortcuts_disagree">Ära kustuta viiteid</string>
     <string name="menu_help">Abi</string>
     <string name="google_search_label">Google</string>
-    <string name="google_app_label">Google\'i otsing</string>
     <string name="google_search_hint">Google\'i otsing</string>
     <string name="google_search_description">Google\'i otsingu soovitused</string>
     <string name="voice_search_hint_title">Püüa öelda:</string>
-    <string name="voice_search_hint_quotation_start">„</string>
-    <string name="voice_search_hint_quotation_end">”</string>
 </resources>

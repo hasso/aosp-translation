@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources 
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="pbap_session_key_dialog_title">Sisesta seadme %1$s seansivõti</string>
+    <string name="pbap_session_key_dialog_header">Ühendamiseks on vajalik Bluetooth seansivõti</string>
+    <string name="pbap_acceptance_timeout_message">Seadme %1$s ühendusega nõustumiseks mõeldud aeg sai läbi</string>
+    <string name="pbap_authentication_timeout_message">Seadme %1$s seansivõtme sisestamiseks mõeldud aeg sai läbi</string>
+    <string name="auth_notif_ticker">Obexi autentimispäring</string>
+    <string name="auth_notif_title">Seansivõti</string>
+    <string name="auth_notif_message">Sisesta seadme %1$s seansivõti</string>
+    <string name="defaultname">Autokomplekt</string>
+    <string name="unknownName">Nimetu</string>
+    <string name="localPhoneName">Minu nimi</string>
+    <string name="defaultnumber">000000</string>
+</resources>

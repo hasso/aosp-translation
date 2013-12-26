@@ -14,9 +14,8 @@
      See the License for the specific language governing permissions and
      limitations under the License.
  -->
-
-<resources xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources 
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Paketi paigaldaja</string>
     <string name="next">Järgmine</string>
     <string name="install">Paigalda</string>
@@ -79,4 +78,5 @@
     <string name="privacyPerms">Privaatsus</string>
     <string name="devicePerms">Seadme juurdepääs</string>
     <string name="no_new_perms">See värskendus ei nõua uusi õigusi.</string>
+    <string name="grant_confirm_question">Soovid sa anda rakendusle järgnevad õigused? Need oleksid:</string>
 </resources>

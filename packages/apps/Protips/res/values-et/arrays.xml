@@ -14,9 +14,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
  -->
-
-<resources xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources >
   <string-array name="tips">
     <item>Vaata kõiki oma rakendusi.\nPuuduta <i>Launcheri</i> ikooni. @drawable/all_apps</item>
     <item>Rakenduste lohistamine avaekraanile.\nPuuduta rakendust ja hoia sõrme sellel, kuni tunned vibreerimist.</item>

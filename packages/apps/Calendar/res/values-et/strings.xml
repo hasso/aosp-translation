@@ -14,9 +14,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
  -->
-
-<resources xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_label">Kalender</string>
     <string name="what_label">Mis?</string>
     <string name="where_label">Kus?</string>
@@ -81,6 +79,7 @@
     <string name="empty_event">Tühja sündmust ei loodud.</string>
     <string name="creating_event_with_guest">Osavõtjatele saadetakse kutsed.</string>
     <string name="saving_event_with_guest">Osavõtjatele saadetakse uuem info.</string>
+    <string name="create_event_dialog_save">Salvesta</string>
     <string name="alert_title">Kalendri märguanded</string>
     <string name="event_info_title">Sündmuse vaatamine</string>
     <string name="event_info_title_invite">Kutse</string>
@@ -99,6 +98,11 @@
     <string name="add_account">Lisa konto</string>
     <string name="view_event_calendar_label">Kalender:</string>
     <string name="view_event_organizer_label">Korraldaja:</string>
+    <string name="choose_event_color_label">Sündmuse värvi valimine</string>
+    <string name="event_color_picker_dialog_title">Sündmuse värv</string>
+    <string name="event_color_set_to_default">Määra kalendri vaikevärviks</string>
+    <string name="calendar_color_picker_dialog_title">Kalendri värv</string>
+    <string name="calendar_square_color_picker_description">Värvi valija</string>
     <string name="view_event_response_label">Kas osaled?</string>
     <string name="response_yes">Jah</string>
     <string name="response_maybe">Võib-olla</string>
@@ -107,6 +111,8 @@
     <string name="email_organizer_label">Saada korraldajale meil</string>
     <string name="email_picker_label">Meili saatmine:</string>
     <string name="event_not_found">Sündmust ei leitud.</string>
+    <string name="map_label">Kaart</string>
+    <string name="call_label">Kõne</string>
     <string name="quick_response_settings">Kiirvastused</string>
     <string name="quick_response_settings_summary">Vastuste muutmine</string>
     <string name="quick_response_settings_title">Kiirvastuste muutmine</string>
@@ -138,10 +144,20 @@
     <string name="dismiss_all_label">Loobu kõigist</string>
     <string name="snooze_label">Lükka edasi</string>
     <string name="does_not_repeat">Ühekordne sündmus</string>
-    <string name="daily">Iga päev</string>
+    <string name="endByDate">, kuni <xliff:g id="date">%s</xliff:g></string>
+  <plurals name="endByCount">
+    <item quantity="one">, ühe korra</item>
+    <item quantity="other">; <xliff:g id="number">%d</xliff:g> korda</item>
+  </plurals>
+  <plurals name="daily">
+    <item quantity="one">Iga päev</item>
+    <item quantity="other">Iga <xliff:g id="number">%d</xliff:g> päeva tagant</item>
+  </plurals>
     <string name="every_weekday">Igal tööpäeval (E-R)</string>
-    <string name="weekly">Iganädalane (iga <xliff:g id="DAYS_OF_WEEK">%s</xliff:g>)</string>
-    <string name="monthly_on_day_count">Igakuine (iga <xliff:g id="ORDINAL_NUMBER">%1$s</xliff:g> <xliff:g id="DAY_OF_WEEK">%2$s</xliff:g>)</string>
+  <plurals name="weekly">
+    <item quantity="one"><xliff:g id="days_of_week">%2$s</xliff:g>, iga nädal</item>
+    <item quantity="other"><xliff:g id="days_of_week">%2$s</xliff:g>, iga <xliff:g id="number">%1$d</xliff:g> nädala tagant</item>
+  </plurals>
     <string name="monthly">Iga kuu</string>
     <string name="yearly_plain">Iga aasta</string>
     <string name="monthly_on_day">Igakuine (<xliff:g id="DAY_OF_MONTH">%s</xliff:g>. kuupäeval)</string>
@@ -164,6 +180,7 @@
     <string name="preferences_hide_declined_title">Peidetud tagasilükatud sündmused</string>
     <string name="preferences_week_start_day_title">Nädala algus:</string>
     <string name="preferences_week_start_day_dialog">Nädala algus:</string>
+    <string name="preferences_week_start_day_default">-1</string>
     <string name="preferences_clear_search_history_title">Kustuta otsinguajalugu</string>
     <string name="preferences_clear_search_history_summary">Kõigi tehtud otsingute eemaldamine</string>
     <string name="search_history_cleared">Otsinguajalugu on kustutatud.</string>
@@ -186,6 +203,16 @@
     <item quantity="other">+<xliff:g id="NUMBER">%d</xliff:g></item>
   </plurals>
     <string name="gadget_no_events">Tulevasi kalendrisündmusi pole</string>
+    <string name="tardis">TARDIS</string>
+    <string name="preferences_experimental_category">Eksperimentaalseaded</string>
+    <string name="preferences_reminders_category">Meeldetuletused</string>
+    <string name="preferences_reminders_responded_label">Meeldetuletuste eiramine</string>
+    <string name="preferences_reminders_responded_dialog">Meeldetuletuste eiramine</string>
+    <string name="preferences_reminders_quiet_hours_label">Vaiksed tunnid</string>
+    <string name="preferences_reminders_quiet_hours_description">Määratud ajal vaigistatakse sündmuste märguanded.</string>
+    <string name="preferences_reminders_quiet_hours_start">Vaiksete tundide algus</string>
+    <string name="preferences_reminders_quiet_hours_end">Vaiksete tundide lõpp</string>
+    <string name="preferences_debug_category">Silumine</string>
     <string name="copy_db">Andmebaasi saatmine</string>
     <string name="directory_searching_fmt">Domeeni <xliff:g id="DOMAIN">%s</xliff:g> otsimine \u2026</string>
     <string name="accessibility_remove_attendee">Osaleja eemaldamine</string>
@@ -194,6 +221,7 @@
     <string name="accessibility_pick_end_date">Lõpu kuupäev</string>
     <string name="accessibility_pick_end_time">Lõpu kellaaeg</string>
     <string name="accessibility_pick_time_zone">Ajavöönd</string>
+    <string name="accessibility_pick_recurrence">Sündmuse kordamine</string>
     <string name="accessibility_add_reminder">Meeldetuletuse lisamine</string>
     <string name="accessibility_remove_reminder">Meeldetuletuse eemaldamine</string>
     <string name="accessibility_add_attendee">Osaleja lisamine</string>
@@ -219,4 +247,33 @@
   </plurals>
     <string name="acessibility_selected_marker_description">Valitud sündmus</string>
     <string name="do_not_check">ÄRA märgi -&gt;</string>
+    <string name="recurrence_dialog_title">Kordamine</string>
+    <string name="recurrence_dialog_title_never">Ei kordu</string>
+  <plurals name="recurrence_interval_daily">
+    <item quantity="one">Iga päev</item>
+    <item quantity="other">Iga <xliff:g id="count">%d</xliff:g> päeva tagant</item>
+  </plurals>
+  <plurals name="recurrence_interval_weekly">
+    <item quantity="one">Iga nädal</item>
+    <item quantity="other">Iga <xliff:g id="count">%d</xliff:g> nädala tagant</item>
+  </plurals>
+  <plurals name="recurrence_interval_monthly">
+    <item quantity="one">Iga kuu</item>
+    <item quantity="other">Iga <xliff:g id="count">%d</xliff:g> kuu tagant</item>	
+  </plurals>
+  <plurals name="recurrence_interval_yearly">
+    <item quantity="one">Iga aasta</item>
+    <item quantity="other">Iga <xliff:g id="count">%d</xliff:g> aasta tagant</item>
+  </plurals>
+    <string name="recurrence_month_pattern_by_day">iga kuu samal päeval</string>
+    <string name="recurrence_end_continously">Igavesti</string>
+    <string name="recurrence_end_date_label">Kuni kuupäevani</string>
+    <string name="recurrence_end_date">Kuni <xliff:g id="date">%s</xliff:g></string>
+    <string name="recurrence_end_count_label">Kindel arv kordi</string>
+  <plurals name="recurrence_end_count">
+    <item quantity="one">Üks kord</item>
+    <item quantity="other"><xliff:g id="event_count">%d</xliff:g> korda</item>
+  </plurals>
+    <string name="acessibility_recurrence_choose_end_date_description">lõpu kuupäeva muutmine</string>
+    <string name="notification_sender_id"/>
 </resources>

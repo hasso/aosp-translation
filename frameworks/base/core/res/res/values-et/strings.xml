@@ -18,9 +18,7 @@
 ** limitations under the License.
 */
  -->
-
-<resources xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="byteShort">B</string>
     <string name="kilobyteShort">kB</string>
     <string name="megabyteShort">MB</string>
@@ -132,6 +130,9 @@
     <string name="contentServiceTooManyDeletesNotificationDesc">Liiga palju kustutamisi rakenduses <xliff:g id="CONTENT_TYPE">%s</xliff:g>.</string>
     <string name="low_memory" product="tablet">Tahvelarvuti salvestusruum on täis. Ruumi vabastamiseks kustuta mõned failid.</string>
     <string name="low_memory" product="default">Telefoni salvestusruum on täis. Ruumi vabastamiseks kustuta mõned failid.</string>
+    <string name="ssl_ca_cert_warning">Võrguliiklust võidakse jälgida</string>
+    <string name="ssl_ca_cert_noti_by_unknown">\u2026 tundmatu osapoole poolt</string>
+    <string name="ssl_ca_cert_noti_managed">\u2026 „<xliff:g id="managing_domain">%s</xliff:g>“ poolt</string>
     <string name="me">Mina</string>
     <string name="power_dialog" product="tablet">Tahvelarvuti valikud</string>
     <string name="power_dialog" product="default">Telefoni valikud</string>
@@ -201,6 +202,8 @@
     <string name="permgroupdesc_microphone">Otseligipääs mikrofonile heli salvestamiseks.</string>
     <string name="permgrouplab_camera">Kaamera</string>
     <string name="permgroupdesc_camera">Otseligipääs kaamerale fotode ja videote jäädvustamiseks.</string>
+    <string name="permgrouplab_screenlock">Ekraanilukk</string>
+    <string name="permgroupdesc_screenlock">Võimed mõjutada seadme ekraaniluku käitumist.</string>
     <string name="permgrouplab_appInfo">Rakenduste info</string>
     <string name="permgroupdesc_appInfo">Võime mõjutada teiste seadmes olevate rakenduste käitumist.</string>
     <string name="permgrouplab_wallpaper">Taustapilt</string>
@@ -226,13 +229,26 @@
     <string name="permgrouplab_storage">Salvestusruum</string>
     <string name="permgroupdesc_storage" product="nosdcard">Ligipääs USB salvestusseadmetele.</string>
     <string name="permgroupdesc_storage" product="default">Ligipääs SD-kaardile.</string>
-
+    <string name="permgrouplab_accessibilityFeatures">Hõlbustusfunktsioonid</string>
+    <string name="permgroupdesc_accessibilityFeatures">Funktsioonid, mida hõlbustustehnikad võivad kasutada.</string>
+    <string name="capability_title_canRetrieveWindowContent">Akna sisu hankimine</string>
+    <string name="capability_desc_canRetrieveWindowContent">Võimaldab puutežestidega ekraani sisu uurida ning puudutatud asjade kohta kõnesünteesi abil infot saada.</string>
+    <string name="capability_title_canRequestTouchExploration">Puudutusega uurimise sisselülitamine</string>
+    <string name="capability_desc_canRequestTouchExploration"/>
+    <string name="capability_title_canRequestEnhancedWebAccessibility">Veebisisu hõlbustuse parandamine</string>
+    <string name="capability_desc_canRequestEnhancedWebAccessibility">Lubab rakenduse sisu kasutamise hõlbustamiseks skripte paigaldada.</string>
+    <string name="capability_title_canRequestFilterKeyEvents">Sisestatava teksti jälgimine</string>
+    <string name="capability_desc_canRequestFilterKeyEvents">Võimaldab rakendusel muuhulgas jälgida ka isikliku info, nagu nt krediitkaardi numbrite ja paroolide, sisestamist.</string>
     <string name="permlab_statusBar">olekuriba keelamine ja muutmine</string>
     <string name="permdesc_statusBar">Võimaldab rakendusel keelata olekuriba ning lisada ja eemaldada süsteemiikoone.</string>
     <string name="permlab_statusBarService">olekuriba</string>
     <string name="permdesc_statusBarService">Võimaldab rakendusel olla olekuriba.</string>
     <string name="permlab_expandStatusBar">olekuriba laiendamine/ahendamine</string>
     <string name="permdesc_expandStatusBar">Võimaldab rakendusel laiendada ja ahendada olekuriba.</string>
+    <string name="permlab_install_shortcut">viidete paigaldamine</string>
+    <string name="permdesc_install_shortcut">Võimaldab rakendusel kasutaja sekkumiseta koduekraanile viiteid paigaldada.</string>
+    <string name="permlab_uninstall_shortcut">viidete eemaldamine</string>
+    <string name="permdesc_uninstall_shortcut">Võimalda rakendusel kasutaja sekkumiseta koduekraanilt viiteid eemaldada.</string>
     <string name="permlab_processOutgoingCalls">väljuvate kõnede ümbersuunamine</string>
     <string name="permdesc_processOutgoingCalls">Võimaldab rakendusel töödelda väljuvaid kõnesid ja muuta valitavat numbrit. Õigused lubavad rakendusel väljuvaid kõnesid jälgida, ümber suunata ja blokeerida.</string>
     <string name="permlab_receiveSms">tekstisõnumite (SMS) vastuvõtmine</string>
@@ -245,8 +261,8 @@
     <string name="permdesc_readCellBroadcasts">Võimaldab rakendusel lugeda seadme poolt vastu võetud mobiilvõrgu leviteateid. Leviteateid kasutatakse mõnel pool eriolukordadest teavitamiseks. Pahatahtlikud rakendused võivad segada seadme toimivust või tööd levisõnumi vastuvõtmisel.</string>
     <string name="permlab_sendSms">SMS-sõnumite saatmine</string>
     <string name="permdesc_sendSms">Võimaldab rakendusel saata SMS-sõnumeid. See võib kaasa tuua ootamatuid väljaminekuid. Pahatahtlikud rakendused võivad tekitada sulle rahalisi kulusid, saates sõnumeid kasutaja kinnituseta.</string>
-    <string name="permlab_sendSmsNoConfirmation">lühisõnumite saatmine kinnituseta</string>
-    <string name="permdesc_sendSmsNoConfirmation">Võimaldab rakendusel saata SMS-sõnumeid. See võib kaasa tuua ootamatuid väljaminekuid. Pahatahtlikud rakendused võivad tekitada sulle rahalisi kulusid, saates sõnumeid kasutaja kinnituseta.</string>
+    <string name="permlab_sendRespondViaMessageRequest">vasta-kõnele-sõnumiga päringute saatmine</string>
+    <string name="permdesc_sendRespondViaMessageRequest">Võimaldab rakendusel saata päringuid teistele sõnumitega tegelevatele rakendustele, et need tegeleksid sisenevatele kõnedele sõnumiga reageerimisega.</string>
     <string name="permlab_readSms">SMS- ja MMS-sõnumite lugemine</string>
     <string name="permdesc_readSms" product="tablet">Võimaldab rakendusel lugeda tahvelarvutisse või SIM-kaardile salvestatud sõnumeid. Rakendusele on loetavad kõik sõnumid sisust või konfidentsiaalsusest hoolimata.</string>
     <string name="permdesc_readSms" product="default">Võimaldab rakendusel lugeda telefoni või SIM-kaardile salvestatud sõnumeid. See võimaldab rakendusel lugeda kõiki sõnumeid sisust või konfidentsiaalsusest hoolimata.</string>
@@ -269,6 +285,8 @@
     <string name="permdesc_reorderTasks">Võimaldab rakendusel tuua protsesse esiplaanile ja viia taustale. Rakendus võib seda teha kasutajapoolse sekkumiseta.</string>
     <string name="permlab_removeTasks">töötavate rakenduste peatamine</string>
     <string name="permdesc_removeTasks">Võimaldab rakendusel eemaldada tööst protsesse ja peatada nendega seotud rakenduste töö. Pahatahtlikud rakendused võivad häirida teiste rakenduste käitumist.</string>
+    <string name="permlab_manageActivityStacks">tegevuste pinu haldamine</string>
+    <string name="permdesc_manageActivityStacks">Võimaldab rakendusel luua, eemaldada ning muuta tegevuste pinusid, milles teised rakendused töötavad. Pahatahtlikud rakendused võivad häirida teiste rakenduste käitumist.</string>
     <string name="permlab_startAnyActivity">mis tahes toimingu käivitamine</string>
     <string name="permdesc_startAnyActivity">Võimaldab rakendusel käivitada mis tahes toimingu, seda õigustega kaitsest või eksporditud olekust sõltumata.</string>
     <string name="permlab_setScreenCompatibility">ekraani ühilduvusrežiimi seadmine</string>
@@ -301,6 +319,8 @@
     <string name="permdesc_shutdown">Võimalda panna toimingute halduri väljalülitatud olekusse. Seadet ei lülitata lõplikult välja.</string>
     <string name="permlab_stopAppSwitches">rakenduste vahetamise takistamine</string>
     <string name="permdesc_stopAppSwitches">Võimaldab rakendusel takistada kasutaja lülitumist teisele rakendusele.</string>
+    <string name="permlab_getTopActivityInfo">aktiivse rakenduse kohta info hankimine</string>
+    <string name="permdesc_getTopActivityInfo">Võimaldab rakendusel saada privaatset infot hetkel esiplaanil oleva rakenduse kohta.</string>
     <string name="permlab_runSetActivityWatcher">rakenduste käivitumise jälgimine ja kontroll</string>
     <string name="permdesc_runSetActivityWatcher">Võimaldab rakendusel jälgida ja kontrollida, kuidas süsteem tegevusi käivitab. Pahatahtlikud rakendused võivad süsteemi täielikult rikkuda. Seda õigust on vaja ainult arenduseks, mitte tavakasutuse korral.</string>
     <string name="permlab_broadcastPackageRemoved">üldleviteate saatmine paketi eemaldamisel</string>
@@ -317,6 +337,10 @@
     <string name="permdesc_batteryStats">Lubab rakendusel lugeda aku hetke kasutusandmeid. Võib lubada rakendusel hankida üksikasjalikku teavet selle kohta, mis rakendusi sa kasutad.</string>
     <string name="permlab_updateBatteryStats">aku statistika muutmine</string>
     <string name="permdesc_updateBatteryStats">Võimaldab rakendusel muuta aku kohta kogutud statistikat. Ei ole mõeldud tavarakendustele.</string>
+    <string name="permlab_getAppOpsStats">rakenduse statistika lugemine</string>
+    <string name="permdesc_getAppOpsStats">Võimaldab rakendusel lugeda teiste rakenduste töö kohta kogutud statistikat. Ei ole mõeldud tavarakendustele.</string>
+    <string name="permlab_updateAppOpsStats">rakenduse statistika muutmine</string>
+    <string name="permdesc_updateAppOpsStats">Võimaldab rakendusle muuta teiste rakenduste töö kohta kogutud statistikat. Ei ole mõeldud tavarakendustele.</string>
     <string name="permlab_backup">varundamise ja taastamise kontrollimine</string>
     <string name="permdesc_backup">Võimaldab rakendusel kontrollida süsteemi varundus- ja taastemehhanismi. Ei ole mõeldud tavarakendustele.</string>
     <string name="permlab_confirm_full_backup">täieliku varukoopia loomise või taastamise kinnitamine</string>
@@ -340,6 +364,12 @@
     <string name="permdesc_bindInputMethod">Lubab omanikul siduda end sisestusmeetodi teenuse kõrgema taseme liidesega. Tavarakendused ei tohiks seda kunagi vajada.</string>
     <string name="permlab_bindAccessibilityService">hõlbustusteenusega sidumine</string>
     <string name="permdesc_bindAccessibilityService">Lubab omanikul siduda end hõlbustusteenuse kõrgema taseme liidesega. Tavarakendused ei tohiks seda kunagi vajada.</string>
+    <string name="permlab_bindPrintService">printimisteenusega sidumine</string>
+    <string name="permdesc_bindPrintService">Võimaldab omanikul siduda end printimisteenuse kõrgema taseme liidesega. Tavarakendused ei tohiks seda kunagi vajada.</string>
+    <string name="permlab_bindPrintSpoolerService">printeri tööjärjekorra teenusega sidumine</string>
+    <string name="permdesc_bindPrintSpoolerService">Võimaldab omanikul siduda end printeri tööjärjekorra kõrgema taseme liidesega. Tavarakendused ei tohiks seda kunagi vajada.</string>
+    <string name="permlab_bindNfcService">NFC teenusega sidumine</string>
+    <string name="permdesc_bindNfcService">Võimaldab omanikul siduda end rakendustega, mis emuleerivad NFC kaarte. Tavarakendused ei tohiks seda kunagi vajada.</string>
     <string name="permlab_bindTextService">tekstiteenusega sidumine</string>
     <string name="permdesc_bindTextService">Võimaldab omanikul siduda end tekstiteenuse (nt SpellCheckerService) kõrgema taseme liidesega. Tavarakendused ei tohiks seda kunagi vajada.</string>
     <string name="permlab_bindVpnService">VPN teenusega sidumine</string>
@@ -350,6 +380,8 @@
     <string name="permdesc_bindRemoteViews">Lubab omanikul siduda end vidina teenuse kõrgema taseme liidesega. Tavarakendused ei tohiks seda kunagi vajada.</string>
     <string name="permlab_bindDeviceAdmin">seadme administraatoriga suhtlemine</string>
     <string name="permdesc_bindDeviceAdmin">Võimaldab rakendusel saata kavatsusi (intents) seadme administraatorile. Tavarakendused ei tohiks seda kunagi vajada.</string>
+    <string name="permlab_manageDeviceAdmins">seadme administraatorite lisamine või eemaldamine</string>
+    <string name="permdesc_manageDeviceAdmins">Lubab omanikul seadmes administraatoreid lisada või eemaldada. Tavarakendused ei tohiks seda kunagi vajada.</string>
     <string name="permlab_setOrientation">ekraanipildi paigutuse muutmine</string>
     <string name="permdesc_setOrientation">Võimaldab rakendusel suvalisel ajal ekraanipilti pöörata. Tavarakendused ei tohiks seda kunagi vajada.</string>
     <string name="permlab_setPointerSpeed">kursori kiiruse muutmine</string>
@@ -381,6 +413,8 @@
     <string name="permdesc_readLogs" product="default">Võimaldab rakendusel lugeda erinevaid logifaile süsteemis. Nii on rakendusel võimalik saada üldist infot selle kohta, mida sa telefoniga teed, kuid see info võib muuhulgas sisaldada ka isiklikke või privaatseid andmeid.</string>
     <string name="permlab_anyCodecForPlayback">meediadekoodrite kasutamine taasesituseks</string>
     <string name="permdesc_anyCodecForPlayback">Võimaldab rakendusel taasesituseks kasutada mis tahes paigaldatud meediumidekooderit.</string>
+    <string name="permlab_manageCaCertificates">usaldusväärsete sertifitseerimiskeskuste haldamine</string>
+    <string name="permdesc_manageCaCertificates">Lubab rakendusel paigaldada sertifitseerimiskeskuste (CA) sertifikaate kui usaldusväärseid.</string>
     <string name="permlab_diagnostic">diag grupi ressursside lugemine/kirjutamine</string>
     <string name="permdesc_diagnostic">Võimaldab rakendusel lugeda ja kirjutada mis tahes diag grupi ressurssi (näiteks /dev kaustas olevaid faile). See võib mõjutada süsteemi stabiilsust ja turvalisust. Seda õigust peaks kasutama AINULT tootja või operaatori poolseks riistvaraspetsiifiliseks diagnostikaks.</string>
     <string name="permlab_changeComponentState">rakenduse komponentide lubamine/keelamine</string>
@@ -446,12 +480,24 @@
     <string name="permdesc_configureWifiDisplay">Võimaldab rakendusel WiFi-ekraane seadistada ja nendega ühendust luua.</string>
     <string name="permlab_controlWifiDisplay">WiFi ekraanide juhtimine</string>
     <string name="permdesc_controlWifiDisplay">Võimaldab rakendusel WiFi ekraanide madala taseme funktsioone juhtida.</string>
+    <string name="permlab_captureAudioOutput">signaali võtmine audio väljundist</string>
+    <string name="permdesc_captureAudioOutput">Lubab rakendusel võtta audio väljundist signaali ja seda mujale suunata.</string>
+    <string name="permlab_captureAudioHotword">võtmesõna tuvastus</string>
+    <string name="permdesc_captureAudioHotword">Lubab rakendusel võtmesõnade tuvastamiseks audiosisendeid pealt kuulata. Pealtkuulamine võib toimuda taustal ning ei takista audio salvestamist (nt videokaamera rakendusega).</string>
+    <string name="permlab_captureVideoOutput">signaali võtmine video väljundist</string>
+    <string name="permdesc_captureVideoOutput">Lubab rakendusel võtta video väljundist signaali ja seda mujale suunata.</string>
+    <string name="permlab_captureSecureVideoOutput">signaali võtmine turvalisest video väljundist</string>
+    <string name="permdesc_captureSecureVideoOutput">Lubab rakendusel võtta turvaliseks määratud video väljundist signaali ning seda mujale suunata.</string>
+    <string name="permlab_mediaContentControl">meedia taasesituse juhtimine ja ligipääs metaandmetele</string>
+    <string name="permdesc_mediaContentControl">Lubab rakendusel juhtida meedia taasesitust ja pääseda ligi metaandmetele (nimi, autor jne).</string>
     <string name="permlab_modifyAudioSettings">heliseadete muutmine</string>
     <string name="permdesc_modifyAudioSettings">Võimaldab rakendusel muuta üldiseid heliseadeid, näiteks helitugevust ja seda, millist kõlarit kasutatakse väljundiks.</string>
     <string name="permlab_recordAudio">heli salvestamine</string>
     <string name="permdesc_recordAudio">Võimaldab rakendusel mikrofoni abil heli salvestada. See õigus võimaldab rakendusel salvestada heli mis tahes ajal ja ilma sinu kinnituseta.</string>
     <string name="permlab_camera">piltide ja videote tegemine</string>
     <string name="permdesc_camera">Võimaldab rakendusel kaameraga pilte ja videosid teha. See õigus võimaldab rakendusel kasutada kaamerat mis tahes ajal ja ilma sinu kinnituseta.</string>
+    <string name="permlab_cameraDisableTransmitLed">kaamera kasutamist näitava LED-i keelamine</string>
+    <string name="permdesc_cameraDisableTransmitLed">Võimaldab süsteemiga kaasatulevatel rakendustel keelata kaamera kasutamist näitavat LED-i.</string>
     <string name="permlab_brick" product="tablet">tahvelarvuti kasutamiskõlbmatuks muutmine</string>
     <string name="permlab_brick" product="default">telefoni kasutamiskõlbmatuks muutmine</string>
     <string name="permdesc_brick" product="tablet">Võimaldab rakendusel kogu tahvelarvuti jäädavalt kasutamiskõlbmatuks muuta. See on väga ohtlik.</string>
@@ -507,6 +553,9 @@
     <string name="permlab_wakeLock" product="default">telefoni uinumise vältimine</string>
     <string name="permdesc_wakeLock" product="tablet">Võimaldab rakendusel vältida tahvelarvuti uinumist.</string>
     <string name="permdesc_wakeLock" product="default">Võimaldab rakendusel vältida telefoni uinumist.</string>
+    <string name="permlab_transmitIr">infrapuna signaali saatmine</string>
+    <string name="permdesc_transmitIr" product="tablet">Lubab rakendusel kasutada tahvelarvuti infrapuna saatjat.</string>
+    <string name="permdesc_transmitIr" product="default">Lubab rakendusel kasutada telefoni infrapuna saatjat.</string>
     <string name="permlab_devicePower" product="tablet">tahvelarvuti sisse ja välja lülitamine</string>
     <string name="permlab_devicePower" product="default">telefoni sisse ja välja lülitamine</string>
     <string name="permdesc_devicePower" product="tablet">Võimaldab rakendusel tahvelarvutit sisse ja välja lülitada.</string>
@@ -559,6 +608,9 @@
     <string name="permlab_bluetoothAdmin">ligipääs Bluetoothi seadetele</string>
     <string name="permdesc_bluetoothAdmin" product="tablet">Võimaldab rakendusel muuta tahvelarvuti Bluetoothi seadeid, leida teisi seadmeid ning tahevlarvutit nendega siduda.</string>
     <string name="permdesc_bluetoothAdmin" product="default">Võimaldab rakendusel muuta telefoni Bluetoothi seadeid, leida teisi seadmeid ning telefoni nendega siduda.</string>
+    <string name="permlab_bluetoothPriv">sidumine teiste Bluetooth seadmetega</string>
+    <string name="permdesc_bluetoothPriv" product="tablet">Lubab rakendusel siduda tahvelarvutit teiste Bluetooth seadmetega.</string>
+    <string name="permdesc_bluetoothPriv" product="default">Lubab rakendusel siduda telefoni teiste Bluetooth seadmetega.</string>
     <string name="permlab_accessWimaxState">WiMAX-i oleku lugemine</string>
     <string name="permdesc_accessWimaxState">Võimaldab rakendusel teada saada, kas WiMAX on lubatud, ning saada infot kõikide ühendatud WiMAX võrkude kohta.</string>
     <string name="permlab_changeWimaxState">WiMAX-i oleku muutmine</string>
@@ -595,18 +647,32 @@
     <string name="permdesc_sdcardWrite" product="default">Võimaldab rakendusel kirjutada SD kaardile.</string>
     <string name="permlab_mediaStorageWrite" product="default">sisemise salvestusruumi muutmine ja kustutamine</string>
     <string name="permdesc_mediaStorageWrite" product="default">Võimaldab rakendusel muuta sisemise salvestusruumi sisu.</string>
+    <string name="permlab_manageDocs">dokumentide salvestusruumi haldamine</string>
+    <string name="permdesc_manageDocs">Lubab rakendusel hallata dokumentide salvestamiseks mõeldud salvestusruumi.</string>
     <string name="permlab_sdcardAccessAll">ligipääs kõikide kasutajate välismäluseadmetele</string>
     <string name="permdesc_sdcardAccessAll">Võimaldab rakendusel pöörduda kõikide kasutajate välismäluseadmete poole.</string>
     <string name="permlab_cache_filesystem">ligipääs vahemälu failisüsteemile</string>
     <string name="permdesc_cache_filesystem">Võimaldab rakendusel vahemälu failisüsteemi lugeda ja kirjutada.</string>
     <string name="permlab_use_sip">Interneti-kõnede tegemine/vastuvõtmine</string>
     <string name="permdesc_use_sip">Võimaldab rakendusel kasutada SIP teenust Interneti-kõnede tegemiseks ja vastuvõtmiseks.</string>
+    <string name="permlab_bind_call_service">kõne ekraani juhtimine</string>
+    <string name="permdesc_bind_call_service">Lubab rakendusel kontrollida kõne ekraani välimust ning kas see on nähtav või mitte.</string>
     <string name="permlab_readNetworkUsageHistory">võrgukasutuse ajaloo lugemine</string>
     <string name="permdesc_readNetworkUsageHistory">Võimaldab rakendusel võrkude ja rakenduste kaupa kogutud võrgukasutuse ajalugu lugeda.</string>
     <string name="permlab_manageNetworkPolicy">võrgueeskirjade haldamine</string>
     <string name="permdesc_manageNetworkPolicy">Võimaldab rakendusel hallata võrgueeskirju ja määrata rakendusespetsiifilisi reegleid.</string>
     <string name="permlab_modifyNetworkAccounting">võrgukasutuse arvestuse muutmine</string>
     <string name="permdesc_modifyNetworkAccounting">Võimaldab rakendusel muuta võrgukasutuse loendamist rakenduste suhtes. Mitte kasutada tavarakenduste puhul.</string>
+    <string name="permlab_markNetworkSocket">võrgusoklite märkide muutmine</string>
+    <string name="permdesc_markNetworkSocket">Lubab rakendusel muuta liikluse marsruutimiseks kasutatavaid märke võrgusoklitel.</string>
+    <string name="permlab_accessNotifications">märguannete lugemine</string>
+    <string name="permdesc_accessNotifications">Võimaldab rakendusel märguandeid saada, lugeda ning eemaldada. Seda ka siis, kuid need on postitatud teiste rakenduste poolt.</string>
+    <string name="permlab_bindNotificationListenerService">märguannete kuulamise teenusega sidumine</string>
+    <string name="permdesc_bindNotificationListenerService">Võimaldab rakendusel siduda ennast märguannete kuulamise teenuse kõrgema taseme liidesega. Tavarakendused ei tohiks seda kunagi vajada.</string>
+    <string name="permlab_invokeCarrierSetup">teenusepakkuja seadistusrakenduse käivitamine</string>
+    <string name="permdesc_invokeCarrierSetup">Lubab rakendusel käivitada võrguteenuse pakkuja seadistusrakendust. Tavarakendused ei tohiks seda kunagi vajada.</string>
+    <string name="permlab_accessNetworkConditions">võrgu seisundi mõõtmistulemuste teadete saamine</string>
+    <string name="permdesc_accessNetworkConditions">Lubab rakendusel saada teateid võrgu seisundi mõõtmistulemuste kohta. Tavarakendused ei tohiks seda kunagi vajada.</string>
     <string name="policylab_limitPassword">Parooli reeglite määramine</string>
     <string name="policydesc_limitPassword">Kontroll ekraaniluku paroolide pikkuse ja tähemärkide üle.</string>
     <string name="policylab_watchLogin">Ekraani avamiskatsete jälgimine</string>
@@ -812,6 +878,7 @@
     <string name="lockscreen_access_pattern_cleared">Muster on kustutatud</string>
     <string name="lockscreen_access_pattern_cell_added">Lahter on lisatud</string>
     <string name="lockscreen_access_pattern_detected">Muster on valmis</string>
+    <string name="keyguard_accessibility_widget_changed">%1$s. Vidin number %2$d, kokku on %3$d vidinat.</string>
     <string name="keyguard_accessibility_add_widget">Vidina lisamine.</string>
     <string name="keyguard_accessibility_widget_empty_slot">Tühi</string>
     <string name="keyguard_accessibility_unlock_area_expanded">Avamisala on laiendatud.</string>
@@ -845,8 +912,11 @@
     <string name="factorytest_not_system">Toimingut FACTORY_TEST toetatakse ainult kausta \\system\\app installitud pakettide puhul.</string>
     <string name="factorytest_no_action">Ei leitud ühtegi paketti, mis võimaldaks toimingut FACTORY_TEST.</string>
     <string name="factorytest_reboot">Taaskäivita</string>
-    <string name="js_dialog_title">Leht  „<xliff:g id="TITLE">%s</xliff:g>” ütleb järgmist:</string>
+    <string name="js_dialog_title">Leht „<xliff:g id="TITLE">%s</xliff:g>” ütleb järgmist:</string>
     <string name="js_dialog_title_default">JavaScript</string>
+    <string name="js_dialog_before_unload_title">Kinnitus liikumisele</string>
+    <string name="js_dialog_before_unload_positive_button">Lahku sellelt lehelt</string>
+    <string name="js_dialog_before_unload_negative_button">Jää sellele lehele</string>
     <string name="js_dialog_before_unload">Kas soovid sellelt lehelt lahkuda?\n\n<xliff:g id="MESSAGE">%s</xliff:g>\n\nJätkamiseks puuduta OK nuppu, aktiivsele lehele jäämiseks tühistamise nuppu.</string>
     <string name="save_password_label">Kinnitamine</string>
     <string name="double_tap_toast">Vihje: topeltpuudutusega saad lehel sisse ja välja suumida.</string>
@@ -926,8 +996,8 @@
   <plurals name="last_num_days">
     <item quantity="other">Viimased <xliff:g id="COUNT">%d</xliff:g> päeva</item>
   </plurals>
-  <string name="last_month">Viimasel kuul</string>
-  <string name="older">Varem</string>
+    <string name="last_month">Viimasel kuul</string>
+    <string name="older">Varem</string>
   <plurals name="num_days_ago">
     <item quantity="one">eile</item>
     <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> päeva tagasi</item>
@@ -1033,6 +1103,8 @@
     <string name="editTextMenuTitle">Tekstitoimingud</string>
     <string name="low_internal_storage_view_title">Talletusruum saab täis</string>
     <string name="low_internal_storage_view_text">Mõned süsteemi funktsioonid ei pruugi töötada</string>
+    <string name="app_running_notification_title"><xliff:g id="app_name">%1$s</xliff:g> käib</string>
+    <string name="app_running_notification_text">Lisainfo saamiseks või rakenduse peatamiseks puuduta seda teksti</string>
     <string name="ok">OK</string>
     <string name="cancel">Tühista</string>
     <string name="yes">OK</string>
@@ -1042,15 +1114,16 @@
     <string name="capital_on">JAH</string>
     <string name="capital_off">EI</string>
     <string name="whichApplication">Toimingu lõpetamine rakendusega</string>
+    <string name="whichHomeApplication">Kodurakenduse valimine</string>
     <string name="alwaysUse">Kasutatakse vaikimisi selleks toiminguks.</string>
     <string name="clearDefaultHintMsg">Eemalda vaiketegevuste andmed seadetes Süsteemiseaded &gt; Rakendused &gt; Allalaaditud.</string>
     <string name="chooseActivity">Toimingu valimine</string>
     <string name="chooseUsbActivity">USB seadmele rakenduse valimine</string>
     <string name="noApplications">Ükski rakendus ei oska seda toimingut.</string>
-    <string name="aerr_title"></string>
+    <string name="aerr_title"/>
     <string name="aerr_application">Kahjuks on rakenduse <xliff:g id="APPLICATION">%1$s</xliff:g> töö peatunud.</string>
     <string name="aerr_process">Kahjuks on protsessi <xliff:g id="PROCESS">%1$s</xliff:g> töö peatunud.</string>
-    <string name="anr_title"></string>
+    <string name="anr_title"/>
     <string name="anr_activity_application"><xliff:g id="APPLICATION">%2$s</xliff:g> ei vasta.\n\nKas soovid selle sulgeda?</string>
     <string name="anr_activity_process">Tegevus <xliff:g id="ACTIVITY">%1$s</xliff:g> ei vasta.\n\nKas soovid selle sulgeda?</string>
     <string name="anr_application_process"><xliff:g id="APPLICATION">%1$s</xliff:g> ei vasta. Kas soovid selle sulgeda?</string>
@@ -1109,8 +1182,7 @@
   </plurals>
     <string name="wifi_available_sign_in">Logi WiFi võrku sisse</string>
     <string name="network_available_sign_in">Logi võrku sisse</string>
-    <!-- no translation found for network_available_sign_in_detailed (8000081941447976118) -->
-    <skip />
+    <string name="network_available_sign_in_detailed"><xliff:g id="network_ssid">%1$s</xliff:g></string>
     <string name="wifi_watchdog_network_disabled">WiFi võrguga ei saa ühendust</string>
     <string name="wifi_watchdog_network_disabled_detailed"> võrguga on halb Interneti ühendus.</string>
     <string name="wifi_p2p_dialog_title">WiFi Direct</string>
@@ -1126,7 +1198,8 @@
     <string name="wifi_p2p_to_message">Saaja:</string>
     <string name="wifi_p2p_enter_pin_message">Sisesta nõutav PIN kood:</string>
     <string name="wifi_p2p_show_pin_message">PIN kood:</string>
-    <string name="wifi_p2p_frequency_conflict_message">Telefoni ühendus WiFi-ga katkestatakse ajutiselt, kuni see on ühendatud seadmega <xliff:g id="DEVICE_NAME">%1$s</xliff:g></string>
+    <string name="wifi_p2p_frequency_conflict_message" product="tablet">Kuni tahvelarvutil on otseühendus seadmega <xliff:g id="device_name">%1$s</xliff:g>, katkestatakse ajutiselt ühendus WiFi-ga.</string>
+    <string name="wifi_p2p_frequency_conflict_message" product="default">Kuni telefonil on otseühendus seadmega <xliff:g id="device_name">%1$s</xliff:g>, katkestatakse ajutiselt ühendus WiFi-ga.</string>
     <string name="select_character">Sisesta sümbol</string>
     <string name="sms_control_title">SMS sõnumite saatmine</string>
     <string name="sms_control_message">&lt;b&gt;<xliff:g id="APP_NAME">%1$s</xliff:g>&lt;/b&gt; saadab suurel hulgal SMS sõnumeid. Soovid sa lubada sel rakendusel ka edaspidi sõnumeid saata?</string>
@@ -1187,6 +1260,7 @@
     <string name="extmedia_format_button_format">Vorminda</string>
     <string name="adb_active_notification_title">Androidi silumisrežiim sisse lülitatud</string>
     <string name="adb_active_notification_message">Keelamiseks puuduta seda teksti.</string>
+    <string name="locale_replacement">""</string>
     <string name="select_input_method">Sisestusmeetodi valimine</string>
     <string name="configure_input_methods">Seadista sisestusmeetodeid</string>
     <string name="use_physical_keyboard">Füüsiline klaviatuur</string>
@@ -1226,6 +1300,10 @@
     <string name="permdesc_copyProtectedData">Võimaldab rakendusel võtta sisu kopeerimiseks appi vaikekonteinerteenuse. Mitte kasutada tavarakenduste puhul.</string>
     <string name="permlab_route_media_output">meediaväljundi ümbersuunamine</string>
     <string name="permdesc_route_media_output">Võimaldab rakendusel suunata meediaväljundit ümber teistesse välistesse seadmetesse.</string>
+    <string name="permlab_access_keyguard_secure_storage">ligipääs ekraaniluku turvalisele salvestusruumile</string>
+    <string name="permdesc_access_keyguard_secure_storage">Lubab rakendusel pääseda ligi ekraaniluku turvalisele salvestusruumile.</string>
+    <string name="permlab_control_keyguard">ekraaniluku näitamine ja peitmine</string>
+    <string name="permdesc_control_keyguard">Lubab rakendusel juhtida ekraaniluku näitamist ja peitmist.</string>
     <string name="tutorial_double_tap_to_zoom_message_short">Suumi juhtimiseks kasuta topeltpuudutust</string>
     <string name="gadget_host_error_inflating">Vidinat ei saanud lisada.</string>
     <string name="ime_action_go">Mine</string>
@@ -1249,6 +1327,8 @@
     <string name="accessibility_binding_label">Hõlbustus</string>
     <string name="wallpaper_binding_label">Taustapilt</string>
     <string name="chooser_wallpaper">Taustapildi muutmine</string>
+    <string name="notification_listener_binding_label">Märguannete kuulamisteenus</string>
+    <string name="alternate_eri_file">/data/eri.xml</string>
     <string name="vpn_title">VPN on aktiveeritud</string>
     <string name="vpn_title_long">VPN-i aktiveeris <xliff:g id="APP">%s</xliff:g></string>
     <string name="vpn_text">Seadistamiseks puuduta seda teksti.</string>
@@ -1256,7 +1336,7 @@
     <string name="vpn_lockdown_connecting">Püsi-VPN ühenduse loomine \u2026</string>
     <string name="vpn_lockdown_connected">Püsi-VPN ühendus loodud</string>
     <string name="vpn_lockdown_error">Püsi-VPN viga</string>
-    <string name="vpn_lockdown_reset">Lähtestamiseks puuduta seda teksti.</string>
+    <string name="vpn_lockdown_config">Seadistamiseks puuduta seda teksti</string>
     <string name="upload_file">Vali fail</string>
     <string name="no_file_chosen">Ühtegi faili pole valitud</string>
     <string name="reset">Lähtesta</string>
@@ -1352,6 +1432,8 @@
     <string name="action_bar_home_description">Avalehele liikumine</string>
     <string name="action_bar_up_description">Üles liikumine</string>
     <string name="action_menu_overflow_description">Rohkem valikuid</string>
+    <string name="action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
     <string name="storage_internal">Sisemine salvestusruum</string>
     <string name="storage_sd_card">SD kaart</string>
     <string name="storage_usb">USB mäluseade</string>
@@ -1387,7 +1469,6 @@
     <string name="activity_chooser_view_see_all">Näita kõiki</string>
     <string name="activity_chooser_view_dialog_title_default">Toimingu valimine</string>
     <string name="share_action_provider_share_with">Jagamine rakendusega:</string>
-    <string name="status_bar_device_locked">Seade lukustatud.</string>
     <string name="list_delimeter">, </string>
     <string name="sending">Saatmine \u2026</string>
     <string name="launchBrowserDefault">Kas käivitada brauser?</string>
@@ -1401,16 +1482,19 @@
     <string name="default_media_route_name_hdmi">HDMI</string>
     <string name="default_audio_route_category_name">Süsteem</string>
     <string name="bluetooth_a2dp_audio_route_name">Bluetooth audio</string>
+    <string name="wireless_display_route_description">WiFi ekraan</string>
     <string name="media_route_chooser_grouping_done">Valmis</string>
     <string name="media_route_button_content_description">Meediaväljund</string>
     <string name="media_route_status_scanning">Skaneering \u2026</string>
     <string name="media_route_status_connecting">Ühendan \u2026</string>
     <string name="media_route_status_available">Saadaval</string>
     <string name="media_route_status_not_available">Pole saadaval</string>
+    <string name="media_route_status_in_use">Kasutuses</string>
     <string name="display_manager_built_in_display_name">Sisseehitatud ekraan</string>
     <string name="display_manager_hdmi_display_name">HDMI ekraan</string>
     <string name="display_manager_overlay_display_name">Ülekate #<xliff:g id="ID">%1$d</xliff:g></string>
     <string name="display_manager_overlay_display_title"><xliff:g id="NAME">%1$s</xliff:g>: <xliff:g id="WIDTH">%2$d</xliff:g> x <xliff:g id="HEIGHT">%3$d</xliff:g>, <xliff:g id="DPI">%4$d</xliff:g> dpi</string>
+    <string name="display_manager_overlay_display_secure_suffix">, turvaline</string>
     <string name="wifi_display_notification_title">Juhtmeta ekraaniühendus on loodud</string>
     <string name="wifi_display_notification_message">Ekraani näidatakse teises seadmes</string>
     <string name="wifi_display_notification_disconnect">Katkesta ühendus</string>
@@ -1458,4 +1542,112 @@
     <string name="enable_accessibility_canceled">Hõlbustusfunktsioonid on keelatud.</string>
     <string name="user_switched">Aktiivne kasutaja <xliff:g id="NAME">%1$s</xliff:g>.</string>
     <string name="owner_name">Omanik</string>
+    <string name="error_message_title">Viga</string>
+    <string name="app_no_restricted_accounts">See rakendus ei toeta piiratud õigustega profiilidega kontosid</string>
+    <string name="app_not_found">Selle toiminguga tegelemiseks ei leitud ühtegi rakendust</string>
+    <string name="revoke">Tühista</string>
+    <string name="mediasize_iso_a0">ISO A0</string>
+    <string name="mediasize_iso_a1">ISO A1</string>
+    <string name="mediasize_iso_a2">ISO A2</string>
+    <string name="mediasize_iso_a3">ISO A3</string>
+    <string name="mediasize_iso_a4">ISO A4</string>
+    <string name="mediasize_iso_a5">ISO A5</string>
+    <string name="mediasize_iso_a6">ISO A6</string>
+    <string name="mediasize_iso_a7">ISO A7</string>
+    <string name="mediasize_iso_a8">ISO A8</string>
+    <string name="mediasize_iso_a9">ISO A9</string>
+    <string name="mediasize_iso_a10">ISO A10</string>
+    <string name="mediasize_iso_b0">ISO B0</string>
+    <string name="mediasize_iso_b1">ISO B1</string>
+    <string name="mediasize_iso_b2">ISO B2</string>
+    <string name="mediasize_iso_b3">ISO B3</string>
+    <string name="mediasize_iso_b4">ISO B4</string>
+    <string name="mediasize_iso_b5">ISO B5</string>
+    <string name="mediasize_iso_b6">ISO B6</string>
+    <string name="mediasize_iso_b7">ISO B7</string>
+    <string name="mediasize_iso_b8">ISO B8</string>
+    <string name="mediasize_iso_b9">ISO B9</string>
+    <string name="mediasize_iso_b10">ISO B10</string>
+    <string name="mediasize_iso_c0">ISO C0</string>
+    <string name="mediasize_iso_c1">ISO C1</string>
+    <string name="mediasize_iso_c2">ISO C2</string>
+    <string name="mediasize_iso_c3">ISO C3</string>
+    <string name="mediasize_iso_c4">ISO C4</string>
+    <string name="mediasize_iso_c5">ISO C5</string>
+    <string name="mediasize_iso_c6">ISO C6</string>
+    <string name="mediasize_iso_c7">ISO C7</string>
+    <string name="mediasize_iso_c8">ISO C8</string>
+    <string name="mediasize_iso_c9">ISO C9</string>
+    <string name="mediasize_iso_c10">ISO C10</string>
+    <string name="mediasize_na_letter">Letter</string>
+    <string name="mediasize_na_gvrnmt_letter">Government Letter</string>
+    <string name="mediasize_na_legal">Legal</string>
+    <string name="mediasize_na_junior_legal">Junior Legal</string>
+    <string name="mediasize_na_ledger">Ledger</string>
+    <string name="mediasize_na_tabloid">Tabloid</string>
+    <string name="mediasize_na_index_3x5">Kartoteegikaart 3x5</string>
+    <string name="mediasize_na_index_4x6">Kartoteegikaart 4x6</string>
+    <string name="mediasize_na_index_5x8">Kartoteegikaart 5x8</string>
+    <string name="mediasize_na_monarch">Monarch</string>
+    <string name="mediasize_na_quarto">Quarto</string>
+    <string name="mediasize_na_foolscap">Foolscap</string>
+    <string name="mediasize_chinese_roc_8k">ROC 8K</string>
+    <string name="mediasize_chinese_roc_16k">ROC 10K</string>
+    <string name="mediasize_chinese_prc_1">PRC 1</string>
+    <string name="mediasize_chinese_prc_2">PRC 2</string>
+    <string name="mediasize_chinese_prc_3">PRC 3</string>
+    <string name="mediasize_chinese_prc_4">PRC 4</string>
+    <string name="mediasize_chinese_prc_5">PRC 5</string>
+    <string name="mediasize_chinese_prc_6">PRC 6</string>
+    <string name="mediasize_chinese_prc_7">PRC 7</string>
+    <string name="mediasize_chinese_prc_8">PRC 8</string>
+    <string name="mediasize_chinese_prc_9">PRC 9</string>
+    <string name="mediasize_chinese_prc_10">PRC 10</string>
+    <string name="mediasize_chinese_prc_16k">PRC 16K</string>
+    <string name="mediasize_chinese_om_pa_kai">Pai Kai</string>
+    <string name="mediasize_chinese_om_dai_pa_kai">Dai Pai Kai</string>
+    <string name="mediasize_chinese_om_jurro_ku_kai">Jurro Kai Pai</string>
+    <string name="mediasize_japanese_jis_b10">JIS B10</string>
+    <string name="mediasize_japanese_jis_b9">JIS B9</string>
+    <string name="mediasize_japanese_jis_b8">JIS B8</string>
+    <string name="mediasize_japanese_jis_b7">JIS B7</string>
+    <string name="mediasize_japanese_jis_b6">JIS B6</string>
+    <string name="mediasize_japanese_jis_b5">JIS B5</string>
+    <string name="mediasize_japanese_jis_b4">JIS B4</string>
+    <string name="mediasize_japanese_jis_b3">JIS B3</string>
+    <string name="mediasize_japanese_jis_b2">JIS B2</string>
+    <string name="mediasize_japanese_jis_b1">JIS B1</string>
+    <string name="mediasize_japanese_jis_b0">JIS B0</string>
+    <string name="mediasize_japanese_jis_exec">JIS Exec</string>
+    <string name="mediasize_japanese_chou4">Chou4</string>
+    <string name="mediasize_japanese_chou3">Chou3</string>
+    <string name="mediasize_japanese_chou2">Chou2</string>
+    <string name="mediasize_japanese_hagaki">Hagaki</string>
+    <string name="mediasize_japanese_oufuku">Oufuku</string>
+    <string name="mediasize_japanese_kahu">Kahu</string>
+    <string name="mediasize_japanese_kaku2">Kaku2</string>
+    <string name="mediasize_japanese_you4">You4</string>
+    <string name="mediasize_unknown_portrait">Tundmatu püstpaigutuses meedia</string>
+    <string name="mediasize_unknown_landscape">Tundmatu rõhtpaigutuses meedia</string>
+    <string name="write_fail_reason_cancelled">Katkestatud</string>
+    <string name="write_fail_reason_cannot_write">Viga sisu kirjutamisel</string>
+    <string name="reason_unknown">teadmata</string>
+    <string name="reason_service_unavailable">Printimise teenus pole sisse lülitatud</string>
+    <string name="print_service_installed_title"><xliff:g id="name" example="Cloud Print">%s</xliff:g> teenus on paigaldatud</string>
+    <string name="print_service_installed_message">Sisse lülitamiseks puuduta seda teksti</string>
+    <string name="restr_pin_enter_admin_pin">Sisesta administraatori PIN</string>
+    <string name="restr_pin_enter_pin">Sisesta PIN</string>
+    <string name="restr_pin_incorrect">Vigane PIN</string>
+    <string name="restr_pin_enter_old_pin">Kehtiv PIN</string>
+    <string name="restr_pin_enter_new_pin">Uus PIN</string>
+    <string name="restr_pin_confirm_pin">Kinnita uus PIN</string>
+    <string name="restr_pin_create_pin">PIN-i seadmine muudatuste piiramiseks</string>
+    <string name="restr_pin_error_doesnt_match">PIN koodid ei kattu. Proovi uuesti.</string>
+    <string name="restr_pin_error_too_short">PIN on liiga lühike. Selles peab olema vähemalt 4 numbrit.</string>
+  <plurals name="restr_pin_countdown">
+    <item quantity="one">Proovi uuesti 1 sekundi pärast</item>
+    <item quantity="other">Proovi uuesti <xliff:g id="count">%d</xliff:g> sekundi pärast</item>
+  </plurals>
+    <string name="restr_pin_try_later">Proovi hiljem uuesti</string>
+    <string name="immersive_mode_confirmation">Täisekraani režiimist väljumiseks libista sõrme ekraani ülaservast alla</string>
 </resources>

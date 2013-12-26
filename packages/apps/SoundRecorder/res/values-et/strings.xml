@@ -14,9 +14,8 @@
      See the License for the specific language governing permissions and
      limitations under the License.
  -->
-
-<resources xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources 
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Helisalvesti</string>
     <string name="record_your_message">Oma sõnumi salvestamine</string>
     <string name="message_recorded">Sõnum on salvestatud</string>
@@ -32,8 +31,7 @@
     <string name="accept">Valmis</string>
     <string name="discard">Loobu</string>
     <string name="button_ok">OK</string>
-    <!-- no translation found for audio_db_title_format (7912182366970749312) -->
-    <skip />
+    <string name="audio_db_title_format">yyyy-MM-dd HH:mm:ss</string>
     <string name="audio_db_artist_name">Su salvestised</string>
     <string name="audio_db_album_name">Helisalvestised</string>
     <string name="audio_db_playlist_name">Minu salvestised</string>

@@ -14,8 +14,8 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources 
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">NFC teenus</string>
     <string name="nfcUserLabel">NFC</string>
     <string name="inbound_me_profile_title">Kontaktinfo NFC kaudu</string>
@@ -25,12 +25,14 @@
     <string name="accessibility_nfc_enabled">NFC lubatud.</string>
     <string name="touch">Beam\'i kasutamiseks puuduta</string>
     <string name="beam_progress">Sissetulev Beam ühendus \u2026</string>
+    <string name="beam_outgoing">Beam saatmine \u2026</string>
     <string name="beam_complete">Beam ühendus lõpetas töö</string>
     <string name="beam_failed">Beam ühendus ei lõpetanud tüüd</string>
     <string name="beam_canceled">Beam ühendus on katkestatud</string>
     <string name="cancel">Katkesta</string>
     <string name="beam_touch_to_view">Vaatamiseks puuduta</string>
     <string name="beam_handover_not_supported">Vastuvõtja seade ei toeta suurte failide edastamist Beam ühenduse abil.</string>
+    <string name="beam_try_again">Pane seadmed uuesti kokku.</string>
     <string name="connecting_headset">Ühenduse loomine</string>
     <string name="connected_headset">Ühendatud</string>
     <string name="connect_headset_failed">Ühendust ei õnnestunud luua</string>
@@ -39,7 +41,14 @@
     <string name="pairing_headset">Sidumine</string>
     <string name="pairing_headset_failed">Sidumine ebaõnnestus</string>
     <string name="failed_to_enable_bt">Bluetoothi ei saanud sisse lülitada</string>
-    <string name="confirm_pairing">Oled sa kindel, et soobid luua seose Bluetooth seadmega <xliff:g id="DEVICE_NAME">%1$s</xliff:g>?</string>
+    <string name="confirm_pairing">Oled sa kindel, et soovid siduda Bluetooth seadmega <xliff:g id="DEVICE_NAME">%1$s</xliff:g>?</string>
     <string name="pair_yes">Jah</string>
     <string name="pair_no">Ei</string>
+    <string name="tap_again_to_pay">„<xliff:g id="app">%1$s</xliff:g>“ rakendusega maksmiseks puuduta telefoniga uuesti makseterminali.</string>
+    <string name="tap_again_to_complete">„<xliff:g id="app">%1$s</xliff:g>“ rakendusega toimingu lõpetamiseks puuduta telefoniga uuesti NFC lugerit.</string>
+    <string name="transaction_failure">Seda tehingut ei saanud lõpetada „<xliff:g id="app">%1$s</xliff:g>“ rakendusega.</string>
+    <string name="could_not_use_app">„<xliff:g id="app">%1$s</xliff:g>“ rakendust ei saanud kasutada.</string>
+    <string name="pay_with">Maksmine rakendusega \u2026</string>
+    <string name="complete_with">Toimingu lõpetamine rakendusega \u2026</string>
+    <string name="default_pay_app_removed">Sinu poolt eelistatud rakendus „puuduta ja maksa“ teenuse kasutamiseks on kustutatud. Kas valid uue? </string>
 </resources>

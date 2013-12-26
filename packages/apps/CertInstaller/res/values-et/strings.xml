@@ -14,9 +14,8 @@
      See the License for the specific language governing permissions and
      limitations under the License.
  -->
-
-<resources xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources 
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Sertifikaadi paigaldaja</string>
     <string name="pick_file_title">Sertifikaadi valimine</string>
     <string name="pkcs12_password_dialog_title">Sertifikaadi lahtipakkimine</string>
@@ -49,4 +48,9 @@
     <string name="sdcard_not_present" product="nosdcard">USB mäluseade pole kättesaadav.</string>
     <string name="sdcard_not_present" product="default">SD kaart pole kättesaadav.</string>
     <string name="only_primary_user_allowed">Ainult seadme omanik võib sertifikaate paigaldada.</string>
+    <string name="credential_usage_label">Sertifikaadi kasutus</string>
+  <string-array name="credential_usage">
+    <item>VPN ja rakendused</item>
+    <item>WiFi</item>
+  </string-array>
 </resources>

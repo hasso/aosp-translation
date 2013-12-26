@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+     Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+<resources 
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="done_label">Valmis</string>
+    <string name="hour_picker_description">Ringikujuline liugur tundide valimiseks</string>
+    <string name="minute_picker_description">Ringikujuline liugur minutite valimiseks</string>
+    <string name="select_hours">Tundide valimine</string>
+    <string name="select_minutes">Minutite valimine</string>
+    <string name="day_picker_description">Kuu kalendriruudustik</string>
+    <string name="year_picker_description">Nimekiri aastaarvudega</string>
+    <string name="select_day">Kuupäeva valimine</string>
+    <string name="select_year">Aasta valimine</string>
+    <string name="item_is_selected">Praegu on valitud <xliff:g id="ITEM">%1$s</xliff:g></string>
+    <string name="deleted_key">Number <xliff:g id="KEY">%1$s</xliff:g> on kustutatud</string>
+</resources>

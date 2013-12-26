@@ -14,9 +14,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
  -->
-
-<resources xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources>
     <string name="app_name">Kalkulaator</string>
     <string name="error">Viga</string>
     <string name="digit0">0</string>
@@ -43,4 +41,24 @@
     <string name="advanced">Täpsem paneel</string>
     <string name="clear_history">Kustuta ajalugu</string>
     <string name="text_copied_toast">Tekst on kopeeritud.</string>
+    <string name="leftParenDesc">vasak sulg</string>
+    <string name="rightParenDesc">parem sulg</string>
+    <string name="factorialDesc">faktoriaal</string>
+    <string name="lnDesc">naturaallogaritm</string>
+    <string name="lgDesc">logaritm</string>
+    <string name="sqrtDesc">ruutjuur</string>
+    <string name="divDesc">jagamine</string>
+    <string name="mulDesc">korrutamine</string>
+    <string name="plusDesc">pluss</string>
+    <string name="minusDesc">miinus</string>
+    <string name="dotDesc">koma</string>
+    <string name="powerDesc">aste</string>
+    <string name="delDesc">kustutamine</string>
+    <string name="clearDesc">puhastamine</string>
+    <string name="tanDesc">tangens</string>
+    <string name="sinDesc">siinus</string>
+    <string name="cosDesc">koosinus</string>
+    <string name="eDesc">euleri arv</string>
+    <string name="piDesc">pii</string>
+    <string name="equalDesc">võrdusmärk</string>
 </resources>

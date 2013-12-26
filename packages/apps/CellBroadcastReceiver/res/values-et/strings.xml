@@ -14,21 +14,21 @@
      See the License for the specific language governing permissions and
      limitations under the License.
  -->
-
-<resources xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_label">Levisõnumid</string>
-    <string name="sms_cb_settings">Levisõnumite seaded</string>
+<resources 
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label">Kärjeteated</string>
+    <string name="sms_cb_settings">Kärjeteadete seaded</string>
     <string name="button_dismiss">OK</string>
     <string name="no_cell_broadcasts">Sinu piirkonnas pole aktiivseid häireid. Häirete seadeid saad muuta valides menüüst „Seaded“.</string>
     <string name="menu_preferences">Seaded</string>
-    <string name="menu_delete_all">Kustuta levisõnumid</string>
-    <string name="message_options">Sõnumi valikud</string>
+    <string name="menu_delete_all">Kustuta kärjeteated</string>
+    <string name="message_options">kärjeteate valikud</string>
     <string name="menu_view_details">Kuva üksikasjad</string>
-    <string name="menu_delete">Kustuta levisõnum</string>
+    <string name="menu_delete">Kustuta kärjeteade</string>
     <string name="view_details_title">Üksikasjalik info</string>
-    <string name="confirm_delete_broadcast">Kas kustutada see levisõnum?</string>
-    <string name="confirm_delete_all_broadcasts">Kas kustutada kõik saabunud levisõnumid?</string>
+    <string name="confirm_delete_broadcast">Kas kustutada see kärjeteade?</string>
+    <string name="confirm_delete_all_broadcasts">Kas kustutada kõik saabunud kärjeteated?</string>
     <string name="button_delete">Kustuta</string>
     <string name="button_cancel">Tühista</string>
     <string name="etws_earthquake_warning">Maavärina hoiatus</string>
@@ -49,6 +49,9 @@
     <string name="enable_emergency_alerts_title">Hädaolukorra märguanded</string>
     <string name="enable_emergency_alerts_summary">Hädaolukorra märguannete kuvamine</string>
     <string name="alert_sound_duration_title">Märguandeheli kestus</string>
+    <string name="alert_sound_duration_summary"/>
+    <string name="alert_reminder_interval_title">Märguande meeldetuletus</string>
+    <string name="alert_reminder_interval_summary"/>
     <string name="enable_alert_speech_title">Kõnesüntees</string>
     <string name="enable_alert_speech_summary">Kõnesünteesi kasutamine hädaolukorra märguannete esitamiseks</string>
     <string name="category_etws_settings_title">ETWS seaded</string>
@@ -113,5 +116,11 @@
     <item>6 sekundit</item>
     <item>8 sekundit</item>
     <item>10 sekundit</item>
+  </string-array>
+  <string-array name="alert_reminder_interval_entries">
+    <item>Korra</item>
+    <item>Iga 2 minuti tagant</item>
+    <item>Iga 15 minuti tagant</item>
+    <item>Väljas</item>
   </string-array>
 </resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2011 The Android Open Source Project
+      Copyright (C) 2013 Hasso Tepper
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+<resources 
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="prompt">Rakendus <xliff:g id="APP">%s</xliff:g> soovib luua VPN ühendust.</string>
+    <string name="warning">Jätkates annad rakendusele õiguse jälgida kogu võrguliiklust. <b>Kui sa seda rakendust ei usalda, ÄRA NÕUSTU.</b> Vastasel juhul on võimalus, et pahavara võib su andmed ohtu seada.</string>
+    <string name="accept">Usaldan seda rakendust.</string>
+    <string name="legacy_title">VPN on ühendatud</string>
+    <string name="configure">Seadista</string>
+    <string name="disconnect">Katkesta</string>
+    <string name="session">Seansid</string>
+    <string name="duration">Kestus:</string>
+    <string name="data_transmitted">Saadetud:</string>
+    <string name="data_received">Saadud:</string>
+    <string name="data_value_format"><xliff:g id="NUMBER_0">%1$s</xliff:g> baiti / <xliff:g id="NUMBER_1">%2$s</xliff:g> paketti</string>
+</resources>

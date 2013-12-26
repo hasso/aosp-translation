@@ -14,27 +14,36 @@
      See the License for the specific language governing permissions and
      limitations under the License.
  -->
-
-<resources xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources>
     <string name="title_activity_filter_show">Fototöötlus</string>
-    <string name="cannot_load_image">Pilti ei saa laadida!</string>
-    <!-- no translation found for original_picture_text (3076213290079909698) -->
-    <skip />
+    <string name="cannot_load_image">Pilti ei saa laadida.</string>
+    <string name="cannot_edit_original">Originaali ei saa muuta</string>
+    <string name="original_picture_text">@string/original</string>
+    <string name="setting_wallpaper">Tasutapildi seadmine</string>
+    <string name="download_failure">Foto laadimine ebaõnnestus. Võrk pole kättesaadav.</string>
     <string name="original">Originaal</string>
     <string name="borders">Äärised</string>
-    <string name="done">Valmis</string>
+    <string name="custom_border">Kohandatud</string>
     <string name="filtershow_undo">Võta tagasi</string>
     <string name="filtershow_redo">Tee uuesti</string>
-    <string name="show_history_panel">Kuva ajalugu</string>
-    <string name="hide_history_panel">Peida ajalugu</string>
     <string name="show_imagestate_panel">Kuva pildi olek</string>
     <string name="hide_imagestate_panel">Peida pildi olek</string>
+    <string name="export_image">Ekspordi</string>
+    <string name="print_image">Trüki</string>
+    <string name="export_flattened">Pildi eksport</string>
+    <string name="select_output_settings">Eksporditud pilt on ainult koopia, ilma töötluse ajaloota.</string>
+    <string name="quality">Kvaliteet</string>
+    <string name="size">Suurus</string>
+    <string name="x">x</string>
     <string name="menu_settings">Seaded</string>
+    <string name="unsaved">Selle pildi muudatused on salvestamata.</string>
+    <string name="save_before_exit">Soovid sa muudatused enne väljumist salvestada?</string>
+    <string name="save_and_exit">Salvesta ja välju</string>
+    <string name="save_and_processing">Täismõõdus pildi töötlemine \u2026</string>
+    <string name="exit">Välju</string>
     <string name="history">Ajalugu</string>
     <string name="reset">Lähtesta</string>
-    <!-- no translation found for history_original (150973253194312841) -->
-    <skip />
+    <string name="history_original">@string/original</string>
     <string name="imageState">Pildi praegune olek</string>
     <string name="compare_original">Võrdle</string>
     <string name="apply_effect">Rakenda</string>
@@ -48,8 +57,8 @@
     <string name="aspect7to5_effect">7:5</string>
     <string name="aspect9to16_effect">16:9</string>
     <string name="aspectNone_effect">Puudub</string>
-    <!-- no translation found for aspectOriginal_effect (5678516555493036594) -->
-    <skip />
+    <string name="aspectOriginal_effect">@string/original</string>
+    <string name="Fixed">Fikseeritud</string>
     <string name="tinyplanet">Pisike planeet</string>
     <string name="exposure">Säri</string>
     <string name="sharpness">Teravus</string>
@@ -60,16 +69,84 @@
     <string name="wbalance">Valge tasakaal</string>
     <string name="hue">Värvitoon</string>
     <string name="shadow_recovery">Varjud</string>
+    <string name="highlight_recovery">Ülesäri/alasäri</string>
     <string name="curvesRGB">Kõverad</string>
     <string name="vignette">Vinjett</string>
+    <string name="vignette_main">Vinjett</string>
+    <string name="vignette_exposure">Säri</string>
+    <string name="vignette_saturation">Küllastus</string>
+    <string name="vignette_contrast">Kontrast</string>
+    <string name="vignette_falloff">Heledus</string>
     <string name="redeye">Punasilmsus</string>
+    <string name="imageDraw">Joonistamine</string>
     <string name="straighten">Otseks ajamine</string>
     <string name="crop">Kärpimine</string>
     <string name="rotate">Pööramine</string>
     <string name="mirror">Peegeldamine</string>
+    <string name="negative">Negatiiv</string>
     <string name="none">Puudub</string>
+    <string name="edge">Servad</string>
+    <string name="kmeans">Warhol</string>
+    <string name="downsample">Vähemaks diskreetimine</string>
+    <string name="grad">Astmeline</string>
+    <string name="editor_grad_brightness">Heledus</string>
+    <string name="editor_grad_contrast">Kontrast</string>
+    <string name="editor_grad_saturation">Küllastus</string>
+    <string name="editor_chan_sat_main">Üldine</string>
+    <string name="editor_chan_sat_red">Punane</string>
+    <string name="editor_chan_sat_yellow">Kollane</string>
+    <string name="editor_chan_sat_green">Roheline</string>
+    <string name="editor_chan_sat_cyan">Tsüaan</string>
+    <string name="editor_chan_sat_blue">Sinine</string>
+    <string name="editor_chan_sat_magenta">Magenta</string>
+    <string name="editor_grad_style">Stiil</string>
+    <string name="editor_grad_new">uus</string>
     <string name="curves_channel_rgb">RGB</string>
     <string name="curves_channel_red">Punane</string>
     <string name="curves_channel_green">Roheline</string>
     <string name="curves_channel_blue">Sinine</string>
+    <string name="draw_style">Stiil</string>
+    <string name="draw_size">Suurus</string>
+    <string name="draw_hue">Toon</string>
+    <string name="draw_saturation">Küllastus</string>
+    <string name="draw_value">Heledus</string>
+    <string name="draw_color">Värv</string>
+    <string name="draw_style_line">Jooned</string>
+    <string name="draw_style_brush_spatter">Värvipüstol</string>
+    <string name="draw_style_brush_marker">Pliiats</string>
+    <string name="draw_clear">Kustukumm</string>
+    <string name="color_border_size">Paksus</string>
+    <string name="color_border_corner_size">Nurga suurus</string>
+    <string name="color_border_color">Värv</string>
+    <string name="color_border_clear">Eemalda</string>
+    <string name="color_pick_select">Vali kohandatud värv</string>
+    <string name="color_pick_title">Värvi valimine</string>
+    <string name="draw_size_title">Suuruse valimine</string>
+    <string name="draw_size_accept">OK</string>
+    <string name="state_panel_original">Originaal</string>
+    <string name="state_panel_result">Tulemus</string>
+    <string name="filtershow_notification_label">Pildi salvestamine</string>
+    <string name="filtershow_notification_message">Töötlemine \u2026</string>
+    <string name="filtershow_save_preset">Salvesta eelseade</string>
+    <string name="filtershow_manage_preset">Halda kasutaja eelseadeid</string>
+    <string name="filtershow_new_preset">Uus eelseade</string>
+    <string name="filtershow_preset_name">Eelseade nimi</string>
+    <string name="filtershow_show_info_panel">Info</string>
+    <string name="filtershow_show_info_panel_name">Pildi nimi</string>
+    <string name="filtershow_show_info_panel_size">Pildi suurus</string>
+    <string name="filtershow_show_info_panel_histogram">Histogramm</string>
+    <string name="filtershow_show_info_panel_exif">EXIF andmed</string>
+    <string name="filtershow_add_button_looks">Valmisseade</string>
+    <string name="filtershow_add_button_versions">Versioon</string>
+    <string name="filtershow_version_original">Originaal</string>
+    <string name="filtershow_version_current">Käesolev</string>
+    <string name="filtershow_exif_model">Mudel</string>
+    <string name="filtershow_exif_aperture">Ava (APEX)</string>
+    <string name="filtershow_exif_focal_length">Fookuskaugus</string>
+    <string name="filtershow_exif_iso">ISO</string>
+    <string name="filtershow_exif_subject_distance">Subjekti kaugus</string>
+    <string name="filtershow_exif_date">Kuupäev</string>
+    <string name="filtershow_exif_f_stop">Ava</string>
+    <string name="filtershow_exif_exposure_time">Säriaeg</string>
+    <string name="filtershow_exif_copyright">Autoriõigus</string>
 </resources>

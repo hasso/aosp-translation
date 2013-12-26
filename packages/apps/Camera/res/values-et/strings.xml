@@ -14,9 +14,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
  -->
-
-<resources xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="camera_error_title">Kaamera viga</string>
     <string name="cannot_connect_camera">Kaameraga ei saa ühendust.</string>
     <string name="camera_disabled">Kaamera kasutamine on turvaeeskirjade poolt keelatud.</string>
@@ -36,6 +34,12 @@
     <string name="pref_camera_id_entry_back">Tagumine</string>
     <string name="pref_camera_id_entry_front">Esimene</string>
     <string name="pref_camera_recordlocation_title">Salvestamise koht</string>
+    <string name="pref_camera_timer_title">Kaamera taimer</string>
+  <plurals name="pref_camera_timer_entry">
+    <item quantity="one">1 sekund</item>
+    <item quantity="other">%d sekundit</item>
+  </plurals>
+    <string name="pref_camera_timer_sound_title">Piiksumine taimeri loendamisel</string>
     <string name="setting_off">Väljas</string>
     <string name="setting_on">Sees</string>
     <string name="pref_video_quality_title">Video kvaliteet</string>
@@ -76,8 +80,6 @@
     <string name="pref_camera_scenemode_entry_party">Pidu</string>
     <string name="not_selectable_in_scene_mode">Seda ei saa stseenirežiimis valida.</string>
     <string name="pref_exposure_title">Säri</string>
-    <!-- no translation found for pref_camera_hdr_default (1336869406134365882) -->
-    <skip />
     <string name="dialog_ok">OK</string>
     <string name="spaceIsLow_content" product="nosdcard">Vaba ruum su USB mäluseadmel on lõppemas. Muuda kvaliteedi seadeid või kustuta pilte või teisi faile.</string>
     <string name="spaceIsLow_content" product="default">Vaba ruum su SD kaardil on lõppemas. Muuda kvaliteedi seadeid või kustuta pilte või teisi faile.</string>
@@ -104,6 +106,8 @@
     <string name="effect_backdropper_gallery">Sinu video</string>
     <string name="bg_replacement_message">Pane seade käest ära.\nAstu korraks vaateväljast eemale.</string>
     <string name="video_snapshot_hint">Filmimise ajal foto jäädvustamiseks puuduta ekraani.</string>
+    <string name="video_recording_started">Video salvestamine algas</string>
+    <string name="video_recording_stopped">Video salvestamine lõppes</string>
     <string name="disable_video_snapshot_hint">Kui eriefektid on sisse lülitatud, on video hetktõmmis keelatud.</string>
     <string name="clear_effects">Eemalda efektid</string>
     <string name="effect_silly_faces">NALJAKAD NÄOD</string>
@@ -118,7 +122,7 @@
     <string name="accessibility_zoom_control">Suumi juhtimine</string>
     <string name="accessibility_decrement">%1$s vähendamine</string>
     <string name="accessibility_increment">%1$s suurendamine</string>
-    <string name="accessibility_switch">Lüliti %1$s</string>
+    <string name="accessibility_check_box">märkeruut %1$s</string>
     <string name="accessibility_switch_to_camera">Fotorežiimi aktiveerimine</string>
     <string name="accessibility_switch_to_video">Videorežiimi aktiveerimine</string>
     <string name="accessibility_switch_to_panorama">Aktiveeri panoraamrežiim</string>
@@ -174,6 +178,9 @@
     <string name="time_lapse_interval_set">Valmis</string>
     <string name="set_time_interval">Intervalli määramine</string>
     <string name="set_time_interval_help">Intervallpildistamine on välja lülitatud. Intervalli määramiseks lülita see sisse.</string>
+    <string name="set_timer_help">Mahalugemise taimer on välja lülitatud. Enne aja määramist lülita see sisse.</string>
+    <string name="set_duration">Määra aeg sekundites</string>
+    <string name="count_down_title_text">Aja lugemine pildi tegemiseni</string>
     <string name="remember_location_title">Kas jätta meelde pildistamise asukohad?</string>
     <string name="remember_location_prompt">Fotode ja videote tegemise asukoht säilitatakse metainfos.\n\nMuud rakendused pääsevad lisaks salvestatud piltidele ligi ka sellele teabele.</string>
     <string name="remember_location_no">Ei</string>

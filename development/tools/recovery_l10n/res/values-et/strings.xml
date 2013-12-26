@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources >
+    <string name="recovery_installing">Süsteemi värskenduse paigaldamine \u2026</string>
+    <string name="recovery_erasing">Kustutamine \u2026</string>
+    <string name="recovery_no_command">Käsk puudub.</string>
+    <string name="recovery_error">Viga!</string>
+</resources>

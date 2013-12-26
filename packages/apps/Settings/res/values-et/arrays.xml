@@ -18,9 +18,8 @@
 ** limitations under the License.
 */
  -->
-
-<resources xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources 
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string-array name="timezone_filters">
     <item>Ameerika</item>
     <item>Euroopa</item>
@@ -71,7 +70,11 @@
     <item>Aeglane</item>
     <item>Tavaline</item>
     <item>Kiire</item>
+    <item>Kiirem</item>
+    <item>Veel kiirem</item>
     <item>Väga kiire</item>
+    <item>Superkiire</item>
+    <item>Kiireim</item>
   </string-array>
   <string-array name="tts_pitch_entries">
     <item>Väga madal</item>
@@ -81,7 +84,7 @@
     <item>Väga kõrge</item>
   </string-array>
   <string-array name="wifi_status">
-    <item></item>
+    <item/>
     <item>Skannimine \u2026</item>
     <item>Ühenduse loomine \u2026</item>
     <item>Autentimine \u2026</item>
@@ -95,7 +98,7 @@
     <item>Kehva ühenduse ajutine vältimine</item>
   </string-array>
   <string-array name="wifi_status_with_ssid">
-    <item></item>
+    <item/>
     <item>Skannimine \u2026</item>
     <item>Ühendamine võrguga <xliff:g id="NETWORK_NAME">%1$s</xliff:g> \u2026</item>
     <item>Autentimine võrguga <xliff:g id="NETWORK_NAME">%1$s</xliff:g> \u2026</item>
@@ -108,13 +111,6 @@
     <item>Blokeeritud</item>
     <item>Kehva ühenduse ajutine vältimine</item>
   </string-array>
-    <!-- no translation found for wifi_security:0 (8491993170197127709) -->
-    <!-- no translation found for wifi_security:1 (6524315248437318854) -->
-    <!-- no translation found for wifi_security:2 (1532568756571457140) -->
-    <!-- no translation found for wifi_security:3 (3620707702811709779) -->
-    <!-- no translation found for wifi_security_no_eap:0 (2084555984818107151) -->
-    <!-- no translation found for wifi_security_no_eap:1 (397579322683471524) -->
-    <!-- no translation found for wifi_security_no_eap:2 (1968820975358150484) -->
   <string-array name="wifi_eap_method">
     <item>PEAP</item>
     <item>TLS</item>
@@ -171,6 +167,11 @@
     <item>TTLS</item>
     <item>PWD</item>
   </string-array>
+  <string-array name="wifi_peap_phase2_entries">
+    <item>Puudub</item>
+    <item>MSCHAPV2</item>
+    <item>GTC</item>
+  </string-array>
   <string-array name="wifi_phase2_entries">
     <item>Puudub</item>
     <item>PAP</item>
@@ -207,15 +208,135 @@
     <item>eHRPD</item>
     <item>Määramata</item>
   </string-array>
+  <string-array name="mvno_type_entries">
+    <item>Puudub</item>
+    <item>SPN</item>
+    <item>IMSI</item>
+    <item>GID</item>
+  </string-array>
   <string-array name="app_install_location_entries">
     <item>Seadme sisemine salvestusruum</item>
     <item>Eemaldatav SD kaart</item>
     <item>Süsteem ise otsustab</item>
   </string-array>
+  <string-array name="app_ops_categories">
+    <item>Asukoht</item>
+    <item>Isiklik</item>
+    <item>Sõnumid</item>
+    <item>Seade</item>
+  </string-array>
+  <string-array name="app_ops_summaries">
+    <item>ligikaudne asukoht</item>
+    <item>täpne asukoht</item>
+    <item>GPS</item>
+    <item>vibreerimine</item>
+    <item>kontaktide lugemine</item>
+    <item>kontaktide muutmine</item>
+    <item>kõnelogi lugemine</item>
+    <item>kõnelogi muutmine</item>
+    <item>kalendri lugemine</item>
+    <item>kalendri muutmine</item>
+    <item>wi-fi skaneerimine</item>
+    <item>märguanded</item>
+    <item>mobiilvõrgu skaneerimine</item>
+    <item>telefoniga helistamine</item>
+    <item>SMS-ide lugemine</item>
+    <item>SMS-ide kirjutamine</item>
+    <item>SMS-ide vastuvõtmine</item>
+    <item>hädaolukorra SMS-ide vastuvõtmine</item>
+    <item>MMS-ide vastuvõtmine</item>
+    <item>WAP push sõnumite vastuvõtmine</item>
+    <item>SMS-ide saatmine</item>
+    <item>ICC SMS-ide lugemine</item>
+    <item>ICC SMS-ide kirjutamine</item>
+    <item>seadete muutmine</item>
+    <item>kõige peale joonistamine</item>
+    <item>ligipääs märguannetele</item>
+    <item>kaamera</item>
+    <item>audio salvestamine</item>
+    <item>audio esitus</item>
+    <item>lõikepuhvri lugemine</item>
+    <item>lõikepuhvri muutmine</item>
+  </string-array>
+  <string-array name="app_ops_labels">
+    <item>Asukoht</item>
+    <item>Asukoht</item>
+    <item>Asukoht</item>
+    <item>Vibreerimine</item>
+    <item>Kontaktide lugemine</item>
+    <item>Kontaktide kirjutamine</item>
+    <item>Kõnelogi lugemine</item>
+    <item>Kõnelogi muutmine</item>
+    <item>Kalendri lugemine</item>
+    <item>Kalendri muutmine</item>
+    <item>Asukoht</item>
+    <item>Märguannete tekitamine</item>
+    <item>Asukoht</item>
+    <item>Telefoniga helistamine</item>
+    <item>SMS/MMS sõnumite vastuvõtmine</item>
+    <item>SMS/MMS sõnumite saatmine</item>
+    <item>SMS/MMS sõnumite vastuvõtmine</item>
+    <item>SMS/MMS sõnumite vastuvõtmine</item>
+    <item>SMS/MMS sõnumite vastuvõtmine</item>
+    <item>SMS/MMS sõnumite vastuvõtmine</item>
+    <item>SMS/MMS sõnumite saatmine</item>
+    <item>SMS/MMS sõnumite vastuvõtmine</item>
+    <item>SMS/MMS sõnumite saatmine</item>
+    <item>Seadete muutmine</item>
+    <item>Kõige peale joonistamine</item>
+    <item>Ligipääs märguannetele</item>
+    <item>Kaamera</item>
+    <item>Audio salvestamine</item>
+    <item>Audio esitus</item>
+    <item>Lõikepuhvri lugemine</item>
+    <item>Lõikepuhvri muutmine</item>
+  </string-array>
   <string-array name="long_press_timeout_selector_titles">
     <item>Lühike</item>
     <item>Keskmine</item>
     <item>Pikk</item>
+  </string-array>
+  <string-array name="captioning_typeface_selector_titles">
+    <item>Vaikeväärtus</item>
+    <item>Sans-serif</item>
+    <item>Tihendatud sans-serif</item>
+    <item>Serif</item>
+    <item>Monospace</item>
+  </string-array>
+  <string-array name="captioning_font_size_selector_titles">
+    <item>Väga väike</item>
+    <item>Väike</item>
+    <item>Tavaline</item>
+    <item>Suur</item>
+    <item>Väga suur</item>
+  </string-array>
+  <string-array name="captioning_edge_type_selector_titles">
+    <item>Puudub</item>
+    <item>Kontuur</item>
+    <item>Vari</item>
+  </string-array>
+  <string-array name="captioning_opacity_selector_titles" >
+    <item>25%</item>
+    <item>50%</item>
+    <item>75%</item>
+    <item>100%</item>
+  </string-array>
+  <string-array name="captioning_preset_selector_titles" >
+    <item>Valge mustal</item>
+    <item>Must valgel</item>
+    <item>Kollane mustal</item>
+    <item>Kollane sinisel</item>
+    <item>Kohandatud</item>
+  </string-array>
+  <string-array name="select_runtime_titles">
+    <item>Dalvik</item>
+    <item>ART</item>
+    <item>ART (silumisinfoga)</item>
+  </string-array>
+  <string-array name="select_runtime_summaries" >
+    <item>Dalvik</item>
+    <item>ART</item>
+    <item>Silumisinfoga ART</item>
   </string-array>
   <string-array name="hdcp_checking_titles">
     <item>Mitte kunagi</item>
@@ -267,6 +388,23 @@
     <item>Systrace (graafika)</item>
     <item>Väljakutsete pinu glGetError korral</item>
   </string-array>
+  <string-array name="show_non_rect_clip_entries">
+    <item>Väljas</item>
+    <item>Mitte ristküliku kujuliste pindade kärpimine siniselt</item>
+    <item>Testitud joonistamiskäskude esiletõst roheliselt</item>
+  </string-array>
+  <string-array name="track_frame_time_entries">
+    <item>Väljas</item>
+    <item>Ribadena ekraanil</item>
+    <item>Joontena ekraanil</item>
+    <item>„adb shell dumpsys gfxinfo“ väljundis</item>
+  </string-array>
+  <string-array name="debug_hw_overdraw_entries">
+    <item>Väljas</item>
+    <item>Ülejoonistustega pindade näitamine</item>
+    <item>Värvinihkega pindade näitamine</item>
+    <item>Ülejoonistuste arvu näitamine</item>
+  </string-array>
   <string-array name="app_process_limit_entries">
     <item>Standardne piirarv</item>
     <item>Taustaprotsessid on keelatud</item>
@@ -295,5 +433,11 @@
     <item>Küsi iga kord</item>
     <item>Ära luba kunagi</item>
     <item>Luba alati</item>
+  </string-array>
+  <string-array name="ram_states">
+    <item>normaalne</item>
+    <item>rahuldav</item>
+    <item>madal</item>
+    <item>kriitiline</item>
   </string-array>
 </resources>

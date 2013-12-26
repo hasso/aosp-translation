@@ -14,9 +14,8 @@
      See the License for the specific language governing permissions and
      limitations under the License.
  -->
-
-<resources xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources 
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="permlab_bluetoothShareManager">ligipääs allalaadimishaldurile</string>
     <string name="permdesc_bluetoothShareManager">Võimaldab rakendusel pääseda BluetoothShare\'i haldurisse ja kasutada seda failide edastamiseks.</string>
     <string name="permlab_bluetoothWhitelist">Bluetooth seadmele ligipääsu lubamine</string>
@@ -28,7 +27,7 @@
     <string name="unknownNumber">Tundmatu</string>
     <string name="airplane_error_title">Lennurežiim</string>
     <string name="airplane_error_msg">Bluetoothi ei saa lennurežiimis kasutada.</string>
-    <string name="bt_enable_title"></string>
+    <string name="bt_enable_title"/>
     <string name="bt_enable_line1">Bluetoothi teenuste kasutamiseks pead Bluetoothi esmalt sisse lülitama.</string>
     <string name="bt_enable_line2">Lülitan Bluetoothi kohe sisse?</string>
     <string name="bt_enable_cancel">Tühista</string>
@@ -53,7 +52,7 @@
     <string name="download_line1">Saatja: „<xliff:g id="SENDER">%1$s</xliff:g>”</string>
     <string name="download_line2">Fail: <xliff:g id="FILE">%1$s</xliff:g></string>
     <string name="download_line3">Faili suurus: <xliff:g id="SIZE">%1$s</xliff:g></string>
-    <string name="download_line4"></string>
+    <string name="download_line4"/>
     <string name="download_line5">Faili vastuvõtmine \u2026</string>
     <string name="download_cancel">Peata</string>
     <string name="download_ok">Peida</string>

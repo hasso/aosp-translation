@@ -18,9 +18,7 @@
  * limitations under the License.
  */
  -->
-
-<resources xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_label">Sõnumside</string>
     <string name="new_message">Uus sõnum</string>
     <string name="menu_call_back">Helista kasutajale <xliff:g id="NAME">%s</xliff:g></string>
@@ -87,6 +85,8 @@
     <string name="all_threads">Kõik lõimed</string>
     <string name="type_to_compose_text_enter_to_send">Sisesta sõnumi tekst</string>
     <string name="open_keyboard_to_compose_message">Sõnumi teksti sisestamiseks ava klaviatuur</string>
+    <string name="sending_disabled_not_default_app">Saatmine on keelatud</string>
+    <string name="compose_disabled_toast">Sõnumit ei saa luua. SMS vaikerakendust pole määratud.</string>
     <string name="compressing">Pilt on liiga suur. Pakkimine \u2026</string>
     <string name="unsupported_media_format"><xliff:g id="NAME">%1$s</xliff:g> vorming pole toetatud.</string>
     <string name="select_different_media">Vali teine <xliff:g id="NAME">%1$s</xliff:g>.</string>
@@ -130,17 +130,17 @@
     <string name="duration_zero">Kestus peab olema pikem kui null sekundit.</string>
     <string name="secs">s</string>
   <string-array name="select_dialog_items">
-    <item>"1 sekund</item>
-    <item>"2 sekundit</item>
-    <item>"3 sekundit</item>
-    <item>"4 sekundit</item>
-    <item>"5 sekundit</item>
-    <item>"6 sekundit</item>
-    <item>"7 sekundit</item>
-    <item>"8 sekundit</item>
-    <item>"9 sekundit</item>
-    <item>"10 sekundit</item>
-    <item>"Muu</item>
+    <item>1 sekund</item>
+    <item>2 sekundit</item>
+    <item>3 sekundit</item>
+    <item>4 sekundit</item>
+    <item>5 sekundit</item>
+    <item>6 sekundit</item>
+    <item>7 sekundit</item>
+    <item>8 sekundit</item>
+    <item>9 sekundit</item>
+    <item>10 sekundit</item>
+    <item>Muu</item>
   </string-array>
     <string name="menu_view_contact">Näita kontakti</string>
     <string name="menu_add_to_contacts">Lisa aadressiraamatusse</string>
@@ -157,6 +157,10 @@
     <string name="pref_mms_settings_title">Multimeediumsõnumid (MMS)</string>
     <string name="pref_sms_settings_title">Tekstsõnumid (SMS)</string>
     <string name="pref_sms_storage_title">Salvestamine</string>
+    <string name="pref_title_sms_disabled">SMS-i kasutamine on keelatud</string>
+    <string name="pref_summary_sms_disabled">Sõnumiside rakenduse muutmiseks SMS-i vaikerakenduseks puuduta seda teksti</string>
+    <string name="pref_title_sms_enabled">SMS-i kasutamine on lubatud</string>
+    <string name="pref_summary_sms_enabled">SMS-i vaikerakenduse muutmiseks puuduta seda teksti</string>
     <string name="pref_summary_manage_sim_messages">SIM-kaardile salvestatud sõnumite haldamine</string>
     <string name="pref_summary_mms_delivery_reports">Igale saadetud sõnumile küsitakse kohaletoimetuskinnitust</string>
     <string name="pref_summary_mms_read_reports">Igale saadetud sõnumile küsitakse lugemiskinnitust</string>
@@ -275,6 +279,7 @@
     <string name="message_send_failed_title">Sõnumit ei saadetud</string>
     <string name="message_failed_body">Vaata sõnum üle ja proovi siis uuesti.</string>
     <string name="download_later">Praegu pole alla laadimine võimalik. Proovi hiljem uuesti.</string>
+    <string name="no_apn">Seadmes pole APN määratud.</string>
     <string name="select_audio">Audio valimine</string>
     <string name="copy_to_sdcard">Salvesta manus</string>
     <string name="copy_to_sdcard_success">Manus on salvestatud.</string>
@@ -282,7 +287,6 @@
     <string name="save_ringtone">Salvesta helinaks</string>
     <string name="saved_ringtone">Helin on salvestatud.</string>
     <string name="saved_ringtone_fail">Helinat ei õnnestunud salvestada.</string>
-    <string name="menu_insert_smiley">Lisa emotikon</string>
     <string name="menu_group_participants">Grupi liikmed</string>
     <string name="select_link_title">Toimingu valimine</string>
     <string name="slide_number">Slaid <xliff:g id="NUMBER">%s</xliff:g></string>
@@ -343,4 +347,11 @@
     <string name="notification_separator">\u0020\u0020</string>
     <string name="enumeration_comma">,\u0020</string>
     <string name="message_timestamp_format"><xliff:g id="STRING_0">%1$s</xliff:g>\u0020–\u0020<xliff:g id="STRING_1">%2$s</xliff:g></string>
+    <string name="storage_warning_title">Telefoni salvestusruum on täis</string>
+    <string name="storage_warning_content">Sa ei saa enam uusi SMS/MMS sõnumeid</string>
+    <string name="label_mms_send_outbox_msg">MMS-ide äratus</string>
+    <string name="desc_mms_send_outbox_msg">Saadab väljuvate sõnumite kaustast kõik MMS-id ära</string>
+    <string name="banner_sms_promo_title_initial">„Sõnumiside“ pole su SMS rakendus</string>
+    <string name="banner_sms_promo_title_application">Su SMS rakendus on praegu <xliff:g id="appName">%s</xliff:g></string>
+    <string name="banner_sms_promo_message">Muuta saad seda seadetes</string>
 </resources>

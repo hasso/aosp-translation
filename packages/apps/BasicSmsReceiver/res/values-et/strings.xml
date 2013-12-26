@@ -14,9 +14,8 @@
      See the License for the specific language governing permissions and
      limitations under the License.
  -->
-
-<resources xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources 
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="sms_app_name">Lihtne sõnumi vastuvõtja</string>
     <string name="sms_message_from_format">Sõnum kasutajalt <xliff:g id="USERNAME">%1$s</xliff:g></string>
     <string name="sms_done_button">Valmis</string>
