@@ -14,8 +14,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
  -->
-<resources 
-xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="backup_confirm_title">Täielik varundamine</string>
     <string name="restore_confirm_title">Täielik taastamine</string>
     <string name="backup_confirm_text">Rakendus seadmega ühendatud arvutis soovib sinna teha täieliku varukoopia kõikidest andmetest su seadmes. Kas lubad seda?\n\nKui see ei olnud sina, kes varundamist soovis, siis ära luba sel jätkata.</string>

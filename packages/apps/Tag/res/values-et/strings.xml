@@ -14,8 +14,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
  -->
-<resources 
-xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Märgised</string>
     <string name="title_scanned_tag">Uus märgend on kogutud</string>
     <string name="title_existing_tag">Märgis</string>

@@ -17,8 +17,7 @@
 ** limitations under the License.
 */
  -->
-<resources 
-xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="onesong">1 pala</string>
   <plurals name="Nsongs">
     <item quantity="one">1 pala</item>

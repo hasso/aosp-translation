@@ -17,6 +17,6 @@
  * limitations under the License.
  */
  -->
-<resources >
+<resources>
     <string name="app_label">Seadete salvestusteenus</string>
 </resources>

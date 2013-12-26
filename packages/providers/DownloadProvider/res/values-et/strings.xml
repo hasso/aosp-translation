@@ -14,8 +14,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
  -->
-<resources 
-xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_label">Allalaadimiste haldur</string>
     <string name="permlab_downloadManager">ligipääs allalaadimiste haldurile</string>
     <string name="permdesc_downloadManager">Võimaldab rakendusel pääseda ligi allalaadimiste haldurile ja selle abil faile alla laadida. Pahatahtlikud rakendused võivad selle abil allalaadimisi takistada või privaatsete andmetele ligi pääseda.</string>

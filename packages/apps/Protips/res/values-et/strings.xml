@@ -14,8 +14,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
  -->
-<resources 
-xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="widget_name">Avaekraani nõuanded</string>
     <string name="pager_footer"><xliff:g id="CURPAGE">%1$d</xliff:g>/<xliff:g id="NUMPAGES">%2$d</xliff:g></string>
     <string name="tts_pause">.</string>

@@ -14,8 +14,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
  -->
-<resources 
-xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="calendar_storage">Kalendri salvestusruum</string>
     <string name="upgrade_msg">Kalendri andmebaasi uuendamine.</string>
     <string name="calendar_default_name">Vaikekalender</string>

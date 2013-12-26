@@ -17,8 +17,7 @@
 * limitations under the License.
 */
  -->
-<resources 
-xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="application_name">Liikuva taustapildi valija</string>
     <string name="live_wallpaper_picker_title">Liikuva taustapildi valimine</string>
     <string name="live_wallpaper_picker_label">Liikuvad taustapildid</string>

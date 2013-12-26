@@ -17,8 +17,7 @@
 * limitations under the License.
 */
  -->
-<resources 
-xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="wallpapers">Androidi liikuvad taustapildid</string>
     <string name="wallpaper_walkaround">Läbipaistev telefon</string>
     <string name="wallpaper_walkaround_author">Google</string>

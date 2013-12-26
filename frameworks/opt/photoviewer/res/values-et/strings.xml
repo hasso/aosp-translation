@@ -16,8 +16,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
  -->
-<resources 
-xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="photo_view_count"><xliff:g id="CURRENT_POS">%d</xliff:g>/<xliff:g id="COUNT">%d</xliff:g></string>
     <string name="retry">Proovi uuesti</string>
     <string name="failed">Pilti ei õnnestunud laadida</string>

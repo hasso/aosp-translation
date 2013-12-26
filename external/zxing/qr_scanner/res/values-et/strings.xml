@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<resources >
+<resources>
     <string name="msg_default_status">Skaneerimiseks paiguta QR-kood pildiotsija ristkülikusse.</string>
     <string name="msg_camera_framework_bug">Vabandust, kahjuks on Androidi kaameraga probleeme. Sa võid proovida seadet taaskäivitada.</string>
 </resources>

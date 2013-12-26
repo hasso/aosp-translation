@@ -14,8 +14,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
  -->
-<resources 
-xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="application_name">Brauser</string>
     <string name="choose_upload">Üleslaaditava faili valimine</string>
     <string name="uploads_disabled">Failide üleslaadimised on keelatud.</string>

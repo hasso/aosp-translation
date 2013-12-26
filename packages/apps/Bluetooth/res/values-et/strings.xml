@@ -14,8 +14,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
  -->
-<resources 
-xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="permlab_bluetoothShareManager">ligipääs allalaadimishaldurile</string>
     <string name="permdesc_bluetoothShareManager">Võimaldab rakendusel pääseda BluetoothShare\'i haldurisse ja kasutada seda failide edastamiseks.</string>
     <string name="permlab_bluetoothWhitelist">Bluetooth seadmele ligipääsu lubamine</string>

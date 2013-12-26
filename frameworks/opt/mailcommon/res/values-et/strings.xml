@@ -18,8 +18,7 @@
  * limitations under the License.
  */
  -->
-<resources 
-xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="multiple_new_message_notification_item"><b><xliff:g id="SENDER">%1$s</xliff:g></b>  <xliff:g id="SUBJECT">%2$s</xliff:g></string>
     <string name="single_new_message_notification_big_text"><xliff:g id="SUBJECT">%1$s</xliff:g>\n<xliff:g id="SNIPPET">%2$s</xliff:g></string>
 </resources>

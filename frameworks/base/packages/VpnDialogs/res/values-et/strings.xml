@@ -14,8 +14,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
  -->
-<resources 
-xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="prompt">Rakendus <xliff:g id="APP">%s</xliff:g> soovib luua VPN ühendust.</string>
     <string name="warning">Jätkates annad rakendusele õiguse jälgida kogu võrguliiklust. <b>Kui sa seda rakendust ei usalda, ÄRA NÕUSTU.</b> Vastasel juhul on võimalus, et pahavara võib su andmed ohtu seada.</string>
     <string name="accept">Usaldan seda rakendust.</string>

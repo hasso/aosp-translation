@@ -14,7 +14,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
  -->
-<resources >
+<resources>
   <string-array name="timezone_rename_labels">
     <item msgid="4609638052107641231">"Kesk-Austraalia – NT"</item>
     <item msgid="4345275500159159867">"Kesk-Austraalia – SA"</item>

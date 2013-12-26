@@ -14,8 +14,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources 
-xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="short_app_name">Filmistuudio</string>
     <string name="full_app_name">Androidi filmistuudio</string>
     <string name="editor_loading_project">Projekti laadimine \u2026</string>

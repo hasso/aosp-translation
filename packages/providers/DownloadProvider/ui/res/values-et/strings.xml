@@ -13,8 +13,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
  -->
-<resources 
-xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_label">Allalaadimised</string>
     <string name="download_title_sorted_by_date">Allalaadimised - sorditud kuupäeva järgi</string>
     <string name="download_title_sorted_by_size">Allalaadimised - sorditud suuruse järgi</string>

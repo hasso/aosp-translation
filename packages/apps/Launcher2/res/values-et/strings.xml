@@ -17,8 +17,7 @@
 * limitations under the License.
 */
  -->
-<resources 
-xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="application_name">Launcher</string>
     <string name="home">Kodu</string>
     <string name="uid_name">Androidi tuumikrakendused</string>

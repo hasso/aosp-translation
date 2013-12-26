@@ -14,7 +14,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
  -->
-<resources >
+<resources>
   <string-array name="tips">
     <item>Vaata kõiki oma rakendusi.\nPuuduta <i>Launcheri</i> ikooni. @drawable/all_apps</item>
     <item>Rakenduste lohistamine avaekraanile.\nPuuduta rakendust ja hoia sõrme sellel, kuni tunned vibreerimist.</item>

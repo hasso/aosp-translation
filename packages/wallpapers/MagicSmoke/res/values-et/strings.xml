@@ -17,8 +17,7 @@
 * limitations under the License.
 */
  -->
-<resources 
-xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="wallpapers">Taustapildid maagilise suitsuga</string>
     <string name="wallpaper_magicsmoke">Maagiline suits</string>
     <string name="author">Google</string>

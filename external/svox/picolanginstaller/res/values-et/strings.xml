@@ -17,7 +17,7 @@
 ** limitations under the License.
 */
  -->
-<resources >
+<resources>
     <string name="app_name">Kõnesünteesi andmete paigaldaja</string>
     <string name="installing_message" product="nosdcard">Kõneandmete paigaldamine USB mäluseadmele.</string>
     <string name="installing_message" product="default">Kõneandmete paigaldamine SD kaardile.</string>

@@ -14,7 +14,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
  -->
-<resources >
+<resources>
     <string name="wallpaper_label">Hologrammspiraal</string>
     <string name="wallpaper_author">Google</string>
     <string name="wallpaper_description">Hologrammspiraalidega taustapilt</string>

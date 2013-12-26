@@ -16,8 +16,7 @@
 * limitations under the License.
 */
  -->
-<resources 
-xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="wallpapers">Muusikat visualiseerivad taustapildid</string>
     <string name="author">Google</string>
     <string name="vis2_desc">Hetkel mängiva muusika helisignaali kuju visualiseerimine.</string>

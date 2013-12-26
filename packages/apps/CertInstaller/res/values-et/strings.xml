@@ -14,8 +14,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
  -->
-<resources 
-xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Sertifikaadi paigaldaja</string>
     <string name="pick_file_title">Sertifikaadi valimine</string>
     <string name="pkcs12_password_dialog_title">Sertifikaadi lahtipakkimine</string>

@@ -16,7 +16,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
   -->
-<resources >
+<resources>
   <string-array name="empty_subject_strings">
     <item>teema puudub</item>
   </string-array>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<resources 
-xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="pbap_session_key_dialog_title">Sisesta seadme %1$s seansivõti</string>
     <string name="pbap_session_key_dialog_header">Ühendamiseks on vajalik Bluetooth seansivõti</string>
     <string name="pbap_acceptance_timeout_message">Seadme %1$s ühendusega nõustumiseks mõeldud aeg sai läbi</string>

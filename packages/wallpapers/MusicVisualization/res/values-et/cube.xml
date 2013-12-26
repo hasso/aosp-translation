@@ -16,8 +16,7 @@
 * limitations under the License.
 */
  -->
-<resources 
-xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="wallpaper_vis1">Visualiseerimine</string>
     <string name="wallpaper_vis2">Helisignaal</string>
     <string name="wallpaper_vis3">Spektrogramm</string>
