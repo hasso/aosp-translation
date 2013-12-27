@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+** Copyright 2013, Hasso Tepper
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+ -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="keyguard_password_enter_pin_code">Sisesta PIN kood</string>
+    <string name="keyguard_password_enter_puk_code">Sisesta PUK kood ja uus PIN kood</string>
+    <string name="keyguard_password_enter_puk_prompt">PUK kood</string>
+    <string name="keyguard_password_enter_pin_prompt">Uus PIN kood</string>
+    <string name="keyguard_password_entry_touch_hint"><font size="17">Puuduta parooli sisestamiseks</font></string>
+    <string name="keyguard_password_enter_password_code">Avamiseks sisesta parool</string>
+    <string name="keyguard_password_enter_pin_password_code">Avamiseks sisesta PIN kood</string>
+    <string name="keyguard_password_wrong_pin_code">Vale PIN kood.</string>
+    <string name="keyguard_label_text">Avamiseks vajuta menüüklahvi, seejärel klahvi 0.</string>
+    <string name="faceunlock_multiple_failures">Maksimaalne teenusega Face Unlock avamise katsete arv on ületatud</string>
+    <string name="keyguard_charged">Laetud</string>
+    <string name="keyguard_plugged_in">Laadimine, <xliff:g id="NUMBER">%d</xliff:g><xliff:g id="PERCENT">%%</xliff:g></string>
+    <string name="keyguard_low_battery">Ühenda laadija.</string>
+    <string name="keyguard_instructions_when_pattern_disabled">Avamiseks vajuta menüüklahvi.</string>
+    <string name="keyguard_network_locked_message">Võrk suletud</string>
+    <string name="keyguard_missing_sim_message_short">SIM kaart puudub</string>
+    <string name="keyguard_missing_sim_message" product="tablet">Tahvelarvutis pole SIM kaarti.</string>
+    <string name="keyguard_missing_sim_message" product="default">Telefonis pole SIM kaarti.</string>
+    <string name="keyguard_missing_sim_instructions">Sisesta SIM kaart.</string>
+    <string name="keyguard_missing_sim_instructions_long">SIM kaart puudub või pole see loetav. Sisesta SIM kaart.</string>
+    <string name="keyguard_permanent_disabled_sim_message_short">Kasutamiskõlbmatu SIM kaart.</string>
+    <string name="keyguard_permanent_disabled_sim_instructions">SIM kaart on jäädavalt lukus.\n Uue SIM kaardi saamiseks võta ühendust oma teenusepakkujaga.</string>
+    <string name="keyguard_sim_locked_message">SIM kaart on lukus.</string>
+    <string name="keyguard_sim_puk_locked_message">SIM kaart on lukus ning avamiseks on vajalik PUK kood.</string>
+    <string name="keyguard_sim_unlock_progress_dialog_message">SIM kaardi avamine \u2026</string>
+    <string name="keyguard_accessibility_widget_changed">%1$s. Vidin number %2$d, kokku on vidinaid %3$d.</string>
+    <string name="keyguard_accessibility_add_widget">Vidina lisamine.</string>
+    <string name="keyguard_accessibility_widget_empty_slot">Tühi</string>
+    <string name="keyguard_accessibility_unlock_area_expanded">Avamisala on laiendatud.</string>
+    <string name="keyguard_accessibility_unlock_area_collapsed">Avamisala on ahendatud.</string>
+    <string name="keyguard_accessibility_widget">Vidin <xliff:g id="WIDGET_INDEX">%1$s</xliff:g>.</string>
+    <string name="keyguard_accessibility_user_selector">Kasutaja valija</string>
+    <string name="keyguard_accessibility_status">Olek</string>
+    <string name="keyguard_accessibility_camera">Kaamera</string>
+    <string name="keygaurd_accessibility_media_controls">Meedia juhtnupud</string>
+    <string name="keyguard_accessibility_widget_reorder_start">Vidina ümberkorraldamine algas.</string>
+    <string name="keyguard_accessibility_widget_reorder_end">Vidina ümberkorraldamine lõppes.</string>
+    <string name="keyguard_accessibility_widget_deleted">Vidin <xliff:g id="WIDGET_INDEX">%1$s</xliff:g> on kustutatud.</string>
+    <string name="keyguard_accessibility_expand_lock_area">Avamisala laiendamine.</string>
+    <string name="keyguard_accessibility_slide_unlock">Lohistamisega avamine.</string>
+    <string name="keyguard_accessibility_pattern_unlock">Mustriga avamine.</string>
+    <string name="keyguard_accessibility_face_unlock">Näoga avamine.</string>
+    <string name="keyguard_accessibility_pin_unlock">PIN-koodiga avamine.</string>
+    <string name="keyguard_accessibility_password_unlock">Parooliga avamine.</string>
+    <string name="keyguard_accessibility_pattern_area">Mustri ala.</string>
+    <string name="keyguard_accessibility_slide_area">Lohistamisala.</string>
+    <string name="keyguard_accessibility_transport_prev_description">Eelmise pala nupp</string>
+    <string name="keyguard_accessibility_transport_next_description">Järgmise pala nupp</string>
+    <string name="keyguard_accessibility_transport_pause_description">Pausi nupp</string>
+    <string name="keyguard_accessibility_transport_play_description">Esituse käivitamise nupp</string>
+    <string name="keyguard_accessibility_transport_stop_description">Esituse peatamise nupp</string>
+    <string name="keyguard_accessibility_transport_thumbs_up_description">Heaks märkimise nupp - pöidlad üles.</string>
+    <string name="keyguard_accessibility_transport_thumbs_down_description">Halvaks märkimise nupp - pöidlad alla.</string>
+    <string name="keyguard_accessibility_transport_heart_description">Lemmikuks märkimise nupp - süda.</string>
+    <string name="keyguard_accessibility_show_bouncer">Jätkamiseks eemalda lukustus.</string>
+    <string name="keyguard_accessibility_hide_bouncer">Käivitamine katkestatud</string>
+    <string name="keyguard_accessibility_delete_widget_start">Vidina <xliff:g id="widget_index">%1$s</xliff:g> kustutamiseks kukuta see siia.</string>
+    <string name="keyguard_accessibility_delete_widget_end">Vidinat <xliff:g id="widget_index">%1$s</xliff:g> ei kustutata.</string>
+    <string name="password_keyboard_label_symbol_key">\?123</string>
+    <string name="password_keyboard_label_alpha_key">ABC</string>
+    <string name="password_keyboard_label_alt_key">ALT</string>
+    <string name="keyboardview_keycode_alt">Alt</string>
+    <string name="keyboardview_keycode_cancel">Tühista</string>
+    <string name="keyboardview_keycode_delete">Kustuta</string>
+    <string name="keyboardview_keycode_done">Valmis</string>
+    <string name="keyboardview_keycode_mode_change">Režiimi muutmine</string>
+    <string name="keyboardview_keycode_shift">Tõstuklahv</string>
+    <string name="keyboardview_keycode_enter">Sisestusklahv</string>
+    <string name="description_target_unlock">Luku avamine</string>
+    <string name="description_target_camera">Kaamera</string>
+    <string name="description_target_silent">Hääletuks</string>
+    <string name="description_target_soundon">Heli sisse</string>
+    <string name="description_target_search">Otsing</string>
+    <string name="description_direction_up">Üles lohistamine: <xliff:g id="TARGET_DESCRIPTION">%s</xliff:g>.</string>
+    <string name="description_direction_down">Alla lohistamine: <xliff:g id="TARGET_DESCRIPTION">%s</xliff:g>.</string>
+    <string name="description_direction_left">Vasakule lohistamine: <xliff:g id="TARGET_DESCRIPTION">%s</xliff:g>.</string>
+    <string name="description_direction_right">Paremale lohistamine: <xliff:g id="TARGET_DESCRIPTION">%s</xliff:g>.</string>
+    <string name="user_switched">Aktiivne kasutaja <xliff:g id="NAME">%1$s</xliff:g>.</string>
+    <string name="kg_emergency_call_label">Hädaabikõne</string>
+    <string name="kg_forgot_pattern_button_text">Unustasin mustri</string>
+    <string name="kg_wrong_pattern">Vale muster</string>
+    <string name="kg_wrong_password">Vale parool</string>
+    <string name="kg_wrong_pin">Vale PIN kood</string>
+    <string name="kg_too_many_failed_attempts_countdown">Proovi uuesti <xliff:g id="NUMBER">%d</xliff:g> sekundi pärast.</string>
+    <string name="kg_pattern_instructions">Joonista oma muster</string>
+    <string name="kg_sim_pin_instructions">Sisesta SIM-i PIN kood</string>
+    <string name="kg_pin_instructions">Sisesta PIN kood</string>
+    <string name="kg_password_instructions">Sisesta parool</string>
+    <string name="kg_puk_enter_puk_hint">SIM on nüüd blokeeritud. Jätkamiseks sisesta PUK kood. Üksikasju küsi operaatorilt.</string>
+    <string name="kg_puk_enter_pin_hint">Sisesta soovitud PIN kood</string>
+    <string name="kg_enter_confirm_pin_hint">Kinnita soovitud PIN kood</string>
+    <string name="kg_sim_unlock_progress_dialog_message">SIM kaardi avamine \u2026</string>
+    <string name="kg_invalid_sim_pin_hint">Sisesta 4–8-numbriline PIN kood.</string>
+    <string name="kg_invalid_sim_puk_hint">PUK koodi pikkus peab olema vähemalt 8 numbrit.</string>
+    <string name="kg_invalid_puk">Sisesta uuesti õige PUK kood. Korduvkatsete korral keelatakse SIM jäädavalt.</string>
+    <string name="kg_invalid_confirm_pin_hint" product="default">PIN koodid ei ole vastavuses</string>
+    <string name="kg_login_too_many_attempts">Liiga palju mustrikatseid</string>
+    <string name="kg_login_instructions">Avamiseks logi sisse oma Google\'i kontoga.</string>
+    <string name="kg_login_username_hint">Kasutajanimi (e-post)</string>
+    <string name="kg_login_password_hint">Parool</string>
+    <string name="kg_login_submit_button">Logi sisse</string>
+    <string name="kg_login_invalid_input">Vale kasutajanimi või parool.</string>
+    <string name="kg_login_account_recovery_hint">Kas unustasid kasutajanime või parooli?\nKülasta aadressi <b>google.com/accounts/recovery</b>.</string>
+    <string name="kg_login_checking_password">Konto kontrollimine \u2026</string>
+    <string name="kg_too_many_failed_pin_attempts_dialog_message">Oled PIN-koodi <xliff:g id="NUMBER_0">%d</xliff:g> korda valesti sisestanud.\n\nProovi <xliff:g id="NUMBER_1">%d</xliff:g> sekundi pärast uuesti.</string>
+    <string name="kg_too_many_failed_password_attempts_dialog_message">Oled parooli <xliff:g id="NUMBER_0">%d</xliff:g> korda valesti sisestanud.\n\nProovi uuesti <xliff:g id="NUMBER_1">%d</xliff:g> sekundi pärast.</string>
+    <string name="kg_too_many_failed_pattern_attempts_dialog_message">Joonistasid oma avamismustri <xliff:g id="NUMBER_0">%d</xliff:g> korda valesti.\n\nProovi <xliff:g id="NUMBER_1">%d</xliff:g> sekundi pärast uuesti.</string>
+    <string name="kg_failed_attempts_almost_at_wipe" product="tablet">Oled üritanud <xliff:g id="NUMBER_0">%d</xliff:g> korda tahvelarvutit valesti avada. Pärast veel <xliff:g id="NUMBER_1">%d</xliff:g> ebaõnnestunud katset taastatakse tahvelarvuti tehaseseaded ja kõik kasutaja andmed kustutatakse.</string>
+    <string name="kg_failed_attempts_almost_at_wipe" product="default">Oled üritanud <xliff:g id="NUMBER_0">%d</xliff:g> korda telefoni valesti avada. Pärast veel <xliff:g id="NUMBER_1">%d</xliff:g> ebaõnnestunud katset taastatakse telefoni tehaseseaded ja kõik kasutaja andmed kustutatakse.</string>
+    <string name="kg_failed_attempts_now_wiping" product="tablet">Oled püüdnud tahvelarvutit <xliff:g id="NUMBER">%d</xliff:g> korda valesti avada. Nüüd taastatakse tahvelarvuti vaikeseaded.</string>
+    <string name="kg_failed_attempts_now_wiping" product="default">Oled püüdnud telefoni <xliff:g id="NUMBER">%d</xliff:g> korda valesti avada. Nüüd taastatakse telefoni vaikeseaded.</string>
+    <string name="kg_failed_attempts_almost_at_login" product="tablet">Joonistasid oma avamismustrit valesti <xliff:g id="NUMBER_0">%d</xliff:g> korda. Pärast veel <xliff:g id="NUMBER_1">%d</xliff:g> ebaõnnestunud katset palutakse sul tahvelarvuti avada meilikonto abil.\n\nProovi <xliff:g id="NUMBER_2">%d</xliff:g> sekundi pärast uuesti.</string>
+    <string name="kg_failed_attempts_almost_at_login" product="default">Joonistasid oma avamismustrit valesti <xliff:g id="NUMBER_0">%d</xliff:g> korda. Pärast veel <xliff:g id="NUMBER_1">%d</xliff:g> ebaõnnestunud katset palutakse sul telefon avada meilikonto abil.\n\nProovi <xliff:g id="NUMBER_2">%d</xliff:g> sekundi pärast uuesti.</string>
+    <string name="kg_text_message_separator" product="default"> — </string>
+    <string name="kg_reordering_delete_drop_target_text">Eemalda</string>
+    <string name="kg_password_wrong_pin_code_pukked">Vale SIM-i PIN kood. Seadme lukustuse eemaldamiseks pead nüüd võtma ühendust oma teenusepakkujaga.</string>
+  <plurals name="kg_password_wrong_pin_code">
+    <item quantity="one">Vale SIM-i PIN kood, sul on selle sisestamiseks veel <xliff:g id="number">%d</xliff:g> võimalus enne, kui pead lukustuse eemaldamiseks võtma ühendust oma teenusepakkujaga.</item>
+    <item quantity="other">Vale SIM-i PIN kood, sul on selle sisestamiseks veel <xliff:g id="number">%d</xliff:g> võimalust.</item>
+  </plurals>
+    <string name="kg_password_wrong_puk_code_dead">SIM kaart on kasutamiskõlbmatu. Võta ühendust oma teenusepakkujaga.</string>
+  <plurals name="kg_password_wrong_puk_code">
+    <item quantity="one">Vale SIM-i PUK kood, sul on selle sisestamiseks veel <xliff:g id="number">%d</xliff:g> võimalus enne, kui SIM lõplikult kasutamiskõlbmatuks muutub.</item>
+    <item quantity="other">Vale SIM-i PUK kood, sul on selle sisestamiseks veel <xliff:g id="number">%d</xliff:g> võimalust enne, kui SIM lõplikult kasutamiskõlbmatuks muutub.</item>
+  </plurals>
+    <string name="kg_password_pin_failed">SIM-i PIN koodi viga.</string>
+    <string name="kg_password_puk_failed">SIM-i PUK koodi viga.</string>
+    <string name="kg_pin_accepted">PIN vastu võetud.</string>
+    <string name="keyguard_transport_prev_description">Eelmine pala</string>
+    <string name="keyguard_transport_next_description">Järgmine pala</string>
+    <string name="keyguard_transport_pause_description">Paus</string>
+    <string name="keyguard_transport_play_description">Esituse käivitamine</string>
+    <string name="keyguard_transport_stop_description">Esituse peatamine</string>
+    <string name="keyguard_carrier_default">Teenus puudub.</string>
+</resources>

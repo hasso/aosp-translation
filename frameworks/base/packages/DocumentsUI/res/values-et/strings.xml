@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label">Dokumendid</string>
+    <string name="title_open">Avamine</string>
+    <string name="title_save">Salvestamine</string>
+    <string name="menu_create_dir">Loo kaust</string>
+    <string name="menu_grid">Võrgustiku vaade</string>
+    <string name="menu_list">Nimekirja vaade</string>
+    <string name="menu_sort">Sorteerimine</string>
+    <string name="menu_search">Otsing</string>
+    <string name="menu_settings">Seaded</string>
+    <string name="menu_open">Ava</string>
+    <string name="menu_save">Salvesta</string>
+    <string name="menu_share">Jaga</string>
+    <string name="menu_delete">Kustuta</string>
+    <string name="mode_selected_count"><xliff:g id="count" example="3">%1$d</xliff:g> valitud dokumenti</string>
+    <string name="sort_name">Nime järgi</string>
+    <string name="sort_date">Muutmise aja järgi</string>
+    <string name="sort_size">Suuruse järgi</string>
+    <string name="drawer_open">Näita dokumentide asukohti</string>
+    <string name="drawer_close">Peida dokumentide asukohad</string>
+    <string name="save_error">Dokumenti ei õnnestunud salvestada</string>
+    <string name="create_error">Kausta ei õnnestunud luua</string>
+    <string name="query_error">Dokumentide nimekirja ei õnnestunud hankida</string>
+    <string name="root_recent">Viimati kasutatud</string>
+    <string name="root_available_bytes">Vaba ruumi on <xliff:g id="size" example="3GB">%1$s</xliff:g></string>
+    <string name="root_type_service">Salvestusteenused</string>
+    <string name="root_type_shortcut">Viited</string>
+    <string name="root_type_device">Seadmed</string>
+    <string name="root_type_apps">Veel rakendusi</string>
+    <string name="pref_advanced_devices">Teiste seadmete näitamine</string>
+    <string name="pref_file_size">Faili suuruse näitamine</string>
+    <string name="pref_device_size">Seadme suuruse näitamine</string>
+    <string name="empty">Dokumente pole</string>
+    <string name="toast_no_application">Faili ei saa avada</string>
+    <string name="toast_failed_delete">Mõnda dokumenti ei saa kustutada</string>
+    <string name="share_via">Jagamine</string>
+
+</resources>
