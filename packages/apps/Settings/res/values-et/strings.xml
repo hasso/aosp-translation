@@ -991,6 +991,15 @@
     <string name="bluetooth_untether_blank">Seadme <xliff:g id="DEVICE_NAME">%1$s</xliff:g> ühenduse jagamine lõpetatakse.</string>
     <string name="tethering_help_button_text">Abi</string>
     <string name="network_settings_title">Mobiilsidevõrgud</string>
+    <string name="manage_mobile_plan_title">Mobiilileping</string>
+    <string name="sms_application_title">SMS vaikerakendus</string>
+    <string name="sms_change_default_dialog_title">Kas muuta SMS rakendust?</string>
+    <string name="sms_change_default_dialog_text">Kas võtta SMS rakendusena kasutusele <xliff:g id="new_app">%s</xliff:g> senise <xliff:g id="current_app">%s</xliff:g> asemel?</string>
+    <string name="sms_change_default_no_previous_dialog_text">Kas võtta SMS rakendusena kasutusele <xliff:g id="new_app">%s</xliff:g>?</string>
+    <string name="mobile_unknown_sim_operator">Tundmatu operaatori SIM</string>
+    <string name="mobile_no_provisioning_url">%1$s provisioneerimise veebi kohta puudub info</string>
+    <string name="mobile_insert_sim_card">Palun sisesta SIM kaart ning tee seadmele taaskäivitus</string>
+    <string name="mobile_connect_to_internet">Palun loo ühendus Internetiga</string>
     <string name="location_title">Minu asukoht</string>
     <string name="location_mode_title">Režiim</string>
     <string name="location_mode_high_accuracy_title">Väga täpne</string>

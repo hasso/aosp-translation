@@ -557,7 +557,7 @@
     <string name="proxy_address_title">Väljuva puhverserveri aadress</string>
     <string name="port_title">Pordi number</string>
     <string name="transport_title">Transpordi tüüp</string>
-    <string name="send_keepalive_title"><i>Keepalive</i> pakettide saatmine</string>
+    <string name="send_keepalive_title">„Keepalive“ pakettide saatmine</string>
     <string name="set_primary_title">Määra peamiseks kontoks</string>
     <string name="set_primary_summary">Kasutatakse väljuvate kõnede jaoks</string>
     <string name="advanced_settings">Valikulised seaded</string>
@@ -575,6 +575,8 @@
     <string name="no_internet_available">Internetikõne tegemiseks kontrolli esmalt Interneti ühendust.</string>
     <string name="no_wifi_available">Internetikõnede jaoks pead olema ühendatud WiFi võrguga (kasuta „Juhmevabad võrgud“ sektsiooni seadetes)</string>
     <string name="no_voip">Internetikõned pole toetatud</string>
+    <string name="sip_system_decide">Automaatne</string>
+    <string name="sip_always_send_keepalive">Alati</string>
     <string name="not_voice_capable">Kõneside pole toetatud</string>
     <string name="respond_via_sms_canned_response_1">Ma ei saa praegu rääkida. Milles asi?</string>
     <string name="respond_via_sms_canned_response_2">Ma helistan sulle kohe tagasi.</string>
