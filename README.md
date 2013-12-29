@@ -5,8 +5,8 @@ Käesolev on varases beeta staadiumis eesti keele tõlge Android süsteemile. T�
 
 Tõlke kasutamine oleks OVERLAY süsteemi kasutades lihtne ka suuremaid muudatusi lähtetekstis tegemata, kuid paraku on Androidi kompileerimise süsteemis [bugi](https://code.google.com/p/android/issues/detail?id=60586), mis selle välistab. Lisaks on Google suutnud süsteemi tekitada kaks mitte päris kattuvat keelt - eesti keel ja eesti keel Eestis. Selles segaduses on parim võimalus lihtsalt sellest tõlke repost endale koopia tekitada ning Androidi keeleressursside failid selles repos olevatega üle kirjutada:
 
-    $ for f in $(find . -name *.xml); do cp $f $ANDROID_SOURCE/$f
-    $ for f in $(find . -name *.xml); do nf=$(echo $f | sed 's|values-et|values-et-rEE|'); cp $f $ANDROID_SOURCE/$nf
+    $ for f in $(find . -name *.xml); do cp $f $ANDROID_SOURCE/$f; done
+    $ for f in $(find . -name *.xml); do nf=$(echo $f | sed 's|values-et|values-et-rEE|'); cp $f $ANDROID_SOURCE/$nf; done
 
 Edasi kompileeri Androidi süsteem kokku nagu tavaliselt.
 
