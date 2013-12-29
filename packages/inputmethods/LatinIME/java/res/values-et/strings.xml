@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+**
+** Copyright 2008, The Android Open Source Project
+** Copyright 2013, Hasso Tepper
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="english_ime_input_options">Sisestuse seaded</string>
+    <string name="english_ime_research_log">Logikäsud uuringuks</string>
+    <string name="use_contacts_for_spellchecking_option_title">Otsimine kontaktide nimedest</string>
+    <string name="use_contacts_for_spellchecking_option_summary">Õigekirja kontroll kasutab ka nimesid su kontaktidest</string>
+    <string name="vibrate_on_keypress">Vibreerimine klahvivajutusel</string>
+    <string name="sound_on_keypress">Heli klahvivajutusel</string>
+    <string name="popup_on_keypress">Hüpikmärk klahvivajutusel</string>
+    <string name="general_category">Üldseaded</string>
+    <string name="correction_category">Teksti parandamine</string>
+    <string name="gesture_typing_category">Žestidega trükkimine</string>
+    <string name="misc_category">Muud seaded</string>
+    <string name="advanced_settings">Täpsemad seaded</string>
+    <string name="advanced_settings_summary">Seade ekspertidele</string>
+    <string name="include_other_imes_in_language_switch_list">Sisestusmeetodi vahetamine</string>
+    <string name="include_other_imes_in_language_switch_list_summary">Keele vahetamise klahviga saab vahetada ka sisestusmeetodit</string>
+    <string name="show_language_switch_key">Keele vahetamise klahv</string>
+    <string name="show_language_switch_key_summary">Näidatakse siis, kui mitme keele kasutamine on sisse lülitatud</string>
+    <string name="sliding_key_input_preview">Libistamise indikaator</string>
+    <string name="sliding_key_input_preview_summary">Visuaalne tagasiside sõrme libistamisel shift- või sümboliklahvilt</string>
+    <string name="key_preview_popup_dismiss_delay">Hüpikmärgi kadumise viide</string>
+    <string name="key_preview_popup_dismiss_no_delay">Viide puudub</string>
+    <string name="key_preview_popup_dismiss_default_delay">Vaikeväärtus</string>
+    <string name="abbreviation_unit_milliseconds"><xliff:g id="milliseconds">%s</xliff:g> ms</string>
+    <string name="settings_system_default">Süsteemi vaikeväärtus</string>
+    <string name="use_contacts_dict">Kontaktide nimede soovitamine</string>
+    <string name="use_contacts_dict_summary">Kontaktiraamatu nimede kasutamine soovituste andmisel ja teksti parandamisel</string>
+    <string name="use_double_space_period">Punkt topelttühikuga</string>
+    <string name="use_double_space_period_summary">Topeltpuudutus tühikuklahvil sisestab punkti ja tühiku</string>
+    <string name="auto_cap">Automaatne suurtäht</string>
+    <string name="auto_cap_summary">Lauset alustatakse automaatselt suure tähega</string>
+    <string name="edit_personal_dictionary">Isiklik sõnastik</string>
+    <string name="configure_dictionaries_title">Lisasõnastikud</string>
+    <string name="main_dictionary">Põhisõnastik</string>
+    <string name="prefs_show_suggestions">Parandusettepanekute näitamine</string>
+    <string name="prefs_show_suggestions_summary">Soovituste näitamine trükkimisel</string>
+    <string name="prefs_suggestion_visibility_show_name">Alati nähtaval</string>
+    <string name="prefs_suggestion_visibility_show_only_portrait_name">Nähtav ainult püstpaigutusel</string>
+    <string name="prefs_suggestion_visibility_hide_name">Alati peidetud</string>
+    <string name="prefs_block_potentially_offensive_title">Solvavate sõnade vältimine</string>
+    <string name="prefs_block_potentially_offensive_summary">Soovituste tegemisel välditakse võimalikke solvavaid sõnu</string>
+    <string name="auto_correction">Automaatne parandus</string>
+    <string name="auto_correction_summary">Tühiku ja kirjavahemärkide sisestamisel parandatakse automaatselt vigaselt sisestatud sõnu</string>
+    <string name="auto_correction_threshold_mode_off">Välja lülitatud</string>
+    <string name="auto_correction_threshold_mode_modest">Mõõdukas</string>
+    <string name="auto_correction_threshold_mode_aggressive">Agressiivne</string>
+    <string name="auto_correction_threshold_mode_very_aggressive">Väga agressiivne</string>
+    <string name="bigram_prediction">Järgmise sõna soovitamine</string>
+    <string name="bigram_prediction_summary">Eelmist sõna kasutades püütakse soovitada tõenäolist järgmist sõna</string>
+    <string name="gesture_input">Žestidega kirjutamine</string>
+    <string name="gesture_input_summary">Sõna sisestamine sõrme libistamisega üle tähtede</string>
+    <string name="gesture_preview_trail">Žesti raja näitamine</string>
+    <string name="gesture_floating_preview_text">Eelvaade žesti ajal</string>
+    <string name="gesture_floating_preview_text_summary">Soovitatav sõna näitamine žesti ajal</string>
+    <string name="added_word"><xliff:g id="word">%s</xliff:g> : salvestatud</string>
+    <string name="label_go_key">Mine</string>
+    <string name="label_next_key">Jrgm.</string>
+    <string name="label_previous_key">Eelm.</string>
+    <string name="label_done_key">Done</string>
+    <string name="label_send_key">Saada</string>
+    <string name="label_pause_key">Paus</string>
+    <string name="label_wait_key">Oota</string>
+    <string name="spoken_use_headphones">Paroolide sisestamisel vajutatud klahvide kuulmiseks ühenda kõrvaklapid.</string>
+    <string name="spoken_current_text_is">Praegu sisestatud tekst on „%s“</string>
+    <string name="spoken_no_text_entered">Teksti pole sisestatud</string>
+    <string name="spoken_auto_correct"><xliff:g id="key" example="Space">%1$s</xliff:g> parandab sõna <xliff:g id="original_word">%2$s</xliff:g> tekstiks <xliff:g id="corrected">%3$s</xliff:g></string>
+    <string name="spoken_auto_correct_obscured"><xliff:g id="key" example="Space">%1$s</xliff:g> käivitab automaatse paranduse</string>
+    <string name="spoken_description_unknown">Klahv koodiga %d</string>
+    <string name="spoken_description_shift">Shift klahv</string>
+    <string name="spoken_description_shift_shifted">Shift klahv on sees (keelamiseks puuduta seda)</string>
+    <string name="spoken_description_caps_lock">Suurtähtede lukk on sees (keelamiseks puuduta seda)</string>
+    <string name="spoken_description_delete">Kustutusklahv</string>
+    <string name="spoken_description_to_symbol">Sümbolid</string>
+    <string name="spoken_description_to_alpha">Tähed</string>
+    <string name="spoken_description_to_numeric">Numbrid</string>
+    <string name="spoken_description_settings">Seaded</string>
+    <string name="spoken_description_tab">Tabulatuur</string>
+    <string name="spoken_description_space">Tühik</string>
+    <string name="spoken_description_mic">Kõnetuvastus</string>
+    <string name="spoken_description_smiley">Smaili</string>
+    <string name="spoken_description_return">Return</string>
+    <string name="spoken_description_search">Otsing</string>
+    <string name="spoken_description_dot">Punkt</string>
+    <string name="spoken_description_language_switch">Keele vahetamine</string>
+    <string name="spoken_description_action_next">Järgmine</string>
+    <string name="spoken_description_action_previous">Eelmine</string>
+    <string name="spoken_description_shiftmode_on">Shift on nüüd sees</string>
+    <string name="spoken_description_shiftmode_locked">Suurtähtede lukk on nüüd sees</string>
+    <string name="spoken_description_shiftmode_off">Shift on nüüd väljas</string>
+    <string name="spoken_description_mode_symbol">Sümbolite režiim</string>
+    <string name="spoken_description_mode_alpha">Tähtede režiim</string>
+    <string name="spoken_description_mode_phone">Telefoni režiim</string>
+    <string name="spoken_description_mode_phone_shift">Telefoni sümbolite režiim</string>
+    <string name="announce_keyboard_hidden">Klaviatuur on peidetud</string>
+    <string name="announce_keyboard_mode"><xliff:g id="mode" example="email">%s</xliff:g> näitamine</string>
+    <string name="keyboard_mode_date">Kuupäeva klaviatuuri</string>
+    <string name="keyboard_mode_date_time">Kuupäeva ja kellaja klaviatuuri</string>
+    <string name="keyboard_mode_email">Meiliklaviatuuri</string>
+    <string name="keyboard_mode_im">Sõnumiside klaviatuuri</string>
+    <string name="keyboard_mode_number">Numbriklaviatuuri</string>
+    <string name="keyboard_mode_phone">Telefoninumbrite klaviatuuri</string>
+    <string name="keyboard_mode_text">Tekstiklaviatuuri</string>
+    <string name="keyboard_mode_time">Kellaja klaviatuuri</string>
+    <string name="keyboard_mode_url">URLi klaviatuuri</string>
+    <string name="voice_input">Kõnetuvastuse klahv</string>
+    <string name="voice_input_modes_main_keyboard">Põhiklaviatuuril</string>
+    <string name="voice_input_modes_symbols_keyboard">Sümbolite klaviatuuril</string>
+    <string name="voice_input_modes_off">Puudub</string>
+    <string name="voice_input_modes_summary_main_keyboard">Mikrofon põhiklaviatuuril</string>
+    <string name="voice_input_modes_summary_symbols_keyboard">Mikrofon sümbolite klaviatuuril</string>
+    <string name="voice_input_modes_summary_off">Kõnetuvastus on keelatud</string>
+    <string name="configure_input_method">Sisestusmeetodite seadistamine</string>
+    <string name="language_selection_title">Sisestatavad keeled</string>
+    <string name="send_feedback">Anna tagasisidet</string>
+    <string name="select_language">Sisestatavad keeled</string>
+    <string name="hint_add_to_dictionary">Salvestamiseks puuduta uuesti</string>
+    <string name="has_dictionary">Sõnastik on saadaval</string>
+    <string name="prefs_enable_log">Tagasiside lubamine</string>
+    <string name="prefs_description_log">Saates automaatselt kasutusstatistikat ning vearaporteid aitad sisestusmeetodi kvaliteeti parandada.</string>
+    <string name="keyboard_layout">Klaviatuuri teema</string>
+    <string name="subtype_en_GB">Inglise (UK)</string>
+    <string name="subtype_en_US">Inglise (US)</string>
+    <string name="subtype_es_US">Hispaania (US)</string>
+    <string name="subtype_with_layout_en_GB">Inglise (UK) (<xliff:g id="layout">%s</xliff:g>)</string>
+    <string name="subtype_with_layout_en_US">Inglise (US) (<xliff:g id="layout">%s</xliff:g>)</string>
+    <string name="subtype_with_layout_es_US">Hispaania (US) (<xliff:g id="layout">%s</xliff:g>)</string>
+    <string name="subtype_nepali_traditional"><xliff:g id="language">%s</xliff:g> (traditsiooniline)</string>
+    <string name="subtype_no_language">Keel puudub (tähestik)</string>
+    <string name="subtype_no_language_qwerty">Tähestik (QWERTY)</string>
+    <string name="subtype_no_language_qwertz">Tähestik (QWERTZ)</string>
+    <string name="subtype_no_language_azerty">Tähestik (AZERTY)</string>
+    <string name="subtype_no_language_dvorak">Tähestik (Dvorak)</string>
+    <string name="subtype_no_language_colemak">Tähestik (Colemak)</string>
+    <string name="subtype_no_language_pcqwerty">Tähestik (PC)</string>
+    <string name="subtype_emoji">Emoji</string>
+    <string name="custom_input_styles_title">Kohandatud klaviatuur</string>
+    <string name="add_style">Lisa klaviatuur</string>
+    <string name="add">Lisa</string>
+    <string name="remove">Eemalda</string>
+    <string name="save">Salvesta</string>
+    <string name="subtype_locale">Keel</string>
+    <string name="keyboard_layout_set">Paigutus</string>
+    <string name="custom_input_style_note_message">Enne kui saad klaviatuuri kasutama hakata, pead selle kasutamise ka lubama. Soovid sa seda kohe teha?</string>
+    <string name="enable">Luba</string>
+    <string name="not_now">Mitte praegu</string>
+    <string name="custom_input_style_already_exists">Selline klaviatuur on juba olemas: <xliff:g id="input_style_name">%s</xliff:g>"</string>
+    <string name="prefs_usability_study_mode">Kasutatavuse uurimise režiim</string>
+    <string name="prefs_key_longpress_timeout_settings">Pika puudutuse kestus</string>
+    <string name="prefs_keypress_vibration_duration_settings">Vibreerimise kestus</string>
+    <string name="prefs_keypress_sound_volume_settings">Kklahvivajutuse heli tugevus</string>
+    <string name="prefs_read_external_dictionary">Välise sõnastikufaili lugemine</string>
+    <string name="read_external_dictionary_no_files_message">Downloads kaustas pole ühtegi sõnastikufaili</string>
+    <string name="read_external_dictionary_multiple_files_title">Paigaldatava sõnastiku valimine</string>
+    <string name="read_external_dictionary_confirm_install_message">Soovid sa tõesti paigaldada selle faili <xliff:g id="locale_name">%s</xliff:g> keelele?</string>
+    <string name="error">Viga</string>
+    <string name="button_default">Vaikeväärtused</string>
+    <string name="setup_welcome_title">Tere tulemast kasutama AOSP Androidi klaviatuuri,</string>
+    <string name="setup_welcome_additional_description">millele on nüüd lisatud ka žestidega kirjutamine</string>
+    <string name="setup_start_action">Alustame</string>
+    <string name="setup_next_action">Järgmine samm</string>
+    <string name="setup_steps_title">AOSP Androidi klaviatuuri seadistamine</string>
+    <string name="setup_step1_title">AOSP Androidi klaviatuuri lubamine</string>
+    <string name="setup_step1_instruction">Palun lülita „AOSP Androidi klaviatuuri“ kasutamine „Keel &amp; sisestamine“ seadetes sisse. Sellega lubad su seadmel rakendust käivitada.</string>
+    <string name="setup_step1_finished_instruction">„AOSP Androidi klaviatuuri“ kasutamine on juba „Keel &amp; sisestamine“ seadetes sisse lülitatud, nii et see samm on juba tehtud. Lähme järgmise juurde.</string>
+    <string name="setup_step1_action">Lülita seadetes sisse</string>
+    <string name="setup_step2_title">„AOSP Androidi klaviatuurile“ lülitumine</string>
+    <string name="setup_step2_instruction">Järgmisena määra „AOSP Androidi klaviatuur„ vaikimisi kasutatavaks sisestusmeetodiks.</string>
+    <string name="setup_step2_action">Vaheta sisestusmeetodit</string>
+    <string name="setup_step3_title">Õnnitlused! Nüüd on kõik tehtud.</string>
+    <string name="setup_step3_instruction">Nüüd saad kõigis oma lemmikrakendustes Androidi klaviatuuri kasutada.</string>
+    <string name="setup_step3_action">Lisakeelte seadistamine</string>
+    <string name="setup_finish_action">Lõpetame</string>
+    <string name="show_setup_wizard_icon">Rakenduse ikooni näitamine</string>
+    <string name="show_setup_wizard_icon_summary">Rakenduse ikooni näitamine avaekraanil</string>
+    <string name="app_name">Sõnastiku teenuse pakkuja</string>
+    <string name="dictionary_provider_name">Sõnastiku teenuse pakkuja</string>
+    <string name="dictionary_service_name">Sõnastiku teenus</string>
+    <string name="download_description">Sõnastiku uuendamise info</string>
+    <string name="dictionary_settings_title">Lisasõnastikud</string>
+    <string name="dictionary_install_over_metered_network_prompt">Sõnastik on saadaval</string>
+    <string name="dictionary_settings_summary">Sõnastike seaded</string>
+    <string name="user_dictionaries">Kasutaja sõnastikud</string>
+    <string name="default_user_dict_pref_name">Kasutaja sõnastik</string>
+    <string name="dictionary_available">Sõnastik on saadaval</string>
+    <string name="dictionary_downloading">Allalaadimine käib</string>
+    <string name="dictionary_installed">Paigaldatud</string>
+    <string name="dictionary_disabled">Paigaldatud, keelatud</string>
+    <string name="cannot_connect_to_dict_service">Probleem sõnastikuteenuse ühendusega</string>
+    <string name="no_dictionaries_available">Sõnastikke pole</string>
+    <string name="check_for_updates_now">Värskenda</string>
+    <string name="last_update">Viimati uuendatud</string>
+    <string name="message_updating">Uuenduste kontrollimine</string>
+    <string name="message_loading">Laadimine \u2026</string>
+    <string name="main_dict_description">Põhisõnastik</string>
+    <string name="cancel">Tühista</string>
+    <string name="install_dict">Paigalda</string>
+    <string name="cancel_download_dict">Katkesta</string>
+    <string name="delete_dict">Kustuta</string>
+    <string name="should_download_over_metered_prompt">Su seadme valitud keelele on saadaval ka sõnastik.&lt;br/>
+Et parandada trükkimise kiirust ja kvaliteeti, soovitame sul <xliff:g id="language" example="English">%1$s</xliff:g> keele sõnastiku &lt;b>alla laadida&lt;/b>.&lt;br/>
+&lt;br/>
+Allalaadimine üle 3G ühenduse võtab aega minuti või kaks, kuid kui sul pole &lt;b>andmesidemahtu sisaldavat lepingut&lt;/b> operaatoriga, võib see tekitada sulle suuri väljaminekuid.&lt;br/>
+Kui sa pole kindel milline on su leping operaatoriga, soovitame me leida WiFi ühenduse ning siis käivitub allalaadimine automaatselt.&lt;br/>
+&lt;br/>
+Vihje: Sõnastikke saad alla laadida või eemaldada seadme seadistuste &lt;b>Keeled ja sisestamine&lt;/b> sektsioonis.</string>
+    <string name="download_over_metered">Laadi kohe alla (<xliff:g id="size_in_megabytes" example="0.7">%1$.1f</xliff:g>MB)</string>
+    <string name="do_not_download_over_metered">Laadi alla Wi-Fi võrgus</string>
+    <string name="dict_available_notification_title"><xliff:g id="language" example="English">%1$s</xliff:g> keelele on sõnastik olemas</string>
+    <string name="dict_available_notification_description">Alla laadimiseks puuduta seda teksti</string>
+    <string name="toast_downloading_suggestions">Allalaadimine: <xliff:g id="language" example="English">%1$s</xliff:g> keele soovitused on varsti kasutamiseks valmis.</string>
+    <string name="version_text">Versioon <xliff:g id="version_number" example="1.0.1864.643521">%1$s</xliff:g></string>
+    <string name="user_dict_settings_add_menu_title">Lisa</string>
+    <string name="user_dict_settings_add_dialog_title">Sõnastikku lisamine</string>
+    <string name="user_dict_settings_add_screen_title">Fraas</string>
+    <string name="user_dict_settings_add_dialog_more_options">Rohkem seadeid</string>
+    <string name="user_dict_settings_add_dialog_less_options">Vähem seadeid</string>
+    <string name="user_dict_settings_add_dialog_confirm">OK</string>
+    <string name="user_dict_settings_add_word_option_name">Sõna:</string>
+    <string name="user_dict_settings_add_shortcut_option_name">Lühend:</string>
+    <string name="user_dict_settings_add_locale_option_name">Keel:</string>
+    <string name="user_dict_settings_add_word_hint">Sisesta sõna</string>
+    <string name="user_dict_settings_add_shortcut_hint">Lühend (pole kohustuslik)</string>
+    <string name="user_dict_settings_edit_dialog_title">Sõna muutmine</string>
+    <string name="user_dict_settings_context_menu_edit_title">Muuda</string>
+    <string name="user_dict_settings_context_menu_delete_title">Kustuta</string>
+    <string name="user_dict_settings_empty_text">Su sõnastikus pole veel ühtegi sõna. Neid saad lisada puudutade „Lisa“ (+) nuppu.</string>
+    <string name="user_dict_settings_all_languages">Kõigis keeltes</string>
+    <string name="user_dict_settings_more_languages">Veel keeli \u2026</string>
+    <string name="user_dict_settings_delete">Kustuta</string>
+    <string name="user_dict_fast_scroll_alphabet">\u0020ABCDEFGHIJKLMNOPQRSZŠŽTUVWÕÄÖÜXY</string>
+</resources>
