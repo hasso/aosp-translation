@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2011 Google Inc.
+     Licensed to The Android Open Source Project.
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="to">To</string>
+    <string name="cc">Cc</string>
+    <string name="bcc">Bcc</string>
+    <string name="subject_hint">Teema</string>
+    <string name="body_hint">Kirja koostamine</string>
+    <string name="add_file_attachment">Pane fail kaasa</string>
+    <string name="add_photo_attachment">Pane foto kaasa</string>
+    <string name="add_video_attachment">Pane video kaasa</string>
+    <string name="save_draft">Salvesta mustandina</string>
+    <string name="discard">Loobu</string>
+    <string name="compose">Uus kiri</string>
+  <string-array name="compose_modes">
+    <item>Vasta</item>
+    <item>Vasta kõigile</item>
+    <item>Saada edasi</item>
+  </string-array>
+    <string name="reply_attribution"><xliff:g id="date">%s</xliff:g> kirjutas <xliff:g id="person">%s</xliff:g>:</string>
+    <string name="forward_attribution">---------- Edasi saadetud kiri ----------&lt;br&gt;Kellelt: <xliff:g id="from">%1$s</xliff:g>&lt;br&gt;Kuupäev: <xliff:g id="date">%2$s</xliff:g>&lt;br&gt;Teema: <xliff:g id="subject">%3$s</xliff:g>&lt;br&gt;Kellele: <xliff:g id="to">%4$s</xliff:g>&lt;br&gt;</string>
+    <string name="forward_attribution_no_headers">---------- Edasi saadetud kiri ----------</string>
+    <string name="cc_attribution">Cc: <xliff:g id="cc">%1$s</xliff:g>&lt;br&gt;</string>
+    <string name="select_attachment_type">Vali kaasa pandava faili tüüp</string>
+    <string name="too_large_to_attach_single">Suuremat kui <xliff:g id="maxSize">%1$s</xliff:g> faili ei saa kirjaga kaasa panna.</string>
+    <string name="too_large_to_attach_multiple">Vähemalt üht faili ei pandud kirjaga kaasa. Piirang on <xliff:g id="maxSize">%1$s</xliff:g>.</string>
+    <string name="too_large_to_attach_additional">Faili ei pandud kirjaga kaasa. Sellega oleks ületatud <xliff:g id="maxSize">%1$s</xliff:g> piirang.</string>
+    <string name="generic_attachment_problem">Faili ei saanud kirjale kaasa panna.</string>
+    <string name="recipient_needed">Lisa vähemalt üks adessaat.</string>
+    <string name="recipient_error_dialog_title">Adressaadi viga</string>
+    <string name="confirm_send_title">Saata kiri ära?</string>
+    <string name="confirm_send_message_with_no_subject">Kirja teemarida on tühi.</string>
+    <string name="confirm_send_message_with_no_body">Kirjas pole ridagi teksti.</string>
+    <string name="confirm_send_message">Kas saata see kiri ära?</string>
+    <string name="message_discarded">Kiri on minema visatud.</string>
+    <string name="signature">\n\n<xliff:g id="signature">%s</xliff:g></string>
+    <string name="custom_from_account_label">Saada kiri kui:</string>
+    <string name="send">Saada</string>
+    <string name="mark_read">Märgi loetuks</string>
+    <string name="mark_unread">Märgi lugemata kirjaks</string>
+    <string name="mute">Vaigista</string>
+    <string name="add_star">Lisa tärn</string>
+    <string name="remove_star">Eemalda tärn</string>
+    <string name="remove_folder">Eemalda <xliff:g id="folderName">%1$s</xliff:g> kaustast</string>
+    <string name="archive">Arhiveeri</string>
+    <string name="report_spam">Teata rämpskirjast</string>
+    <string name="mark_not_spam">Teata väärtkirjast</string>
+    <string name="report_phishing">Teata õngitsemise katsest</string>
+    <string name="delete">Kustuta</string>
+    <string name="discard_drafts">Kustuta mustandid</string>
+    <string name="refresh">Värskenda</string>
+    <string name="reply">Vasta</string>
+    <string name="reply_all">Vasta kõigile</string>
+    <string name="resume_draft">Muuda</string>
+    <string name="forward">Saada edasi</string>
+    <string name="menu_compose">Uus kiri</string>
+    <string name="menu_change_folders">Muuda kausta</string>
+    <string name="menu_move_to">Liiguta</string>
+    <string name="menu_move_to_inbox">Liiguta sissetulevate kirjade kausta</string>
+    <string name="menu_manage_folders">Kaustade seaded</string>
+    <string name="menu_show_original">Originaalsuurus</string>
+    <string name="menu_folder_options">Kausta seaded</string>
+    <string name="menu_settings">Seaded</string>
+    <string name="menu_search">Otsi</string>
+    <string name="mark_important">Märgi oluliseks</string>
+    <string name="mark_not_important">Märgi ebaoluliseks</string>
+    <string name="add_cc_label">Lisa Cc/Bcc</string>
+    <string name="add_bcc_label">Lisa Bcc</string>
+    <string name="feedback">Anna tagasisidet</string>
+    <string name="help_and_info">Abi</string>
+    <string name="quoted_text">Kaasa tsiteeritud tekst</string>
+    <string name="quoted_text_label">Tsiteeritud tekst</string>
+    <string name="respond_inline">Vasta kirja sees</string>
+    <string name="bytes"><xliff:g id="count">%s</xliff:g>&#160;B</string>
+    <string name="kilobytes"><xliff:g id="count">%s</xliff:g>&#160;KB</string>
+    <string name="megabytes"><xliff:g id="count">%s</xliff:g>&#160;MB</string>
+    <string name="attachment_image">Pilt</string>
+    <string name="attachment_video">Video</string>
+    <string name="attachment_audio">Audio</string>
+    <string name="attachment_text">Tekst</string>
+    <string name="attachment_application_msword">Dokument</string>
+    <string name="attachment_application_vnd_ms_powerpoint">Esitlus</string>
+    <string name="attachment_application_vnd_ms_excel">Tabel</string>
+    <string name="attachment_application_pdf">PDF</string>
+    <string name="attachment_unknown"><xliff:g id="attachmentExtension">%s</xliff:g> fail</string>
+    <string name="preview_attachment">Näita</string>
+    <string name="save_attachment">Salvesta</string>
+    <string name="cancel_attachment">Katkesta</string>
+    <string name="download_again">Laadi uuesti alla</string>
+    <string name="more_info_attachment">Info</string>
+    <string name="attachment_type_blocked">Kahjuks ei saa sa seda kirjadega kaasas olevaid seda tüüpi faile salvestada ega avada.</string>
+    <string name="no_application_found">Ükski rakendus ei oska seda kirjaga kaasas olevat faili näitamiseks avada.</string>
+    <string name="fetching_attachment">Kaasasoleva faili laadimine</string>
+    <string name="please_wait">Palun oota \u2026</string>
+    <string name="saved">Salvestatud,&#160;<xliff:g id="size">%s</xliff:g></string>
+    <string name="download_failed">Allalaadimine ei õnnestunud. Uuesti proovimiseks puuduta faili.</string>
+    <string name="attachments_header">Kaasatud failid</string>
+    <string name="menu_photo_save_all">Salvesta kõik</string>
+    <string name="menu_photo_share">Jaga</string>
+    <string name="menu_photo_share_all">Jaga kõiki</string>
+    <string name="saving">Salvestamine&#8230;</string>
+    <string name="choosertitle_sharevia">Jagamine</string>
+    <string name="contextmenu_openlink">Ava brauseris</string>
+    <string name="contextmenu_copy">Kopeeri</string>
+    <string name="contextmenu_copylink">Kopeeri lingi URL</string>
+    <string name="contextmenu_dial_dot">Helista \u2026</string>
+    <string name="contextmenu_sms_dot">Saada SMS \u2026</string>
+    <string name="contextmenu_add_contact">Lisa kontakt</string>
+    <string name="contextmenu_send_mail">Saada e-kiri</string>
+    <string name="contextmenu_map">Kaart</string>
+    <string name="contextmenu_sharelink">Jaga linki</string>
+    <string name="contextmenu_help">Abi</string>
+    <string name="contextmenu_feedback">Anna tagasisidet</string>
+    <string name="num_selected"><xliff:g id="number" example="7">%d</xliff:g></string>
+    <plurals name="move_conversation">
+        <item quantity="one">Vestluse liigutamine</item>
+        <item quantity="other"><xliff:g>%1$d</xliff:g> vestluse liigutamine</item>
+    </plurals>
+    <string name="content_description"><xliff:g id="sender">%1$s</xliff:g> kiri teemal <xliff:g id="subject">%2$s</xliff:g>, <xliff:g id="snippet">%3$s</xliff:g> saadetud <xliff:g id="date">%4$s</xliff:g>, <xliff:g id="readstate">%5$s</xliff:g></string>
+    <string name="content_description_today"><xliff:g id="sender">%1$s</xliff:g> kiri teemal <xliff:g id="subject">%2$s</xliff:g>, <xliff:g id="snippet">%3$s</xliff:g> saadetud täna kell <xliff:g id="time">%4$s</xliff:g>, <xliff:g id="readstate">%5$s</xliff:g></string>
+    <string name="read_string">loetud vestlus</string>
+    <string name="unread_string">lugemata vestlus</string>
+    <string name="filtered_tag"> [<xliff:g id="tag">%1$s</xliff:g>]<xliff:g id="subject">%2$s</xliff:g></string>
+    <string name="subject_and_snippet"><xliff:g>%s</xliff:g> \u2014 <xliff:g>%s</xliff:g></string>
+    <plurals name="draft">
+        <item quantity="one">Mustand</item>
+        <item quantity="other">Mustandid</item>
+    </plurals>
+    <string name="sending">Saatmine \u2026</string>
+    <string name="send_failed">Kirja ei saadetud ära.</string>
+    <string name="me_object_pronun">mina</string>
+    <string name="me_subject_pronun">mina</string>
+    <string name="inbox_folders_heading">Sissetulevad</string>
+    <plurals name="confirm_delete_conversation">
+        <item quantity="one">Kas kustutada see vestlus?</item>
+        <item quantity="other">Kas kustutada need <xliff:g id="count">%1$d</xliff:g> vestlust?</item>
+    </plurals>
+    <plurals name="confirm_archive_conversation">
+        <item quantity="one">Kas arhiveerida see vestlus?</item>
+        <item quantity="other">Kas arhiveerida need <xliff:g id="count">%1$d</xliff:g> vestlust?</item>
+    </plurals>
+    <plurals name="confirm_discard_drafts_conversation">
+        <item quantity="one">Kas kustutada mustandid sellest vestlusest?</item>
+        <item quantity="other">Kas kustutada mustandid nendest <xliff:g id="count">%1$d</xliff:g> vestlusest?</item>
+    </plurals>
+    <string name="confirm_discard_text">Kustutada see kiri?</string>
+    <string name="loading_conversations">Laadimine \u2026</string>
+    <string name="no_conversations">Vestlusi pole.</string>
+    <string name="undo">Võta tagasi</string>
+    <plurals name="conversation_unstarred">
+        <item quantity="one">Unstarring <xliff:g id="count">%1$d</xliff:g> conversation.</item>
+        <item quantity="other">Unstarring <xliff:g id="count">%1$d</xliff:g> conversations.</item>
+    </plurals>
+    <plurals name="conversation_muted">
+        <item quantity="one">&lt;b><xliff:g id="count">%1$d</xliff:g>&lt;/b> vestlus vaigistatud.</item>
+        <item quantity="other">&lt;b><xliff:g id="count">%1$d</xliff:g>&lt;/b> vestlust vaigistatud.</item>
+    </plurals>
+    <plurals name="conversation_spammed">
+        <item quantity="one">Teatatud &lt;b><xliff:g id="count">%1$d</xliff:g>-st&lt;/b> rämpskirjast.</item>
+        <item quantity="other">Teatatud &lt;b><xliff:g id="count">%1$d</xliff:g>-st&lt;/b> rämpskirjast.</item>
+    </plurals>
+    <plurals name="conversation_not_spam">
+        <item quantity="one">Teatatud &lt;b><xliff:g id="count">%1$d</xliff:g>-st&lt;/b> väärtkirjast.</item>
+        <item quantity="other">Teatatud &lt;b><xliff:g id="count">%1$d</xliff:g>-st&lt;/b> väärtkirjast.</item>
+    </plurals>
+    <plurals name="conversation_not_important">
+        <item quantity="one">&lt;b><xliff:g id="count">%1$d</xliff:g>&lt;/b> vestlust ebaoluliseks märgitud.</item>
+        <item quantity="other">&lt;b><xliff:g id="count">%1$d</xliff:g>&lt;/b> vestlust ebaoluliseks märgitud.</item>
+    </plurals>
+    <plurals name="conversation_phished">
+        <item quantity="one">Teatatud &lt;b><xliff:g id="count">%1$d</xliff:g>-st&lt;/b> õngitsemiskatsest.</item>
+        <item quantity="other">Teatatud &lt;b><xliff:g id="count">%1$d</xliff:g>-st&lt;/b> õngitsemiskatsest.</item>
+    </plurals>
+    <plurals name="conversation_archived">
+        <item quantity="one">&lt;b><xliff:g id="count">%1$d</xliff:g>&lt;/b> vestlus arhiveeritud.</item>
+        <item quantity="other">&lt;b><xliff:g id="count">%1$d</xliff:g>&lt;/b> vestlust arhiveeritud.</item>
+    </plurals>
+    <plurals name="conversation_deleted">
+        <item quantity="one">&lt;b><xliff:g id="count">%1$d</xliff:g>&lt;/b> vestlus kustutatud.</item>
+        <item quantity="other">&lt;b><xliff:g id="count">%1$d</xliff:g>&lt;/b> vestlust kustutatud.</item>
+    </plurals>
+    <string name="deleted">Kustutatud</string>
+    <string name="archived">Arhiveeritud</string>
+    <string name="folder_removed">„<xliff:g id="folderName">%1$s</xliff:g>“ kaustast eemaldatud</string>
+    <plurals name="conversation_folder_changed">
+        <item quantity="one">Kaust muudetud.</item>
+        <item quantity="other">Kaustad muudetud.</item>
+    </plurals>
+    <string name="conversation_folder_moved">Liigutatud „<xliff:g id="folderName">%1$s</xliff:g>“ kausta</string>
+    <string name="search_results_header">Tulemused</string>
+    <string name="search_unsupported">Sellel kontol ei saa otsida.</string>
+    <string name="search_results_searching_header">Otsimine \u2026</string>
+    <string name="add_label">Lisa kaust</string>
+    <string name="new_incoming_messages_one">Uus kiri aadressilt <xliff:g id="sender">%s</xliff:g>. Näita.</string>
+    <plurals name="new_incoming_messages_many">
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> uut kirja. Näita.</item>
+    </plurals>
+    <string name="expand_recipient_details">Saaja detailse info avamine</string>
+    <string name="collapse_recipient_details">Saaja detailse info sulgemine</string>
+    <string name="contact_info_string"><xliff:g id="name">%1$s</xliff:g> kontaktinfo näitamine</string>
+    <string name="contact_info_string_default">Kontaktinfo näitamine</string>
+    <plurals name="show_messages_read">
+        <item quantity="other"><xliff:g id="count" example="4">%1$d</xliff:g> vanemat kirja</item>
+    </plurals>
+    <string name="from_heading">From:\u0020</string>
+    <string name="replyto_heading">Reply-to:\u0020</string>
+    <string name="to_heading">To:\u0020</string>
+    <string name="cc_heading">Cc:\u0020</string>
+    <string name="bcc_heading">Bcc:\u0020</string>
+    <string name="date_heading">Kuupäev:\u0020</string>
+    <string name="show_images">Näita pilte</string>
+    <string name="always_show_images">Näita alati selle saatja pilte</string>
+    <string name="always_show_images_toast">Selle saatja pilte näidatakse tulevikus automatselt.</string>
+    <string name="address_display_format"><xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g></string>
+    <string name="address_display_format_with_via_domain"><xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g> via <xliff:g id="via_domain">%3$s</xliff:g></string>
+    <string name="message_saved">Kiri salvestatud mustandina.</string>
+    <string name="sending_message">Kirja saatmine \u2026</string>
+    <string name="invalid_recipient">Aadress <xliff:g id="wrongemail" example="foo@@gmail..com">%s</xliff:g> on vigane.</string>
+    <string name="show_elided">\u25B6 Näita tsiteeritud teksti</string>
+    <string name="hide_elided">\u25BC Peida tsiteeritud tekst</string>
+    <string name="message_invite_title">Kalendrikutse</string>
+    <string name="message_invite_calendar_view">Vaata kalendris</string>
+    <string name="message_invite_label_attending">Lähed?</string>
+    <string name="message_invite_accept">Jah</string>
+    <string name="message_invite_tentative">Võib olla</string>
+    <string name="message_invite_decline">Ei</string>
+    <string name="enumeration_comma">,\u0020</string>
+    <string name="yes">Jah</string>
+    <string name="no">Ei</string>
+    <string name="ok">OK</string>
+    <string name="done">Valmis</string>
+    <string name="cancel">Tühista</string>
+    <string name="clear">Eemalda</string>
+    <string-array name="sync_status">
+        <item>Sünkroniseerimine toimib.</item>
+        <item>Ühendus puudub.</item>
+        <item>Ei saanud sisse logida.</item>
+        <item>Turvaprobleem.</item>
+        <item>Ei saanud sünkroniseerida.</item>
+        <item>Sisemine viga.</item>
+    </string-array>
+    <string name="tap_to_configure">Seadistamiseks puuduta vidinat</string>
+    <string name="non_synced_folder_description">Vestluste nägemiseks sünkroniseeri see kaust.</string>
+    <string name="tap_to_configure_folder_sync">Sünkroniseeri kaust</string>
+    <string name="widget_large_unread_count">%d+</string>
+    <plurals name="actionbar_unread_messages">
+        <item quantity="other"><xliff:g id="count" example="4">%1$d</xliff:g> lugemata kirja</item>
+    </plurals>
+    <string name="actionbar_large_unread_count"><xliff:g id="count">%1$d</xliff:g>+ lugemata kirja</string>
+    <string name="view_more_conversations">Näita rohkem vestlusi</string>
+    <string name="loading_conversation">Laadimine \u2026</string>
+    <string name="activity_mailbox_selection">Konto valimine</string>
+    <string name="activity_folder_selection">Kausta valimine</string>
+    <string name="folder_shortcut_widget_label">E-posti kaust</string>
+    <string name="change_folders_selection_dialog_title">Kausta vahetamine</string>
+    <string name="move_to_selection_dialog_title">Liigutamine</string>
+    <string name="search_hint">Otsing kirjadest</string>
+    <string name="search_results_loaded"><xliff:g id="searchCount">%1$d</xliff:g></string>
+    <string name="network_error">Ühendus puudub</string>
+    <string name="retry">Proovi uuesti</string>
+    <string name="load_more">Laadi rohkem</string>
+    <string name="load_attachment">Laadi alla</string>
+    <string name="shortcut_name_title">Kausta viite nimetamine</string>
+    <string name="wait_for_sync_title">Sünkroniseerimise lõpu ootamine</string>
+    <string name="wait_for_sync_body">Su kirjad ilmuvad varsti.</string>
+    <string name="not_synced_title">Konto pole sünkroniseeritud</string>
+    <string name="wait_for_manual_sync_body">See konto pole seadistatud autmaatset sünkroniseerimist kasutama.\nKorra sünkroniseerimiseks puuduta <b>Süngi kohe</b> nuppu, automaatse sünkroniseerimise käivitamiseks <b>Muuda sünkroonimise seadeid</b> nuppu.</string>
+    <string name="manual_sync">Süngi kohe</string>
+    <string name="change_sync_settings">Muuda sünkroonimise seadeid</string>
+    <string name="photo_load_failed">Pilti ei saanud laadida</string>
+    <string name="cant_move_or_change_labels">Valitud kirju ei saa liigutada, kuna need on erinevatel kontodel.</string>
+    <string name="multiple_new_message_notification_item"><b><xliff:g id="sender">%1$s</xliff:g></b>\u0020\u0020\u0020<xliff:g id="subject">%2$s</xliff:g></string>
+    <string name="single_new_message_notification_big_text"><xliff:g id="subject">%1$s</xliff:g>\n<xliff:g id="snippet">%2$s</xliff:g></string>
+    <string name="ignore_spam_warning">Ignoreeri, ma usaldan seda kirja</string>
+    <string name="via_domain">via <xliff:g id="viaDomain">%1$s</xliff:g></string>
+    <string-array name="moveto_folder_sections">
+        <item>Süsteemi kaustad</item>
+        <item>Tihedamini kasutatud</item>
+        <item>Kõik kaustad</item>
+    </string-array>
+    <string name="signin">Logi sisse</string>
+    <string name="info">Info</string>
+    <string name="report">Raporteeri</string>
+    <string name="sync_error">Ei saanud sünkroniseerida.</string>
+    <string name="sync_error_message">Su seadmes pole sünkroniseerimiseks piisavalt ruumi.</string>
+    <string name="storage">Salvestusruum</string>
+    <string name="senders_split_token">,\u00A0</string>
+    <string name="draft_count_format">\u00A0(<xliff:g id="count">%1$s</xliff:g>)</string>
+    <string name="all_folders_heading">Kõik kaustad</string>
+    <string name="recent_folders_heading">Viimati kasutatud kaustad</string>
+    <string name="message_details_title">Kirja üksikasjad</string>
+    <string name="auto_advance_label">Automaatne liikumine</string>
+    <string name="auto_advance_summary">Vali mis ekraani näidatakse pärast kirja kustutamist</string>
+    <string name="auto_advance_help_title">Automaatne liikumine\n(pärast kirja kustutamist jne)</string>
+    <string-array name="prefEntries_autoAdvance">
+        <item>Uuem vestlus</item>
+        <item>Vanem vestlus</item>
+        <item>Vestluste nimekiri</item>
+    </string-array>
+    <string-array name="prefSummaries_autoAdvance">
+        <item>Pärast kustutamist liigutakse uuemale vestlusele</item>
+        <item>Pärast kustutamist liigutakse vanemale vestlusele</item>
+        <item>Pärast kustutamist liigutakse vestluste nimekirja</item>
+    </string-array>
+    <string name="clear_display_images_whitelist_title">Eemalda piltide laadimisload</string>
+    <string name="clear_display_images_whitelist_dialog_title">Eemaldada laadimisload?</string>
+    <string name="clear_display_images_whitelist_dialog_message">Kui oled eelnevalt lubanud mõnede saatjate kirjades automaatselt pilte laadida, siis enam seda ei tehta.</string>
+    <string name="sender_whitelist_cleared">Pilte ei näidata enam automaatselt.</string>
+    <string name="preferences_signature_title">Signatuur</string>
+    <string name="preferences_signature_dialog_title">Signatuur</string>
+    <string name="preferences_signature_summary_not_set">Määramata</string>
+    <string name="notification_action_reply">Vasta</string>
+    <string name="notification_action_reply_all">Vasta kõigile</string>
+    <string name="notification_action_archive">Arhiveeri</string>
+    <string name="notification_action_remove_label">Eemalda silt</string>
+    <string name="notification_action_delete">Kustuta</string>
+    <string name="notification_action_undo_archive">Arhiveeritud</string>
+    <string name="notification_action_undo_remove_label">Silt eemaldatud</string>
+    <string name="notification_action_undo_delete">Kustutatud</string>
+    <string name="veiled_address"/>
+    <string name="veiled_alternate_text"/>
+    <string name="veiled_alternate_text_unknown_person"/>
+    <string name="veiled_summary_unknown_person"/>
+    <string name="label_notification_ticker">"<xliff:g id="label">%s</xliff:g>: <xliff:g id="notification">%s</xliff:g>"</string>
+    <string name="new_messages"><xliff:g id="count">%1$d</xliff:g> uut kirja</string>
+    <string name="single_new_message_notification_title"><xliff:g id="sender">%1$s</xliff:g>: <xliff:g id="subject">%2$s</xliff:g></string>
+    <string name="silent_ringtone">Hääletu</string>
+    <string name="preference_removal_action_title">Arhiveerimine &amp; kustutamine</string>
+    <string-array name="prefEntries_removal_action">
+        <item>Ainult arhiveerimine</item>
+        <item>Ainult kustutamine</item>
+        <item>Arhiveerimine ja kustutamine</item>
+    </string-array>
+    <string-array name="prefSummaries_removal_action_summary">
+        <item>Näidatakse ainult arhiveerimist</item>
+        <item>Näidatakse ainult kustutamist</item>
+        <item>Näidatakse arhiveerimist ja kustutamist</item>
+    </string-array>
+    <string name="prefDialogTitle_removal_action">Arhiveerimise ja kustutamise toimingud</string>
+    <string name="preferences_default_reply_all_title">Kõigile vastamine</string>
+    <string name="preferences_default_reply_all_summary">Vaikemeetod kirjadele vastamisel</string>
+    <string name="preference_swipe_title_archive">Sõrme tõmbega arhiveerimine</string>
+    <string name="preference_swipe_title_delete">Sõrme tõmbega kustutamine</string>
+    <string name="preference_swipe_description">Vestluste nimekirjas</string>
+    <string name="preference_sender_image_title">Saatja pilt</string>
+    <string name="preference_sender_image_description">Vestluste nimekirjas nime kõrval</string>
+    <string name="swipe_down_to_refresh">Värskendamiseks libista sõrme ekraanil alla</string>
+    <string name="checking_for_mail">Posti kontrollimine</string>
+    <string name="empty_trash">Tühjenda prügikast</string>
+    <string name="empty_spam">Tühjenda spämmikaust</string>
+    <string name="empty_trash_dialog_title">Kas tühjendada prügikast?</string>
+    <string name="empty_spam_dialog_title">Kas tühjendada spämmikaust?</string>
+    <plurals name="empty_folder_dialog_message">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> kiri kustutatakse lõplikult.</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> kirja kustutatakse lõplikult.</item>
+    </plurals>
+    <string name="drawer_open">Navigatsioonisahtli avamine</string>
+    <string name="drawer_close">Navigatsioonisahtli sulgemine</string>
+    <string name="conversation_photo_welcome_text">Vestluse valimiseks puuduta saatja pilti</string>
+    <string name="long_press_to_select_tip">Esimest vestlust valides puuduta seda pikemalt, siis saad puudutusega valida rohkem vestlusi.</string>
+    <string name="folder_icon_desc">Kausta ikoon</string>
+    <string name="add_account">Lisa konto</string>
+    <string name="attached_message">Kaasatud kiri</string>
+    <string name="date_message_received"><xliff:g id="day_and_date">%1$s</xliff:g>, <xliff:g id="time">%2$s</xliff:g></string>
+    <string name="date_message_received_today">Täna, <xliff:g id="time">%1$s</xliff:g></string>
+    <string name="date_message_received_yesterday">Eile, <xliff:g id="time">%1$s</xliff:g></string>
+    <string name="dismiss_tip_hover_text">Vihje eiramine</string>
+    <string name="auto_sync_off">Automaatne sünkroniseerimine on välja lülitatud.</string>
+    <string name="tap_to_enable_sync">Sisse lülitamiseks puuduta seda teksti.</string>
+    <string name="account_sync_off">Konto sünkroniseerimine on välja lülitatud.</string>
+    <string name="enable_sync_in_account_settings">Lülita see sisse <xliff:g id="account_settings">%1$s</xliff:g>.</string>
+    <string name="account_settings_param">konto seadetes</string>
+    <string name="unsent_messages_in_outbox"><xliff:g id="number">%1$s</xliff:g> saatamata kirja „<xliff:g id="outbox">%2$s</xliff:g>“ kaustas</string>
+    <string name="turn_auto_sync_on_dialog_title">Kas lülitada automaatne sünroniseerimine sisse?</string>
+    <string name="turn_auto_sync_on_dialog_body">Muudatused, mida sa teed (mitte ainult Gmaili) rakendustes ja kontodel, sünroniseeritakse veebiliidese, su teiste seadmete ja <xliff:g id="phone_or_tablet">%1$s</xliff:g> vahel.</string>
+    <string name="phone">telefoni</string>
+    <string name="tablet">tahvelarvuti</string>
+    <string name="turn_auto_sync_on_dialog_confirm_btn">Lülita sisse</string>
+    <string name="show_n_more_folders">Näita veel <xliff:g id="number">%1$s</xliff:g> kausta</string>
+    <string name="hide_folders">Peida kaustad</string>
+</resources>

@@ -37,14 +37,14 @@
   </plurals>
     <string name="cannot_move_protocol_not_supported_toast">POP3 konto kirjade liigutamine pole toetatud.</string>
     <string name="cannot_move_multiple_accounts_toast">Kirju ei saa liigutada, kuna valitud kirjad on erinevatelt kontodelt.</string>
-    <string name="cannot_move_special_mailboxes_toast">Kaustades „Mustandid„, „Väljundkast“ ja „Saadetud“ olevaid kirju ei saa liigutada.</string>
-    <string name="mailbox_name_display_inbox">Sisendkaust</string>
-    <string name="mailbox_name_display_outbox">Väljundkaust</string>
+    <string name="cannot_move_special_mailboxes_toast">Kaustades „Mustandid„, „Väljuvad“ ja „Saadetud“ olevaid kirju ei saa liigutada.</string>
+    <string name="mailbox_name_display_inbox">Sissetulevad</string>
+    <string name="mailbox_name_display_outbox">Väljuvad</string>
     <string name="mailbox_name_display_drafts">Mustandid</string>
     <string name="mailbox_name_display_trash">Prügikast</string>
     <string name="mailbox_name_display_sent">Saadetud</string>
     <string name="mailbox_name_display_junk">Rämpspost</string>
-    <string name="mailbox_name_display_starred">Tähega märgitud</string>
+    <string name="mailbox_name_display_starred">Tähistatud</string>
     <string name="mailbox_name_display_unread">Lugemata</string>
     <string name="account_folder_list_summary_inbox">Sisendkaust</string>
     <string name="account_folder_list_summary_starred">Tärniga</string>
