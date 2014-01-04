@@ -77,5 +77,5 @@
     <string name="privacyPerms">Privaatsus</string>
     <string name="devicePerms">Seadme juurdepääs</string>
     <string name="no_new_perms">See värskendus ei nõua uusi õigusi.</string>
-    <string name="grant_confirm_question">Soovid sa anda rakendusle järgnevad õigused? Need oleksid:</string>
+    <string name="grant_confirm_question">Soovid sa anda rakendusele järgnevad õigused? Need oleksid:</string>
 </resources>

@@ -340,7 +340,7 @@
     <string name="permlab_getAppOpsStats">rakenduse statistika lugemine</string>
     <string name="permdesc_getAppOpsStats">Võimaldab rakendusel lugeda teiste rakenduste töö kohta kogutud statistikat. Ei ole mõeldud tavarakendustele.</string>
     <string name="permlab_updateAppOpsStats">rakenduse statistika muutmine</string>
-    <string name="permdesc_updateAppOpsStats">Võimaldab rakendusle muuta teiste rakenduste töö kohta kogutud statistikat. Ei ole mõeldud tavarakendustele.</string>
+    <string name="permdesc_updateAppOpsStats">Võimaldab rakendusel muuta teiste rakenduste töö kohta kogutud statistikat. Ei ole mõeldud tavarakendustele.</string>
     <string name="permlab_backup">varundamise ja taastamise kontrollimine</string>
     <string name="permdesc_backup">Võimaldab rakendusel kontrollida süsteemi varundus- ja taastemehhanismi. Ei ole mõeldud tavarakendustele.</string>
     <string name="permlab_confirm_full_backup">täieliku varukoopia loomise või taastamise kinnitamine</string>
@@ -412,11 +412,11 @@
     <string name="permdesc_readLogs" product="tablet">Võimaldab rakendusel lugeda erinevaid logifaile süsteemis. Nii on rakendusel võimalik saada üldist infot selle kohta, mida sa tahvelarvutiga teed, kuid see info võib muuhulgas sisaldada ka isiklikke või privaatseid andmeid.</string>
     <string name="permdesc_readLogs" product="default">Võimaldab rakendusel lugeda erinevaid logifaile süsteemis. Nii on rakendusel võimalik saada üldist infot selle kohta, mida sa telefoniga teed, kuid see info võib muuhulgas sisaldada ka isiklikke või privaatseid andmeid.</string>
     <string name="permlab_anyCodecForPlayback">meediadekoodrite kasutamine taasesituseks</string>
-    <string name="permdesc_anyCodecForPlayback">Võimaldab rakendusel taasesituseks kasutada mis tahes paigaldatud meediumidekooderit.</string>
+    <string name="permdesc_anyCodecForPlayback">Võimaldab rakendusel taasesituseks kasutada mis tahes paigaldatud meediumidekoodrit.</string>
     <string name="permlab_manageCaCertificates">usaldusväärsete sertifitseerimiskeskuste haldamine</string>
     <string name="permdesc_manageCaCertificates">Lubab rakendusel paigaldada sertifitseerimiskeskuste (CA) sertifikaate kui usaldusväärseid.</string>
-    <string name="permlab_diagnostic">diag grupi ressursside lugemine/kirjutamine</string>
-    <string name="permdesc_diagnostic">Võimaldab rakendusel lugeda ja kirjutada mis tahes diag grupi ressurssi (näiteks /dev kaustas olevaid faile). See võib mõjutada süsteemi stabiilsust ja turvalisust. Seda õigust peaks kasutama AINULT tootja või operaatori poolseks riistvaraspetsiifiliseks diagnostikaks.</string>
+    <string name="permlab_diagnostic">„diag“ grupi ressursside lugemine/kirjutamine</string>
+    <string name="permdesc_diagnostic">Võimaldab rakendusel lugeda ja kirjutada mis tahes „diag“ grupi ressurssi (näiteks /dev kaustas olevaid faile). See võib mõjutada süsteemi stabiilsust ja turvalisust. Seda õigust peaks kasutama AINULT tootja või operaatori poolseks riistvaraspetsiifiliseks diagnostikaks.</string>
     <string name="permlab_changeComponentState">rakenduse komponentide lubamine/keelamine</string>
     <string name="permdesc_changeComponentState" product="tablet">Võimaldab rakendusel määrata, kas teise rakenduse komponent on lubatud või mitte. Pahatahtlikud rakendused võivad kasutada seda tahvelarvuti oluliste funktsioonide keelamiseks. Selle õiguse puhul peab olema ettevaatlik, kuna see võimaldab muuta rakenduse komponente kasutuks, vastuoluliseks või ebastabiilseks.</string>
     <string name="permdesc_changeComponentState" product="default">Võimaldab rakendusel määrata, kas teise rakenduse komponent on lubatud või mitte. Pahatahtlikud rakendused võivad kasutada seda telefoni oluliste funktsioonide keelamiseks. Selle õiguse puhul peab olema ettevaatlik, kuna see võimaldab muuta rakenduse komponente kasutuks, vastuoluliseks või ebastabiilseks.</string>
@@ -425,7 +425,7 @@
     <string name="permlab_setPreferredApplications">eelistatud rakenduste määramine</string>
     <string name="permdesc_setPreferredApplications">Võimaldab rakendusel muuta su eelistatud rakendusi. Pahatahtlikud rakendused võivad salaja muuta käivitatavaid rakendusi ning olemasolevaid rakendusi teeseldes koguda privaatseid andmeid.</string>
     <string name="permlab_writeSettings">süsteemi seadete muutmine</string>
-    <string name="permdesc_writeSettings">Võimaldab rakendusel muuta süsteemi seadeied. Pahatahtlikud rakendused võivad rikkuda su süsteemi konfiguratsiooni.</string>
+    <string name="permdesc_writeSettings">Võimaldab rakendusel muuta süsteemi seadeid. Pahatahtlikud rakendused võivad rikkuda su süsteemi konfiguratsiooni.</string>
     <string name="permlab_writeSecureSettings">süsteemi turvaliste seadete muutmine</string>
     <string name="permdesc_writeSecureSettings">Võimaldab rakendusel muuta süsteemi turvalisi seadeid. Ei ole mõeldud tavarakendustele kasutamiseks.</string>
     <string name="permlab_writeGservices">Google\'i teenustekaardi muutmine</string>
@@ -568,7 +568,7 @@
     <string name="permlab_setWallpaperHints">taustapildi suuruse seadmine</string>
     <string name="permdesc_setWallpaperHints">Võimaldab rakendusel anda süsteemile taustapildi suuruse seadmiseks vihjeid.</string>
     <string name="permlab_masterClear">tehaseseadete taastamine</string>
-    <string name="permdesc_masterClear">Võimaldab rakendusel taastatada täielikult süsteemi tehaseseaded, kustutades kõik andmed, seaded ja paigaldatud rakendused.</string>
+    <string name="permdesc_masterClear">Võimaldab rakendusel taastada täielikult süsteemi tehaseseaded, kustutades kõik andmed, seaded ja paigaldatud rakendused.</string>
     <string name="permlab_setTime">kellaaja määramine</string>
     <string name="permdesc_setTime" product="tablet">Võimaldab rakendusel muuta tahvelarvuti kellaaega.</string>
     <string name="permdesc_setTime" product="default">Võimaldab rakendusel muuta telefoni kellaaega.</string>
@@ -603,8 +603,8 @@
     <string name="permlab_changeWifiState">WiFi ühenduse loomine ja katkestamine</string>
     <string name="permdesc_changeWifiState">Võimaldab rakendusel luua ja katkestada ühendust WiFi pääsupunktidega ning teha muudatusi seadme WiFi võrkude seadetesse.</string>
     <string name="permlab_changeWifiMulticastState">WiFi multiedastusvastuvõtt</string>
-    <string name="permdesc_changeWifiMulticastState" product="tablet">Võimaldab rakendusel WiFi võrgust võtta vastu pakette, mis on saadetud kõigile multiedastuse aadressit kasutavatele seadmetele võrgus. See võtab rohkem energiat kui multiedastust mitte kasutav režiim.</string>
-    <string name="permdesc_changeWifiMulticastState" product="default">Võimaldab rakendusel WiFi võrgust võtta vastu pakette, mis on saadetud kõigile multiedastuse aadressit kasutavatele seadmetele võrgus. See võtab rohkem energiat kui multiedastust mitte kasutav režiim.</string>
+    <string name="permdesc_changeWifiMulticastState" product="tablet">Võimaldab rakendusel WiFi võrgust võtta vastu pakette, mis on saadetud kõigile multiedastuse aadressi kasutavatele seadmetele võrgus. See võtab rohkem energiat kui multiedastust mitte kasutav režiim.</string>
+    <string name="permdesc_changeWifiMulticastState" product="default">Võimaldab rakendusel WiFi võrgust võtta vastu pakette, mis on saadetud kõigile multiedastuse aadressi kasutavatele seadmetele võrgus. See võtab rohkem energiat kui multiedastust mitte kasutav režiim.</string>
     <string name="permlab_bluetoothAdmin">ligipääs Bluetoothi seadetele</string>
     <string name="permdesc_bluetoothAdmin" product="tablet">Võimaldab rakendusel muuta tahvelarvuti Bluetoothi seadeid, leida teisi seadmeid ning tahevlarvutit nendega siduda.</string>
     <string name="permdesc_bluetoothAdmin" product="default">Võimaldab rakendusel muuta telefoni Bluetoothi seadeid, leida teisi seadmeid ning telefoni nendega siduda.</string>

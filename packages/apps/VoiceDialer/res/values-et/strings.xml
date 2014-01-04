@@ -40,7 +40,7 @@
     <string name="failure">Initsialiseerimine ei õnnestunud</string>
     <string name="recognition_error">Tee telefonile taaskäivitus ja proovi siis uuesti.</string>
     <string name="headset_connection_lost">Ühendus peakomplektiga katkes.</string>
-    <string name="at_home">" kodumubrile"</string>
+    <string name="at_home">" kodunumbrile"</string>
     <string name="on_mobile">" mobiilile"</string>
     <string name="at_work">" töönumbrile"</string>
     <string name="at_other">" muule numbrile"</string>

@@ -24,7 +24,7 @@
     <string name="abc_searchview_description_query">Otsingu päring</string>
     <string name="abc_searchview_description_clear">Päringu välja tühjendamine</string>
     <string name="abc_searchview_description_submit">Päringu saatmine</string>
-    <string name="abc_searchview_description_voice">Otsing künetuvastuse abil</string>
+    <string name="abc_searchview_description_voice">Otsing kõnetuvastuse abil</string>
     <string name="abc_activitychooserview_choose_application">Rakenduse valimine</string>
     <string name="abc_activity_chooser_view_see_all">Näita kõiki</string>
     <string name="abc_shareactionprovider_share_with_application">Jagamine rakendusse %s</string>

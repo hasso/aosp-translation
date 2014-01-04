@@ -60,7 +60,7 @@
     <string name="sms_assistant">Saada sõnum numbrile <xliff:g id="ASSISTANT">%s</xliff:g></string>
     <string name="sms_mms">Saada sõnum MMS-i numbrile</string>
     <string name="clearFrequentsConfirmation_title">Kustutada sagedamini kasutatud kontaktid?</string>
-    <string name="clearFrequentsConfirmation">Sellga kustutatakse aadressiraamatu ja telefoni rakendustest sagedamini kasutatud kontaktide nimekiri ja ka mieilirakendused peavad eelistatud aadressid uuesti selgeks õppima.</string>
+    <string name="clearFrequentsConfirmation">Sellega kustutatakse aadressiraamatu ja telefoni rakendustest sagedamini kasutatud kontaktide nimekiri ja ka meilirakendused peavad eelistatud aadressid uuesti selgeks õppima.</string>
     <string name="clearFrequentsProgress_title">Nimekirja kustutamine \u2026</string>
     <string name="status_available">Saadaval</string>
     <string name="status_away">Eemal</string>
@@ -235,7 +235,7 @@
     <string name="listTotalAllContactsZeroGroup">Grupis <xliff:g id="NAME">%s</xliff:g> pole kontakte</string>
     <string name="menu_clear_frequents">Tühjenda sagedamini kasutatud</string>
     <string name="menu_accounts">Kontod</string>
-    <string name="menu_import_export">Impord/eksport</string>
+    <string name="menu_import_export">Import/eksport</string>
     <string name="description_send_message">Sõnumi saatmine kontaktile <xliff:g id="NAME">%1$s</xliff:g></string>
     <string name="description_dial_phone_number">Helistamine kontaktile <xliff:g id="NAME">%1$s</xliff:g></string>
 </resources>

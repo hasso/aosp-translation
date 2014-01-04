@@ -458,7 +458,7 @@
     <string name="ota_hfa_activation_title">Aktiveerimine \u2026</string>
     <string name="ota_hfa_activation_dialog_message">Telefon aktiveerib andmeside võrgu teenust.\n\nSee võib võtta kuni 5 minutit.</string>
     <string name="ota_skip_activation_dialog_title">Jätan aktiveerimise vahele\?</string>
-    <string name="ota_skip_activation_dialog_message">Kui jätad aktiveerimise vahele, ei saa sa teha kõnesid ega kasutada mobiilset andmesidevõrku (kuid WiFi võrkud on kasutatavad). Kuni telefoni aktiveerimiseni palutakse sul seda teha iga kord, kui telefoni sisse lülitad.</string>
+    <string name="ota_skip_activation_dialog_message">Kui jätad aktiveerimise vahele, ei saa sa teha kõnesid ega kasutada mobiilset andmesidevõrku (kuid WiFi võrgud on kasutatavad). Kuni telefoni aktiveerimiseni palutakse sul seda teha iga kord, kui telefoni sisse lülitad.</string>
     <string name="ota_skip_activation_dialog_skip_label">Jäta vahele</string>
     <string name="ota_activate">Aktiveeri</string>
     <string name="ota_title_activate_success">Telefon on aktiveeritud.</string>

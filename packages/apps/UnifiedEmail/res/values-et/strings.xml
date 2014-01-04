@@ -41,7 +41,7 @@
     <string name="too_large_to_attach_multiple">Vähemalt üht faili ei pandud kirjaga kaasa. Piirang on <xliff:g id="maxSize">%1$s</xliff:g>.</string>
     <string name="too_large_to_attach_additional">Faili ei pandud kirjaga kaasa. Sellega oleks ületatud <xliff:g id="maxSize">%1$s</xliff:g> piirang.</string>
     <string name="generic_attachment_problem">Faili ei saanud kirjale kaasa panna.</string>
-    <string name="recipient_needed">Lisa vähemalt üks adessaat.</string>
+    <string name="recipient_needed">Lisa vähemalt üks adressaat.</string>
     <string name="recipient_error_dialog_title">Adressaadi viga</string>
     <string name="confirm_send_title">Saata kiri ära?</string>
     <string name="confirm_send_message_with_no_subject">Kirja teemarida on tühi.</string>
@@ -163,8 +163,8 @@
     <string name="no_conversations">Vestlusi pole.</string>
     <string name="undo">Võta tagasi</string>
     <plurals name="conversation_unstarred">
-        <item quantity="one">Unstarring <xliff:g id="count">%1$d</xliff:g> conversation.</item>
-        <item quantity="other">Unstarring <xliff:g id="count">%1$d</xliff:g> conversations.</item>
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> vestluselt tärn eemaldatud.</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> vestluselt tärn eemaldatud.</item>
     </plurals>
     <plurals name="conversation_muted">
         <item quantity="one">&lt;b><xliff:g id="count">%1$d</xliff:g>&lt;/b> vestlus vaigistatud.</item>
@@ -279,7 +279,7 @@
     <string name="wait_for_sync_title">Sünkroniseerimise lõpu ootamine</string>
     <string name="wait_for_sync_body">Su kirjad ilmuvad varsti.</string>
     <string name="not_synced_title">Konto pole sünkroniseeritud</string>
-    <string name="wait_for_manual_sync_body">See konto pole seadistatud autmaatset sünkroniseerimist kasutama.\nKorra sünkroniseerimiseks puuduta <b>Süngi kohe</b> nuppu, automaatse sünkroniseerimise käivitamiseks <b>Muuda sünkroonimise seadeid</b> nuppu.</string>
+    <string name="wait_for_manual_sync_body">See konto pole seadistatud automaatset sünkroniseerimist kasutama.\nKorra sünkroniseerimiseks puuduta <b>Süngi kohe</b> nuppu, automaatse sünkroniseerimise käivitamiseks <b>Muuda sünkroonimise seadeid</b> nuppu.</string>
     <string name="manual_sync">Süngi kohe</string>
     <string name="change_sync_settings">Muuda sünkroonimise seadeid</string>
     <string name="photo_load_failed">Pilti ei saanud laadida</string>

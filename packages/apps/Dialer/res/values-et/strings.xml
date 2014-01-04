@@ -136,7 +136,7 @@
     <string name="call_log_all_title">Kõik</string>
     <string name="call_log_missed_title">Vastamata</string>
     <string name="recentMissed_empty">Hiljuti vastamata kõnesid pole.</string>
-    <string name="recentVoicemails_empty">Hiljuti saaabunud kõneposti sõnumeid pole.</string>
+    <string name="recentVoicemails_empty">Hiljuti saabunud kõneposti sõnumeid pole.</string>
     <string name="show_all_contacts">Näita kõiki kontakte</string>
     <string name="show_favorites_only">Näita ainult lemmikuid</string>
     <string name="call_log_activity_title">Ajalugu</string>

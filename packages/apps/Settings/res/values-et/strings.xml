@@ -2030,7 +2030,7 @@
     <string name="app_not_supported_in_limited">See rakendus pole piiratud õigustega profiilides toetatud</string>
     <string name="app_sees_restricted_accounts">See rakendus saab su kontodele ligi pääseda</string>
     <string name="restriction_wifi_config_title">WiFi ja mobiilvõrk</string>
-    <string name="restriction_wifi_config_summary">WiFi ja mobbiilvõrgu seadete muutmise lubamine</string>
+    <string name="restriction_wifi_config_summary">WiFi ja mobiilvõrgu seadete muutmise lubamine</string>
     <string name="restriction_bluetooth_config_title">Bluetooth</string>
     <string name="restriction_bluetooth_config_summary">Bluetooth-i seadete ja seoste muutmise lubamine</string>
     <string name="restriction_nfc_enable_title">NFC</string>

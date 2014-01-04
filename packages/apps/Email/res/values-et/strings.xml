@@ -283,7 +283,7 @@
     <string name="policy_email_age">Sünkroniseeritavate kirjade arvu piirang</string>
     <string name="quick_1">Tänud!</string>
     <string name="quick_2">Kõlab hästi.</string>
-    <string name="quick_3">Ma loen seda hiljem ja võtsan siis ühendust.</string>
+    <string name="quick_3">Ma loen seda hiljem ja võtan siis ühendust.</string>
     <string name="quick_4">Teeme selle teema arutamiseks ühe kohtumise.</string>
     <string name="require_manual_sync_message">Taustal sünkroonimine on sellel kontol rändluse ajal keelatud.</string>
     <string name="confirm_response">Vastuse saatmine \u2026</string>
@@ -292,6 +292,6 @@
     <string name="pop3_name">POP3</string>
     <string name="folder_picker_title">Kausta valimine</string>
     <string name="trash_folder_selection_title">Vali „<xliff:g id="account">%s</xliff:g>“ konto serveris asuv kaust kustutaud kirjadele.</string>
-    <string name="sent_folder_selection_title">Vali „<xliff:g id="account">%s</xliff:g>“ konto sereris asuv kaust saadetud kirjadele.</string>
+    <string name="sent_folder_selection_title">Vali „<xliff:g id="account">%s</xliff:g>“ konto serveris asuv kaust saadetud kirjadele.</string>
     <string name="account_waiting_for_folders_msg">Kaustade nimekirja laadimine \u2026</string>
 </resources>

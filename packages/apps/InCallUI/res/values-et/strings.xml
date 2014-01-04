@@ -461,7 +461,7 @@
     <string name="ota_title_activate">Telefoni aktiveerimine</string>
     <string name="ota_touch_activate">Telefoniteenuse aktiveerimiseks pead tegema spetsiaalse kõne.\n\nPärast käsu „Aktiveeri“ puudutamist kuula telefoni aktiveerimise juhiseid.</string>
     <string name="ota_skip_activation_dialog_title">Jätan aktiveerimise vahele\?</string>
-    <string name="ota_skip_activation_dialog_message">Kui jätad aktiveerimise vahele, ei saa sa teha kõnesid ega kasutada mobiilset andmesidevõrku (kuid WiFi võrkud on kasutatavad). Kuni telefoni aktiveerimiseni palutakse sul seda teha iga kord, kui telefoni sisse lülitad.</string>
+    <string name="ota_skip_activation_dialog_message">Kui jätad aktiveerimise vahele, ei saa sa teha kõnesid ega kasutada mobiilset andmesidevõrku (kuid WiFi võrgud on kasutatavad). Kuni telefoni aktiveerimiseni palutakse sul seda teha iga kord, kui telefoni sisse lülitad.</string>
     <string name="ota_skip_activation_dialog_skip_label">Jäta vahele</string>
     <string name="ota_activate">Aktiveeri</string>
     <string name="ota_title_activate_success">Telefon on aktiveeritud.</string>

@@ -185,7 +185,7 @@
     <string name="autofill_profile_successful_delete">Automaattäitmise tekst kustutatud.</string>
     <string name="autofill_profile_editor_delete_profile">Kustuta</string>
     <string name="autofill_setup_dialog_message">Brauser võib selliseid veebivorme automaatselt täita. Soovid sa kohe automaattäitmisel kasutatava teksti sisestada?</string>
-    <string name="autofill_setup_dialog_negative_toast">Automaattäitmise teksti saad alati seadistada, valides Brauseri menüüst Seaded &gt; Üldiseaded.</string>
+    <string name="autofill_setup_dialog_negative_toast">Automaattäitmise teksti saad alati seadistada, valides Brauseri menüüst Seaded &gt; Üldseaded.</string>
     <string name="disable_autofill">Keela automaattäitmine</string>
     <string name="pref_privacy_security_title">Privaatsus ja turvalisus</string>
     <string name="pref_privacy_clear_cache">Tühjenda vahemälu</string>
@@ -272,7 +272,7 @@
     <string name="pref_lab_quick_controls">Kiirnupud</string>
     <string name="pref_lab_quick_controls_summary">Kiirnuppude avamiseks ning rakenduse- ja aadressiriba peitmiseks libista pöial vasakult või paremalt servalt ekraanile.</string>
     <string name="pref_use_instant_search">Google Instant</string>
-    <string name="pref_use_instant_search_summary">Google Instant näitab Google\'i ostingu kasutamisel tulemusi juba teksti sisestamise ajal (see võib suurendada andmeside kasutust).</string>
+    <string name="pref_use_instant_search_summary">Google Instant näitab Google\'i otsingu kasutamisel tulemusi juba teksti sisestamise ajal (see võib suurendada andmeside kasutust).</string>
     <string name="pref_lab_fullscreen">Täisekraan</string>
     <string name="pref_lab_fullscreen_summary">Täisekraani režiim olekuriba peitmiseks</string>
     <string name="pref_data_title">Võrgukasutuse haldus</string>
