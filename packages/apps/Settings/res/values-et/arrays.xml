@@ -348,31 +348,31 @@
     <item>HDCP kontrolli kasutatakse alati</item>
   </string-array>
   <string-array name="window_animation_scale_entries">
-    <item>Animatsioon on välja lülitatud</item>
-    <item>Animatsioon on 2x kiirem</item>
-    <item>Animatsioon on normaalkiirusel</item>
-    <item>Animatsioon on 1,5x aeglasem</item>
-    <item>Animatsioon on 2x aeglasem</item>
-    <item>Animatsioon on 5x aeglasem</item>
-    <item>Animatsioon on 10x aeglasem</item>
+    <item>Välja lülitatud</item>
+    <item>2x kiirem</item>
+    <item>Normaalkiirusel</item>
+    <item>1,5x aeglasem</item>
+    <item>2x aeglasem</item>
+    <item>5x aeglasem</item>
+    <item>10x aeglasem</item>
   </string-array>
   <string-array name="transition_animation_scale_entries">
-    <item>Animatsioon on välja lülitatud</item>
-    <item>Animatsioon on 2x kiirem</item>
-    <item>Animatsioon on normaalkiirusel</item>
-    <item>Animatsioon on 1,5x aeglasem</item>
-    <item>Animatsioon on 2x aeglasem</item>
-    <item>Animatsioon on 5x aeglasem</item>
-    <item>Animatsioon on 10x aeglasem</item>
+    <item>Välja lülitatud</item>
+    <item>2x kiirem</item>
+    <item>Normaalkiirusel</item>
+    <item>1,5x aeglasem</item>
+    <item>2x aeglasem</item>
+    <item>5x aeglasem</item>
+    <item>10x aeglasem</item>
   </string-array>
   <string-array name="animator_duration_scale_entries">
-    <item>Animatsioon on välja lülitatud</item>
-    <item>Animatsioon on 2x kiirem</item>
-    <item>Animatsioon on normaalkiirusel</item>
-    <item>Animatsioon on 1,5x aeglasem</item>
-    <item>Animatsioon on 2x aeglasem</item>
-    <item>Animatsioon on 5x aeglasem</item>
-    <item>Animatsioon on 10x aeglasem</item>
+    <item>Välja lülitatud</item>
+    <item>2x kiirem</item>
+    <item>Normaalkiirusel</item>
+    <item>1,5x aeglasem</item>
+    <item>2x aeglasem</item>
+    <item>5x aeglasem</item>
+    <item>10x aeglasem</item>
   </string-array>
   <string-array name="overlay_display_devices_entries">
     <item>Puudub</item>

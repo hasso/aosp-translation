@@ -191,8 +191,8 @@
     <string name="help">Abi</string>
     <string name="no_external_storage_title">Mäluseade puudub</string>
     <string name="no_external_storage">Ükski välismäluseade pole kättesaadav</string>
-    <string name="switch_photo_filmstrip">Filmiriba vaade</string>
-    <string name="switch_photo_grid">Ruudustiku vaade</string>
+    <string name="switch_photo_filmstrip">Vaade filmiribana</string>
+    <string name="switch_photo_grid">Vaade ruudustikuna</string>
     <string name="switch_photo_fullscreen">Täisekraan</string>
     <string name="trimming">Kärpimine</string>
     <string name="muting">Vaigistamine</string>

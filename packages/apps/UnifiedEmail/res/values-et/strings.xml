@@ -60,7 +60,7 @@
     <string name="archive">Arhiveeri</string>
     <string name="report_spam">Teata rämpskirjast</string>
     <string name="mark_not_spam">Teata väärtkirjast</string>
-    <string name="report_phishing">Teata õngitsemise katsest</string>
+    <string name="report_phishing">Teata infoõngitsemise katsest</string>
     <string name="delete">Kustuta</string>
     <string name="discard_drafts">Kustuta mustandid</string>
     <string name="refresh">Värskenda</string>
@@ -259,6 +259,7 @@
     <string name="tap_to_configure_folder_sync">Sünkroniseeri kaust</string>
     <string name="widget_large_unread_count">%d+</string>
     <plurals name="actionbar_unread_messages">
+        <item quantity="one"><xliff:g id="count" example="4">%1$d</xliff:g> lugemata kiri</item>
         <item quantity="other"><xliff:g id="count" example="4">%1$d</xliff:g> lugemata kirja</item>
     </plurals>
     <string name="actionbar_large_unread_count"><xliff:g id="count">%1$d</xliff:g>+ lugemata kirja</string>
@@ -354,8 +355,8 @@
     <string name="prefDialogTitle_removal_action">Arhiveerimise ja kustutamise toimingud</string>
     <string name="preferences_default_reply_all_title">Kõigile vastamine</string>
     <string name="preferences_default_reply_all_summary">Vaikemeetod kirjadele vastamisel</string>
-    <string name="preference_swipe_title_archive">Sõrme tõmbega arhiveerimine</string>
-    <string name="preference_swipe_title_delete">Sõrme tõmbega kustutamine</string>
+    <string name="preference_swipe_title_archive">Sõrmetõmbega arhiveerimine</string>
+    <string name="preference_swipe_title_delete">Sõrmetõmbega kustutamine</string>
     <string name="preference_swipe_description">Vestluste nimekirjas</string>
     <string name="preference_sender_image_title">Saatja pilt</string>
     <string name="preference_sender_image_description">Vestluste nimekirjas nime kõrval</string>

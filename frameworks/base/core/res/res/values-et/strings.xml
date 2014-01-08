@@ -246,9 +246,9 @@
     <string name="permlab_expandStatusBar">olekuriba laiendamine/ahendamine</string>
     <string name="permdesc_expandStatusBar">Võimaldab rakendusel laiendada ja ahendada olekuriba.</string>
     <string name="permlab_install_shortcut">viidete paigaldamine</string>
-    <string name="permdesc_install_shortcut">Võimaldab rakendusel kasutaja sekkumiseta koduekraanile viiteid paigaldada.</string>
+    <string name="permdesc_install_shortcut">Võimaldab rakendusel kasutaja sekkumiseta Androidi avaekraanile viiteid paigaldada.</string>
     <string name="permlab_uninstall_shortcut">viidete eemaldamine</string>
-    <string name="permdesc_uninstall_shortcut">Võimalda rakendusel kasutaja sekkumiseta koduekraanilt viiteid eemaldada.</string>
+    <string name="permdesc_uninstall_shortcut">Võimalda rakendusel kasutaja sekkumiseta Androidi avaekraanilt viiteid eemaldada.</string>
     <string name="permlab_processOutgoingCalls">väljuvate kõnede ümbersuunamine</string>
     <string name="permdesc_processOutgoingCalls">Võimaldab rakendusel töödelda väljuvaid kõnesid ja muuta valitavat numbrit. Õigused lubavad rakendusel väljuvaid kõnesid jälgida, ümber suunata ja blokeerida.</string>
     <string name="permlab_receiveSms">tekstisõnumite (SMS) vastuvõtmine</string>

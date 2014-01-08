@@ -38,7 +38,7 @@
     <string name="cannot_move_protocol_not_supported_toast">POP3 konto kirjade liigutamine pole toetatud.</string>
     <string name="cannot_move_multiple_accounts_toast">Kirju ei saa liigutada, kuna valitud kirjad on erinevatelt kontodelt.</string>
     <string name="cannot_move_special_mailboxes_toast">Kaustades „Mustandid„, „Väljuvad“ ja „Saadetud“ olevaid kirju ei saa liigutada.</string>
-    <string name="mailbox_name_display_inbox">Sissetulevad</string>
+    <string name="mailbox_name_display_inbox">Sissetulnud</string>
     <string name="mailbox_name_display_outbox">Väljuvad</string>
     <string name="mailbox_name_display_drafts">Mustandid</string>
     <string name="mailbox_name_display_trash">Prügikast</string>
@@ -115,13 +115,13 @@
     <string name="account_setup_incoming_delete_policy_never_label">Mitte kunagi</string>
     <string name="account_setup_incoming_delete_policy_delete_label">Kui kirjad kustutatakse postkastist</string>
     <string name="account_setup_incoming_imap_path_prefix_label">IMAP prefiks</string>
-    <string name="account_setup_incoming_imap_path_prefix_hint">Pole kohustuslik</string>
+    <string name="account_setup_incoming_imap_path_prefix_hint">(see pole kohustuslik)</string>
     <string name="account_setup_outgoing_title">Konto seadistamine</string>
     <string name="account_setup_outgoing_headline">Väljuva posti serveri seaded</string>
     <string name="account_setup_outgoing_smtp_server_label">SMTP server</string>
     <string name="account_setup_outgoing_port_label">Port</string>
     <string name="account_setup_outgoing_security_label">Turvalisuse</string>
-    <string name="account_setup_outgoing_require_login_label">Vajab sisselogimist.</string>
+    <string name="account_setup_outgoing_require_login_label">Nõuab autentimist</string>
     <string name="account_setup_outgoing_username_label">Kasutajanimi</string>
     <string name="account_setup_outgoing_password_label">Parool</string>
     <string name="account_setup_exchange_certificate_title">Kliendisertifikaat</string>
@@ -132,7 +132,7 @@
     <string name="account_setup_exchange_device_id_label">Mobiilseadme ID</string>
     <string name="account_setup_options_title">Konto seaded</string>
     <string name="account_setup_options_headline">Konto valikud</string>
-    <string name="account_setup_options_mail_check_frequency_label">Postkasti kontrollimise sagedus</string>
+    <string name="account_setup_options_mail_check_frequency_label">Posti kontrollimise sagedus</string>
     <string name="account_setup_options_mail_check_frequency_never">Mitte kunagi</string>
     <string name="account_setup_options_mail_check_frequency_push">Automaatne (<i>push</i>)</string>
     <string name="account_setup_options_mail_check_frequency_5min">Iga 5 minuti järel</string>
@@ -199,11 +199,11 @@
     <string name="account_settings_login_dialog_content_fmt">Konto <xliff:g id="ACCOUNT">%s</xliff:g> kasutajanimi või parool on vale. Kas uuendad neid kohe?</string>
     <string name="account_settings_login_dialog_reason_fmt">„<xliff:g id="account">%s</xliff:g>“ kontole sisselogimine ebaõnnestus. Serveri veateade: <xliff:g id="reason">%s</xliff:g> Soovid sa oma kasutajanime ja/või parooli uuendada?</string>
     <string name="account_settings_background_attachments_label">Manuste allalaadimine</string>
-    <string name="account_settings_background_attachments_summary">Hiljutiste kirjade manuste automaatne allalaadimine WiFi kaudu</string>
+    <string name="account_settings_background_attachments_summary">Hiljuti saabunud kirjade manuste automaatne allalaadimine WiFi kaudu</string>
     <string name="account_settings_notify_label">E-posti märguanded</string>
     <string name="account_settings_summary">Sünkroonimise sagedus, märguanded jne.</string>
     <string name="account_settings_notify_summary">Posti saabumise teavitus süsteemiribal</string>
-    <string name="account_settings_mail_check_frequency_label">Postkasti kontrollimise sagedus</string>
+    <string name="account_settings_mail_check_frequency_label">Posti kontrollimise sagedus</string>
     <string name="account_settings_incoming_label">Sissetuleva posti seaded</string>
     <string name="account_settings_incoming_summary">Kasutajanimi, parool ja muud sissetuleva posti serveri seaded</string>
     <string name="account_settings_outgoing_label">Väljuva posti seaded</string>
@@ -253,10 +253,10 @@
     <string name="device_admin_label">E-post</string>
     <string name="device_admin_description">Võimaldab serveripõhiseid turvaeeskirju seada</string>
     <string name="settings_activity_title">Seaded</string>
-    <string name="header_label_general_preferences">Üldine</string>
-    <string name="general_preference_confirm_delete_label">Kinnitus enne kustutamist</string>
+    <string name="header_label_general_preferences">Üldseaded</string>
+    <string name="general_preference_confirm_delete_label">Kinnitus kustutamisel</string>
     <string name="general_preference_confirm_delete_summary">Kirjad</string>
-    <string name="general_preference_confirm_send_label">Kinnitus enne saatmist</string>
+    <string name="general_preference_confirm_send_label">Kinnitus saatmisel</string>
     <string name="general_preference_confirm_send_summary">Kirjad</string>
     <string name="general_preference_text_zoom_label">Kirja teksti suurus</string>
   <string-array name="general_preference_text_zoom_summary_array">

@@ -18,8 +18,8 @@
     <string name="title_open">Avamine</string>
     <string name="title_save">Salvestamine</string>
     <string name="menu_create_dir">Loo kaust</string>
-    <string name="menu_grid">Võrgustiku vaade</string>
-    <string name="menu_list">Nimekirja vaade</string>
+    <string name="menu_grid">Vaade ruudustikuna</string>
+    <string name="menu_list">Vaade nimekirjana</string>
     <string name="menu_sort">Sorteerimine</string>
     <string name="menu_search">Otsing</string>
     <string name="menu_settings">Seaded</string>
@@ -36,18 +36,17 @@
     <string name="save_error">Dokumenti ei õnnestunud salvestada</string>
     <string name="create_error">Kausta ei õnnestunud luua</string>
     <string name="query_error">Dokumentide nimekirja ei õnnestunud hankida</string>
-    <string name="root_recent">Viimati kasutatud</string>
+    <string name="root_recent">Uuemad</string>
     <string name="root_available_bytes">Vaba ruumi on <xliff:g id="size" example="3GB">%1$s</xliff:g></string>
     <string name="root_type_service">Salvestusteenused</string>
     <string name="root_type_shortcut">Viited</string>
     <string name="root_type_device">Seadmed</string>
     <string name="root_type_apps">Veel rakendusi</string>
-    <string name="pref_advanced_devices">Teiste seadmete näitamine</string>
+    <string name="pref_advanced_devices">Salvestusseadmete näitamine</string>
     <string name="pref_file_size">Faili suuruse näitamine</string>
     <string name="pref_device_size">Seadme suuruse näitamine</string>
     <string name="empty">Dokumente pole</string>
     <string name="toast_no_application">Faili ei saa avada</string>
     <string name="toast_failed_delete">Mõnda dokumenti ei saa kustutada</string>
     <string name="share_via">Jagamine</string>
-
 </resources>

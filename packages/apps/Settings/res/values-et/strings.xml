@@ -317,7 +317,7 @@
     <string name="user_info_settings_title">Kasutaja teave</string>
     <string name="show_profile_info_on_lockscreen_label">Profiili info näitamine ekraanilukul</string>
     <string name="profile_info_settings_title">Profiili info</string>
-    <string name="location_settings_title">Ligipääs asukohainfole</string>
+    <string name="location_settings_title">Asukohainfo</string>
     <string name="security_settings_title">Turvalisus</string>
     <string name="security_settings_summary">Asukoha määramine, ekraani avamine, SIM kaardi ja turvamandaatide lukustamine</string>
     <string name="cdma_security_settings_summary">Asukoha määramine, ekraani avamine, turvamandaatide lukustamine</string>
@@ -625,8 +625,8 @@
     <string name="wifi_disabled_network_failure">Halb Interneti ühendus</string>
     <string name="wifi_disabled_password_failure">Probleem autentimisel</string>
     <string name="wifi_not_in_range">Pole levis</string>
-    <string name="wifi_wps_available_first_item">WPS on saadaval</string>
-    <string name="wifi_wps_available_second_item">\u0020(WPS on saadaval)</string>
+    <string name="wifi_wps_available_first_item">WPS kasutamise võimalus</string>
+    <string name="wifi_wps_available_second_item">\u0020(WPS kasutamise võimalus)</string>
     <string name="wifi_secured_first_item">Kaitstud <xliff:g id="WIFI_SECURITY_SHORT">%1$s</xliff:g> protokolliga</string>
     <string name="wifi_secured_second_item">, kaitstud <xliff:g id="WIFI_SECURITY_SHORT">%1$s</xliff:g> protokolliga</string>
     <string name="wifi_security_none">Puudub</string>
@@ -689,7 +689,7 @@
     <string name="wifi_tether_configure_ap_text">WiFi leviala seadistamine</string>
     <string name="wifi_tether_configure_subtext"><xliff:g id="NETWORK_SSID">%1$s</xliff:g> (<xliff:g id="NETWORK_SECURITY">%2$s</xliff:g>)</string>
     <string name="wifi_tether_configure_ssid_default">AndroidHotspot</string>
-    <string name="home_settings">Koduekraan</string>
+    <string name="home_settings">Avaekraan</string>
     <string name="display_settings_title">Ekraan</string>
     <string name="sound_settings">Heli</string>
     <string name="ringtone_title">Telefonihelin</string>
@@ -1235,14 +1235,14 @@
     <string name="heavy_weight_stop_description">Seda rakendust ei saa ohutult peatada. Kui sa selle töö siiski peatad, võid kaotada osa oma tööst.</string>
     <string name="background_process_stop_description">See on rakenduse vana protsess, mida igaks juhuks veel töös hoitakse. Selle peatamiseks pole tavaliselt põhjust.</string>
     <string name="service_manage_description"><xliff:g id="CLIENT_NAME">%1$s</xliff:g>: on praegu kasutusel. Seadistamisse saad minna menüüst.</string>
-    <string name="main_running_process_description">Peamine kasutatav protsess.</string>
+    <string name="main_running_process_description">Kasutatav põhiprotsess.</string>
     <string name="process_service_in_use_description">Teenus <xliff:g id="COMP_NAME">%1$s</xliff:g> on kasutusel.</string>
     <string name="process_provider_in_use_description">Teenusepakkuja <xliff:g id="COMP_NAME">%1$s</xliff:g> on kasutusel.</string>
     <string name="runningservicedetails_stop_dlg_title">Kas peatada süsteemi teenuse töö?</string>
     <string name="runningservicedetails_stop_dlg_text" product="tablet">Kui peatad selle teenuse töö, ei pruugi mõned tahvelarvuti funktsioonid seni õigesti töötada, kuni tahvelarvuti välja ja seejärel uuesti sisse lülitad.</string>
     <string name="runningservicedetails_stop_dlg_text" product="default">Kui peatad selle teenuse töö, ei pruugi mõned telefoni funktsioonid seni õigesti töötada, kuni telefoni välja ja seejärel uuesti sisse lülitad.</string>
-    <string name="language_settings">Keeled ja sisestamine</string>
-    <string name="language_keyboard_settings_title">Keeled ja sisestamine</string>
+    <string name="language_settings">Keel ja sisestus</string>
+    <string name="language_keyboard_settings_title">Keel ja sisestus</string>
     <string name="language_settings_category">Keeleseaded</string>
     <string name="keyboard_settings_category">Klaviatuur ja sisestusmeetodid</string>
     <string name="phone_language">Keel</string>
@@ -1662,9 +1662,9 @@
     <string name="credentials_configure_lock_screen_hint">Enne autentimisandmete salvestamist pead määrama ekraanilukule PIN koodi või parooli.</string>
     <string name="emergency_tone_title">Hädaabikõne märguanne</string>
     <string name="emergency_tone_summary">Käitumine hädaabi numbrile helistamisel</string>
-    <string name="privacy_settings">Varundamine ja lähtestamine</string>
-    <string name="privacy_settings_title">Varundamine ja lähtestamine</string>
-    <string name="backup_section_title">Varundamine ja taastamine</string>
+    <string name="privacy_settings">Varundus ja lähtestamine</string>
+    <string name="privacy_settings_title">Varundus ja lähtestamine</string>
+    <string name="backup_section_title">Varundus ja taastamine</string>
     <string name="personal_data_section_title">Isiklikud andmed</string>
     <string name="backup_data_title">Andmete varundamine</string>
     <string name="backup_data_summary">Rakenduste andmete, WiFi paroolide ja muude seadete varundamine Google\'i serverites</string>
@@ -1688,8 +1688,8 @@
     <string name="add_device_admin_msg">Aktiveerin seadme administraatori?</string>
     <string name="add_device_admin">Aktiveeri</string>
     <string name="device_admin_add_title">Seadme administraator</string>
-    <string name="device_admin_warning">Selle administraatori aktiveerimisel lubatakse rakendusel <xliff:g id="APP_NAME">%1$s</xliff:g> teha järgmisi toiminguid:</string>
-    <string name="device_admin_status">See administraator on aktiivne ja lubab rakendusel <xliff:g id="APP_NAME">%1$s</xliff:g> teha järgmisi toiminguid:</string>
+    <string name="device_admin_warning">Pärast selle administraatori aktiveerimist saab rakendus „<xliff:g id="APP_NAME">%1$s</xliff:g>„ õiguse teha järgmisi toiminguid:</string>
+    <string name="device_admin_status">See administraator on aktiivne ja rakendusel „<xliff:g id="APP_NAME">%1$s</xliff:g>“ on õigus teha järgmisi toiminguid:</string>
     <string name="untitled_apn">Nimetu</string>
     <string name="sound_category_sound_title">Üldine</string>
     <string name="sound_category_notification_title">Märguanded</string>
@@ -1818,10 +1818,10 @@
     <string name="force_msaa_summary">4x MSAA sundkasutus OpenGL ES 2.0 rakendustes</string>
     <string name="show_non_rect_clip">Mitte ristküliku kujuliste kärbete silumine</string>
     <string name="track_frame_time">GPU renderduse profileerimine</string>
-    <string name="window_animation_scale_title">Akna animatsioonide kiirus</string>
-    <string name="transition_animation_scale_title">Ülemineku animatsioonide kiirus</string>
-    <string name="animator_duration_scale_title">Animaatori animatsioonide kiirus</string>
-    <string name="overlay_display_devices_title">Lisaekraanide olemasolu matkimine ekraanil</string>
+    <string name="window_animation_scale_title">Akna animatsioonid</string>
+    <string name="transition_animation_scale_title">Ülemineku animatsioonid</string>
+    <string name="animator_duration_scale_title">Animaatori animatsioonid</string>
+    <string name="overlay_display_devices_title">Lisaekraanide matkimine ekraanil</string>
     <string name="debug_applications_category">Rakendused</string>
     <string name="immediately_destroy_activities">Toimingute kohene hävitamine</string>
     <string name="immediately_destroy_activities_summary">Rakenduste kõik toimingud (<i>activities</i>) hävitatakse kohe, kui kasutaja neist lahkub</string>
@@ -1843,7 +1843,7 @@
     <string name="data_usage_label_foreground">Esiplaani andmed</string>
     <string name="data_usage_label_background">Taustaandmed</string>
     <string name="data_usage_app_restricted">piirang</string>
-    <string name="data_usage_disable_mobile">Kas soovite mobiilse andmeside keelata?</string>
+    <string name="data_usage_disable_mobile">Kas soovid mobiilse andmeside keelata?</string>
     <string name="data_usage_disable_mobile_limit">Mobiilse andmeside piirang</string>
     <string name="data_usage_disable_4g_limit">4G andmeside piirang</string>
     <string name="data_usage_disable_3g_limit">2G-3G andmeside piirang</string>
