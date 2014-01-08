@@ -79,7 +79,7 @@
     <string name="sum_loading_settings">Seadete laadimine \u2026</string>
     <string name="sum_hide_caller_id">Numbri peitmine väljuvatel kõnedel</string>
     <string name="sum_show_caller_id">Numbri näitamine väljuvatel kõnedel</string>
-    <string name="sum_default_caller_id">Väljuvate kõnede korral on minu numbri kuvamiseks kasutusel operaatori vaikeseaded</string>
+    <string name="sum_default_caller_id">Väljuvate kõnede korral on minu numbri näitamisel kasutusel operaatori vaikeseaded</string>
     <string name="labelCW">Koputus</string>
     <string name="sum_cw_enabled">Teavita mind kõne ajal sissetulevatest kõnedest</string>
     <string name="sum_cw_disabled">Teavita mind kõne ajal sissetulevatest kõnedest</string>
@@ -553,7 +553,7 @@
     <string name="domain_address_title">Server</string>
     <string name="username_title">Kasutajanimi</string>
     <string name="password_title">Parool</string>
-    <string name="display_name_title">Kuvatav nimi</string>
+    <string name="display_name_title">Näidatav nimi</string>
     <string name="proxy_address_title">Väljuva puhverserveri aadress</string>
     <string name="port_title">Pordi number</string>
     <string name="transport_title">Transpordi tüüp</string>
@@ -566,7 +566,7 @@
     <string name="default_preference_summary">&lt;Määramata&gt;</string>
     <string name="display_name_summary">&lt;Sama kui kasutajanimi&gt;</string>
     <string name="optional_summary">&lt;Valikuline&gt;</string>
-    <string name="advanced_settings_show">▷ Kõigi kuvamiseks puuduta</string>
+    <string name="advanced_settings_show">▷ Kõigi vaatamiseks puuduta</string>
     <string name="advanced_settings_hide">▽ Kõigi peitmiseks puuduta</string>
     <string name="empty_alert"><xliff:g id="INPUT_FIELD_NAME">%s</xliff:g> välja täitmine on kohustuslik, seda ei tohi tühjaks jätta.</string>
     <string name="not_a_valid_port">Pordi number peab jääma vahemikku 1000 kuni 65 534.</string>

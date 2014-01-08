@@ -48,22 +48,22 @@
     <item quantity="other">Nädal: <xliff:g id="COUNT">%d</xliff:g></item>
   </plurals>
     <string name="calendar_refresh">Värskenda</string>
-    <string name="show_day_view">Kuva päev</string>
+    <string name="show_day_view">Näita päeva</string>
     <string name="agenda_view">Ajakava</string>
     <string name="day_view">Päev</string>
     <string name="week_view">Nädal</string>
     <string name="month_view">Kuu</string>
-    <string name="event_view">Kuva sündmus</string>
+    <string name="event_view">Näita sündmust</string>
     <string name="event_create">Uus sündmus</string>
     <string name="event_edit">Muuda sündmust</string>
     <string name="event_delete">Kustuta sündmus</string>
     <string name="goto_today">Täna</string>
     <string name="menu_preferences">Seaded</string>
-    <string name="menu_select_visible_calendars">Kuvatavad kalendrid</string>
+    <string name="menu_select_visible_calendars">Näidatavad kalendrid</string>
     <string name="search">Otsing</string>
     <string name="hide_controls">Peida juhtelemendid</string>
-    <string name="show_controls">Kuva juhtelemente</string>
-    <string name="select_visible_calendars_title">Kuvatavad kalendrid</string>
+    <string name="show_controls">Näita juhtelemente</string>
+    <string name="select_visible_calendars_title">Näidatavad kalendrid</string>
     <string name="synced"> sünkroonitud</string>
     <string name="not_synced"> pole sünkroonitud</string>
     <string name="acct_not_synced">Seda kontot ei sünkroonita, seega ei pruugi info kalendris olla värske.</string>
@@ -87,7 +87,7 @@
     <string name="edit_event_from_label">Algus</string>
     <string name="edit_event_all_day_label">Kogu päev</string>
     <string name="edit_event_calendar_label">Kalender</string>
-    <string name="edit_event_show_all">Kuva kõik</string>
+    <string name="edit_event_show_all">Näita kõiki</string>
     <string name="description_label">Kirjeldus</string>
     <string name="presence_label">Minu staatus kalendris</string>
     <string name="privacy_label">Privaatsus</string>
@@ -192,9 +192,9 @@
     <string name="preferences_default_reminder_dialog">Meeldetuletuse vaikeaeg</string>
     <string name="preferences_default_reminder_default">10</string>
     <string name="preferences_use_home_tz_title">Koduse ajavööndi kasutamine</string>
-    <string name="preferences_use_home_tz_descrip">Kuvab reisides kalendrid ja sündmuste ajad koduse aja järgi</string>
+    <string name="preferences_use_home_tz_descrip">Näitab reisil kalendrieid ja sündmuste aegu koduse aja järgi</string>
     <string name="preferences_home_tz_title">Kodune ajavöönd</string>
-    <string name="preferences_show_week_num_title">Nädala numbri kuvamine</string>
+    <string name="preferences_show_week_num_title">Nädala numbri näitamine</string>
     <string name="preferences_about_title">Teave</string>
     <string name="preferences_build_version">Rakenduse versioon</string>
     <string name="gadget_title">Kalender</string>

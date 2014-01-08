@@ -83,11 +83,11 @@
     <string name="action_menu_overflow_description">Veel valikuid</string>
     <string name="action_menu_dialpad_button">numbriklaviatuur</string>
     <string name="menu_copy">Kopeeri</string>
-    <string name="menu_show_outgoing_only">Kuva ainult väljuvad</string>
-    <string name="menu_show_incoming_only">Kuva ainult sissetulevad</string>
-    <string name="menu_show_missed_only">Kuva ainult vastamata</string>
-    <string name="menu_show_voicemails_only">Kuva ainult kõnepostisõnumeid</string>
-    <string name="menu_show_all_calls">Kuva kõik kõned</string>
+    <string name="menu_show_outgoing_only">Näita ainult väljunuid</string>
+    <string name="menu_show_incoming_only">Näita ainult sissetulnuid</string>
+    <string name="menu_show_missed_only">Näita ainult vastamata</string>
+    <string name="menu_show_voicemails_only">Näita ainult kõnepostisõnumeid</string>
+    <string name="menu_show_all_calls">Näita kõiki kõnesid</string>
     <string name="add_2sec_pause">Lisa 2-sekundiline paus</string>
     <string name="add_wait">Lisa ootamine</string>
     <string name="call_settings">Seaded</string>
@@ -109,7 +109,7 @@
     <string name="description_call_log_missed_call">Vastamata kõne</string>
     <string name="description_call_log_voicemail">Kõnepost</string>
     <string name="description_add_contact">Kontakti lisamine</string>
-    <string name="description_view_contact">Kontakti <xliff:g id="NAME">%1$s</xliff:g> kuvamine</string>
+    <string name="description_view_contact">Kontakti <xliff:g id="NAME">%1$s</xliff:g> näitamine</string>
     <string name="description_call">Helistamine kontaktile <xliff:g id="NAME">%1$s</xliff:g></string>
     <string name="description_send_text_message">Tekstsõnumi saatmine  kontaktile <xliff:g id="NAME">%1$s</xliff:g></string>
     <string name="description_call_log_unheard_voicemail">Kuulamata kõneposti sõnum</string>

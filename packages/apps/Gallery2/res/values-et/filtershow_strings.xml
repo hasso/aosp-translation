@@ -26,7 +26,7 @@
     <string name="custom_border">Kohandatud</string>
     <string name="filtershow_undo">Võta tagasi</string>
     <string name="filtershow_redo">Tee uuesti</string>
-    <string name="show_imagestate_panel">Kuva pildi olek</string>
+    <string name="show_imagestate_panel">Näita pildi olekut</string>
     <string name="hide_imagestate_panel">Peida pildi olek</string>
     <string name="export_image">Ekspordi</string>
     <string name="print_image">Trüki</string>

@@ -28,7 +28,7 @@
     <string name="frequentList">Sagedasti kasutatud</string>
     <string name="strequentList">Lemmikud</string>
     <string name="viewContactTitle">Kontakti üksikasjad</string>
-    <string name="viewContactDesription">Kontakti kuvamine</string>
+    <string name="viewContactDesription">Kontakti näitamine</string>
     <string name="editContactDescription">Kontakti muutmine</string>
     <string name="insertContactDescription">Kontakti loomine</string>
     <string name="editGroupDescription">Grupi muutmine</string>
@@ -36,7 +36,7 @@
     <string name="contactDetailAbout">Teave</string>
     <string name="contactDetailUpdates">Värskendused</string>
     <string name="searchHint">Otsi kontakte</string>
-    <string name="menu_viewContact">Kuva kontakt</string>
+    <string name="menu_viewContact">Näita kontakti</string>
     <string name="menu_addStar">Lisa lemmikutesse</string>
     <string name="menu_removeStar">Eemalda lemmikutest</string>
     <string name="menu_editContact">Muuda</string>
@@ -54,7 +54,7 @@
     <string name="menu_joinAggregate">Ühenda</string>
     <string name="titleJoinContactDataWith">Kontaktide ühendamine</string>
     <string name="blurbJoinContactDataWith">Vali kontakt, mida soovid kontaktiga <xliff:g id="NAME">%s</xliff:g> liita.</string>
-    <string name="showAllContactsJoinItem">Kuva kõik kontaktid</string>
+    <string name="showAllContactsJoinItem">Näita kõiki kontakte</string>
     <string name="separatorJoinAggregateSuggestions">Soovitatud kontaktid</string>
     <string name="separatorJoinAggregateAll">Kõik kontaktid</string>
     <string name="contactsJoinedMessage">Kontaktid ühendatud</string>
@@ -136,7 +136,7 @@
     <string name="display_options_sort_list_by">Nimekirja sorteerimine</string>
     <string name="display_options_sort_by_given_name">Eesnime järgi</string>
     <string name="display_options_sort_by_family_name">Perekonnanime järgi</string>
-    <string name="display_options_view_names_as">Kontakti nime kuvamine</string>
+    <string name="display_options_view_names_as">Kontakti nime näitamine</string>
     <string name="display_options_view_given_name_first">Eesnimi enne</string>
     <string name="display_options_view_family_name_first">Perekonnanimi enne</string>
     <string name="take_photo">Foto tegemine</string>
@@ -149,8 +149,8 @@
     <string name="upgrade_out_of_memory_uninstall">Eemalda seadmest mõned rakendused</string>
     <string name="upgrade_out_of_memory_retry">Proovi uuesti uuendada</string>
     <string name="search_results_searching">Otsimine \u2026</string>
-    <string name="menu_display_selected">Kuva märgitud</string>
-    <string name="menu_display_all">Kuva kõik</string>
+    <string name="menu_display_selected">Näita märgituid</string>
+    <string name="menu_display_all">Näita kõiki</string>
     <string name="menu_select_all">Vali kõik</string>
     <string name="menu_select_none">Tühista kõikide valik</string>
     <string name="add_field">Lisa veel üks väli</string>
@@ -176,7 +176,7 @@
     <string name="activity_title_settings">Seaded</string>
     <string name="menu_settings">Seaded</string>
     <string name="menu_help">Abi</string>
-    <string name="preference_displayOptions">Kuvamisvalikud</string>
+    <string name="preference_displayOptions">Esituse seaded</string>
     <string name="organization_company_and_title"><xliff:g id="COMPANY_0">%2$s</xliff:g>, <xliff:g id="COMPANY_1">%1$s</xliff:g></string>
     <string name="non_phone_caption">Telefoninumber</string>
     <string name="non_phone_add_to_contacts">Lisa kontaktidesse</string>
@@ -216,7 +216,7 @@
     <string name="group_name_hint">Grupi nimi</string>
     <string name="local_profile_title">Minu kohalik profiil</string>
     <string name="external_profile_title">Minu <xliff:g id="EXTERNAL_SOURCE">%1$s</xliff:g> profiil</string>
-    <string name="toast_displaying_all_contacts">Kõigi kontaktide kuvamine</string>
+    <string name="toast_displaying_all_contacts">Kõigi kontaktide näitamine</string>
     <string name="no_account_prompt">Aadressiraamat töötab paremini Google\'i kontoga.\n\n\u2022 Pääsed andmetele ligi igast veebibrauserist.\n\u2022 Kontaktide andmed on turvaliselt varundatud.</string>
     <string name="generic_no_account_prompt">Hoia oma kontaktid kindlas kohas ka siis, kui peaksid telefoni kaotama: kasuta andmete võrguteenusega sünkroonimist.</string>
     <string name="generic_no_account_prompt_title">Konto lisamine</string>

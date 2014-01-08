@@ -28,7 +28,7 @@
     <string name="permlab_downloadCacheNonPurgeable">allalaadimiste puhvris ruumi reserveerimine</string>
     <string name="permdesc_downloadCacheNonPurgeable">Võimaldab rakendusel laadida faile allalaadimiste puhvrisse, mida allalaadimiste haldur ruumi vabastamiseks automaatselt kustutada ei saa.</string>
     <string name="permlab_downloadWithoutNotification">failide allalaadimine märguanneteta</string>
-    <string name="permdesc_downloadWithoutNotification">Võimaldab rakendusel allalaadimiste halduri kaudu faile alla laadida märguandeid kuvamata.</string>
+    <string name="permdesc_downloadWithoutNotification">Võimaldab rakendusel allalaadimiste halduri abil, kuid märguandeid näitamata faile alla laadida.</string>
     <string name="permlab_accessAllDownloads">ligipääs kõigile allalaadimistele süsteemis</string>
     <string name="permdesc_accessAllDownloads">Võimaldab rakendusel vaadata ja muuta kõiki allalaadimisi, sõltumata sellest, milline rakendus süsteemis selle algatas.</string>
     <string name="download_unknown_title">&lt;Nimetu&gt;</string>

@@ -23,7 +23,7 @@
     <string name="menu_preferences">Seaded</string>
     <string name="menu_delete_all">Kustuta kärjeteated</string>
     <string name="message_options">kärjeteate valikud</string>
-    <string name="menu_view_details">Kuva üksikasjad</string>
+    <string name="menu_view_details">Näita üksikasju</string>
     <string name="menu_delete">Kustuta kärjeteade</string>
     <string name="view_details_title">Üksikasjalik info</string>
     <string name="confirm_delete_broadcast">Kas kustutada see kärjeteade?</string>
@@ -46,7 +46,7 @@
     <string name="cb_other_message_identifiers">Levisõnum</string>
     <string name="emergency_alert_settings_title">Hädaolukorra märguannete seaded</string>
     <string name="enable_emergency_alerts_title">Hädaolukorra märguanded</string>
-    <string name="enable_emergency_alerts_summary">Hädaolukorra märguannete kuvamine</string>
+    <string name="enable_emergency_alerts_summary">Hädaolukorra märguannete näitamine</string>
     <string name="alert_sound_duration_title">Märguandeheli kestus</string>
     <string name="alert_sound_duration_summary"/>
     <string name="alert_reminder_interval_title">Märguande meeldetuletus</string>
@@ -55,15 +55,15 @@
     <string name="enable_alert_speech_summary">Kõnesünteesi kasutamine hädaolukorra märguannete esitamiseks</string>
     <string name="category_etws_settings_title">ETWS seaded</string>
     <string name="enable_etws_test_alerts_title">ETWS testsõnumid</string>
-    <string name="enable_etws_test_alerts_summary">Maavärina ja hiidlaine hoiatussüsteemi testteadete kuvamine</string>
+    <string name="enable_etws_test_alerts_summary">Maavärina ja hiidlaine hoiatussüsteemi testteadete näitamine</string>
     <string name="enable_cmas_extreme_threat_alerts_title">Teated äärmuslikust ohust</string>
-    <string name="enable_cmas_extreme_threat_alerts_summary">Äärmuslikust ohust elule ja varale teatavate häirete kuvamine</string>
+    <string name="enable_cmas_extreme_threat_alerts_summary">Äärmuslikust ohust elule ja varale teatavate häirete näitamine</string>
     <string name="enable_cmas_severe_threat_alerts_title">Teated rängast ohust</string>
-    <string name="enable_cmas_severe_threat_alerts_summary">Rängast ohust elule ja varale teatavate häirete kuvamine</string>
+    <string name="enable_cmas_severe_threat_alerts_summary">Rängast ohust elule ja varale teatavate häirete näitamine</string>
     <string name="enable_cmas_amber_alerts_title">AMBER häired</string>
-    <string name="enable_cmas_amber_alerts_summary">Lapseröövi hädateadete (AMBER-häire) kuvamine</string>
+    <string name="enable_cmas_amber_alerts_summary">Lapseröövi hädateadete (AMBER-häire) näitamine</string>
     <string name="enable_cmas_test_alerts_title">CMAS testsõnumid</string>
-    <string name="enable_cmas_test_alerts_summary">CMAS (<i>Commercial Mobile Alert System</i>) testsõnumite kuvamine</string>
+    <string name="enable_cmas_test_alerts_summary">CMAS (<i>Commercial Mobile Alert System</i>) testsõnumite näitamine</string>
     <string name="enable_alert_vibrate_title">Vibreerimine</string>
     <string name="enable_alert_vibrate_summary">Vibreerimine märguandel</string>
     <string name="category_brazil_settings_title">Brasiilia seaded</string>
@@ -104,7 +104,7 @@
     <string name="delivery_time_heading">Vastu võetud:</string>
     <string name="notification_multiple"><xliff:g id="COUNT">%s</xliff:g> lugemata häiret.</string>
     <string name="notification_multiple_title">Uued häired</string>
-    <string name="show_cmas_opt_out_summary">Pärast esimese CMAS märguande kuvamist näidatakse teadetest loobumise dialoogi (v.a presidendi taseme märguanne).</string>
+    <string name="show_cmas_opt_out_summary">Pärast esimese CMAS märguannet näidatakse teadetest loobumise dialoogi (v.a presidendi taseme märguanne).</string>
     <string name="show_cmas_opt_out_title">Loobumise dialoog</string>
     <string name="cmas_opt_out_dialog_text">Hetkel on hädaolukorra teadete vastuvõtmine sisse lülitatud. Soovid sa jätkuvalt saada hädaolukorra teateid?</string>
     <string name="cmas_opt_out_button_yes">Jah</string>

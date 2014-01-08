@@ -39,9 +39,9 @@
     <string name="ims_reg_required_off">Lülita vajalik IMS-i registreerimine välja</string>
     <string name="lte_ram_dump_on">Lülita LTE mälutõmmis sisse</string>
     <string name="lte_ram_dump_off">Lülita LTE mälutõmmis välja</string>
-    <string name="radioInfo_menu_viewADN">Kuva SIM-i aadressiraamat</string>
-    <string name="radioInfo_menu_viewFDN">Kuva määratud valimisnumbrid</string>
-    <string name="radioInfo_menu_viewSDN">Kuva teenuse valimise numbrid</string>
+    <string name="radioInfo_menu_viewADN">Näita SIM-i aadressiraamatut</string>
+    <string name="radioInfo_menu_viewFDN">Näita määratud valimisnumbreid</string>
+    <string name="radioInfo_menu_viewSDN">Näita teenuse valimise numbreid</string>
     <string name="radioInfo_menu_getPDP">Hangi pakettandmeprotokollide loend</string>
     <string name="radioInfo_service_in">Teenus toimib</string>
     <string name="radioInfo_service_out">Ei toimi</string>
@@ -307,13 +307,13 @@
     <string name="biometric_weak_liveliness_summary">Avamiseks on vajalik silma pilgutamine</string>
     <string name="lock_after_timeout">Automaatne lukustus</string>
     <string name="lock_after_timeout_summary"><xliff:g id="TIMEOUT_STRING">%1$s</xliff:g> pärast unerežiimi</string>
-    <string name="show_owner_info_on_lockscreen_label">Omaniku teabe kuvamine ekraanilukul</string>
+    <string name="show_owner_info_on_lockscreen_label">Omaniku info näitamine ekraanilukul</string>
     <string name="owner_info_settings_title">Omaniku teave</string>
     <string name="security_enable_widgets_title">Vidinate lubamine</string>
     <string name="security_enable_widgets_disabled_summary">Administraatori poolt keelatud</string>
     <string name="owner_info_settings_summary"/>
-    <string name="owner_info_settings_edit_text_hint">Siia sisesta ekraanilukul kuvatav tekst</string>
-    <string name="show_user_info_on_lockscreen_label">Kasutaja teabe kuvamine ekraanilukul</string>
+    <string name="owner_info_settings_edit_text_hint">Siia sisesta ekraanilukul näidatav tekst</string>
+    <string name="show_user_info_on_lockscreen_label">Kasutaja info näitamine ekraanilukul</string>
     <string name="user_info_settings_title">Kasutaja teave</string>
     <string name="show_profile_info_on_lockscreen_label">Profiili info näitamine ekraanilukul</string>
     <string name="profile_info_settings_title">Profiili info</string>
@@ -447,7 +447,7 @@
     <string name="bluetooth_pin_values_hint">Tavaliselt 0000 või 1234</string>
     <string name="bluetooth_enter_pin_other_device">Võib-olla pead selle PIN koodi sisestama ka teise seadmesse.</string>
     <string name="bluetooth_enter_passkey_other_device">Võib-olla pead selle parooli sisestama ka teise seadmesse.</string>
-    <string name="bluetooth_confirm_passkey_msg">Siduda seadmega&lt;br&gt;&lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;&lt;br&gt;&lt;br&gt;Veenduge, et see kuvaks järgmist parooli:&lt;br&gt;&lt;b&gt;<xliff:g id="PASSKEY">%2$s</xliff:g>&lt;/b&gt;</string>
+    <string name="bluetooth_confirm_passkey_msg">Siduda seadmega&lt;br&gt;&lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;&lt;br&gt;&lt;br&gt;Veenduge, et see näitaks järgmist parooli:&lt;br&gt;&lt;b&gt;<xliff:g id="PASSKEY">%2$s</xliff:g>&lt;/b&gt;</string>
     <string name="bluetooth_incoming_pairing_msg">Seadmelt: &lt;br&gt;&lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;&lt;br&gt;&lt;br&gt; Kas siduda selle seadmega?</string>
     <string name="bluetooth_display_passkey_pin_msg">Siduda seadmega:<xliff:g id="BOLD1_0">&lt;br&gt;&lt;b&gt;</xliff:g><xliff:g id="DEVICE_NAME">%1$s</xliff:g><xliff:g id="END_BOLD1">&lt;/b&gt;&lt;br&gt;&lt;br&gt;</xliff:g>Sisesta seadmesse:<xliff:g id="BOLD2_1">&lt;br&gt;&lt;b&gt;</xliff:g><xliff:g id="PASSKEY">%2$s</xliff:g><xliff:g id="END_BOLD2">&lt;/b&gt;</xliff:g>, seejärel vajuta sisestusklahvi.</string>
     <string name="bluetooth_pairing_accept">Seo</string>
@@ -472,7 +472,7 @@
     <string name="bluetooth_device_context_connect_advanced">Valikud \u2026</string>
     <string name="bluetooth_menu_advanced">Täpsemad seaded</string>
     <string name="bluetooth_advanced_titlebar">Täpsemad Bluetoothi seaded</string>
-    <string name="bluetooth_empty_list_bluetooth_off">Seadmete kuvamiseks lülita Bluetooth sisse.</string>
+    <string name="bluetooth_empty_list_bluetooth_off">Seadmete nägemiseks lülita Bluetooth sisse.</string>
     <string name="bluetooth_connect_specific_profiles_title">Ühendamine \u2026</string>
     <string name="bluetooth_profile_a2dp">Multimeedia heli</string>
     <string name="bluetooth_profile_headset">Telefoni heli</string>
@@ -524,7 +524,7 @@
     <string name="wifi_display_status_connected">Ühendatud</string>
     <string name="wifi_display_status_available">Saadaval</string>
     <string name="wifi_display_status_in_use">Kasutuses</string>
-    <string name="wifi_display_details">Kuva seaded</string>
+    <string name="wifi_display_details">Ekraani seaded</string>
     <string name="wifi_display_disconnect_title">Kas katkestada ühendus?</string>
     <string name="wifi_display_disconnect_text">See katkestab ühenduse seadmega:&lt;br&gt;&lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;</string>
     <string name="wifi_display_options_title">Juhtmevaba ekraaniühenduse seaded</string>
@@ -616,7 +616,7 @@
     <string name="wifi_eap_identity">Identiteet</string>
     <string name="wifi_eap_anonymous">Anonüümne identiteet</string>
     <string name="wifi_password">Parool</string>
-    <string name="wifi_show_password">Kuva parool</string>
+    <string name="wifi_show_password">Näita parooli</string>
     <string name="wifi_ip_settings">IP seaded</string>
     <string name="wifi_unchanged">(muutmata)</string>
     <string name="wifi_unspecified">(määramata)</string>
@@ -741,7 +741,7 @@
     <string name="account_settings">Kontod</string>
     <string name="search_settings">Otsing</string>
     <string name="search_settings_summary">Otsinguseadete ja -ajaloo haldamine</string>
-    <string name="display_settings">Kuva</string>
+    <string name="display_settings">Ekraan</string>
     <string name="accelerometer_title">Ekraani automaatne pööramine</string>
     <string name="accelerometer_summary_on" product="tablet">Ekraani asendi automaatne muutmine tahvelarvuti pööramisel</string>
     <string name="accelerometer_summary_on" product="default">Ekraani asendi automaatne muutmine telefoni pööramisel</string>
@@ -807,8 +807,8 @@
     <string name="device_status_summary" product="default">Telefoninumber, signaal jne</string>
     <string name="storage_settings">Salvestusruum</string>
     <string name="storage_settings_title">Salvestusruumi seaded</string>
-    <string name="storage_settings_summary" product="nosdcard">USB mäluseadme lahutamine, salvestusruumi kasutuse kuvamine</string>
-    <string name="storage_settings_summary" product="default">SD kaardi lahutamine, salvestusruumi kasutuse kuvamine</string>
+    <string name="storage_settings_summary" product="nosdcard">USB mäluseadme lahutamine, salvestusruumi kasutuse vaatamine</string>
+    <string name="storage_settings_summary" product="default">SD kaardi lahutamine, salvestusruumi kasutuse vaatamine</string>
     <string name="status_imei">IMEI</string>
     <string name="status_imei_sv">IMEI SV</string>
     <string name="status_number" product="tablet">MDN</string>
@@ -1310,7 +1310,7 @@
     <string name="current_input_method">Vaikimisi</string>
     <string name="input_method_selector">Sisestusmeetodi valija</string>
     <string name="input_method_selector_show_automatically_title">Automaatne</string>
-    <string name="input_method_selector_always_show_title">Kuva alati</string>
+    <string name="input_method_selector_always_show_title">Näita alati</string>
     <string name="input_method_selector_always_hide_title">Peida alati</string>
     <string name="configure_input_method">Sisestusmeetodite seaded</string>
     <string name="input_method_settings">Seaded</string>
@@ -1361,7 +1361,7 @@
     <string name="gadget_picker_title">Vidina valimine</string>
     <string name="widget_picker_title">Vidina valimine</string>
     <string name="allow_bind_app_widget_activity_allow_bind_title">Kas luua vidin ja lubada ligipääs?</string>
-    <string name="allow_bind_app_widget_activity_allow_bind">Pärast vidina loomist saab <xliff:g id="WIDGET_HOST_NAME">%1$s</xliff:g> ligipääsu õigused kõikidele sellel kuvatavatele andmetele.</string>
+    <string name="allow_bind_app_widget_activity_allow_bind">Pärast vidina loomist saab <xliff:g id="WIDGET_HOST_NAME">%1$s</xliff:g> ligipääsu õigused kõikidele sellel näidatavatele andmetele.</string>
     <string name="allow_bind_app_widget_activity_always_allow_bind">Rakendus <xliff:g id="WIDGET_HOST_NAME">%1$s</xliff:g> saab õiguse alati vidinaid luua ja nende andmetele ligi pääseda</string>
     <string name="battery_history_days"><xliff:g id="DAYS">%1$d</xliff:g> p <xliff:g id="HOURS">%2$d</xliff:g> t <xliff:g id="MINUTES">%3$d</xliff:g> min <xliff:g id="SECONDS">%4$d</xliff:g> s</string>
     <string name="battery_history_hours"><xliff:g id="HOURS">%1$d</xliff:g> t <xliff:g id="MINUTES">%2$d</xliff:g> min <xliff:g id="SECONDS">%3$d</xliff:g> s</string>
@@ -1642,7 +1642,7 @@
     <string name="credentials_reset">Autentimisandmete kustutamine</string>
     <string name="credentials_reset_summary">Kõikide autentimisandmete eemaldamine</string>
     <string name="trusted_credentials">Usaldusväärsed sertifikaadid</string>
-    <string name="trusted_credentials_summary">Usaldusväärsete CA sertifikaatide kuvamine</string>
+    <string name="trusted_credentials_summary">Usaldusväärsete CA sertifikaatide vaatamine</string>
     <string name="credential_storage_type">Salvesturuumi tüüp</string>
     <string name="credential_storage_type_hardware">Riistvara toega</string>
     <string name="credential_storage_type_software">Ainult tarkvara</string>
@@ -1793,25 +1793,25 @@
     <string name="strict_mode">Range režiim</string>
     <string name="strict_mode_summary">Ekraanipildi vilgutamine, kui rakendus teeb oma peamises lõimes töömahukaid toiminguid</string>
     <string name="pointer_location">Kursori asukoha info</string>
-    <string name="pointer_location_summary">Aktiivsete puuteandmete info kuvamine ekraanil</string>
+    <string name="pointer_location_summary">Aktiivsete puuteandmete info näitamine ekraanil</string>
     <string name="show_touches">Puudete visualiseerimine</string>
     <string name="show_touches_summary">Puudete visuaalne tagasiside ekraanil</string>
-    <string name="show_screen_updates">Pindade värskenduste kuvamine</string>
+    <string name="show_screen_updates">Pindade värskendused</string>
     <string name="show_screen_updates_summary">Värskendatavate akna pindade vilgutamine</string>
-    <string name="show_hw_screen_updates">GPU värskenduste kuvamine</string>
+    <string name="show_hw_screen_updates">GPU värskendused</string>
     <string name="show_hw_screen_updates_summary">GPU-ga joonistatavate akna pindade vilgutamine värskendamisel</string>
-    <string name="show_hw_layers_updates">Riistvara kihtide värskenduste kuvamine</string>
+    <string name="show_hw_layers_updates">Riistvara kihtide värskendused</string>
     <string name="show_hw_layers_updates_summary">Riistvara kihid vilguvad värskendamisel roheliselt</string>
     <string name="debug_hw_overdraw">GPU ülejoonistuste silumine</string>
     <string name="disable_overlays">HW ülekatete keelamine</string>
-    <string name="disable_overlays_summary">Pildi kokkupanemisel kasutatakse alati GPU-d kuva</string>
+    <string name="disable_overlays_summary">Pildi kokkupanemisel kasutatakse alati GPU-d</string>
     <string name="enable_opengl_traces_title">OpenGL-i jälgimine</string>
     <string name="debug_layout">Näita paigutuse piire</string>
-    <string name="debug_layout_summary">Kuva klipi piirid, veerised jms</string>
+    <string name="debug_layout_summary">Klipi piiride, veeriste jms näitamine</string>
     <string name="force_rtl_layout_all_locales">RTL paigutuse kasutamine</string>
     <string name="force_rtl_layout_all_locales_summary">RTL (paremalt vasakule) paigutuse kasutamine kõigi keelte puhul</string>
-    <string name="show_cpu_usage">CPU kasutuse kuvamine</string>
-    <string name="show_cpu_usage_summary">Hetke CPU kasutuse kuvamine ekraanil</string>
+    <string name="show_cpu_usage">CPU kasutuse näitamine</string>
+    <string name="show_cpu_usage_summary">Hetke CPU kasutuse näitamine ekraanil</string>
     <string name="force_hw_ui">GPU sundkasutus renderdamisel</string>
     <string name="force_hw_ui_summary">GPU sundkasutus 2D joonistamisel</string>
     <string name="force_msaa">4x MSAA sundkasutus</string>
@@ -1826,10 +1826,10 @@
     <string name="immediately_destroy_activities">Toimingute kohene hävitamine</string>
     <string name="immediately_destroy_activities_summary">Rakenduste kõik toimingud (<i>activities</i>) hävitatakse kohe, kui kasutaja neist lahkub</string>
     <string name="app_process_limit_title">Taustaprotsesside piirarv</string>
-    <string name="show_all_anrs">Kõik „rakendus ei reageeri“ dialoogid</string>
-    <string name="show_all_anrs_summary">Ka taustarakendustel kuvatakse „rakendus ei reageeri“ dialoogi</string>
+    <string name="show_all_anrs">„Rakendus ei reageeri“ dialoogid</string>
+    <string name="show_all_anrs_summary">Ka taustarakendustel näidatakse „rakendus ei reageeri“ dialooge</string>
     <string name="data_usage_summary_title">Andmeside kasutus</string>
-    <string name="data_usage_cycle">Kuvatav periood</string>
+    <string name="data_usage_cycle">Näidatav periood</string>
     <string name="data_usage_menu_roaming">Andmeside rändlus</string>
     <string name="data_usage_menu_restrict_background">Taustaandmete piirang</string>
     <string name="data_usage_menu_split_4g">Eraldi 4G kasutus</string>
@@ -1869,7 +1869,7 @@
     <string name="data_usage_auto_sync_on_dialog" product="tablet">Mujal kontode andmetega tehtud muudatused kopeeritakse automaatselt su tahvelarvutisse.\n\nMõned kontod võivad ka kõik tahvelarvutis tehtud muudatused automaatselt üles laadida (nt Google\'i konto töötab nii).\n\nMillised andmeid igal kontol täpsemalt sünkroonitakse, saate valida Seaded &gt; Kontod.</string>
     <string name="data_usage_auto_sync_on_dialog" product="default">Mujal kontode andmetega tehtud muudatused kopeeritakse automaatselt su telefoni.\n\nMõned kontod võivad ka kõik telefonis tehtud muudatused automaatselt üles laadida (nt Google\'i konto töötab nii).\n\nMillised andmeid igal kontol täpsemalt sünkroonitakse, saate valida Seaded &gt; Kontod.</string>
     <string name="data_usage_auto_sync_off_dialog_title">Lülitada automaatne sünkimine välja?</string>
-    <string name="data_usage_auto_sync_off_dialog">See säästab akut ning piirab andmeside kasutust, kuid sul tuleb värske info hankimiseks igat kontot käsitsi sünkroniseerida ning värske info ilmumisel ei kuvata märguandeid.</string>
+    <string name="data_usage_auto_sync_off_dialog">See säästab akut ning piirab andmeside kasutust, kuid sul tuleb värske info hankimiseks igat kontot käsitsi sünkroniseerida ning värske info ilmumisel ei näidata märguandeid.</string>
     <string name="data_usage_cycle_editor_title">Kasutusperioodi algus</string>
     <string name="data_usage_cycle_editor_subtitle">Kuupäev:</string>
     <string name="data_usage_cycle_editor_positive">Määra</string>

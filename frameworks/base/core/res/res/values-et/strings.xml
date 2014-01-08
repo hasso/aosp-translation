@@ -455,7 +455,7 @@
     <string name="permlab_readSocialStream" product="default">sotsiaalvõrkude infovoo lugemine</string>
     <string name="permdesc_readSocialStream" product="default">Võimaldab rakendusel ligi pääseda sinu ja su sõprade postitustele sotsiaalvõrgustikes ning neid seadmesse sünkroonida. Ole info jagamisega ettevaatlik – see õigus võimaldab rakendusel lugeda su võrgustikes toimuvat suhtlust sõpradega võrgustiku konfidentsiaalsusreeglitest hoolimata. Märkus: mitte kõik suhtlusvõrgustikud ei pruugi selle õigusega arvestada.</string>
     <string name="permlab_writeSocialStream" product="default">sotsiaalvõrkude infovoogu kirjutamine</string>
-    <string name="permdesc_writeSocialStream" product="default">Võimaldab rakendusel kuvada su sõprade postitusi sotsiaalvõrgustikes. Ole selle õiguse jagamisel ettevaatlik – see võimaldab rakendusel luua sõnumeid, mis näivad tulevat su sõpradelt. Märkus: mitte kõik suhtlusvõrgustikud ei pruugi selle õigusega arvestada.</string>
+    <string name="permdesc_writeSocialStream" product="default">Võimaldab rakendusel näidata su sõprade postitusi sotsiaalvõrgustikes. Ole selle õiguse jagamisel ettevaatlik – see võimaldab rakendusel luua sõnumeid, mis näivad tulevat su sõpradelt. Märkus: mitte kõik suhtlusvõrgustikud ei pruugi selle õigusega arvestada.</string>
     <string name="permlab_readCalendar">kalendri sündmuste ja konfidentsiaalse info lugemine</string>
     <string name="permdesc_readCalendar" product="tablet">Võimaldab rakendusel lugeda kõiki tahvelarvutisse salvestatud kalendri sündmusi, sh su sõprade või töökaaslaste omi. See võib lubada rakendusel su kalendriandmeid jagada või salvestada ning seda nende andmete konfidentsiaalsusest või tundlikkusest hoolimata.</string>
     <string name="permdesc_readCalendar" product="default">Võimaldab rakendusel lugeda kõiki telefoni salvestatud kalendri sündmusi, sh su sõprade või töökaaslaste omi. See võib lubada rakendusel su kalendriandmeid jagada või salvestada ning seda nende andmete konfidentsiaalsusest või tundlikkusest hoolimata.</string>
@@ -589,7 +589,7 @@
     <string name="permlab_accessNetworkState">võrguühenduste vaatamine</string>
     <string name="permdesc_accessNetworkState">Lubab rakendusel saada infot võrguühenduste kohta, näiteks seda, millised võrgud on olemas ja ühendatud.</string>
     <string name="permlab_createNetworkSockets">täielik ligipääs võrgule</string>
-    <string name="permdesc_createNetworkSockets">Võimaldab rakendusel luua võrgusokleid ja kasutada kohandatud võrguprotokolle. Kuna brauser ja teised rakendused pakkuvad juba vahendid andmete Internetti saatmiseks, ei ole lihtsalt selleks seda õigust vaja.</string>
+    <string name="permdesc_createNetworkSockets">Võimaldab rakendusel luua võrgusokleid ja kasutada kohandatud võrguprotokolle. Kuna brauser ja teised rakendused pakuvad juba vahendeid andmete Internetti saatmiseks, ei ole lihtsalt selleks seda õigust vaja.</string>
     <string name="permlab_writeApnSettings">võrguseadete muutmine ja võrguliikluse jälgimine/muutmine</string>
     <string name="permdesc_writeApnSettings">Võimaldab rakendusel muuta võrguseadeid ning peatada ja kontrollida kogu võrguliiklust, näiteks muuta APN-i puhverserverit ja porti. Pahatahtlikud rakendused võivad sinu teadmata võrgupakette jälgida, ümber suunata või muuta.</string>
     <string name="permlab_changeNetworkState">võrguühenduse oleku muutmine</string>
@@ -1136,7 +1136,7 @@
     <string name="launch_warning_replace"><xliff:g id="APP_NAME">%1$s</xliff:g> on nüüd käivitunud.</string>
     <string name="launch_warning_original">Algselt käivitati rakendus <xliff:g id="APP_NAME">%1$s</xliff:g>.</string>
     <string name="screen_compat_mode_scale">Skaleeri</string>
-    <string name="screen_compat_mode_show">Kuva alati</string>
+    <string name="screen_compat_mode_show">Näita alati</string>
     <string name="screen_compat_mode_hint">Luba see uuesti seadetes Süsteemiseaded &gt; Rakendused &gt; Allalaaditud.</string>
     <string name="smv_application">Rakendus <xliff:g id="APPLICATION">%1$s</xliff:g> (protsess <xliff:g id="PROCESS">%2$s</xliff:g>) on rikkunud isekehtestatud StrictMode\'i eeskirju.</string>
     <string name="smv_process">Protsess <xliff:g id="PROCESS">%1$s</xliff:g> on rikkunud isejõustatud StrictMode\'i eeskirju.</string>

@@ -84,7 +84,7 @@
   </string-array>
   <string-array name="wifi_status">
     <item/>
-    <item>Skannimine \u2026</item>
+    <item>Skaneerimine \u2026</item>
     <item>Ühenduse loomine \u2026</item>
     <item>Autentimine \u2026</item>
     <item>IP-aadressi hankimine \u2026</item>
@@ -98,7 +98,7 @@
   </string-array>
   <string-array name="wifi_status_with_ssid">
     <item/>
-    <item>Skannimine \u2026</item>
+    <item>Skaneerimine \u2026</item>
     <item>Ühendamine võrguga <xliff:g id="NETWORK_NAME">%1$s</xliff:g> \u2026</item>
     <item>Autentimine võrguga <xliff:g id="NETWORK_NAME">%1$s</xliff:g> \u2026</item>
     <item>IP-aadressi hankimine võrgust <xliff:g id="NETWORK_NAME">%1$s</xliff:g> \u2026</item>
