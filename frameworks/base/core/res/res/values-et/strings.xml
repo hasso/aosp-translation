@@ -295,8 +295,8 @@
     <string name="permdesc_setDebugApp">Võimaldab rakendusel lülitada sisse teise rakenduse silumise. Pahatahtlikud rakendused võivad seda kasutada teiste rakenduste töö peatamiseks.</string>
     <string name="permlab_changeConfiguration">süsteemi ekraaniseadete muutmine</string>
     <string name="permdesc_changeConfiguration">Võimaldab rakendusel muuta kehtivaid seadeid, näiteks lokaati või üldist kirjasuurust.</string>
-    <string name="permlab_enableCarMode">autorežiimi lubamine</string>
-    <string name="permdesc_enableCarMode">Võimaldab rakendusel autorežiimi sisse lülitada.</string>
+    <string name="permlab_enableCarMode">autosõidu režiimi lubamine</string>
+    <string name="permdesc_enableCarMode">Võimaldab rakendusel autosõidu režiimi sisse lülitada.</string>
     <string name="permlab_killBackgroundProcesses">teiste rakenduste sulgemine</string>
     <string name="permdesc_killBackgroundProcesses">Võimaldab rakendusel lõpetada teiste rakenduste taustaprotsesside tööd. See võib peatada kogu teiste rakenduste töö.</string>
     <string name="permlab_forceStopPackages">teiste rakenduste jõuga sulgemine</string>
@@ -531,11 +531,11 @@
     <string name="permlab_accessMtp">MTP protokolli realiseerimine</string>
     <string name="permdesc_accessMtp">Annab rakendusele MTP USB protokolli realiseerimiseks ligipääsu kerneli MTP draiverile.</string>
     <string name="permlab_hardware_test">riistvara testimine</string>
-    <string name="permdesc_hardware_test">Võimaldab rakendusel riistvara testimise eesmärgil erinevaid välisseadmeid kontrollida..</string>
+    <string name="permdesc_hardware_test">Võimaldab rakendusel riistvara testimise eesmärgil erinevaid välisseadmeid kontrollida.</string>
     <string name="permlab_callPhone">telefoninumbritele helistamine</string>
     <string name="permdesc_callPhone">Võimaldab rakendusel sinu sekkumiseta telefonikõnesid teha. See võib tähendada sulle ootamatuid telefonikõnesid ja/või soovimatuid väljaminekuid. Arvesta, et see õigus ei luba rakendusel helistada hädaabinumbritele. Pahatahtlikud rakendused võivad sinu kinnituseta kõnesid tehes sulle ootamatuid väljaminekuid tekitada.</string>
     <string name="permlab_callPrivileged">mis tahes telefoninumbritele helistamine</string>
-    <string name="permdesc_callPrivileged">Võimaldab rakendusel sinu sekkumiseta helistada mis tahes telefoninumbrile, sh hädaabinumbritele. Pahatahtlikud rakendused võivad teha hädaabiteenustele mittevajalikke ja ebaseaduslikke kõnesid.</string>
+    <string name="permdesc_callPrivileged">Võimaldab rakendusel sinu sekkumiseta helistada mis tahes telefoninumbrile, sh hädaabinumbritele. Pahatahtlikud rakendused võivad teha hädaabiteenustele mittevajalikke või ebaseaduslikke kõnesid.</string>
     <string name="permlab_performCdmaProvisioning" product="tablet">tahvelarvuti CDMA võrgu seadistamine</string>
     <string name="permlab_performCdmaProvisioning" product="default">telefoni CDMA võrgu seadistamine</string>
     <string name="permdesc_performCdmaProvisioning">Võimaldab rakendusel CDMA provisioneerimist käivitada. Pahatahtlikud rakendused võivad CDMA provisioneerimist asjatult käivitada.</string>
@@ -939,7 +939,7 @@
     <string name="autofill_area">Piirkond</string>
     <string name="autofill_emirate">Emiraat</string>
     <string name="permlab_readHistoryBookmarks">veebijärjehoidjate ja -ajaloo lugemine</string>
-    <string name="permdesc_readHistoryBookmarks">Võimaldab rakendusel lugeda kõiki URL-e, mida brauser on külastanud, ja kõiki brauseri järjehoidjaid. Märkus: selle õiguse olemasolu ei pruugi kolmanda osapoole brauserid või teised veebisirvimisvõimega rakendused kontrollida.</string>
+    <string name="permdesc_readHistoryBookmarks">Võimaldab rakendusel lugeda kõiki brauseri järjehoidjaid ja URL-e, mida brauser on külastanud. Märkus: selle õiguse olemasolu ei pruugi kolmanda osapoole brauserid või teised veebisirvimisvõimega rakendused kontrollida.</string>
     <string name="permlab_writeHistoryBookmarks">veebijärjehoidjate ja -ajaloo kirjutamine</string>
     <string name="permdesc_writeHistoryBookmarks" product="tablet">Võimaldab rakendusel muuta tahvelarvutisse salvestatud brauseri sirvimisajalugu või järjehoidjaid. See võimaldab rakendusel muuta ja kustutada brauseri andmeid. Märkus: selle õiguse olemasolu ei pruugi kolmanda osapoole brauserid või teised veebisirvimisvõimega rakendused kontrollida.</string>
     <string name="permdesc_writeHistoryBookmarks" product="default">Võimaldab rakendusel muuta telefoni salvestatud brauseri sirvimisajalugu või järjehoidjaid. See võimaldab rakendusel muuta ja kustutada brauseri andmeid. Märkus: selle õiguse olemasolu ei pruugi kolmanda osapoole brauserid või teised veebisirvimisvõimega rakendused kontrollida.</string>

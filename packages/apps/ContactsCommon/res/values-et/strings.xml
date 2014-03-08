@@ -151,7 +151,7 @@
     <string name="dialog_sync_add">Lisa sünkroonimisgrupp</string>
     <string name="display_more_groups">Veel gruppe \u2026</string>
     <string name="display_warn_remove_ungrouped">Gruppi „<xliff:g id="GROUP">%s</xliff:g>” eemaldamisel sünkroonimisest eemaldatakse sünkroonimisest ka kõik gruppidesse mittekuuluvad kontaktid.</string>
-    <string name="savingDisplayGroups">Näitamisega seotud seadete salvestamine ...</string>
+    <string name="savingDisplayGroups">Näitamisega seotud seadete salvestamine \u2026</string>
     <string name="menu_done">Valmis</string>
     <string name="menu_doNotSave">Tühista</string>
     <string name="listAllContactsInAccount">Konto <xliff:g id="NAME">%s</xliff:g> kontaktid</string>
