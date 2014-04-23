@@ -111,7 +111,7 @@
     <string name="httpErrorOk">OK</string>
     <string name="httpError">Viga võrgus.</string>
     <string name="httpErrorLookup">URL-i ei leita.</string>
-    <string name="httpErrorUnsupportedAuthScheme">Saidi autentimise skeemi pole toetatud.</string>
+    <string name="httpErrorUnsupportedAuthScheme">Saidi autentimise skeem pole toetatud.</string>
     <string name="httpErrorAuth">Autentimine ebaõnnestus.</string>
     <string name="httpErrorProxyAuth">Puhverserveri kaudu autentimine ebaõnnestus.</string>
     <string name="httpErrorConnect">Serveriga ei saanud ühendust.</string>
@@ -1210,7 +1210,7 @@
     <string name="sms_premium_short_code_details"><font fgcolor="#ffffb060">See tekitab väljaminekuid su mobiilikontol.</font></string>
     <string name="sms_short_code_confirm_allow">Saada</string>
     <string name="sms_short_code_confirm_deny">Tühista</string>
-    <string name="sms_short_code_remember_choice">Jäta minu valik meelde</string>
+    <string name="sms_short_code_remember_choice">Jäta mu valik meelde</string>
     <string name="sms_short_code_remember_undo_instruction">Seda saad muuta ka Seaded &gt; Rakendused</string>
     <string name="sms_short_code_confirm_always_allow">Luba alati</string>
     <string name="sms_short_code_confirm_never_allow">Ära luba</string>
@@ -1645,8 +1645,8 @@
     <string name="restr_pin_error_doesnt_match">PIN koodid ei kattu. Proovi uuesti.</string>
     <string name="restr_pin_error_too_short">PIN on liiga lühike. Selles peab olema vähemalt 4 numbrit.</string>
   <plurals name="restr_pin_countdown">
-    <item quantity="one">Proovi uuesti 1 sekundi pärast</item>
-    <item quantity="other">Proovi uuesti <xliff:g id="count">%d</xliff:g> sekundi pärast</item>
+    <item quantity="one">Proovi sekundi pärast uuesti</item>
+    <item quantity="other">Proovi <xliff:g id="count">%d</xliff:g> sekundi pärast uuesti</item>
   </plurals>
     <string name="restr_pin_try_later">Proovi hiljem uuesti</string>
     <string name="immersive_mode_confirmation">Täisekraani režiimist väljumiseks libista sõrme ekraani ülaservast alla</string>

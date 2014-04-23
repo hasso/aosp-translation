@@ -24,21 +24,21 @@
     <string name="unknown">Tundmatu</string>
     <string name="installing">Paigaldamine \u2026</string>
     <string name="install_done">Rakendus on paigaldatud.</string>
-    <string name="install_confirm_question">Soovid sa selle rakenduse paigaldada? See saab seadmes järgmised õigused:</string>
-    <string name="install_confirm_question_no_perms">Soovid sa selle rakenduse paigaldada? See ei nõua seadmes spetsiaalseid õigusi.</string>
-    <string name="install_confirm_question_update">Soovid sa selle olemasoleva rakenduse värskenduse paigaldada? Rakenduse olemasolevaid andmed jäävad puutumata. Värskendatud rakendus saab seadmes järgnevad õigused:</string>
-    <string name="install_confirm_question_update_system">Soovid sa selle süsteemi rakenduse värskenduse paigaldada? Rakenduse olemasolevad andmed jäävad puutumata. Värskendatud rakendus saab seadmes järgnevad õigused:</string>
-    <string name="install_confirm_question_update_no_perms">Soovid sa selle olemasoleva rakenduse värskenduse paigaldada? Rakenduse olemasolevaid andmed jäävad puutumata. See ei nõua seadmes spetsiaalseid õigusi.</string>
-    <string name="install_confirm_question_update_system_no_perms">Soovid sa selle süsteemi rakenduse värskenduse paigaldada? Rakenduse olemasolevad andmed jäävad puutumata. See ei nõua seadmes spetsiaalseid õigusi.</string>
+    <string name="install_confirm_question">Kas soovid selle rakenduse paigaldada? Rakendus saab seadmes järgmised õigused:</string>
+    <string name="install_confirm_question_no_perms">Kas soovid selle rakenduse paigaldada? Rakendus ei vaja seadmes spetsiaalseid õigusi.</string>
+    <string name="install_confirm_question_update">Kas soovid selle rakenduse värskenduse paigaldada? Rakenduse andmed jäävad puutumata. Värskendatud rakendus saab seadmes järgmised õigused:</string>
+    <string name="install_confirm_question_update_system">Kas soovid selle süsteemirakenduse värskenduse paigaldada? Rakenduse andmed jäävad puutumata. Värskendatud rakendus saab seadmes järgmised õigused:</string>
+    <string name="install_confirm_question_update_no_perms">Kas soovid selle rakenduse värskenduse paigaldada? Rakenduse andmed jäävad puutumata. Rakendus ei vaja seadmes spetsiaalseid õigusi.</string>
+    <string name="install_confirm_question_update_system_no_perms">Kas soovid selle süsteemirakenduse värskenduse paigaldada? Rakenduse andmed jäävad puutumata. Rakendus ei vaja seadmes spetsiaalseid õigusi.</string>
     <string name="install_failed">Rakendust ei paigaldatud.</string>
     <string name="install_failed_invalid_apk">Pakett paistab olevat vigane.</string>
     <string name="install_failed_inconsistent_certificates">Sama nime, kuid teise allkirjaga pakett on juba paigaldatud.</string>
     <string name="install_failed_older_sdk">Pakett töötab ainult Androidi uuemate versioonidega.</string>
     <string name="install_failed_cpu_abi_incompatible" product="tablet">See rakendus ei ühildu su tahvelarvutiga.</string>
     <string name="install_failed_cpu_abi_incompatible" product="default">See rakendus ei ühildu su telefoniga.</string>
-    <string name="install_failed_file_not_found">Määratud pakett kustutati enne, kui install lõpule jõudis.</string>
+    <string name="install_failed_file_not_found">Määratud pakett kustutati enne, kui paigaldus lõpule jõudis.</string>
     <string name="install_failed_verify_failed">Pakett ei läbinud verifitseerimise protsessi ja seda ei saa paigaldada.</string>
-    <string name="install_failed_verify_timeout">Paketi kinnitamiseks mõeldud aeg sai läbi. Proovi hiljem uuesti paigaldada.</string>
+    <string name="install_failed_verify_timeout">Paketi verifitseerimiseks mõeldud aeg sai läbi. Proovi seda hiljem uuesti paigaldada.</string>
     <string name="install_failed_msg" product="tablet">Rakendust <xliff:g id="APP_NAME">%1$s</xliff:g> ei saa su tahvelarvutisse paigaldada.</string>
     <string name="install_failed_msg" product="default">Rakendust <xliff:g id="APP_NAME">%1$s</xliff:g> ei saa su telefoni paigaldada.</string>
     <string name="launch">Käivita</string>
@@ -52,7 +52,7 @@
     <string name="manage_applications">Rakenduste haldus</string>
     <string name="dlg_app_replacement_title">Kas asendada rakendus?</string>
     <string name="dlg_app_replacement_statement">Paigaldatav rakendus asendab teise rakenduse.\n\nKõik su varasemad kasutajaandmed säilitatakse.</string>
-    <string name="dlg_sys_app_replacement_statement">See on süsteemi rakendus.\n\nKõik su varasemad kasutajaandmed säilitatakse.</string>
+    <string name="dlg_sys_app_replacement_statement">See on süsteemirakendus.\n\nKõik su varasemad kasutajaandmed säilitatakse.</string>
     <string name="out_of_space_dlg_title">Pole piisavalt ruumi</string>
     <string name="out_of_space_dlg_text">Rakendust <xliff:g id="APP_NAME">%1$s</xliff:g> ei saa paigaldada. Vabasta salvestusruumi ja proovi siis uuesti.</string>
     <string name="dlg_ok">OK</string>
@@ -69,7 +69,7 @@
     <string name="uninstall_failed">Eemaldamine ebaõnnestus.</string>
     <string name="uninstall_failed_device_policy_manager">Eemaldamine pole võimalik, kuna pakett on seadme aktiivne administraator.</string>
     <string name="manage_device_administrators">Seadme administraatorite haldus</string>
-    <string name="uninstall_failed_msg">Rakendust <xliff:g id="APP_NAME">%1$s</xliff:g> eemaldamine ebaõnnestus.</string>
+    <string name="uninstall_failed_msg">Rakenduse <xliff:g id="APP_NAME">%1$s</xliff:g> eemaldamine ebaõnnestus.</string>
     <string name="Parse_error_dlg_title">Viga parsimisel</string>
     <string name="Parse_error_dlg_text">Probleem paketi parsimisel.</string>
     <string name="newPerms">Uued</string>
