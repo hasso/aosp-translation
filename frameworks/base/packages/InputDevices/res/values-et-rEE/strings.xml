@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<resources xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources>
     <string name="app_label">Sisendseadmed</string>
     <string name="keyboard_layouts_label">Androidi klaviatuur</string>
     <string name="keyboard_layout_english_uk_label">Inglise (UK)</string>
@@ -34,4 +33,10 @@
     <string name="keyboard_layout_slovenian">Sloveenia</string>
     <string name="keyboard_layout_turkish">Türgi</string>
     <string name="keyboard_layout_ukrainian">Ukraina</string>
+    <string name="keyboard_layout_arabic">Araabia</string>
+    <string name="keyboard_layout_greek">Kreeka</string>
+    <string name="keyboard_layout_hebrew">Heebrea</string>
+    <string name="keyboard_layout_lithuanian">Leedu</string>
+    <string name="keyboard_layout_spanish_latin">Hispaania (Ladina-Ameerika)</string>
+    <string name="keyboard_layout_latvian">Läti</string>
 </resources>

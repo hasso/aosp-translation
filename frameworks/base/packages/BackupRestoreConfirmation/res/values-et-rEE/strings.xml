@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--  Copyright (C) 2011 The Android Open Source Project
-      Copyright (C) 2013 Hasso Tepper
+<!-- Copyright (C) 2011 The Android Open Source Project
+     Copyright (C) 2013-2015 Hasso Tepper
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -28,6 +28,7 @@
     <string name="device_encryption_backup_text">Palun sisesta siia oma seadme krüpteerimise parool. Seda kasutatakse ka varukoopia arhiivifaili krüpteerimiseks.</string>
     <string name="backup_enc_password_text">Palun sisesta siia täieliku varukoopia krüpteerimiseks kasutav parool. Kui jätad selle tühjaks, siis kasutatakse su praegust varunduse parooli:</string>
     <string name="backup_enc_password_optional">Kui soovid täieliku varukoopia krüpteerida, siis sisesta siia selleks kasutav parool:</string>
+    <string name="backup_enc_password_required">Kuna seade on krüpteeritud, peab seda olema ka varukoopia. Sisesta siia selleks kasutatav parool:</string>
     <string name="restore_enc_password_text">Kui taastamiseks kasutatavad andmed on krüpteeritud, siis sisesta siia selleks kasutatud parool:</string>
     <string name="toast_backup_started">Algab varundamine \u2026</string>
     <string name="toast_backup_ended">Varundamine jõudis lõpule</string>

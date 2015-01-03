@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- Copyright (C) 2013 The Android Open Source Project
-     Copyright (C) 2013 Hasso Tepper
+     Copyright (C) 2013-2015 Hasso Tepper
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -14,27 +14,39 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_label">Printeri spuuler</string>
-    <string name="advanced_settings_button">Printeri seaded</string>
-    <string name="print_button">Trüki</string>
-    <string name="save_button">Salvesta</string>
+    <string name="more_options_button">Veel seadeid</string>
     <string name="label_destination">Sihtkoht</string>
     <string name="label_copies">Koopiate arv</string>
+    <string name="label_copies_summary">Koopiaid:</string>
     <string name="label_paper_size">Paberi suurus</string>
+    <string name="label_paper_size_summary">Paberi suurus:</string>
     <string name="label_color">Värv</string>
     <string name="label_orientation">Asend</string>
-    <string name="label_pages">Leheküljed (<xliff:g id="page_count" example="5">%1$s</xliff:g>)</string>
-    <string name="pages_range_example">nt 1&#8212;5,8,11&#8212;13</string>
+    <string name="label_pages">Leheküljed</string>
+    <string name="template_all_pages">Kõik <xliff:g id="page_count" example="100">%1$s</xliff:g></string>
+    <string name="template_page_range">Valik <xliff:g id="page_count" example="100">%1$s</xliff:g> lehest</string>
+    <string name="pages_range_example">nt 1—5,8,11—13</string>
     <string name="print_preview">Trüki eelvaade</string>
     <string name="install_for_print_preview">Eelvaate nägemiseks paigalda PDF failde näitaja</string>
     <string name="printing_app_crashed">Printimise rakendus lõpetas ootamatult töö</string>
-    <string name="page_count_unknown">Leheküljed</string>
     <string name="generating_print_job">Trükitöö tekitamine</string>
     <string name="save_as_pdf">Salvesta PDF faili</string>
-    <string name="all_printers">Kõik printerid &#8230;</string>
+    <string name="all_printers">Kõik printerid …</string>
     <string name="print_dialog">Printimise dialoog</string>
+    <string name="current_page_template"><xliff:g id="current_page">%1$d</xliff:g>
+        /<xliff:g id="page_count">%2$d</xliff:g></string>
+    <string name="page_description_template">Lehekülg <xliff:g id="current_page" example="1">%1$d</xliff:g>
+        /<xliff:g id="page_count" example="100">%2$d</xliff:g></string>
+    <string name="summary_template">Kokkuvõte, <xliff:g id="copies" example="1">%1$s</xliff:g> koopiat,
+        paberi suurus <xliff:g id="paper_size" example="A4">%2$s</xliff:g></string>
+    <string name="expand_handle">Laiendamise pide</string>
+    <string name="collapse_handle">Kokkutõmbamise pide</string>
+    <string name="print_button">Trüki</string>
+    <string name="savetopdf_button">Salvesta PDF faili</string>
+    <string name="print_options_expanded">Trükkimise valikud on laiendatud</string>
+    <string name="print_options_collapsed">Trükkimise valikud on kokku tõmmatud</string>
     <string name="search">Otsing</string>
     <string name="all_printers_label">Kõik printerid</string>
     <string name="add_print_service_label">Lisa teenus</string>
@@ -62,8 +74,7 @@
     <string name="restart">Käivita uuesti</string>
     <string name="no_connection_to_printer">Ühendus printeriga puudub</string>
     <string name="reason_unknown">teadmata</string>
-    <string name="printer_unavailable"><xliff:g id="print_job_name" example="Canon-123GHT">%1$s</xliff:g> &#8211; ühendus puudub</string>
-    <string name="print_error_default_message">Trükitöö loomine ebaõnnestus</string>
+    <string name="printer_unavailable"><xliff:g id="print_job_name" example="Canon-123GHT">%1$s</xliff:g> – ühendus puudub</string>
   <string-array name="color_mode_labels">
     <item>Mustvalge</item>
     <item>Värviline</item>
@@ -72,12 +83,9 @@
     <item>Püstpaigutus</item>
     <item>Rõhtpaigutus</item>
   </string-array>
-  <string-array name="page_options_labels">
-    <item>Kõik</item>
-    <item>Valik</item>
-  </string-array>
-    <string name="permlab_accessAllPrintJobs">ligipääs kõigile trükitöödele</string>
-    <string name="permdesc_accessAllPrintJobs">Lubab rakendusel pääseda ligi teiste rakenduste poolt loodud trükitöödele. Tavarakendused ei tohiks seda kunagi vajada.</string>
-    <string name="permlab_startPrintServiceConfigActivity">printimise teenuse seadistamise tegevuste käivitamine</string>
-    <string name="permdesc_startPrintServiceConfigActivity">Lubab rakendusel käivitada printimise teenuse seadistamise tegevusi. Tavarakendused ei tohiks seda kunagi vajada.</string>
+    <string name="print_write_error_message">Faili ei saanud kirjutada</string>
+    <string name="print_error_default_message">Trükitöö loomine ebaõnnestus</string>
+    <string name="print_error_retry">Proovi uuesti</string>
+    <string name="print_error_printer_unavailable">See printer pole hetkel kasutatav</string>
+    <string name="print_preparing_preview">Eelvaate ettevalmistamine \u2026</string>
 </resources>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--  Copyright (C) 2007 The Android Open Source Project
-      Copyright (C) 2013 Hasso Tepper
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Copyright (C) 2013-2015 Hasso Tepper
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -333,6 +333,13 @@
     <string name="webstorage_clear_data_dialog_cancel_button">Tühista</string>
     <string name="webstorage_origin_summary_mb_stored">MB talletatud su telefoni</string>
     <string name="loading_video">Video laadimine \u2026</string>
+    <string name="permissions_prompt_message"><xliff:g id="website origin" example="maps.google.com">%s</xliff:g> soovib kasutada su seadme <xliff:g id="resources" example="camera, microphone">%s</xliff:g>.</string>
+    <string name="permissions_prompt_allow">Luba</string>
+    <string name="permissions_prompt_deny">Keela</string>
+    <string name="permissions_prompt_remember">Eelistus jäetakse meelde</string>
+    <string name="resource_protected_media_id">kaitstud meedia ID</string>
+    <string name="resource_video_capture">kaamerat</string>
+    <string name="resource_audio_capture">mikrofoni</string>
     <string name="geolocation_permissions_prompt_message"><xliff:g id="WEBSITE_ORIGIN">%s</xliff:g> soovib teada su asukohta</string>
     <string name="geolocation_permissions_prompt_share">Jaga asukohainfot</string>
     <string name="geolocation_permissions_prompt_dont_share">Keeldu</string>

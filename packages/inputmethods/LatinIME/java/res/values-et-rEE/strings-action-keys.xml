@@ -2,7 +2,8 @@
 <!--
 /*
 **
-** Copyright 2008, The Android Open Source Project
+** Copyright 2013, The Android Open Source Project
+** Copyright 2013-2015, Hasso Tepper
 **
 ** Licensed under the Apache License, Version 2.0 (the "License");
 ** you may not use this file except in compliance with the License.
@@ -17,6 +18,13 @@
 ** limitations under the License.
 */
 -->
-<resources>
-    <bool name="im_is_default">true</bool>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="label_go_key">Mine</string>
+    <string name="label_next_key">Edasi</string>
+    <string name="label_previous_key">Tagasi</string>
+    <string name="label_done_key">Valmis</string>
+    <string name="label_send_key">Saada</string>
+    <string name="label_search_key">Otsi</string>
+    <string name="label_pause_key">Paus</string>
+    <string name="label_wait_key">Oota</string>
 </resources>

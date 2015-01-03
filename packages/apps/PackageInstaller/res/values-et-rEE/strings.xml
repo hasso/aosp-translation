@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--  Copyright (C) 2007 The Android Open Source Project
-      Copyright (C) 2013 Hasso Tepper
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Copyright (C) 2013-2015 Hasso Tepper
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -63,11 +63,14 @@
     <string name="uninstall_activity_text"><xliff:g id="ACTIVITY_NAME">%1$s</xliff:g> on osa järgmisest rakendusest:</string>
     <string name="uninstall_application_text">Kas soovid selle rakenduse eemaldada?</string>
     <string name="uninstall_application_text_all_users">Kas soovid eemaldada selle rakenduse <b>kõikidelt</b> kasutajatelt? Rakendus ja selle andmed eemaldatakse <b>kõikidelt</b> seadme kasutajatelt.</string>
+    <string name="uninstall_application_text_user">Soovid sa selle rakenduse kasutajalt <xliff:g id="username">%1$s</xliff:g> eemaldada?</string>
     <string name="uninstall_update_text">Kas soovid selle rakenduse asendada tehaseversiooniga?</string>
     <string name="uninstalling">Eemaldamine \u2026</string>
     <string name="uninstall_done">Eemaldamine on lõpetatud.</string>
     <string name="uninstall_failed">Eemaldamine ebaõnnestus.</string>
     <string name="uninstall_failed_device_policy_manager">Eemaldamine pole võimalik, kuna pakett on seadme aktiivne administraator.</string>
+    <string name="uninstall_blocked_profile_owner">Rakendust ei saa eemldada, sest see on vajalik „<xliff:g id="username">%1$s</xliff:g>“ profiilile.</string>
+    <string name="uninstall_blocked_device_owner">Rakendust ei saa eemalda, sest see on vajalik seadme administraatorile.</string>
     <string name="manage_device_administrators">Seadme administraatorite haldus</string>
     <string name="uninstall_failed_msg">Rakenduse <xliff:g id="APP_NAME">%1$s</xliff:g> eemaldamine ebaõnnestus.</string>
     <string name="Parse_error_dlg_title">Viga parsimisel</string>

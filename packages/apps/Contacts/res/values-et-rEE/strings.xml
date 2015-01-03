@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--  Copyright (C) 2006 The Android Open Source Project
-      Copyright (C) 2013 Hasso Tepper
+<!-- Copyright (C) 2006 The Android Open Source Project
+     Copyright (C) 2013-2015 Hasso Tepper
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -15,7 +15,8 @@
      limitations under the License.
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="people">Inimesed</string>
+    <string name="applicationLabel">Kontaktid</string>
+    <string name="launcherActivityLabel">Kontaktid</string>
     <string name="contactsList">Kontaktid</string>
     <string name="shortcutContact">Kontakt</string>
     <string name="shortcutDialContact">Otsevalimine</string>
@@ -24,11 +25,11 @@
     <string name="callShortcutActivityTitle">Number helistamiseks</string>
     <string name="messageShortcutActivityTitle">Number sõnumi saatmiseks</string>
     <string name="contactPickerActivityTitle">Kontakti valimine</string>
+    <string name="header_entry_contact_list_adapter_header_title">Uus kontakt</string>
     <string name="starredList">Tärniga</string>
     <string name="frequentList">Sagedasti kasutatud</string>
     <string name="strequentList">Lemmikud</string>
     <string name="viewContactTitle">Kontakti üksikasjad</string>
-    <string name="viewContactDesription">Kontakti näitamine</string>
     <string name="editContactDescription">Kontakti muutmine</string>
     <string name="insertContactDescription">Kontakti loomine</string>
     <string name="editGroupDescription">Grupi muutmine</string>
@@ -39,6 +40,8 @@
     <string name="menu_viewContact">Näita kontakti</string>
     <string name="menu_addStar">Lisa lemmikutesse</string>
     <string name="menu_removeStar">Eemalda lemmikutest</string>
+    <string name="description_action_menu_remove_star">Lemmikute hulgast eemaldamine</string>
+    <string name="description_action_menu_add_star">Lemmikute hulka lisamine</string>
     <string name="menu_editContact">Muuda</string>
     <string name="menu_deleteContact">Kustuta</string>
     <string name="menu_create_contact_shortcut">Paiguta avalehele</string>
@@ -94,10 +97,6 @@
     <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> telefoninumbriga kontakti</item>
   </plurals>
     <string name="listTotalPhoneContactsZero">Telefoninumbritega kontakte pole</string>
-  <plurals name="listTotalAllContacts">
-    <item quantity="one">1 kontakt</item>
-    <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> kontakti</item>
-  </plurals>
   <plurals name="listFoundAllContacts">
     <item quantity="one">1 leitud</item>
     <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> leitud</item>
@@ -107,8 +106,8 @@
     <item quantity="one">1 leitud</item>
     <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> leitud</item>
   </plurals>
-    <string name="contactsAllLabel">Kõik kontaktid</string>
-    <string name="contactsGroupsLabel">Grupid</string>
+    <string name="all_contacts_tab_label">Kõik kontaktid</string>
+    <string name="favorites_tab_label">Lemmikud</string>
     <string name="callBack">Helista tagasi</string>
     <string name="callAgain">Helista uuesti</string>
     <string name="returnCall">Helista tagasi</string>
@@ -117,8 +116,13 @@
     <string name="description_plus_button">pluss</string>
     <string name="exporting_contact_list_progress"><xliff:g id="CURRENT_NUMBER">%s</xliff:g>/<xliff:g id="TOTAL_NUMBER">%s</xliff:g> kontaktist</string>
     <string name="search_settings_description">Su kontaktide nimed</string>
-    <string name="quickcontact_missing_app">Selle toimingu käsitsemiseks ei leitud ühtegi rakendust.</string>
+    <string name="quickcontact_missing_app">Selle toimingu tegemiseks ei leitud ühtegi rakendust.</string>
+    <string name="quickcontact_transparent_view_description">Eelmisele ekraanile naasmiseks vajuta</string>
+    <string name="quickcontact_add_phone_number">Lisa telefoninumber</string>
+    <string name="quickcontact_add_email">Lisa meiliaadress</string>
+    <string name="missing_app">Selle toimingu tegemiseks ei leitud rakendust.</string>
     <string name="menu_share">Jaga</string>
+    <string name="menu_add_contact">Lisa kontaktide hulka</string>
     <string name="share_via">Kontakti jagamine</string>
     <string name="dialog_new_group_account">Grupi loomine kontole</string>
     <string name="audio_chat">Kõnevestlus</string>
@@ -131,14 +135,7 @@
     <string name="from_account_format"><xliff:g id="source" example="user@gmail.com">%1$s</xliff:g></string>
     <string name="use_photo_as_primary">Kasuta seda fotot</string>
     <string name="contact_read_only">Kontakti ei saa selles rakenduses muuta.</string>
-    <string name="no_contact_details">Selle kontakti kohta pole täiendavat teavet.</string>
     <string name="group_read_only">Kontakti ei saa selles seadmes muuta.</string>
-    <string name="display_options_sort_list_by">Nimekirja sorteerimine</string>
-    <string name="display_options_sort_by_given_name">Eesnime järgi</string>
-    <string name="display_options_sort_by_family_name">Perekonnanime järgi</string>
-    <string name="display_options_view_names_as">Kontakti nime näitamine</string>
-    <string name="display_options_view_given_name_first">Eesnimi enne</string>
-    <string name="display_options_view_family_name_first">Perekonnanimi enne</string>
     <string name="take_photo">Foto tegemine</string>
     <string name="take_new_photo">Uue foto tegemine</string>
     <string name="pick_photo">Foto valimine galeriist</string>
@@ -158,8 +155,6 @@
     <string name="add_organization">Lisa organisatsioon</string>
     <string name="event_edit_field_hint_text">Kuupäev</string>
     <string name="group_edit_field_hint_text">Grupi nimi</string>
-    <string name="contact_status_update_attribution"> <xliff:g id="SOURCE">%1$s</xliff:g> kaudu</string>
-    <string name="contact_status_update_attribution_with_date"><xliff:g id="DATE">%1$s</xliff:g> <xliff:g id="SOURCE">%2$s</xliff:g> kaudu</string>
     <string name="description_star">lemmik</string>
     <string name="edit_contact">Kontakti muutmine</string>
   <plurals name="merge_info">
@@ -171,7 +166,6 @@
     <string name="menu_copyContact">Kopeeri gruppi „Minu kontaktid“</string>
     <string name="add_to_my_contacts">Lisa gruppi „Minu kontaktid“</string>
     <string name="contact_directory_description">Kataloog <xliff:g id="TYPE">%1$s</xliff:g></string>
-    <string name="toast_making_personal_copy">Isikliku koopia loomine \u2026</string>
     <string name="list_filter_custom">Kohandatud</string>
     <string name="activity_title_settings">Seaded</string>
     <string name="menu_settings">Seaded</string>
@@ -223,9 +217,40 @@
     <string name="contact_editor_prompt_zero_accounts">Su sisestatud kontakti ei varundata. Kas lisada konto, mis kontakte võrku varundab?</string>
     <string name="contact_editor_prompt_one_account">Su sisestatud kontakt sünkroonitakse kontoga <xliff:g id="ACCOUNT_NAME">%1$s</xliff:g>.</string>
     <string name="contact_editor_prompt_multiple_accounts">Sisestatud kontakti sünkroonimiseks võid kasutada ühte järgmistest kontodest. Millist soovid kasutada?</string>
+    <string name="contact_editor_title_new_contact">Uue kontakti lisamine</string>
+    <string name="contact_editor_title_existing_contact">Kontakti muutmine</string>
     <string name="keep_local">Hoia kohalikuna</string>
     <string name="add_account">Lisa konto</string>
     <string name="add_new_account">Lisa uus konto</string>
     <string name="menu_export_database">Ekspordi andmebaasi failid</string>
-    <string name="contact_detail_picture_description">Pilt. Muutmiseks vali see.</string>
+    <string name="action_menu_add_new_contact_button">uue kontakti lisamine</string>
+    <string name="expanding_entry_card_view_see_more">Näita rohkem</string>
+    <string name="expanding_entry_card_view_see_less">Näita vähem</string>
+    <string name="expanding_entry_card_view_see_all">Näita kõike</string>
+    <string name="recent_card_title">Hiljuti kasutatud</string>
+    <string name="about_card_title">Info</string>
+    <string name="send_message">Sõnumi saatmine</string>
+    <string name="toast_making_personal_copy">Isikliku koopia loomine \u2026</string>
+    <string name="yesterday">Eile</string>
+    <string name="tomorrow">Homme</string>
+    <string name="today">Täna</string>
+    <string name="today_at_time_fmt">Täna, <xliff:g id="time_interval">%s</xliff:g></string>
+    <string name="tomorrow_at_time_fmt">Homme, <xliff:g id="time_interval">%s</xliff:g></string>
+    <string name="date_time_fmt"><xliff:g id="date">%s</xliff:g>, <xliff:g id="time_interval">%s</xliff:g></string>
+    <string name="untitled_event">(Nimetu sündmus)</string>
+    <string name="date_time_set">Määra</string>
+    <string name="header_im_entry">Sõnumiteenus</string>
+    <string name="header_organization_entry">Organisatsioon</string>
+    <string name="header_nickname_entry">Hüüdnimi</string>
+    <string name="header_note_entry">Märkus</string>
+    <string name="header_website_entry">Veebileht</string>
+    <string name="header_event_entry">Sündmus</string>
+    <string name="header_relation_entry">Suhe</string>
+    <string name="content_description_directions">juhised asukohta liikumiseks</string>
+    <string name="content_description_recent_sms">hiljutine SMS. <xliff:g id="message_details">%s</xliff:g>. vastamiseks vajuta</string>
+    <string name="content_description_recent_call_type_incoming">vastu võetud</string>
+    <string name="content_description_recent_call_type_outgoing">tehtud</string>
+    <string name="content_description_recent_call_type_missed">vastamata</string>
+    <string name="content_description_recent_call">hiljutine kõne. <xliff:g id="call_details">%s</xliff:g>. tagasi helistamiseks vajuta</string>
+    <string name="message_from_you_prefix">Sinult: <xliff:g id="sms_body">%s</xliff:g></string>
 </resources>

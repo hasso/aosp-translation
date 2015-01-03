@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--  Copyright (C) 2007 The Android Open Source Project
-      Copyright (C) 2013 Hasso Tepper
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Copyright (C) 2013-2015 Hasso Tepper
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -18,7 +18,6 @@
     <string name="app_label">Kell</string>
     <string name="alarm_list_title">Alarmid</string>
     <string name="add_alarm">Lisa alarm</string>
-    <string name="alarm_timeline_title_text">JÄRGMISED ALARMID</string>
     <string name="menu_desk_clock">Lauakell</string>
     <string name="menu_edit_alarm">Muuda alarmi</string>
     <string name="delete_alarm">Kustuta alarm</string>
@@ -35,10 +34,20 @@
     <string name="alert">Alarmi helin</string>
     <string name="ringtone">Helin</string>
     <string name="time">Kellaaeg</string>
+    <string name="alarm_tomorrow">Homme</string>
+    <string name="alarm_today">Täna</string>
+    <string name="alarm_alert_wake_up">Äratus \u2026</string>
+    <string name="alarm_alert_off_action_text">Kinni</string>
     <string name="alarm_alert_dismiss_text">Loobu</string>
     <string name="alarm_alert_dismiss_now_text">Loobu kohe</string>
     <string name="alarm_missed_title">Maha magatud alarm</string>
     <string name="alarm_missed_text"><xliff:g id="alarm_time">%s</xliff:g> - <xliff:g id="alarm_label">%s</xliff:g></string>
+    <string name="alarm_alert_snoozed_text">Edasi lükatud</string>
+  <plurals name="alarm_alert_snooze_duration">
+    <item quantity="one">1 min</item>
+    <item quantity="other"><xliff:g id="number" example="7">%d</xliff:g> min</item>
+  </plurals>
+    <string name="alarm_alert_off_text">Alarm väljas</string>
     <string name="alarm_alert_snooze_text">Lükka edasi</string>
   <plurals name="alarm_alert_snooze_set">
     <item quantity="one">Üheks minutiks edasi lükkamine.</item>
@@ -180,18 +189,7 @@
     <string name="timer_cancel">Tühistamine</string>
     <string name="timer_times_up">Aeg on läbi</string>
     <string name="timer_notification_label">Taimer</string>
-  <string-array name="sw_share_strings">
-    <item>Oled ülikiire!</item>
-    <item>Naudi oma töö vilju.</item>
-    <item>Androidid on kiired, aga mitte nii kiired kui sina!</item>
-    <item>Oeh.</item>
-    <item>L33t ajad.</item>
-    <item>Milline imeline kiirus!</item>
-    <item>Teeme uuesti ajahüpe.</item>
-    <item>Lihtsalt hüpe vasakule.</item>
-    <item>Naudid kiirust.</item>
-    <item>Valguse kiirus.</item>
-  </string-array>
+    <string name="timers_max_count_reached">maksimalselt 4 taimerit</string>
   <plurals name="timers_num">
     <item quantity="one">1 minut</item>
     <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> taimerit</item>
@@ -301,13 +299,10 @@
     <item>Tonga</item>
   </string-array>
     <string name="alarm_settings">ALARMID</string>
-    <string name="see_all">Näita kõiki \u2026</string>
     <string name="stopwatch_service_desc">Märguandeid käitav stopperiteenus.</string>
     <string name="swn_stopped">Peatatud</string>
     <string name="description_direction_right">Alarmi tühistamiseks tõmba sõrmega ekraanil vasakult paremale</string>
     <string name="description_direction_left">Alarmi edasilükkamiseks tõmba sõrmega ekraanil paremalt vasakule</string>
-    <string name="description_direction_up">Alarmi tühistamiseks tõmba sõrmega ekraanil vasakult paremale</string>
-    <string name="description_direction_down">Alarmi edasilükkamiseks tõmba sõrmega ekraanil paremalt vasakule</string>
     <string name="timer_stopped">Taimer on peatatud</string>
     <string name="timers_stopped"><xliff:g id="NUMBER">%d</xliff:g> taimerit on peatatud</string>
     <string name="all_timers_stopped_notif">Taimerite vaatamiseks puuduta seda teksti</string>
@@ -334,5 +329,6 @@
     <string name="city_delete_confirmation">Kas eemalda see linn?</string>
     <string name="digital_gadget">Digitaalkell</string>
     <string name="no_alarms">Alarme pole</string>
+    <string name="no_alarms_set">Alarme pole</string>
     <string name="no_upcoming_alarms">TULEVASI ALARME POLE</string>
 </resources>

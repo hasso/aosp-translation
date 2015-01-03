@@ -3,7 +3,7 @@
 /* //device/apps/common/assets/res/any/strings.xml
 **
 ** Copyright 2006, The Android Open Source Project
-** Copyright 2013, Hasso Tepper
+** Copyright 2013-2015, Hasso Tepper
 **
 ** Licensed under the Apache License, Version 2.0 (the "License");
 ** you may not use this file except in compliance with the License.
@@ -19,6 +19,7 @@
 */
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Ekraanilukk</string>
     <string name="keyguard_password_enter_pin_code">Sisesta PIN kood</string>
     <string name="keyguard_password_enter_puk_code">Sisesta PUK kood ja uus PIN kood</string>
     <string name="keyguard_password_enter_puk_prompt">PUK kood</string>
@@ -30,7 +31,7 @@
     <string name="keyguard_label_text">Avamiseks vajuta menüüklahvi, seejärel klahvi 0.</string>
     <string name="faceunlock_multiple_failures">Maksimaalne teenusega Face Unlock avamise katsete arv on ületatud</string>
     <string name="keyguard_charged">Laetud</string>
-    <string name="keyguard_plugged_in">Laadimine, <xliff:g id="NUMBER">%d</xliff:g><xliff:g id="PERCENT">%%</xliff:g></string>
+    <string name="keyguard_plugged_in">Laadimine</string>
     <string name="keyguard_low_battery">Ühenda laadija.</string>
     <string name="keyguard_instructions_when_pattern_disabled">Avamiseks vajuta menüüklahvi.</string>
     <string name="keyguard_network_locked_message">Võrk suletud</string>
@@ -51,7 +52,6 @@
     <string name="keyguard_accessibility_unlock_area_collapsed">Avamisala on ahendatud.</string>
     <string name="keyguard_accessibility_widget">Vidin <xliff:g id="WIDGET_INDEX">%1$s</xliff:g>.</string>
     <string name="keyguard_accessibility_user_selector">Kasutaja valija</string>
-    <string name="keyguard_accessibility_status">Olek</string>
     <string name="keyguard_accessibility_camera">Kaamera</string>
     <string name="keygaurd_accessibility_media_controls">Meedia juhtnupud</string>
     <string name="keyguard_accessibility_widget_reorder_start">Vidina ümberkorraldamine algas.</string>
@@ -77,6 +77,7 @@
     <string name="keyguard_accessibility_hide_bouncer">Käivitamine katkestatud</string>
     <string name="keyguard_accessibility_delete_widget_start">Vidina <xliff:g id="widget_index">%1$s</xliff:g> kustutamiseks kukuta see siia.</string>
     <string name="keyguard_accessibility_delete_widget_end">Vidinat <xliff:g id="widget_index">%1$s</xliff:g> ei kustutata.</string>
+    <string name="keyguard_accessibility_next_alarm">Järgmine alarm on <xliff:g id="alarm" example="Fri 8:30 AM">%1$s</xliff:g></string>
     <string name="password_keyboard_label_symbol_key">\?123</string>
     <string name="password_keyboard_label_alpha_key">ABC</string>
     <string name="password_keyboard_label_alt_key">ALT</string>

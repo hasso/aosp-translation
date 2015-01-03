@@ -2,7 +2,7 @@
 <!-- 
 /*
 * Copyright (C) 2008 The Android Open Source Project
-* Copyright (C) 2013 Hasso Tepper
+* Copyright (C) 2013-2015 Hasso Tepper
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -22,18 +22,8 @@
     <string name="home">Kodu</string>
     <string name="uid_name">Androidi tuumikrakendused</string>
     <string name="folder_name"/>
-    <string name="wallpaper_instructions">Määra taustapildiks</string>
-  <plurals name="number_of_items_selected">
-    <item quantity="one">Valitud: %1$d</item>
-    <item quantity="other">Valitud: %1$d</item>
-  </plurals>
-    <string name="wallpaper_accessibility_name">Taustapilt number %1$d, kokku on taustapilte %2$d</string>
-    <string name="announce_selection">Valiti <xliff:g id="label" example="Wallpaper 3 of 10">%1$s</xliff:g></string>
-    <string name="wallpaper_delete">Kustuta</string>
-    <string name="pick_image">Vali pilt</string>
-    <string name="pick_wallpaper">Taustapildid</string>
-    <string name="crop_wallpaper">Taustapildi kärpimine</string>
     <string name="activity_not_found">Rakendus pole paigaldatud.</string>
+    <string name="safemode_shortcut_error">Allalaaditud rakenduste kasutamine on ohutus režiimis keelatud.</string>
     <string name="widgets_tab_label">Vidinad</string>
     <string name="widget_adder">Vidinad</string>
     <string name="toggle_weight_watcher">Näita mälukasutust</string>
@@ -86,6 +76,7 @@
     <string name="permlab_write_settings">avalehe seadete ja viidetekirjutamine</string>
     <string name="permdesc_write_settings">Võimaldab rakendusel muuta avalehe seadeid ja viiteid.</string>
     <string name="gadget_error_text">Probleem vidina laadimisel</string>
+    <string name="gadget_setup_text">Seadista</string>
     <string name="uninstall_system_app_text">See on süsteemirakendus ja seda ei saa seadmest eemaldada.</string>
     <string name="dream_name">Rocket Launcher</string>
     <string name="folder_hint_text">Nimetu kaust</string>
@@ -96,13 +87,18 @@
     <string name="apps_customize_widgets_scroll_format">Vidinate leht %1$d/%2$d</string>
     <string name="first_run_cling_title">Tere tulemast.</string>
     <string name="first_run_cling_description">Tunne end nagu kodus.</string>
-    <string name="first_run_cling_custom_content_hint"></string>
-    <string name="first_run_cling_search_bar_hint"></string>
+    <string name="first_run_cling_custom_content_hint"/>
+    <string name="first_run_cling_search_bar_hint"/>
     <string name="first_run_cling_create_screens_hint">Oma rakendustele ja kaustadele saad luua rohkem avaekraane.</string>
+    <string name="migration_cling_title">Su rakenduste ikoonide kopeerimine</string>
+    <string name="migration_cling_description">Kas impordime su vanadel avaekraanidel olnud ikoonid ja kaustad?</string>
+    <string name="migration_cling_copy_apps">KOPEERI</string>
+    <string name="migration_cling_use_default">ALUSTA PUHTALT LEHELT</string>
     <string name="workspace_cling_title">Tunne end nagu kodus</string>
     <string name="workspace_cling_move_item">Oma lemmikrakendused saad panna siia.</string>
-    <string name="all_apps_cling_title">Vali mõned rakendused</string>
-    <string name="all_apps_cling_add_item">Rakenduse lisamiseks avaekraanile puuduta seda pikemalt.</string>
+    <string name="workspace_cling_longpress_title">Taustapildid, vidinad ja seaded</string>
+    <string name="workspace_cling_longpress_description">Taustapiltide, vidinate ja seadete muutmise juurde pääsemisks hoia sõrme taustal pikemalt.</string>
+    <string name="workspace_cling_longpress_dismiss">SAIN ARU</string>
     <string name="folder_cling_title">Korralda oma rakendused kaustadesse</string>
     <string name="folder_cling_create_folder">Uue kausta loomiseks avaekraanil liiguta üks rakendus teise peale.</string>
     <string name="cling_dismiss">OK</string>
@@ -112,11 +108,17 @@
     <string name="folder_closed">Kaust suletud</string>
     <string name="folder_renamed">Kausta uus nimi: <xliff:g id="name" example="Games">%1$s</xliff:g></string>
     <string name="folder_name_format">Kaust: <xliff:g id="name" example="Games">%1$s</xliff:g></string>
-    <string name="custom_workspace_cling_title_1"/>
-    <string name="custom_workspace_cling_description_1"/>
-    <string name="custom_workspace_cling_title_2"/>
-    <string name="custom_workspace_cling_description_2"/>
     <string name="widget_button_text">Vidinad</string>
     <string name="wallpaper_button_text">Taustapildid</string>
     <string name="settings_button_text">Seaded</string>
+    <string name="package_state_enqueued">Ootamine</string>
+    <string name="package_state_downloading">Allalaadimine</string>
+    <string name="package_state_installing">Paigaldamine</string>
+    <string name="package_state_unknown">Teadmata</string>
+    <string name="package_state_error">Ei taastatud</string>
+    <string name="abandoned_clean_all">Eemalda kõik</string>
+    <string name="abandoned_clean_this">Eemalda</string>
+    <string name="abandoned_search">Otsi</string>
+    <string name="abandoned_promises_title">Rakendus pole paigaldatud</string>
+    <string name="abandoned_promise_explanation">Selle ikooni taga olev rakendus pole paigaldatud. Sa võid selle ikooni eemaldada või otsida rakendust ning selle siis käsitsi paigaldada.</string>
 </resources>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--  Copyright (C) 2011 The Android Open Source Project
-      Copyright (C) 2013 Hasso Tepper
+<!-- Copyright (C) 2011 The Android Open Source Project
+     Copyright (C) 2013-2015 Hasso Tepper
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -17,7 +17,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="prompt">Rakendus <xliff:g id="APP">%s</xliff:g> soovib luua VPN ühendust.</string>
     <string name="warning">Jätkates annad rakendusele õiguse jälgida kogu võrguliiklust. <b>Kui sa seda rakendust ei usalda, ÄRA NÕUSTU.</b> Vastasel juhul on võimalus, et pahavara võib su andmed ohtu seada.</string>
-    <string name="accept">Usaldan seda rakendust.</string>
     <string name="legacy_title">VPN on ühendatud</string>
     <string name="configure">Seadista</string>
     <string name="disconnect">Katkesta</string>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--  Copyright (C) 2007 The Android Open Source Project
-      Copyright (C) 2013 Hasso Tepper
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Copyright (C) 2013-2015 Hasso Tepper
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -28,8 +28,10 @@
     <string name="show_dev_on">Nüüd saad kasutada arendaja seadeid.</string>
     <string name="show_dev_already">Seda pole vaja, arendaja seaded on juba kasutatavad.</string>
     <string name="header_category_wireless_networks">JUHTMEVABAD VÕRGUD</string>
-    <string name="header_category_device">SEADE</string>
-    <string name="header_category_personal">ISIKLIK</string>
+    <string name="header_category_connections">Ühendused</string>
+    <string name="header_category_device">Seade</string>
+    <string name="header_category_personal">Isiklik</string>
+    <string name="header_category_access">Ligipääs</string>
     <string name="header_category_system">SÜSTEEM</string>
     <string name="turn_on_radio">Lülita raadio sisse</string>
     <string name="turn_off_radio">Lülita raadio välja</string>
@@ -123,11 +125,14 @@
     <string name="bluetooth_profile_details">Profiili seaded</string>
     <string name="bluetooth_name_not_set">Nimi on määramata, konto nime kasutamine</string>
     <string name="bluetooth_scan_for_devices">Otsi seadmeid</string>
-    <string name="bluetooth_rename_device" product="tablet">Nimeta tahvelarvuti ümber</string>
-    <string name="bluetooth_rename_device" product="default">Nimeta telefon ümber</string>
+    <string name="bluetooth_rename_device" product="tablet">Nimeta tahvelarvuti ümber</string><string name="bluetooth_rename_device" product="default">Nimeta telefon ümber</string>
     <string name="bluetooth_rename_button">Nimeta ümber</string>
     <string name="bluetooth_disconnect_title">Kas katkestada ühendus?</string>
     <string name="bluetooth_disconnect_all_profiles">See katkestab ühenduse seadmega:&lt;br&gt;&lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;</string>
+    <string name="bluetooth_empty_list_user_restricted">Sul pole Bluetoothi seadete muutmiseks õigusi.</string>
+    <string name="bluetooth_is_visible_message"><xliff:g id="device_name">%1$s</xliff:g> on lähedal asuvatele seadmetele nähtav kuni Bleutoothi seaded avatud on.</string>
+    <string name="bluetooth_is_disconnect_question">Katkestada <xliff:g id="device_name">%1$s</xliff:g> ühendus?</string>
+    <string name="bluetooth_broadcasting">Info levitamine</string>
     <string name="bluetooth_disable_profile_title">Kas keelata profiil?</string>
     <string name="bluetooth_disable_profile_message">See keelab:&lt;br&gt;&lt;b&gt;<xliff:g id="PROFILE_NAME">%1$s</xliff:g>&lt;/b&gt;&lt;br&gt;&lt;br&gt;seadmest:&lt;br&gt;&lt;b&gt;<xliff:g id="DEVICE_NAME">%2$s</xliff:g>&lt;/b&gt;</string>
     <string name="bluetooth_connected">Ühendatud</string>
@@ -154,6 +159,9 @@
     <string name="bluetooth_ask_discovery" product="default">Rakendus soovib muuta telefoni <xliff:g id="TIMEOUT">%1$d</xliff:g> sekundiks teistele Bluetooth seadmetele nähtavaks.</string>
     <string name="bluetooth_ask_lasting_discovery" product="tablet">Rakendus soovib muuta tahvelarvuti teistele Bluetoothi seadmetele nähtavaks. Saad seda hiljem muuta Bluetoothi seadetes.</string>
     <string name="bluetooth_ask_lasting_discovery" product="default">Rakendus soovib muuta telefoni teistele Bluetoothi seadmetele nähtavaks. Saad seda hiljem muuta Bluetoothi seadetes.</string>
+    <string name="bluetooth_ask_start_broadcast" product="default"><xliff:g id="app_name">%1$s</xliff:g> soovib läheduses olevate seadmetega ühenduse loomiseks Bluetoothi info eetrisse levitamise sisse lülitada. Sa saad seda hiljem Bluetoothi seadetes muuta.</string>
+    <string name="bluetooth_ask_enablement_and_start_broadcast" product="default"><xliff:g id="app_name">%1$s</xliff:g> soovib läheduses olevate seadmetega ühenduse loomiseks Bluetoothi ja selle info eetrisse levitamise sisse lülitada. Sa saad seda hiljem Bluetoothi seadetes muuta.</string>
+    <string name="bluetooth_broadcasting_explaination" product="default">Kui see funktsioon on sisse lülitatud, saab su telefon lähedal asuvate seadmetega ühendust luua.\n\nInfo levitamine kasutab madala voolutarbega Bluetooth signaale.</string>
     <string name="bluetooth_ask_enablement_and_discovery" product="tablet">Rakendus soovib Bluetoothi sisse lülitada ja muuta tahvelarvuti <xliff:g id="TIMEOUT">%1$d</xliff:g> sekundiks teistele seadmetele nähtavaks.</string>
     <string name="bluetooth_ask_enablement_and_discovery" product="default">Rakendus soovib Bluetoothi sisse lülitada ja muuta telefoni <xliff:g id="TIMEOUT">%1$d</xliff:g> sekundiks teistele nähtavaks.</string>
     <string name="bluetooth_ask_enablement_and_lasting_discovery" product="tablet">Rakendus soovib Bluetoothi sisse lülitada ja muuta tahvelarvuti teistele seadmetele nähtavaks. Saad seda hiljem muuta Bluetoothi seadetes.</string>
@@ -199,9 +207,11 @@
     <string name="proxy_error_empty_host_set_port">Kui hosti väli on tühi, peab ka pordi väli olema tühi.</string>
     <string name="proxy_error_invalid_port">Sisestatud pordi number on vigane.</string>
     <string name="proxy_warning_limited_support">Androidi brauser küll kasutab HTTP puhverserverit, kuid teised rakendused ei pruugi seda kasutada.</string>
+    <string name="proxy_url_title">"PAC URL: "</string>
     <string name="radio_info_signal_location_label">Asukoht:</string>
-    <string name="radio_info_neighboring_location_label">Külgnev CID:</string>
+    <string name="radio_info_neighboring_location_label">Naaber CID:</string>
     <string name="radio_info_cellinfo_label">Kärjeinfo:</string>
+    <string name="radio_info_dcrtinfo_label">DcRtInfo:</string>
     <string name="radio_info_data_attempts_label">Andmete katsed:</string>
     <string name="radio_info_gprs_service_label">GPRS-teenus:</string>
     <string name="radio_info_roaming_label">Rändlus:</string>
@@ -266,6 +276,12 @@
     <string name="sd_card_settings_label" product="default">SD kaart</string>
     <string name="proxy_settings_label">Puhverserver</string>
     <string name="cancel">Tühista</string>
+    <string name="cancel_all_caps">TÜHISTA</string>
+    <string name="continue_all_caps">JÄTKA</string>
+    <string name="okay">OK</string>
+    <string name="yes_all_caps">JAH</string>
+    <string name="no_all_caps">EI</string>
+    <string name="forget">UNUSTA</string>
     <string name="settings_label">Seaded</string>
     <string name="settings_label_launcher">Seaded</string>
     <string name="settings_shortcut">Viide seadetele</string>
@@ -273,6 +289,11 @@
     <string name="radio_controls_title">Veel võrguseadeid \u2026</string>
     <string name="wireless_networks_settings_title">Juhtmevabad võrgud</string>
     <string name="radio_controls_summary">WiFi-, Bluetooth-, lennurežiimis ja mobiilsidevõrkude ning VPN-ide haldamine</string>
+    <string name="cellular_data_title">Mobiilne andmeside</string>
+    <string name="calls_title">Kõned</string>
+    <string name="sms_messages_title">SMS sõnumid</string>
+    <string name="cellular_data_summary">Andmeside kasutamine üle mobiilvõrgu</string>
+    <string name="allow_data_usage_title">Andmeside kasutamine rändlusel</string>
     <string name="roaming">Andmeside rändlus</string>
     <string name="roaming_enable">Rändluse ajal luuakse ühendus ka andmesideteenustega</string>
     <string name="roaming_disable">Rändluse ajal andmesideteenus puudub</string>
@@ -293,10 +314,15 @@
     <string name="zone_auto">Võrgu ajavöönd</string>
     <string name="zone_auto_summaryOn">Võrgu määratud ajavööndi kasutamine</string>
     <string name="zone_auto_summaryOff">Võrgu määratud ajavööndi kasutamine</string>
+    <string name="date_time_24hour_title">24\u2011tunnine vorming</string>
     <string name="date_time_24hour">24-tunnine vorming</string>
+    <string name="date_time_set_time_title">Kellaaeg</string>
     <string name="date_time_set_time">Kellaaja määramine</string>
+    <string name="date_time_set_timezone_title">Ajavöönd</string>
     <string name="date_time_set_timezone">Ajavööndi valimine</string>
+    <string name="date_time_set_date_title">Kuupäev</string>
     <string name="date_time_set_date">Kuupäeva määramine</string>
+    <string name="date_time_date_format_title">Kuupäeva vorming</string>
     <string name="date_time_date_format">Kuupäevavormingu valimine</string>
     <string name="zone_list_menu_sort_alphabetically">Sordi tähestiku järgi</string>
     <string name="zone_list_menu_sort_by_timezone">Sordi ajavööndi alusel</string>
@@ -306,7 +332,8 @@
     <string name="biometric_weak_liveliness_title">Elusoleku kontroll</string>
     <string name="biometric_weak_liveliness_summary">Avamiseks on vajalik silma pilgutamine</string>
     <string name="lock_after_timeout">Automaatne lukustus</string>
-    <string name="lock_after_timeout_summary"><xliff:g id="TIMEOUT_STRING">%1$s</xliff:g> pärast unerežiimi</string>
+    <string name="lock_after_timeout_summary"><xliff:g id="TIMEOUT_STRING">%1$s</xliff:g> pärast unerežiimi minekut</string>
+    <string name="lock_after_timeout_summary_with_exception"><xliff:g id="timeout_string">%1$s</xliff:g> pärast unerežiimi minekut, va juhul, kui „<xliff:g id="trust_agent_name">%2$s</xliff:g>“ lukustamist takistab</string>
     <string name="show_owner_info_on_lockscreen_label">Omaniku info näitamine ekraanilukul</string>
     <string name="owner_info_settings_title">Omaniku teave</string>
     <string name="security_enable_widgets_title">Vidinate lubamine</string>
@@ -317,7 +344,9 @@
     <string name="user_info_settings_title">Kasutaja teave</string>
     <string name="show_profile_info_on_lockscreen_label">Profiili info näitamine ekraanilukul</string>
     <string name="profile_info_settings_title">Profiili info</string>
+    <string name="Accounts_settings_title">Kontod</string>
     <string name="location_settings_title">Asukohainfo</string>
+    <string name="account_settings_title">Kontod</string>
     <string name="security_settings_title">Turvalisus</string>
     <string name="security_settings_summary">Asukoha määramine, ekraani avamine, SIM kaardi ja turvamandaatide lukustamine</string>
     <string name="cdma_security_settings_summary">Asukoha määramine, ekraani avamine, turvamandaatide lukustamine</string>
@@ -325,8 +354,6 @@
     <string name="crypt_keeper_settings_title">Krüpteerimine</string>
     <string name="crypt_keeper_encrypt_title" product="tablet">Tahvelarvuti krüpteerimine</string>
     <string name="crypt_keeper_encrypt_title" product="default">Telefoni krüpteerimine</string>
-    <string name="crypt_keeper_encrypt_summary" product="tablet">Dekrüpteerimiseks pead igal tahvelarvuti käivitamisel sisestama PIN koodi või parooli</string>
-    <string name="crypt_keeper_encrypt_summary" product="default">Dekrüpteerimiseks pead igal telefoni käivitamisel sisestama PIN koodi või parooli</string>
     <string name="crypt_keeper_encrypted_summary">Krüpteeritud</string>
     <string name="crypt_keeper_desc" product="tablet">Sa saad krüpteerida kõik oma kontod, seaded, allalaaditud rakendused ja nende andmed ning meedia- ja muud failid. Krüpteeritud tahvelarvuti dekrüpteerimiseks pead käivitamisel sisestma PIN koodi või parooli. Krüpteeringut pole võimalik enam välja lülitada muud moodi kui ainult tahvelarvuti tehaseseadete taastamisega ning sellega kaotad sa seadmest kõik oma andmed.\n\nKrüpteerimiseks kulub tund või rohkem. Aku peab olema täis laetud ja tahvelarvuti sisse lülitatud kuni krüpteerimine on lõpetatud. Kui krüpteerimise protsess katkestada, kaotad osa (või ka kõik) oma andmetest.</string>
     <string name="crypt_keeper_desc" product="default">Sa saad krüpteerida kõik oma kontod, seaded, allalaaditud rakendused ja nende andmed ning meedia- ja muud failid. Krüpteeritud telefoni dekrüpteerimiseks pead käivitamisel sisestma PIN koodi või parooli. Krüpteeringut pole võimalik enam välja lülitada muud moodi kui ainult telefoni tehaseseadete taastamisega ning sellega kaotad sa seadmest kõik oma andmed.\n\nKrüpteerimiseks kulub tund või rohkem. Aku peab olema täis laetud ja telefon sisse lülitatud kuni krüpteerimine on lõpetatud. Kui krüpteerimise protsess katkestada, kaotad osa (või ka kõik) oma andmetest.</string>
@@ -336,17 +363,24 @@
     <string name="crypt_keeper_unplugged_text">Ühenda laadija ja proovi siis uuesti.</string>
     <string name="crypt_keeper_dialog_need_password_title">Ekraanilukul pole PIN koodi või parooli</string>
     <string name="crypt_keeper_dialog_need_password_message">Enne krüpteerimist pead määrama ekraanilukule PIN koodi või parooli.</string>
+    <string name="crypt_keeper_confirm_encrypt">Seadme krüpteerimise kinnitamiseks pead sa ekraaniluku mustri joonistama.</string>
     <string name="crypt_keeper_confirm_title">Kas krüpteerida?</string>
     <string name="crypt_keeper_final_desc" product="tablet">Krüpteerimise toiming on pöördumatu ja selle katkestamisel kaotad sa andmed. Krüpteerimiseks kulub tund või rohkem ning selle aja jooksul taaskäivitub tahvelarvuti mitu korda.</string>
     <string name="crypt_keeper_final_desc" product="default">Krüpteerimise toiming on pöördumatu ja selle katkestamisel kaotad sa andmed. Krüpteerimiseks kulub tund või rohkem ning selle aja jooksul taaskäivitub telefon mitu korda.</string>
     <string name="crypt_keeper_setup_title">Krüpteerimine</string>
     <string name="crypt_keeper_setup_description" product="tablet">Oota, kuni su tahvelarvutit krüpteeritakse. <xliff:g id="PERCENT">^1</xliff:g>% valmis.</string>
     <string name="crypt_keeper_setup_description" product="default">Oota, kuni su telefoni krüpteeritakse. <xliff:g id="PERCENT">^1</xliff:g>% valmis.</string>
+    <string name="crypt_keeper_setup_time_remaining" product="tablet">Oota kuni su tahvelarvutit krüpteeritakse. Selleks kulub veel <xliff:g id="duration" example="1:23">^1</xliff:g></string>
+    <string name="crypt_keeper_setup_time_remaining" product="default">Oota kuni su telefoni krüpteeritakse. Selleks kulub veel <xliff:g id="duration" example="1:23">^1</xliff:g></string>
     <string name="crypt_keeper_cooldown">Proovi uuesti <xliff:g id="DELAY">^1</xliff:g> sekundi pärast.</string>
+    <string name="crypt_keeper_warn_wipe">Hoiatus: pärast veel <xliff:g id="count" example="7">^1</xliff:g> enaõnnestunud katset seadet lukust avada tühjendatakse seade andmetest täielikult.</string>
     <string name="crypt_keeper_enter_password">Sisesta parool</string>
     <string name="crypt_keeper_failed_title">Krüptimine ebaõnnestus</string>
     <string name="crypt_keeper_failed_summary" product="tablet">Krüpteerimine katkestati ja seda ei saa enam lõpule viia. Seetõttu ei pääse sa enam ligi ka oma tahvelarvutis olevatele andmetele.\n\nTahvelarvuti kasutamise jätkamiseks pead taastama sel tehaseseaded. Taastatud tehaseseadetega tahvelarvutit uuesti seadistades saad taastada ka kõik su Google\'i kontole varundatud andmed.</string>
     <string name="crypt_keeper_failed_summary" product="default">Krüpteerimine katkestati ja seda ei saa enam lõpule viia. Seetõttu ei pääse sa enam ligi ka oma telefonis olevatele andmetele.\n\nTelefoni kasutamise jätkamiseks pead taastama sel tehaseseaded. Taastatud tehaseseadetega telefoni uuesti seadistades saad taastada ka kõik su Google\'i kontole varundatud andmed.</string>
+    <string name="crypt_keeper_data_corrupt_title">Dekrüpteerimine ebaõnnestus</string>
+    <string name="crypt_keeper_data_corrupt_summary" product="tablet">Sisestatud parool on küll õige, kuid andmed on kahjuks rikutud.\n\nTahvelarvuti kasutamise jätkamiseks pead sa taastama selle tehaseseaded. Kui pärast seda tahvelarvutit uuesti seadistama hakkad, on sul võimalus taastada ka kõik Google\'i kontole varundatud andmed.</string>
+    <string name="crypt_keeper_data_corrupt_summary" product="default">Sisestatud parool on küll õige, kuid andmed on kahjuks rikutud.\n\nTelefoni kasutamise jätkamiseks pead sa taastama selle tehaseseaded. Kui pärast seda telefoni uuesti seadistama hakkad, on sul võimalus taastada ka kõik Google\'i kontole varundatud andmed.</string>
     <string name="crypt_keeper_switch_input_method">Sisestusmeetodi vahetamine</string>
     <string name="lock_settings_picker_title">Ekraaniluku valimine</string>
     <string name="backup_lock_settings_picker_title">Varukoopia luku valimine</string>
@@ -418,6 +452,7 @@
     <item quantity="other">Parool peab sisaldama vähemalt %d mittetähte.</item>
   </plurals>
     <string name="lockpassword_password_recently_used">Seadme administraator ei luba viimast parooli kasutada.</string>
+    <string name="lockpassword_pin_no_sequential_digits">Järjest kasvavate või kahanevate numbrijadade ning korduvate mustrite kasutamine on keelatud</string>
     <string name="lockpassword_ok_label">OK</string>
     <string name="lockpassword_cancel_label">Tühista</string>
     <string name="lockpattern_tutorial_cancel_label">Tühista</string>
@@ -426,15 +461,9 @@
     <string name="device_admin_title">Seadme haldamine</string>
     <string name="manage_device_admin">Seadme administraatorid</string>
     <string name="manage_device_admin_summary">Seadme administraatorid ja nende deaktiveerimine</string>
-    <string name="manage_notification_access">Ligipääs märguannetele</string>
-    <string name="manage_notification_access_summary_zero">Ükski rakendus ei saa märguandeid lugeda</string>
-  <plurals name="manage_notification_access_summary_nonzero">
-    <item quantity="one">%d rakendus saab märguandeid lugeda</item>
-    <item quantity="other">%d rakendust saab märguandeid lugeda</item>
-  </plurals>
-    <string name="no_notification_listeners">Ühtegi märguannete kuulajat pole paigaldatud.</string>
-    <string name="notification_listener_security_warning_title">Kas lubada <xliff:g id="service" example="NotificationReader">%1$s</xliff:g>?</string>
-    <string name="notification_listener_security_warning_summary"><xliff:g id="notification_listener_name">%1$s</xliff:g> saab lugeda kõiki süsteemi või paigaldatud rakenduste poolt saadetud märguandeid. Neis võib olla isiklikku infot, nagu nt kontaktandmed või sulle saadetud sõnumite tekstid. Ka võib rakendus märguandeid laekast eemaldada ja märguannetes olevate nuppudega tegevusi käivitada.</string>
+    <string name="manage_trust_agents">Usaldusväärsed agendid</string>
+    <string name="disabled_because_no_backup_security">Kasutamiseks seadista kõigepealt ekraanilukk</string>
+    <string name="manage_trust_agents_summary">Usaldusväärsete agentide vatamine ja deaktiveerimine</string>
     <string name="bluetooth_quick_toggle_title">Bluetooth</string>
     <string name="bluetooth_quick_toggle_summary">Lülita Bluetooth sisse</string>
     <string name="bluetooth_settings">Bluetooth</string>
@@ -442,6 +471,7 @@
     <string name="bluetooth_settings_summary">Ühenduste haldamine, seadme nimi ja nähtavus</string>
     <string name="bluetooth_pairing_request">Bluetoothi sidumistaotlus</string>
     <string name="bluetooth_enter_pin_msg">Siduda seadmega:<xliff:g id="BOLD_0">&lt;br&gt;&lt;b&gt;</xliff:g><xliff:g id="DEVICE_NAME">%1$s</xliff:g><xliff:g id="END_BOLD">&lt;/b&gt;&lt;br&gt;&lt;br&gt;</xliff:g>Sisesta seadme nõutav PIN kood:</string>
+    <string name="bluetooth_pairing_key_msg">Sidumiskood</string>
     <string name="bluetooth_enter_passkey_msg">Siduda seadmega:<xliff:g id="BOLD_0">&lt;br&gt;&lt;b&gt;</xliff:g><xliff:g id="DEVICE_NAME">%1$s</xliff:g><xliff:g id="END_BOLD">&lt;/b&gt;&lt;br&gt;&lt;br&gt;</xliff:g>Sisesta seadme nõutav parool:</string>
     <string name="bluetooth_enable_alphanumeric_pin">PIN kood sisaldab tähti või sümboleid</string>
     <string name="bluetooth_pin_values_hint">Tavaliselt 0000 või 1234</string>
@@ -451,7 +481,9 @@
     <string name="bluetooth_incoming_pairing_msg">Seadmelt: &lt;br&gt;&lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;&lt;br&gt;&lt;br&gt; Kas siduda selle seadmega?</string>
     <string name="bluetooth_display_passkey_pin_msg">Siduda seadmega:<xliff:g id="BOLD1_0">&lt;br&gt;&lt;b&gt;</xliff:g><xliff:g id="DEVICE_NAME">%1$s</xliff:g><xliff:g id="END_BOLD1">&lt;/b&gt;&lt;br&gt;&lt;br&gt;</xliff:g>Sisesta seadmesse:<xliff:g id="BOLD2_1">&lt;br&gt;&lt;b&gt;</xliff:g><xliff:g id="PASSKEY">%2$s</xliff:g><xliff:g id="END_BOLD2">&lt;/b&gt;</xliff:g>, seejärel vajuta sisestusklahvi.</string>
     <string name="bluetooth_pairing_accept">Seo</string>
+    <string name="bluetooth_pairing_accept_all_caps">SEO</string>
     <string name="bluetooth_pairing_decline">Keeldu</string>
+    <string name="bluetooth_pairing_will_share_phonebook">Sidumine annab seadmele ligipääsu su kontaktidele ja kõneajaloole.</string>
     <string name="bluetooth_error_title"/>
     <string name="bluetooth_pairing_error_message">Sidumine seadmega <xliff:g id="DEVICE_NAME">%1$s</xliff:g> ebaõnnestus.</string>
     <string name="bluetooth_pairing_pin_error_message">Sidumine seadmega <xliff:g id="DEVICE_NAME">%1$s</xliff:g> ebaõnnestus, kuna PIN kood või parool oli vale.</string>
@@ -462,8 +494,18 @@
     <string name="bluetooth_search_for_devices">Otsi seadmeid</string>
     <string name="bluetooth_searching_for_devices">Otsimine \u2026</string>
     <string name="bluetooth_preference_device_settings">Seadme seaded</string>
+    <string name="bluetooth_preference_paired_dialog_title">Seotud seade</string>
+    <string name="bluetooth_preference_paired_dialog_name_label">Nimi</string>
+    <string name="bluetooth_preference_paired_dialog_internet_option">Interneti ühendus</string>
+    <string name="bluetooth_preference_paired_dialog_keyboard_option">Klaviatuur</string>
+    <string name="bluetooth_preference_paired_dialog_contacts_option">Kontaktid ja kõneajalugu</string>
+    <string name="bluetooth_pairing_dialog_title">Siduda selle seadmega?</string>
+    <string name="bluetooth_pairing_dialog_sharing_phonebook_title">Jagada telefoniraamatut?</string>
+    <string name="bluetooth_pairing_dialog_contants_request"><xliff:g id="device_name">%1$s</xliff:g> soovib saada ligipääsu su kontaktidele ja kõneajaloole.</string>
+    <string name="bluetooth_pairing_dialog_paring_request"><xliff:g id="device_name">%1$s</xliff:g> soovib luua Bluetoothi sideme. Kui ühendus on loodud, saab see ligipääsu su kontaktidele ja kõneajaloole.</string>
     <string name="bluetooth_preference_paired_devices">Seotud seadmed</string>
     <string name="bluetooth_preference_found_devices">Saadaval seadmed</string>
+    <string name="bluetooth_preference_no_found_devices">Seadmeid pole saadaval</string>
     <string name="bluetooth_device_context_connect">Ühenda</string>
     <string name="bluetooth_device_context_disconnect">Katkesta ühendus</string>
     <string name="bluetooth_device_context_pair_connect">Seo ja ühenda</string>
@@ -479,6 +521,8 @@
     <string name="bluetooth_profile_opp">Failiedastus</string>
     <string name="bluetooth_profile_hid">Sisendseade</string>
     <string name="bluetooth_profile_pan">Ligipääs Internetile</string>
+    <string name="bluetooth_profile_pbap">Kontaktide jagamine</string>
+    <string name="bluetooth_profile_pbap_summary">Kontaktide jagamine</string>
     <string name="bluetooth_profile_pan_nap">Interneti ühenduse jagamine</string>
     <string name="bluetooth_profile_map">Ligipääs sõnumitele</string>
     <string name="bluetooth_disconnect_a2dp_profile">Multimeedia heli edastamiseks mõeldud ühendus seadmega <xliff:g id="DEVICE_NAME">%1$s</xliff:g> katkestatakse.</string>
@@ -512,28 +556,25 @@
     <string name="bluetooth_dock_settings_headset">Telefonina kõlarina</string>
     <string name="bluetooth_dock_settings_a2dp">Muusika ja multimeedia heli</string>
     <string name="bluetooth_dock_settings_remember">Jäta meelde</string>
+    <string name="wifi_assistant_intro_setup">WiFi assistendi sissejuhatus</string>
+    <string name="wifi_assistant_no_thanks">TÄNAN, EI</string>
+    <string name="wifi_assistant_setup">SEADISTA</string>
+    <string name="wifi_assistant_card_message">Automaatne ühenduse loomine kättesaadavate võrkudega WiFi assistendi abil.</string>
+    <string name="wifi_assistant_title">WiFi assistent</string>
+    <string name="wifi_assistant_title_message"><xliff:g id="wifi_assistant">%1$s</xliff:g> loob automaatselt ühenduse parima kättesaadava WiFi võrguga</string>
+    <string name="wifi_assistant_open_app">AVA RAKENDUS</string>
     <string name="wifi_display_settings_title">Juhtmevaba ekraaniühendus</string>
-    <string name="wifi_display_settings_empty_list_wifi_display_off">Seadmete nägemiseks lülita juhtmevaba ekraaniühendus sisse.</string>
-    <string name="wifi_display_settings_empty_list_wifi_display_disabled">Juhtmevaba ekraaniühendus on keelatud, sest WiFi  on välja lülitatud.</string>
-    <string name="wifi_display_search_for_devices">Ekraanide otsimine</string>
-    <string name="wifi_display_searching_for_devices">Otsimine \u2026 </string>
+    <string name="wifi_display_enable_menu_item">Juhtmevaba ekraaniühendus</string>
     <string name="wifi_display_no_devices_found">WiFi ekraane ei leitud.</string>
-    <string name="wifi_display_paired_devices">Seotud ekraanid</string>
-    <string name="wifi_display_available_devices">Saadaval seadmed</string>
     <string name="wifi_display_status_connecting">Ühendamine</string>
     <string name="wifi_display_status_connected">Ühendatud</string>
-    <string name="wifi_display_status_available">Saadaval</string>
     <string name="wifi_display_status_in_use">Kasutuses</string>
+    <string name="wifi_display_status_not_available">Pole kättesaadav</string>
     <string name="wifi_display_details">Ekraani seaded</string>
-    <string name="wifi_display_disconnect_title">Kas katkestada ühendus?</string>
-    <string name="wifi_display_disconnect_text">See katkestab ühenduse seadmega:&lt;br&gt;&lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;</string>
     <string name="wifi_display_options_title">Juhtmevaba ekraaniühenduse seaded</string>
     <string name="wifi_display_options_forget">Unusta</string>
     <string name="wifi_display_options_done">Valmis</string>
     <string name="wifi_display_options_name">Nimi</string>
-    <string name="wifi_display_summary_on">Sees</string>
-    <string name="wifi_display_summary_off">Väljas</string>
-    <string name="wifi_display_summary_disabled">Keelatud</string>
     <string name="nfc_quick_toggle_title">NFC</string>
     <string name="nfc_quick_toggle_summary" product="tablet">Võimaldab tahvelarvutil vahetada andmeid teiste seadmetega neid puudutades</string>
     <string name="nfc_quick_toggle_summary" product="default">Võimaldab telefonil vahetada andmeid teiste seadmetega neid puudutades</string>
@@ -552,6 +593,7 @@
     <string name="wifi_settings_title">WiFi</string>
     <string name="wifi_settings_summary">WiFi pääsupunktide seadistamine ja haldamine</string>
     <string name="wifi_setup_wizard_title">WiFi valimine</string>
+    <string name="wifi_select_network">WiFi valimine</string>
     <string name="wifi_starting">WiFi sisselülitamine \u2026</string>
     <string name="wifi_stopping">WiFi väljalülitamine \u2026</string>
     <string name="wifi_error">Viga</string>
@@ -561,16 +603,23 @@
     <string name="wifi_notify_open_networks_summary">Märguanded levis olevatest avatud võrkudest</string>
     <string name="wifi_poor_network_detection">Halbade ühenduste vältimine</string>
     <string name="wifi_poor_network_detection_summary">Välditakse halva Interneti ühendusega WiFi võrkude kasutamist</string>
+    <string name="wifi_avoid_poor_network_detection_summary">Kasutatakse ainult hea Interneti ühendusega võrke</string>
     <string name="wifi_scan_always_available">Skaneerimine alati lubatud</string>
+    <string name="wifi_scan_always_available_title">Skaneerimine alati lubatud</string>
     <string name="wifi_scan_always_available_summary">Lubab Google\'i asukohainfo teenusel ning teistel rakendustel skaneerida WiFi võrke ka siis, kui WiFi on välja lülitatud</string>
-    <string name="wifi_install_credentials">Paigalda sertifikaadid</string>
+    <string name="wifi_automatically_manage_title">WiFi automaatne haldus</string>
+    <string name="wifi_automatically_manage_summary">Lubab „<xliff:g id="wifi_assistant">%1$s</xliff:g>“ rakendusel su WiFi ühendust hallata</string>
+    <string name="wifi_install_credentials">Sertifikaatide paigaldus</string>
     <string name="wifi_scan_notify_text_location_on">Asukohainfo täpsuse parandamiseks ning muudel põhjustel võivad Google ning teised rakendused otsida WiFi levis olevaid WiFi võrke kas siis kui WiFi on välja lülitatud. Kui sa ei soovi seda, vali WiFi seadete menüüst Täpsemad seaded &gt; Skaneerimine alati lubatud.</string>
     <string name="wifi_scan_notify_text_location_off">Rakendused võivad otsida WiFi levis olevaid WiFi võrke kas siis kui WiFi on välja lülitatud. Kui sa ei soovi seda, vali WiFi seadete menüüst Täpsemad seaded &gt; Skaneerimine alati lubatud.</string>
     <string name="wifi_scan_notify_remember_choice">Ära näita seda enam</string>
     <string name="wifi_setting_sleep_policy_title">WiFi sees hoidmine unerežiimis</string>
+    <string name="wifi_setting_on_during_sleep_title">WiFi sees hoidmine unerežiimis</string>
     <string name="wifi_setting_sleep_policy_error">Seadistuse muutmisel tekkis probleem</string>
+    <string name="wifi_suspend_efficiency_title">Efektiivsuse parandamine</string>
     <string name="wifi_suspend_optimizations">WiFi optimeerimine</string>
     <string name="wifi_suspend_optimizations_summary">WiFi töö akukasutuse minimeerimine</string>
+    <string name="wifi_limit_optimizations_summary">WiFi akukasutuse piiramine</string>
     <string name="wifi_add_network">Võrgu lisamine</string>
     <string name="wifi_access_points">WiFi võrgud</string>
     <string name="wifi_menu_wps_pbc">WPS nupp</string>
@@ -582,6 +631,7 @@
     <string name="wifi_menu_connect">Loo ühendus võrguga</string>
     <string name="wifi_menu_forget">Unusta võrk</string>
     <string name="wifi_menu_modify">Muuda võrgu seadeid</string>
+    <string name="wifi_menu_write_to_nfc">NFC märgisele kirjutamine</string>
     <string name="wifi_empty_list_wifi_off">Saadaolevate võrkude nimekirja nägemiseks lülita WiFi sisse.</string>
     <string name="wifi_empty_list_wifi_on">WiFi võrkude otsimine \u2026</string>
     <string name="wifi_empty_list_user_restricted">Sul pole õigusi WiFi võrku muuta</string>
@@ -608,6 +658,7 @@
     <string name="wifi_signal">Signaali tugevus</string>
     <string name="wifi_status">Olek</string>
     <string name="wifi_speed">Lingi kiirus</string>
+    <string name="wifi_frequency">Sagedus</string>
     <string name="wifi_ip_address">IP aadress</string>
     <string name="wifi_eap_method">EAP meetod</string>
     <string name="please_select_phase2">Autentimise 2. etapp</string>
@@ -627,12 +678,15 @@
     <string name="wifi_not_in_range">Pole levis</string>
     <string name="wifi_wps_available_first_item">WPS kasutamise võimalus</string>
     <string name="wifi_wps_available_second_item">\u0020(WPS kasutamise võimalus)</string>
-    <string name="wifi_secured_first_item">Kaitstud <xliff:g id="WIFI_SECURITY_SHORT">%1$s</xliff:g> protokolliga</string>
-    <string name="wifi_secured_second_item">, kaitstud <xliff:g id="WIFI_SECURITY_SHORT">%1$s</xliff:g> protokolliga</string>
+    <string name="wifi_wps_nfc_enter_password">Sisesta oma võrguparool</string>
     <string name="wifi_security_none">Puudub</string>
     <string name="wifi_scan_always_turnon_message"><xliff:g id="app_name">%1$s</xliff:g> soovib asukoha määramise täpsuse parandamiseks ning muudeks eesmärkideks lubada seadmel otsida WiFi võrke ka siis, kui WiFi on välja lülitatud.\n\nKas lubada seda kõigile rakendustele, mis WiFi skaneerimist kasutada soovivad?</string>
+    <string name="wifi_scan_always_turnoff_message">Selle välja lülitamiseks vali menüüst lisaseaded.</string>
     <string name="wifi_scan_always_confirm_allow">Luba</string>
     <string name="wifi_scan_always_confirm_deny">Keela</string>
+    <string name="wifi_hotspot_title">Logida ühenduse loomiseks sisse?</string>
+    <string name="wifi_hotspot_message"><xliff:g id="app_name">%1$s</xliff:g> nõuab võrguühenduse loomiseks sisse logimist.</string>
+    <string name="wifi_hotspot_connect">ÜHENDA</string>
     <string name="wifi_connect">Ühenda</string>
     <string name="wifi_failed_connect_message">Võrguga ühenduse loomine ebaõnnestus</string>
     <string name="wifi_forget">Unusta</string>
@@ -642,18 +696,23 @@
     <string name="wifi_cancel">Tühista</string>
     <string name="wifi_skip_anyway">Jäta siiski vahele</string>
     <string name="wifi_dont_skip">Ära jäta vahele</string>
-    <string name="wifi_skipped_message" product="tablet">HOIATUS: mobiilse andmeside kasutamine võib tähendada sulle lisakulutusi.\n\nTahvelarvuti seadistamine võib vajada suure hulga andmete laadimist võrgust.</string>
-    <string name="wifi_skipped_message" product="default">HOIATUS: mobiilse andmeside kasutamine võib tähendada sulle lisakulutusi.\n\nTelefoni seadistamine võib vajada suure hulga andmete laadimist võrgust.</string>
-    <string name="wifi_and_mobile_skipped_message" product="tablet">HOIATUS: tahvelarvuti ei saa kontrollida, kas paigaldatud tarkvara on ajakohane.</string>
-    <string name="wifi_and_mobile_skipped_message" product="default">HOIATUS: telefon ei saa kontrollida, kas paigaldatud tarkvara on ajakohane.</string>
+    <string name="wifi_skipped_message" product="tablet">HOIATUS: Kui jätad WiFi seadistamise vahele, kasutab tahvelarvuti tarkvara ja uuenduste allalaadimiseks mobiilset andmesidet. Võimalike väljaminekute vältimiseks tekita ühendus WiFi võrguga.</string>
+    <string name="wifi_skipped_message" product="device">HOIATUS: Kui jätad WiFi seadistamise vahele, kasutab seade tarkvara ja uuenduste allalaadimiseks mobiilset andmesidet. Võimalike väljaminekute vältimiseks tekita ühendus WiFi võrguga.</string>
+    <string name="wifi_skipped_message" product="default">HOIATUS: Kui jätad WiFi seadistamise vahele, kasutab telefon tarkvara ja uuenduste allalaadimiseks mobiilset andmesidet. Võimalike väljaminekute vältimiseks tekita ühendus WiFi võrguga.</string>
+    <string name="wifi_and_mobile_skipped_message" product="tablet">HOIATUS: Kui jätad WiFi seadistamise vahele, pole tahvelarvutil tarkvara ja uuenduste laadimiseks ühendust Internetiga.</string>
+    <string name="wifi_and_mobile_skipped_message" product="device">HOIATUS: Kui jätad WiFi seadistamise vahele, pole seadmel tarkvara ja uuenduste laadimiseks ühendust Internetiga.</string>
+    <string name="wifi_and_mobile_skipped_message" product="default">HOIATUS: Kui jätad WiFi seadistamise vahele, pole telefonil tarkvara ja uuenduste laadimiseks ühendust Internetiga.</string>
     <string name="wifi_connect_failed_message" product="tablet">Tahvelarvutil ei õnnestunud selle WiFi võrguga ühendust luua.</string>
+    <string name="wifi_connect_failed_message" product="device">Seadmel ei õnnestunud selle WiFi võrguga ühendust luua.</string>
     <string name="wifi_connect_failed_message" product="default">Telefonil ei õnnestunud selle WiFi võrguga ühendust luua.</string>
+    <string name="wifi_saved_access_points_titlebar">Salvestatud võrgud</string>
     <string name="wifi_advanced_titlebar">Täpsemad WiFi seaded</string>
-    <string name="wifi_setting_frequency_band_title">WiFi sagedusriba</string>
-    <string name="wifi_setting_frequency_band_summary">Sagedusriba määramine</string>
-    <string name="wifi_setting_frequency_band_error">Sagedusriba määramisel tekkis probleem.</string>
+    <string name="wifi_setting_frequency_band_title">WiFi sagedusala</string>
+    <string name="wifi_setting_frequency_band_summary">Sagedusala määramine</string>
+    <string name="wifi_setting_frequency_band_error">Sagedusala määramisel tekkis probleem.</string>
     <string name="wifi_advanced_mac_address_title">MAC aadress</string>
     <string name="wifi_advanced_ip_address_title">IP aadress</string>
+    <string name="wifi_saved_access_points_label">Salvestatud võrgud</string>
     <string name="wifi_advanced_settings_label">IP seaded</string>
     <string name="wifi_ip_settings_menu_save">Salvesta</string>
     <string name="wifi_ip_settings_menu_cancel">Tühista</string>
@@ -682,27 +741,31 @@
     <string name="wifi_p2p_cancel_connect_message">Kas soovid tühistada kutse seadmega <xliff:g id="PEER_NAME">%1$s</xliff:g> ühenduse loomiseks?</string>
     <string name="wifi_p2p_delete_group_message">Kas unustada see grupp?</string>
     <string name="wifi_tether_checkbox_text">Mobiilne WiFi pääsupunkt</string>
+    <string name="wifi_hotspot_checkbox_text">WiFi pääsupunkt</string>
+    <string name="wifi_hotspot_checkbox_text_summary">Mobiilse andmesidevõrgu kasutamine WiFi ühenduse pakkumiseks</string>
     <string name="wifi_tether_starting">Leviala sisselülitamine \u2026</string>
     <string name="wifi_tether_stopping">Leviala väljalülitamine \u2026</string>
     <string name="wifi_tether_enabled_subtext">Mobiilne pääsupunkt <xliff:g id="NETWORK_SSID">%1$s</xliff:g> on aktiivne</string>
     <string name="wifi_tether_failed_subtext">Viga mobiilse WiFi pääsupunkti aktiveerimisel</string>
     <string name="wifi_tether_configure_ap_text">WiFi leviala seadistamine</string>
+    <string name="wifi_hotspot_configure_ap_text">WiFi pääsupunkti seadistamine</string>
+    <string name="wifi_hotspot_configure_ap_text_summary">AndroidAP WPA2 PSK mobiilne WiFi pääsupunkt</string>
     <string name="wifi_tether_configure_subtext"><xliff:g id="NETWORK_SSID">%1$s</xliff:g> (<xliff:g id="NETWORK_SECURITY">%2$s</xliff:g>)</string>
     <string name="wifi_tether_configure_ssid_default">AndroidHotspot</string>
     <string name="home_settings">Avaekraan</string>
     <string name="display_settings_title">Ekraan</string>
     <string name="sound_settings">Heli</string>
-    <string name="ringtone_title">Telefonihelin</string>
     <string name="ringtone_summary"/>
     <string name="all_volume_title">Helitugevused</string>
     <string name="musicfx_title">Muusikaefektid</string>
     <string name="ring_volume_title">Telefonihelina helitugevus</string>
     <string name="vibrate_in_silent_title">Vibreerimine hääletus režiimis</string>
     <string name="notification_sound_title">Märguannete vaikeheli</string>
-    <string name="notification_pulse_title">Märguannete tuli</string>
+    <string name="heads_up_enabled_title">Hüpikdialoog olulistel märguannetel</string>
     <string name="incoming_call_volume_title">Telefonihelin</string>
     <string name="notification_volume_title">Märguanne</string>
     <string name="checkbox_notification_same_as_incoming_call">Märguannete jaoks kasutatakse telefonihelina helitugevust</string>
+    <string name="home_work_profile_not_supported">Ei toeta tööprofiili</string>
     <string name="notification_sound_dialog_title">Märguannete vaikeheli</string>
     <string name="media_volume_title">Meedia</string>
     <string name="media_volume_summary">Muusika ja video helitugevuse määramine</string>
@@ -721,7 +784,6 @@
     <string name="volume_media_mute">Muusika ja muu meedia vaigistamine</string>
     <string name="volume_notification_mute">Märguannete vaigistamine</string>
     <string name="volume_alarm_mute">Äratuste vaigistamine</string>
-    <string name="vibrate_when_ringing_title">Vibreerimine helina ajal</string>
     <string name="dock_settings">Dokk</string>
     <string name="dock_settings_title">Doki seaded</string>
     <string name="dock_audio_settings_title">Heli</string>
@@ -739,6 +801,8 @@
     <string name="dock_sounds_enable_summary_off" product="tablet">Tahvelarvuti dokki sisestamisel või sellest eemaldamisel ei kasutata helisignaali</string>
     <string name="dock_sounds_enable_summary_off" product="default">Telefoni dokki sisestamisel või sellest eemaldamisel ei kasutata helisignaali</string>
     <string name="account_settings">Kontod</string>
+    <string name="category_personal">Isiklik</string>
+    <string name="category_work">Töö</string>
     <string name="search_settings">Otsing</string>
     <string name="search_settings_summary">Otsinguseadete ja -ajaloo haldamine</string>
     <string name="display_settings">Ekraan</string>
@@ -748,8 +812,12 @@
     <string name="accelerometer_summary_off" product="tablet">Ekraani asendi automaatne muutmine tahvelarvuti pööramisel</string>
     <string name="accelerometer_summary_off" product="default">Ekraani asendi automaatne muutmine telefoni pööramisel</string>
     <string name="brightness">Heledus</string>
+    <string name="brightness_title">Heledus</string>
     <string name="brightness_summary">Ekraani heleduse muutmine</string>
+    <string name="auto_brightness_title">Oludega kohanev heledus</string>
+    <string name="auto_brightness_summary">Heleduse kohandamine olemasolevale valgusele vastavalt</string>
     <string name="screen_timeout">Unerežiimi viide</string>
+    <string name="screen_timeout_title">Ekraani lülitub välja</string>
     <string name="screen_timeout_summary">Pärast <xliff:g id="TIMEOUT_DESCRIPTION">%1$s</xliff:g> tegevusetust</string>
     <string name="wallpaper_settings_title">Taustapilt</string>
     <string name="wallpaper_settings_fragment_title">Taustapildi valimine:</string>
@@ -764,6 +832,9 @@
     <string name="screensaver_settings_dream_start">Käivita kohe</string>
     <string name="screensaver_settings_button">Seaded</string>
     <string name="automatic_brightness">Automaatne heledus</string>
+    <string name="lift_to_wake_title">Äratus seadme tõstmisel</string>
+    <string name="doze_title">Muutuv ekraan</string>
+    <string name="doze_summary">Ekraani äratamine seadme tõstmisel või märguannete saabumisel</string>
     <string name="title_font_size">Fondi suurus</string>
     <string name="dialog_title_font_size">Fondi suurus</string>
     <string name="sim_lock_settings">SIM kaardi luku seaded</string>
@@ -789,6 +860,14 @@
     <string name="sim_lock_failed">SIM-kaardi lukustusolekut ei saa muuta.\nVõimalik, et PIN kood on vale.</string>
     <string name="sim_enter_ok">OK</string>
     <string name="sim_enter_cancel">Tühista</string>
+    <string name="sim_multi_sims_title">Seadmes on mitu SIM kaarti</string>
+    <string name="sim_multi_sims_summary">Vali SIM kaart, mida eelistad mobiilseks andmesideks kasutada.</string>
+    <string name="wrong_pin_code_pukked">Vale SIM-i PIN kood. Seadme lukust avamiseks pead võtma ühendust oma mobiilside teenusepakkujaga.</string>
+  <plurals name="wrong_pin_code">
+    <item quantity="one">Vale SIM-i PIN kood. Sul on jäänud veel <xliff:g id="number">%d</xliff:g> katse enne, kui pead seadme lukust avamiseks võtma ühendust oma mobiilside teenusepakkujaga.</item>
+    <item quantity="other">Vale SIM-i PIN kood. Sul on jäänud veel <xliff:g id="number">%d</xliff:g> katset enne, kui pead seadme lukust avamiseks võtma ühendust oma mobiilside teenusepakkujaga.</item>
+  </plurals>
+    <string name="pin_failed">Vale SIM-i PIN!</string>
     <string name="device_info_settings" product="tablet">Tahvelarvuti olek</string>
     <string name="device_info_settings" product="default">Telefoni olek</string>
     <string name="system_update_settings_list_item_title">Süsteemivärskendused</string>
@@ -928,6 +1007,7 @@
     <string name="restore_default_apn">APN seadete vaikeväärtuste taastamine.</string>
     <string name="menu_restore">Taasta vaikeseaded</string>
     <string name="restore_default_apn_completed">APN seadete vaikeväärtuste taastamine on lõpetatud.</string>
+    <string name="device_reset_title">Seadme vaikeväärtuste taastamine</string>
     <string name="master_clear_title">Tehaseseadete taastamine</string>
     <string name="master_clear_summary" product="tablet">Kustutab tahvelarvutist kõik andmed</string>
     <string name="master_clear_summary" product="default">Kustutab telefonist kõik andmed</string>
@@ -949,6 +1029,9 @@
     <string name="master_clear_gesture_explanation">Tehaseseadete taastamise kinnitamiseks pead joonistama avamismustri.</string>
     <string name="master_clear_failed">Lähtestust ei tehtud, sest süsteemi kustutamise teenus pole saadaval.</string>
     <string name="master_clear_confirm_title">Taastada tehaseseaded?</string>
+    <string name="master_clear_not_available">See kasutaja ei saa tehaseseadeid taastada.</string>
+    <string name="master_clear_progress_title">Kustutamine</string>
+    <string name="master_clear_progress_text">Palun oota \u2026</string>
     <string name="media_format_title" product="nosdcard">USB mäluseadme tühjendamine</string>
     <string name="media_format_title" product="default">SD kaardi tühjendamine</string>
     <string name="media_format_summary" product="nosdcard">Kustutab USB mäluseadmelt kõik andmed</string>
@@ -976,6 +1059,7 @@
     <string name="usb_tethering_active_subtext">Interneti ühenduse jagamine</string>
     <string name="usb_tethering_storage_active_subtext">Kui USB mäluseade on kasutusel, ei saa Interneti ühendust jagada</string>
     <string name="usb_tethering_unavailable_subtext">USB ühendus puudub</string>
+    <string name="usb_tethering_turnon_subtext">Sisselülitamiseks tekita ühendus</string>
     <string name="usb_tethering_errored_subtext">Viga jagamisel</string>
     <string name="bluetooth_tether_checkbox_text">Jagamine üle Bluetoothi</string>
     <string name="bluetooth_tethering_available_subtext" product="tablet">Tahvelarvuti Interneti ühenduse jagamine</string>
@@ -984,6 +1068,7 @@
     <string name="bluetooth_tethering_device_connected_subtext" product="default">Telefoni Interneti ühenduse jagamine 1 seadmega</string>
     <string name="bluetooth_tethering_devices_connected_subtext" product="tablet">Tahvelarvuti Interneti ühenduse jagamine <xliff:g id="CONNECTEDDEVICECOUNT">%1$d</xliff:g> seadmega</string>
     <string name="bluetooth_tethering_devices_connected_subtext" product="default">Telefoni Interneti ühenduse jagatamine <xliff:g id="CONNECTEDDEVICECOUNT">%1$d</xliff:g> seadmega</string>
+    <string name="bluetooth_tethering_off_subtext_config"><xliff:g id="device_name">%1$d</xliff:g> internetiühenduse jagamine</string>
     <string name="bluetooth_tethering_off_subtext" product="tablet">Tahvelarvuti Interneti ühendust ei jagata</string>
     <string name="bluetooth_tethering_off_subtext" product="default">Telefoni Interneti ühendust ei jagata</string>
     <string name="bluetooth_tethering_errored_subtext">Ühendust ei jagata</string>
@@ -991,15 +1076,9 @@
     <string name="bluetooth_untether_blank">Seadme <xliff:g id="DEVICE_NAME">%1$s</xliff:g> ühenduse jagamine lõpetatakse.</string>
     <string name="tethering_help_button_text">Abi</string>
     <string name="network_settings_title">Mobiilsidevõrgud</string>
-    <string name="manage_mobile_plan_title">Mobiilileping</string>
-    <string name="sms_application_title">SMS vaikerakendus</string>
-    <string name="sms_change_default_dialog_title">Kas muuta SMS rakendust?</string>
-    <string name="sms_change_default_dialog_text">Kas võtta SMS rakendusena kasutusele <xliff:g id="new_app">%s</xliff:g> senise <xliff:g id="current_app">%s</xliff:g> asemel?</string>
-    <string name="sms_change_default_no_previous_dialog_text">Kas võtta SMS rakendusena kasutusele <xliff:g id="new_app">%s</xliff:g>?</string>
-    <string name="mobile_unknown_sim_operator">Tundmatu operaatori SIM</string>
-    <string name="mobile_no_provisioning_url">%1$s provisioneerimise veebi kohta puudub info</string>
-    <string name="mobile_insert_sim_card">Palun sisesta SIM kaart ning tee seadmele taaskäivitus</string>
-    <string name="mobile_connect_to_internet">Palun loo ühendus Internetiga</string>
+    <string name="network_scorer_change_active_dialog_title">Muuta WiFi assistenti?</string>
+    <string name="network_scorer_change_active_dialog_text">Kasutada edaspidi „<xliff:g id="current_app">%2$s</xliff:g>“ asemel „<xliff:g id="new_app">%1$s</xliff:g>“ rakendust võrguühenduste haldamiseks?</string>
+    <string name="network_scorer_change_active_no_previous_dialog_text">Kasutada „<xliff:g id="new_app">%s</xliff:g>“ rakendust võrguühenduste haldamiseks?</string>
     <string name="location_title">Minu asukoht</string>
     <string name="location_mode_title">Režiim</string>
     <string name="location_mode_high_accuracy_title">Väga täpne</string>
@@ -1015,7 +1094,6 @@
     <string name="location_mode_high_accuracy_description">GPS-i, WiFi ja mobiilivõrgu info kasutamine asukoha määramiseks</string>
     <string name="location_mode_battery_saving_description">WiFi ja mobiilivõrgu info kasutamine asukoha määramiseks</string>
     <string name="location_mode_sensors_only_description">GPS-i kasutamine asukoha määramiseks</string>
-    <string name="location_loading_injected_setting">Info hankimine \u2026</string>
     <string name="location_network_based">WiFi ja mobiilsidevõrk</string>
     <string name="location_neighborhood_level">Rakendustel on asukoha kiiremaks määramiseks lubatud kasutada Google\'i asukohateenust. Kogutud asukohaandmed saadetakse anonüümsel kujul Google\'ile.</string>
     <string name="location_neighborhood_level_wifi">WiFi võrk</string>
@@ -1039,6 +1117,8 @@
     <string name="copyright_title">Autoriõigus</string>
     <string name="license_title">Litsents</string>
     <string name="terms_title">Nõuded ja tingimused</string>
+    <string name="wallpaper_attributions">Taustapildid</string>
+    <string name="wallpaper_attributions_values">Satelliidipiltide allikad:©2014 CNES / Astrium, DigitalGlobe, Bluesky</string>
     <string name="settings_license_activity_title">Avatud lähtekoodi litsentsid</string>
     <string name="settings_license_activity_unavailable">Probleem litsentside laadimisega.</string>
     <string name="settings_license_activity_loading">Laadimine \u2026</string>
@@ -1080,6 +1160,7 @@
     <string name="lockpattern_settings_enable_visible_pattern_title">Nähtav muster</string>
     <string name="lockpattern_settings_enable_tactile_feedback_title">Vibreerimine puudutusel</string>
     <string name="lockpattern_settings_enable_power_button_instantly_locks">Lukustamine toitenupuga</string>
+    <string name="lockpattern_settings_power_button_instantly_locks_summary">Va siis, kui <xliff:g id="trust_agent_name">%1$s</xliff:g> lukustamist takistab</string>
     <string name="lockpattern_settings_choose_lock_pattern">Määra avamismuster</string>
     <string name="lockpattern_settings_change_lock_pattern">Muuda avamismustrit</string>
     <string name="lockpattern_settings_help_how_to_record">Kuidas joonistada avamismustrit</string>
@@ -1092,11 +1173,11 @@
     <string name="applications_settings_summary">Rakenduste haldamine, kiirkäivituse otseteede seadistamine</string>
     <string name="applications_settings_header">Rakenduse seaded</string>
     <string name="install_applications">Tundmatud tarkvara allikad</string>
+    <string name="install_applications_title">Kõik tarkvara allikad</string>
+    <string name="install_unknown_applications_title">Lubab sul paigaldada rakendusi muudest allikatest kui Google Play</string>
     <string name="install_unknown_applications">Võimaldab paigaldada tundmatutest allikatest pärinevat tarkvara</string>
     <string name="install_all_warning" product="tablet">Su tahvelarvuti ja isikuandmed on haavatavamad just tundmatutest allikatest pärit rakenduste abil. Käesolevaga nõustud, et oled ainuisikuliselt vastutav sellistest allikatest pärinevate rakenduste põhjustatud tahvelarvuti kahjustuste või andmekao eest.</string>
     <string name="install_all_warning" product="default">Su telefon ja isikuandmed on haavatavamad just tundmatutest allikatest pärit rakenduste abil. Käesolevaga nõustud, et oled ainuisikuliselt vastutav sellistest allikatest pärinevate rakenduste põhjustatud telefoni kahjustuste või andmekao eest.</string>
-    <string name="verify_applications">Rakenduste verifitseerimine</string>
-    <string name="verify_applications_summary">Potentsiaalselt kahjulike rakenduste paigaldusest keeldumine või hoiatus enne seda</string>
     <string name="advanced_settings">Täpsemad seaded</string>
     <string name="advanced_settings_summary">Täpsemate seadete lubamine</string>
     <string name="application_info_label">Rakenduse info</string>
@@ -1225,6 +1306,14 @@
     <string name="running_processes_item_description_s_p"><xliff:g id="NUMPROCESS">%1$d</xliff:g> protsess ja <xliff:g id="NUMSERVICES">%2$d</xliff:g> teenust</string>
     <string name="running_processes_item_description_p_s"><xliff:g id="NUMPROCESS">%1$d</xliff:g> protsessi ja <xliff:g id="NUMSERVICES">%2$d</xliff:g> teenus</string>
     <string name="running_processes_item_description_p_p"><xliff:g id="NUMPROCESS">%1$d</xliff:g> protsessi ja <xliff:g id="NUMSERVICES">%2$d</xliff:g> teenust</string>
+    <string name="running_processes_header_title">Seadme mälu</string>
+    <string name="running_processes_header_footer">Rakenduse mälukasutus</string>
+    <string name="running_processes_header_system_prefix">Süsteem</string>
+    <string name="running_processes_header_apps_prefix">Rakendused</string>
+    <string name="running_processes_header_free_prefix">Vaba</string>
+    <string name="running_processes_header_used_prefix">Kasutusel</string>
+    <string name="running_processes_header_cached_prefix">Puhverdatud</string>
+    <string name="running_processes_header_ram"><xliff:g id="ram">%1$s</xliff:g> mälu</string>
     <string name="runningservicedetails_settings_title">Töötav rakendus</string>
     <string name="no_services">Pole aktiivne</string>
     <string name="runningservicedetails_services_title">Teenused</string>
@@ -1325,6 +1414,9 @@
     <string name="development_settings_title">Arendaja seaded</string>
     <string name="development_settings_summary">Rakenduse arenduseks vajalikud seaded</string>
     <string name="development_settings_not_available">Arendaja seaded pole sellele kasutajale kättesaadavad</string>
+    <string name="vpn_settings_not_available">See kasutaja ei saa VPN-i seadistada.</string>
+    <string name="tethering_settings_not_available">See kasutaja ei saa Interneti jagamist seadistada.</string>
+    <string name="apn_settings_not_available">See kasutaja ei saa pääsupunktide nimesid seadistada.</string>
     <string name="enable_adb">Androidi silumine</string>
     <string name="enable_adb_summary">Silumisrežiim, ADB liides üle USB või võrgu</string>
     <string name="clear_adb_keys">Tühista USB silumise autoriseerimised</string>
@@ -1334,13 +1426,21 @@
     <string name="keep_screen_on_summary">Ekraani ei lasta laadimise ajal unerežiimi</string>
     <string name="bt_hci_snoop_log">Bluetooth HCI pakettide logi</string>
     <string name="bt_hci_snoop_log_summary">Kõigi Bluetooth HCI pakettide faili salvestamine</string>
-    <string name="select_runtime_title">Töökeskkonna valimine</string>
-    <string name="select_runtime_dialog_title">Töökeskkonna valimine</string>
-    <string name="select_runtime_warning_message">Kas teeme rakenduste töökeskkonna muutmiseks (<xliff:g id="old" example="libdvm.so">%1$s</xliff:g> -> <xliff:g id="new" example="libart.so">%2$s</xliff:g>) taaskäivituse?</string>
+    <string name="oem_unlock_enable">OEM lukustuse avamine</string>
+    <string name="oem_unlock_enable_summary">Lukustuse avamise lubamine OEM-i poolt</string>
     <string name="wifi_display_certification">Juhtmevaba ekraani sertifitseerimine</string>
+    <string name="wifi_verbose_logging">Rohkem infot WiFi logis</string>
+    <string name="wifi_aggressive_handover">Agressiivne liikumine WiFi-st mobiilvõrku</string>
+    <string name="wifi_allow_scan_with_traffic">Pidev WiFi rändluse skaneering</string>
     <string name="wifi_display_certification_summary">Juhtmevabade ekraanide sertifitseerimisvõimaluste näitamine</string>
+    <string name="wifi_verbose_logging_summary">Infohulga suurendamine WiFi logis, iga SSID RSSI näitamine WiFi võrgu valimise dialoogis</string>
+    <string name="wifi_aggressive_handover_summary">Kui see on sisse lülitatud, on WiFi nõrga signaali puhul andmeside üleandmisel mobiilvõrgule agresiivsem</string>
+    <string name="wifi_allow_scan_with_traffic_summary">WiFi rändluse skaneeringu lubamine/keelamine vastavalt liidesel liikuvale andmeside hulgale</string>
+    <string name="select_logd_size_title">Loggeri puhvrite suurus</string>
+    <string name="select_logd_size_dialog_title">Loggeri puhvrite suuruse valimine</string>
     <string name="allow_mock_location">Asukohainfo võltsimine</string>
     <string name="allow_mock_location_summary">Asukohainfo võltsimise lubamine</string>
+    <string name="debug_view_attributes">Vaate atribuutide uurimine</string>
     <string name="adb_warning_title">Kas lubada USB kaudu silumist?</string>
     <string name="adb_warning_message">USB kaudu silumine on mõeldud ainult arendustööks. Kasuta seda andmete kopeerimiseks oma arvuti ja seadme vahel, seadmesse ilma märguanneteta rakenduste paigaldamiseks ning logiandmete lugemiseks.</string>
     <string name="adb_keys_warning_message">Kas tühistada kõikide USB silumiseks kasutatud arvutite load silumisele ligipääsuks?</string>
@@ -1374,12 +1474,13 @@
     <string name="testing_usage_stats">Kasutusstatistika</string>
     <string name="display_order_text">Sortimine:</string>
     <string name="app_name_label">Rakenduse nimi</string>
-    <string name="launch_count_label">Käivitamiste arv</string>
+    <string name="last_time_used_label">Viimati kasutus</string>
     <string name="usage_time_label">Kasutusaeg</string>
     <string name="accessibility_settings">Hõlbustus</string>
     <string name="accessibility_settings_title">Hõlbustuse seaded</string>
     <string name="accessibility_services_title">Teenused</string>
     <string name="accessibility_system_title">Süsteem</string>
+    <string name="accessibility_display_title">Ekraan</string>
     <string name="accessibility_captioning_title">Subtiitrid</string>
     <string name="accessibility_screen_magnification_title">Suurendamisžestid</string>
     <string name="accessibility_screen_magnification_summary">Kui see funktsioon on sisse lülitatud, saad kolme kiire puudutusega ekraanipilti suurendada ja vähendada.\n\nSuurendatult saab teha järgmist:\n<ul><li>Paanida: libista kahe või enama sõrmega üle ekraani.</li>\n<li>Suumitaset muuta: liiguta kahte või enamat sõrme kokku või lahku.</li></ul>\n\nSaad ka ajutiselt suurendada sõrme all olevat pilti, puudutades kiirelt kolm korda ekraani ja jättes pärast viimast puudutust sõrme ekraanile. Selles suurendatud olekus saad sõrme ekraanil libistades vaadata ekraanipildi erinevaid osi. Eelmisesse olekusse naasmiseks tõsta sõrm ekraanilt.\n\nMärkus: kolme kiire puudutusega suurendamine toimib kõikjal, v.a klaviatuur ja navigeerimisriba.</string>
@@ -1388,15 +1489,29 @@
     <string name="accessibility_global_gesture_preference_summary_off">Väljas</string>
     <string name="accessibility_global_gesture_preference_description">Kui see funktsioon on sisse lülitatud, saad hõlbustuse funktsioonid kiirelt sisse lülitada kahe saammuga:\n\n1. samm: vajuta toitenuppu ja hoia seda all, kuni kuuled kinnitusheli või tunned vibratsiooni.\n\n2. samm: puuduta ekraani kahe sõrmega ja hoida neid seal, kuni kuuled kinnitusheli.\n\nKui seadmel on mitu kasutajat, saad seda meetodit kasutada ekraanilukul hõlbustuse ajutiseks (luku eemaldamiseni) sisse lülitamiseks.</string>
     <string name="accessibility_toggle_large_text_preference_title">Suur tekst</string>
+    <string name="accessibility_toggle_high_text_contrast_preference_title">Kontrastne tekst</string>
     <string name="accessibility_toggle_screen_magnification_preference_title">Ekraanisuurendus</string>
     <string name="accessibility_toggle_screen_magnification_auto_update_preference_title">Ekraanisuurenduse värskendus</string>
     <string name="accessibility_toggle_screen_magnification_auto_update_preference_summary">Ekraanisuurenduse automaatne värskendamine rakenduste vahetamisel</string>
     <string name="accessibility_power_button_ends_call_prerefence_title">Toitenupp lõpetab kõne</string>
     <string name="accessibility_toggle_speak_password_preference_title">Paroolide ettelugemine</string>
     <string name="accessibility_long_press_timeout_preference_title">Pika puudutuse pikkus</string>
+    <string name="accessibility_display_inversion_preference_title">Värvide pööramine</string>
+    <string name="accessibility_display_inversion_preference_subtitle">See on eksperimentaalne ja võib mõjutada jõudlust</string>
+    <string name="accessibility_display_daltonizer_preference_title">Värvikorrektsioon</string>
+    <string name="accessibility_display_daltonizer_preference_subtitle">See on eksperimentaalne ja võib mõjutada jõudlust</string>
+    <string name="enable_quick_setting">Nähtav kiirseadetes</string>
+    <string name="daltonizer_type">Korrektsiooni režiim</string>
+    <string name="daltonizer_type_overridden">Tühistatud „<xliff:g id="title" example="Simulate color space">%1$s</xliff:g>“ seade poolt</string>
+    <string name="daltonizer_mode_disabled">Välja lülitatud</string>
+    <string name="daltonizer_mode_monochromacy">Monokromaatsus</string>
+    <string name="daltonizer_mode_deuteranomaly">Deuteranoopia (punane-roheline)</string>
+    <string name="daltonizer_mode_protanomaly">Protanoopia (punane-roheline)</string>
+    <string name="daltonizer_mode_tritanomaly">Tritanoopia (sinine-kollane)</string>
     <string name="accessibility_menu_item_settings">Seaded</string>
     <string name="accessibility_feature_state_on">Sees</string>
     <string name="accessibility_feature_state_off">Väljas</string>
+    <string name="accessibility_feature_or_input_method_not_allowed">Pole seadet haldava organisatsiooni poolt lubatud</string>
     <string name="captioning_preview_title">Eelvaade</string>
     <string name="captioning_standard_options_title">Üldseaded</string>
     <string name="captioning_locale">Keel</string>
@@ -1405,13 +1520,17 @@
     <string name="captioning_custom_options_title">Kohandavad seaded</string>
     <string name="captioning_background_color">Tausta värv</string>
     <string name="captioning_background_opacity">Tausta läbipaistvus</string>
+    <string name="captioning_window_color">Akna värv</string>
+    <string name="captioning_window_opacity">Akna läbipaistvus</string>
     <string name="captioning_foreground_color">Teksti värv</string>
+    <string name="captioning_foreground_opacity">Teksti läbipaistvus</string>
     <string name="captioning_edge_color">Serva värv</string>
     <string name="captioning_edge_type">Serva stiil</string>
     <string name="captioning_typeface">Kirjatüüp</string>
     <string name="captioning_preview_text">Subtiitrid on sellised</string>
     <string name="captioning_preview_characters">Aa</string>
     <string name="locale_default">Vaikekeel</string>
+    <string name="color_unspecified">Vaikeväärtus</string>
     <string name="color_none">Puudub</string>
     <string name="color_white">Valge</string>
     <string name="color_gray">Hall</string>
@@ -1424,13 +1543,16 @@
     <string name="color_magenta">Magenta</string>
     <string name="enable_service_title">Kas lubada <xliff:g id="service" example="TalkBack">%1$s</xliff:g> teenus?</string>
     <string name="capabilities_list_title"><xliff:g id="service" example="TalkBack">%1$s</xliff:g> peab:</string>
+    <string name="enable_service_encryption_warning">Kui lülitad sisse „<xliff:g id="service" example="TalkBack">%1$s</xliff:g>“ teenuse, ei kasuta su seade andmete krüpteerimise tugevdamiseks su ekraanilukku.</string>
+    <string name="secure_lock_encryption_warning">Kuna sa lülitasid sisse hõlbustusteenuse, ei kasuta su seade andmete krüpteerimise tugevdamiseks su ekraanilukku.</string>
+    <string name="enable_service_pattern_reason">Kuna „<xliff:g id="service" example="TalkBack">%1$s</xliff:g>“ teenuse sisse lülitamine mõjutab andmete krüpteerimist, pead sa seda avamismustriga kinnitama.</string>
+    <string name="enable_service_pin_reason">Kuna „<xliff:g id="service" example="TalkBack">%1$s</xliff:g>“ teenuse sisse lülitamine mõjutab andmete krüpteerimist, pead sa seda PIN-koodiga kinnitama.</string>
+    <string name="enable_service_password_reason">Kuna „<xliff:g id="service" example="TalkBack">%1$s</xliff:g>“ teenuse sisse lülitamine mõjutab andmete krüpteerimist, pead sa seda parooliga kinnitama.</string>
     <string name="capability_title_receiveAccessibilityEvents">Jälgima su toiminguid</string>
     <string name="capability_desc_receiveAccessibilityEvents">Teenus saab märguandeid kõigi su toimingute kohta rakendustes</string>
     <string name="disable_service_title">Kas peatada <xliff:g id="service" example="TalkBack">%1$s</xliff:g> teenus?</string>
     <string name="disable_service_message">OK nupu puudutamine peatab <xliff:g id="service" example="TalkBack">%1$s</xliff:g> teenuse.</string>
     <string name="accessibility_no_services_installed">Ühtki teenust pole paigaldatud</string>
-    <string name="accessibility_service_no_apps_title">Kas vajad ekraanilugejat?</string>
-    <string name="accessibility_service_no_apps_message">TalkBack annab ekraanil toimuva kohta tagasisidet suulise kõnega, mis aitab pimedaid ja vaegnägijaid. Kas soovid selle Play poest tasuta paigaldada?</string>
     <string name="accessibility_service_default_description">Kirjeldust pole sisestatud.</string>
     <string name="settings_button">Seaded</string>
     <string name="print_settings">Printimine</string>
@@ -1459,14 +1581,19 @@
     <string name="print_blocked_state_title_template">Printer blokeeris <xliff:g id="print_job_name" example="foo.jpg">%1$s</xliff:g> trükkimise</string>
     <string name="print_search_box_shown_utterance">Otsingukast on nüüd nähtav</string>
     <string name="print_search_box_hidden_utterance">Otsingukast on nüüd peidetud</string>
-  <plurals name="print_search_result_count_utterance">
-    <item quantity="one">Leiti <xliff:g id="count" example="1">%1$s</xliff:g> printer</item>
-    <item quantity="other">Leiti <xliff:g id="count" example="2">%1$s</xliff:g> printerit</item>
-  </plurals>
     <string name="power_usage_summary_title">Aku</string>
     <string name="power_usage_summary">Mis on akut kasutanud</string>
     <string name="power_usage_not_available">Akukasutuse andmed puuduvad.</string>
     <string name="power_usage_level_and_status"><xliff:g id="LEVEL">%1$s</xliff:g> – <xliff:g id="STATUS">%2$s</xliff:g></string>
+    <string name="power_discharge_remaining">veel <xliff:g id="remain">%1$s</xliff:g></string>
+    <string name="power_charge_remaining"><xliff:g id="until_charged">%1$s</xliff:g> laadimise lõpuni</string>
+    <string name="power_discharging_duration"><xliff:g id="level">%1$d</xliff:g>%% - veel umbes <xliff:g id="time">%2$s</xliff:g></string>
+    <string name="power_charging"><xliff:g id="level">%1$d</xliff:g>%% - <xliff:g id="state">%2$s</xliff:g></string>
+    <string name="power_charging_duration"><xliff:g id="level">%1$d</xliff:g>%% - <xliff:g id="time">%2$s</xliff:g> laadimise lõpuni</string>
+    <string name="power_charging_duration_ac"><xliff:g id="level">%1$d</xliff:g>%% - <xliff:g id="time">%2$s</xliff:g> vooluvõrgust laadimise lõpuni</string>
+    <string name="power_charging_duration_usb"><xliff:g id="level">%1$d</xliff:g>%% - <xliff:g id="time">%2$s</xliff:g> USB pordist laadimise lõpuni</string>
+    <string name="power_charging_duration_wireless"><xliff:g id="level">%1$d</xliff:g>%% - <xliff:g id="time">%2$s</xliff:g> juhtmevaba laadimise lõpuni</string>
+    <string name="power_usage_list_summary">Akukasutus viimasest täislaadimisest</string>
     <string name="battery_since_unplugged">Akukasutus vooluvõrgust eemaldamisest</string>
     <string name="battery_since_reset">Akukasutus statistika nullimisest</string>
     <string name="battery_stats_on_battery"><xliff:g id="TIME">%1$s</xliff:g> akutoitel</string>
@@ -1488,12 +1615,15 @@
     <string name="controls_subtitle">Akukasutuse vähendamise võimalused</string>
     <string name="packages_subtitle">Kaasnevad paketid</string>
     <string name="power_screen">Ekraan</string>
+    <string name="power_flashlight">Taskulamp</string>
     <string name="power_wifi">WiFi</string>
     <string name="power_bluetooth">Bluetooth</string>
     <string name="power_cell">Mobiiliraadio ooterežiimil</string>
     <string name="power_phone">Tavakõned</string>
     <string name="power_idle" product="tablet">Tahvelarvuti ooterežiimis</string>
     <string name="power_idle" product="default">Telefon ooterežiimis</string>
+    <string name="power_unaccounted">Muu</string>
+    <string name="power_overcounted">Rohkem arvestatud</string>
     <string name="usage_type_cpu">CPU aega kokku</string>
     <string name="usage_type_cpu_foreground">CPU aega esiplaanil</string>
     <string name="usage_type_wake_lock">Ärkvel hoitud</string>
@@ -1503,12 +1633,16 @@
     <string name="usage_type_phone" product="default">Telefon</string>
     <string name="usage_type_data_send">Mobiilvõrgu andmeid saadetud</string>
     <string name="usage_type_data_recv">Mobiilvõrgu andmeid vastuvõetud</string>
+    <string name="usage_type_radio_active">Aktiivne mobiiliraadio</string>
     <string name="usage_type_data_wifi_send">WiFi andmeid saadetud</string>
     <string name="usage_type_data_wifi_recv">WiFi andmeid vastuvõetud</string>
     <string name="usage_type_audio">Heli</string>
     <string name="usage_type_video">Video</string>
     <string name="usage_type_on_time">Tööaeg</string>
     <string name="usage_type_no_coverage">Signaalita oldud aeg</string>
+    <string name="usage_type_total_battery_capacity">Aku kogumahtuvus</string>
+    <string name="usage_type_computed_power">Arvutatud energiakasutus</string>
+    <string name="usage_type_actual_power">Tegelek energiakasutus</string>
     <string name="battery_action_stop">Peata töö</string>
     <string name="battery_action_app_details">Rakenduse info</string>
     <string name="battery_action_app_settings">Rakenduse seaded</string>
@@ -1520,6 +1654,7 @@
     <string name="battery_desc_standby" product="default">Akukasutus telefoni ooterežiimis</string>
     <string name="battery_desc_radio">Mobiiltelefoni raadio akukasutus</string>
     <string name="battery_sugg_radio">Aku säästmiseks lülita seade mobiililevita kohtades lennurežiimile</string>
+    <string name="battery_desc_flashlight">Välklambi poolt kasutatud aku</string>
     <string name="battery_desc_display">Ekraani ja taustvalguse akukasutus</string>
     <string name="battery_sugg_display">Vähenda ekraani heledust ja/või ekraani jõudeoleku ajalimiiti</string>
     <string name="battery_desc_wifi">WiFi akukasutus</string>
@@ -1532,12 +1667,20 @@
     <string name="battery_sugg_apps_gps">Lülita GPS-i käsitsi sisse/välja, et rakendus seda ei kasutaks</string>
     <string name="battery_sugg_apps_settings">Rakendus võib pakkuda akukasutust vähendavaid seadeid</string>
     <string name="battery_desc_users">Kasutaja akukasutus</string>
+    <string name="battery_desc_unaccounted">Muu energiakasutus</string>
+    <string name="battery_msg_unaccounted">Aku kasutuse arvutamine on ligikaudne ja selles ei võeta arvesse kõike, mis energiat tarbib. Muu energikasutus on ligikaudse arvutatud energikasutuse ja tegeliku energiakulu vahe.</string>
+    <string name="battery_desc_overcounted">Rohkem arvestatud energiakasutus</string>
+    <string name="mah"><xliff:g id="number" example="30">%d</xliff:g> mAh</string>
     <string name="menu_stats_unplugged"><xliff:g id="UNPLUGGED">%1$s</xliff:g> võrgust lahutamisest</string>
     <string name="menu_stats_last_unplugged">Alates viimasest vooluvõrgust lahutamisest <xliff:g id="UNPLUGGED">%1$s</xliff:g></string>
     <string name="menu_stats_total">Kasutus kokku</string>
     <string name="menu_stats_refresh">Värskenda</string>
     <string name="process_kernel_label">Android OS</string>
     <string name="process_mediaserver_label">Meediaserver</string>
+    <string name="battery_saver">Akusäästmise režiim</string>
+    <string name="battery_saver_turn_on_automatically_title">Lülitatakse automaatselt sisse</string>
+    <string name="battery_saver_turn_on_automatically_never">Mitte kunagi</string>
+    <string name="battery_saver_turn_on_automatically_pct">%1$d%% aku pealt</string>
     <string name="process_stats_summary_title">Protsesside statistika</string>
     <string name="process_stats_summary">Statistikat töötavate protsesside kohta</string>
     <string name="app_memory_use">Mälukasutus</string>
@@ -1551,6 +1694,15 @@
     <string name="process_stats_run_time">Tööaeg</string>
     <string name="services_subtitle">Teenused</string>
     <string name="menu_proc_stats_duration">Periood</string>
+    <string name="mem_details_title">Detailne mälu info</string>
+    <string name="mem_state_subtitle">Mälu olekud</string>
+    <string name="mem_use_subtitle">Mälukasutus</string>
+    <string name="mem_use_kernel_type">Kernel</string>
+    <string name="mem_use_native_type">Androidi protsessid</string>
+    <string name="mem_use_kernel_cache_type">Kerneli puhvrid</string>
+    <string name="mem_use_zram_type">ZRam puhver</string>
+    <string name="mem_use_free_type">Vaba</string>
+    <string name="mem_use_total">Kokku</string>
     <string name="menu_duration_3h">3 tundi</string>
     <string name="menu_duration_6h">6 tundi</string>
     <string name="menu_duration_12h">12 tundi</string>
@@ -1566,9 +1718,12 @@
     <string name="voice_search_settings_title">Otsing kõnetuvastusega</string>
     <string name="keyboard_settings_title">Androidi klaviatuur</string>
     <string name="voice_category">Kõne</string>
-    <string name="recognizer_title">Kõnetuvastus</string>
-    <string name="recognizer_settings_title">Otsingu kõnetuvastus</string>
-    <string name="recognizer_settings_summary">Kõnetuvastuse rakenduse „<xliff:g id="RECOGNIZER_NAME">%s</xliff:g>” seaded</string>
+    <string name="voice_input_settings">Kõnetuvastuse seaded</string>
+    <string name="voice_input_settings_title">Kõnetuvastus</string>
+    <string name="voice_service_preference_section_title">Kõnetuvastuse teenused</string>
+    <string name="voice_interactor_preference_summary">Täielik - võtmefraaside ja suhtlusega</string>
+    <string name="voice_recognizer_preference_summary">Lihtne - kõne tekstiks</string>
+    <string name="voice_interaction_security_warning">See kõnetuvastuse teenus on võimeline pidevalt kõnet jälgima ning kõne abil juhitavaid rakendusi sinu asemel kontrollima. Teenus on osa „<xliff:g id="voice_input_service_app_name">%s</xliff:g>“ rakendusest. Oled sa kindel, et soovid seda teenust kasutada?</string>
     <string name="tts_settings">Kõnesünteesi seaded</string>
     <string name="tts_settings_title">Kõnesünteesi väljund</string>
     <string name="use_default_tts_settings_title">Kasuta alati minu seadeid</string>
@@ -1581,6 +1736,7 @@
     <string name="tts_default_pitch_title">Helikõrgus</string>
     <string name="tts_default_pitch_summary">Sünteesitava kõne toon</string>
     <string name="tts_default_lang_title">Keel</string>
+    <string name="tts_lang_use_system">Süsteemi keel</string>
     <string name="tts_lang_not_selected">Keelt pole veel valitud</string>
     <string name="tts_default_lang_summary">Kõnesünteesi keelespetsiifilise hääle määramine</string>
     <string name="tts_play_example_title">Kuula näidet</string>
@@ -1643,9 +1799,11 @@
     <string name="credentials_reset_summary">Kõikide autentimisandmete eemaldamine</string>
     <string name="trusted_credentials">Usaldusväärsed sertifikaadid</string>
     <string name="trusted_credentials_summary">Usaldusväärsete CA sertifikaatide vaatamine</string>
+    <string name="advanced_security_title">Lisaseaded</string>
     <string name="credential_storage_type">Salvesturuumi tüüp</string>
     <string name="credential_storage_type_hardware">Riistvara toega</string>
     <string name="credential_storage_type_software">Ainult tarkvara</string>
+    <string name="credentials_settings_not_available">See kasutaja ei saa autentimisandmeid seadistada</string>
     <string name="credentials_install_gesture_prompt">Joonista ekraaniluku avamise muster</string>
     <string name="credentials_install_gesture_explanation">Sertifikaadi paigalduse kinnitamiseks tuleb sul joonistada ekraaniluku avamise muster.</string>
     <string name="credentials_unlock"/>
@@ -1660,6 +1818,9 @@
     <string name="credentials_not_erased">Autentimisandmeid ei saanud kustutada.</string>
     <string name="credentials_enabled">Autentimisandmete salvestamine on lubatud.</string>
     <string name="credentials_configure_lock_screen_hint">Enne autentimisandmete salvestamist pead määrama ekraanilukule PIN koodi või parooli.</string>
+    <string name="usage_access_title">Ligipääs kasutusandmetele</string>
+    <string name="allow_usage_access_title">Anda see ligipääs?</string>
+    <string name="allow_usage_access_message">Kui sa annad rakendusele selle ligipääsu, saab see ligi üldisele infole su seadmes olevate rakenduste kohta, näiteks kui tihti sa neid kasutad.</string>
     <string name="emergency_tone_title">Hädaabikõne märguanne</string>
     <string name="emergency_tone_summary">Käitumine hädaabi numbrile helistamisel</string>
     <string name="privacy_settings">Varundus ja lähtestamine</string>
@@ -1670,6 +1831,7 @@
     <string name="backup_data_summary">Rakenduste andmete, WiFi paroolide ja muude seadete varundamine Google\'i serverites</string>
     <string name="backup_configure_account_title">Varundamise konto</string>
     <string name="backup_configure_account_default_summary">Ühelegi kontole pole praegu varundatud andmeid salvestatud</string>
+    <string name="include_app_data_title">Ka rakenduste andmed</string>
     <string name="auto_restore_title">Automaatne taastamine</string>
     <string name="auto_restore_summary">Rakenduse uuesti paigaldamisel taastatakse varundatud seaded ja andmed</string>
     <string name="local_backup_password_title">Kohaliku varukoopia parool</string>
@@ -1685,14 +1847,20 @@
     <string name="remove_device_admin">Deaktiveeri</string>
     <string name="select_device_admin_msg">Seadme administraatorid</string>
     <string name="no_device_admins">Seadme administraatoreid pole</string>
+    <string name="managed_profile_device_admin_info">Takistamaks <xliff:g id="app_name">%1$s</xliff:g> ligipääsu su töö profiilile, eemalda profiil sektsioonis Seaded &gt; Kontod.</string>
+    <string name="personal_device_admin_title">Personaalne</string>
+    <string name="managed_device_admin_title">Töö</string>
+    <string name="no_trust_agents">Usaldusväärseid agente pole</string>
     <string name="add_device_admin_msg">Aktiveerin seadme administraatori?</string>
     <string name="add_device_admin">Aktiveeri</string>
     <string name="device_admin_add_title">Seadme administraator</string>
     <string name="device_admin_warning">Pärast selle administraatori aktiveerimist saab rakendus „<xliff:g id="APP_NAME">%1$s</xliff:g>„ õiguse teha järgmisi toiminguid:</string>
     <string name="device_admin_status">See administraator on aktiivne ja rakendusel „<xliff:g id="APP_NAME">%1$s</xliff:g>“ on õigus teha järgmisi toiminguid:</string>
+    <string name="profile_owner_add_title">Kas aktiveerida profiilihaldur?</string>
+    <string name="adding_profile_owner_warning">Kui jätkad, hakkab sinu Kasutajat haldama Administraator, kellel on õigus lisaks sinu andmetele lisaks omalt poolt kontoga seotud andmeid salvestada.\n\nAdministraator saab ka jälgida ja hallata selle kasutajaga seotud seadeid, ligipääse, rakendusi ja andmeid, sh ka võrguliiklust ja su seadme asukohainfot.</string>
     <string name="untitled_apn">Nimetu</string>
     <string name="sound_category_sound_title">Üldine</string>
-    <string name="sound_category_notification_title">Märguanded</string>
+    <string name="notification_log_title">Märguannete logi</string>
     <string name="sound_category_call_ringtone_vibrate_title">Telefoni helin ja vibreerimine</string>
     <string name="sound_category_system_title">Süsteem</string>
     <string name="wifi_setup_title">WiFi seadistamine</string>
@@ -1723,14 +1891,17 @@
     <string name="wifi_setup_eap_not_supported">Algseadistamise ajal pole võimalik EAP protokolli kasutatavat WiFi ühendust seadistada. Seda saad teha hiljem seadme seadistustes WiFi sektsioonis.</string>
     <string name="wifi_setup_description_connecting">Ühenduse loomiseks võib kuluda mõni minut \u2026</string>
     <string name="wifi_setup_description_connected">Seadistamise jätkamiseks puuduta nuppu <b>Järgmine</b>.\n\nKui soovid mõne teise Wifi võrguga ühendust luua, vajuta nuppu <b>Tagasi</b>.</string>
-    <string name="accessibility_sync_enabled">Sünkroonimine lubatud</string>
-    <string name="accessibility_sync_disabled">Sünkroonimine keelatud</string>
+    <string name="accessibility_sync_enabled">Sünkroonimine on sisse lülitatud</string>
+    <string name="accessibility_sync_disabled">Sünkroonimine on välja lülitatud</string>
+    <string name="accessibility_sync_in_progress">Sünkroonimine käib</string>
     <string name="accessibility_sync_error">Sünkroonimise viga</string>
     <string name="sync_failed">Sünkroonimine ebaõnnestus</string>
     <string name="sync_active">Sünkroonimine on aktiivne</string>
     <string name="account_sync_settings_title">Sünkroonimine</string>
     <string name="sync_is_failing">Sünkroonimisega on praegu probleeme. Need lahenevad varsti.</string>
     <string name="add_account_label">Lisa konto</string>
+    <string name="managed_profile_not_available_label">Töö profiil ei saa veel kasutada</string>
+    <string name="remove_managed_profile_label">Eemalda töö profiil</string>
     <string name="background_data">Taustaandmed</string>
     <string name="background_data_summary">Rakendused saavad andmeid sünkroonida, saata ja vastu võtta</string>
     <string name="background_data_dialog_title">Keel. taustaandmed?</string>
@@ -1761,15 +1932,16 @@
     <string name="really_remove_account_title">Kas eemaldada konto?</string>
     <string name="really_remove_account_message" product="tablet">Selle konto eemaldamisel kustutatakse kõik seal olevad sõnumid, kontaktid ja muud tahvelarvutis olevad andmed.</string>
     <string name="really_remove_account_message" product="default">Selle konto eemaldamisel kustutatakse kõik seal olevad sõnumid, kontaktid ja muud telefonis olevad andmed.</string>
-    <string name="remove_account_failed" product="tablet">See konto on mõne rakenduse jaoks vajalik. Saad selle eemaldada vaid siis, kui taastad tahvelarvuti tehaseseaded ning sel juhul kustutatakse kõik su isiklikud andmed. Seda saad teha valides Seaded &gt; Varundamine ja lähtestamine.</string>
-    <string name="remove_account_failed" product="default">See konto on mõne rakenduse jaoks vajalik. Saad selle eemaldada vaid siis, kui taastatd telefoni tehaseseaded ning sel juhul kustutatakse kõik su isiklikud andmed. Seda saad teha valides Seaded &gt; Varundamine ja lähtestamine.</string>
+    <string name="remove_account_failed" product="tablet">See konto on mõne rakenduse jaoks vajalik. Saad selle eemaldada vaid siis, kui taastad tahvelarvuti tehaseseaded ning sel juhul kustutatakse kõik su isiklikud andmed. Seda saad teha valides Seaded &gt; Varundamine ja lähtestamine.</string><string name="remove_account_failed" product="default">See konto on mõne rakenduse jaoks vajalik. Saad selle eemaldada vaid siis, kui taastatd telefoni tehaseseaded ning sel juhul kustutatakse kõik su isiklikud andmed. Seda saad teha valides Seaded &gt; Varundamine ja lähtestamine.</string>
     <string name="provider_label">&lt;i&gt;Push&lt;/i&gt; tellimused</string>
     <string name="sync_item_title"><xliff:g id="authority" example="Calendar">%s</xliff:g></string>
     <string name="cant_sync_dialog_title">Ei saa käsitsi sünkroonida</string>
     <string name="cant_sync_dialog_message">Nende andmete sünkroonimine on praegu keelatud. Selle muutmiseks lülita ajutiselt sisse taustaandmed ja automaatne sünkroonimine.</string>
     <string name="wimax_settings">4G seaded</string>
     <string name="status_wimax_mac_address">4G MAC aadress</string>
-    <string name="enter_password">Mälu dekrüpteerimiseks sisesta parool</string>
+    <string name="enter_password">Androidi käivitamiseks sisesta parool</string>
+    <string name="enter_pin">Androidi käivitamiseks sisesta PIN</string>
+    <string name="enter_pattern">Androidi käivitamiseks joonista avamismuster</string>
     <string name="try_again">Proovi uuesti.</string>
     <string name="delete">Kustuta</string>
     <string name="misc_files">Muud failid</string>
@@ -1789,6 +1961,7 @@
     <string name="debug_input_category">Sisendseaded</string>
     <string name="debug_drawing_category">Joonistamisseaded</string>
     <string name="debug_hw_drawing_category">Riistvara kiirendusega renderdamine</string>
+    <string name="media_category">Meedia</string>
     <string name="debug_monitoring_category">Jälgimine</string>
     <string name="strict_mode">Range režiim</string>
     <string name="strict_mode_summary">Ekraanipildi vilgutamine, kui rakendus teeb oma peamises lõimes töömahukaid toiminguid</string>
@@ -1805,7 +1978,12 @@
     <string name="debug_hw_overdraw">GPU ülejoonistuste silumine</string>
     <string name="disable_overlays">HW ülekatete keelamine</string>
     <string name="disable_overlays_summary">Pildi kokkupanemisel kasutatakse alati GPU-d</string>
+    <string name="simulate_color_space">Värviruumi simuleerimine</string>
     <string name="enable_opengl_traces_title">OpenGL-i jälgimine</string>
+    <string name="use_nuplayer">NuPlayeri kasutamine (eksperimentaalne)</string>
+    <string name="use_nuplayer_summary">NuPlayeri kasutamine AwesomePlayeri asemel</string>
+    <string name="usb_audio_disable_routing">USB audio suunamise keelamine</string>
+    <string name="usb_audio_disable_routing_summary">Keelab automaatse suunamise välistesse USB seadmetesse</string>
     <string name="debug_layout">Näita paigutuse piire</string>
     <string name="debug_layout_summary">Klipi piiride, veeriste jms näitamine</string>
     <string name="force_rtl_layout_all_locales">RTL paigutuse kasutamine</string>
@@ -1829,14 +2007,29 @@
     <string name="show_all_anrs">„Rakendus ei reageeri“ dialoogid</string>
     <string name="show_all_anrs_summary">Ka taustarakendustel näidatakse „rakendus ei reageeri“ dialooge</string>
     <string name="data_usage_summary_title">Andmeside kasutus</string>
+    <string name="data_usage_app_summary_title">Rakenduse andmeside kasutus</string>
+    <string name="data_usage_accounting">Teenusepakkuja arvestus võib sinu seadmes olevast erineda.</string>
+    <string name="data_usage_app">Rakenduse andmeside kasutus</string>
+    <string name="data_usage_app_info_label">RAKENDUSE INFO</string>
+    <string name="data_usage_cellular_data">Mobiilvõrgu andmeside</string>
+    <string name="data_usage_data_limit">Andmeside piirangu määramine</string>
     <string name="data_usage_cycle">Näidatav periood</string>
+    <string name="data_usage_app_items_header_text">Rakenduste andmeside kasutus</string>
     <string name="data_usage_menu_roaming">Andmeside rändlus</string>
     <string name="data_usage_menu_restrict_background">Taustaandmete piirang</string>
+    <string name="data_usage_menu_allow_background">Taustaandmete lubamine</string>
     <string name="data_usage_menu_split_4g">Eraldi 4G kasutus</string>
-    <string name="data_usage_menu_show_wifi">WiFi kasutus</string>
-    <string name="data_usage_menu_show_ethernet">Etherneti kasutus</string>
+    <string name="data_usage_menu_show_wifi">Näita WiFi kasutust</string>
+    <string name="data_usage_menu_hide_wifi">Peida WiFi kasutus</string>
+    <string name="data_usage_menu_show_ethernet">Näita Etherneti kasutust</string>
+    <string name="data_usage_menu_hide_ethernet">Peida Etherneti kasutus</string>
     <string name="data_usage_menu_metered">Mobiilside pääsupunktid</string>
     <string name="data_usage_menu_auto_sync">Automaatne sünkimine</string>
+    <string name="data_usage_menu_sim_cards">SIM kaardid</string>
+    <string name="data_usage_menu_cellular_networks">Mobiilside võrgud</string>
+    <string name="account_settings_menu_auto_sync">Andmete automaatne sünkroniseerimine</string>
+    <string name="account_settings_menu_auto_sync_personal">Isiklike andmete automaatne sünkroniseerimine</string>
+    <string name="account_settings_menu_auto_sync_work">Tööandmete automaatne sünkroniseerimine</string>
     <string name="data_usage_change_cycle">Perioodi muutmine \u2026</string>
     <string name="data_usage_pick_cycle_day">Andmeside kasutusperioodi alguse kuupäev:</string>
     <string name="data_usage_empty">Sel perioodil ei kasutanud andmesidet ükski rakendus.</string>
@@ -1858,6 +2051,8 @@
     <string name="data_usage_enable_mobile">Mobiilne andmeside</string>
     <string name="data_usage_enable_3g">2G–3G andmeside</string>
     <string name="data_usage_enable_4g">4G andmeside</string>
+    <string name="data_usage_forground_label">Esiplaanil:</string>
+    <string name="data_usage_background_label">Taustal:</string>
     <string name="data_usage_app_settings">Rakenduse seaded</string>
     <string name="data_usage_app_restrict_background">Taustaandmete piirang</string>
     <string name="data_usage_app_restrict_background_summary">Keelab rakendusel taustaandmete liigutamiseks mobiilsidevõrku kasutada. Muud võrgud jäävad kasutatavaks.</string>
@@ -1895,6 +2090,7 @@
     <string name="data_usage_metered_mobile">Mobiilsidevõrgud</string>
     <string name="data_usage_metered_wifi">WiFi võrgud</string>
     <string name="data_usage_metered_wifi_disabled">Mobiilside pääsupunktide valimiseks lülita WiFi sisse.</string>
+    <string name="data_usage_disclaimer">Teenusepakkuja arvestus võib su seadmes olevast erineda.</string>
     <string name="cryptkeeper_emergency_call">Hädaabikõne</string>
     <string name="cryptkeeper_return_to_call">Tagasi kõne juurde</string>
     <string name="vpn_name">Nimi</string>
@@ -1946,7 +2142,6 @@
     <string name="confirm_new_backup_pw_prompt">Sisesta uuesti siia täielike varukoopiate uus parool</string>
     <string name="backup_pw_set_button_text">Varukoopia määramine</string>
     <string name="backup_pw_cancel_button_text">Tühista</string>
-    <string name="percentage"><xliff:g id="NUMBER">%d</xliff:g>%%</string>
     <string name="additional_system_update_settings_list_item_title">Täiendavad süsteemivärskendused</string>
     <string name="selinux_status_disabled">Keelatud</string>
     <string name="selinux_status_permissive">Ainult logimine</string>
@@ -1959,12 +2154,15 @@
     <string name="ssl_ca_cert_settings_button">Kontrolli usaldusväärseid sertifikaate</string>
     <string name="user_settings_title">Kasutajad</string>
     <string name="user_list_title">Teised kasutajad</string>
+    <string name="user_add_user_or_profile_menu">Lisa kasutaja või profiil</string>
     <string name="user_add_user_menu">Lisa kasutaja</string>
     <string name="user_summary_restricted_profile">Piiratud õigustega profiil</string>
+    <string name="user_summary_managed_profile">Töö profiil</string>
     <string name="user_need_lock_message">Enne piiratud õigustega profiili loomist pead sa oma rakenduste ja isiklike andmete kaitseks ekraaniluku seadistama.</string>
     <string name="user_set_lock_button">Seadista lukk</string>
     <string name="user_summary_not_set_up">Pole seadistatud</string>
     <string name="user_summary_restricted_not_set_up">Pole seadistatud - piiratud õigustega profiil</string>
+    <string name="user_summary_managed_profile_not_set_up">Pole seadistatud - töö profiil</string>
     <string name="user_owner">Omanik</string>
     <string name="user_you">Sina (<xliff:g id="name" example="Name">%s</xliff:g>)</string>
     <string name="user_nickname">Hüüdnimi</string>
@@ -1985,20 +2183,33 @@
     <string name="user_cannot_manage_message" product="default">Ainult telefoni omanik saab kasutajaid hallata.</string>
     <string name="user_cannot_add_accounts_message">Piiratud õigustega profiilidelt ei saa kasutajaid lisada</string>
     <string name="user_remove_user_menu">Kustuta <xliff:g id="USER_NAME">%1$s</xliff:g> sellest seadmest</string>
+    <string name="user_add_on_lockscreen_menu">Kasutajate lisamine lukus ekraaniga</string>
     <string name="user_new_user_name">Uus kasutaja</string>
     <string name="user_new_profile_name">Uus profiil</string>
     <string name="user_confirm_remove_self_title">Soovid iseenda konto kustutada?</string>
     <string name="user_confirm_remove_title">Kas eemaldada kasutaja?</string>
     <string name="user_profile_confirm_remove_title">Kas eemaldada profiil?</string>
+    <string name="work_profile_confirm_remove_title">Kas eemaldada töö profiil?</string>
     <string name="user_confirm_remove_self_message" product="tablet">Sa kaotad kogu selles tahvelarvutis oleva ruumi ja andmed. Seda toimingut ei saa tagasi võtta.</string>
     <string name="user_confirm_remove_self_message" product="default">Sa kaotad kohu selles telefonis oleva ruumi ja andmed. Seda toimingut ei saa tagasi võtta.</string>
-    <string name="user_confirm_remove_message" product="tablet">Selle kasutaja ruum ja andmed kustutatakse sellest tahvelarvutist. Seda toimingut ei saa tagasi võtta.</string>
-    <string name="user_confirm_remove_message" product="default">Selle kasutaja ruum ja andmed kustutatakse sellest telefonist. Seda toimingut ei saa tagasi võtta.</string>
-    <string name="user_profile_confirm_remove_message" product="tablet">Selle profiili ruum ja andmed kustutatakse sellest tahvelarvutist. Seda toimingut ei saa tagasi võtta.</string>
-    <string name="user_profile_confirm_remove_message" product="default">Selle profiili ruum ja andmed kustutatakse sellest telefonist. Seda toimingut ei saa tagasi võtta.</string>
+    <string name="user_confirm_remove_message">Kõik rakendused ja andmed kustutatakse.</string>
+    <string name="work_profile_confirm_remove_message">Kõik selle profiili rakendused ja andmed kustutatakse.</string>
+    <string name="user_profile_confirm_remove_message">Kõik rakendused ja andmed kustutatakse.</string>
     <string name="user_adding_new_user">Uue kasutaja lisamine \u2026</string>
     <string name="user_delete_user_description">Kasutaja kustutamine</string>
     <string name="user_delete_button">Kustuta</string>
+    <string name="user_guest">Külaline</string>
+    <string name="user_exit_guest_title">Eemalda külaline</string>
+    <string name="user_exit_guest_confirm_title">Kas eemaldada külaline?</string>
+    <string name="user_exit_guest_confirm_message">Kõik selle sessiooni rakendused ja andmed kustutatakse.</string>
+    <string name="user_exit_guest_dialog_remove">Eemalda</string>
+    <string name="user_enable_calling">Telefonikõnede lubamine</string>
+    <string name="user_enable_calling_sms">Telefonikõnede ja SMS-i lubamine</string>
+    <string name="user_remove_user">Eemalda kasutaja</string>
+    <string name="user_enable_calling_confirm_title">Kas lubada telefonikõned?</string>
+    <string name="user_enable_calling_confirm_message">Kõneajalugu saab selle kasutajaga ühised olema.</string>
+    <string name="user_enable_calling_sms_confirm_title">Lubada telefonikõned ja SMS?</string>
+    <string name="user_enable_calling_sms_confirm_message">Kõneajalugu ja SMS-id saavad selle kasutajaga ühised olema.</string>
     <string name="application_restrictions">Rakenduste ja sisu lubamine</string>
     <string name="apps_with_restrictions_header">Piirangutega rakendused</string>
     <string name="apps_with_restrictions_settings_button">Laienda rakenduste seaded</string>
@@ -2009,8 +2220,11 @@
     <string name="global_locale_change_title">Keele muutmine</string>
     <string name="global_font_change_title">Fondi suuruse muutmine</string>
     <string name="nfc_payment_settings_title">NFC maksed</string>
+    <string name="google_wallet">Google Wallet</string>
     <string name="nfc_payment_no_apps">Lihtsa puudutusega maksmine</string>
+    <string name="nfc_payment_favor_foreground">Aktiivse rakenduse eelistamine</string>
     <string name="nfc_payment_learn_more">Rohkem infot</string>
+    <string name="nfc_more_title">Veel \u2026</string>
     <string name="nfc_payment_menu_item_add_service">Otsi rakendusi</string>
     <string name="nfc_payment_set_default_label">Määrata see su eelistuseks?</string>
     <string name="nfc_payment_set_default">Kas kasutada NFC makse tegemisel alati <xliff:g id="app">%1$s</xliff:g> rakendust?</string>
@@ -2022,7 +2236,25 @@
     <string name="help_label">Abi</string>
     <string name="user_account_title">Sisu konto</string>
     <string name="user_picture_title">Pilt</string>
+    <string name="extreme_threats_title">Äärmuslikud ohud</string>
+    <string name="extreme_threats_summary">Äärmuslikest ohtudest elule ja varale teavitavate teadete vastuvõtmine</string>
+    <string name="severe_threats_title">Tõsised ohud</string>
+    <string name="severe_threats_summary">Tõsistest ohtudest elule ja varale teavitavate teadete vastuvõtmine</string>
+    <string name="amber_alerts_title">Laste kadumised (AMBER)</string>
+    <string name="amber_alerts_summary">Laste kadumisest teavitavate teadete vastuvõtmine</string>
+    <string name="repeat_title">Kordus</string>
+    <string name="call_manager_enable_title">Kõnehalduri kasutamine</string>
+    <string name="call_manager_enable_summary">Sellel teenusel on lubatud kontrollida kuidas su kõnesid tehakse</string>
+    <string name="call_manager_title">Kõnehaldur</string>
+    <string name="call_manager_summary"><xliff:g id="app">%1$s</xliff:g></string>
     <string name="cell_broadcast_settings">Kärjeteated</string>
+    <string name="network_operators_settings">Võrguoperaatorid</string>
+    <string name="access_point_names">Pääsupunktide nimed</string>
+    <string name="enhanced_4g_lte_mode_title">Täiustatud 4G LTE režiim</string>
+    <string name="enhanced_4g_lte_mode_summary">LTE andmeside kasutamine kõneside parandamiseks (soovitav)</string>
+    <string name="preferred_network_type_title">Eelistatud võrgutüüp</string>
+    <string name="preferred_network_type_summary">LTE (soovitav)</string>
+    <string name="work_sim_title">Töö SIM</string>
     <string name="user_restrictions_title">Rakenduste ja sisu piirangud</string>
     <string name="user_rename">NIMETA ÜMBER</string>
     <string name="app_restrictions_custom_label">Rakenduste piirangud</string>
@@ -2034,6 +2266,7 @@
     <string name="restriction_bluetooth_config_title">Bluetooth</string>
     <string name="restriction_bluetooth_config_summary">Bluetooth-i seadete ja seoste muutmise lubamine</string>
     <string name="restriction_nfc_enable_title">NFC</string>
+    <string name="restriction_nfc_enable_summary_config">See <xliff:g id="device_name">%1$s</xliff:g> võib teisi seadmeid puudutades nendega andmeid vahetada</string>
     <string name="restriction_nfc_enable_summary" product="tablet">Tahvelarvutil on lubatud teisi seadmeid puudutades nendega andmeid vahetada</string>
     <string name="restriction_nfc_enable_summary" product="default">Telefonil on lubatud teisi seadmeid puudutades nendega andmeid vahetada</string>
     <string name="restriction_location_enable_title">Ligipääs asukohainfole</string>
@@ -2043,5 +2276,199 @@
     <string name="wizard_finish">Lõpeta</string>
     <string name="user_image_take_photo">Foto tegemine</string>
     <string name="user_image_choose_photo">Foto valimine galeriist</string>
+    <string name="user_image_photo_selector">Foto valimine</string>
     <string name="regulatory_info_text"/>
+    <string name="sim_setup_wizard_title">SIM kaardid</string>
+    <string name="sim_settings_title">SIM kaardid</string>
+    <string name="sim_settings_summary"><xliff:g id="sim_name">%1$s</xliff:g> - <xliff:g id="sim_number">%2$s</xliff:g></string>
+    <string name="sim_cards_changed_message">SIM kaardid on vahetatud</string>
+    <string name="sim_cards_changed_message_summary">Tegevuste määramiseks puuduta seda teksti</string>
+    <string name="sim_cellular_data_unavailable">Mobiilset andmesidet kasutada ei saa</string>
+    <string name="sim_cellular_data_unavailable_summary">Andmeside SIM-i valimiseks puuduta seda kirjet</string>
+    <string name="sim_calls_always_use">Seda SIM-i kasutatakse alati kõnedeks</string>
+    <string name="sim_select_card">SIM kaardi valimine</string>
+    <string name="sim_card_number_title">SIM <xliff:g id="card_number">%1$d</xliff:g></string>
+    <string name="sim_slot_empty">SIM puudub</string>
+    <string name="sim_editor_name">SIM-i nimi</string>
+    <string name="sim_editor_title">SIM kaart</string>
+    <string name="sim_editor_carrier">Võrk</string>
+    <string name="sim_editor_number">Number</string>
+    <string name="sim_editor_color">SIM-i värv</string>
+    <string name="sim_editor_num_format">Numbrite näitamine</string>
+    <string name="sim_card_select_title">SIM kaardi valimine</string>
+    <string name="color_orange">Oranž</string>
+    <string name="color_purple">Lilla</string>
+    <string name="sim_no_inserted_msg">Seadmes pole ühtegi SIM kaarti</string>
+    <string name="sim_status_title">SIM-i olek</string>
+    <string name="sim_status_summary">SIM-iga seotud info</string>
+    <string name="sim_call_back_title">Tagasi helistamine vaikimisi kasutatavalt SIM-ilt</string>
+    <string name="sim_outgoing_call_title">SIM väljuvateks kõnedeks</string>
+    <string name="sim_other_call_settings">Muud kõneseaded</string>
+    <string name="preferred_network_offload_title">Eelistatud võrkude otsing</string>
+    <string name="preferred_network_offload_header">Võrgunimede levitamise keelamine</string>
+    <string name="preferred_network_offload_footer">Võrgunimede levitamise keelamine kaitseb su võrguinfot kolmandate osapoolte kätte saattunise eest.</string>
+    <string name="preferred_network_offload_popup">Kui võrgunimede levitamine on keelatud, pole peidetud võrkudega võimalik automaatselt ühendust luua.</string>
+    <string name="sim_pref_divider">Tegevused</string>
+    <string name="sim_calls_ask_first_prefs_title">Enne küsitakse</string>
+    <string name="sim_selection_required_pref">Valik on tegemata</string>
+    <string name="dashboard_title">Seaded</string>
+    <string name="search_results_title">Seaded</string>
+    <string name="search_menu">Otsing</string>
+    <string name="query_hint_text">Otsingu seaded</string>
+    <string name="search_recents_queries_label">Hiljuti tehtud otsingud</string>
+    <string name="search_results_label">Tulemused</string>
+    <string name="keywords_wifi">wifi wi-fi võrk ühendus</string>
+    <string name="keywords_more_default_sms_app">tekst sõnumid</string>
+    <string name="keywords_more_mobile_networks">mobiil võrguoperaator</string>
+    <string name="keywords_home">kodu avaekraan</string>
+    <string name="keywords_display">ekraan puuteekraan</string>
+    <string name="keywords_display_brightness_level">heledus eredus ekraan puuteekraan</string>
+    <string name="keywords_display_auto_brightness">heledus eredus ekraan puuteekraan</string>
+    <string name="keywords_display_wallpaper">taust taustapilt</string>
+    <string name="keywords_display_font_size">tekst suurus</string>
+    <string name="keywords_display_cast_screen">projektor</string>
+    <string name="keywords_storage">maht ketas</string>
+    <string name="keywords_battery">toide</string>
+    <string name="keywords_spell_checker">õigekiri speller</string>
+    <string name="keywords_voice_input">kõnetuvastus sisend kõne keel hääl käed vabad tuvastus sõna ajalugu bluetooth</string>
+    <string name="keywords_text_to_speech_output">kiirus keel kõne kõnesüntees</string>
+    <string name="keywords_date_and_time">kell kellaaeg</string>
+    <string name="keywords_factory_data_reset">kustuta</string>
+    <string name="keywords_printing">printer</string>
+    <string name="keywords_sounds_and_notifications">kõlar valjuhääldi piiks</string>
+    <string name="keywords_sounds_and_notifications_interruptions">mitte häirida katkestus segaja paus</string>
+    <string name="keywords_app">RAM</string>
+    <string name="keywords_location">läheduses asukoht asukohainfo ajalugu</string>
+    <string name="keywords_location_mode">täpsus</string>
+    <string name="keywords_accounts">konto</string>
+    <string name="keywords_users">piirang piirangud piiramine</string>
+    <string name="keywords_keyboard_and_ime">tekst parandus heli vibreerimine keel žest soovitus teema sõna tüüp emoji emotikon</string>
+    <string name="keywords_lockscreen">liugur parool muster pin</string>
+    <string name="setup_wifi_nfc_tag">WiFi NFC märgise seadistamine</string>
+    <string name="write_tag">Kirjuta</string>
+    <string name="status_awaiting_tap">Kirjutamiseks puuduta märgist \u2026</string>
+    <string name="status_invalid_password">Vale parool, proovi uuesti.</string>
+    <string name="status_write_success">Tehtud.</string>
+    <string name="status_failed_to_write">NFC märgisele ei õnnestu andmeid kirjutada. Kui probleem ei kao, proovi teist märgist kasutada.</string>
+    <string name="status_tag_not_writable">Sellele NFC märgisele pole võimalik kirjutada. Palun kasuta mõnd teist märgist.</string>
+    <string name="default_sound">Vaikeheli</string>
+    <string name="notification_settings">Heli ja märguanded</string>
+    <string name="media_volume_option_title">Meedia helitugevus</string>
+    <string name="alarm_volume_option_title">Alarmi helitugevus</string>
+    <string name="ring_volume_option_title">Telefonihelina helitugevus</string>
+    <string name="notification_volume_option_title">Märguannete helitugevus</string>
+    <string name="zen_mode_settings_title">Segajad</string>
+    <string name="zen_mode_option_title">Telefonikõned ja sõnumi saabumised</string>
+    <string name="zen_mode_option_title_novoice">Märguanded</string>
+    <string name="zen_mode_option_off">Kõik segajad on lubatud</string>
+    <string name="zen_mode_option_important_interruptions">Ainult olulised segajad</string>
+    <string name="zen_mode_option_no_interruptions">Üldse ei segata</string>
+    <string name="ringtone_title">Telefonihelin</string>
+    <string name="notification_ringtone_title">Märguannete vaikeheli</string>
+    <string name="vibrate_when_ringing_title">Vibreerimine helina ajal</string>
+    <string name="notification_section_header">Märguanded</string>
+    <string name="notification_pulse_title">Märguannete tuli</string>
+    <string name="lock_screen_notifications_title">Kui seade on lukus</string>
+    <string name="lock_screen_notifications_summary_show">Näidatakse kõik märguandeid ja nende sisu</string>
+    <string name="lock_screen_notifications_summary_hide">Peidetakse märguannetes sensitiivne sisu </string>
+    <string name="lock_screen_notifications_summary_disable">Ei näidata üldse märguandeid</string>
+    <string name="lock_screen_notifications_interstitial_message">Kuidas soovid märguandeid näha, kui su seade on lukustatud?</string>
+    <string name="app_notifications_title">Rakenduste märguanded</string>
+    <string name="other_sound_settings">Muud helid</string>
+    <string name="dial_pad_tones_title">Numbriklahvistiku helid</string>
+    <string name="screen_locking_sounds_title">Ekraani lukustamise helid</string>
+    <string name="docking_sounds_title">Dokkimise helid</string>
+    <string name="touch_sounds_title">Puutehelid</string>
+    <string name="vibrate_on_touch_title">Vibreerimine puudutusel</string>
+    <string name="dock_audio_media_title">Doki kõlar mängib</string>
+    <string name="dock_audio_media_disabled">Kõike</string>
+    <string name="dock_audio_media_enabled">Ainult meedia audiot</string>
+    <string name="emergency_tone_silent">Hääletu</string>
+    <string name="emergency_tone_alert">Häire</string>
+    <string name="emergency_tone_vibrate">Vibreerimine</string>
+    <string name="manage_notification_access_title">Ligipääs märguannetele</string>
+    <string name="manage_notification_access_summary_zero">Ükski rakendus ei saa märguandeid lugeda</string>
+  <plurals name="manage_notification_access_summary_nonzero">
+    <item quantity="one">%d rakendus saab märguandeid lugeda</item>
+    <item quantity="other">%d rakendust saab märguandeid lugeda</item>
+  </plurals>
+    <string name="no_notification_listeners">Ühtegi märguannete kuulajat pole paigaldatud.</string>
+    <string name="notification_listener_security_warning_title">Kas lubada <xliff:g id="service" example="NotificationReader">%1$s</xliff:g>?</string>
+    <string name="notification_listener_security_warning_summary"><xliff:g id="notification_listener_name">%1$s</xliff:g> saab lugeda kõiki süsteemi või paigaldatud rakenduste poolt saadetud märguandeid. Neis võib olla isiklikku infot, nagu nt kontaktandmed või sulle saadetud sõnumite tekstid. Ka võib rakendus märguandeid laekast eemaldada ja märguannetes olevate nuppudega tegevusi käivitada.</string>
+    <string name="manage_condition_providers">Tingmustega varustajad</string>
+    <string name="manage_condition_providers_summary_zero">Mitte ükski rakendus ei varusta süsteemi tingimustega</string>
+  <plurals name="manage_condition_providers_summary_nonzero">
+    <item quantity="one">%d rakendus varustab süsteemi tingimustega</item>
+    <item quantity="other">%d rakendust varustab süsteemi tingimustega</item>
+  </plurals>
+    <string name="no_condition_providers">Mitte ühtegi süsteemi tingimustega varustavat rakendust pole paigaldatud.</string>
+    <string name="condition_provider_security_warning_title">Kas lubada „<xliff:g id="service" example="ConditionProvider">%1$s</xliff:g>“ kasutamine?</string>
+    <string name="condition_provider_security_warning_summary"><xliff:g id="condition_provider_name">%1$s</xliff:g> saab „Mitte häirida“ režiimist väljumiseks tingimusi lisada.</string>
+    <string name="loading_notification_apps">Rakenduste laadimine \u2026</string>
+    <string name="app_notification_block_title">Blokeeritud</string>
+    <string name="app_notification_block_summary">Selle rakendusi märguandeid ei näidata kunagi</string>
+    <string name="app_notification_priority_title">Oluline</string>
+    <string name="app_notification_priority_summary">Märguandeid näidatakse teistest eespool ning isegi siis, kui seade on režiimis, kus ainult olulised asjad võivad sind segada</string>
+    <string name="app_notification_sensitive_title">Tundlik info</string>
+    <string name="app_notification_sensitive_summary">Kui seade on lukustatud, peidetakse selle rakenduse märguannetest kogu tundlik info</string>
+    <string name="app_notification_row_banned">Blokeeritud</string>
+    <string name="app_notification_row_priority">Oluline</string>
+    <string name="app_notification_row_sensitive">Tundlik info</string>
+    <string name="app_notifications_dialog_done">Valmis</string>
+    <string name="zen_mode_default_option">Kuni sa ise selle välja lülitad</string>
+    <string name="zen_mode_important_category">Olulised segajad</string>
+    <string name="zen_mode_downtime_category">Levist väljas (ainult olulised segajad)</string>
+    <string name="zen_mode_downtime_days">Nädalapäevad</string>
+    <string name="zen_mode_downtime_days_none">Mitte kunagi</string>
+    <string name="zen_mode_automation_category">Automaatika</string>
+    <string name="zen_mode_entry_conditions_title">Automaatne sisselülitamine</string>
+    <string name="summary_divider_text">,\u0020</string>
+    <string name="zen_mode_entry_conditions_summary_none">Mitte kunagi</string>
+    <string name="zen_mode_phone_calls">Kõned</string>
+    <string name="zen_mode_messages">Sõnumid</string>
+    <string name="zen_mode_from">Kõned ja sõnumid</string>
+    <string name="zen_mode_from_anyone">Igaühelt</string>
+    <string name="zen_mode_from_contacts">Ainult kontaktidelt</string>
+    <string name="zen_mode_from_starred">Ainult märgitud kontaktidelt</string>
+    <string name="zen_mode_events">Sündmused ja meeldetuletused</string>
+    <string name="zen_mode_alarm_info">Alarmid on alati olulised segajad</string>
+    <string name="zen_mode_when">Automaatne sisselülitamine</string>
+    <string name="zen_mode_when_never">Mitte kunagi</string>
+    <string name="zen_mode_when_every_night">Igal ööl</string>
+    <string name="zen_mode_when_weeknights">Igal ööl nädala sees</string>
+    <string name="zen_mode_start_time">Algus</string>
+    <string name="zen_mode_end_time">Lõpp</string>
+    <string name="zen_mode_end_time_summary_format">Järgmisel päeval kell <xliff:g id="formatted_time">%s</xliff:g></string>
+    <string name="notification_settings_apps_title">Rakenduste märguanded</string>
+    <string name="notification_app_settings_button">Märguannete seaded</string>
+    <string name="device_feedback">Anna tagasisidet selle seadme kohta</string>
+    <string name="restr_pin_enter_admin_pin">Sisesta administraatori PIN</string>
+    <string name="switch_on_text">Sees</string>
+    <string name="switch_off_text">Väljas</string>
+    <string name="screen_pinning_title">Rakenduse ekraanile kinnitamine</string>
+    <string name="screen_pinning_description">Kui see on sisse lülitatud, saad ekraanil hoida aktiivset vaadet kuni sa ise ekraani sellest vabastad.\n\nEkraanile kinnitamise kasutamiseks:\n\n1. Veendu, et kinnitamine oleks sisse lülitatud.\n\n2. Ava ekraan, mida soovid ekraanil kinnitada.\n\n3. Vajuta ülevaate nuppu.\n\n4. Puuduta nööpnõela ikooni.</string>
+    <string name="managed_user_title">Tööprofiil</string>
+    <string name="experimental_preference">(Eksperimentaalne)</string>
+    <string name="display_auto_rotate_title">Kui seadet ppöratakse</string>
+    <string name="display_auto_rotate_rotate">Pööratakse ka ekraani sisu</string>
+    <string name="display_auto_rotate_stay_in_portrait">Jääb ekraanile püstvaade</string>
+    <string name="display_auto_rotate_stay_in_landscape">Jääb ekraanile rõhtvaade</string>
+    <string name="display_auto_rotate_stay_in_current">Jääb endisesse asendisse</string>
+    <string name="encryption_interstitial_header">Krüpteerimine</string>
+    <string name="encryption_continue_button">Jätka</string>
+    <string name="encryption_interstitial_message_pin">Sa saad seda seadet paremini kaitsta, nõudes käivitamisel PIN-i sisestamist. Kuni seade pole käivitunud, ei saa sellega kõnesid, SMS-e ega märguandeid (sh alarme) vastu võtta.\n\nSee aitab kadunud või varastatud seadmes su andmeid kaitsta.</string>
+    <string name="encryption_interstitial_message_pattern">Sa saad seda seadet paremini kaitsta, nõudes käivitamisel su avamismustri sisestamist. Kuni seade pole käivitunud, ei saa sellega kõnesid, SMS-e ega märguandeid (sh alarme) vastu võtta.\n\nSee aitab kadunud või varastatud seadmes su andmeid kaitsta.</string>
+    <string name="encryption_interstitial_message_password">Sa saad seda seadet paremini kaitsta, nõudes käivitamisel parooli sisestamist. Kuni seade pole käivitunud, ei saa sellega kõnesid, SMS-e ega märguandeid (sh alarme) vastu võtta.\n\nSee aitab kadunud või varastatud seadmes su andmeid kaitsta.</string>
+    <string name="encrypt_require_pin">PIN-i nõudmine seadme käivitamiseks</string>
+    <string name="encrypt_require_pattern">Avamismustri nõudmine seadme käivitamiseks</string>
+    <string name="encrypt_require_password">Parooli nõudmine seadme käivitamiseks</string>
+    <string name="encrypt_dont_require_pin">Tänan, ei</string>
+    <string name="encrypt_dont_require_pattern">Tänan, ei</string>
+    <string name="encrypt_dont_require_password">Tänan, ei</string>
+    <string name="encrypt_talkback_dialog_require_pin">PIN-i nõudmine?</string>
+    <string name="encrypt_talkback_dialog_require_pattern">Avamismustri nõudmine?</string>
+    <string name="encrypt_talkback_dialog_require_password">Parooli nõudmine?</string>
+    <string name="encrypt_talkback_dialog_message_pin">Kui sa sisestad oma seadme käivitamiseks PIN-i, pole hõlbustusteenused, nagu nt <xliff:g id="service" example="TalkBack">%1$s</xliff:g> veel kasutatavad.</string>
+    <string name="encrypt_talkback_dialog_message_pattern">Kui sa sisestad oma seadme käivitamiseks avamismustrit, pole hõlbustusteenused, nagu nt <xliff:g id="service" example="TalkBack">%1$s</xliff:g> veel kasutatavad.</string>
+    <string name="encrypt_talkback_dialog_message_password">Kui sa sisestad oma seadme käivitamiseks parooli, pole hõlbustusteenused, nagu nt <xliff:g id="service" example="TalkBack">%1$s</xliff:g> veel kasutatavad.</string>
 </resources>

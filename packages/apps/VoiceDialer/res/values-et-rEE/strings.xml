@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- Copyright (C) 2006 The Android Open Source Project
-     Copyright (C) 2013 Hasso Tepper
+     Copyright (C) 2013-2015 Hasso Tepper
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -14,7 +14,6 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-
 <resources>
     <string name="voiceDialer">Helistamine kõnetuvastusega</string>
     <string name="tool_tip_title">Kas teadsid, et \u2026</string>
@@ -50,5 +49,4 @@
     <string name="no_results_tts">Vasteid ei ole, proovi uuesti.</string>
     <string name="invalid_choice_tts">Vigane valik.</string>
     <string name="goodbye_tts">Nägemist.</string>
-
 </resources>

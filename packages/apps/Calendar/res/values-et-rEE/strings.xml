@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--  Copyright (C) 2006 The Android Open Source Project
-      Copyright (C) 2013 Hasso Tepper
+<!-- Copyright (C) 2006 The Android Open Source Project
+     Copyright (C) 2013-2015 Hasso Tepper
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -79,6 +79,9 @@
     <string name="empty_event">Tühja sündmust ei loodud.</string>
     <string name="creating_event_with_guest">Osavõtjatele saadetakse kutsed.</string>
     <string name="saving_event_with_guest">Osavõtjatele saadetakse uuem info.</string>
+    <string name="rsvp_accepted">Vastasid jah.</string>
+    <string name="rsvp_tentative">Vastasid võib-olla.</string>
+    <string name="rsvp_declined">Vastasid ei.</string>
     <string name="create_event_dialog_save">Salvesta</string>
     <string name="alert_title">Kalendri märguanded</string>
     <string name="event_info_title">Sündmuse vaatamine</string>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--  Copyright (C) 2012 The Android Open Source Project
+<!-- Copyright (C) 2012 The Android Open Source Project
+     Copyright (C) 2014-2015 Hasso Tepper
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -13,13 +14,13 @@
      See the License for the specific language governing permissions and
      limitations under the License.
  -->
-
-<resources xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources>
     <string name="abc_action_mode_done">Valmis</string>
     <string name="abc_action_bar_home_description">Avaekraanile liikumine</string>
     <string name="abc_action_bar_up_description">Üles liikumine</string>
     <string name="abc_action_menu_overflow_description">Veel valikuid</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
     <string name="abc_searchview_description_search">Otsing</string>
     <string name="abc_searchview_description_query">Otsingu päring</string>
     <string name="abc_searchview_description_clear">Päringu välja tühjendamine</string>

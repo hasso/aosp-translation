@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--  Copyright (C) 2013 The Android Open Source Project
-      Copyright (C) 2013 Hasso Tepper
+<!-- Copyright (C) 2013 The Android Open Source Project
+     Copyright (C) 2013-2015 Hasso Tepper
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -14,12 +14,11 @@
      See the License for the specific language governing permissions and
      limitations under the License.
  -->
-
-<resources xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources>
     <string name="app_label">Shell</string>
     <string name="bugreport_finished_title">Vearapordi andmed kogutud</string>
-    <string name="bugreport_finished_text">Rapordi jagamiseks puuduta seda teksti</string>
+    <string name="bugreport_finished_text" product="watch">Vearapordi jagamiseks libista sõrme vasakule</string>
+    <string name="bugreport_finished_text" product="default">Vearapordi jagamiseks puuduta seda</string>
     <string name="bugreport_confirm">Vearaportites on katkeid ka süsteemi logifailidest ning need sisaldavad isiklikku ja privaatset infot. Jaga vearaporteid ainult usaldusväärsete rakenduste ja inimestega.</string>
     <string name="bugreport_confirm_repeat">Näita seda teadet ka järgmisel korral</string>
 </resources>

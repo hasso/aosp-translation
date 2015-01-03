@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--  Copyright (C) 2008 The Android Open Source Project
-      Copyright (C) 2013 Hasso Tepper
+<!-- Copyright (C) 2008 The Android Open Source Project
+     Copyright (C) 2013-2015 Hasso Tepper
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -21,15 +21,9 @@
     <string name="permission_access_provider_desc">Võimaldab rakendusel ligi pääseda su e-posti andmebaasile, sh vastuvõetud ja saadetud kirjadele, kasutajanimedele ning paroolidele.</string>
     <string name="app_name">E-post</string>
     <string name="debug_title">Silumine</string>
-    <string name="next_action">Järgmine</string>
-    <string name="okay_action">OK</string>
-    <string name="cancel_action">Tühista</string>
-    <string name="previous_action">Eelmine</string>
-    <string name="done_action">Valmis</string>
     <string name="create_action">Loo uus</string>
     <string name="quick_responses_empty_view">Kiirvastuseid pole</string>
     <string name="account_settings_action">Konto seaded</string>
-    <string name="menu_folder_options">Sünkroonimise seaded</string>
     <string name="status_network_error">Probleem ühendusega.</string>
   <plurals name="move_messages">
     <item quantity="one">Kirja liigutamine</item>
@@ -78,10 +72,22 @@
     <item quantity="other"><xliff:g id="SIZE_IN_GIGABYTES">%d</xliff:g> GB</item>
   </plurals>
     <string name="account_setup_basics_title">Konto seadistamine</string>
+    <string name="oauth_authentication_title">Autoriseerimispäringu tegemine</string>
+    <string name="sign_in_title">Sisselogimine</string>
+    <string name="oauth_error_description">Autentimine ei õnnestu</string>
+    <string name="password_warning_label">E-posti aadress või parool on valed</string>
+    <string name="email_confirmation_label">Meiliaadress:</string>
     <string name="account_setup_basics_headline">Meilikonto</string>
     <string name="accounts_welcome">E-posti konto seadistamine vajab vaid mõnda sammu.</string>
     <string name="account_setup_basics_email_label">E-posti aadress</string>
+    <string name="or_label">VÕI</string>
+    <string name="sign_in_with_google">Logi sisse Google\'i kontoga</string>
     <string name="account_setup_basics_password_label">Parool</string>
+    <string name="password_hint">Parool</string>
+    <string name="signed_in_with_service_label">Sisse logitud „%s“ teenusega</string>
+    <string name="authentication_label">AUTENTIMINE</string>
+    <string name="add_authentication_label">Autentimise lisamine</string>
+    <string name="clear_authentication_label">Autentimise eemaldamine</string>
     <string name="account_setup_basics_manual_setup_action">Seadista käsitsi</string>
     <string name="account_setup_username_password_toast">Sisesta korrektne e-posti aadress ja parool.</string>
     <string name="account_duplicate_dlg_title">Konto on juba olemas</string>
@@ -91,6 +97,8 @@
     <string name="account_setup_check_settings_check_incoming_msg">Sissetuleva posti serveri seadete kontrollimine \u2026</string>
     <string name="account_setup_check_settings_check_outgoing_msg">Väljuva posti serveri seadete kontrollimine \u2026</string>
     <string name="account_setup_creating_account_msg">Konto loomine \u2026</string>
+    <string name="account_setup_ab_headline">Konto tüübi kinnitamine</string>
+    <string name="account_setup_ab_instructions_format">Sa valisid <xliff:g id="email">%1$s</xliff:g> konto tüübiks <xliff:g id="userProtocol">%2$s</xliff:g>, kuid tegelikult võib see olla <xliff:g id="providerProtocol">%3$s</xliff:g>.</string>
     <string name="account_setup_names_title">Konto seadistamine</string>
     <string name="account_setup_names_headline">Konto on seadistatud ja post on juba teel.</string>
     <string name="account_setup_names_account_name_label">Pane sellele kontole nimi (pole kohustuslik)</string>
@@ -101,11 +109,12 @@
     <string name="account_setup_account_type_instructions">Mis tüüpi see konto on?</string>
     <string name="account_setup_incoming_title">Konto seadistamine</string>
     <string name="account_setup_incoming_headline">Siseneva posti serveri seaded</string>
-    <string name="account_setup_incoming_username_label">Kasutajanimi</string>
-    <string name="account_setup_incoming_password_label">Parool</string>
-    <string name="account_setup_incoming_server_label">Server</string>
-    <string name="account_setup_incoming_port_label">Port</string>
-    <string name="account_setup_incoming_security_label">Turvalisus</string>
+    <string name="account_setup_incoming_username_label">KASUTAJANIMI</string>
+    <string name="account_setup_incoming_password_label">PAROOL</string>
+    <string name="account_setup_password_subheading">Parool</string>
+    <string name="account_setup_incoming_server_label">SERVER</string>
+    <string name="account_setup_incoming_port_label">PORT</string>
+    <string name="account_setup_incoming_security_label">TURVALISUS</string>
     <string name="account_setup_incoming_security_none_label">Puudub</string>
     <string name="account_setup_incoming_security_ssl_trust_certificates_label">SSL/TLS (kõik sertifikaadid)</string>
     <string name="account_setup_incoming_security_ssl_label">SSL/TLS</string>
@@ -157,6 +166,8 @@
     <string name="account_setup_options_mail_window_default">Konto vaikeseade kasutamine</string>
     <string name="account_setup_failed_dlg_auth_message">Vigane kasutajanimi või parool.</string>
     <string name="account_setup_failed_dlg_auth_message_fmt">Vigane kasutajanimi või parool.\n(<xliff:g id="ERROR">%s</xliff:g>)</string>
+    <string name="account_setup_autodiscover_dlg_authfail_title">Probleem konto seadistamisega</string>
+    <string name="account_setup_autodiscover_dlg_authfail_message">Veendu, et kasutajanimi, parool ja konto seaded oleks õiged.</string>
     <string name="account_setup_failed_dlg_certificate_message">Serveriga ei õnnestu turvalist ühendust luua.</string>
     <string name="account_setup_failed_dlg_certificate_message_fmt">Serveriga ei õnnestu turvalist ühendust luua.\n(<xliff:g id="ERROR">%s</xliff:g>)</string>
     <string name="account_setup_failed_certificate_required">Ühenduse loomiseks on vajalik kliendi sertifikaat. Kas soovid kliendi sertifikaadi abil serveriga ühenduse luua?</string>
@@ -255,23 +266,7 @@
     <string name="settings_activity_title">Seaded</string>
     <string name="header_label_general_preferences">Üldseaded</string>
     <string name="general_preference_confirm_delete_label">Kinnitus kustutamisel</string>
-    <string name="general_preference_confirm_delete_summary">Kirjad</string>
     <string name="general_preference_confirm_send_label">Kinnitus saatmisel</string>
-    <string name="general_preference_confirm_send_summary">Kirjad</string>
-    <string name="general_preference_text_zoom_label">Kirja teksti suurus</string>
-  <string-array name="general_preference_text_zoom_summary_array">
-    <item>Väga väike tekst</item>
-    <item>Väike tekst</item>
-    <item>Normaalse suurusega tekst</item>
-    <item>Suur tekst</item>
-    <item>Hiiglaslik tekst</item>
-  </string-array>
-    <string name="general_preference_text_zoom_dialog_title">Kirja teksti suurus</string>
-    <string name="general_preference_text_zoom_tiny">Pisike</string>
-    <string name="general_preference_text_zoom_small">Väike</string>
-    <string name="general_preference_text_zoom_normal">Tavaline</string>
-    <string name="general_preference_text_zoom_large">Suur</string>
-    <string name="general_preference_text_zoom_huge">Väga suur</string>
     <string name="more_than_999">999+</string>
     <string name="search_hint">Kirjadest otsimine</string>
     <string name="policy_dont_allow_camera">Kaamera kasutamise keeld</string>
@@ -294,4 +289,7 @@
     <string name="trash_folder_selection_title">Vali „<xliff:g id="account">%s</xliff:g>“ konto serveris asuv kaust kustutaud kirjadele.</string>
     <string name="sent_folder_selection_title">Vali „<xliff:g id="account">%s</xliff:g>“ konto serveris asuv kaust saadetud kirjadele.</string>
     <string name="account_waiting_for_folders_msg">Kaustade nimekirja laadimine \u2026</string>
+    <string name="no_quick_responses">Pole ühtegi</string>
+    <string name="gmail_name">Gmail</string>
+    <string name="folder_sync_settings_pref_title">Kaustade sünkroniseerimise seaded</string>
 </resources>

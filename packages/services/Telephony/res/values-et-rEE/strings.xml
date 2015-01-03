@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--  Copyright (C) 2007 The Android Open Source Project
-      Copyright (C) 2013 Hasso Tepper
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Copyright (C) 2013-2015 Hasso Tepper
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -28,7 +28,7 @@
     <string name="ussdRunning">USSD toiming käib \u2026</string>
     <string name="mmiCancelled">MMI toiming katkestatud</string>
     <string name="cancel">Katkesta</string>
-    <string name="enter_input">USSD teate tekst ei tohi olla lühem kui <xliff:g id="min_len" >%d</xliff:g> ja pikem kui <xliff:g id="max_len" >%d</xliff:g> sümbolit. Palun proovi uuesti.</string>
+    <string name="enter_input">USSD teate tekst ei tohi olla lühem kui <xliff:g id="min_len">%d</xliff:g> ja pikem kui <xliff:g id="max_len">%d</xliff:g> sümbolit. Palun proovi uuesti.</string>
     <string name="manageConferenceLabel">Konverentskõne haldus</string>
     <string name="ok">OK</string>
     <string name="audio_mode_speaker">Kõlar</string>
@@ -51,13 +51,37 @@
     <string name="requesting_unlock">Võrguluku eemaldamise taotlemine \u2026</string>
     <string name="unlock_failed">Võrguluku eemaldamine ebaõnnestus.</string>
     <string name="unlock_success">Võrguluku eemaldamine õnnestus.</string>
+    <string name="mobile_network_settings_not_available">See kasutaja ei saa mobiilvõrgu seadeid muuta</string>
     <string name="labelGSMMore">GSM kõneseaded</string>
     <string name="labelCDMAMore">CDMA kõneseaded</string>
     <string name="apn_settings">APN seaded</string>
     <string name="settings_label">Võrguseaded</string>
+    <string name="phone_accounts">Telefoni kontode seaded</string>
+    <string name="phone_accounts_make_calls_with">Telefonikõnede rakendus</string>
+    <string name="phone_accounts_make_sip_calls_with">SIP kõnede rakendus</string>
+    <string name="phone_accounts_ask_every_time">Küsitakse enne kõnet</string>
+    <string name="phone_accounts_accounts_header">Kontod</string>
+    <string name="phone_accounts_choose_accounts">Kontode valimine</string>
+    <string name="phone_accounts_selection_header">Telefoni kontod</string>
+    <string name="phone_accounts_add_sip_account">SIP konto lisamine</string>
+    <string name="phone_accounts_configure_account_settings">Konto seadete muutmine</string>
+    <string name="phone_account_wifi_calling">Wi-Fi kõned</string>
+    <string name="wifi_calling_do_not_use">Wi-Fi kõnesid ei kasutata</string>
+    <string name="wifi_calling_do_not_use_call_assistant">Kõneassistenti ei kasutata</string>
+    <string name="wifi_calling_call_assistant_none">Puudub</string>
+    <string name="wifi_calling_call_assistant">Kõneassistent</string>
+    <string name="wifi_calling_use_call_assistant">Kõneassistendi kasutamine</string>
+    <string name="wifi_calling_select_call_assistant">Vali kõneassistent</string>
+    <string name="wifi_calling_select_call_assistant_summary">Kõnedeks kasutatavaid võrke haldava rakenduse või teenuse valimine</string>
+    <string name="wifi_calling_use_call_assistant_summary">Rakendustel või teenustel on lubatud Kõnedeks kasutatavaid võrke hallata</string>
+    <string name="wifi_calling_call_assistant_configure">Seadista</string>
+    <string name="wifi_calling_call_assistant_configure_no_selection">Kõneassistent on välja lülitatud</string>
+    <string name="connection_service_default_label">Sisemine ühenduse teenus</string>
     <string name="voicemail">Kõnepost</string>
     <string name="voicemail_abbreviated">KP:</string>
     <string name="networks">Võrguoperaatorid</string>
+    <string name="cell_broadcast_settings">Häireteated</string>
+    <string name="phone_account_settings">Telefoni konto seaded</string>
     <string name="call_settings">Kõneseaded</string>
     <string name="additional_gsm_call_settings">GSM lisaseaded </string>
     <string name="sum_gsm_call_settings">Täiendavad kõneseaded GSM võrgule</string>
@@ -167,6 +191,8 @@
     <item>Ainult GSM</item>
     <item>GSM/WCDMA eelistamine</item>
   </string-array>
+    <string name="enhanced_4g_lte_mode_title">Täiendatud 4G LTE režiim</string>
+    <string name="enhanced_4g_lte_mode_summary">LTE teenuste kasutamine kõne- ja muu side parandamiseks (soovitav)</string>
     <string name="data_enabled">Andmeside</string>
     <string name="data_enable_summary">Mobiilsidevõrgu andmeside kasutamine</string>
     <string name="roaming">Andmeside rändlus</string>
@@ -416,7 +442,6 @@
     <string name="incall_error_supp_service_conference">Konverentskõnesid ei saa teha.</string>
     <string name="incall_error_supp_service_reject">Kõnest ei saa keelduda.</string>
     <string name="incall_error_supp_service_hangup">Kõne(sid) ei saa vabastada</string>
-    <string name="incall_call_type_label_sip">Interneti-kõne</string>
     <string name="emergency_enable_radio_dialog_title">Hädaabikõne</string>
     <string name="emergency_enable_radio_dialog_message">Raadioside sisselülitamine \u2026</string>
     <string name="emergency_enable_radio_dialog_retry">Teeninduspiirkonnast väljas, uuesti proovimine \u2026</string>
@@ -465,7 +490,7 @@
     <string name="ota_title_problem_with_activation">Probleem aktiveerimisega</string>
     <string name="ota_listen">Järgi juhiseid, kuni kuuled, et aktiveerimine on lõpetatud.</string>
     <string name="ota_speaker">Kõlar</string>
-    <string name="ota_progress">Oodake, kuni su telefoni programmeeritakse.</string>
+    <string name="ota_progress">Oota, kuni su telefoni programmeeritakse.</string>
     <string name="ota_failure">Programmeerimine ebaõnnestus</string>
     <string name="ota_successful">Su telefon on nüüd aktiveeritud. Teenuse käivitumiseks võib kuluda kuni 15 minutit.</string>
     <string name="ota_unsuccessful">Su telefoni ei aktiveeritud.\nProovi leida parema leviga piirkond (akna lähedal või õues).\n\nProovi uuesti või helista klienditeenindusse.</string>
@@ -502,116 +527,19 @@
     <string name="contactPhoto">kontakti foto</string>
     <string name="goPrivate">privaatrežiimi aktiveerimine</string>
     <string name="selectContact">kontakti valimine</string>
-    <string name="sip_settings">Internetikõne seaded</string>
-    <string name="sip_accounts">Internetikõne (SIP) kontod</string>
-    <string name="sip_accounts_title">Kontod</string>
-    <string name="sip_receive_calls">Sissetulevate kõnede vastuvõtmine</string>
-    <string name="sip_receive_calls_summary">Vähendab aku kestvust</string>
-    <string name="sip_call_options_title">Internetikõne kasutamine</string>
-    <string name="sip_call_options_wifi_only_title">Internetikõne kasutamine (ainult WiFi)</string>
-    <string name="sip_call_options_entry_1">Kõik kõned, kui andmeside ühendus on olemas</string>
-    <string name="sip_call_options_entry_2">Ainult internetikõned</string>
-    <string name="sip_call_options_entry_3">Iga kõne puhul küsitakse</string>
-    <string name="sip_call_options_wifi_only_entry_1">Kõik kõned</string>
-    <string name="pick_outgoing_call_phone_type">Kõne tüübi valimine</string>
-    <string name="pick_outgoing_sip_phone">Internetikõne konto:</string>
-    <string name="remember_my_choice">Kasutatakse alati internetikõnede tegemiseks</string>
-    <string name="reset_my_choice_hint">Vaikimisi kasutatava Interneti kõnekonto muutmiseks tee järgmised valikud: Telefon &gt; Seaded &gt; Interneti-kõne seaded &gt; Kontod.</string>
-    <string name="pstn_phone">Mobiilikõne</string>
-    <string name="internet_phone">Internetikõne</string>
-    <string name="no_sip_account_found_title">Internetikõnede kontot pole</string>
-    <string name="no_sip_account_found">Selles telefonis pole ühtegi internetikõne kontot. Kas soovid kohe ühe lisada?</string>
-    <string name="sip_menu_add">Lisa</string>
-    <string name="add_sip_account">Lisa konto</string>
-    <string name="remove_sip_account">Eemalda konto</string>
-    <string name="sip_account_list">SIP kontod</string>
-    <string name="saving_account">Konto salvestamine \u2026</string>
-    <string name="removing_account">Konto eemaldamine \u2026</string>
-    <string name="sip_menu_save">Salvesta</string>
-    <string name="sip_menu_discard">Loobu</string>
-    <string name="alert_dialog_close">Profiili sulgemine</string>
-    <string name="alert_dialog_ok">OK</string>
-    <string name="close_profile">Sulge</string>
-    <string name="primary_account_summary_with">Peamine konto. <xliff:g id="REGISTRATION_STATUS">%s</xliff:g></string>
-    <string name="registration_status_checking_status">Oleku kontrollimine \u2026</string>
-    <string name="registration_status_registering">Registreerimine \u2026</string>
-    <string name="registration_status_still_trying">Jätkuvalt üritamine \u2026</string>
-    <string name="registration_status_not_receiving">Kõnesid ei võeta vastu.</string>
-    <string name="registration_status_no_data">Konto registreerimine on peatatud, sest puudub Interneti ühendus.</string>
-    <string name="registration_status_no_wifi_data">Konto registreerimine on peatatud, sest puudub WiFi ühendus.</string>
-    <string name="registration_status_not_running">Konto registreerimine ebaõnnestus.</string>
-    <string name="registration_status_done">Kõnede vastuvõtmine.</string>
-    <string name="registration_status_failed_try_later">Konto registreerimine ebaõnnestus: (<xliff:g id="REGISTRATION_ERROR_MESSAGE">%s</xliff:g>); proovi hiljem uuesti</string>
-    <string name="registration_status_invalid_credentials">Konto registreerimine ebaõnnestus: vale kasutajanimi või parool.</string>
-    <string name="registration_status_server_unreachable">Konto registreerimine ebaõnnestus: kontrolli serveri nime.</string>
-    <string name="third_party_account_summary">Kontot kasutab hetkel <xliff:g id="ACCOUNT_OWNER">%s</xliff:g> rakendus</string>
-    <string name="sip_edit_title">SIP konto andmed</string>
-    <string name="sip_edit_new_title">SIP konto andmed</string>
-    <string name="domain_address_title">Server</string>
-    <string name="username_title">Kasutajanimi</string>
-    <string name="password_title">Parool</string>
-    <string name="display_name_title">Näidatav nimi</string>
-    <string name="proxy_address_title">Väljuva puhverserveri aadress</string>
-    <string name="port_title">Pordi number</string>
-    <string name="transport_title">Transpordi tüüp</string>
-    <string name="send_keepalive_title">„Keepalive“ pakettide saatmine</string>
-    <string name="set_primary_title">Määra peamiseks kontoks</string>
-    <string name="set_primary_summary">Kasutatakse väljuvate kõnede jaoks</string>
-    <string name="advanced_settings">Valikulised seaded</string>
-    <string name="auth_username_title">Autentimise kasutajanimi</string>
-    <string name="auth_username_summary">Autentimisel kasutatav kasutajanimi</string>
-    <string name="default_preference_summary">&lt;Määramata&gt;</string>
-    <string name="display_name_summary">&lt;Sama kui kasutajanimi&gt;</string>
-    <string name="optional_summary">&lt;Valikuline&gt;</string>
-    <string name="advanced_settings_show">▷ Kõigi vaatamiseks puuduta</string>
-    <string name="advanced_settings_hide">▽ Kõigi peitmiseks puuduta</string>
-    <string name="empty_alert"><xliff:g id="INPUT_FIELD_NAME">%s</xliff:g> välja täitmine on kohustuslik, seda ei tohi tühjaks jätta.</string>
-    <string name="not_a_valid_port">Pordi number peab jääma vahemikku 1000 kuni 65 534.</string>
-    <string name="no_internet_available_title">Interneti ühendus puudub</string>
-    <string name="no_wifi_available_title">WiFi ühendus puudub</string>
-    <string name="no_internet_available">Internetikõne tegemiseks kontrolli esmalt Interneti ühendust.</string>
-    <string name="no_wifi_available">Internetikõnede jaoks pead olema ühendatud WiFi võrguga (kasuta „Juhmevabad võrgud“ sektsiooni seadetes)</string>
-    <string name="no_voip">Internetikõned pole toetatud</string>
-    <string name="sip_system_decide">Automaatne</string>
-    <string name="sip_always_send_keepalive">Alati</string>
     <string name="not_voice_capable">Kõneside pole toetatud</string>
-    <string name="respond_via_sms_canned_response_1">Ma ei saa praegu rääkida. Milles asi?</string>
-    <string name="respond_via_sms_canned_response_2">Ma helistan sulle kohe tagasi.</string>
-    <string name="respond_via_sms_canned_response_3">Ma helistan sulle hiljem tagasi.</string>
-    <string name="respond_via_sms_canned_response_4">Ma ei saa praegu rääkida. Helistad hiljem?</string>
-    <string name="respond_via_sms_custom_message">Kirjuta ise \u2026</string>
-    <string name="respond_via_sms_setting_title">Kiirvastused</string>
-    <string name="respond_via_sms_setting_title_2">Kiirvastuste muutmine</string>
-    <string name="respond_via_sms_setting_summary"/>
-    <string name="respond_via_sms_edittext_dialog_title">Kiirvastus</string>
-    <string name="respond_via_sms_menu_reset_default_activity">Lähtesta vaikerakendus</string>
-    <string name="respond_via_sms_confirmation_format">Sõnum numbrile <xliff:g id="PHONE_NUMBER">%s</xliff:g> on ära saadetud.</string>
-    <string name="description_image_button_one">üks</string>
-    <string name="description_image_button_two">kaks</string>
-    <string name="description_image_button_three">kolm</string>
-    <string name="description_image_button_four">neli</string>
-    <string name="description_image_button_five">viis</string>
-    <string name="description_image_button_six">kuus</string>
-    <string name="description_image_button_seven">seitse</string>
-    <string name="description_image_button_eight">kaheksa</string>
-    <string name="description_image_button_nine">üheksa</string>
-    <string name="description_image_button_star">tärn</string>
-    <string name="description_image_button_zero">null</string>
-    <string name="description_image_button_pound">trellid</string>
     <string name="description_dial_button">helista</string>
-    <string name="description_delete_button">kustutamine</string>
-    <string name="accessibility_speakerphone_enabled">Valjuhääldi on sisse lülitatud.</string>
-    <string name="accessibility_call_muted">Kõne on vaigistatud.</string>
-    <string name="description_target_answer">Vastamiseks</string>
-    <string name="description_target_send_sms">SMS-i saatmiseks</string>
-    <string name="description_target_decline">Keeldumiseks</string>
     <string name="voicemail_notification_vibrate_when_title">Vibreerimine</string>
     <string name="voicemail_notification_vibarte_when_dialog_title">Vibreerimine</string>
     <string name="voicemail_notification_ringtone_title">Kõneposti helin</string>
-    <string name="default_notification_description">Vaikeheli (<xliff:g id="DEFAULT_SOUND_TITLE">%1$s</xliff:g>)</string>
-    <string name="ringtone_title">Telefonihelin</string>
-    <string name="vibrate_on_ring_title">Vibreerimine helina ajal</string>
-    <string name="dtmf_tone_enable_title">Valimisklahvistiku puutetoonid</string>
     <string name="dial_pad_autocomplete">Automaatne lõpetamine</string>
     <string name="preference_category_ringtone">Helin ja vibreerimine</string>
+    <string name="pstn_connection_service_label">Sisemised SIM-kaardid</string>
+    <string name="enable_video_calling_title">Lülita videokõned sisse</string>
+    <string name="enable_video_calling_dialog_msg">Videokõnede sisse lülitamiseks pead süsteemi seadetes sisse lülitama ka täiendatud 4G LTE režiimi.</string>
+    <string name="enable_video_calling_dialog_settings">Võrgu seaded</string>
+    <string name="enable_video_calling_dialog_close">Sulge</string>
+    <string name="sim_label_emergency_calls">Hädaabi kõned</string>
+    <string name="sim_description_emergency_calls">Ainult hädaabikõned</string>
+    <string name="sim_description_default">SIM kaart, pesa: <xliff:g id="slot_id">%s</xliff:g></string>
 </resources>

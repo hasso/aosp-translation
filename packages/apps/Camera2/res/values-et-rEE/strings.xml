@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--  Copyright (C) 2007 The Android Open Source Project
-      Copyright (C) 2013 Hasso Tepper
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Copyright (C) 2013-2015 Hasso Tepper
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -21,10 +21,6 @@
     <string name="details_hms">%1$d:%2$02d:%3$02d</string>
     <string name="set_image">Pildi määramine</string>
     <string name="delete">Kustuta</string>
-  <plurals name="delete_selection">
-    <item quantity="one">Kas kustutada valitud objekt?</item>
-    <item quantity="other">Kas kustutada valitud objektid?</item>
-  </plurals>
     <string name="share">Jaga</string>
     <string name="share_panorama">Panoraami jagamine</string>
     <string name="share_as_photo">Fotona jagamine</string>
@@ -32,18 +28,6 @@
     <string name="undo">VÕTA TAGASI</string>
     <string name="details">Üksikasjad</string>
     <string name="close">Sulge</string>
-  <plurals name="number_of_items_selected">
-    <item quantity="one">Valitud %1$d</item>
-    <item quantity="other">Valitud %1$d</item>
-  </plurals>
-  <plurals name="number_of_albums_selected">
-    <item quantity="one">Valitud %1$d</item>
-    <item quantity="other">Valitud %1$d</item>
-  </plurals>
-  <plurals name="number_of_groups_selected">
-    <item quantity="one">Valitud %1$d</item>
-    <item quantity="other">Valitud %1$d</item>
-  </plurals>
     <string name="show_on_map">Näita kaardil</string>
     <string name="rotate_left">Pööra vastupäeva</string>
     <string name="rotate_right">Pööra päripäeva</string>
@@ -52,7 +36,6 @@
     <string name="trim_action">Kärbi</string>
     <string name="set_as">Määramine</string>
     <string name="video_err">Videot ei saa esitada.</string>
-    <string name="crop_saved">Kärbitud pilt salvestati kausta <xliff:g id="FOLDER_NAME">%s</xliff:g>.</string>
     <string name="title">Nimi</string>
     <string name="description">Kirjeldus</string>
     <string name="time">Kellaaeg</string>
@@ -80,7 +63,6 @@
     <string name="unknown">Teadmata</string>
     <string name="try_to_set_local_album_available_offline">See fail on seadmes salvestatud ja võrguühenduseta kättesaadav.</string>
     <string name="please_wait">Palun oota</string>
-    <string name="rendering_photo_sphere">Fotosfääri renderdamine</string>
     <string name="camera_error_title">Kaamera viga</string>
     <string name="cannot_connect_camera">Kaameraga ei saa ühendust.</string>
     <string name="camera_disabled">Kaamera kasutamine on turvareeglitega keelatud.</string>
@@ -88,41 +70,26 @@
     <string name="no_storage" product="default">Enne kaamera kasutamist sisesta SD kaart.</string>
     <string name="preparing_sd" product="default">SD kaardi ettevalmistamine \u2026</string>
     <string name="access_sd_fail" product="default">SD kaardile ei õnnestu ligi pääseda.</string>
-    <string name="time_lapse_title">Intervall pildistamine</string>
+    <string name="time_lapse_title">Intervallvõte</string>
     <string name="capturing">Pildistamine</string>
     <string name="pref_camera_id_title">Kaamera valimine</string>
     <string name="pref_camera_id_entry_back">Tagumine</string>
     <string name="pref_camera_id_entry_front">Esimene</string>
-    <string name="pref_camera_recordlocation_title">Asukoha salvestamine</string>
+    <string name="pref_camera_save_location_title">Asukoha salvestamine</string>
     <string name="pref_camera_location_label">ASUKOHT</string>
     <string name="pref_camera_timer_title">Mahalugev taimer</string>
-  <plurals name="pref_camera_timer_entry">
-    <item quantity="one">1 sekund</item>
-    <item quantity="other">%d sekundit</item>
-  </plurals>
     <string name="pref_camera_timer_sound_default">@string/setting_on_value</string>
     <string name="pref_camera_timer_sound_title">Piiksumine mahalugemisel</string>
     <string name="setting_off">Väljas</string>
     <string name="setting_on">Sees</string>
     <string name="pref_video_quality_title">Video kvaliteet</string>
-    <string name="pref_video_quality_entry_high">Kõrge</string>
-    <string name="pref_video_quality_entry_low">Madal</string>
-    <string name="pref_video_time_lapse_frame_interval_title">Intervall pildistamine</string>
+    <string name="pref_video_time_lapse_frame_interval_title">Intervallvõte</string>
     <string name="pref_camera_settings_category">Kaamera seaded</string>
     <string name="pref_camcorder_settings_category">Videokaamera seaded</string>
     <string name="pref_camera_picturesize_title">Pildi suurus</string>
-    <string name="pref_camera_picturesize_entry_13mp">13M pikslit</string>
-    <string name="pref_camera_picturesize_entry_8mp">8M pikslit</string>
-    <string name="pref_camera_picturesize_entry_5mp">5M pikslit</string>
-    <string name="pref_camera_picturesize_entry_4mp">4M pikslit</string>
-    <string name="pref_camera_picturesize_entry_3mp">3M pikslit</string>
-    <string name="pref_camera_picturesize_entry_2mp">2M pikslit</string>
-    <string name="pref_camera_picturesize_entry_2mp_wide">2M pikslit (16:9)</string>
-    <string name="pref_camera_picturesize_entry_1_5mp">1,5M pikslit</string>
-    <string name="pref_camera_picturesize_entry_1_3mp">1,3M pikslit</string>
-    <string name="pref_camera_picturesize_entry_1mp">1M pikslit</string>
-    <string name="pref_camera_picturesize_entry_vga">VGA</string>
-    <string name="pref_camera_picturesize_entry_qvga">QVGA</string>
+    <string name="pref_camera_picturesize_entry_large">Suur</string>
+    <string name="pref_camera_picturesize_entry_medium">Keskmine</string>
+    <string name="pref_camera_picturesize_entry_small">Väike</string>
     <string name="pref_camera_focusmode_title">Teravustamise režiim</string>
     <string name="pref_camera_focusmode_entry_auto">Automaatne</string>
     <string name="pref_camera_focusmode_entry_infinity">Lõpmatus</string>
@@ -181,6 +148,7 @@
     <string name="pref_camera_id_label_back">ESIMENE KAAMERA</string>
     <string name="pref_camera_id_label_front">TAGUMINE KAAMERA</string>
     <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Tühista</string>
     <string name="spaceIsLow_content" product="default">Su SD kaart on täis saamas. Muuda pildi kvaliteedi seadeid või kustuta mõned pildid või muud failid.</string>
     <string name="video_reach_size_limit">Suurusepiirang on käes.</string>
     <string name="pano_too_fast_prompt">Liiga kiire</string>
@@ -210,19 +178,39 @@
     <string name="effect_silly_faces">RUMALAD NÄOD</string>
     <string name="effect_background">TAUST</string>
     <string name="accessibility_shutter_button">Päästiku nupp</string>
+    <string name="accessibility_cancel_button">Tühistamise nupp</string>
     <string name="accessibility_menu_button">Menüü nupp</string>
-    <string name="accessibility_mode_picker">Foto, video või panoraami valimine</string>
     <string name="accessibility_check_box">%1$s märkeruut</string>
     <string name="accessibility_switch_to_camera">Lülitumine fotokaamerale</string>
     <string name="accessibility_switch_to_video">Lülitumine videokaamerale</string>
     <string name="accessibility_switch_to_panorama">Lülitumine panoraamile</string>
     <string name="accessibility_switch_to_photo_sphere">Lülitumine fotosfäärile</string>
     <string name="accessibility_switch_to_gcam">Lülitumine kõrge kvaliteediga režiimi</string>
+    <string name="accessibility_switch_to_refocus">Lülitumine fookuse muutmisse</string>
     <string name="accessibility_review_cancel">Pildi ülevaatuse katkestamine</string>
     <string name="accessibility_review_ok">Pildi heakskiitmine</string>
     <string name="accessibility_review_retake">Uuesti pildistamine</string>
+    <string name="accessibility_mode_options">Valikud</string>
+    <string name="accessibility_mode_list_hidden">Režiimide nimekiri on nüüd peidetud</string>
+    <string name="accessibility_mode_list_shown">Režiimide nimekiri on nüüd nähtav</string>
+    <string name="media_accessibility_peek">Fail salvestatud</string>
+    <string name="photo_accessibility_peek">Foto tehtud</string>
+    <string name="video_accessibility_peek">Video tehtud</string>
+    <string name="accessibility_unlock_to_camera">Luku avamine kaamera rakendusse</string>
+    <string name="media_date_content_description">Fail on salvestatud %s</string>
+    <string name="photo_date_content_description">Pilt on tehtud %s</string>
+    <string name="video_date_content_description">Video on tehtud %s</string>
+    <string name="panorama_date_content_description">Panoraam on tehtud %s</string>
+    <string name="photosphere_date_content_description">Fotosfäär on tehtud %s</string>
+    <string name="refocus_date_content_description">Fookuse muutmine on tehtud %s</string>
+    <string name="media_processing_content_description">Faili töötlemine</string>
+    <string name="accessibility_mode_list_toggle">Reziimide nimekirja peitmine/näitamine</string>
+    <string name="btn_mode_list_toggle">Režiimide nimekiri</string>
+    <string name="accessibility_filmstrip_toggle">Filmiriba peitmine/näitamine</string>
+    <string name="btn_filmstrip_toggle">Filmiriba</string>
     <string name="capital_on">SEES</string>
     <string name="capital_off">VÄLJAS</string>
+    <string name="video_control_play">Video mängimine</string>
     <string name="pref_video_time_lapse_frame_interval_off">Väljas</string>
     <string name="pref_video_time_lapse_frame_interval_500">0,5 sekundit</string>
     <string name="pref_video_time_lapse_frame_interval_1000">1 sekund</string>
@@ -281,8 +269,96 @@
     <string name="saving_tiny_planet">Miniatuuri salvestamine \u2026</string>
     <string name="tiny_planet_zoom">Suum</string>
     <string name="tiny_planet_rotate">Pööramine</string>
+    <string name="photo_editor">Fototöötlus</string>
     <string name="crop_save">Salvesta</string>
     <string name="cannot_load_image">Pilti ei saa laadida.</string>
     <string name="switch_photo_filmstrip">Filmiriba vaade</string>
     <string name="setting_wallpaper">Taustapildi seadmine</string>
+    <string name="mode_settings">Seaded</string>
+    <string name="mode_camera">Kaamera</string>
+    <string name="mode_video">Video</string>
+    <string name="mode_photosphere">Fotosfäär</string>
+    <string name="mode_timelapse">Intervallvõte</string>
+    <string name="mode_wideangle">Lainurk</string>
+    <string name="mode_panorama">Panoraam</string>
+    <string name="mode_refocus">Fookussügavus muutmine</string>
+    <string name="mode_camera_desc">Lülitumine kaamera režiimi</string>
+    <string name="mode_video_desc">Lülitumine video režiimi</string>
+    <string name="mode_photosphere_desc">Lülitumine fotosfääri režiimi</string>
+    <string name="mode_panorama_desc">Lülitumine panoraami režiimi</string>
+    <string name="mode_refocus_desc">Lülitumine fookussügavuse režiimi</string>
+    <string name="settings_open_desc">Seaded on avatud</string>
+    <string name="settings_close_desc">Seaded on suletud</string>
+    <string name="hdr_plus_off_desc">HDR Plus on välja lülitatud</string>
+    <string name="hdr_plus_on_desc">HDR Plus on sisse lülitatud</string>
+    <string name="hdr_off_desc">HDR on välja lülitatud</string>
+    <string name="hdr_on_desc">HDR on sisse lülitatud</string>
+    <string name="flash_off_desc">Välk on välja lülitatud</string>
+    <string name="flash_auto_desc">Välk on automaatses režiimis</string>
+    <string name="flash_on_desc">Välk on sisse lülitatud</string>
+    <string name="hdr_plus_flash_off_desc">HDR+ välk on välja lülitatud</string>
+    <string name="hdr_plus_flash_auto_desc">HDR+ välk on automaatses režiimis</string>
+    <string name="hdr_plus_flash_on_desc">HDR+ välk on sisse lülitatud</string>
+    <string name="torch_on_desc">Videovalgustus on sisse lülitatud</string>
+    <string name="torch_off_desc">Videovalgustus on välja lülitatud</string>
+    <string name="camera_id_back_desc">Aktiivne on tagumine kaamera</string>
+    <string name="camera_id_front_desc">Aktiivne on eesmine kaamera</string>
+    <string name="grid_lines_off_desc">Abijooned on välja lülitatud</string>
+    <string name="grid_lines_on_desc">Abijooned on sisse lülitatud</string>
+    <string name="countdown_timer_off">Taimer on välja lülitatud</string>
+    <string name="countdown_timer_duration_3s">Taimeri väärtus on seatud 3 sekundile</string>
+    <string name="countdown_timer_duration_10s">Taimeri väärtus on seatud 10 sekundile</string>
+    <string name="more_options_desc">Veel seadeid</string>
+    <string name="cancel_button_description">Katkestamine</string>
+    <string name="done_button_description">Salvestamine</string>
+    <string name="retake_button_description">Uuesti võtmine</string>
+    <string name="share_button_description">Jagamine</string>
+    <string name="view_button_description">Vaatamine</string>
+    <string name="edit_button_description">Töötlemine</string>
+    <string name="delete_button_description">Kustutamine</string>
+    <string name="manual_exposure_compensation_desc">Säri käsitsi kompenseerimine</string>
+    <string name="exposure_compensation_desc_n2">Säri kompensatsioon -2</string>
+    <string name="exposure_compensation_desc_n1">Säri kompensatsioon -1</string>
+    <string name="exposure_compensation_desc_0">Säri kompensatsioon 0</string>
+    <string name="exposure_compensation_desc_p1">Säri kompensatsioon +1</string>
+    <string name="exposure_compensation_desc_p2">Säri kompensatsioon +2</string>
+    <string name="button_change_announcement">Nupu asend nüüd: %s</string>
+    <string name="setting_location">Asukoht</string>
+    <string name="setting_back_camera_photo">Foto tagumise kaameraga</string>
+    <string name="setting_back_camera_video">Video tagumise kaameraga</string>
+    <string name="setting_front_camera_photo">Foto eesmise kaameraga</string>
+    <string name="setting_front_camera_video">Video eesmise kaameraga</string>
+    <string name="setting_default_camera">Vaikimisi kasutatav kaamera</string>
+    <string name="setting_google_help_and_feedback">Abiinfo ja tagasiside</string>
+    <string name="processing_hdr_plus">HDR+ töötlus &#8230;</string>
+    <string name="open_source_licenses">Avatud tarkvara litsentsid</string>
+    <string name="pref_category_general">Üldseaded</string>
+    <string name="pref_category_resolution_quality">Eraldusvõime ja kvaliteet</string>
+    <string name="pref_category_about">Info</string>
+    <string name="pref_title_build_version">Versioon</string>
+    <string name="pref_video_quality_entry_low">Madal</string>
+    <string name="pref_video_quality_entry_high">Kõrge</string>
+    <string name="pref_video_quality_entry_qcif">QCIF</string>
+    <string name="pref_video_quality_entry_cif">CIF</string>
+    <string name="pref_video_quality_entry_480p">SD 480p</string>
+    <string name="pref_video_quality_entry_720p">HD 720p</string>
+    <string name="pref_video_quality_entry_1080p">HD 1080p</string>
+    <string name="pref_video_quality_entry_qvga">QVGA</string>
+    <string name="pref_video_quality_entry_2160p">UHD 4k</string>
+    <string name="setting_summary_x_megapixels">%1$s megapikslit</string>
+    <string name="setting_summary_aspect_ratio_and_megapixels">(%1$d:%2$d) %3$s megapikslit</string>
+    <string name="cling_text_for_refocus_editor_button">Fookuse muutmiseks puuduta seda nuppu</string>
+    <string name="pref_category_advanced">Seaded ekspertidele</string>
+    <string name="pref_camera_exposure_compensation">Säri kompensatsioon</string>
+    <string name="settings_cling_text">Seadetes saad muuta eraldusvõimet ja kvaliteeti ning proovida ekspertidele mõeldud funktsioone</string>
+    <string name="photo_size_selection_title">Foto suuruse valimine</string>
+    <string name="photo_aspect_ratio_selection_content">Seda saad hiljem seadetes muuta</string>
+    <string name="share_to">Jagamine</string>
+    <string name="edit_with">Töötlemine</string>
+    <string name="startup_dialog_button_next">JÄRGMINE</string>
+    <string name="confirm_button_text">OK, SAIN ARU</string>
+    <string name="full_sensor_4x3_aspect_ratio">Täissensor \n(4:3)</string>
+    <string name="cropped_sensor_16x9_aspect_ratio">Kärbitud sensor \n(16:9)</string>
+    <string name="pref_boolean_false">0</string>
+    <string name="pref_boolean_true">1</string>
 </resources>

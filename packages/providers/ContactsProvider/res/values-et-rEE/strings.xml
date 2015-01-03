@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--  Copyright (C) 2009 The Android Open Source Project
-      Copyright (C) 2013 Hasso Tepper
+<!-- Copyright (C) 2009 The Android Open Source Project
+     Copyright (C) 2013 Hasso Tepper
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -15,7 +15,7 @@
      limitations under the License.
  -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+           xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="sharedUserLabel">Androidi tuumikrakendused</string>
     <string name="app_label">Kontaktide salvestusruum</string>
     <string name="provider_label">Kontaktid</string>
@@ -25,8 +25,6 @@
     <string name="upgrade_out_of_memory_notification_text">Lõpuleviimiseks puuduta seda teksti.</string>
     <string name="default_directory">Kontaktid</string>
     <string name="local_invisible_directory">Muu</string>
-    <string name="read_write_all_voicemail_label">ligipääs kõigile kõneposti sõnumitele</string>
-    <string name="read_write_all_voicemail_description">Võimaldab rakendusel salvestada ja vastu võtta kõiki seadme poolt ligipääsetavaid kõneposti sõnumeid.</string>
     <string name="voicemail_from_column">Kõneposti sõnum kontaktilt </string>
     <string name="debug_dump_title">Kontaktide andmebaasi kopeerimine</string>
     <string name="debug_dump_database_message">Sa oled tegemas 1) sisemisse salvestusruumi andmebaasist koopiat, mis sisaldab kogu kontaktidega seotud infot ja kõikide kõnede logi ning 2) seda meiliga saatmas. Ära unusta seda koopiat kustuda kohe, kui oled selle seadmest mujale kopeerinud või kui oled meili kätte saanud.</string>

@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- Copyright (C) 2013 The Android Open Source Project
+     Copyright (C) 2014 Hasso Tepper
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -27,6 +28,13 @@
     <string name="menu_save">Salvesta</string>
     <string name="menu_share">Jaga</string>
     <string name="menu_delete">Kustuta</string>
+    <string name="menu_select">Vali \"<xliff:g id="directory" example="My Directory">^1</xliff:g>\"</string>
+    <string name="menu_advanced_show" product="nosdcard">Näita sisemist salvestusruumi</string>
+    <string name="menu_advanced_show" product="default">Näita SD kaarti</string>
+    <string name="menu_advanced_hide" product="nosdcard">Peida sisemine salvestusruum</string>
+    <string name="menu_advanced_hide" product="default">Peida SD kaart</string>
+    <string name="menu_file_size_show">Näita faili suurust</string>
+    <string name="menu_file_size_hide">Peida faili suurus</string>
     <string name="mode_selected_count"><xliff:g id="count" example="3">%1$d</xliff:g> valitud dokumenti</string>
     <string name="sort_name">Nime järgi</string>
     <string name="sort_date">Muutmise aja järgi</string>
@@ -42,9 +50,6 @@
     <string name="root_type_shortcut">Viited</string>
     <string name="root_type_device">Seadmed</string>
     <string name="root_type_apps">Veel rakendusi</string>
-    <string name="pref_advanced_devices">Salvestusseadmete näitamine</string>
-    <string name="pref_file_size">Faili suuruse näitamine</string>
-    <string name="pref_device_size">Seadme suuruse näitamine</string>
     <string name="empty">Dokumente pole</string>
     <string name="toast_no_application">Faili ei saa avada</string>
     <string name="toast_failed_delete">Mõnda dokumenti ei saa kustutada</string>

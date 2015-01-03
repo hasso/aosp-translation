@@ -150,6 +150,14 @@
     <item>Ainult siis, kui on ühendatud</item>
     <item>Mitte kunagi</item>
   </string-array>
+  <string-array name="data_usage_data_range">
+    <item>Viimased 30 päeva</item>
+    <item>Määra kasutustsükkel \u2026</item>
+  </string-array>
+  <string-array name="sim_card_data_range">
+    <item>4 viimast numbrit</item>
+    <item>4 esimest numbrit</item>
+  </string-array>
   <string-array name="wifi_frequency_band_entries">
     <item>Automaatne</item>
     <item>Ainult 5 GHz</item>
@@ -185,11 +193,6 @@
   <string-array name="wifi_proxy_settings">
     <item>Puudub</item>
     <item>Käsitsi seatud</item>
-  </string-array>
-  <string-array name="emergency_tone_entries">
-    <item>Väljas</item>
-    <item>Märguanne</item>
-    <item>Vibreerimine</item>
   </string-array>
   <string-array name="apn_auth_entries">
     <item>Puudub</item>
@@ -314,28 +317,18 @@
     <item>Kontuur</item>
     <item>Vari</item>
   </string-array>
-  <string-array name="captioning_opacity_selector_titles" >
+  <string-array name="captioning_opacity_selector_titles">
     <item>25%</item>
     <item>50%</item>
     <item>75%</item>
     <item>100%</item>
   </string-array>
-  <string-array name="captioning_preset_selector_titles" >
+  <string-array name="captioning_preset_selector_titles">
     <item>Valge mustal</item>
     <item>Must valgel</item>
     <item>Kollane mustal</item>
     <item>Kollane sinisel</item>
     <item>Kohandatud</item>
-  </string-array>
-  <string-array name="select_runtime_titles">
-    <item>Dalvik</item>
-    <item>ART</item>
-    <item>ART (silumisinfoga)</item>
-  </string-array>
-  <string-array name="select_runtime_summaries" >
-    <item>Dalvik</item>
-    <item>ART</item>
-    <item>Silumisinfoga ART</item>
   </string-array>
   <string-array name="hdcp_checking_titles">
     <item>Mitte kunagi</item>
@@ -438,5 +431,32 @@
     <item>rahuldav</item>
     <item>madal</item>
     <item>kriitiline</item>
+  </string-array>
+  <string-array name="entries_zen_mode">
+    <item>Väljas</item>
+    <item>Piiratud hulk segajaid</item>
+    <item>Mitte ühtegi segajat</item>
+  </string-array>
+  <string-array name="proc_stats_memory_states">
+    <item>Normaalne</item>
+    <item>Keskmine</item>
+    <item>Madal</item>
+    <item>Kriitiline</item>
+  </string-array>
+  <string-array name="proc_stats_process_states">
+    <item>Püsiv</item>
+    <item>Aktiivseim</item>
+    <item>Oluline (esiplaanil)</item>
+    <item>Oluline (taustal)</item>
+    <item>Varundus</item>
+    <item>Ressursinõudlik</item>
+    <item>Teenus (käimas)</item>
+    <item>Teenus (taaskäivitus)</item>
+    <item>Vastuvõtja</item>
+    <item>Kodu</item>
+    <item>Viimane tegevus</item>
+    <item>Puhverdatud (tegevus)</item>
+    <item>Puhverdatud (tegevuse klient)</item>
+    <item>Puhverdatud (tühi)</item>
   </string-array>
 </resources>

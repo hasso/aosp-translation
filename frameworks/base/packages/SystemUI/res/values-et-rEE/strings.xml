@@ -2,7 +2,7 @@
 <!-- 
 /**
  * Copyright (c) 2009, The Android Open Source Project
- * Copyright (c) 2013, Hasso Tepper
+ * Copyright (c) 2013-2015, Hasso Tepper
  *
  * Licensed under the Apache License, Version 2.0 (the "License"); 
  * you may not use this file except in compliance with the License. 
@@ -19,28 +19,33 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_label">Süsteemi UI</string>
-    <string name="status_bar_clear_all_button">Kustuta</string>
+    <string name="status_bar_clear_all_button">Tühjenda</string>
     <string name="status_bar_recent_remove_item_title">Eemalda nimekirjast</string>
     <string name="status_bar_recent_inspect_item_title">Rakenduse info</string>
-    <string name="status_bar_no_recent_apps">Hiljuti kasutatud rakendusi pole</string>
+    <string name="status_bar_no_recent_apps">Siia ilmuvad su hiljuti kasutatud rakendused</string>
     <string name="status_bar_accessibility_dismiss_recents">Loobu hiljutistest rakendustest</string>
   <plurals name="status_bar_accessibility_recent_apps">
-    <item quantity="one">1 hiljuti kasutatud rakendus</item>
-    <item quantity="other">%d hiljuti kasutatud rakendust</item>
+    <item quantity="one">Ülevaates on 1 ekraan</item>
+    <item quantity="other">Ülevaates on %d ekraani</item>
   </plurals>
     <string name="status_bar_no_notifications_title">Märguandeid pole</string>
     <string name="status_bar_ongoing_events_title">Käimasolev</string>
     <string name="status_bar_latest_events_title">Märguanded</string>
     <string name="battery_low_title">Ühenda laadija</string>
-    <string name="battery_low_subtitle">Aku hakkab tühjenema.</string>
     <string name="battery_low_percent_format">Laengust on alles <xliff:g id="NUMBER">%d%%</xliff:g></string>
+    <string name="battery_low_percent_format_saver_started">Laengust on alles <xliff:g id="number">%d%%</xliff:g> protsenti. Aku säästmise režiim on sisse lülitatud.</string>
     <string name="invalid_charger">USB pordist laadimine pole toetatud.\nKasuta ainult tootja poolt seadmega kaasa pandud laadijat.</string>
+    <string name="invalid_charger_title">USB pordist laadimine pole toetatud.</string>
+    <string name="invalid_charger_text">Kasuta ainult tootja poolt seadmega kaasa pandud laadijat.</string>
     <string name="battery_low_why">Akukasutus</string>
+    <string name="battery_saver_confirmation_title">Kas lülitada aku säästmise režiim sisse?</string>
+    <string name="battery_saver_confirmation_ok">Lülita sisse</string>
+    <string name="battery_saver_start_action">Aku säästmise režiimi sisse lülitamine</string>
     <string name="status_bar_settings_settings_button">Seaded</string>
     <string name="status_bar_settings_wifi_button">WiFi</string>
     <string name="status_bar_settings_airplane">Lennurežiim</string>
     <string name="status_bar_settings_auto_rotation">Ekraani automaatne pööramine</string>
-    <string name="status_bar_settings_mute_label">SUMMUTA</string>
+    <string name="status_bar_settings_mute_label">VAIGISTA</string>
     <string name="status_bar_settings_auto_brightness_label">AUTO</string>
     <string name="status_bar_settings_notifications">Märguanded</string>
     <string name="bluetooth_tethered">Bluetooth kaudu jagatud võrguühendus</string>
@@ -77,6 +82,11 @@
     <string name="accessibility_recent">Hiljuti kasutatud rakendused</string>
     <string name="accessibility_search_light">Otsing</string>
     <string name="accessibility_camera_button">Kaamera</string>
+    <string name="accessibility_phone_button">Telefon</string>
+    <string name="accessibility_unlock_button">Lukustuse eemaldamine</string>
+    <string name="unlock_label">lukustuse eemaldamine</string>
+    <string name="phone_label">telefoni avamine</string>
+    <string name="camera_label">kaamera avamine</string>
     <string name="accessibility_ime_switch_button">Sisestusmeetodi vahetamise nupp.</string>
     <string name="accessibility_compatibility_zoom_button">Sobivussuumi nupp.</string>
     <string name="accessibility_compatibility_zoom_example">Väiksemale ekraanile mõeldud rakenduse suumimine suuremale ekraanile.</string>
@@ -103,6 +113,8 @@
     <string name="accessibility_wifi_two_bars">WiFi signaal: kaks pulka.</string>
     <string name="accessibility_wifi_three_bars">WiFi signaal: kolm pulka.</string>
     <string name="accessibility_wifi_signal_full">WiFi signaal on tugev.</string>
+    <string name="accessibility_wifi_name">Ühendatud <xliff:g id="wifi" example="Home Network">%s</xliff:g> võrguga.</string>
+    <string name="accessibility_bluetooth_name">Ühendatud <xliff:g id="bluetooth" example="Car Audio">%s</xliff:g> seadmega.</string>
     <string name="accessibility_no_wimax">WiMAX signaal puudub.</string>
     <string name="accessibility_wimax_one_bar">WiMAX signaal: üks pulk.</string>
     <string name="accessibility_wimax_two_bars">WiMAX signaal: kaks pulka.</string>
@@ -118,6 +130,7 @@
     <string name="accessibility_desc_on">Sees.</string>
     <string name="accessibility_desc_off">Väljas.</string>
     <string name="accessibility_desc_connected">Ühendatud.</string>
+    <string name="accessibility_desc_connecting">Ühendamine.</string>
     <string name="accessibility_data_connection_gprs">GPRS</string>
     <string name="accessibility_data_connection_1x">1 X</string>
     <string name="accessibility_data_connection_hspa">HSPA</string>
@@ -141,18 +154,49 @@
     <string name="accessibility_tty_enabled">TTY on lubatud.</string>
     <string name="accessibility_ringer_vibrate">Telefonihelin ka vibreerib.</string>
     <string name="accessibility_ringer_silent">Telefonihelin on vaigistatud.</string>
-    <string name="accessibility_recents_item_dismissed">Loobusid rakendusest <xliff:g id="APP">%s</xliff:g>.</string>
+    <string name="accessibility_recents_item_will_be_dismissed">Rakenduse <xliff:g id="app" example="Calendar">%s</xliff:g> eemaldamine.</string>
+    <string name="accessibility_recents_item_dismissed"><xliff:g id="app" example="Calendar">%s</xliff:g> eemaldatud.</string>
+    <string name="accessibility_recents_item_launched"><xliff:g id="app" example="Calendar">%s</xliff:g> käivitatud.</string>
     <string name="accessibility_notification_dismissed">Märguanne eemaldatud.</string>
     <string name="accessibility_desc_notification_shade">Märguannete laegas.</string>
     <string name="accessibility_desc_quick_settings">Kiirseaded.</string>
+    <string name="accessibility_desc_lock_screen">Ekraani lukustamine.</string>
+    <string name="accessibility_desc_settings">Seaded</string>
     <string name="accessibility_desc_recent_apps">Hiljuti kasutatud rakendused</string>
     <string name="accessibility_quick_settings_user">Kasutaja <xliff:g id="USER">%s</xliff:g>.</string>
-    <string name="accessibility_quick_settings_wifi"><xliff:g id="SIGNAL">%1$s</xliff:g>. <xliff:g id="NETWORK">%2$s</xliff:g></string>
+    <string name="accessibility_quick_settings_wifi"><xliff:g id="signal" example="Three bars">%1$s</xliff:g>.</string>
+    <string name="accessibility_quick_settings_wifi_changed_off">WiFi lülitati välja.</string>
+    <string name="accessibility_quick_settings_wifi_changed_on">WiFi lülitati siise.</string>
     <string name="accessibility_quick_settings_mobile">Mobiili <xliff:g id="SIGNAL">%1$s</xliff:g>. <xliff:g id="TYPE">%2$s</xliff:g>. <xliff:g id="NETWORK">%3$s</xliff:g>.</string>
     <string name="accessibility_quick_settings_battery">Aku: <xliff:g id="STATE">%s</xliff:g>.</string>
-    <string name="accessibility_quick_settings_airplane">Lennukirežiim: <xliff:g id="STATE">%s</xliff:g>.</string>
-    <string name="accessibility_quick_settings_bluetooth">Bluetooth: <xliff:g id="STATE">%s</xliff:g>.</string>
+    <string name="accessibility_quick_settings_airplane_off">Lennurežiim on välja lülitatud.</string>
+    <string name="accessibility_quick_settings_airplane_on">Lennurežiim on sisse lülitatud.</string>
+    <string name="accessibility_quick_settings_airplane_changed_off">Lennurežiim lülitati välja.</string>
+    <string name="accessibility_quick_settings_airplane_changed_on">Lennurežiim lülitati sisse.</string>
+    <string name="accessibility_quick_settings_bluetooth_off">Bluetooth on välja lülitatud.</string>
+    <string name="accessibility_quick_settings_bluetooth_on">Bluetooth on sisse lülitatud.</string>
+    <string name="accessibility_quick_settings_bluetooth_connecting">Bluetooth ühenduse loomine.</string>
+    <string name="accessibility_quick_settings_bluetooth_connected">Bluetooth ühendus on olemas.</string>
+    <string name="accessibility_quick_settings_bluetooth_changed_off">Bluetooth lülitati välja.</string>
+    <string name="accessibility_quick_settings_bluetooth_changed_on">Bluetooth lülitati sisse.</string>
+    <string name="accessibility_quick_settings_location_off">Asukohainfo jagamine on välja lülitatud.</string>
+    <string name="accessibility_quick_settings_location_on">Asukohainfo jagamine on sisse lülitatud.</string>
+    <string name="accessibility_quick_settings_location_changed_off">Asukohainfo jagamine lülitati välja.</string>
+    <string name="accessibility_quick_settings_location_changed_on">Asukohainfo jagamine lülitati sisse.</string>
     <string name="accessibility_quick_settings_alarm">Määratud äratus: <xliff:g id="TIME">%s</xliff:g></string>
+    <string name="accessibility_quick_settings_close">Paneeli sulgemine.</string>
+    <string name="accessibility_quick_settings_more_time">Aja pikendamine.</string>
+    <string name="accessibility_quick_settings_less_time">Aja lühendamine.</string>
+    <string name="accessibility_quick_settings_flashlight_off">Taskulamp on välja lülitatud.</string>
+    <string name="accessibility_quick_settings_flashlight_on">Taskulamp on sisse lülitatud.</string>
+    <string name="accessibility_quick_settings_flashlight_changed_off">Taskulamp lülitati välja.</string>
+    <string name="accessibility_quick_settings_flashlight_changed_on">Taskulamp lülitati sisse.</string>
+    <string name="accessibility_quick_settings_color_inversion_changed_off">Värvide pööramine on välja lülitatud.</string>
+    <string name="accessibility_quick_settings_color_inversion_changed_on">Võrvide pööramine on sisse lülitatud.</string>
+    <string name="accessibility_quick_settings_hotspot_changed_off">Mobiilne interneti pääsupunkt lülitati välja.</string>
+    <string name="accessibility_quick_settings_hotspot_changed_on">Mobiilne interneti pääsupunkt lülitati sisse.</string>
+    <string name="accessibility_casting_turned_off">Ekraanipildi saatmine peatati.</string>
+    <string name="accessibility_brightness">Ekraani heledus</string>
     <string name="data_usage_disabled_dialog_3g_title">2G/3G andmeside keelatud</string>
     <string name="data_usage_disabled_dialog_4g_title">4G andmeside keelatud</string>
     <string name="data_usage_disabled_dialog_mobile_title">Mobiilne andmeside keelatud</string>
@@ -165,10 +209,14 @@
     <string name="gps_notification_found_text">Asukoht GPS-i abil seatud.</string>
     <string name="accessibility_location_active">Asukohainfo päringud on aktiivsed</string>
     <string name="accessibility_clear_all">Kõigi märguannete kustutamine.</string>
-    <string name="status_bar_notification_inspect_item_title">Info</string>
+    <string name="status_bar_notification_inspect_item_title">Märguande seaded</string>
+    <string name="status_bar_notification_app_settings_title">Rakenduse <xliff:g id="app_name" example="Calendar">%s</xliff:g> seaded</string>
     <string name="accessibility_rotation_lock_off">Ekraani pööramine toimub automaatselt.</string>
-    <string name="accessibility_rotation_lock_on_landscape">Ekraan on lukustatud horisontaalasendisse.</string>
-    <string name="accessibility_rotation_lock_on_portrait">Ekraan on lukustatud vertikaalasendisse.</string>
+    <string name="accessibility_rotation_lock_on_landscape">Ekraan on rõhtasendisse lukustatud.</string>
+    <string name="accessibility_rotation_lock_on_portrait">Ekraan on püstasendisse lukustatud.</string>
+    <string name="accessibility_rotation_lock_off_changed">Ekraani pööramineatoimub nüüd automaatselt.</string>
+    <string name="accessibility_rotation_lock_on_landscape_changed">Ekraan on nüüd lukustatud rõhtasendisse.</string>
+    <string name="accessibility_rotation_lock_on_portrait_changed">Ekraan on nüüd lukustatud püstasendisse.</string>
     <string name="dessert_case">Maiustuste karp</string>
     <string name="start_dreams">Unistamine</string>
     <string name="ethernet_label">Ethernet</string>
@@ -178,9 +226,12 @@
     <string name="quick_settings_bluetooth_label">Bluetooth</string>
     <string name="quick_settings_bluetooth_multiple_devices_label">Bluetooth (<xliff:g id="NUMBER">%d</xliff:g> seadet)</string>
     <string name="quick_settings_bluetooth_off_label">Bluetooth väljas</string>
+    <string name="quick_settings_bluetooth_detail_empty_text">Seotud seadmeid pole</string>
     <string name="quick_settings_brightness_label">Heledus</string>
     <string name="quick_settings_rotation_unlocked_label">Automaatne pööramine</string>
     <string name="quick_settings_rotation_locked_label">Pööramine lukus</string>
+    <string name="quick_settings_rotation_locked_portrait_label">Püstasend</string>
+    <string name="quick_settings_rotation_locked_landscape_label">Rõhtasend</string>
     <string name="quick_settings_ime_label">Sisestusmeetod</string>
     <string name="quick_settings_location_label">Asukoha määramine</string>
     <string name="quick_settings_location_off_label">Asukoha määramine väljas</string>
@@ -190,13 +241,117 @@
     <string name="quick_settings_settings_label">Seaded</string>
     <string name="quick_settings_time_label">Aeg</string>
     <string name="quick_settings_user_label">Mina</string>
+    <string name="quick_settings_user_title">Kasutaja</string>
+    <string name="quick_settings_user_new_user">Uus kasutaja</string>
     <string name="quick_settings_wifi_label">WiFi</string>
     <string name="quick_settings_wifi_not_connected">Ühendus puudub</string>
     <string name="quick_settings_wifi_no_network">Võrku pole</string>
     <string name="quick_settings_wifi_off_label">WiFi väljas</string>
-    <string name="quick_settings_wifi_display_label">WiFi ekraan</string>
-    <string name="quick_settings_wifi_display_no_connection_label">Juhtmeta ühendusega ekraan</string>
+    <string name="quick_settings_wifi_detail_empty_text">Salvestatud võrke pole</string>
+    <string name="quick_settings_cast_title">Ekraanipildi saatmine</string>
+    <string name="quick_settings_casting">Pildi saatmine</string>
+    <string name="quick_settings_cast_device_default_name">Nimetu seade</string>
+    <string name="quick_settings_cast_device_default_description">Pildi saatmiseks valmis</string>
+    <string name="quick_settings_cast_detail_empty_text">Pole kellelegi saata</string>
     <string name="quick_settings_brightness_dialog_title">Heledus</string>
     <string name="quick_settings_brightness_dialog_auto_brightness_label">AUTOMAATNE</string>
+    <string name="quick_settings_inversion_label">Värvide pööramine</string>
+    <string name="quick_settings_color_space_label">Värvikorrektsiooni režiim</string>
+    <string name="quick_settings_more_settings">Veel seadeid</string>
+    <string name="quick_settings_done">Valmis</string>
+    <string name="quick_settings_connected">Ühendatud</string>
+    <string name="quick_settings_connecting">Ühendamine \u2026</string>
+    <string name="quick_settings_tethering_label">Jagamine</string>
+    <string name="quick_settings_hotspot_label">Pääsupunkt</string>
+    <string name="quick_settings_notifications_label">Märguanded</string>
+    <string name="quick_settings_flashlight_label">Taskulamp</string>
+    <string name="quick_settings_cellular_detail_title">Mobiilne andmeside</string>
+    <string name="quick_settings_cellular_detail_data_usage">Andmeside kasutus</string>
+    <string name="quick_settings_cellular_detail_remaining_data">Limiidini jäänud andmeside maht</string>
+    <string name="quick_settings_cellular_detail_over_limit">Limiit on ületatud &#8211; andmeside kasutamine on peatatud</string>
+    <string name="quick_settings_cellular_detail_data_used">Kasutatud: <xliff:g id="data_used" example="2.0 GB">%s</xliff:g></string>
+    <string name="quick_settings_cellular_detail_data_limit">Limiit: <xliff:g id="data_limit" example="2.0 GB">%s</xliff:g></string>
+    <string name="quick_settings_cellular_detail_data_warning">Hoiatus: <xliff:g id="data_limit" example="2.0 GB">%s</xliff:g></string>
+    <string name="recents_empty_message">Siia ilmuvad su hiljuti kasutatud ekraanid</string>
+    <string name="recents_app_info_button_label">Rakenduse info</string>
+    <string name="recents_lock_to_app_button_label">rakendusse lukustamine</string>
+    <string name="recents_search_bar_label">otsi</string>
+    <string name="recents_launch_error_message">Rakendust „<xliff:g id="app" example="Calendar">%s</xliff:g>“ ei õnnestunud käivitada.</string>
+    <string name="expanded_header_battery_charged">Laetud</string>
+    <string name="expanded_header_battery_charging">Laadimine</string>
+    <string name="expanded_header_battery_charging_with_time"><xliff:g id="charging_time" example="2 hrs 25 min">%s</xliff:g> täitumiseni</string>
+    <string name="expanded_header_battery_not_charging">Laadimist ei toimu</string>
     <string name="ssl_ca_cert_warning">Võrguühendust\nvõidakse jälgida</string>
+    <string name="description_target_search">Otsing</string>
+    <string name="description_direction_up"><xliff:g id="target_description" example="Unlock">%s</xliff:g> libista lukku üles.</string>
+    <string name="description_direction_left"><xliff:g id="target_description" example="Unlock">%s</xliff:g> libista lukku vasakule.</string>
+    <string name="zen_no_interruptions_with_warning">Mitte häirida. Isegi alarme mitte.</string>
+    <string name="zen_no_interruptions">Mitte häirida</string>
+    <string name="zen_important_interruptions">Ainult olulised asjad</string>
+    <string name="zen_alarm_information_time">Su järgmine alarm on <xliff:g id="alarm_time" example="5:00 PM">%s</xliff:g></string>
+    <string name="zen_alarm_information_day_time">Su järgmine alarm on <xliff:g id="alarm_day_and_time" example="Fri 5:00 PM">%s</xliff:g></string>
+    <string name="zen_alarm_warning">Alarmi <xliff:g id="alarm_time" example="5:00 PM">%s</xliff:g> sa ei kuule</string>
+    <string name="keyguard_more_overflow_text">+<xliff:g id="number_of_notifications" example="5">%d</xliff:g></string>
+    <string name="speed_bump_explanation">Vähem olulised märguanded on allpool</string>
+    <string name="notification_tap_again">Avamiseks puuduta märguannet uuesti</string>
+    <string name="keyguard_unlock">Lukustuse avamiseks libista lukku üles</string>
+    <string name="phone_hint">Telefoni avamiseks libista lukku paremale</string>
+    <string name="camera_hint">Kaamera avamiseks libista lukku vasakule</string>
+    <string name="interruption_level_none">Mitte miski</string>
+    <string name="interruption_level_priority">Olulised</string>
+    <string name="interruption_level_all">Kõik</string>
+    <string name="keyguard_indication_charging_time">Laadimine (<xliff:g id="charging_time_left" example="4 hours and 2 minutes">%s</xliff:g> täitumiseni)</string>
+    <string name="accessibility_multi_user_switch_switcher">Kasutaja vahetamine</string>
+    <string name="accessibility_multi_user_switch_switcher_with_current">Kasutaja vahetamine, hetkel on aktiivne kasutaja <xliff:g id="current_user_name" example="John Doe">%s</xliff:g></string>
+    <string name="accessibility_multi_user_switch_quick_contact">Profiili näitamine</string>
+    <string name="user_add_user">Lisa kasutaja</string>
+    <string name="user_new_user_name">Uus kasutaja</string>
+    <string name="guest_nickname">Külaline</string>
+    <string name="guest_new_guest">Lisa külaline</string>
+    <string name="guest_exit_guest">Eemalda külaline</string>
+    <string name="guest_exit_guest_dialog_title">Eemaldada külaline?</string>
+    <string name="guest_exit_guest_dialog_message">Kõik selle sessiooni rakendused ja andmed kustutatakse.</string>
+    <string name="guest_exit_guest_dialog_remove">Eemalda</string>
+    <string name="guest_wipe_session_title">Tere tulemast tagasi, külaline!</string>
+    <string name="guest_wipe_session_message">Soovid sa oma sessiooni jätkata?</string>
+    <string name="guest_wipe_session_wipe">Alusta uut</string>
+    <string name="guest_wipe_session_dontwipe">Jah, jätka</string>
+    <string name="user_add_user_title">Lisada uus kasutaja?</string>
+    <string name="user_add_user_message_short">Kui oled uue kasutaja lisanud, peab see kasutaja ise oma ruumi seadistama.\n\nKa teiste kasutajate rakendusi uuendanda saavad kõik kasutajad.</string>
+    <string name="battery_saver_notification_title">Aku säästurežiim on sisse lülitatud</string>
+    <string name="battery_saver_notification_text">Vähendab jõudlust ja taustaandmete kasutamist</string>
+    <string name="battery_saver_notification_action_text">Lülita aku säästurežiim välja</string>
+    <string name="battery_level_template"><xliff:g id="level" example="45">%d</xliff:g>%%</string>
+    <string name="notification_hidden_text">Sisu on peidetud</string>
+    <string name="media_projection_dialog_text"><xliff:g id="app_seeking_permission" example="Hangouts">%s</xliff:g> alustab kõige ekraanil toimuva salvestamist.</string>
+    <string name="media_projection_remember_text">Seda pole vaja rohkem näidata</string>
+    <string name="clear_all_notifications_text">Eemalda kõik</string>
+    <string name="media_projection_action_text">Käivita kohe</string>
+    <string name="empty_shade_text">Märguandeid pole</string>
+    <string name="device_owned_footer">Seadet võidakse jälgida</string>
+    <string name="profile_owned_footer">Profiili võidakse jälgida</string>
+    <string name="vpn_footer">Võrguliiklust võidakse jälgida</string>
+    <string name="monitoring_title_device_owned">Seadme jälgimine</string>
+    <string name="monitoring_title_profile_owned">Profiili jälgimine</string>
+    <string name="monitoring_title">Võrguliikluse jälgimine</string>
+    <string name="disable_vpn">Keela VPN</string>
+    <string name="disconnect_vpn">Katkesta VPN ühendus</string>
+    <string name="monitoring_description_device_owned">Seda seadet haldab\n<xliff:g id="organization">%1$s</xliff:g>\n\nSu administraator saab jälgida su seadet ja võrguliiklust, sh e-posti, rakendusi ja ühendusi turvaliste veebisaitidega.\n\nKui soovid rohkem infot, võta ühendust oma administraatoriga.</string>
+    <string name="monitoring_description_vpn">„<xliff:g id="application">%1$s</xliff:g>“ on saanud sult õiguse VPN ühendust luua.\n\nSee rakendus saab jälgida su seadet ja võrguliiklust, sh e-posti, rakendusi ja ühendusi turvaliste veebisaitidega.</string>
+    <string name="monitoring_description_legacy_vpn">VPN ühendus on aktiivne („<xliff:g id="application">%1$s</xliff:g>“).\n\nSu VPN teenuse pakkuja saab jälgida su seadet ja võrguliiklust, sh e-posti, rakendusi ja ühendusi turvaliste veebisaitidega.</string>
+    <string name="monitoring_description_vpn_device_owned">Seda seadet haldab\n<xliff:g id="organization">%1$s</xliff:g>\n\nSu administraator saab jälgida su seadet ja võrguliiklust, sh e-posti, rakendusi ja ühendusi turvaliste veebisaitidega.\n\nKui soovid rohkem infot, võta ühendust oma administraatoriga.\n\nSamuti on „<xliff:g id="application">%2$s</xliff:g>“ saanud sult õiguse VPN ühendust luua. Ka see rakendus saab su võrguliiklust jälgida.</string>
+    <string name="monitoring_description_legacy_vpn_device_owned">Seda seadet haldab\n<xliff:g id="organization">%1$s</xliff:g>\n\nSu administraator saab jälgida su seadet ja võrguliiklust, sh e-posti, rakendusi ja ühendusi turvaliste veebisaitidega.\n\nKui soovid rohkem infot, võta ühendust oma administraatoriga.\n\nSamuti on sul aktiivne VPN ühendus („<xliff:g id="application">%2$s</xliff:g>“). Kas su VPN teenuse pakkuja saab su võrguliiklust jälgida.</string>
+    <string name="monitoring_description_profile_owned">Seda profiili haldab\n<xliff:g id="organization">%1$s</xliff:g>\n\nSu administraator saab jälgida su seadet ja võrguliiklust, sh e-posti, rakendusi ja ühendusi turvaliste veebisaitidega.\n\nKui soovid rohkem infot, võta ühendust oma administraatoriga.</string>
+    <string name="monitoring_description_device_and_profile_owned">Seda seadet haldab\n<xliff:g id="organization">%1$s</xliff:g>\nSu profiili haldab\n<xliff:g id="organization">%2$s</xliff:g>\n\nSu administraator saab jälgida su seadet ja võrguliiklust, sh e-posti, rakendusi ja ühendusi turvaliste veebisaitidega.\n\nKui soovid rohkem infot, võta ühendust oma administraatoriga.</string>
+    <string name="monitoring_description_vpn_profile_owned">Seda profiili haldab\n<xliff:g id="organization">%1$s</xliff:g>\n\nSu administraator saab jälgida su seadet ja võrguliiklust, sh e-posti, rakendusi ja ühendusi turvaliste veebisaitidega.\n\nKui soovid rohkem infot, võta ühendust oma administraatoriga.\n\nSamuti on „<xliff:g id="application">%2$s</xliff:g>“ saanud sult õiguse VPN ühendust luua. Ka see rakendus saab su võrguliiklust jälgida.</string>
+    <string name="monitoring_description_legacy_vpn_profile_owned">Seda profiili haldab\n<xliff:g id="organization">%1$s</xliff:g>\n\nSu administraator saab jälgida su seadet ja võrguliiklust, sh e-posti, rakendusi ja ühendusi turvaliste veebisaitidega.\n\nKui soovid rohkem infot, võta ühendust oma administraatoriga.\n\nSamuti on sul aktiivne VPN ühendus („<xliff:g id="application">%2$s</xliff:g>“). Kas su VPN teenuse pakkuja saab su võrguliiklust jälgida.</string>
+    <string name="monitoring_description_vpn_device_and_profile_owned">Seda seadet haldab\n<xliff:g id="organization">%1$s</xliff:g>\nSu profiili haldab\n<xliff:g id="organization">%2$s</xliff:g>\n\nSu administraator saab jälgida su seadet ja võrguliiklust, sh e-posti, rakendusi ja ühendusi turvaliste veebisaitidega.\n\nKui soovid rohkem infot, võta ühendust oma administraatoriga.\n\nSamuti on „<xliff:g id="application">%3$s</xliff:g>“ saanud sult õiguse VPN ühendust luua. Ka see rakendus saab su võrguliiklust jälgida.</string>
+    <string name="monitoring_description_legacy_vpn_device_and_profile_owned">Seda seadet haldab\n<xliff:g id="organization">%1$s</xliff:g>\nSu profiili haldab\n<xliff:g id="organization">%2$s</xliff:g>\n\nSu administraator saab jälgida su seadet ja võrguliiklust, sh e-posti, rakendusi ja ühendusi turvaliste veebisaitidega.\n\nKui soovid rohkem infot, võta ühendust oma administraatoriga.\n\nSamuti on sul aktiivne VPN ühendus („<xliff:g id="application">%3$s</xliff:g>“). Kas su VPN teenuse pakkuja saab su võrguliiklust jälgida.</string>
+    <string name="keyguard_indication_trust_disabled">Seade jääb nüüd lukustatuks kuni sa selle käsitsi avad</string>
+    <string name="hidden_notifications_title">Info märguannetest kiiremini kätte</string>
+    <string name="hidden_notifications_text">Mägruandeid saab vaadata ka enne lukustuse eemaldamist</string>
+    <string name="hidden_notifications_cancel">Tänan, ei</string>
+    <string name="hidden_notifications_setup">Teeme ära</string>
+    <string name="muted_by">Vaigistanud <xliff:g id="third_party">%1$s</xliff:g></string>
+    <string name="zen_mode_and_condition"><xliff:g id="zen_mode" example="Priority interruptions only">%1$s</xliff:g>. <xliff:g id="exit_condition" example="For one hour">%2$s</xliff:g></string>
 </resources>

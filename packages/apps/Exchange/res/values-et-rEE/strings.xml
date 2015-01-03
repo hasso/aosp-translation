@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--  Copyright (C) 2008 The Android Open Source Project
-      Copyright (C) 2013 Hasso Tepper
+<!-- Copyright (C) 2008 The Android Open Source Project
+     Copyright (C) 2013-2015 Hasso Tepper
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -62,4 +62,5 @@
     <string name="account_setup_options_mail_window_all">Kõik</string>
     <string name="auth_error_notification_title">Viga autentimisel</string>
     <string name="auth_error_notification_text">„<xliff:g id="account">%s</xliff:g>“ konto seadete muutmiseks puuduta seda teksti.</string>
+    <string name="email_settings_not_available">Seadete vaatamiseks luba uuesti E-posti rakenduse kasutamine.</string>
 </resources>

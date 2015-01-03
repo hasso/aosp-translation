@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--  Copyright (C) 2007 The Android Open Source Project
-      Copyright (C) 2013 Hasso Tepper
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Copyright (C) 2013-2015 Hasso Tepper
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -16,49 +16,44 @@
  -->
 <resources>
     <string name="app_name">Kalkulaator</string>
-    <string name="error">Viga</string>
-    <string name="digit0">0</string>
-    <string name="digit1">1</string>
-    <string name="digit2">2</string>
-    <string name="digit3">3</string>
-    <string name="digit4">4</string>
-    <string name="digit5">5</string>
-    <string name="digit6">6</string>
-    <string name="digit7">7</string>
-    <string name="digit8">8</string>
-    <string name="digit9">9</string>
-    <string name="del">KUSTUTA</string>
-    <string name="clear">CLR</string>
-    <string name="sin">sin</string>
-    <string name="cos">cos</string>
-    <string name="tan">tan</string>
-    <string name="e">e</string>
-    <string name="ln">ln</string>
-    <string name="lg">log</string>
-    <string name="leftParen">(</string>
-    <string name="rightParen">)</string>
-    <string name="basic">Põhipaneel</string>
-    <string name="advanced">Täpsem paneel</string>
-    <string name="clear_history">Kustuta ajalugu</string>
-    <string name="text_copied_toast">Tekst on kopeeritud.</string>
-    <string name="leftParenDesc">vasak sulg</string>
-    <string name="rightParenDesc">parem sulg</string>
-    <string name="factorialDesc">faktoriaal</string>
-    <string name="lnDesc">naturaallogaritm</string>
-    <string name="lgDesc">logaritm</string>
-    <string name="sqrtDesc">ruutjuur</string>
-    <string name="divDesc">jagamine</string>
-    <string name="mulDesc">korrutamine</string>
-    <string name="plusDesc">pluss</string>
-    <string name="minusDesc">miinus</string>
-    <string name="dotDesc">koma</string>
-    <string name="powerDesc">aste</string>
-    <string name="delDesc">kustutamine</string>
-    <string name="clearDesc">puhastamine</string>
-    <string name="tanDesc">tangens</string>
-    <string name="sinDesc">siinus</string>
-    <string name="cosDesc">koosinus</string>
-    <string name="eDesc">euleri arv</string>
-    <string name="piDesc">pii</string>
-    <string name="equalDesc">võrdusmärk</string>
+    <string name="error_nan">Pole number</string>
+    <string name="error_syntax">Viga</string>
+    <string name="dec_point">,</string>
+    <string name="digit_0">0</string>
+    <string name="digit_1">1</string>
+    <string name="digit_2">2</string>
+    <string name="digit_3">3</string>
+    <string name="digit_4">4</string>
+    <string name="digit_5">5</string>
+    <string name="digit_6">6</string>
+    <string name="digit_7">7</string>
+    <string name="digit_8">8</string>
+    <string name="digit_9">9</string>
+    <string name="fun_cos">cos</string>
+    <string name="fun_ln">ln</string>
+    <string name="fun_log">log</string>
+    <string name="fun_sin">sin</string>
+    <string name="fun_tan">tan</string>
+    <string name="clr">clr</string>
+    <string name="del">del</string>
+    <string name="desc_const_e">Eulaeri arv</string>
+    <string name="desc_const_pi">pii</string>
+    <string name="desc_dec_point">koma</string>
+    <string name="desc_lparen">vasak sulg</string>
+    <string name="desc_rparen">parem sulg</string>
+    <string name="desc_fun_cos">koosinus</string>
+    <string name="desc_fun_ln">naturaallogaritm</string>
+    <string name="desc_fun_log">logaritm</string>
+    <string name="desc_fun_sin">siinus</string>
+    <string name="desc_fun_tan">tangens</string>
+    <string name="desc_op_add">pluss</string>
+    <string name="desc_op_div">jagamine</string>
+    <string name="desc_op_fact">faktoriaal</string>
+    <string name="desc_op_mul">korrutamine</string>
+    <string name="desc_op_pow">astendamine</string>
+    <string name="desc_op_sqrt">ruutjuur</string>
+    <string name="desc_op_sub">miinus</string>
+    <string name="desc_clr">puhastamine</string>
+    <string name="desc_del">kustutamine</string>
+    <string name="desc_eq">võrdusmärk</string>
 </resources>

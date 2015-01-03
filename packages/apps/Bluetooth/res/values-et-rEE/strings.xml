@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--  Copyright (C) 2007 The Android Open Source Project
-      Copyright (C) 2013 Hasso Tepper
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Copyright (C) 2013-2015 Hasso Tepper
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -19,8 +19,6 @@
     <string name="permdesc_bluetoothShareManager">Võimaldab rakendusel pääseda BluetoothShare\'i haldurisse ja kasutada seda failide edastamiseks.</string>
     <string name="permlab_bluetoothWhitelist">Bluetooth seadmele ligipääsu lubamine</string>
     <string name="permdesc_bluetoothWhitelist">Lubab rakendusel lisada teisi Bluetooth seadmeid ajutiselt lubatud seadmete nimekirja. See võimaldab seadmel ilma kasutaja nõusolekuta faile teistesse seadmetesse saata.</string>
-    <string name="permlab_handoverStatus">Bluetoothile üle antud failiedastuste olekuinfo vastuvõtt</string>
-    <string name="permdesc_handoverStatus">Võimaldab rakendusel võtta vastu leviteateid Bluetoothile üle antud failiedastuste olekuinfoga.</string>
     <string name="bt_share_picker_label">Bluetooth</string>
     <string name="unknown_device">Tundmatu seade</string>
     <string name="unknownNumber">Tundmatu</string>
@@ -55,6 +53,9 @@
     <string name="download_line5">Faili vastuvõtmine \u2026</string>
     <string name="download_cancel">Peata</string>
     <string name="download_ok">Peida</string>
+    <string name="incoming_line1">Saatja</string>
+    <string name="incoming_line2">Failinimi</string>
+    <string name="incoming_line3">Suurus</string>
     <string name="download_fail_line1">Faili ei saadud</string>
     <string name="download_fail_line2">Fail: <xliff:g id="FILE">%1$s</xliff:g></string>
     <string name="download_fail_line3">Põhjus: <xliff:g id="REASON">%1$s</xliff:g></string>
@@ -113,4 +114,11 @@
     <string name="transfer_menu_open">Ava</string>
     <string name="transfer_menu_clear">Eemalda nimekirjast</string>
     <string name="transfer_clear_dlg_title">Kustuta</string>
+    <string name="bluetooth_map_email_settings_save">Salvesta</string>
+    <string name="bluetooth_map_email_settings_cancel">Katkesta</string>
+    <string name="bluetooth_map_email_settings_intro">Vali e-posti kontod, mille kirju soovid üle Bluetoothi jagada. Igasugusele juurdepääsule e-posti kontole pead sa ühenduse loomisel veel eraldi nõusoleku andma.</string>
+    <string name="bluetooth_map_email_settings_count">Vabu kohti:</string>
+    <string name="bluetooth_map_email_settings_app_icon">Rakenduse ikoon</string>
+    <string name="bluetooth_map_email_settings_title">Bluetoothi kirjade jagamise seaded</string>
+    <string name="bluetooth_map_email_settings_no_account_slots_left">Kontot pole võimalik valida, vabu kohti pole.</string>
 </resources>

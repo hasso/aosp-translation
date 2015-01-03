@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- 
   ~ Copyright (C) 2012 The Android Open Source Project
-  ~ Copyright (C) 2013 Hasso Tepper
+  ~ Copyright (C) 2013-2015 Hasso Tepper
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
@@ -59,6 +59,7 @@
     <string name="sms_work_pager">Saada sõnum tööpiiparile</string>
     <string name="sms_assistant">Saada sõnum numbrile <xliff:g id="ASSISTANT">%s</xliff:g></string>
     <string name="sms_mms">Saada sõnum MMS-i numbrile</string>
+    <string name="description_video_call">Tee videokõne</string>
     <string name="clearFrequentsConfirmation_title">Kustutada sagedamini kasutatud kontaktid?</string>
     <string name="clearFrequentsConfirmation">Sellega kustutatakse aadressiraamatu ja telefoni rakendustest sagedamini kasutatud kontaktide nimekiri ja ka meilirakendused peavad eelistatud aadressid uuesti selgeks õppima.</string>
     <string name="clearFrequentsProgress_title">Nimekirja kustutamine \u2026</string>
@@ -159,6 +160,7 @@
     <string name="listSingleContact">Üks kontakt</string>
     <string name="dialog_new_contact_account">Loo konto all kontakt</string>
     <string name="import_from_sim">Impordi SIM-kaardilt</string>
+    <string name="import_from_sim_number">Impordi SIM-kaardilt #<xliff:g id="sim_number" example="2">%d</xliff:g></string>
     <string name="import_from_sdcard" product="default">Impordi mäluseadmest</string>
     <string name="cancel_import_confirmation_message">Kas katkestada faili <xliff:g id="FILENAME">%s</xliff:g> importimine?</string>
     <string name="cancel_export_confirmation_message">Kas katkestada faili <xliff:g id="FILENAME">%s</xliff:g> eksportimine?</string>
@@ -219,6 +221,12 @@
     <string name="scanning_sdcard_failed_message" product="default">SD kaarti ei saa skaneerida. (Põhjus: „<xliff:g id="FAIL_REASON">%s</xliff:g>”)</string>
     <string name="progress_notifier_message">Importimine: <xliff:g id="CURRENT_NUMBER">%s</xliff:g>/<xliff:g id="TOTAL_NUMBER">%s</xliff:g> – <xliff:g id="NAME">%s</xliff:g></string>
     <string name="export_to_sdcard" product="default">Ekspordi mäluseadmele</string>
+    <string name="display_options_sort_list_by">Sorteerimine</string>
+    <string name="display_options_sort_by_given_name">Eesnime järgi</string>
+    <string name="display_options_sort_by_family_name">Perenime järgi</string>
+    <string name="display_options_view_names_as">Nime vorming</string>
+    <string name="display_options_view_given_name_first">Eesnimi eespool</string>
+    <string name="display_options_view_family_name_first">Perenimi eespool</string>
     <string name="share_visible_contacts">Jaga nähtavaid kontakte</string>
     <string name="dialog_import_export">Kontaktide import/eksport</string>
     <string name="dialog_import">Impordi kontaktid</string>
@@ -234,8 +242,12 @@
     <string name="listTotalAllContactsZeroStarred">Lemmikuid pole.</string>
     <string name="listTotalAllContactsZeroGroup">Grupis <xliff:g id="NAME">%s</xliff:g> pole kontakte</string>
     <string name="menu_clear_frequents">Tühjenda sagedamini kasutatud</string>
+    <string name="menu_select_sim">Vali SIM-kaart</string>
     <string name="menu_accounts">Kontod</string>
     <string name="menu_import_export">Import/eksport</string>
-    <string name="description_send_message">Sõnumi saatmine kontaktile <xliff:g id="NAME">%1$s</xliff:g></string>
-    <string name="description_dial_phone_number">Helistamine kontaktile <xliff:g id="NAME">%1$s</xliff:g></string>
+    <string name="contact_status_update_attribution"><xliff:g id="source" example="Google Talk">%1$s</xliff:g> rakendusest</string>
+    <string name="contact_status_update_attribution_with_date"><xliff:g id="date" example="3 hours ago">%1$s</xliff:g> <xliff:g id="source" example="Google Talk">%2$s</xliff:g> rakendusest</string>
+    <string name="action_menu_back_from_search">peata otsimine</string>
+    <string name="description_clear_search">Tühjenda otsinguväli</string>
+    <string name="settings_contact_display_options_title">Kontaktide näitamise seaded</string>
 </resources>
