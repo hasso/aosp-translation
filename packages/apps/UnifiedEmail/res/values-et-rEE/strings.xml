@@ -133,8 +133,8 @@
     <item quantity="one">Vestluse liigutamine</item>
     <item quantity="other"><xliff:g>%1$d</xliff:g> vestluse liigutamine</item>
   </plurals>
-    <string name="content_description"><xliff:g id="sender">%1$s</xliff:g> kiri teemal <xliff:g id="subject">%2$s</xliff:g>, <xliff:g id="snippet">%3$s</xliff:g> saadetud <xliff:g id="date">%4$s</xliff:g>, <xliff:g id="readstate">%5$s</xliff:g></string>
-    <string name="content_description_today"><xliff:g id="sender">%1$s</xliff:g> kiri teemal <xliff:g id="subject">%2$s</xliff:g>, <xliff:g id="snippet">%3$s</xliff:g> saadetud täna kell <xliff:g id="time">%4$s</xliff:g>, <xliff:g id="readstate">%5$s</xliff:g></string>
+    <string name="content_description"><xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> kiri teemal <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> saadetud <xliff:g id="date">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g></string>
+    <string name="content_description_today"><xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> kiri teemal <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> saadetud täna kell <xliff:g id="time">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g></string>
     <string name="read_string">loetud vestlus</string>
     <string name="unread_string">lugemata vestlus</string>
     <string name="filtered_tag"> [<xliff:g id="tag">%1$s</xliff:g>]<xliff:g id="subject">%2$s</xliff:g></string>
@@ -219,7 +219,7 @@
   </plurals>
     <string name="date_and_view_details"><xliff:g id="date">%1$s</xliff:g> &lt;a href=\'http://www.example.com\'>Vaata detailset infot&lt;/a></string>
     <string name="hide_details">Peida detailne info</string>
-    <string name="to_message_header">kellele: </string>
+    <string name="to_message_header">kellele: <xliff:g id="recipients">%1$s</xliff:g></string>
     <string name="contact_info_string"><xliff:g id="name">%1$s</xliff:g> kontaktinfo näitamine</string>
     <string name="contact_info_string_default">Kontaktinfo näitamine</string>
   <plurals name="show_messages_read">

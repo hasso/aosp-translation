@@ -169,13 +169,14 @@
     <string name="call_log_action_video_call">VIDEOKÕNE</string>
     <string name="call_log_action_voicemail">KUULA</string>
     <string name="call_log_action_details">DETAILID</string>
-    <string name="description_incoming_missed_call">Vastamata kõne kontaktilt või numbrilt <xliff:g id="nameOrNumber" example="John Smith">%1$s</xliff:g>, <xliff:g id="typeOrLocation" example="Mobile">%2$s</xliff:g>, <xliff:g id="timeOfCall" example="2 min ago">%3$s</xliff:g>.</string>
-    <string name="description_incoming_answered_call">Vastuvõetud kõne kontaktilt või numbrilt <xliff:g id="nameOrNumber" example="John Smith">%1$s</xliff:g>, <xliff:g id="typeOrLocation" example="Mobile">%2$s</xliff:g>, <xliff:g id="timeOfCall" example="2 min ago">%3$s</xliff:g>.</string>
-    <string name="description_outgoing_call">Kõne kontaktile või numbrile <xliff:g id="nameOrNumber" example="John Smith">%1$s</xliff:g>, <xliff:g id="typeOrLocation" example="Mobile">%2$s</xliff:g>, <xliff:g id="timeOfCall" example="2 min ago">%3$s</xliff:g>.</string>
-    <string name="description_call_back_action">Kontaktile või numbrile <xliff:g id="nameOrNumber" example="John Smith">%1$s</xliff:g> tagasi helistamine.</string>
-    <string name="description_video_call_action">Videokõne kontaktile või numbrile <xliff:g id="nameOrNumber" example="John Smith">%1$s</xliff:g>.</string>
-    <string name="description_voicemail_action">Kontaktilt või numbrilt <xliff:g id="nameOrNumber" example="John Smith">%1$s</xliff:g> saabunud kõneposti sõnumi kuulamine.</string>
-    <string name="description_details_action">Kontakti või numbri <xliff:g id="nameOrNumber" example="John Smith">%1$s</xliff:g> kõne detailne info.</string>
+    <string name="description_incoming_missed_call">Vastamata kõne kontaktilt või numbrilt <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g>, <xliff:g id="typeOrLocation" example="Mobile">^2</xliff:g>, <xliff:g id="timeOfCall" example="2 min ago">^3</xliff:g>, <xliff:g id="phoneAccount" example="on SIM 1">^4</xliff:g>.</string>
+    <string name="description_incoming_answered_call">Vastuvõetud kõne kontaktilt või numbrilt <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g>, <xliff:g id="typeOrLocation" example="Mobile">^2</xliff:g>, <xliff:g id="timeOfCall" example="2 min ago">^3</xliff:g>, <xliff:g id="phoneAccount" example="on SIM 1">^4</xliff:g>.</string>
+    <string name="description_outgoing_call">Kõne kontaktile või numbrile <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g>, <xliff:g id="typeOrLocation" example="Mobile">^2</xliff:g>, <xliff:g id="timeOfCall" example="2 min ago">^3</xliff:g>, <xliff:g id="phoneAccount" example="on SIM 1">^4</xliff:g>.</string>
+    <string name="description_phone_account">SIM-il <xliff:g id="phoneAccount" example="SIM 1">^1</xliff:g></string>
+    <string name="description_call_back_action">Kontaktile või numbrile <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g> tagasi helistamine.</string>
+    <string name="description_video_call_action">Videokõne kontaktile või numbrile <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g>.</string>
+    <string name="description_voicemail_action">Kontaktilt või numbrilt <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g> saabunud kõneposti sõnumi kuulamine.</string>
+    <string name="description_details_action">Kontakti või numbri <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g> kõne detailne info.</string>
     <string name="toast_entry_removed">Kõnelogi kirje eemaldatud.</string>
     <string name="toast_caller_id_reported">Kontakti tegevusest teatatud.</string>
     <string name="call_log_action_report">TEATA</string>

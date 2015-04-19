@@ -32,15 +32,15 @@
     <string name="beam_touch_to_view">Vaatamiseks puuduta</string>
     <string name="beam_handover_not_supported">Vastuvõtja seade ei toeta suurte failide edastamist Beam ühenduse abil.</string>
     <string name="beam_try_again">Pane seadmed uuesti kokku.</string>
-    <string name="connecting_peripheral">Ühenduse loomine</string>
-    <string name="connected_peripheral">Ühendatud</string>
-    <string name="connect_peripheral_failed">Ühendust ei õnnestunud luua</string>
-    <string name="disconnecting_peripheral">Ühenduse katkestamine</string>
-    <string name="disconnected_peripheral">Ühendus katkestatud</string>
-    <string name="pairing_peripheral">Sidumine</string>
-    <string name="pairing_peripheral_failed">Sidumine ei õnnestunud</string>
+    <string name="connecting_peripheral">Seadmega „<xliff:g id="device_name">%1$s</xliff:g>“ ühenduse loomine</string>
+    <string name="connected_peripheral">„<xliff:g id="device_name">%1$s</xliff:g>“ ühendatud</string>
+    <string name="connect_peripheral_failed">Seadmega „<xliff:g id="device_name">%1$s</xliff:g>“ ei õnnestunud ühendust luua</string>
+    <string name="disconnecting_peripheral">Ühenduse katkestamine seadmega „<xliff:g id="device_name">%1$s</xliff:g>“</string>
+    <string name="disconnected_peripheral">Ühendus seadmega „<xliff:g id="device_name">%1$s</xliff:g>“ katkestatud</string>
+    <string name="pairing_peripheral">Seadme „<xliff:g id="device_name">%1$s</xliff:g>“ sidumine</string>
+    <string name="pairing_peripheral_failed">Sidumine seadmega „<xliff:g id="device_name">%1$s</xliff:g>“ ei õnnestunud</string>
     <string name="failed_to_enable_bt">Bluetoothi ei saanud sisse lülitada</string>
-    <string name="confirm_pairing">Oled sa kindel, et soovid siduda Bluetooth seadmega <xliff:g id="DEVICE_NAME">%1$s</xliff:g>?</string>
+    <string name="confirm_pairing">Oled sa kindel, et soovid oma seadme Bluetooth seadmega „<xliff:g id="device_name">%1$s</xliff:g> siduda?</string>
     <string name="pair_yes">Jah</string>
     <string name="pair_no">Ei</string>
     <string name="tap_again_to_pay">„<xliff:g id="app">%1$s</xliff:g>“ rakendusega maksmiseks puuduta telefoniga uuesti makseterminali.</string>

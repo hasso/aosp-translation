@@ -15,14 +15,14 @@
      limitations under the License.
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="prompt">Rakendus <xliff:g id="APP">%s</xliff:g> soovib luua VPN ühendust.</string>
-    <string name="warning">Jätkates annad rakendusele õiguse jälgida kogu võrguliiklust. <b>Kui sa seda rakendust ei usalda, ÄRA NÕUSTU.</b> Vastasel juhul on võimalus, et pahavara võib su andmed ohtu seada.</string>
+    <string name="prompt">Ühenduse loomise taotlus</string>
+    <string name="warning">Rakendus „<xliff:g id="APP">%s</xliff:g>“ soovib luua VPN ühendust, mis võimaldab sinu võrguliiklust jälgida. Luba seda ainult siis, kui sa rakendust täielikult usaldad. Kui VPN ühendus on aktiivne, on su seadme ekraani ülaservas selline ikoon:<![CDATA[<br /><br /><img src="vpn_icon" />]]></string>
     <string name="legacy_title">VPN on ühendatud</string>
     <string name="configure">Seadista</string>
     <string name="disconnect">Katkesta</string>
-    <string name="session">Seansid</string>
+    <string name="session">Seanss:</string>
     <string name="duration">Kestus:</string>
     <string name="data_transmitted">Saadetud:</string>
     <string name="data_received">Saadud:</string>
-    <string name="data_value_format"><xliff:g id="NUMBER_0">%1$s</xliff:g> baiti / <xliff:g id="NUMBER_1">%2$s</xliff:g> paketti</string>
+    <string name="data_value_format"><xliff:g id="number">%1$s</xliff:g> baiti / <xliff:g id="number">%2$s</xliff:g> paketti</string>
 </resources>

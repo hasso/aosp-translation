@@ -32,8 +32,8 @@
     <string name="status_bar_ongoing_events_title">Käimasolev</string>
     <string name="status_bar_latest_events_title">Märguanded</string>
     <string name="battery_low_title">Ühenda laadija</string>
-    <string name="battery_low_percent_format">Laengust on alles <xliff:g id="NUMBER">%d%%</xliff:g></string>
-    <string name="battery_low_percent_format_saver_started">Laengust on alles <xliff:g id="number">%d%%</xliff:g> protsenti. Aku säästmise režiim on sisse lülitatud.</string>
+    <string name="battery_low_percent_format">Laengust on alles <xliff:g id="percentage">%s</xliff:g></string>
+    <string name="battery_low_percent_format_saver_started">Laengust on alles <xliff:g id="percentage">%s</xliff:g>. Aku säästmise režiim on sisse lülitatud.</string>
     <string name="invalid_charger">USB pordist laadimine pole toetatud.\nKasuta ainult tootja poolt seadmega kaasa pandud laadijat.</string>
     <string name="invalid_charger_title">USB pordist laadimine pole toetatud.</string>
     <string name="invalid_charger_text">Kasuta ainult tootja poolt seadmega kaasa pandud laadijat.</string>

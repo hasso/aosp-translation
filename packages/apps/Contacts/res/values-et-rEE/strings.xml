@@ -247,10 +247,10 @@
     <string name="header_event_entry">Sündmus</string>
     <string name="header_relation_entry">Suhe</string>
     <string name="content_description_directions">juhised asukohta liikumiseks</string>
-    <string name="content_description_recent_sms">hiljutine SMS. <xliff:g id="message_details">%s</xliff:g>. vastamiseks vajuta</string>
+    <string name="content_description_recent_sms">hiljutine SMS. <xliff:g id="message_body">%s</xliff:g>. <xliff:g id="phone_number">%s</xliff:g>. <xliff:g id="date">%s</xliff:g>. vastamiseks vajuta</string>
     <string name="content_description_recent_call_type_incoming">vastu võetud</string>
     <string name="content_description_recent_call_type_outgoing">tehtud</string>
     <string name="content_description_recent_call_type_missed">vastamata</string>
-    <string name="content_description_recent_call">hiljutine kõne. <xliff:g id="call_details">%s</xliff:g>. tagasi helistamiseks vajuta</string>
+    <string name="content_description_recent_call">hiljutine kõne. <xliff:g id="call_type">%s</xliff:g>. <xliff:g id="phone_number">%s</xliff:g>. <xliff:g id="date">%s</xliff:g>. tagasi helistamiseks vajuta</string>
     <string name="message_from_you_prefix">Sinult: <xliff:g id="sms_body">%s</xliff:g></string>
 </resources>

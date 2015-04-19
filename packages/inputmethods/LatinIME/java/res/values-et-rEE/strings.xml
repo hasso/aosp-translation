@@ -113,20 +113,20 @@
     <string name="prefs_keypress_vibration_duration_settings">Vibreerimise kestus</string>
     <string name="prefs_keypress_sound_volume_settings">Kklahvivajutuse heli tugevus</string>
     <string name="button_default">Vaikeväärtused</string>
-    <string name="setup_welcome_title">Tere tulemast kasutama AOSP Androidi klaviatuuri,</string>
-    <string name="setup_welcome_additional_description">millele on nüüd lisatud ka žestidega kirjutamine</string>
+    <string name="setup_welcome_title">Tere tulemast kasutama „<xliff:g id="APPLICATION_NAME" example="Android Keyboard">%s</xliff:g>“ sisestusrakendust</string>
+    <string name="setup_welcome_additional_description">, millele on lisatud žestidega kirjutamine</string>
     <string name="setup_start_action">Alustame</string>
     <string name="setup_next_action">Järgmine samm</string>
-    <string name="setup_steps_title">AOSP Androidi klaviatuuri seadistamine</string>
-    <string name="setup_step1_title">AOSP Androidi klaviatuuri lubamine</string>
-    <string name="setup_step1_instruction">Palun lülita „AOSP Androidi klaviatuuri“ kasutamine „Keel &amp; sisestamine“ seadetes sisse. Sellega lubad su seadmel rakendust käivitada.</string>
-    <string name="setup_step1_finished_instruction">„AOSP Androidi klaviatuuri“ kasutamine on juba „Keel &amp; sisestamine“ seadetes sisse lülitatud, nii et see samm on juba tehtud. Lähme järgmise juurde.</string>
+    <string name="setup_steps_title">„<xliff:g id="APPLICATION_NAME" example="Android Keyboard">%s</xliff:g>“ seadistamine</string>
+    <string name="setup_step1_title">„<xliff:g id="APPLICATION_NAME" example="Android Keyboard">%s</xliff:g>“ kasutamise lubamine</string>
+    <string name="setup_step1_instruction">Palun lülita „<xliff:g id="APPLICATION_NAME" example="Android Keyboard">%s</xliff:g>“ kasutamine „Keel &amp; sisestamine“ seadetes sisse. Sellega lubad su seadmel rakendust käivitada.</string>
+    <string name="setup_step1_finished_instruction">„<xliff:g id="APPLICATION_NAME" example="Android Keyboard">%s</xliff:g>“ kasutamine on juba „Keel &amp; sisestamine“ seadetes sisse lülitatud, nii et see samm on juba tehtud. Lähme järgmise juurde.</string>
     <string name="setup_step1_action">Lülita seadetes sisse</string>
-    <string name="setup_step2_title">„AOSP Androidi klaviatuurile“ lülitumine</string>
-    <string name="setup_step2_instruction">Järgmisena määra „AOSP Androidi klaviatuur„ vaikimisi kasutatavaks sisestusmeetodiks.</string>
+    <string name="setup_step2_title">„<xliff:g id="APPLICATION_NAME" example="Android Keyboard">%s</xliff:g>“ meetodile lülitumine</string>
+    <string name="setup_step2_instruction">Järgmisena määra „<xliff:g id="APPLICATION_NAME" example="Android Keyboard">%s</xliff:g>“ vaikimisi kasutatavaks sisestusmeetodiks.</string>
     <string name="setup_step2_action">Vaheta sisestusmeetodit</string>
     <string name="setup_step3_title">Õnnitlused! Nüüd on kõik tehtud.</string>
-    <string name="setup_step3_instruction">Nüüd saad kõigis oma lemmikrakendustes Androidi klaviatuuri kasutada.</string>
+    <string name="setup_step3_instruction">Nüüd saad kõigis oma lemmikrakendustes „<xliff:g id="APPLICATION_NAME" example="Android Keyboard">%s</xliff:g>“ rakendusega teksti sisestada.</string>
     <string name="setup_step3_action">Lisakeelte seadistamine</string>
     <string name="setup_finish_action">Lõpetame</string>
     <string name="show_setup_wizard_icon">Rakenduse ikooni näitamine</string>

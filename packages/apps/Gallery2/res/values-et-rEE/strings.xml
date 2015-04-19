@@ -197,7 +197,7 @@
     <string name="trimming">Kärpimine</string>
     <string name="muting">Vaigistamine</string>
     <string name="please_wait">Palun oota</string>
-    <string name="save_into">Kärbitud video salvestamine albumisse:</string>
+    <string name="save_into">Video salvestamine albumisse „<xliff:g id="album_name">%1$s</xliff:g>“ \u2026</string>
     <string name="trim_too_short">Ei saa kärpida: tulemus on liiga lühike</string>
     <string name="pano_progress_text">Panoraami renderdamine</string>
     <string name="save">Salvesta</string>

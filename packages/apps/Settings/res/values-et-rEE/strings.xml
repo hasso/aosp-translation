@@ -470,9 +470,9 @@
     <string name="bluetooth_settings_title">Bluetooth</string>
     <string name="bluetooth_settings_summary">Ühenduste haldamine, seadme nimi ja nähtavus</string>
     <string name="bluetooth_pairing_request">Bluetoothi sidumistaotlus</string>
-    <string name="bluetooth_enter_pin_msg">Siduda seadmega:<xliff:g id="BOLD_0">&lt;br&gt;&lt;b&gt;</xliff:g><xliff:g id="DEVICE_NAME">%1$s</xliff:g><xliff:g id="END_BOLD">&lt;/b&gt;&lt;br&gt;&lt;br&gt;</xliff:g>Sisesta seadme nõutav PIN kood:</string>
+    <string name="bluetooth_enter_pin_msg">Seade</string>
     <string name="bluetooth_pairing_key_msg">Sidumiskood</string>
-    <string name="bluetooth_enter_passkey_msg">Siduda seadmega:<xliff:g id="BOLD_0">&lt;br&gt;&lt;b&gt;</xliff:g><xliff:g id="DEVICE_NAME">%1$s</xliff:g><xliff:g id="END_BOLD">&lt;/b&gt;&lt;br&gt;&lt;br&gt;</xliff:g>Sisesta seadme nõutav parool:</string>
+    <string name="bluetooth_enter_passkey_msg">Sisesta sidumiskood ja vajuta sisestusklahvi</string>
     <string name="bluetooth_enable_alphanumeric_pin">PIN kood sisaldab tähti või sümboleid</string>
     <string name="bluetooth_pin_values_hint">Tavaliselt 0000 või 1234</string>
     <string name="bluetooth_enter_pin_other_device">Võib-olla pead selle PIN koodi sisestama ka teise seadmesse.</string>
@@ -1584,20 +1584,20 @@
     <string name="power_usage_summary_title">Aku</string>
     <string name="power_usage_summary">Mis on akut kasutanud</string>
     <string name="power_usage_not_available">Akukasutuse andmed puuduvad.</string>
-    <string name="power_usage_level_and_status"><xliff:g id="LEVEL">%1$s</xliff:g> – <xliff:g id="STATUS">%2$s</xliff:g></string>
+    <string name="power_usage_level_and_status"><xliff:g id="level">%1$s</xliff:g> – <xliff:g id="status">%2$s</xliff:g></string>
     <string name="power_discharge_remaining">veel <xliff:g id="remain">%1$s</xliff:g></string>
     <string name="power_charge_remaining"><xliff:g id="until_charged">%1$s</xliff:g> laadimise lõpuni</string>
-    <string name="power_discharging_duration"><xliff:g id="level">%1$d</xliff:g>%% - veel umbes <xliff:g id="time">%2$s</xliff:g></string>
-    <string name="power_charging"><xliff:g id="level">%1$d</xliff:g>%% - <xliff:g id="state">%2$s</xliff:g></string>
-    <string name="power_charging_duration"><xliff:g id="level">%1$d</xliff:g>%% - <xliff:g id="time">%2$s</xliff:g> laadimise lõpuni</string>
-    <string name="power_charging_duration_ac"><xliff:g id="level">%1$d</xliff:g>%% - <xliff:g id="time">%2$s</xliff:g> vooluvõrgust laadimise lõpuni</string>
-    <string name="power_charging_duration_usb"><xliff:g id="level">%1$d</xliff:g>%% - <xliff:g id="time">%2$s</xliff:g> USB pordist laadimise lõpuni</string>
-    <string name="power_charging_duration_wireless"><xliff:g id="level">%1$d</xliff:g>%% - <xliff:g id="time">%2$s</xliff:g> juhtmevaba laadimise lõpuni</string>
+    <string name="power_discharging_duration"><xliff:g id="level">%1$s</xliff:g> - veel umbes <xliff:g id="time">%2$s</xliff:g></string>
+    <string name="power_charging"><xliff:g id="level">%1$s</xliff:g> - <xliff:g id="state">%2$s</xliff:g></string>
+    <string name="power_charging_duration"><xliff:g id="level">%1$s</xliff:g> - <xliff:g id="time">%2$s</xliff:g> laadimise lõpuni</string>
+    <string name="power_charging_duration_ac"><xliff:g id="level">%1$s</xliff:g> - <xliff:g id="time">%2$s</xliff:g> vooluvõrgust laadimise lõpuni</string>
+    <string name="power_charging_duration_usb"><xliff:g id="level">%1$s</xliff:g> - <xliff:g id="time">%2$s</xliff:g> USB pordist laadimise lõpuni</string>
+    <string name="power_charging_duration_wireless"><xliff:g id="level">%1$s</xliff:g> - <xliff:g id="time">%2$s</xliff:g> juhtmevaba laadimise lõpuni</string>
     <string name="power_usage_list_summary">Akukasutus viimasest täislaadimisest</string>
     <string name="battery_since_unplugged">Akukasutus vooluvõrgust eemaldamisest</string>
     <string name="battery_since_reset">Akukasutus statistika nullimisest</string>
-    <string name="battery_stats_on_battery"><xliff:g id="TIME">%1$s</xliff:g> akutoitel</string>
-    <string name="battery_stats_duration"><xliff:g id="TIME">%1$s</xliff:g> vooluvõrgust eemaldamisest</string>
+    <string name="battery_stats_on_battery"><xliff:g id="time">%1$s</xliff:g> akutoitel</string>
+    <string name="battery_stats_duration"><xliff:g id="time">%1$s</xliff:g> vooluvõrgust eemaldamisest</string>
     <string name="battery_stats_charging_label">Laadimine</string>
     <string name="battery_stats_screen_on_label">Ekraan sees</string>
     <string name="battery_stats_gps_on_label">GPS sees</string>
@@ -1608,7 +1608,6 @@
     <string name="awake">Seadme ärkveloleku aeg</string>
     <string name="wifi_on_time">WiFi sees</string>
     <string name="bluetooth_on_time">Bluetooth sees</string>
-    <string name="usage_name_percent"><xliff:g id="NAME">%1$s</xliff:g> – <xliff:g id="NUMBER">%2$s</xliff:g><xliff:g id="PERCENT">%%</xliff:g></string>
     <string name="history_details_title">Üksikasjalik ajalugu</string>
     <string name="details_title">Kasutuse üksikasjad</string>
     <string name="details_subtitle">Kasutuse üksikasjad</string>
@@ -1680,7 +1679,7 @@
     <string name="battery_saver">Akusäästmise režiim</string>
     <string name="battery_saver_turn_on_automatically_title">Lülitatakse automaatselt sisse</string>
     <string name="battery_saver_turn_on_automatically_never">Mitte kunagi</string>
-    <string name="battery_saver_turn_on_automatically_pct">%1$d%% aku pealt</string>
+    <string name="battery_saver_turn_on_automatically_pct">%1$s aku pealt</string>
     <string name="process_stats_summary_title">Protsesside statistika</string>
     <string name="process_stats_summary">Statistikat töötavate protsesside kohta</string>
     <string name="app_memory_use">Mälukasutus</string>
@@ -2290,7 +2289,7 @@
     <string name="sim_card_number_title">SIM <xliff:g id="card_number">%1$d</xliff:g></string>
     <string name="sim_slot_empty">SIM puudub</string>
     <string name="sim_editor_name">SIM-i nimi</string>
-    <string name="sim_editor_title">SIM kaart</string>
+    <string name="sim_editor_title">SIM kaardi pesa %1$d</string>
     <string name="sim_editor_carrier">Võrk</string>
     <string name="sim_editor_number">Number</string>
     <string name="sim_editor_color">SIM-i värv</string>

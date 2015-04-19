@@ -1344,8 +1344,8 @@
     <string name="usb_notification_message">Seadistamiseks puuduta seda teksti.</string>
     <string name="extmedia_format_title" product="nosdcard">Kas vormindada USB seade?</string>
     <string name="extmedia_format_title" product="default">Kas vormindada SD kaart?</string>
-    <string name="extmedia_format_message" product="nosdcard">Kõik USB salvestusruumi asukohas \'%1$s\' olevad failid kustutatakse. Seda toimingut ei saa tagasi võtta.</string>
-    <string name="extmedia_format_message" product="default">Kõik SD kaardi asukohas \'%1$s\' olevad failid kustutatakse. Seda toimingut ei saa tagasi võtta.</string>
+    <string name="extmedia_format_message" product="nosdcard">Kõik USB salvestusruumil olevad failid kustutatakse. Seda toimingut ei saa tagasi võtta.</string>
+    <string name="extmedia_format_message" product="default">Kõik SD kaardil olevad failid kustutatakse.</string>
     <string name="extmedia_format_button_format">Vorminda</string>
     <string name="adb_active_notification_title">Androidi silumisrežiim sisse lülitatud</string>
     <string name="adb_active_notification_message">Keelamiseks puuduta seda teksti.</string>
@@ -1599,7 +1599,7 @@
     <string name="kg_wrong_pattern">Vale muster</string>
     <string name="kg_wrong_password">Vale parool</string>
     <string name="kg_wrong_pin">Vale PIN kood</string>
-    <string name="kg_too_many_failed_attempts_countdown">Proovi uuesti <xliff:g id="NUMBER">%d</xliff:g> sekundi pärast.</string>
+    <string name="kg_too_many_failed_attempts_countdown">Proovi uuesti <xliff:g id="number">%1$d</xliff:g> sekundi pärast.</string>
     <string name="kg_pattern_instructions">Joonista oma muster</string>
     <string name="kg_sim_pin_instructions">Sisesta SIM-i PIN kood</string>
     <string name="kg_pin_instructions">Sisesta PIN kood</string>
