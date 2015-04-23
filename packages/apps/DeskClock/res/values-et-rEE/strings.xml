@@ -130,7 +130,6 @@
     <string name="desk_clock_button_description">Kella ekraan</string>
     <string name="label_description">Tekst</string>
     <string name="ringtone_description">Helin</string>
-    <string name="battery_charging_level"><xliff:g id="NUMBER">%d</xliff:g> <xliff:g id="PERCENT">%%</xliff:g></string>
     <string name="weather_fetch_failure">Ilmateade ei ole praegu saadaval.</string>
     <string name="alarm_klaxon_service_desc">Kella alarmide heli taasesitamise teenus.</string>
     <string name="loading_ringtone">Helina laadimine \u2026</string>

@@ -35,16 +35,20 @@
     <string name="install_failed_inconsistent_certificates">Sama nime, kuid teise allkirjaga pakett on juba paigaldatud.</string>
     <string name="install_failed_older_sdk">Pakett töötab ainult Androidi uuemate versioonidega.</string>
     <string name="install_failed_cpu_abi_incompatible" product="tablet">See rakendus ei ühildu su tahvelarvutiga.</string>
+    <string name="install_failed_cpu_abi_incompatible" product="tv">See rakendus ei ühildu su TV seadmega.</string>
     <string name="install_failed_cpu_abi_incompatible" product="default">See rakendus ei ühildu su telefoniga.</string>
     <string name="install_failed_file_not_found">Määratud pakett kustutati enne, kui paigaldus lõpule jõudis.</string>
     <string name="install_failed_verify_failed">Pakett ei läbinud verifitseerimise protsessi ja seda ei saa paigaldada.</string>
     <string name="install_failed_verify_timeout">Paketi verifitseerimiseks mõeldud aeg sai läbi. Proovi seda hiljem uuesti paigaldada.</string>
     <string name="install_failed_msg" product="tablet">Rakendust <xliff:g id="APP_NAME">%1$s</xliff:g> ei saa su tahvelarvutisse paigaldada.</string>
+    <string name="install_failed_msg" product="tv">Rakendust <xliff:g id="APP_NAME">%1$s</xliff:g> ei saa su TV seadmesse paigaldada.</string>
     <string name="install_failed_msg" product="default">Rakendust <xliff:g id="APP_NAME">%1$s</xliff:g> ei saa su telefoni paigaldada.</string>
     <string name="launch">Käivita</string>
     <string name="unknown_apps_dlg_title">Paigaldus blokeeritud</string>
     <string name="unknown_apps_dlg_text" product="tablet">Turvalisuse eesmärgil blokeerib tahvelarvuti tundmatutest allikatest pärit rakenduste paigalduse.</string>
+    <string name="unknown_apps_dlg_text" product="tv">Turvalisuse eesmärgil blokeerib TV seade tundmatutest allikatest pärit rakenduste paigalduse.</string>
     <string name="unknown_apps_dlg_text" product="default">Turvalisuse eesmärgil blokeerib telefon tundmatutest allikatest pärit rakenduste paigalduse.</string>
+    <string name="unknown_apps_admin_dlg_text">Su administraator ei luba seadmesse tundmatutest allikatest pärit rakendusi paigaldalda.</string>
     <string name="ok">OK</string>
     <string name="settings">Seaded</string>
     <string name="allow_source_dlg_title">Uus rakenduste allikas</string>

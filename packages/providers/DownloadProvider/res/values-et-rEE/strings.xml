@@ -43,7 +43,6 @@
     <string name="button_queue_for_wifi">Järjekord</string>
     <string name="button_cancel_download">Tühista</string>
     <string name="button_start_now">Alusta kohe</string>
-    <string name="download_percent"><xliff:g id="NUMBER">%d</xliff:g> <xliff:g id="PERCENT">%%</xliff:g></string>
   <plurals name="notif_summary_active">
     <item quantity="one">1 faili allalaadimine</item>
     <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> faili allalaadimine</item>

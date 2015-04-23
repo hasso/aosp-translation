@@ -28,6 +28,7 @@
     <string name="alphabet">Tähestik</string>
     <string name="digits">Numbrid (0–9, *, #, +)</string>
     <string name="default_call_setup_msg">Kõne on pooleli \u2026</string>
+    <string name="default_setup_call_msg">Kõne loomine</string>
     <string name="stk_app_state">Rakenduse olek</string>
     <string name="enable_app">Lubatud</string>
     <string name="disable_app">Keelatud</string>
@@ -38,4 +39,5 @@
     <string name="default_close_channel_msg">Kanal suletud</string>
     <string name="stk_dialog_accept">JAH</string>
     <string name="stk_dialog_reject">EI</string>
+    <string name="no_sim_card_inserted">SIM Toolkit\'i käivitamiseks sisesta palun SIM kaart.</string>
 </resources>

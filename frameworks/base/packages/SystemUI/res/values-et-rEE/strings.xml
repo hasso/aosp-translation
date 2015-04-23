@@ -87,7 +87,6 @@
     <string name="unlock_label">lukustuse eemaldamine</string>
     <string name="phone_label">telefoni avamine</string>
     <string name="camera_label">kaamera avamine</string>
-    <string name="accessibility_ime_switch_button">Sisestusmeetodi vahetamise nupp.</string>
     <string name="accessibility_compatibility_zoom_button">Sobivussuumi nupp.</string>
     <string name="accessibility_compatibility_zoom_example">Väiksemale ekraanile mõeldud rakenduse suumimine suuremale ekraanile.</string>
     <string name="accessibility_bluetooth_connected">Bluetooth on ühendatud.</string>
@@ -221,8 +220,6 @@
     <string name="start_dreams">Unistamine</string>
     <string name="ethernet_label">Ethernet</string>
     <string name="quick_settings_airplane_mode_label">Lennurežiim</string>
-    <string name="quick_settings_battery_charging_label">Laadimine, <xliff:g id="NUMBER">%d</xliff:g><xliff:g id="PERCENT">%%</xliff:g></string>
-    <string name="quick_settings_battery_charged_label">Laetud</string>
     <string name="quick_settings_bluetooth_label">Bluetooth</string>
     <string name="quick_settings_bluetooth_multiple_devices_label">Bluetooth (<xliff:g id="NUMBER">%d</xliff:g> seadet)</string>
     <string name="quick_settings_bluetooth_off_label">Bluetooth väljas</string>
@@ -260,6 +257,7 @@
     <string name="quick_settings_more_settings">Veel seadeid</string>
     <string name="quick_settings_done">Valmis</string>
     <string name="quick_settings_connected">Ühendatud</string>
+    <string name="quick_settings_connected_via_wfa">Ühendatud Wi\u2011Fi assistendi poolt</string>
     <string name="quick_settings_connecting">Ühendamine \u2026</string>
     <string name="quick_settings_tethering_label">Jagamine</string>
     <string name="quick_settings_hotspot_label">Pääsupunkt</string>
@@ -321,7 +319,6 @@
     <string name="battery_saver_notification_title">Aku säästurežiim on sisse lülitatud</string>
     <string name="battery_saver_notification_text">Vähendab jõudlust ja taustaandmete kasutamist</string>
     <string name="battery_saver_notification_action_text">Lülita aku säästurežiim välja</string>
-    <string name="battery_level_template"><xliff:g id="level" example="45">%d</xliff:g>%%</string>
     <string name="notification_hidden_text">Sisu on peidetud</string>
     <string name="media_projection_dialog_text"><xliff:g id="app_seeking_permission" example="Hangouts">%s</xliff:g> alustab kõige ekraanil toimuva salvestamist.</string>
     <string name="media_projection_remember_text">Seda pole vaja rohkem näidata</string>
@@ -352,6 +349,13 @@
     <string name="hidden_notifications_text">Mägruandeid saab vaadata ka enne lukustuse eemaldamist</string>
     <string name="hidden_notifications_cancel">Tänan, ei</string>
     <string name="hidden_notifications_setup">Teeme ära</string>
-    <string name="muted_by">Vaigistanud <xliff:g id="third_party">%1$s</xliff:g></string>
     <string name="zen_mode_and_condition"><xliff:g id="zen_mode" example="Priority interruptions only">%1$s</xliff:g>. <xliff:g id="exit_condition" example="For one hour">%2$s</xliff:g></string>
+    <string name="screen_pinning_title">Rakendus on ekraanile kinnitatud</string>
+    <string name="screen_pinning_description">See takistab vaatest (rakendusest) väljumist kuni sa ekraani rakendusest vabastad. Selleks hoia samaaegselt all tagasiliikumise ja ülevaate nuppe.</string>
+    <string name="screen_pinning_description_accessible">See takistab vaatest (rakendusest) väljumist kuni sa ekraani rakendusest vabastad. Selleks hoia all ülevaate nuppu.</string>
+    <string name="screen_pinning_positive">Sain aru</string>
+    <string name="screen_pinning_negative">Tänan, ei</string>
+    <string name="quick_settings_reset_confirmation_title">Kas peita <xliff:g id="tile_label" example="Hotspot">%1$s</xliff:g>?</string>
+    <string name="quick_settings_reset_confirmation_message">Järgmine kord, kui sa selle seadetes sisse lülitad, ilmub see siia tagasi.</string>
+    <string name="quick_settings_reset_confirmation_button">Peida</string>
 </resources>

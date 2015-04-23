@@ -32,6 +32,8 @@
     <string name="beam_touch_to_view">Vaatamiseks puuduta</string>
     <string name="beam_handover_not_supported">Vastuvõtja seade ei toeta suurte failide edastamist Beam ühenduse abil.</string>
     <string name="beam_try_again">Pane seadmed uuesti kokku.</string>
+    <string name="beam_busy">Beam on hetkel hõivatud. Kui eelmine ühendus töö lõpetab, proovi uuesti.</string>
+    <string name="device">seade</string>
     <string name="connecting_peripheral">Seadmega „<xliff:g id="device_name">%1$s</xliff:g>“ ühenduse loomine</string>
     <string name="connected_peripheral">„<xliff:g id="device_name">%1$s</xliff:g>“ ühendatud</string>
     <string name="connect_peripheral_failed">Seadmega „<xliff:g id="device_name">%1$s</xliff:g>“ ei õnnestunud ühendust luua</string>

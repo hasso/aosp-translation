@@ -62,18 +62,6 @@
     <string name="sms_disambig_title">Numbri valimine</string>
     <string name="call_disambig_title">Numbri valimine</string>
     <string name="make_primary">See valik jäetakse meelde</string>
-    <string name="description_image_button_one">üks</string>
-    <string name="description_image_button_two">kaks</string>
-    <string name="description_image_button_three">kolm</string>
-    <string name="description_image_button_four">neli</string>
-    <string name="description_image_button_five">viis</string>
-    <string name="description_image_button_six">kuus</string>
-    <string name="description_image_button_seven">seitse</string>
-    <string name="description_image_button_eight">kaheksa</string>
-    <string name="description_image_button_nine">üheksa</string>
-    <string name="description_image_button_star">tärn</string>
-    <string name="description_image_button_zero">null</string>
-    <string name="description_image_button_pound">trellid</string>
     <string name="description_search_button">otsing</string>
     <string name="description_dial_button">helistamine</string>
     <string name="description_digits_edittext">valitav number</string>
@@ -94,7 +82,6 @@
     <string name="add_contact">Lisa kontaktide hulka</string>
     <string name="add_2sec_pause">Lisa 2-sekundiline paus</string>
     <string name="add_wait">Lisa ootamine</string>
-    <string name="menu_select_account">Vali konto</string>
     <string name="dialer_settings_label">Seaded</string>
     <string name="menu_newContact">Uus kontakt</string>
     <string name="menu_allContacts">Kõik kontaktid</string>
@@ -126,8 +113,6 @@
     <string name="voicemail">Kõnepost</string>
     <string name="private_num">Varjatud number</string>
     <string name="payphone">Telefoniautomaat</string>
-    <string name="dialerKeyboardHintText">Numbri valimiseks kasuta klaviatuuri</string>
-    <string name="dialerDialpadHintText">Kõne lisamiseks vali number</string>
     <string name="callDetailsDurationFormat"><xliff:g id="MINUTES">%s</xliff:g> min <xliff:g id="SECONDS">%s</xliff:g> s</string>
     <string name="dialog_phone_call_prohibited_message">Kõnet ei tehtud</string>
     <string name="dialog_voicemail_not_ready_message">Kõneposti seadistamiseks vali menüüst „Seaded“.</string>
@@ -166,6 +151,8 @@
     <string name="remove_contact">Eemalda</string>
     <string name="favorites_menu_all_contacts">KÕIK KONTAKTID</string>
     <string name="call_log_action_call_back">HELISTA TAGASI</string>
+    <string name="call_log_action_call">HELISTA</string>
+    <string name="call_log_action_redial">HELISTA UUESTI</string>
     <string name="call_log_action_video_call">VIDEOKÕNE</string>
     <string name="call_log_action_voicemail">KUULA</string>
     <string name="call_log_action_details">DETAILID</string>
@@ -191,7 +178,6 @@
     <string name="voicemail_play_start_pause">Taasesituse käivitamine või peatamine.</string>
     <string name="list_delimeter">", "</string>
     <string name="general_settings_label">Üldseaded</string>
-    <string name="general_settings_description">Kontaktide näitamine, helid ja kiirvastused</string>
     <string name="contact_display_options_category_title">Kontaktide näitamise seaded</string>
     <string name="sounds_and_vibrate_category_title">Heli ja vibreerimine</string>
     <string name="ringtone_title">Telefonihelin</string>
@@ -200,5 +186,5 @@
     <string name="other_settings_title">Muud seaded</string>
     <string name="respond_via_sms_setting_title">Kiirvastused</string>
     <string name="call_settings_label">Kõneseaded</string>
-    <string name="call_settings_description">Kõnepost, kõnede ootamine jms</string>
+    <string name="phone_account_settings_label">Kõneside kontod</string>
 </resources>

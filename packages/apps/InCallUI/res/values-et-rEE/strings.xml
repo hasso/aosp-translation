@@ -22,7 +22,6 @@
     <string name="payphone">Telefoniautomaat</string>
     <string name="confCall">Konverentskõne</string>
     <string name="call_lost">Kõne on katkenud.</string>
-    <string name="ok">OK</string>
     <string name="audio_mode_speaker">Kõlar</string>
     <string name="audio_mode_earpiece">Käsitelefoni peatelefon</string>
     <string name="audio_mode_wired_headset">Juhtmega peakomplekt</string>
@@ -66,6 +65,7 @@
     <string name="notification_voicemail_no_vm_number">Kõneposti number teadmata</string>
     <string name="notification_network_selection_title">Teenus puudub</string>
     <string name="notification_network_selection_text">Valitud võrk (<xliff:g id="OPERATOR_NAME">%s</xliff:g>) pole saadaval</string>
+    <string name="notification_action_answer">Võta vastu</string>
     <string name="notification_action_end_call">Lõpeta kõne</string>
     <string name="notification_action_answer_video">Video</string>
     <string name="notification_action_answer_voice">Kõne</string>
@@ -125,28 +125,6 @@
     <string name="respond_via_sms_custom_message">Kirjuta ise \u2026</string>
     <string name="custom_message_cancel">Katkesta</string>
     <string name="custom_message_send">Saada</string>
-    <string name="description_image_button_one">üks</string>
-    <string name="description_image_button_two">kaks</string>
-    <string name="description_image_button_three">kolm</string>
-    <string name="description_image_button_four">neli</string>
-    <string name="description_image_button_five">viis</string>
-    <string name="description_image_button_six">kuus</string>
-    <string name="description_image_button_seven">seitse</string>
-    <string name="description_image_button_eight">kaheksa</string>
-    <string name="description_image_button_nine">üheksa</string>
-    <string name="description_image_button_star">tärn</string>
-    <string name="description_image_button_zero">null</string>
-    <string name="description_image_button_pound">trellid</string>
-    <string name="description_dial_button">helista</string>
-    <string name="description_delete_button">kustutamine</string>
-    <string name="accessibility_speakerphone_selected">Nüüd kasutatakse valjuhääldit.</string>
-    <string name="accessibility_earpiece_selected">Nüüd kasutatakse telefoni kuularit.</string>
-    <string name="accessibility_wired_headset_selected">Nüüd kasutatakse kõrvaklappe.</string>
-    <string name="accessibility_bluetooth_headset_selected">Nüüd kasutatakse Blutooth peakomplekti.</string>
-    <string name="accessibility_call_muted">Kõne on vaigistatud.</string>
-    <string name="accessibility_call_unmuted">Kõne pole enam vaigistatud.</string>
-    <string name="accessibility_call_put_on_hold">Kõne on ootele pandud.</string>
-    <string name="accessibility_call_removed_from_hold">Ootele pandud kõne on jätkatud.</string>
     <string name="description_target_answer">Vastamiseks</string>
     <string name="description_target_send_sms">SMS-i saatmiseks</string>
     <string name="description_target_decline">Keeldumiseks</string>
@@ -168,5 +146,4 @@
     <string name="preference_category_ringtone">Helin ja vibreerimine</string>
     <string name="manageConferenceLabel">Konverentskõne haldus</string>
     <string name="emergency_call_dialog_number_for_display">Hädaabi number</string>
-    <string name="select_account_dialog_title">Konto valimine</string>
 </resources>

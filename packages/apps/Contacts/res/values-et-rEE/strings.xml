@@ -24,6 +24,7 @@
     <string name="shortcutActivityTitle">Viite kontakti valimine</string>
     <string name="callShortcutActivityTitle">Number helistamiseks</string>
     <string name="messageShortcutActivityTitle">Number sõnumi saatmiseks</string>
+    <string name="contactInsertOrEditActivityTitle">Kontaktidesse lisamine</string>
     <string name="contactPickerActivityTitle">Kontakti valimine</string>
     <string name="header_entry_contact_list_adapter_header_title">Uus kontakt</string>
     <string name="starredList">Tärniga</string>
@@ -133,7 +134,6 @@
     <string name="recent_updates">Viimased muudatused</string>
     <string name="account_type_format"><xliff:g id="SOURCE">%1$s</xliff:g> kontakt</string>
     <string name="from_account_format"><xliff:g id="source" example="user@gmail.com">%1$s</xliff:g></string>
-    <string name="use_photo_as_primary">Kasuta seda fotot</string>
     <string name="contact_read_only">Kontakti ei saa selles rakenduses muuta.</string>
     <string name="group_read_only">Kontakti ei saa selles seadmes muuta.</string>
     <string name="take_photo">Foto tegemine</string>
@@ -150,11 +150,12 @@
     <string name="menu_display_all">Näita kõiki</string>
     <string name="menu_select_all">Vali kõik</string>
     <string name="menu_select_none">Tühista kõikide valik</string>
-    <string name="add_field">Lisa veel üks väli</string>
     <string name="add_new_entry_for_section">Lisa uus</string>
     <string name="add_organization">Lisa organisatsioon</string>
     <string name="event_edit_field_hint_text">Kuupäev</string>
     <string name="group_edit_field_hint_text">Grupi nimi</string>
+    <string name="change_photo">Muuda</string>
+    <string name="primary_photo">Põhifoto</string>
     <string name="description_star">lemmik</string>
     <string name="edit_contact">Kontakti muutmine</string>
   <plurals name="merge_info">
@@ -246,6 +247,13 @@
     <string name="header_website_entry">Veebileht</string>
     <string name="header_event_entry">Sündmus</string>
     <string name="header_relation_entry">Suhe</string>
+    <string name="header_account_entry">Konto</string>
+    <string name="header_name_entry">Nimi</string>
+    <string name="header_email_entry">E-post</string>
+    <string name="header_phone_entry">Telefon</string>
+    <string name="header_photo_entry">Foto</string>
+    <string name="content_description_expand_editor">Kontaktieditori laiaks tõmbamiseks vajuta siia.</string>
+    <string name="content_description_collapse_editor">Kontaktieditori kokku tõmbamiseks vajuta siia.</string>
     <string name="content_description_directions">juhised asukohta liikumiseks</string>
     <string name="content_description_recent_sms">hiljutine SMS. <xliff:g id="message_body">%s</xliff:g>. <xliff:g id="phone_number">%s</xliff:g>. <xliff:g id="date">%s</xliff:g>. vastamiseks vajuta</string>
     <string name="content_description_recent_call_type_incoming">vastu võetud</string>
@@ -253,4 +261,5 @@
     <string name="content_description_recent_call_type_missed">vastamata</string>
     <string name="content_description_recent_call">hiljutine kõne. <xliff:g id="call_type">%s</xliff:g>. <xliff:g id="phone_number">%s</xliff:g>. <xliff:g id="date">%s</xliff:g>. tagasi helistamiseks vajuta</string>
     <string name="message_from_you_prefix">Sinult: <xliff:g id="sms_body">%s</xliff:g></string>
+    <string name="contact_editor_hangouts_im_alert">Hangouts töötab paremini, kui sisestad inimese Hangouts identifikaatori vastavalt e-posti või telefoni väljale.</string>
 </resources>

@@ -60,7 +60,7 @@
     <string name="phone_accounts_make_calls_with">Telefonikõnede rakendus</string>
     <string name="phone_accounts_make_sip_calls_with">SIP kõnede rakendus</string>
     <string name="phone_accounts_ask_every_time">Küsitakse enne kõnet</string>
-    <string name="phone_accounts_accounts_header">Kontod</string>
+    <string name="phone_accounts_settings_header">Seaded</string>
     <string name="phone_accounts_choose_accounts">Kontode valimine</string>
     <string name="phone_accounts_selection_header">Telefoni kontod</string>
     <string name="phone_accounts_add_sip_account">SIP konto lisamine</string>
@@ -75,15 +75,14 @@
     <string name="wifi_calling_select_call_assistant_summary">Kõnedeks kasutatavaid võrke haldava rakenduse või teenuse valimine</string>
     <string name="wifi_calling_use_call_assistant_summary">Rakendustel või teenustel on lubatud Kõnedeks kasutatavaid võrke hallata</string>
     <string name="wifi_calling_call_assistant_configure">Seadista</string>
-    <string name="wifi_calling_call_assistant_configure_no_selection">Kõneassistent on välja lülitatud</string>
     <string name="connection_service_default_label">Sisemine ühenduse teenus</string>
     <string name="voicemail">Kõnepost</string>
     <string name="voicemail_abbreviated">KP:</string>
     <string name="networks">Võrguoperaatorid</string>
     <string name="cell_broadcast_settings">Häireteated</string>
-    <string name="phone_account_settings">Telefoni konto seaded</string>
     <string name="call_settings">Kõneseaded</string>
-    <string name="additional_gsm_call_settings">GSM lisaseaded </string>
+    <string name="additional_gsm_call_settings">Lisaseaded</string>
+    <string name="additional_gsm_call_settings_with_label">Lisaseaded (<xliff:g id="subscriptionlabel" example="Verizon">%s</xliff:g>)</string>
     <string name="sum_gsm_call_settings">Täiendavad kõneseaded GSM võrgule</string>
     <string name="additional_cdma_call_settings">CDMA lisaseaded</string>
     <string name="sum_cdma_call_settings">Täiendavad kõneseaded CDMA võrgule</string>
@@ -97,6 +96,7 @@
     <string name="sum_cw_enabled">Teavita mind kõne ajal sissetulevatest kõnedest</string>
     <string name="sum_cw_disabled">Teavita mind kõne ajal sissetulevatest kõnedest</string>
     <string name="call_forwarding_settings">Kõnede suunamise seaded</string>
+    <string name="call_forwarding_settings_with_label">Kõnede suunamise seaded (<xliff:g id="subscriptionlabel" example="Verizon">%s</xliff:g>)</string>
     <string name="labelCF">Kõnede suunamine</string>
     <string name="labelCFU">Tingimusteta suunamine</string>
     <string name="messageCFU">Kõik kõned suunatakse numbrile</string>
@@ -120,6 +120,8 @@
     <string name="sum_cfnrc_disabled">Keelatud</string>
     <string name="disable_cfnrc_forbidden">Su võrguoperaator ei toeta kõnede suunamise keelamist, kui su telefon pole levis.</string>
     <string name="updating_title">Kõneseaded</string>
+    <string name="call_settings_primary_user_only">Kõneseadedi saab muuta ainult põhikasutaja.</string>
+    <string name="call_settings_with_label">Kõneseaded (<xliff:g id="subscriptionlabel" example="Verizon">%s</xliff:g>)</string>
     <string name="error_updating_title">Kõneseadete viga</string>
     <string name="reading_settings">Seadete lugemine \u2026</string>
     <string name="updating_settings">Seadete värskendamine \u2026</string>
@@ -176,6 +178,8 @@
     <string name="preferred_network_mode_lte_cdma_evdo_summary">Eelistatud võrgurežiim: CDMA+LTE/EVDO</string>
     <string name="preferred_network_mode_global_summary">Eelistatud võrgurežiim: Globaalne</string>
     <string name="preferred_network_mode_lte_wcdma_summary">Eelistatud võrgurežiim: LTE/WCDMA</string>
+    <string name="preferred_network_mode_lte_gsm_umts_summary">Eelistatud võrgurežiim: LTE/GSM/UMTS</string>
+    <string name="preferred_network_mode_lte_cdma_summary">Eelistatud võrgurežiim: LTE/CDMA</string>
   <string-array name="preferred_network_mode_choices">
     <item>LTE/WCDMA</item>
     <item>LTE</item>
@@ -325,7 +329,9 @@
     <string name="cdma_lte_data_service">Andmesideteenuse häälestamine</string>
     <string name="carrier_settings_title">Teenusepakkuja seaded</string>
     <string name="fdn">Määratud numbrid (FDN)</string>
+    <string name="fdn_with_label">Määratud numbrid (FDN) (<xliff:g id="subscriptionlabel" example="Verizon">%s</xliff:g>)</string>
     <string name="manage_fdn_list">FDN nimekiri</string>
+    <string name="fdn_list_with_label">FDN nimekiri (<xliff:g id="subscriptionlabel" example="Verizon">%s</xliff:g>)</string>
     <string name="fdn_activation">FDN aktiveerimine</string>
     <string name="fdn_enabled">FDN on sisse lülitatud</string>
     <string name="fdn_disabled">FDN on välja lülitatud</string>
@@ -401,7 +407,6 @@
     <string name="pin2_attempts">\nSul on jäänud veel <xliff:g id="number">%d</xliff:g> võimalust.</string>
     <string name="pin2_unblocked">PIN2 blokeering eemaldatud.</string>
     <string name="doneButton">Valmis</string>
-    <string name="caller_manage_header">Konverentskõne <xliff:g id="CONF_CALL_TIME">%s</xliff:g></string>
     <string name="voicemail_settings_number_label">Kõnepostinumber</string>
     <string name="card_title_dialing">Valimine</string>
     <string name="card_title_redialing">Uuesti proovimine</string>
@@ -411,7 +416,6 @@
     <string name="card_title_on_hold">Ootel</string>
     <string name="card_title_hanging_up">Lõpetamisel</string>
     <string name="card_title_in_call">Kõne</string>
-    <string name="card_title_my_phone_number">Minu number on <xliff:g id="MY_PHONE_NUMBER">%s</xliff:g></string>
     <string name="notification_dialing">Valimine</string>
     <string name="notification_missedCallTitle">Vastamata kõne</string>
     <string name="notification_missedCallsTitle">Vastamata kõned</string>
@@ -477,7 +481,8 @@
     <item>Tavaline</item>
     <item>Pikk</item>
   </string-array>
-    <string name="network_message">Võrgusõnum</string>
+    <string name="network_info_message">Võrguteade</string>
+    <string name="network_error_message">Veateade</string>
     <string name="ota_title_activate">Telefoni aktiveerimine</string>
     <string name="ota_touch_activate">Telefoniteenuse aktiveerimiseks pead tegema spetsiaalse kõne.\n\nPärast käsu „Aktiveeri“ puudutamist kuula telefoni aktiveerimise juhiseid.</string>
     <string name="ota_hfa_activation_title">Aktiveerimine \u2026</string>

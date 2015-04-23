@@ -19,6 +19,7 @@
     <string name="abc_action_bar_home_description">Avaekraanile liikumine</string>
     <string name="abc_action_bar_up_description">Üles liikumine</string>
     <string name="abc_action_menu_overflow_description">Veel valikuid</string>
+    <string name="abc_toolbar_collapse_description">Tõmba kokku</string>
     <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
     <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
     <string name="abc_searchview_description_search">Otsing</string>

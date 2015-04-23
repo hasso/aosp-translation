@@ -15,7 +15,6 @@
      limitations under the License.
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="exchange_name">Korporatiivne</string>
     <string name="exchange_name_alternate">Microsoft Exchange ActiveSync</string>
     <string name="meeting_accepted">Vastu võetud: <xliff:g id="SUBJECT">%s</xliff:g></string>
     <string name="meeting_declined">Keeldutud: <xliff:g id="SUBJECT">%s</xliff:g></string>
@@ -27,7 +26,6 @@
     <string name="meeting_recurring">Millal: <xliff:g id="EVENTDATE">%s</xliff:g> (korduv)</string>
     <string name="meeting_allday">Toimumisaeg: <xliff:g id="EVENTDATE">%s</xliff:g> (terve päev)</string>
     <string name="meeting_allday_recurring">Toimumisaeg: <xliff:g id="EVENTDATE">%s</xliff:g> (terve päev, korduv)</string>
-    <string name="notification_exchange_calendar_added">Exchange\'i kalender lisatud</string>
     <string name="app_name">Exchange teenused</string>
     <string name="exception_cancel">See sündmus on tühistatud: <xliff:g id="DATE">%s</xliff:g></string>
     <string name="exception_updated">Selle sündmuse andmed on muutunud: <xliff:g id="DATE">%s</xliff:g></string>

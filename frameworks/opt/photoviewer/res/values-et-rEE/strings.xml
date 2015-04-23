@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- 
      Copyright (C) 2012 Google Inc.
-     Copyright (C) 2013 Hasso Tepper
+     Copyright (C) 2013-2015 Hasso Tepper
      Licensed to The Android Open Source Project.
 
      Licensed under the Apache License, Version 2.0 (the "License");
@@ -20,4 +20,5 @@
     <string name="photo_view_count"><xliff:g id="CURRENT_POS">%d</xliff:g>/<xliff:g id="COUNT">%d</xliff:g></string>
     <string name="retry">Proovi uuesti</string>
     <string name="failed">Pilti ei õnnestunud laadida</string>
+    <string name="titles"><xliff:g id="title">%s</xliff:g>, <xliff:g id="subtitle">%s</xliff:g></string>
 </resources>

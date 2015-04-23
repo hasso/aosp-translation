@@ -23,12 +23,13 @@
     <string name="uid_name">Androidi tuumikrakendused</string>
     <string name="folder_name"/>
     <string name="activity_not_found">Rakendus pole paigaldatud.</string>
+    <string name="activity_not_available">Rakendust ei saa kasutada.</string>
     <string name="safemode_shortcut_error">Allalaaditud rakenduste kasutamine on ohutus režiimis keelatud.</string>
+    <string name="safemode_widget_error">Vidinad on ohutus režiimis keelatud.</string>
     <string name="widgets_tab_label">Vidinad</string>
     <string name="widget_adder">Vidinad</string>
     <string name="toggle_weight_watcher">Näita mälukasutust</string>
     <string name="long_press_widget_to_add">Vidina valimiseks puuduta seda pikemalt.</string>
-    <string name="market">Pood</string>
     <string name="widget_dims_format">%1$d \u00d7 %2$d</string>
     <string name="external_drop_widget_error">Sellele avaekraanile ei saa vidinat lisada.</string>
     <string name="external_drop_widget_pick_title">Loodava vidina valimine</string>
@@ -56,8 +57,6 @@
     <string name="delete_target_label">Eemalda ekraanilt</string>
     <string name="delete_target_uninstall_label">Eemalda</string>
     <string name="info_target_label">Info</string>
-    <string name="accessibility_search_button">Otsing</string>
-    <string name="accessibility_voice_search_button">Häälotsing</string>
     <string name="accessibility_all_apps_button">Rakendused</string>
     <string name="accessibility_delete_button">Eemalda</string>
     <string name="delete_zone_label_all_apps_system_app">Eemalda värskendus seaadmest</string>

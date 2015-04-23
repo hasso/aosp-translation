@@ -65,6 +65,9 @@
     <string name="keyguard_accessibility_password_unlock">Parooliga avamine.</string>
     <string name="keyguard_accessibility_pattern_area">Mustri ala.</string>
     <string name="keyguard_accessibility_slide_area">Lohistamisala.</string>
+    <string name="keyguard_accessibility_pin_area">PIN-i sisestamise ala.</string>
+    <string name="keyguard_accessibility_sim_pin_area">SIM-i PIN-i sisestamise ala.</string>
+    <string name="keyguard_accessibility_sim_puk_area">SIM-i PUK-i sisestamise ala.</string>
     <string name="keyguard_accessibility_transport_prev_description">Eelmise pala nupp</string>
     <string name="keyguard_accessibility_transport_next_description">Järgmise pala nupp</string>
     <string name="keyguard_accessibility_transport_pause_description">Pausi nupp</string>
@@ -106,16 +109,18 @@
     <string name="kg_too_many_failed_attempts_countdown">Proovi uuesti <xliff:g id="NUMBER">%d</xliff:g> sekundi pärast.</string>
     <string name="kg_pattern_instructions">Joonista oma muster</string>
     <string name="kg_sim_pin_instructions">Sisesta SIM-i PIN kood</string>
+    <string name="kg_sim_pin_instructions_multi">Sisesta „<xliff:g id="carrier" example="CARD 1">%1$s</xliff:g>“ SIM-i PIN kood</string>
     <string name="kg_pin_instructions">Sisesta PIN kood</string>
     <string name="kg_password_instructions">Sisesta parool</string>
     <string name="kg_puk_enter_puk_hint">SIM on nüüd blokeeritud. Jätkamiseks sisesta PUK kood. Üksikasju küsi operaatorilt.</string>
+    <string name="kg_puk_enter_puk_hint_multi">SIM „<xliff:g id="carrier" example="CARD 1">%1$s</xliff:g>“ on nüüd blokeeritud. Jätkamiseks sisesta PUK kood. Üksikasju küsi operaatorilt.</string>
     <string name="kg_puk_enter_pin_hint">Sisesta soovitud PIN kood</string>
     <string name="kg_enter_confirm_pin_hint">Kinnita soovitud PIN kood</string>
     <string name="kg_sim_unlock_progress_dialog_message">SIM kaardi avamine \u2026</string>
     <string name="kg_invalid_sim_pin_hint">Sisesta 4–8-numbriline PIN kood.</string>
     <string name="kg_invalid_sim_puk_hint">PUK koodi pikkus peab olema vähemalt 8 numbrit.</string>
-    <string name="kg_invalid_puk">Sisesta uuesti õige PUK kood. Korduvkatsete korral keelatakse SIM jäädavalt.</string>
-    <string name="kg_invalid_confirm_pin_hint" product="default">PIN koodid ei ole vastavuses</string>
+    <string name="kg_invalid_puk">Sisesta uuesti õige PUK kood. Korduvad katsed lukustavad SIM-i jäädavalt.</string>
+    <string name="kg_invalid_confirm_pin_hint" product="default">PIN koodid ei kattu</string>
     <string name="kg_login_too_many_attempts">Liiga palju mustrikatseid</string>
     <string name="kg_login_instructions">Avamiseks logi sisse oma Google\'i kontoga.</string>
     <string name="kg_login_username_hint">Kasutajanimi (e-post)</string>
@@ -131,9 +136,16 @@
     <string name="kg_failed_attempts_almost_at_wipe" product="default">Oled üritanud <xliff:g id="NUMBER_0">%d</xliff:g> korda telefoni valesti avada. Pärast veel <xliff:g id="NUMBER_1">%d</xliff:g> ebaõnnestunud katset taastatakse telefoni tehaseseaded ja kõik kasutaja andmed kustutatakse.</string>
     <string name="kg_failed_attempts_now_wiping" product="tablet">Oled püüdnud tahvelarvutit <xliff:g id="NUMBER">%d</xliff:g> korda valesti avada. Nüüd taastatakse tahvelarvuti vaikeseaded.</string>
     <string name="kg_failed_attempts_now_wiping" product="default">Oled püüdnud telefoni <xliff:g id="NUMBER">%d</xliff:g> korda valesti avada. Nüüd taastatakse telefoni vaikeseaded.</string>
+    <string name="kg_failed_attempts_almost_at_erase_user" product="tablet">Oled üritanud tahvelarvutit <xliff:g id="NUMBER">%d</xliff:g> korda valesti avada. Pärast veel <xliff:g id="NUMBER_1">%d</xliff:g> ebaõnnestunud katset eemaldatakse see kasutaja ning sellega kustutatakse ka kõik kasutaja andmed.</string>
+    <string name="kg_failed_attempts_almost_at_erase_user" product="default">Oled üritanud telefoni <xliff:g id="NUMBER">%d</xliff:g> korda valesti avada. Pärast veel <xliff:g id="NUMBER_1">%d</xliff:g> ebaõnnestunud katset eemaldatakse see kasutaja ning sellega kustutatakse ka kõik kasutaja andmed.</string>
+    <string name="kg_failed_attempts_now_erasing_user" product="tablet">Oled üritanud tahvelarvutit <xliff:g id="NUMBER">%d</xliff:g> korda valesti avada. See kasutaja eemaldatakse ning sellega kustutatakse ka kõik kasutaja andmed.</string>
+    <string name="kg_failed_attempts_now_erasing_user" product="default">Oled üritanud telefoni <xliff:g id="NUMBER">%d</xliff:g> korda valesti avada. See kasutaja eemaldatakse ning sellega kustutatakse ka kõik kasutaja andmed.</string>
+    <string name="kg_failed_attempts_almost_at_erase_profile" product="tablet">Oled üritanud tahvelarvutit <xliff:g id="number">%d</xliff:g> korda valesti avada. Pärast veel <xliff:g id="number">%d</xliff:g> ebaõnnestunud katset eemaldatakse tööprofiil ning sellega kustutatakse ka kõik profiiliga seotud andmed.</string>
+    <string name="kg_failed_attempts_almost_at_erase_profile" product="default">Oled üritanud telefoni <xliff:g id="number">%d</xliff:g> korda valesti avada. Pärast veel <xliff:g id="number">%d</xliff:g> ebaõnnestunud katset eemaldatakse tööprofiil ning sellega kustutatakse ka kõik profiiliga seotud andmed.</string>
+    <string name="kg_failed_attempts_now_erasing_profile" product="tablet">Oled üritanud tahvelarvutit <xliff:g id="number">%d</xliff:g> korda valesti avada. Tööprofiil eemaldatakse ning sellega kustutatakse ka kõik profiiliga seotud andmed.</string>
+    <string name="kg_failed_attempts_now_erasing_profile" product="default">Oled üritanud telefoni <xliff:g id="number">%d</xliff:g> korda valesti avada. Tööprofiil eemaldatakse ning sellega kustutatakse ka kõik profiiliga seotud andmed.</string>
     <string name="kg_failed_attempts_almost_at_login" product="tablet">Joonistasid oma avamismustrit valesti <xliff:g id="NUMBER_0">%d</xliff:g> korda. Pärast veel <xliff:g id="NUMBER_1">%d</xliff:g> ebaõnnestunud katset palutakse sul tahvelarvuti avada meilikonto abil.\n\nProovi <xliff:g id="NUMBER_2">%d</xliff:g> sekundi pärast uuesti.</string>
     <string name="kg_failed_attempts_almost_at_login" product="default">Joonistasid oma avamismustrit valesti <xliff:g id="NUMBER_0">%d</xliff:g> korda. Pärast veel <xliff:g id="NUMBER_1">%d</xliff:g> ebaõnnestunud katset palutakse sul telefon avada meilikonto abil.\n\nProovi <xliff:g id="NUMBER_2">%d</xliff:g> sekundi pärast uuesti.</string>
-    <string name="kg_text_message_separator" product="default"> — </string>
     <string name="kg_reordering_delete_drop_target_text">Eemalda</string>
     <string name="kg_password_wrong_pin_code_pukked">Vale SIM-i PIN kood. Seadme lukustuse eemaldamiseks pead nüüd võtma ühendust oma teenusepakkujaga.</string>
   <plurals name="kg_password_wrong_pin_code">
@@ -154,4 +166,5 @@
     <string name="keyguard_transport_play_description">Esituse käivitamine</string>
     <string name="keyguard_transport_stop_description">Esituse peatamine</string>
     <string name="keyguard_carrier_default">Teenus puudub.</string>
+    <string name="accessibility_ime_switch_button">Sisestusmeetodi lülitamise nupp.</string>
 </resources>
