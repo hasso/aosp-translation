@@ -193,6 +193,7 @@
   <string-array name="wifi_proxy_settings">
     <item>Puudub</item>
     <item>Käsitsi seatud</item>
+    <item>Automaatne seadistamine</item>
   </string-array>
   <string-array name="apn_auth_entries">
     <item>Puudub</item>
@@ -222,14 +223,15 @@
     <item>Süsteem ise otsustab</item>
   </string-array>
   <string-array name="app_ops_categories">
-    <item>Asukoht</item>
-    <item>Isiklik</item>
+    <item>Asukohainfo</item>
+    <item>Isiklik info</item>
     <item>Sõnumid</item>
+    <item>Meedia</item>
     <item>Seade</item>
   </string-array>
   <string-array name="app_ops_summaries">
-    <item>ligikaudne asukoht</item>
-    <item>täpne asukoht</item>
+    <item>ligikaudne asukohainfo</item>
+    <item>täpne asukohainfo</item>
     <item>GPS</item>
     <item>vibreerimine</item>
     <item>kontaktide lugemine</item>
@@ -238,12 +240,12 @@
     <item>kõnelogi muutmine</item>
     <item>kalendri lugemine</item>
     <item>kalendri muutmine</item>
-    <item>wi-fi skaneerimine</item>
+    <item>WiFi skaneerimine</item>
     <item>märguanded</item>
     <item>mobiilvõrgu skaneerimine</item>
     <item>telefoniga helistamine</item>
     <item>SMS-ide lugemine</item>
-    <item>SMS-ide kirjutamine</item>
+    <item>SMS-ide muutmine</item>
     <item>SMS-ide vastuvõtmine</item>
     <item>hädaolukorra SMS-ide vastuvõtmine</item>
     <item>MMS-ide vastuvõtmine</item>
@@ -256,42 +258,74 @@
     <item>ligipääs märguannetele</item>
     <item>kaamera</item>
     <item>audio salvestamine</item>
-    <item>audio esitus</item>
+    <item>audio esitamine</item>
     <item>lõikepuhvri lugemine</item>
     <item>lõikepuhvri muutmine</item>
+    <item>meedia nupud</item>
+    <item>audio fookus</item>
+    <item>summaarne helitugevus</item>
+    <item>kõne helitugevus</item>
+    <item>helina helitugevus</item>
+    <item>meedia helitugevus</item>
+    <item>alarmi helitugevus</item>
+    <item>märguannete helitugevus</item>
+    <item>bluetooth-i helitugevus</item>
+    <item>seadme ärkvel hoidmine</item>
+    <item>asukoha jälgimine</item>
+    <item>energiakulukas asukoha jälgimine</item>
+    <item>kasutusstatistika lugemine</item>
+    <item>mikrofoni sisse/välja lülitamine</item>
+    <item>meedia saatmine teise seadmesse</item>
+    <item>VPN-i aktiveerimine</item>
   </string-array>
   <string-array name="app_ops_labels">
-    <item>Asukoht</item>
-    <item>Asukoht</item>
-    <item>Asukoht</item>
+    <item>Asukohainfo</item>
+    <item>Asukohainfo</item>
+    <item>Asukohainfo</item>
     <item>Vibreerimine</item>
     <item>Kontaktide lugemine</item>
-    <item>Kontaktide kirjutamine</item>
+    <item>Kontaktide muutmine</item>
     <item>Kõnelogi lugemine</item>
     <item>Kõnelogi muutmine</item>
     <item>Kalendri lugemine</item>
     <item>Kalendri muutmine</item>
-    <item>Asukoht</item>
+    <item>Asukohainfo</item>
     <item>Märguannete tekitamine</item>
-    <item>Asukoht</item>
+    <item>Asukohainfo</item>
     <item>Telefoniga helistamine</item>
+    <item>SMS/MMS sõnumite lugemine</item>
+    <item>SMS/MMS sõnumite muutmine</item>
+    <item>SMS/MMS sõnumite vastuvõtmine</item>
+    <item>SMS/MMS sõnumite vastuvõtmine</item>
+    <item>SMS/MMS sõnumite vastuvõtmine</item>
     <item>SMS/MMS sõnumite vastuvõtmine</item>
     <item>SMS/MMS sõnumite saatmine</item>
-    <item>SMS/MMS sõnumite vastuvõtmine</item>
-    <item>SMS/MMS sõnumite vastuvõtmine</item>
-    <item>SMS/MMS sõnumite vastuvõtmine</item>
-    <item>SMS/MMS sõnumite vastuvõtmine</item>
-    <item>SMS/MMS sõnumite saatmine</item>
-    <item>SMS/MMS sõnumite vastuvõtmine</item>
-    <item>SMS/MMS sõnumite saatmine</item>
+    <item>SMS/MMS sõnumite lugemine</item>
+    <item>SMS/MMS sõnumite muutmine</item>
     <item>Seadete muutmine</item>
     <item>Kõige peale joonistamine</item>
     <item>Ligipääs märguannetele</item>
     <item>Kaamera</item>
     <item>Audio salvestamine</item>
-    <item>Audio esitus</item>
+    <item>Audio esitamine</item>
     <item>Lõikepuhvri lugemine</item>
     <item>Lõikepuhvri muutmine</item>
+    <item>Meedia nupud</item>
+    <item>Audio fookus</item>
+    <item>Summarne helitugevus</item>
+    <item>Kõne helitugevus</item>
+    <item>Helina helitugevus</item>
+    <item>Meedia helitugevus</item>
+    <item>Alarmi helitugevus</item>
+    <item>Märguannete helitugevus</item>
+    <item>Bluetooth-i helitugevus</item>
+    <item>Seadme ärkvel hoidmine</item>
+    <item>Asukohainfo</item>
+    <item>Asukohainfo</item>
+    <item>Kasutusstatistika lugemine</item>
+    <item>mikrofoni sisse/välja lülitamine</item>
+    <item>meedia saatmine teise seadmesse</item>
+    <item>VPN-i aktiveerimine</item>
   </string-array>
   <string-array name="long_press_timeout_selector_titles">
     <item>Lühike</item>
@@ -302,8 +336,12 @@
     <item>Vaikeväärtus</item>
     <item>Sans-serif</item>
     <item>Tihendatud sans-serif</item>
+    <item>Fikseeritud laiusega sans-serif</item>
     <item>Serif</item>
-    <item>Monospace</item>
+    <item>Fikseeritud laiusega serif</item>
+    <item>Casual</item>
+    <item>Kursiiv</item>
+    <item>Väiksed suurtähed</item>
   </string-array>
   <string-array name="captioning_font_size_selector_titles">
     <item>Väga väike</item>
@@ -313,9 +351,12 @@
     <item>Väga suur</item>
   </string-array>
   <string-array name="captioning_edge_type_selector_titles">
+    <item>Vaikeväärtus</item>
     <item>Puudub</item>
     <item>Kontuur</item>
     <item>Vari</item>
+    <item>Tõstetud</item>
+    <item>Sissesurutud</item>
   </string-array>
   <string-array name="captioning_opacity_selector_titles">
     <item>25%</item>
@@ -324,6 +365,7 @@
     <item>100%</item>
   </string-array>
   <string-array name="captioning_preset_selector_titles">
+    <item>Rakenduse vaikeväärtused</item>
     <item>Valge mustal</item>
     <item>Must valgel</item>
     <item>Kollane mustal</item>
@@ -370,8 +412,11 @@
   <string-array name="overlay_display_devices_entries">
     <item>Puudub</item>
     <item>720 x 480 mdpi</item>
+    <item>720 x 480 mdpi (turvaline)</item>
     <item>1280 x 720 tvdpi</item>
+    <item>1280 x 720 tvdpi (turvaline)</item>
     <item>1920 x 1080 xhdpi</item>
+    <item>1920 x 1080 xhdpi (turvaline)</item>
     <item>1280 x 720 tvdpi, 1920 x 1080 xhdpi</item>
   </string-array>
   <string-array name="enable_opengl_traces_entries">
@@ -388,14 +433,12 @@
   <string-array name="track_frame_time_entries">
     <item>Väljas</item>
     <item>Ribadena ekraanil</item>
-    <item>Joontena ekraanil</item>
     <item>„adb shell dumpsys gfxinfo“ väljundis</item>
   </string-array>
   <string-array name="debug_hw_overdraw_entries">
     <item>Väljas</item>
     <item>Ülejoonistustega pindade näitamine</item>
     <item>Värvinihkega pindade näitamine</item>
-    <item>Ülejoonistuste arvu näitamine</item>
   </string-array>
   <string-array name="app_process_limit_entries">
     <item>Standardne piirarv</item>

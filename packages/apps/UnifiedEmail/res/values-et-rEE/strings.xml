@@ -257,12 +257,13 @@
     <string name="next">Järgmine</string>
     <string name="previous">Eelmine</string>
   <string-array name="sync_status">
-    <item>Sünkroniseerimine toimib.</item>
-    <item>Ühendus puudub.</item>
-    <item>Ei saanud sisse logida.</item>
-    <item>Turvaprobleem.</item>
-    <item>Ei saanud sünkroniseerida.</item>
-    <item>Sisemine viga.</item>
+    <item>Sünkroniseerimine toimib</item>
+    <item>Ühendus puudub</item>
+    <item>Ei saanud sisse logida</item>
+    <item>Turvaprobleem</item>
+    <item>Ei saanud sünkroniseerida</item>
+    <item>Sisemine viga</item>
+    <item>Viga serveris</item>
   </string-array>
     <string name="tap_to_configure">Seadistamiseks puuduta vidinat</string>
     <string name="non_synced_folder_description">Vestluste nägemiseks sünkroniseeri see kaust.</string>
@@ -355,14 +356,12 @@
     <string name="silent_ringtone">Hääletu</string>
     <string name="preference_removal_action_title">Arhiveerimine &amp; kustutamine</string>
   <string-array name="prefEntries_removal_action">
-    <item>Ainult arhiveerimine</item>
-    <item>Ainult kustutamine</item>
-    <item>Arhiveerimine ja kustutamine</item>
+    <item>Arhiveerimine</item>
+    <item>Kustutamine</item>
   </string-array>
   <string-array name="prefSummaries_removal_action_summary">
-    <item>Näidatakse ainult arhiveerimist</item>
-    <item>Näidatakse ainult kustutamist</item>
-    <item>Näidatakse arhiveerimist ja kustutamist</item>
+    <item>Arhiveerimine</item>
+    <item>Kustutamine</item>
   </string-array>
     <string name="prefDialogTitle_removal_action">Arhiveerimise ja kustutamise toimingud</string>
     <string name="preferences_default_reply_all_title">Kõigile vastamine</string>

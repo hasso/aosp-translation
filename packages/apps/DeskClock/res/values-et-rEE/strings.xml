@@ -296,6 +296,7 @@
     <item>Auckland</item>
     <item>Fidži</item>
     <item>Tonga</item>
+    <item>Jakarta</item>
   </string-array>
     <string name="alarm_settings">ALARMID</string>
     <string name="stopwatch_service_desc">Märguandeid käitav stopperiteenus.</string>
