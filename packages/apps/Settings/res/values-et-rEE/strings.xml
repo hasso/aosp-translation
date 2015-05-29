@@ -464,7 +464,7 @@
     <string name="manage_device_admin_summary">Seadme administraatorid ja nende deaktiveerimine</string>
     <string name="manage_trust_agents">Usaldusväärsed agendid</string>
     <string name="disabled_because_no_backup_security">Kasutamiseks seadista kõigepealt ekraanilukk</string>
-    <string name="manage_trust_agents_summary">Usaldusväärsete agentide vatamine ja deaktiveerimine</string>
+    <string name="manage_trust_agents_summary">Usaldusväärsete agentide nimekiri ja deaktiveerimine</string>
     <string name="bluetooth_quick_toggle_title">Bluetooth</string>
     <string name="bluetooth_quick_toggle_summary">Lülita Bluetooth sisse</string>
     <string name="bluetooth_settings">Bluetooth</string>
@@ -587,7 +587,7 @@
     <string name="wifi_settings">WiFi</string>
     <string name="wifi_settings_category">WiFi seaded</string>
     <string name="wifi_settings_title">WiFi</string>
-    <string name="wifi_settings_summary">WiFi pääsupunktide seadistamine ja haldamine</string>
+    <string name="wifi_settings_summary">WiFi levialade seadistamine ja haldamine</string>
     <string name="wifi_setup_wizard_title">WiFi valimine</string>
     <string name="wifi_select_network">WiFi valimine</string>
     <string name="wifi_starting">WiFi sisselülitamine \u2026</string>
@@ -740,16 +740,16 @@
     <string name="wifi_p2p_cancel_connect_title">Kas tühistada kutse?</string>
     <string name="wifi_p2p_cancel_connect_message">Kas soovid tühistada kutse seadmega <xliff:g id="PEER_NAME">%1$s</xliff:g> ühenduse loomiseks?</string>
     <string name="wifi_p2p_delete_group_message">Kas unustada see grupp?</string>
-    <string name="wifi_tether_checkbox_text">Mobiilne WiFi pääsupunkt</string>
-    <string name="wifi_hotspot_checkbox_text">WiFi pääsupunkt</string>
+    <string name="wifi_tether_checkbox_text">Mobiilne WiFi leviala</string>
+    <string name="wifi_hotspot_checkbox_text">WiFi leviala</string>
     <string name="wifi_hotspot_checkbox_text_summary">Mobiilse andmesidevõrgu kasutamine WiFi ühenduse pakkumiseks</string>
     <string name="wifi_tether_starting">Leviala sisselülitamine \u2026</string>
     <string name="wifi_tether_stopping">Leviala väljalülitamine \u2026</string>
-    <string name="wifi_tether_enabled_subtext">Mobiilne pääsupunkt <xliff:g id="NETWORK_SSID">%1$s</xliff:g> on aktiivne</string>
-    <string name="wifi_tether_failed_subtext">Viga mobiilse WiFi pääsupunkti aktiveerimisel</string>
+    <string name="wifi_tether_enabled_subtext">Mobiilne leviala <xliff:g id="NETWORK_SSID">%1$s</xliff:g> on aktiivne</string>
+    <string name="wifi_tether_failed_subtext">Viga mobiilse WiFi leviala aktiveerimisel</string>
     <string name="wifi_tether_configure_ap_text">WiFi leviala seadistamine</string>
-    <string name="wifi_hotspot_configure_ap_text">WiFi pääsupunkti seadistamine</string>
-    <string name="wifi_hotspot_configure_ap_text_summary">AndroidAP WPA2 PSK mobiilne WiFi pääsupunkt</string>
+    <string name="wifi_hotspot_configure_ap_text">WiFi leviala seadistamine</string>
+    <string name="wifi_hotspot_configure_ap_text_summary">AndroidAP WPA2 PSK mobiilne WiFi leviala</string>
     <string name="wifi_tether_configure_subtext"><xliff:g id="NETWORK_SSID">%1$s</xliff:g> (<xliff:g id="NETWORK_SECURITY">%2$s</xliff:g>)</string>
     <string name="wifi_tether_configure_ssid_default">AndroidHotspot</string>
     <string name="home_settings">Avaekraan</string>
@@ -889,8 +889,8 @@
     <string name="device_status_summary" product="default">Telefoninumber, signaal jne</string>
     <string name="storage_settings">Salvestusruum</string>
     <string name="storage_settings_title">Salvestusruumi seaded</string>
-    <string name="storage_settings_summary" product="nosdcard">USB mäluseadme lahutamine, salvestusruumi kasutuse vaatamine</string>
-    <string name="storage_settings_summary" product="default">SD kaardi lahutamine, salvestusruumi kasutuse vaatamine</string>
+    <string name="storage_settings_summary" product="nosdcard">USB mäluseadme lahutamine, salvestusruumi kasutuse info</string>
+    <string name="storage_settings_summary" product="default">SD kaardi lahutamine, salvestusruumi kasutuse info</string>
     <string name="status_imei">IMEI</string>
     <string name="status_imei_sv">IMEI SV</string>
     <string name="status_number" product="tablet">MDN</string>
@@ -970,7 +970,7 @@
     <string name="battery_status_title">Aku olek</string>
     <string name="battery_level_title">Aku tase</string>
     <string name="apn_settings">APN seaded</string>
-    <string name="apn_edit">Pääsupunkti muutmine</string>
+    <string name="apn_edit">APN-i muutmine</string>
     <string name="apn_not_set">Määramata</string>
     <string name="apn_name">Nimi</string>
     <string name="apn_apn">APN</string>
@@ -1051,7 +1051,7 @@
     <string name="call_settings_title">Kõneseaded</string>
     <string name="call_settings_summary">Kõneposti, kõne suunamise, ootamise ja numbrinäidu seadistamine</string>
     <string name="tether_settings_title_usb">Jagamine üle USB</string>
-    <string name="tether_settings_title_wifi">Mobiilne pääsupunkt</string>
+    <string name="tether_settings_title_wifi">Mobiilne WiFi leviala</string>
     <string name="tether_settings_title_bluetooth">Jagamine üle Bluetoothi</string>
     <string name="tether_settings_title_usb_bluetooth">Interneti jagamine</string>
     <string name="tether_settings_title_all">Interneti jagamine</string>
@@ -1059,20 +1059,20 @@
     <string name="usb_tethering_button_text">Jagamine üle USB</string>
     <string name="usb_tethering_available_subtext">USB ühendatud, jagamist ei toimu</string>
     <string name="usb_tethering_active_subtext">Interneti ühenduse jagamine</string>
-    <string name="usb_tethering_storage_active_subtext">Kui USB mäluseade on kasutusel, ei saa Interneti ühendust jagada</string>
+    <string name="usb_tethering_storage_active_subtext">Kui USB mäluseade on kasutusel, ei saa võrguühendust jagada</string>
     <string name="usb_tethering_unavailable_subtext">USB ühendus puudub</string>
     <string name="usb_tethering_turnon_subtext">Sisselülitamiseks tekita ühendus</string>
     <string name="usb_tethering_errored_subtext">Viga jagamisel</string>
     <string name="bluetooth_tether_checkbox_text">Jagamine üle Bluetoothi</string>
-    <string name="bluetooth_tethering_available_subtext" product="tablet">Tahvelarvuti Interneti ühenduse jagamine</string>
-    <string name="bluetooth_tethering_available_subtext" product="default">Telefoni Interneti ühenduse jagamine</string>
-    <string name="bluetooth_tethering_device_connected_subtext" product="tablet">Tahvelarvuti Interneti ühendust jagatakse 1 seadmega</string>
-    <string name="bluetooth_tethering_device_connected_subtext" product="default">Telefoni Interneti ühenduse jagamine 1 seadmega</string>
-    <string name="bluetooth_tethering_devices_connected_subtext" product="tablet">Tahvelarvuti Interneti ühenduse jagamine <xliff:g id="CONNECTEDDEVICECOUNT">%1$d</xliff:g> seadmega</string>
-    <string name="bluetooth_tethering_devices_connected_subtext" product="default">Telefoni Interneti ühenduse jagatamine <xliff:g id="CONNECTEDDEVICECOUNT">%1$d</xliff:g> seadmega</string>
-    <string name="bluetooth_tethering_off_subtext_config"><xliff:g id="device_name">%1$d</xliff:g> internetiühenduse jagamine</string>
-    <string name="bluetooth_tethering_off_subtext" product="tablet">Tahvelarvuti Interneti ühendust ei jagata</string>
-    <string name="bluetooth_tethering_off_subtext" product="default">Telefoni Interneti ühendust ei jagata</string>
+    <string name="bluetooth_tethering_available_subtext" product="tablet">Tahvelarvuti võrguühenduse jagamine</string>
+    <string name="bluetooth_tethering_available_subtext" product="default">Telefoni võrguühenduse jagamine</string>
+    <string name="bluetooth_tethering_device_connected_subtext" product="tablet">Tahvelarvuti võrguühendust jagatakse 1 seadmega</string>
+    <string name="bluetooth_tethering_device_connected_subtext" product="default">Telefoni võrguühenduse jagamine 1 seadmega</string>
+    <string name="bluetooth_tethering_devices_connected_subtext" product="tablet">Tahvelarvuti võrguühenduse jagamine <xliff:g id="CONNECTEDDEVICECOUNT">%1$d</xliff:g> seadmega</string>
+    <string name="bluetooth_tethering_devices_connected_subtext" product="default">Telefoni võrguühenduse jagatamine <xliff:g id="CONNECTEDDEVICECOUNT">%1$d</xliff:g> seadmega</string>
+    <string name="bluetooth_tethering_off_subtext_config"><xliff:g id="device_name">%1$d</xliff:g> võrguühenduse jagamine</string>
+    <string name="bluetooth_tethering_off_subtext" product="tablet">Tahvelarvuti võrguühendust ei jagata</string>
+    <string name="bluetooth_tethering_off_subtext" product="default">Telefoni võrguühendust ei jagata</string>
     <string name="bluetooth_tethering_errored_subtext">Ühendust ei jagata</string>
     <string name="bluetooth_tethering_overflow_error">Ühendust ei saa jagada rohkem kui <xliff:g id="MAXCONNECTION">%1$d</xliff:g> seadmega.</string>
     <string name="bluetooth_untether_blank">Seadme <xliff:g id="DEVICE_NAME">%1$s</xliff:g> ühenduse jagamine lõpetatakse.</string>
@@ -1305,7 +1305,7 @@
     <string name="storageuse_settings_title">Kasutatav mälu</string>
     <string name="storageuse_settings_summary">Rakenduste kasutatavat mälu</string>
     <string name="runningservices_settings_title">Töötavad teenused</string>
-    <string name="runningservices_settings_summary">Hetkel töötavate teenuste vaatamine ja nende seaded</string>
+    <string name="runningservices_settings_summary">Hetkel töötavate teenuste nimekiri ja nende seaded</string>
     <string name="service_restarting">Taaskäivitamine</string>
     <string name="cached">Taustaprotsessid vahemälus</string>
     <string name="no_running_services">Midagi ei tööta</string>
@@ -1431,7 +1431,7 @@
     <string name="development_settings_not_available">Arendaja seaded pole sellele kasutajale kättesaadavad</string>
     <string name="vpn_settings_not_available">See kasutaja ei saa VPN-i seadistada.</string>
     <string name="tethering_settings_not_available">See kasutaja ei saa Interneti jagamist seadistada.</string>
-    <string name="apn_settings_not_available">See kasutaja ei saa pääsupunktide nimesid seadistada.</string>
+    <string name="apn_settings_not_available">See kasutaja ei saa APN nimesid seadistada.</string>
     <string name="enable_adb">Androidi silumine</string>
     <string name="enable_adb_summary">Silumisrežiim, ADB liides üle USB või võrgu</string>
     <string name="clear_adb_keys">Tühista USB silumise autoriseerimised</string>
@@ -1817,7 +1817,7 @@
     <string name="credentials_reset">Autentimisandmete kustutamine</string>
     <string name="credentials_reset_summary">Kõikide autentimisandmete eemaldamine</string>
     <string name="trusted_credentials">Usaldusväärsed sertifikaadid</string>
-    <string name="trusted_credentials_summary">Usaldusväärsete CA sertifikaatide vaatamine</string>
+    <string name="trusted_credentials_summary">Usaldusväärsete CA sertifikaatide nimekiri</string>
     <string name="advanced_security_title">Lisaseaded</string>
     <string name="credential_storage_type">Salvesturuumi tüüp</string>
     <string name="credential_storage_type_hardware">Riistvara toega</string>
@@ -2047,7 +2047,7 @@
     <string name="data_usage_menu_hide_wifi">Peida WiFi kasutus</string>
     <string name="data_usage_menu_show_ethernet">Näita Etherneti kasutust</string>
     <string name="data_usage_menu_hide_ethernet">Peida Etherneti kasutus</string>
-    <string name="data_usage_menu_metered">Mobiilside pääsupunktid</string>
+    <string name="data_usage_menu_metered">Võrkude piirangud</string>
     <string name="data_usage_menu_auto_sync">Automaatne sünkimine</string>
     <string name="data_usage_menu_sim_cards">SIM kaardid</string>
     <string name="data_usage_menu_cellular_networks">Mobiilside võrgud</string>
@@ -2109,11 +2109,11 @@
     <string name="data_usage_total_during_range"><xliff:g id="RANGE">%2$s</xliff:g>: kasutatud umbes <xliff:g id="TOTAL">%1$s</xliff:g></string>
     <string name="data_usage_total_during_range_mobile" product="tablet"><xliff:g id="RANGE">%2$s</xliff:g>: tahvelarvuti mõõdetud andmeside kasutus on umbes <xliff:g id="TOTAL">%1$s</xliff:g>. Operaatori arvestus võib sellest erineda.</string>
     <string name="data_usage_total_during_range_mobile" product="default"><xliff:g id="RANGE">%2$s</xliff:g>: telefoni mõõdetud andmeside kasutus on umbes <xliff:g id="TOTAL">%1$s</xliff:g>. Operaatori arvestus võib sellest erineda.</string>
-    <string name="data_usage_metered_title">Mobiilside pääsupunktid</string>
-    <string name="data_usage_metered_body">Märgi ära WiFi võrgud, mille pääsupunktid kasutavad mobiilsidet. Nende võrkude kasutamist taustaandmete liigutamiseks on võimalik keelata. Rakendused võivad ka sind enne nende võrkude kaudu suuremate andmehulkade liigutamist hoiatada.</string>
+    <string name="data_usage_metered_title">Mobiilsidega WiFi võrgud</string>
+    <string name="data_usage_metered_body">Märgi ära WiFi võrgud, mille seadmed kasutavad mobiilsidet. Nende võrkude kasutamist taustaandmete liigutamiseks on võimalik keelata. Rakendused võivad ka sind hoiatada, kui nende võrkude kaudu suuremaid andmehulki liigutama hakkavad.</string>
     <string name="data_usage_metered_mobile">Mobiilsidevõrgud</string>
     <string name="data_usage_metered_wifi">WiFi võrgud</string>
-    <string name="data_usage_metered_wifi_disabled">Mobiilside pääsupunktide valimiseks lülita WiFi sisse.</string>
+    <string name="data_usage_metered_wifi_disabled">Mobiilsidega WiFi võrkude valimiseks lülita WiFi sisse.</string>
     <string name="data_usage_disclaimer">Teenusepakkuja arvestus võib su seadmes olevast erineda.</string>
     <string name="cryptkeeper_emergency_call">Hädaabikõne</string>
     <string name="cryptkeeper_return_to_call">Tagasi kõne juurde</string>
@@ -2272,7 +2272,7 @@
     <string name="call_manager_summary"><xliff:g id="app">%1$s</xliff:g></string>
     <string name="cell_broadcast_settings">Kärjeteated</string>
     <string name="network_operators_settings">Võrguoperaatorid</string>
-    <string name="access_point_names">Pääsupunktide nimed</string>
+    <string name="access_point_names">APN-id</string>
     <string name="enhanced_4g_lte_mode_title">Täiustatud 4G LTE režiim</string>
     <string name="enhanced_4g_lte_mode_summary">LTE andmeside kasutamine kõneside parandamiseks (soovitav)</string>
     <string name="preferred_network_type_title">Eelistatud võrgutüüp</string>
